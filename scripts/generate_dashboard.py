@@ -301,9 +301,9 @@ def get_weekly_data(daily_data: List[Dict[str, Any]], weeks: int) -> Tuple[List[
     weekly_data = []
     
     # Iterate through weeks from oldest to newest
-    for w in range(weeks, -1, -1):
+    for w in range(weeks - 1, -1, -1):
         # Calculate week start and end dates
-        week_start = today - timedelta(weeks=w * 7)
+        week_start = today - timedelta(weeks=w)
         week_end = week_start + timedelta(days=6)
         
         # Initialize counters for this week
@@ -358,7 +358,7 @@ def get_biweekly_data(daily_data: List[Dict[str, Any]], periods: int) -> Tuple[L
     biweekly_data = []
     
     # Iterate through periods from oldest to newest
-    for p in range(periods, -1, -1):
+    for p in range(periods - 1, -1, -1):
         # Calculate period start and end dates (14 days)
         period_start = today - timedelta(days=p * 14)
         period_end = period_start + timedelta(days=13)
@@ -876,14 +876,71 @@ def generate_readme(history_data: Dict[str, Any]) -> None:
         last_updated = metadata.get('last_updated', 'Unknown')
         md += f"**Last Updated:** {last_updated}\n\n"
     
+    # Add calculation rules section
+    md += "## \U0001f4cb How Metrics Are Calculated\n\n"
+    md += "This dashboard uses GitHub Traffic API data to calculate the following metrics:\n\n"
+    md += "### \U0001f4ca Core Metrics\n\n"
+    md += "**Views:**\n"
+    md += "- Counted when someone visits the repository page\n"
+    md += "- Includes page views from web browsers\n"
+    md += "- Does not include visits via command-line tools or APIs\n\n"
+    md += "**Clones:**\n"
+    md += "- Counted when someone clones the repository\n"
+    md += "- Includes clones via `git clone`, GitHub Desktop, download ZIP, and API\n"
+    md += "- Can occur without a corresponding view event\n\n"
+    md += "**Important:** Views and Clones are **independent metrics**. Users can:\n"
+    md += "- View without cloning\n"
+    md += "- Clone without viewing (e.g., via `git clone` command)\n"
+    md += "- Both view and clone\n\n"
+    md += "### \U0001f522 Calculation Formulas\n\n"
+    md += "**For any time period (short-term, medium-term, lifetime):**\n\n"
+    md += "**Total Metrics:**\n"
+    md += "- Total Views = Sum of daily views for the period\n"
+    md += "- Total Clones = Sum of daily clones for the period\n\n"
+    md += "**Unique Metrics:**\n"
+    md += "- Unique Views = Sum of daily unique views for the period\n"
+    md += "- Unique Clones = Sum of daily unique clones for the period\n"
+    md += "  - Note: This sums daily unique counts, which may count the same user on multiple days\n\n"
+    md += "**Repeat Metrics:**\n"
+    md += "- Repeat Views = Total Views - Unique Views\n"
+    md += "- Repeat Clones = Total Clones - Unique Clones\n"
+    md += "- Repeat Percentage = (Repeat / Total) × 100\n\n"
+    md += "**Example:**\n"
+    md += "```\n"
+    md += "If a repository has:\n"
+    md +="- Total Views: 100\n"
+    md += "- Unique Views: 20\n"
+    md += "Then:\n"
+    md += "- Repeat Views = 100 - 20 = 80\n"
+    md += "- Repeat Percentage = (80 / 100) × 100 = 80%\n"
+    md += "```\n\n"
+    md += "### \U0001f4c8 Graph Data Aggregation\n\n"
+    md += "**Daily Graphs:**\n"
+    md += "- Shows raw daily data points\n"
+    md += "- Each point represents one day's activity\n\n"
+    md += "**Weekly Graphs:**\n"
+    md += "- Aggregates daily data into 7-day periods\n"
+    md += "- Each point represents the sum of 7 consecutive days\n\n"
+    md += "**Bi-Weekly Graphs:**\n"
+    md += "- Aggregates daily data into 14-day periods\n"
+    md += "- Each point represents the sum of 14 consecutive days\n\n"
+    md += "**Cumulative Graphs:**\n"
+    md += "- Shows running totals over time\n"
+    md += "- Each point represents the sum of all previous days plus current day\n\n"
+    
     # Get all repositories from the history data
     repositories = history_data.get('repositories', {})
+    
+    # Get repository order from metadata if available (matches repos array in main.yml)
+    repo_order = history_data.get('metadata', {}).get('repositories', list(repositories.keys()))
     
     # Generate clickable index for repositories
     if repositories:
         md += "## \U0001f4cb Table of Contents\n\n"
         md += "Quick navigation to repository statistics:\n\n"
-        for repo_name in sorted(repositories.keys()):
+        for repo_name in repo_order:
+            if repo_name not in repositories:
+                continue
             # Determine display name
             if SHOW_FULL_REPO_NAME:
                 display_name = repo_name
@@ -894,8 +951,11 @@ def generate_readme(history_data: Dict[str, Any]) -> None:
             md += f"- [{display_name}](#{anchor})\n"
         md += "\n"
     
-    # Process each repository
-    for repo_name, repo_data in repositories.items():
+    # Process each repository in the order defined in metadata
+    for repo_name in repo_order:
+        if repo_name not in repositories:
+            continue
+        repo_data = repositories[repo_name]
         # Extract daily data and metadata for this repository
         daily_data = repo_data.get('daily_data', [])
         metadata = repo_data.get('metadata', {})

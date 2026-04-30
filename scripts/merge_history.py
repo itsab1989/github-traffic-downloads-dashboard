@@ -371,12 +371,21 @@ def main():
     print("Merging repository data...")
     merged_repos = merge_repositories(history_data['repositories'], new_data['repositories'])
     
+    # Preserve repository order from new_data if available, otherwise use existing order
+    # This ensures the order matches the repos array in main.yml
+    if 'repositories' in new_data.get('metadata', {}):
+        repo_order = new_data['metadata']['repositories']
+    elif 'repositories' in history_data.get('metadata', {}):
+        repo_order = history_data['metadata']['repositories']
+    else:
+        repo_order = sorted(list(merged_repos.keys()))
+    
     # Create the merged data structure with updated metadata
     merged_data = {
         'metadata': {
             'generated_at': new_data.get('metadata', {}).get('generated_at', datetime.utcnow().isoformat() + 'Z'),
             'last_updated': datetime.utcnow().isoformat() + 'Z',
-            'repositories': sorted(list(merged_repos.keys()))
+            'repositories': repo_order
         },
         'repositories': merged_repos
     }

@@ -461,6 +461,55 @@ Your README.md will contain:
 
 **Note:** GitHub API does not provide geographical location data for visitors. Location-based statistics are not available.
 
+#### How Metrics Are Calculated
+
+This dashboard uses GitHub Traffic API data to calculate the following metrics:
+
+**Core Metrics:**
+
+- **Views:** Counted when someone visits the repository page via web browser. Does not include visits via command-line tools or APIs.
+- **Clones:** Counted when someone clones the repository via `git clone`, GitHub Desktop, download ZIP, or API. Can occur without a corresponding view event.
+
+**Important:** Views and Clones are **independent metrics**. Users can:
+- View without cloning
+- Clone without viewing (e.g., via `git clone` command)
+- Both view and clone
+
+**Calculation Formulas:**
+
+For any time period (short-term, medium-term, lifetime):
+
+**Total Metrics:**
+- Total Views = Sum of daily views for the period
+- Total Clones = Sum of daily clones for the period
+
+**Unique Metrics:**
+- Unique Views = Sum of daily unique views for the period
+- Unique Clones = Sum of daily unique clones for the period
+  - Note: This sums daily unique counts, which may count the same user on multiple days
+
+**Repeat Metrics:**
+- Repeat Views = Total Views - Unique Views
+- Repeat Clones = Total Clones - Unique Clones
+- Repeat Percentage = (Repeat / Total) × 100
+
+**Example:**
+```
+If a repository has:
+- Total Views: 100
+- Unique Views: 20
+Then:
+- Repeat Views = 100 - 20 = 80
+- Repeat Percentage = (80 / 100) × 100 = 80%
+```
+
+**Graph Data Aggregation:**
+
+- **Daily Graphs:** Shows raw daily data points. Each point represents one day's activity.
+- **Weekly Graphs:** Aggregates daily data into 7-day periods. Each point represents the sum of 7 consecutive days.
+- **Bi-Weekly Graphs:** Aggregates daily data into 14-day periods. Each point represents the sum of 14 consecutive days.
+- **Cumulative Graphs:** Shows running totals over time. Each point represents the sum of all previous days plus current day.
+
 ---
 
 ## Cloning and Reusing
@@ -1242,10 +1291,11 @@ The `history.json` file uses a standard structured format:
 
 - `calculate_repeat_vs_new_clones_stats()` (line 791): Calculates repeat clones vs new clones statistics for different time periods (short-term via STATS_PERIOD_SHORT_TERM, medium-term via STATS_PERIOD_MEDIUM_TERM, lifetime). Shows repository adoption level and returning user behavior.
 
-**README Generation Functions (lines 844-1049):**
+**README Generation Functions (lines 844-1110):**
 
 - `generate_readme()` (line 844): Generates the complete README.md with:
-  - Clickable table of contents (auto-generated based on configured repositories)
+  - "How Metrics Are Calculated" section explaining all calculation rules and formulas
+  - Clickable table of contents (auto-generated based on configured repositories, preserving order from repos array in main.yml)
   - Clone statistics in table format
   - Repeat vs new clones table
   - View statistics in table format
@@ -1268,7 +1318,7 @@ The `history.json` file uses a standard structured format:
 
 ### Key Functions in merge_history.py
 
-**Data Merging Functions (lines 178-331):**
+**Data Merging Functions (lines 178-319):**
 
 - `merge_daily_data()` (line 178): Merges daily data from existing and new sources. New data takes precedence for overlapping dates. This ensures no duplicate data and allows manual runs to correct wrong data within the 14-day API retention window.
 
