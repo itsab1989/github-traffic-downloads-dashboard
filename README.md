@@ -5,7 +5,7 @@ https://soul-traveller.github.io/github-traffic-dashboard/
 
 This dashboard tracks historical traffic data (clones and views) for GitHub repositories.
 
-**Last Updated:** 2026-05-13T05:41:18.248284Z
+**Last Updated:** 2026-05-14T05:40:27.661258Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -94,7 +94,7 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 148 | 78 |
+| Last 30 Days | 147 | 77 |
 | Last 90 Days | 200 | 103 |
 | Lifetime | 200 | 103 |
 
@@ -106,7 +106,7 @@ Quick navigation to repository statistics:
 
 | Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
 |--------|--------------|----------------|----------------|----------|
-| Last 30 Days | 148 | 78 | 70 | 47.3% |
+| Last 30 Days | 147 | 77 | 70 | 47.6% |
 | Last 90 Days | 200 | 103 | 97 | 48.5% |
 | Lifetime | 200 | 103 | 97 | 48.5% |
 
@@ -486,9 +486,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 964 | 427 |
-| Last 90 Days | 1330 | 599 |
-| Lifetime | 1330 | 599 |
+| Last 30 Days | 923 | 406 |
+| Last 90 Days | 1337 | 604 |
+| Lifetime | 1337 | 604 |
 
 ### 📄 Repeat vs New Clones
 
@@ -498,9 +498,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
 |--------|--------------|----------------|----------------|----------|
-| Last 30 Days | 964 | 427 | 537 | 55.7% |
-| Last 90 Days | 1330 | 599 | 731 | 55.0% |
-| Lifetime | 1330 | 599 | 731 | 55.0% |
+| Last 30 Days | 923 | 406 | 517 | 56.0% |
+| Last 90 Days | 1337 | 604 | 733 | 54.8% |
+| Lifetime | 1337 | 604 | 733 | 54.8% |
 
 ### 👀 Views
 
@@ -508,7 +508,7 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 59 | 18 |
+| Last 30 Days | 56 | 15 |
 | Last 90 Days | 287 | 21 |
 | Lifetime | 287 | 21 |
 
@@ -520,7 +520,7 @@ Quick navigation to repository statistics:
 
 | Referrer | Total Views | Unique Visitors |
 |----------|-------------|----------------|
-| soul-traveller.github.io | 12 | 3 |
+| soul-traveller.github.io | 11 | 3 |
 | github.com | 2 | 1 |
 
 ### 👥 Repeat vs New Visitors
@@ -531,7 +531,7 @@ Quick navigation to repository statistics:
 
 | Period | Total Views | Unique Visitors | Repeat Visitors | Repeat % |
 |--------|-------------|-----------------|-----------------|----------|
-| Last 30 Days | 59 | 18 | 41 | 69.5% |
+| Last 30 Days | 56 | 15 | 41 | 73.2% |
 | Last 90 Days | 287 | 21 | 266 | 92.7% |
 | Lifetime | 287 | 21 | 266 | 92.7% |
 
