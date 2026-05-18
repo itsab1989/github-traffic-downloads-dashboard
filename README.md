@@ -5,7 +5,7 @@ https://soul-traveller.github.io/github-traffic-dashboard/
 
 This dashboard tracks historical traffic data (clones and views) for GitHub repositories.
 
-**Last Updated:** 2026-05-17T05:43:41.611777Z
+**Last Updated:** 2026-05-18T06:07:46.432201Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -88,9 +88,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 3376 | 692 |
-| Last 90 Days | 3376 | 692 |
-| Lifetime | 3376 | 692 |
+| Last 30 Days | 4658 | 862 |
+| Last 90 Days | 4658 | 862 |
+| Lifetime | 4658 | 862 |
 
 ### 📄 Repeat vs New Clones
 
@@ -100,9 +100,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
 |--------|--------------|----------------|----------------|----------|
-| Last 30 Days | 3376 | 692 | 2684 | 79.5% |
-| Last 90 Days | 3376 | 692 | 2684 | 79.5% |
-| Lifetime | 3376 | 692 | 2684 | 79.5% |
+| Last 30 Days | 4658 | 862 | 3796 | 81.5% |
+| Last 90 Days | 4658 | 862 | 3796 | 81.5% |
+| Lifetime | 4658 | 862 | 3796 | 81.5% |
 
 ### 👀 Views
 
@@ -110,24 +110,25 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 416 | 138 |
-| Last 90 Days | 416 | 138 |
-| Lifetime | 416 | 138 |
+| Last 30 Days | 504 | 160 |
+| Last 90 Days | 504 | 160 |
+| Lifetime | 504 | 160 |
 
 ### 📞 Referrers
 
 *Top referrer sources driving traffic to this repository.*
 
-**Total Unique Referrers:** 9
+**Total Unique Referrers:** 10
 
 | Referrer | Total Views | Unique Visitors |
 |----------|-------------|----------------|
-| github.com | 61 | 12 |
+| github.com | 41 | 12 |
 | forum.luminous-landscape.com | 24 | 6 |
-| Google | 11 | 6 |
-| printerknowledge.com | 10 | 7 |
+| Google | 14 | 7 |
+| dpreview.com | 10 | 6 |
+| printerknowledge.com | 9 | 7 |
 | facebook.com | 5 | 2 |
-| Bing | 3 | 2 |
+| Bing | 4 | 3 |
 | www-printerknowledge-com.translate.goog | 2 | 1 |
 | hub.displaycal.net | 1 | 1 |
 | reddit.com | 1 | 1 |
@@ -140,9 +141,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Views | Unique Visitors | Repeat Visitors | Repeat % |
 |--------|-------------|-----------------|-----------------|----------|
-| Last 30 Days | 416 | 138 | 278 | 66.8% |
-| Last 90 Days | 416 | 138 | 278 | 66.8% |
-| Lifetime | 416 | 138 | 278 | 66.8% |
+| Last 30 Days | 504 | 160 | 344 | 68.3% |
+| Last 90 Days | 504 | 160 | 344 | 68.3% |
+| Lifetime | 504 | 160 | 344 | 68.3% |
 
 ### 📈 Traffic Graphs
 
