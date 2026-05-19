@@ -5,7 +5,7 @@ https://soul-traveller.github.io/github-traffic-dashboard/
 
 This dashboard tracks historical traffic data (clones and views) for GitHub repositories.
 
-**Last Updated:** 2026-05-18T06:07:46.432201Z
+**Last Updated:** 2026-05-19T06:01:56.742285Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -88,9 +88,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 4658 | 862 |
-| Last 90 Days | 4658 | 862 |
-| Lifetime | 4658 | 862 |
+| Last 30 Days | 5033 | 1022 |
+| Last 90 Days | 5033 | 1022 |
+| Lifetime | 5033 | 1022 |
 
 ### 📄 Repeat vs New Clones
 
@@ -100,9 +100,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
 |--------|--------------|----------------|----------------|----------|
-| Last 30 Days | 4658 | 862 | 3796 | 81.5% |
-| Last 90 Days | 4658 | 862 | 3796 | 81.5% |
-| Lifetime | 4658 | 862 | 3796 | 81.5% |
+| Last 30 Days | 5033 | 1022 | 4011 | 79.7% |
+| Last 90 Days | 5033 | 1022 | 4011 | 79.7% |
+| Lifetime | 5033 | 1022 | 4011 | 79.7% |
 
 ### 👀 Views
 
@@ -110,28 +110,27 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 504 | 160 |
-| Last 90 Days | 504 | 160 |
-| Lifetime | 504 | 160 |
+| Last 30 Days | 522 | 167 |
+| Last 90 Days | 522 | 167 |
+| Lifetime | 522 | 167 |
 
 ### 📞 Referrers
 
 *Top referrer sources driving traffic to this repository.*
 
-**Total Unique Referrers:** 10
+**Total Unique Referrers:** 9
 
 | Referrer | Total Views | Unique Visitors |
 |----------|-------------|----------------|
-| github.com | 41 | 12 |
+| github.com | 40 | 12 |
 | forum.luminous-landscape.com | 24 | 6 |
-| Google | 14 | 7 |
-| dpreview.com | 10 | 6 |
-| printerknowledge.com | 9 | 7 |
-| facebook.com | 5 | 2 |
+| Google | 16 | 8 |
+| dpreview.com | 15 | 7 |
+| printerknowledge.com | 8 | 6 |
 | Bing | 4 | 3 |
+| reddit.com | 3 | 3 |
 | www-printerknowledge-com.translate.goog | 2 | 1 |
-| hub.displaycal.net | 1 | 1 |
-| reddit.com | 1 | 1 |
+| facebook.com | 1 | 1 |
 
 ### 👥 Repeat vs New Visitors
 
@@ -141,9 +140,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Views | Unique Visitors | Repeat Visitors | Repeat % |
 |--------|-------------|-----------------|-----------------|----------|
-| Last 30 Days | 504 | 160 | 344 | 68.3% |
-| Last 90 Days | 504 | 160 | 344 | 68.3% |
-| Lifetime | 504 | 160 | 344 | 68.3% |
+| Last 30 Days | 522 | 167 | 355 | 68.0% |
+| Last 90 Days | 522 | 167 | 355 | 68.0% |
+| Lifetime | 522 | 167 | 355 | 68.0% |
 
 ### 📈 Traffic Graphs
 
