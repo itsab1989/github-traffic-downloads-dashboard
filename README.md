@@ -5,7 +5,7 @@ https://soul-traveller.github.io/github-traffic-dashboard/
 
 This dashboard tracks historical traffic data (clones and views) for GitHub repositories.
 
-**Last Updated:** 2026-05-19T06:01:56.742285Z
+**Last Updated:** 2026-05-20T06:01:51.135017Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -88,9 +88,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 5033 | 1022 |
-| Last 90 Days | 5033 | 1022 |
-| Lifetime | 5033 | 1022 |
+| Last 30 Days | 5159 | 1059 |
+| Last 90 Days | 5159 | 1059 |
+| Lifetime | 5159 | 1059 |
 
 ### 📄 Repeat vs New Clones
 
@@ -100,9 +100,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
 |--------|--------------|----------------|----------------|----------|
-| Last 30 Days | 5033 | 1022 | 4011 | 79.7% |
-| Last 90 Days | 5033 | 1022 | 4011 | 79.7% |
-| Lifetime | 5033 | 1022 | 4011 | 79.7% |
+| Last 30 Days | 5159 | 1059 | 4100 | 79.5% |
+| Last 90 Days | 5159 | 1059 | 4100 | 79.5% |
+| Lifetime | 5159 | 1059 | 4100 | 79.5% |
 
 ### 👀 Views
 
@@ -110,26 +110,27 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 522 | 167 |
-| Last 90 Days | 522 | 167 |
-| Lifetime | 522 | 167 |
+| Last 30 Days | 558 | 184 |
+| Last 90 Days | 558 | 184 |
+| Lifetime | 558 | 184 |
 
 ### 📞 Referrers
 
 *Top referrer sources driving traffic to this repository.*
 
-**Total Unique Referrers:** 9
+**Total Unique Referrers:** 10
 
 | Referrer | Total Views | Unique Visitors |
 |----------|-------------|----------------|
-| github.com | 40 | 12 |
+| github.com | 40 | 11 |
 | forum.luminous-landscape.com | 24 | 6 |
-| Google | 16 | 8 |
+| Google | 18 | 9 |
 | dpreview.com | 15 | 7 |
 | printerknowledge.com | 8 | 6 |
+| reddit.com | 5 | 5 |
 | Bing | 4 | 3 |
-| reddit.com | 3 | 3 |
 | www-printerknowledge-com.translate.goog | 2 | 1 |
+| druckerchannel.de | 1 | 1 |
 | facebook.com | 1 | 1 |
 
 ### 👥 Repeat vs New Visitors
@@ -140,9 +141,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Views | Unique Visitors | Repeat Visitors | Repeat % |
 |--------|-------------|-----------------|-----------------|----------|
-| Last 30 Days | 522 | 167 | 355 | 68.0% |
-| Last 90 Days | 522 | 167 | 355 | 68.0% |
-| Lifetime | 522 | 167 | 355 | 68.0% |
+| Last 30 Days | 558 | 184 | 374 | 67.0% |
+| Last 90 Days | 558 | 184 | 374 | 67.0% |
+| Lifetime | 558 | 184 | 374 | 67.0% |
 
 ### 📈 Traffic Graphs
 

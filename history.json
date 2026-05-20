@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-19T06:01:56Z",
-    "last_updated": "2026-05-19T06:01:56.742285Z",
+    "generated_at": "2026-05-20T06:01:50Z",
+    "last_updated": "2026-05-20T06:01:51.135017Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -9,13 +9,6 @@
   "repositories": {
     "itsab1989/ChromIQ": {
       "daily_data": [
-        {
-          "date": "2025-05-19",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
         {
           "date": "2025-05-20",
           "clones_total": 0,
@@ -2566,6 +2559,13 @@
         },
         {
           "date": "2026-05-19",
+          "clones_total": 126,
+          "clones_unique": 37,
+          "views_total": 36,
+          "views_unique": 17
+        },
+        {
+          "date": "2026-05-20",
           "clones_total": 0,
           "clones_unique": 0,
           "views_total": 0,
@@ -2576,7 +2576,7 @@
         {
           "referrer": "github.com",
           "count": 40,
-          "uniques": 12
+          "uniques": 11
         },
         {
           "referrer": "forum.luminous-landscape.com",
@@ -2585,8 +2585,8 @@
         },
         {
           "referrer": "Google",
-          "count": 16,
-          "uniques": 8
+          "count": 18,
+          "uniques": 9
         },
         {
           "referrer": "dpreview.com",
@@ -2599,18 +2599,23 @@
           "uniques": 6
         },
         {
+          "referrer": "reddit.com",
+          "count": 5,
+          "uniques": 5
+        },
+        {
           "referrer": "Bing",
           "count": 4,
           "uniques": 3
         },
         {
-          "referrer": "reddit.com",
-          "count": 3,
-          "uniques": 3
-        },
-        {
           "referrer": "www-printerknowledge-com.translate.goog",
           "count": 2,
+          "uniques": 1
+        },
+        {
+          "referrer": "druckerchannel.de",
+          "count": 1,
           "uniques": 1
         },
         {
@@ -2620,11 +2625,11 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-05-19T06:01:56Z",
-        "clones_total": 5033,
-        "clones_unique_total": 1022,
-        "views_total": 522,
-        "views_unique_total": 167
+        "last_fetched": "2026-05-20T06:01:51Z",
+        "clones_total": 5159,
+        "clones_unique_total": 1059,
+        "views_total": 558,
+        "views_unique_total": 184
       }
     }
   }
