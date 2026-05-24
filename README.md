@@ -5,7 +5,7 @@ https://soul-traveller.github.io/github-traffic-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-05-24T17:48:28.052253Z
+**Last Updated:** 2026-05-24T18:12:27.660360Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -160,10 +160,12 @@ Quick navigation to repository statistics:
 
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
-| 🪟 Windows | 0 | 0 | 89 |
+| 🪟 Windows | 0 | 0 | 90 |
 | 🍎 macOS | 0 | 0 | 479 |
 | 🐧 Linux | 0 | 0 | 31 |
-| **All** | **0** | **0** | **599** |
+| **All** | **0** | **0** | **600** |
+
+🆕 **Latest Release:** `v3.7.38` - **0** downloads (published 2026-05-24)
 
 **By Architecture (lifetime):**
 
@@ -171,7 +173,7 @@ Quick navigation to repository statistics:
 
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
-| 🪟 Windows | 22 | 67 | 0 | **89** |
+| 🪟 Windows | 22 | 68 | 0 | **90** |
 | 🍎 macOS | 305 | 124 | 50 | **479** |
 | 🐧 Linux | 8 | 23 | 0 | **31** |
 
