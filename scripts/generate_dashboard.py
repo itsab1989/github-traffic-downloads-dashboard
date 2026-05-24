@@ -87,7 +87,7 @@ import os    # For file system operations
 from datetime import datetime, timedelta, timezone  # For date calculations (UTC-aware)
 
 # Type hints for better code documentation
-from typing import Dict, List, Any, Tuple  # For type annotations
+from typing import Dict, List, Any, Tuple, Optional  # For type annotations
 
 # Plotting libraries
 import matplotlib.pyplot as plt  # For creating graphs
@@ -550,6 +550,31 @@ def calculate_downloads_lifetime(downloads_daily: List[Dict[str, Any]]) -> Dict[
         stats[platform] = latest.get(f'cumulative_{platform}', 0)
 
     return stats
+
+
+def get_latest_release(downloads_by_release: List[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
+    """
+    Find the most recently published release, regardless of its download count.
+
+    Unlike the "Top Releases by Downloads" table (which is sorted by count and
+    skips releases with zero downloads), this always returns the newest release -
+    so a freshly published release shows up immediately, even at 0 downloads.
+
+    The newest release is chosen by the latest ``published_at`` timestamp
+    (ISO-8601 strings sort chronologically). Entries without a timestamp sort
+    last, falling back to input order so a usable release is still returned.
+
+    Args:
+        downloads_by_release: List of per-release entries
+            (each with 'tag', 'downloads', 'published_at').
+
+    Returns:
+        The most recent release entry, or None if the list is empty.
+    """
+    if not downloads_by_release:
+        return None
+
+    return max(downloads_by_release, key=lambda r: r.get('published_at') or '')
 
 
 def create_graph(dates: List[str], values: List[int], title: str, ylabel: str,
@@ -1329,6 +1354,19 @@ def generate_readme(history_data: Dict[str, Any]) -> None:
             md += f"| \U0001f34e macOS | {dl_short['macos']} | {dl_medium['macos']} | {dl_lifetime['macos']} |\n"
             md += f"| \U0001f427 Linux | {dl_short['linux']} | {dl_medium['linux']} | {dl_lifetime['linux']} |\n"
             md += f"| **All** | **{dl_short['total']}** | **{dl_medium['total']}** | **{dl_lifetime['total']}** |\n\n"
+
+            # Latest release callout (always shown, even at 0 downloads), if available
+            latest_release = get_latest_release(downloads_by_release)
+            if latest_release:
+                lr_tag = latest_release.get('tag', '?')
+                lr_downloads = latest_release.get('downloads', 0)
+                lr_published = (latest_release.get('published_at') or '')[:10]
+                lr_published_str = f" (published {lr_published})" if lr_published else ""
+                md += (
+                    f"\U0001f195 **Latest Release:** `{lr_tag}` - "
+                    f"**{lr_downloads}** download{'s' if lr_downloads != 1 else ''}"
+                    f"{lr_published_str}\n\n"
+                )
 
             # Architecture breakdown table (lifetime), if available
             if downloads_by_arch:

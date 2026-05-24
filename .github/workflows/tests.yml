@@ -1,5 +1,6 @@
 # Runs the unit tests for the dashboard scripts.
-# The download-merge logic is pure stdlib, so no dependencies are needed.
+# The download-merge logic is pure stdlib, but the dashboard generator imports
+# matplotlib, so requirements.txt is installed before the suite runs.
 name: Tests
 
 on:
@@ -25,6 +26,9 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
       - name: Run unit tests
         run: python -m unittest discover -s tests -v
