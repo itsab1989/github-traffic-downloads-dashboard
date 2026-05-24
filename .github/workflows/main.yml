@@ -38,6 +38,12 @@ on:
 permissions:
   contents: write
 
+# Prevent overlapping runs (e.g. a manual run racing the scheduled run) from
+# colliding on the final `git push`. Queued runs wait rather than cancel.
+concurrency:
+  group: traffic-dashboard-${{ github.ref }}
+  cancel-in-progress: false
+
 # Environment variables
 env:
   # Force JavaScript actions to use Node.js 24
@@ -57,14 +63,21 @@ jobs:
       # Step 1: Checkout the repository code
       # This makes the repository files available to subsequent steps
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
-      # Step 2: Install Python dependencies
-      # Install matplotlib (for graphs), pandas (for data processing), and numpy
+      # Step 2a: Set up a pinned Python with pip caching
+      # Caching keyed on requirements.txt speeds up repeat runs and pins the version
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      # Step 2b: Install Python dependencies from requirements.txt
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install matplotlib pandas numpy
+          pip install -r requirements.txt
 
       # Step 3: Check for missed runs (server downtime detection)
       # This step checks if the workflow hasn't run recently, indicating potential server downtime
@@ -332,6 +345,34 @@ jobs:
 
             echo "Release downloads for $repo: total=$downloads_total windows=$downloads_windows macos=$downloads_macos linux=$downloads_linux"
 
+            # Per-release lifetime totals (for the "top releases by downloads" table).
+            # Only the latest snapshot is kept by the merge step, so this does not grow history.json over time.
+            downloads_by_release=$(echo "$releases_all" | jq -c '[.[] | {
+              tag: .tag_name,
+              downloads: ([.assets[]?.download_count] | add // 0),
+              published_at: .published_at
+            }]')
+
+            # Per-OS x per-architecture lifetime totals (for the architecture breakdown table).
+            # Arch is inferred from the asset file name; "other" catches anything unrecognized.
+            downloads_by_arch=$(echo "$releases_all" | jq -c '
+              reduce (.[].assets[]?) as $a (
+                {"windows": {}, "macos": {}, "linux": {}};
+                ($a.name) as $n
+                | (if   ($n | test("(?i)windows|win-|\\.exe$|\\.msi$"))   then "windows"
+                   elif ($n | test("(?i)macos|darwin|osx|\\.dmg$|\\.pkg$")) then "macos"
+                   elif ($n | test("(?i)linux|\\.appimage$|\\.deb$|\\.rpm$")) then "linux"
+                   else "other" end) as $os
+                | (if   ($n | test("(?i)arm64|aarch64"))      then "arm64"
+                   elif ($n | test("(?i)universal"))          then "universal"
+                   elif ($n | test("(?i)x86_64|x64|amd64"))   then "x86_64"
+                   else "other" end) as $arch
+                | if $os == "other" then .
+                  else .[$os][$arch] = ((.[$os][$arch] // 0) + ($a.download_count // 0)) end
+              )')
+
+            echo "Downloads by arch for $repo: $downloads_by_arch"
+
             # Extract daily data arrays with safe defaults (empty array if missing)
             clones_daily=$(echo "$clones_json" | jq -c '.clones // []')
             views_daily=$(echo "$views_json" | jq -c '.views // []')
@@ -358,6 +399,8 @@ jobs:
                --argjson downloads_windows "$downloads_windows" \
                --argjson downloads_macos "$downloads_macos" \
                --argjson downloads_linux "$downloads_linux" \
+               --argjson downloads_by_release "$downloads_by_release" \
+               --argjson downloads_by_arch "$downloads_by_arch" \
                --arg today "$(date -u +%Y-%m-%d)" \
                --arg fetch_date "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
                '.repositories[$repo] = {
@@ -382,7 +425,9 @@ jobs:
                    "cumulative_total": $downloads_total,
                    "cumulative_windows": $downloads_windows,
                    "cumulative_macos": $downloads_macos,
-                   "cumulative_linux": $downloads_linux
+                   "cumulative_linux": $downloads_linux,
+                   "by_release": $downloads_by_release,
+                   "by_arch": $downloads_by_arch
                  }
                } |
                .metadata.repositories += [$repo]' \

@@ -50,6 +50,8 @@ TEXT_COLOR = "#333333"                      # Dark gray for text
 # Release Downloads Configuration
 # Whether to include the release-downloads section (tables + graphs)
 INCLUDE_DOWNLOADS = True
+# Number of releases to show in the "Top Releases by Downloads" table
+TOP_RELEASES_COUNT = 10
 # Series plotted on the download graphs: (label, data_key, color, marker, linewidth)
 # data_key maps to downloads_<key> (daily) and cumulative_<key> (lifetime) fields.
 # "All" is drawn thicker so the combined line stands out from the per-platform lines.
@@ -82,7 +84,7 @@ import sys   # For system exit and error handling
 import os    # For file system operations
 
 # Date and time handling
-from datetime import datetime, timedelta  # For date calculations
+from datetime import datetime, timedelta, timezone  # For date calculations (UTC-aware)
 
 # Type hints for better code documentation
 from typing import Dict, List, Any, Tuple  # For type annotations
@@ -188,7 +190,7 @@ def calculate_period_stats(daily_data: List[Dict[str, Any]], days: int) -> Dict[
         }
     
     # Calculate the cutoff date (N days ago)
-    cutoff_date = (datetime.utcnow() - timedelta(days=days)).strftime('%Y-%m-%d')
+    cutoff_date = (datetime.now(timezone.utc) - timedelta(days=days)).strftime('%Y-%m-%d')
     
     # Initialize statistics counters
     stats = {
@@ -271,7 +273,7 @@ def get_daily_data(daily_data: List[Dict[str, Any]], days: int) -> Tuple[List[st
         return [], [], []
     
     # Calculate the cutoff date (N days ago)
-    cutoff_date = (datetime.utcnow() - timedelta(days=days)).strftime('%Y-%m-%d')
+    cutoff_date = (datetime.now(timezone.utc) - timedelta(days=days)).strftime('%Y-%m-%d')
     
     # Initialize lists to hold the filtered data
     dates = []
@@ -310,7 +312,7 @@ def get_weekly_data(daily_data: List[Dict[str, Any]], weeks: int) -> Tuple[List[
         return [], [], []
     
     # Get today's date
-    today = datetime.utcnow().date()
+    today = datetime.now(timezone.utc).date()
     weekly_data = []
     
     # Iterate through weeks from oldest to newest
@@ -367,7 +369,7 @@ def get_biweekly_data(daily_data: List[Dict[str, Any]], periods: int) -> Tuple[L
         return [], [], []
     
     # Get today's date
-    today = datetime.utcnow().date()
+    today = datetime.now(timezone.utc).date()
     biweekly_data = []
     
     # Iterate through periods from oldest to newest
@@ -463,7 +465,7 @@ def get_downloads_daily(downloads_daily: List[Dict[str, Any]], days: int) -> Tup
         return [], series
 
     # Calculate the cutoff date (N days ago)
-    cutoff_date = (datetime.utcnow() - timedelta(days=days)).strftime('%Y-%m-%d')
+    cutoff_date = (datetime.now(timezone.utc) - timedelta(days=days)).strftime('%Y-%m-%d')
 
     dates = []
     for entry in downloads_daily:
@@ -516,7 +518,7 @@ def calculate_downloads_period_stats(downloads_daily: List[Dict[str, Any]], days
     if not downloads_daily:
         return stats
 
-    cutoff_date = (datetime.utcnow() - timedelta(days=days)).strftime('%Y-%m-%d')
+    cutoff_date = (datetime.now(timezone.utc) - timedelta(days=days)).strftime('%Y-%m-%d')
     for entry in downloads_daily:
         if entry.get('date', '') >= cutoff_date:
             for platform in stats:
@@ -1206,8 +1208,11 @@ def generate_readme(history_data: Dict[str, Any]) -> None:
         daily_data = repo_data.get('daily_data', [])
         metadata = repo_data.get('metadata', {})
         referrers = repo_data.get('referrers', [])
-        # Release-download series (per-day deltas + cumulative snapshots), if tracked
-        downloads_daily = repo_data.get('downloads', {}).get('daily_data', [])
+        # Release-download data, if tracked
+        downloads_section = repo_data.get('downloads', {})
+        downloads_daily = downloads_section.get('daily_data', [])
+        downloads_by_release = downloads_section.get('by_release', [])
+        downloads_by_arch = downloads_section.get('by_arch', {})
         
         # Determine display name based on SHOW_FULL_REPO_NAME configuration
         if SHOW_FULL_REPO_NAME:
@@ -1324,6 +1329,47 @@ def generate_readme(history_data: Dict[str, Any]) -> None:
             md += f"| \U0001f34e macOS | {dl_short['macos']} | {dl_medium['macos']} | {dl_lifetime['macos']} |\n"
             md += f"| \U0001f427 Linux | {dl_short['linux']} | {dl_medium['linux']} | {dl_lifetime['linux']} |\n"
             md += f"| **All** | **{dl_short['total']}** | **{dl_medium['total']}** | **{dl_lifetime['total']}** |\n\n"
+
+            # Architecture breakdown table (lifetime), if available
+            if downloads_by_arch:
+                os_rows = [('windows', '\U0001fa9f Windows'), ('macos', '\U0001f34e macOS'), ('linux', '\U0001f427 Linux')]
+                # Determine which arch columns to show (union across OSes), in a stable order
+                arch_order = ['arm64', 'x86_64', 'universal', 'other']
+                present = set()
+                for _os_key, _ in os_rows:
+                    present.update((downloads_by_arch.get(_os_key) or {}).keys())
+                cols = [a for a in arch_order if a in present]
+                cols += sorted(c for c in present if c not in arch_order)
+
+                if cols:
+                    md += "**By Architecture (lifetime):**\n\n"
+                    md += "*Lifetime downloads split by CPU architecture - useful for deciding which builds are still worth shipping.*\n\n"
+                    md += "| Platform | " + " | ".join(cols) + " | Total |\n"
+                    md += "|----------|" + "|".join(["-------"] * (len(cols) + 1)) + "|\n"
+                    for os_key, os_label in os_rows:
+                        row = downloads_by_arch.get(os_key) or {}
+                        cells = [str(row.get(c, 0)) for c in cols]
+                        row_total = sum(row.get(c, 0) for c in row)
+                        md += f"| {os_label} | " + " | ".join(cells) + f" | **{row_total}** |\n"
+                    md += "\n"
+
+            # Top releases by downloads table (lifetime), if available
+            if downloads_by_release:
+                top_releases = sorted(
+                    (r for r in downloads_by_release if r.get('downloads', 0) > 0),
+                    key=lambda r: r.get('downloads', 0),
+                    reverse=True
+                )[:TOP_RELEASES_COUNT]
+                if top_releases:
+                    md += f"**Top {len(top_releases)} Releases by Downloads (lifetime):**\n\n"
+                    md += "| Release | Downloads | Published |\n"
+                    md += "|---------|-----------|-----------|\n"
+                    for r in top_releases:
+                        tag = r.get('tag', '?')
+                        downloads = r.get('downloads', 0)
+                        published = (r.get('published_at') or '')[:10]
+                        md += f"| {tag} | {downloads} | {published} |\n"
+                    md += "\n"
 
             # Generate and embed download graphs
             print(f"Generating download graphs for {repo_name}...")

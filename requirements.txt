@@ -1,0 +1,3 @@
+# Python dependencies for the traffic dashboard scripts.
+# Only matplotlib is imported directly; numpy is pulled in transitively.
+matplotlib>=3.7

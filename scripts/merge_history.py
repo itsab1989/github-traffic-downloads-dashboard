@@ -61,7 +61,7 @@ import json  # For JSON file operations
 import sys   # For system exit and error handling
 
 # Date and time handling
-from datetime import datetime, timedelta  # For date calculations
+from datetime import datetime, timedelta, timezone  # For date calculations (UTC-aware)
 
 # Type hints for better code documentation
 from typing import Dict, List, Any  # For type annotations
@@ -139,7 +139,7 @@ def zero_fill_daily_data(daily_data: List[Dict[str, Any]], days_back: int = 365)
         return []
     
     # Calculate the date range
-    today = datetime.utcnow().date()
+    today = datetime.now(timezone.utc).date()
     start_date = today - timedelta(days=days_back)
     
     # Create a dictionary of existing data for fast lookup
@@ -309,11 +309,18 @@ def merge_downloads(existing_downloads: Dict[str, Any], new_downloads: Dict[str,
         new_downloads: Newly fetched snapshot ({date, cumulative_*, last_fetched}) or {}
 
     Returns:
-        Dictionary with 'daily_data' (per-day deltas + cumulative snapshots) and
-        'metadata' (latest cumulative totals).
+        Dictionary with 'daily_data' (per-day deltas + cumulative snapshots),
+        'metadata' (latest cumulative totals), 'by_release' (latest per-release
+        lifetime totals) and 'by_arch' (latest per-OS/per-arch lifetime totals).
     """
     existing_downloads = existing_downloads or {}
     new_downloads = new_downloads or {}
+
+    # Lifetime breakdowns (per-release and per-arch) are stored as the latest
+    # snapshot only - new data wins, falling back to existing. They are not
+    # part of the per-day series, so they do not accumulate over time.
+    by_release = new_downloads.get('by_release', existing_downloads.get('by_release', []))
+    by_arch = new_downloads.get('by_arch', existing_downloads.get('by_arch', {}))
 
     # Index existing cumulative snapshots by date
     by_date: Dict[str, Dict[str, int]] = {}
@@ -329,7 +336,7 @@ def merge_downloads(existing_downloads: Dict[str, Any], new_downloads: Dict[str,
 
     # Nothing to merge yet (e.g. first ever run before any snapshot exists)
     if not by_date:
-        return {'daily_data': [], 'metadata': {}}
+        return {'daily_data': [], 'metadata': {}, 'by_release': by_release, 'by_arch': by_arch}
 
     # Build a continuous daily series from the first to the last snapshot,
     # carrying cumulative values forward across missing days.
@@ -377,7 +384,12 @@ def merge_downloads(existing_downloads: Dict[str, Any], new_downloads: Dict[str,
     for p in DOWNLOAD_PLATFORMS:
         metadata[f'cumulative_{p}'] = latest[f'cumulative_{p}']
 
-    return {'daily_data': daily_data, 'metadata': metadata}
+    return {
+        'daily_data': daily_data,
+        'metadata': metadata,
+        'by_release': by_release,
+        'by_arch': by_arch
+    }
 
 
 def merge_repositories(existing_repos: Dict[str, Any], new_repos: Dict[str, Any]) -> Dict[str, Any]:
@@ -508,11 +520,14 @@ def main():
     else:
         repo_order = sorted(list(merged_repos.keys()))
     
-    # Create the merged data structure with updated metadata
+    # Create the merged data structure with updated metadata.
+    # strftime keeps the literal 'Z' suffix correct for UTC-aware datetimes
+    # (isoformat() would append '+00:00', which would clash with the 'Z').
+    now_utc = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%S.%fZ')
     merged_data = {
         'metadata': {
-            'generated_at': new_data.get('metadata', {}).get('generated_at', datetime.utcnow().isoformat() + 'Z'),
-            'last_updated': datetime.utcnow().isoformat() + 'Z',
+            'generated_at': new_data.get('metadata', {}).get('generated_at', now_utc),
+            'last_updated': now_utc,
             'repositories': repo_order
         },
         'repositories': merged_repos

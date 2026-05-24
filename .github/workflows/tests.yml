@@ -1,0 +1,30 @@
+# Runs the unit tests for the dashboard scripts.
+# The download-merge logic is pure stdlib, so no dependencies are needed.
+name: Tests
+
+on:
+  push:
+    paths:
+      - "scripts/**"
+      - "tests/**"
+      - ".github/workflows/tests.yml"
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  unittest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v

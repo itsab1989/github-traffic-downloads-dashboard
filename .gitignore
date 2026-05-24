@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Workflow scratch files (generated at runtime, not committed)
+traffic_data.json
+merged_history.json
+tmp.json
+
+# OS / editor
+.DS_Store
