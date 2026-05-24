@@ -3,9 +3,9 @@ https://soul-traveller.github.io/github-traffic-dashboard/
 
 # 📊 GitHub Traffic Dashboard
 
-This dashboard tracks historical traffic data (clones and views) for GitHub repositories.
+This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-05-24T05:56:40.709810Z
+**Last Updated:** 2026-05-24T17:37:10.798406Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -22,6 +22,13 @@ This dashboard uses GitHub Traffic API data to calculate the following metrics:
 - Counted when someone clones the repository
 - Includes clones via `git clone`, GitHub Desktop, download ZIP, and API
 - Can occur without a corresponding view event
+
+**Release Downloads:**
+- Counted when someone downloads a pre-compiled release asset (binary/installer)
+- Split by platform from the asset file name (Windows, macOS, Linux); **All** is the combined total
+- This is a **separate metric** from Clones - cloning the source is not a release download
+- **Lifetime** totals reflect all-time downloads (GitHub's cumulative `download_count`) and are accurate immediately
+- **Per-day** figures are derived by diffing daily snapshots, so they only accrue from the first tracked day onward
 
 **Important:** Views and Clones are **independent metrics**. Users can:
 - View without cloning
@@ -88,9 +95,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 5633 | 1195 |
-| Last 90 Days | 5633 | 1195 |
-| Lifetime | 5633 | 1195 |
+| Last 30 Days | 5718 | 1221 |
+| Last 90 Days | 5718 | 1221 |
+| Lifetime | 5718 | 1221 |
 
 ### 📄 Repeat vs New Clones
 
@@ -100,9 +107,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
 |--------|--------------|----------------|----------------|----------|
-| Last 30 Days | 5633 | 1195 | 4438 | 78.8% |
-| Last 90 Days | 5633 | 1195 | 4438 | 78.8% |
-| Lifetime | 5633 | 1195 | 4438 | 78.8% |
+| Last 30 Days | 5718 | 1221 | 4497 | 78.6% |
+| Last 90 Days | 5718 | 1221 | 4497 | 78.6% |
+| Lifetime | 5718 | 1221 | 4497 | 78.6% |
 
 ### 👀 Views
 
@@ -110,9 +117,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 696 | 219 |
-| Last 90 Days | 696 | 219 |
-| Lifetime | 696 | 219 |
+| Last 30 Days | 708 | 226 |
+| Last 90 Days | 708 | 226 |
+| Lifetime | 708 | 226 |
 
 ### 📞 Referrers
 
@@ -122,16 +129,16 @@ Quick navigation to repository statistics:
 
 | Referrer | Total Views | Unique Visitors |
 |----------|-------------|----------------|
-| github.com | 51 | 11 |
-| dpreview.com | 27 | 10 |
+| github.com | 51 | 12 |
+| dpreview.com | 28 | 11 |
 | forum.luminous-landscape.com | 25 | 7 |
 | Google | 15 | 8 |
-| printerknowledge.com | 12 | 8 |
+| printerknowledge.com | 14 | 8 |
+| reddit.com | 11 | 10 |
 | hub.displaycal.net | 11 | 2 |
-| reddit.com | 10 | 9 |
 | freelists.org | 4 | 1 |
 | Bing | 3 | 2 |
-| www-printerknowledge-com.translate.goog | 2 | 1 |
+| com.reddit.frontpage | 2 | 2 |
 
 ### 👥 Repeat vs New Visitors
 
@@ -141,9 +148,34 @@ Quick navigation to repository statistics:
 
 | Period | Total Views | Unique Visitors | Repeat Visitors | Repeat % |
 |--------|-------------|-----------------|-----------------|----------|
-| Last 30 Days | 696 | 219 | 477 | 68.5% |
-| Last 90 Days | 696 | 219 | 477 | 68.5% |
-| Lifetime | 696 | 219 | 477 | 68.5% |
+| Last 30 Days | 708 | 226 | 482 | 68.1% |
+| Last 90 Days | 708 | 226 | 482 | 68.1% |
+| Lifetime | 708 | 226 | 482 | 68.1% |
+
+### 📥 Release Downloads
+
+*Pre-compiled release-asset downloads, split by platform. This is separate from clones.*
+
+*Lifetime totals reflect all-time downloads (GitHub's cumulative counter). Per-day figures (Last 30/90 Days) are derived from daily snapshots and only accrue from the first tracked day onward.*
+
+| Platform | Last 30 Days | Last 90 Days | Lifetime |
+|----------|-----------|-----------|----------|
+| 🪟 Windows | 0 | 0 | 89 |
+| 🍎 macOS | 0 | 0 | 479 |
+| 🐧 Linux | 0 | 0 | 31 |
+| **All** | **0** | **0** | **599** |
+
+#### Daily Release Downloads (30 Days)
+
+*Per-day downloads for the last 30 days, by platform. Useful for spotting download spikes after new releases.*
+
+![Daily Downloads 30 Days](graphs/itsab1989_ChromIQ_downloads_daily_30d.png)
+
+#### Cumulative Release Downloads (Lifetime)
+
+*All-time running download totals by platform. Useful for seeing overall adoption per platform.*
+
+![Cumulative Downloads](graphs/itsab1989_ChromIQ_downloads_cumulative.png)
 
 ### 📈 Traffic Graphs
 
