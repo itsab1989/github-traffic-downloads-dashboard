@@ -577,6 +577,43 @@ def get_latest_release(downloads_by_release: List[Dict[str, Any]]) -> Optional[D
     return max(downloads_by_release, key=lambda r: r.get('published_at') or '')
 
 
+def get_release_breakdown(downloads_by_release: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """
+    Build a per-release download breakdown, newest first, split by platform.
+
+    Powers the collapsible "Per-version downloads" table. Releases are ordered by
+    published_at (newest first). The per-platform fields (windows/macos/linux)
+    default to 0 for releases fetched before per-release platform tracking was
+    added, while 'total' always reflects the all-time download_count.
+
+    Args:
+        downloads_by_release: List of per-release entries (each with 'tag',
+            'downloads', optional 'windows'/'macos'/'linux', and 'published_at').
+
+    Returns:
+        A list of rows, each {tag, windows, macos, linux, total, published}.
+    """
+    if not downloads_by_release:
+        return []
+
+    ordered = sorted(
+        downloads_by_release,
+        key=lambda r: r.get('published_at') or '',
+        reverse=True,
+    )
+    return [
+        {
+            'tag': r.get('tag', '?'),
+            'windows': r.get('windows', 0),
+            'macos': r.get('macos', 0),
+            'linux': r.get('linux', 0),
+            'total': r.get('downloads', 0),
+            'published': (r.get('published_at') or '')[:10],
+        }
+        for r in ordered
+    ]
+
+
 def create_graph(dates: List[str], values: List[int], title: str, ylabel: str,
                  filename: str, color: str = 'blue', figsize: Tuple[int, int] = None) -> None:
     """
@@ -1367,6 +1404,24 @@ def generate_readme(history_data: Dict[str, Any]) -> None:
                     f"**{lr_downloads}** download{'s' if lr_downloads != 1 else ''}"
                     f"{lr_published_str}\n\n"
                 )
+
+            # Collapsed per-version download breakdown (newest first), if available.
+            # Rendered as an HTML <details> block so it stays collapsed until clicked.
+            breakdown_rows = get_release_breakdown(downloads_by_release)
+            if breakdown_rows:
+                md += "<details>\n"
+                md += (
+                    f"<summary><strong>\U0001f4e6 Per-version downloads</strong> "
+                    f"({len(breakdown_rows)} releases - click to expand)</summary>\n\n"
+                )
+                md += "| Release | \U0001fa9f Windows | \U0001f34e macOS | \U0001f427 Linux | Total |\n"
+                md += "|---------|-----------|----------|----------|-------|\n"
+                for row in breakdown_rows:
+                    md += (
+                        f"| {row['tag']} | {row['windows']} | {row['macos']} | "
+                        f"{row['linux']} | **{row['total']}** |\n"
+                    )
+                md += "\n</details>\n\n"
 
             # Architecture breakdown table (lifetime), if available
             if downloads_by_arch:

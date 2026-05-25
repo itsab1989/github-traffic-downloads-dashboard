@@ -345,11 +345,16 @@ jobs:
 
             echo "Release downloads for $repo: total=$downloads_total windows=$downloads_windows macos=$downloads_macos linux=$downloads_linux"
 
-            # Per-release lifetime totals (for the "top releases by downloads" table).
+            # Per-release lifetime totals (for the "top releases by downloads" table
+            # and the collapsible per-version breakdown). "downloads" is the all-asset
+            # total; windows/macos/linux split it by the same name-matching used above.
             # Only the latest snapshot is kept by the merge step, so this does not grow history.json over time.
             downloads_by_release=$(echo "$releases_all" | jq -c '[.[] | {
               tag: .tag_name,
               downloads: ([.assets[]?.download_count] | add // 0),
+              windows: ([.assets[]? | select(.name | test("(?i)windows|win-|\\.exe$|\\.msi$")) | .download_count] | add // 0),
+              macos: ([.assets[]? | select(.name | test("(?i)macos|darwin|osx|\\.dmg$|\\.pkg$")) | .download_count] | add // 0),
+              linux: ([.assets[]? | select(.name | test("(?i)linux|\\.appimage$|\\.deb$|\\.rpm$")) | .download_count] | add // 0),
               published_at: .published_at
             }]')
 
