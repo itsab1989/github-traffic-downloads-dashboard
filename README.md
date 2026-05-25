@@ -1,7 +1,9 @@
 See full Reference and Usage Guide at:
 https://soul-traveller.github.io/github-traffic-dashboard/
 
-# 📊 GitHub Traffic Dashboard
+> This is a modified version of the original [github-traffic-dashboard](https://github.com/soul-traveller/github-traffic-dashboard), extended with platform-specific download statistics (Windows / macOS / Linux).
+
+# 📊 GitHub Traffic & Downloads Dashboard
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 

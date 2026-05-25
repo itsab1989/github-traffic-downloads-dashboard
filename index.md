@@ -1,7 +1,7 @@
-# GitHub Traffic Dashboard - User Guide
+# GitHub Traffic & Downloads Dashboard - User Guide
 
-This is a user guide for the GitHub Traffic Dashboard. It provides instructions on how to use the dashboard and its features. This Reference and Usage Guide can be found at:<br>
-https://soul-traveller.github.io/github-traffic-dashboard/
+This is a user guide for the GitHub Traffic & Downloads Dashboard, a modified version of the original [github-traffic-dashboard](https://github.com/soul-traveller/github-traffic-dashboard) extended with platform-specific download statistics (Windows / macOS / Linux). It provides instructions on how to use the dashboard and its features. This guide can be found at:<br>
+https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 ## Table of Contents
 
