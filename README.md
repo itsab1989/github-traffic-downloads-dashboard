@@ -7,7 +7,7 @@ https://soul-traveller.github.io/github-traffic-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-05-26T14:05:49.362621Z
+**Last Updated:** 2026-05-26T15:32:36.362148Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -162,10 +162,10 @@ Quick navigation to repository statistics:
 
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
-| 🪟 Windows | 7 | 7 | 97 |
+| 🪟 Windows | 8 | 8 | 98 |
 | 🍎 macOS | 42 | 42 | 521 |
 | 🐧 Linux | 0 | 0 | 31 |
-| **All** | **49** | **49** | **649** |
+| **All** | **50** | **50** | **650** |
 
 🆕 **Latest Release:** `v3.8.0-beta.9` - **1** download (published 2026-05-26)
 
@@ -175,7 +175,7 @@ Quick navigation to repository statistics:
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
 | v3.8.0-beta.9 | 0 | 1 | 0 | **1** |
-| v3.7.42 | 0 | 0 | 0 | **0** |
+| v3.7.42 | 1 | 0 | 0 | **1** |
 | v3.8.0-beta.8 | 0 | 0 | 0 | **0** |
 | v3.8.0-beta.6 | 2 | 1 | 0 | **3** |
 | v3.7.41 | 1 | 1 | 0 | **2** |
@@ -353,7 +353,7 @@ Quick navigation to repository statistics:
 
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
-| 🪟 Windows | 22 | 75 | 0 | **97** |
+| 🪟 Windows | 22 | 76 | 0 | **98** |
 | 🍎 macOS | 320 | 137 | 64 | **521** |
 | 🐧 Linux | 8 | 23 | 0 | **31** |
 
