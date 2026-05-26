@@ -7,7 +7,7 @@ https://soul-traveller.github.io/github-traffic-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-05-26T07:50:33.663634Z
+**Last Updated:** 2026-05-26T14:05:49.362621Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -97,9 +97,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 5856 | 1264 |
-| Last 90 Days | 5856 | 1264 |
-| Lifetime | 5856 | 1264 |
+| Last 30 Days | 6086 | 1322 |
+| Last 90 Days | 6086 | 1322 |
+| Lifetime | 6086 | 1322 |
 
 ### 📄 Repeat vs New Clones
 
@@ -109,9 +109,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
 |--------|--------------|----------------|----------------|----------|
-| Last 30 Days | 5856 | 1264 | 4592 | 78.4% |
-| Last 90 Days | 5856 | 1264 | 4592 | 78.4% |
-| Lifetime | 5856 | 1264 | 4592 | 78.4% |
+| Last 30 Days | 6086 | 1322 | 4764 | 78.3% |
+| Last 90 Days | 6086 | 1322 | 4764 | 78.3% |
+| Lifetime | 6086 | 1322 | 4764 | 78.3% |
 
 ### 👀 Views
 
@@ -119,9 +119,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 728 | 231 |
-| Last 90 Days | 728 | 231 |
-| Lifetime | 728 | 231 |
+| Last 30 Days | 825 | 243 |
+| Last 90 Days | 825 | 243 |
+| Lifetime | 825 | 243 |
 
 ### 📞 Referrers
 
@@ -131,16 +131,16 @@ Quick navigation to repository statistics:
 
 | Referrer | Total Views | Unique Visitors |
 |----------|-------------|----------------|
-| github.com | 59 | 13 |
+| github.com | 82 | 14 |
 | dpreview.com | 28 | 11 |
+| reddit.com | 22 | 13 |
 | Google | 15 | 8 |
-| printerknowledge.com | 12 | 7 |
-| forum.luminous-landscape.com | 12 | 5 |
-| reddit.com | 11 | 10 |
+| printerknowledge.com | 13 | 7 |
 | hub.displaycal.net | 11 | 2 |
+| forum.luminous-landscape.com | 8 | 4 |
 | freelists.org | 4 | 1 |
-| Bing | 3 | 2 |
 | com.reddit.frontpage | 2 | 2 |
+| www-printerknowledge-com.translate.goog | 2 | 1 |
 
 ### 👥 Repeat vs New Visitors
 
@@ -150,9 +150,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Views | Unique Visitors | Repeat Visitors | Repeat % |
 |--------|-------------|-----------------|-----------------|----------|
-| Last 30 Days | 728 | 231 | 497 | 68.3% |
-| Last 90 Days | 728 | 231 | 497 | 68.3% |
-| Lifetime | 728 | 231 | 497 | 68.3% |
+| Last 30 Days | 825 | 243 | 582 | 70.5% |
+| Last 90 Days | 825 | 243 | 582 | 70.5% |
+| Lifetime | 825 | 243 | 582 | 70.5% |
 
 ### 📥 Release Downloads
 
@@ -162,20 +162,23 @@ Quick navigation to repository statistics:
 
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
-| 🪟 Windows | 6 | 6 | 96 |
-| 🍎 macOS | 40 | 40 | 519 |
+| 🪟 Windows | 7 | 7 | 97 |
+| 🍎 macOS | 42 | 42 | 521 |
 | 🐧 Linux | 0 | 0 | 31 |
-| **All** | **46** | **46** | **646** |
+| **All** | **49** | **49** | **649** |
 
-🆕 **Latest Release:** `v3.8.0-beta.6` - **3** downloads (published 2026-05-25)
+🆕 **Latest Release:** `v3.8.0-beta.9` - **1** download (published 2026-05-26)
 
 <details>
-<summary><strong>📦 Per-version downloads</strong> (167 releases - click to expand)</summary>
+<summary><strong>📦 Per-version downloads</strong> (170 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
+| v3.8.0-beta.9 | 0 | 1 | 0 | **1** |
+| v3.7.42 | 0 | 0 | 0 | **0** |
+| v3.8.0-beta.8 | 0 | 0 | 0 | **0** |
 | v3.8.0-beta.6 | 2 | 1 | 0 | **3** |
-| v3.7.41 | 0 | 0 | 0 | **0** |
+| v3.7.41 | 1 | 1 | 0 | **2** |
 | v3.8.0-beta.5 | 0 | 0 | 0 | **0** |
 | v3.8.0-beta.4 | 0 | 0 | 0 | **0** |
 | v3.7.40 | 2 | 1 | 0 | **3** |
@@ -350,8 +353,8 @@ Quick navigation to repository statistics:
 
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
-| 🪟 Windows | 22 | 74 | 0 | **96** |
-| 🍎 macOS | 319 | 136 | 64 | **519** |
+| 🪟 Windows | 22 | 75 | 0 | **97** |
+| 🍎 macOS | 320 | 137 | 64 | **521** |
 | 🐧 Linux | 8 | 23 | 0 | **31** |
 
 **Top 10 Releases by Downloads (lifetime):**
