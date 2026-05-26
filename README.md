@@ -7,7 +7,7 @@ https://soul-traveller.github.io/github-traffic-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-05-25T23:03:39.068752Z
+**Last Updated:** 2026-05-26T03:38:35.535375Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -162,18 +162,20 @@ Quick navigation to repository statistics:
 
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
-| 🪟 Windows | 4 | 4 | 94 |
-| 🍎 macOS | 38 | 38 | 517 |
+| 🪟 Windows | 5 | 5 | 95 |
+| 🍎 macOS | 40 | 40 | 519 |
 | 🐧 Linux | 0 | 0 | 31 |
-| **All** | **42** | **42** | **642** |
+| **All** | **45** | **45** | **645** |
 
-🆕 **Latest Release:** `v3.8.0-beta.5` - **0** downloads (published 2026-05-25)
+🆕 **Latest Release:** `v3.8.0-beta.6` - **2** downloads (published 2026-05-25)
 
 <details>
-<summary><strong>📦 Per-version downloads</strong> (165 releases - click to expand)</summary>
+<summary><strong>📦 Per-version downloads</strong> (167 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
+| v3.8.0-beta.6 | 1 | 1 | 0 | **2** |
+| v3.7.41 | 0 | 0 | 0 | **0** |
 | v3.8.0-beta.5 | 0 | 0 | 0 | **0** |
 | v3.8.0-beta.4 | 0 | 0 | 0 | **0** |
 | v3.7.40 | 2 | 1 | 0 | **3** |
@@ -209,7 +211,7 @@ Quick navigation to repository statistics:
 | v3.7.13 | 0 | 2 | 0 | **2** |
 | v3.7.12 | 0 | 1 | 0 | **1** |
 | v3.7.11 | 1 | 1 | 0 | **2** |
-| v3.7.10 | 2 | 5 | 0 | **7** |
+| v3.7.10 | 2 | 6 | 0 | **8** |
 | v3.7.9 | 0 | 10 | 0 | **10** |
 | v3.7.8 | 0 | 9 | 0 | **9** |
 | v3.7.7 | 0 | 4 | 0 | **4** |
@@ -348,8 +350,8 @@ Quick navigation to repository statistics:
 
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
-| 🪟 Windows | 22 | 72 | 0 | **94** |
-| 🍎 macOS | 318 | 135 | 64 | **517** |
+| 🪟 Windows | 22 | 73 | 0 | **95** |
+| 🍎 macOS | 319 | 136 | 64 | **519** |
 | 🐧 Linux | 8 | 23 | 0 | **31** |
 
 **Top 10 Releases by Downloads (lifetime):**
