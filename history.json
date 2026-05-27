@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-27T19:26:09Z",
-    "last_updated": "2026-05-27T19:26:13.871099Z",
+    "generated_at": "2026-05-27T21:56:02Z",
+    "last_updated": "2026-05-27T21:56:07.211741Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2625,7 +2625,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-05-27T19:26:13Z",
+        "last_fetched": "2026-05-27T21:56:07Z",
         "clones_total": 6212,
         "clones_unique_total": 1356,
         "views_total": 871,
@@ -2668,24 +2668,32 @@
           },
           {
             "date": "2026-05-27",
-            "cumulative_total": 669,
-            "downloads_total": 15,
-            "cumulative_windows": 113,
-            "downloads_windows": 13,
-            "cumulative_macos": 525,
-            "downloads_macos": 2,
+            "cumulative_total": 672,
+            "downloads_total": 18,
+            "cumulative_windows": 115,
+            "downloads_windows": 15,
+            "cumulative_macos": 526,
+            "downloads_macos": 3,
             "cumulative_linux": 31,
             "downloads_linux": 0
           }
         ],
         "metadata": {
-          "last_fetched": "2026-05-27T19:26:13Z",
-          "cumulative_total": 669,
-          "cumulative_windows": 113,
-          "cumulative_macos": 525,
+          "last_fetched": "2026-05-27T21:56:07Z",
+          "cumulative_total": 672,
+          "cumulative_windows": 115,
+          "cumulative_macos": 526,
           "cumulative_linux": 31
         },
         "by_release": [
+          {
+            "tag": "v3.8.0-beta.15",
+            "downloads": 3,
+            "windows": 2,
+            "macos": 1,
+            "linux": 0,
+            "published_at": "2026-05-27T20:15:24Z"
+          },
           {
             "tag": "v3.8.0-beta.14",
             "downloads": 7,
@@ -4090,10 +4098,10 @@
         "by_arch": {
           "windows": {
             "arm64": 22,
-            "x86_64": 91
+            "x86_64": 93
           },
           "macos": {
-            "arm64": 322,
+            "arm64": 323,
             "universal": 65,
             "x86_64": 138
           },
