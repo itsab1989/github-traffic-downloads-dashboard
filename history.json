@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-28T07:59:54Z",
-    "last_updated": "2026-05-28T07:59:58.288080Z",
+    "generated_at": "2026-05-28T11:48:35Z",
+    "last_updated": "2026-05-28T11:48:39.482300Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2559,10 +2559,10 @@
         },
         {
           "date": "2026-05-27",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
+          "clones_total": 285,
+          "clones_unique": 75,
+          "views_total": 33,
+          "views_unique": 7
         },
         {
           "date": "2026-05-28",
@@ -2575,12 +2575,12 @@
       "referrers": [
         {
           "referrer": "github.com",
-          "count": 87,
-          "uniques": 14
+          "count": 85,
+          "uniques": 13
         },
         {
           "referrer": "reddit.com",
-          "count": 36,
+          "count": 37,
           "uniques": 14
         },
         {
@@ -2589,29 +2589,29 @@
           "uniques": 11
         },
         {
-          "referrer": "printerknowledge.com",
+          "referrer": "hub.displaycal.net",
           "count": 13,
-          "uniques": 7
+          "uniques": 3
+        },
+        {
+          "referrer": "printerknowledge.com",
+          "count": 12,
+          "uniques": 6
         },
         {
           "referrer": "Google",
-          "count": 11,
-          "uniques": 7
-        },
-        {
-          "referrer": "hub.displaycal.net",
-          "count": 11,
-          "uniques": 2
-        },
-        {
-          "referrer": "forum.luminous-landscape.com",
-          "count": 7,
-          "uniques": 4
+          "count": 10,
+          "uniques": 6
         },
         {
           "referrer": "freelists.org",
           "count": 4,
           "uniques": 1
+        },
+        {
+          "referrer": "forum.luminous-landscape.com",
+          "count": 3,
+          "uniques": 3
         },
         {
           "referrer": "com.reddit.frontpage",
@@ -2625,11 +2625,11 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-05-28T07:59:58Z",
-        "clones_total": 6212,
-        "clones_unique_total": 1356,
-        "views_total": 871,
-        "views_unique_total": 250
+        "last_fetched": "2026-05-28T11:48:39Z",
+        "clones_total": 6497,
+        "clones_unique_total": 1431,
+        "views_total": 904,
+        "views_unique_total": 257
       },
       "downloads": {
         "daily_data": [
@@ -2679,21 +2679,21 @@
           },
           {
             "date": "2026-05-28",
-            "cumulative_total": 678,
-            "downloads_total": 4,
-            "cumulative_windows": 118,
-            "downloads_windows": 2,
-            "cumulative_macos": 528,
-            "downloads_macos": 1,
+            "cumulative_total": 681,
+            "downloads_total": 7,
+            "cumulative_windows": 120,
+            "downloads_windows": 4,
+            "cumulative_macos": 529,
+            "downloads_macos": 2,
             "cumulative_linux": 32,
             "downloads_linux": 1
           }
         ],
         "metadata": {
-          "last_fetched": "2026-05-28T07:59:58Z",
-          "cumulative_total": 678,
-          "cumulative_windows": 118,
-          "cumulative_macos": 528,
+          "last_fetched": "2026-05-28T11:48:39Z",
+          "cumulative_total": 681,
+          "cumulative_windows": 120,
+          "cumulative_macos": 529,
           "cumulative_linux": 32
         },
         "by_release": [
@@ -2787,9 +2787,9 @@
           },
           {
             "tag": "v3.7.42",
-            "downloads": 10,
-            "windows": 8,
-            "macos": 2,
+            "downloads": 13,
+            "windows": 10,
+            "macos": 3,
             "linux": 0,
             "published_at": "2026-05-26T13:28:17Z"
           },
@@ -4133,10 +4133,10 @@
         "by_arch": {
           "windows": {
             "arm64": 22,
-            "x86_64": 96
+            "x86_64": 98
           },
           "macos": {
-            "arm64": 325,
+            "arm64": 326,
             "universal": 65,
             "x86_64": 138
           },

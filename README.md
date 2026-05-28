@@ -7,7 +7,7 @@ https://soul-traveller.github.io/github-traffic-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-05-28T07:59:58.288080Z
+**Last Updated:** 2026-05-28T11:48:39.482300Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -97,9 +97,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 6212 | 1356 |
-| Last 90 Days | 6212 | 1356 |
-| Lifetime | 6212 | 1356 |
+| Last 30 Days | 6497 | 1431 |
+| Last 90 Days | 6497 | 1431 |
+| Lifetime | 6497 | 1431 |
 
 ### 📄 Repeat vs New Clones
 
@@ -109,9 +109,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
 |--------|--------------|----------------|----------------|----------|
-| Last 30 Days | 6212 | 1356 | 4856 | 78.2% |
-| Last 90 Days | 6212 | 1356 | 4856 | 78.2% |
-| Lifetime | 6212 | 1356 | 4856 | 78.2% |
+| Last 30 Days | 6497 | 1431 | 5066 | 78.0% |
+| Last 90 Days | 6497 | 1431 | 5066 | 78.0% |
+| Lifetime | 6497 | 1431 | 5066 | 78.0% |
 
 ### 👀 Views
 
@@ -119,9 +119,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 871 | 250 |
-| Last 90 Days | 871 | 250 |
-| Lifetime | 871 | 250 |
+| Last 30 Days | 904 | 257 |
+| Last 90 Days | 904 | 257 |
+| Lifetime | 904 | 257 |
 
 ### 📞 Referrers
 
@@ -131,14 +131,14 @@ Quick navigation to repository statistics:
 
 | Referrer | Total Views | Unique Visitors |
 |----------|-------------|----------------|
-| github.com | 87 | 14 |
-| reddit.com | 36 | 14 |
+| github.com | 85 | 13 |
+| reddit.com | 37 | 14 |
 | dpreview.com | 28 | 11 |
-| printerknowledge.com | 13 | 7 |
-| Google | 11 | 7 |
-| hub.displaycal.net | 11 | 2 |
-| forum.luminous-landscape.com | 7 | 4 |
+| hub.displaycal.net | 13 | 3 |
+| printerknowledge.com | 12 | 6 |
+| Google | 10 | 6 |
 | freelists.org | 4 | 1 |
+| forum.luminous-landscape.com | 3 | 3 |
 | com.reddit.frontpage | 2 | 2 |
 | www-printerknowledge-com.translate.goog | 2 | 1 |
 
@@ -150,9 +150,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Views | Unique Visitors | Repeat Visitors | Repeat % |
 |--------|-------------|-----------------|-----------------|----------|
-| Last 30 Days | 871 | 250 | 621 | 71.3% |
-| Last 90 Days | 871 | 250 | 621 | 71.3% |
-| Lifetime | 871 | 250 | 621 | 71.3% |
+| Last 30 Days | 904 | 257 | 647 | 71.6% |
+| Last 90 Days | 904 | 257 | 647 | 71.6% |
+| Lifetime | 904 | 257 | 647 | 71.6% |
 
 ### 📥 Release Downloads
 
@@ -162,10 +162,10 @@ Quick navigation to repository statistics:
 
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
-| 🪟 Windows | 28 | 28 | 118 |
-| 🍎 macOS | 49 | 49 | 528 |
+| 🪟 Windows | 30 | 30 | 120 |
+| 🍎 macOS | 50 | 50 | 529 |
 | 🐧 Linux | 1 | 1 | 32 |
-| **All** | **78** | **78** | **678** |
+| **All** | **81** | **81** | **681** |
 
 🆕 **Latest Release:** `v3.8.0-beta.18` - **0** downloads (published 2026-05-28)
 
@@ -184,7 +184,7 @@ Quick navigation to repository statistics:
 | v3.8.0-beta.11 | 1 | 0 | 0 | **1** |
 | v3.8.0-beta.10 | 1 | 0 | 0 | **1** |
 | v3.8.0-beta.9 | 1 | 1 | 0 | **2** |
-| v3.7.42 | 8 | 2 | 0 | **10** |
+| v3.7.42 | 10 | 3 | 0 | **13** |
 | v3.8.0-beta.8 | 0 | 0 | 0 | **0** |
 | v3.8.0-beta.6 | 2 | 1 | 0 | **3** |
 | v3.7.41 | 1 | 1 | 0 | **2** |
@@ -362,8 +362,8 @@ Quick navigation to repository statistics:
 
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
-| 🪟 Windows | 22 | 96 | 0 | **118** |
-| 🍎 macOS | 325 | 138 | 65 | **528** |
+| 🪟 Windows | 22 | 98 | 0 | **120** |
+| 🍎 macOS | 326 | 138 | 65 | **529** |
 | 🐧 Linux | 8 | 24 | 0 | **32** |
 
 **Top 10 Releases by Downloads (lifetime):**
@@ -377,9 +377,9 @@ Quick navigation to repository statistics:
 | v3.7.1 | 40 | 2026-05-18 |
 | v3.6.6 | 38 | 2026-05-18 |
 | v3.0.0-beta.10 | 18 | 2026-05-08 |
+| v3.7.42 | 13 | 2026-05-26 |
 | v3.7.5 | 13 | 2026-05-19 |
 | v3.6.0 | 13 | 2026-05-17 |
-| v3.7.42 | 10 | 2026-05-26 |
 
 #### Daily Release Downloads (30 Days)
 
