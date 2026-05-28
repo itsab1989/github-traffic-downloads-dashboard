@@ -7,7 +7,7 @@ https://soul-traveller.github.io/github-traffic-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-05-28T15:59:22.847124Z
+**Last Updated:** 2026-05-28T18:41:13.073575Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -162,19 +162,21 @@ Quick navigation to repository statistics:
 
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
-| 🪟 Windows | 33 | 33 | 123 |
-| 🍎 macOS | 53 | 53 | 532 |
+| 🪟 Windows | 36 | 36 | 126 |
+| 🍎 macOS | 54 | 54 | 533 |
 | 🐧 Linux | 3 | 3 | 34 |
-| **All** | **89** | **89** | **689** |
+| **All** | **93** | **93** | **693** |
 
-🆕 **Latest Release:** `v3.8.0-beta.20` - **8** downloads (published 2026-05-28)
+🆕 **Latest Release:** `v3.8.0-beta.22` - **2** downloads (published 2026-05-28)
 
 <details>
-<summary><strong>📦 Per-version downloads</strong> (181 releases - click to expand)</summary>
+<summary><strong>📦 Per-version downloads</strong> (183 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
-| v3.8.0-beta.20 | 3 | 3 | 2 | **8** |
+| v3.8.0-beta.22 | 1 | 1 | 0 | **2** |
+| v3.8.0-beta.21 | 1 | 0 | 0 | **1** |
+| v3.8.0-beta.20 | 4 | 3 | 2 | **9** |
 | v3.8.0-beta.19 | 0 | 0 | 0 | **0** |
 | v3.8.0-beta.18 | 0 | 0 | 0 | **0** |
 | v3.8.0-beta.17 | 0 | 1 | 1 | **2** |
@@ -364,8 +366,8 @@ Quick navigation to repository statistics:
 
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
-| 🪟 Windows | 23 | 100 | 0 | **123** |
-| 🍎 macOS | 327 | 139 | 66 | **532** |
+| 🪟 Windows | 23 | 103 | 0 | **126** |
+| 🍎 macOS | 328 | 139 | 66 | **533** |
 | 🐧 Linux | 9 | 25 | 0 | **34** |
 
 **Top 10 Releases by Downloads (lifetime):**
