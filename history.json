@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-29T03:41:57Z",
-    "last_updated": "2026-05-29T03:42:01.461544Z",
+    "generated_at": "2026-05-29T07:57:57Z",
+    "last_updated": "2026-05-29T07:58:01.564955Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2625,7 +2625,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-05-29T03:42:01Z",
+        "last_fetched": "2026-05-29T07:58:01Z",
         "clones_total": 6497,
         "clones_unique_total": 1431,
         "views_total": 904,
@@ -2690,10 +2690,10 @@
           },
           {
             "date": "2026-05-29",
-            "cumulative_total": 708,
-            "downloads_total": 15,
-            "cumulative_windows": 130,
-            "downloads_windows": 4,
+            "cumulative_total": 710,
+            "downloads_total": 17,
+            "cumulative_windows": 132,
+            "downloads_windows": 6,
             "cumulative_macos": 540,
             "downloads_macos": 7,
             "cumulative_linux": 38,
@@ -2701,17 +2701,17 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-05-29T03:42:01Z",
-          "cumulative_total": 708,
-          "cumulative_windows": 130,
+          "last_fetched": "2026-05-29T07:58:01Z",
+          "cumulative_total": 710,
+          "cumulative_windows": 132,
           "cumulative_macos": 540,
           "cumulative_linux": 38
         },
         "by_release": [
           {
             "tag": "v3.8.0-beta.26",
-            "downloads": 1,
-            "windows": 0,
+            "downloads": 2,
+            "windows": 1,
             "macos": 1,
             "linux": 0,
             "published_at": "2026-05-29T03:25:01Z"
@@ -2862,8 +2862,8 @@
           },
           {
             "tag": "v3.7.42",
-            "downloads": 13,
-            "windows": 10,
+            "downloads": 14,
+            "windows": 11,
             "macos": 3,
             "linux": 0,
             "published_at": "2026-05-26T13:28:17Z"
@@ -4208,7 +4208,7 @@
         "by_arch": {
           "windows": {
             "arm64": 25,
-            "x86_64": 105
+            "x86_64": 107
           },
           "macos": {
             "arm64": 331,
