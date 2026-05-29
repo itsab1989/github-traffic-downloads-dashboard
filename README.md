@@ -7,7 +7,7 @@ https://soul-traveller.github.io/github-traffic-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-05-29T21:08:27.994207Z
+**Last Updated:** 2026-05-29T23:13:28.627610Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -162,18 +162,19 @@ Quick navigation to repository statistics:
 
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
-| 🪟 Windows | 44 | 44 | 134 |
-| 🍎 macOS | 68 | 68 | 547 |
-| 🐧 Linux | 7 | 7 | 38 |
-| **All** | **119** | **119** | **719** |
+| 🪟 Windows | 46 | 46 | 136 |
+| 🍎 macOS | 74 | 74 | 553 |
+| 🐧 Linux | 9 | 9 | 40 |
+| **All** | **129** | **129** | **729** |
 
-🆕 **Latest Release:** `v3.8.0-beta.31` - **1** download (published 2026-05-29)
+🆕 **Latest Release:** `v3.8.0` - **9** downloads (published 2026-05-29)
 
 <details>
-<summary><strong>📦 Per-version downloads</strong> (192 releases - click to expand)</summary>
+<summary><strong>📦 Per-version downloads</strong> (193 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
+| v3.8.0 | 2 | 5 | 2 | **9** |
 | v3.8.0-beta.31 | 0 | 1 | 0 | **1** |
 | v3.8.0-beta.30 | 0 | 1 | 0 | **1** |
 | v3.8.0-beta.29 | 0 | 1 | 0 | **1** |
@@ -295,7 +296,7 @@ Quick navigation to repository statistics:
 | v3.1.0 | 1 | 1 | 0 | **2** |
 | v3.0.2 | 0 | 1 | 0 | **1** |
 | v3.0.1 | 0 | 0 | 0 | **0** |
-| v3.0.0 | 2 | 3 | 0 | **5** |
+| v3.0.0 | 2 | 4 | 0 | **6** |
 | v3.0.0-beta.10 | 3 | 15 | 0 | **18** |
 | v3.0.0-beta.9 | 0 | 1 | 0 | **1** |
 | v3.0.0-beta.8 | 2 | 1 | 0 | **3** |
@@ -375,9 +376,9 @@ Quick navigation to repository statistics:
 
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
-| 🪟 Windows | 25 | 109 | 0 | **134** |
-| 🍎 macOS | 336 | 143 | 68 | **547** |
-| 🐧 Linux | 11 | 27 | 0 | **38** |
+| 🪟 Windows | 26 | 110 | 0 | **136** |
+| 🍎 macOS | 338 | 144 | 71 | **553** |
+| 🐧 Linux | 12 | 28 | 0 | **40** |
 
 **Top 10 Releases by Downloads (lifetime):**
 
