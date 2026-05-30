@@ -73,6 +73,22 @@ README_HEADER_LEVEL = 1                      # Markdown header level for reposit
 INCLUDE_CUMULATIVE_GRAPHS = True            # Whether to include cumulative graphs
 INCLUDE_SEPARATE_CUMULATIVE = True          # Whether to include separate clones/views cumulative graphs
 
+# Project / Branding Configuration
+# Canonical published location of THIS dashboard's reference guide (its own
+# GitHub Pages site), not the upstream project's.
+DASHBOARD_GUIDE_URL = "https://itsab1989.github.io/github-traffic-downloads-dashboard/"
+# Attribution to the upstream project this is extended from (correct to keep).
+UPSTREAM_NAME = "github-traffic-dashboard"
+UPSTREAM_URL = "https://github.com/soul-traveller/github-traffic-dashboard"
+
+# At-a-glance Configuration
+INCLUDE_BADGES = True                        # shields.io summary badges per repository
+INCLUDE_MOMENTUM = True                      # Week-over-week momentum line
+INCLUDE_FUNNEL = True                        # Views -> Clones -> Downloads engagement funnel
+# Early-life window (days) for the "recent release reception" table. Keep in sync
+# with RELEASE_DAILY_TRACKING_DAYS in merge_history.py (the data it reads from).
+RELEASE_RECEPTION_WINDOW_DAYS = 14
+
 # ============================================================================
 # END OF CONFIGURATION SECTION
 # The following settings typically do not need modification
@@ -552,6 +568,180 @@ def calculate_downloads_lifetime(downloads_daily: List[Dict[str, Any]]) -> Dict[
     return stats
 
 
+def compute_tracking_window(daily_data: List[Dict[str, Any]]) -> Tuple[Optional[str], int]:
+    """
+    Determine when meaningful tracking actually began and how long it spans.
+
+    GitHub's traffic API only returns the last 14 days, and history is zero-filled
+    back a year, so the early part of daily_data is all zeros. The "real" tracking
+    window starts at the first day with any clone or view activity. Reporting this
+    keeps the Lifetime/90-day columns honest when they only reflect a short window.
+
+    Args:
+        daily_data: List of daily data entries (date-sorted, possibly zero-filled)
+
+    Returns:
+        (first_active_date or None, active_days). active_days is inclusive of both
+        ends; 0 if there is no activity yet.
+    """
+    first = None
+    last = None
+    for entry in daily_data:
+        if (entry.get('clones_total', 0) or entry.get('views_total', 0)):
+            date_str = entry.get('date')
+            if date_str:
+                first = first or date_str
+                last = date_str
+    if not first:
+        return None, 0
+    d0 = datetime.strptime(first, '%Y-%m-%d').date()
+    d1 = datetime.strptime(last, '%Y-%m-%d').date()
+    return first, (d1 - d0).days + 1
+
+
+def _pct_change(current: int, previous: int) -> Optional[float]:
+    """Percentage change current vs previous; None when there is no baseline."""
+    if previous == 0:
+        return None
+    return round((current - previous) / previous * 100, 1)
+
+
+def _sum_window(daily_data: List[Dict[str, Any]], field: str,
+                oldest_offset: int, newest_offset: int) -> int:
+    """Sum `field` over days in [today-oldest_offset, today-newest_offset], inclusive."""
+    today = datetime.now(timezone.utc).date()
+    lo = (today - timedelta(days=oldest_offset)).strftime('%Y-%m-%d')
+    hi = (today - timedelta(days=newest_offset)).strftime('%Y-%m-%d')
+    return sum(e.get(field, 0) for e in daily_data
+               if lo <= e.get('date', '') <= hi)
+
+
+def compute_momentum(daily_data: List[Dict[str, Any]],
+                     field: str = 'clones_total') -> Dict[str, Any]:
+    """
+    Week-over-week momentum for a metric: last 7 days (incl. today) vs the prior 7.
+
+    Args:
+        daily_data: Date-sorted daily entries
+        field: Which numeric field to compare (e.g. 'clones_total', 'views_total')
+
+    Returns:
+        {'current': int, 'previous': int, 'delta_pct': float|None}
+    """
+    current = _sum_window(daily_data, field, 6, 0)    # today and the 6 days before
+    previous = _sum_window(daily_data, field, 13, 7)  # the 7 days before that
+    return {'current': current, 'previous': previous,
+            'delta_pct': _pct_change(current, previous)}
+
+
+def compute_funnel(views: int, clones: int, downloads: int) -> Dict[str, Any]:
+    """
+    Engagement funnel ratios across views -> clones -> downloads for a period.
+
+    Views, clones and downloads are independent GitHub metrics, so these are
+    interest ratios rather than a strict per-user funnel - but they answer
+    "of the people who looked, how many took a deeper action?".
+
+    Returns:
+        {'views', 'clones', 'downloads', 'clone_rate', 'download_rate'} where the
+        rates are percentages (float) or None when the denominator is zero.
+    """
+    clone_rate = round(clones / views * 100, 1) if views else None
+    download_rate = round(downloads / clones * 100, 1) if clones else None
+    return {'views': views, 'clones': clones, 'downloads': downloads,
+            'clone_rate': clone_rate, 'download_rate': download_rate}
+
+
+def compute_unclassified(dl_lifetime: Dict[str, int]) -> int:
+    """
+    Downloads counted in the grand total but matched to no platform.
+
+    The fetch sums every asset into 'total' but only filename-matched assets land
+    in windows/macos/linux, so 'total' can exceed their sum. Surfacing the gap
+    explains the discrepancy and flags asset-naming regressions. Clamped at >= 0.
+    """
+    matched = dl_lifetime.get('windows', 0) + dl_lifetime.get('macos', 0) + dl_lifetime.get('linux', 0)
+    return max(0, dl_lifetime.get('total', 0) - matched)
+
+
+def compute_release_reception(by_release_daily: Dict[str, Any]) -> List[Dict[str, Any]]:
+    """
+    Summarize how recently published releases are being adopted in their early life.
+
+    Reads the bounded per-release daily snapshot series (by_release_daily) produced
+    by merge_history. For each tracked release it reports downloads accrued since we
+    first observed it - i.e. early-life reception, comparable across releases of
+    different ages because each is measured over its own tracked window.
+
+    Args:
+        by_release_daily: {tag: {'published_at', 'snapshots': [{date, downloads,
+            windows, macos, linux} ...]}} (snapshots date-sorted)
+
+    Returns:
+        Rows {tag, published, tracked_days, accrued, accrued_windows, accrued_macos,
+        accrued_linux, lifetime}, newest published first. Empty until data accrues.
+    """
+    rows = []
+    for tag, info in (by_release_daily or {}).items():
+        snaps = info.get('snapshots') or []
+        if not snaps:
+            continue
+        first, last = snaps[0], snaps[-1]
+        try:
+            d0 = datetime.strptime(first['date'], '%Y-%m-%d').date()
+            d1 = datetime.strptime(last['date'], '%Y-%m-%d').date()
+            tracked_days = (d1 - d0).days + 1
+        except (ValueError, KeyError):
+            tracked_days = len(snaps)
+        rows.append({
+            'tag': tag,
+            'published': (info.get('published_at') or '')[:10],
+            'tracked_days': tracked_days,
+            'accrued': max(0, last.get('downloads', 0) - first.get('downloads', 0)),
+            'accrued_windows': max(0, last.get('windows', 0) - first.get('windows', 0)),
+            'accrued_macos': max(0, last.get('macos', 0) - first.get('macos', 0)),
+            'accrued_linux': max(0, last.get('linux', 0) - first.get('linux', 0)),
+            'lifetime': last.get('downloads', 0),
+        })
+    rows.sort(key=lambda r: r['published'], reverse=True)
+    return rows
+
+
+def render_badges(repo_name: str, dl_lifetime: Dict[str, int],
+                  stats_lifetime: Dict[str, int], release_count: int) -> str:
+    """
+    Build a row of shields.io static badges summarizing a repository at a glance.
+
+    Uses static badge endpoints (no extra service/auth) so they render anywhere
+    the markdown is shown. Returns a single markdown line.
+    """
+    def badge(label: str, value: Any, color: str) -> str:
+        # shields.io static badge: encode '-' (its field separator) as '--'
+        safe_label = str(label).replace('-', '--').replace(' ', '%20')
+        safe_value = str(value).replace('-', '--').replace(' ', '%20')
+        return (f"![{label}](https://img.shields.io/badge/"
+                f"{safe_label}-{safe_value}-{color})")
+
+    parts = [
+        badge('downloads', dl_lifetime.get('total', 0), '212121'),
+        badge('clones', stats_lifetime.get('clones_total', 0), '2196F3'),
+        badge('views', stats_lifetime.get('views_total', 0), '4CAF50'),
+        badge('releases', release_count, '6f42c1'),
+    ]
+    return " ".join(parts) + "\n\n"
+
+
+def _format_delta(delta_pct: Optional[float]) -> str:
+    """Render a percentage delta with a direction arrow, or a neutral dash."""
+    if delta_pct is None:
+        return "—"
+    if delta_pct > 0:
+        return f"▲ +{delta_pct}%"
+    if delta_pct < 0:
+        return f"▼ {delta_pct}%"
+    return "▬ 0%"
+
+
 def get_latest_release(downloads_by_release: List[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
     """
     Find the most recently published release, regardless of its download count.
@@ -760,12 +950,15 @@ def create_multi_line_graph(dates: List[str], clones: List[int], views: List[int
 
 def create_downloads_graph(dates: List[str], series_by_key: Dict[str, List[int]],
                            title: str, ylabel: str, filename: str,
-                           figsize: Tuple[int, int] = None) -> None:
+                           figsize: Tuple[int, int] = None,
+                           release_dates: List[str] = None) -> None:
     """
     Create a multi-line graph of release downloads split by platform.
 
     Plots one line per entry in DOWNLOAD_SERIES (All, Windows, macOS, Linux),
-    each with its own color and marker, plus a legend.
+    each with its own color and marker, plus a legend. Optionally annotates the
+    x-axis with vertical markers at release publish dates, turning an unexplained
+    download spike into "a release landed here".
 
     Args:
         dates: List of date strings in 'YYYY-MM-DD' format
@@ -774,6 +967,8 @@ def create_downloads_graph(dates: List[str], series_by_key: Dict[str, List[int]]
         ylabel: Label for the y-axis
         filename: Path where the graph image will be saved
         figsize: Figure size as (width, height) tuple (uses GRAPH_FIGSIZE_CUMULATIVE if None)
+        release_dates: Optional list of 'YYYY-MM-DD' publish dates to mark with
+            vertical lines (only those within the plotted date range are drawn)
 
     Raises:
         SystemExit: If graph creation fails (GD009)
@@ -801,6 +996,22 @@ def create_downloads_graph(dates: List[str], series_by_key: Dict[str, List[int]]
                 continue
             plt.plot(dates_dt, values, marker=marker, linewidth=linewidth,
                      markersize=4, color=color, label=label)
+
+        # Mark release publish dates that fall within the plotted range
+        if release_dates and dates_dt:
+            lo, hi = dates_dt[0], dates_dt[-1]
+            seen = set()
+            labelled = False
+            for rd in release_dates:
+                try:
+                    rd_dt = datetime.strptime(rd, '%Y-%m-%d')
+                except (ValueError, TypeError):
+                    continue
+                if lo <= rd_dt <= hi and rd not in seen:
+                    seen.add(rd)
+                    plt.axvline(rd_dt, color='#9C27B0', linestyle='--', linewidth=0.8,
+                                alpha=0.5, label='Release' if not labelled else None)
+                    labelled = True
 
         # Set title and axis labels with configured text color
         plt.title(title, fontsize=14, fontweight='bold', color=TEXT_COLOR)
@@ -834,17 +1045,20 @@ def create_downloads_graph(dates: List[str], series_by_key: Dict[str, List[int]]
         sys.exit(1)
 
 
-def generate_repository_downloads_graphs(repo_name: str, downloads_daily: List[Dict[str, Any]]) -> Dict[str, str]:
+def generate_repository_downloads_graphs(repo_name: str, downloads_daily: List[Dict[str, Any]],
+                                         downloads_by_release: List[Dict[str, Any]] = None) -> Dict[str, str]:
     """
     Generate release-download graphs for a single repository.
 
     Creates two graphs (each split by platform: All, Windows, macOS, Linux):
-    1. Daily downloads (DAILY_GRAPH_DAYS) - per-day downloads derived from snapshots
+    1. Daily downloads (DAILY_GRAPH_DAYS) - per-day downloads derived from snapshots,
+       annotated with vertical markers at release publish dates
     2. Cumulative downloads (lifetime) - all-time running totals
 
     Args:
         repo_name: Full repository name (e.g., 'owner/repo')
         downloads_daily: List of downloads daily entries for the repository
+        downloads_by_release: Optional per-release list (for publish-date markers)
 
     Returns:
         Dictionary mapping graph type to file path:
@@ -854,6 +1068,13 @@ def generate_repository_downloads_graphs(repo_name: str, downloads_daily: List[D
     safe_repo_name = repo_name.replace('/', '_')
     graphs = {}
 
+    # Release publish dates for annotating the daily graph
+    release_dates = [
+        (r.get('published_at') or '')[:10]
+        for r in (downloads_by_release or [])
+        if r.get('published_at')
+    ]
+
     # 1. Daily downloads graph (uses DAILY_GRAPH_DAYS configuration)
     daily_dates, daily_series = get_downloads_daily(downloads_daily, DAILY_GRAPH_DAYS)
     if daily_dates:
@@ -862,7 +1083,8 @@ def generate_repository_downloads_graphs(repo_name: str, downloads_daily: List[D
             f'Daily Release Downloads ({DAILY_GRAPH_DAYS} Days) - {repo_name}',
             'Downloads',
             f'{GRAPHS_DIRECTORY}/{safe_repo_name}_downloads_daily_{DAILY_GRAPH_DAYS}d.png',
-            figsize=GRAPH_FIGSIZE_DAILY
+            figsize=GRAPH_FIGSIZE_DAILY,
+            release_dates=release_dates
         )
         graphs['downloads_daily'] = f'{GRAPHS_DIRECTORY}/{safe_repo_name}_downloads_daily_{DAILY_GRAPH_DAYS}d.png'
 
@@ -1166,12 +1388,12 @@ def generate_readme(history_data: Dict[str, Any]) -> None:
         history_data: Dictionary containing the complete history data with
                       metadata and repositories sections
     """
-    # Reference to user guide
+    # Reference to user guide (this project's own published site)
     md = "See full Reference and Usage Guide at:\n"
-    md += "https://soul-traveller.github.io/github-traffic-dashboard/\n\n"
-    md += ("> This is a modified version of the original "
-           "[github-traffic-dashboard](https://github.com/soul-traveller/github-traffic-dashboard), "
-           "extended with platform-specific download statistics (Windows / macOS / Linux).\n\n")
+    md += f"{DASHBOARD_GUIDE_URL}\n\n"
+    md += (f"> This is a modified version of the original "
+           f"[{UPSTREAM_NAME}]({UPSTREAM_URL}), "
+           f"extended with platform-specific download statistics (Windows / macOS / Linux).\n\n")
 
     # Start with dashboard title and description
     md += "# \U0001f4ca GitHub Traffic & Downloads Dashboard\n\n"
@@ -1278,6 +1500,12 @@ def generate_readme(history_data: Dict[str, Any]) -> None:
         downloads_daily = downloads_section.get('daily_data', [])
         downloads_by_release = downloads_section.get('by_release', [])
         downloads_by_arch = downloads_section.get('by_arch', {})
+        downloads_by_release_daily = downloads_section.get('by_release_daily', {})
+        # Download stats (period + lifetime). Computed once here so the at-a-glance
+        # funnel/momentum and the Release Downloads section share the same figures.
+        dl_short = calculate_downloads_period_stats(downloads_daily, STATS_PERIOD_SHORT_TERM)
+        dl_medium = calculate_downloads_period_stats(downloads_daily, STATS_PERIOD_MEDIUM_TERM)
+        dl_lifetime = calculate_downloads_lifetime(downloads_daily)
         
         # Determine display name based on SHOW_FULL_REPO_NAME configuration
         if SHOW_FULL_REPO_NAME:
@@ -1309,6 +1537,30 @@ def generate_readme(history_data: Dict[str, Any]) -> None:
 
         # Calculate repeat vs new clone statistics
         repeat_clones_stats = calculate_repeat_vs_new_clones_stats(daily_data)
+
+        # ---- At a glance: badges, tracking window, week-over-week momentum ----
+        if INCLUDE_BADGES:
+            md += render_badges(repo_name, dl_lifetime, stats_lifetime, len(downloads_by_release))
+
+        first_active, active_days = compute_tracking_window(daily_data)
+        if first_active:
+            md += (f"*Tracking since **{first_active}** ({active_days} active "
+                   f"day{'s' if active_days != 1 else ''}). Where the 90-day and "
+                   f"Lifetime columns match the {STATS_PERIOD_SHORT_TERM}-day column, "
+                   f"it is because only ~{active_days} days have been tracked so far.*\n\n")
+
+        if INCLUDE_MOMENTUM:
+            mom_clones = compute_momentum(daily_data, 'clones_total')
+            mom_views = compute_momentum(daily_data, 'views_total')
+            mom_downloads = compute_momentum(downloads_daily, 'downloads_total')
+            md += "**This week vs last week:**\n\n"
+            md += "| Metric | This week | Last week | Change |\n"
+            md += "|--------|-----------|-----------|--------|\n"
+            md += f"| Clones | {mom_clones['current']} | {mom_clones['previous']} | {_format_delta(mom_clones['delta_pct'])} |\n"
+            md += f"| Views | {mom_views['current']} | {mom_views['previous']} | {_format_delta(mom_views['delta_pct'])} |\n"
+            if downloads_daily:
+                md += f"| Downloads | {mom_downloads['current']} | {mom_downloads['previous']} | {_format_delta(mom_downloads['delta_pct'])} |\n"
+            md += "\n"
 
         # Add Clones section with emoji
         md += "### \U0001f5c5\ufe0f Clones\n\n"
@@ -1343,7 +1595,28 @@ def generate_readme(history_data: Dict[str, Any]) -> None:
         md += f"| Last {STATS_PERIOD_SHORT_TERM} Days | {stats_short['views_total']} | {stats_short['views_unique']} |\n"
         md += f"| Last {STATS_PERIOD_MEDIUM_TERM} Days | {stats_medium['views_total']} | {stats_medium['views_unique']} |\n"
         md += f"| Lifetime | {stats_lifetime['views_total']} | {stats_lifetime['views_unique']} |\n\n"
-        
+
+        # Add Engagement Ratios (views -> clones -> downloads), last short-term period.
+        # Deliberately not called a "funnel": these are independent GitHub metrics,
+        # and clones frequently exceed views (CI, mirrors, `git clone` without a page
+        # view), so the ratio can exceed 100%.
+        if INCLUDE_FUNNEL:
+            funnel = compute_funnel(
+                stats_short['views_total'], stats_short['clones_total'], dl_short['total'])
+            md += "### \U0001f3af Engagement Ratios\n\n"
+            md += (f"*How interest deepens over the last {STATS_PERIOD_SHORT_TERM} days. "
+                   f"Views, clones and downloads are independent GitHub metrics, so this "
+                   f"is not a strict per-user funnel - clones can exceed views (CI, "
+                   f"mirrors, `git clone` without a page view), which shows up as a "
+                   f"ratio above 100%.*\n\n")
+            md += "| Stage | Count | Ratio to previous stage |\n"
+            md += "|-------|-------|-------------------------|\n"
+            md += f"| \U0001f440 Views | {funnel['views']} | — |\n"
+            clone_rate = f"{funnel['clone_rate']}%" if funnel['clone_rate'] is not None else "—"
+            dl_rate = f"{funnel['download_rate']}%" if funnel['download_rate'] is not None else "—"
+            md += f"| \U0001f5c5️ Clones | {funnel['clones']} | {clone_rate} |\n"
+            md += f"| \U0001f4e5 Downloads | {funnel['downloads']} | {dl_rate} |\n\n"
+
         # Add Referrers section with emoji
         md += "### \U0001f4de Referrers\n\n"
         md += "*Top referrer sources driving traffic to this repository.*\n\n"
@@ -1375,13 +1648,9 @@ def generate_readme(history_data: Dict[str, Any]) -> None:
         md += f"| Last {STATS_PERIOD_MEDIUM_TERM} Days | {repeat_stats['medium_term']['total_views']} | {repeat_stats['medium_term']['unique_visitors']} | {repeat_stats['medium_term']['repeat_visitors']} | {repeat_stats['medium_term']['repeat_percentage']}% |\n"
         md += f"| Lifetime | {repeat_stats['lifetime']['total_views']} | {repeat_stats['lifetime']['unique_visitors']} | {repeat_stats['lifetime']['repeat_visitors']} | {repeat_stats['lifetime']['repeat_percentage']}% |\n\n"
 
-        # Add Release Downloads section (table + per-platform graphs), if tracked
+        # Add Release Downloads section (table + per-platform graphs), if tracked.
+        # dl_short / dl_medium / dl_lifetime were computed above for the funnel.
         if INCLUDE_DOWNLOADS and downloads_daily:
-            # Calculate per-platform download statistics for each period
-            dl_short = calculate_downloads_period_stats(downloads_daily, STATS_PERIOD_SHORT_TERM)
-            dl_medium = calculate_downloads_period_stats(downloads_daily, STATS_PERIOD_MEDIUM_TERM)
-            dl_lifetime = calculate_downloads_lifetime(downloads_daily)
-
             md += "### \U0001f4e5 Release Downloads\n\n"
             md += "*Pre-compiled release-asset downloads, split by platform. This is separate from clones.*\n\n"
             md += "*Lifetime totals reflect all-time downloads (GitHub's cumulative counter). "
@@ -1394,6 +1663,14 @@ def generate_readme(history_data: Dict[str, Any]) -> None:
             md += f"| \U0001f34e macOS | {dl_short['macos']} | {dl_medium['macos']} | {dl_lifetime['macos']} |\n"
             md += f"| \U0001f427 Linux | {dl_short['linux']} | {dl_medium['linux']} | {dl_lifetime['linux']} |\n"
             md += f"| **All** | **{dl_short['total']}** | **{dl_medium['total']}** | **{dl_lifetime['total']}** |\n\n"
+
+            # Explain any gap between the All total and the per-platform sum
+            unclassified = compute_unclassified(dl_lifetime)
+            if unclassified > 0:
+                md += (f"*ℹ️ {unclassified} lifetime download"
+                       f"{'s' if unclassified != 1 else ''} are counted in **All** but "
+                       f"matched no platform (the asset filename didn't match the "
+                       f"Windows/macOS/Linux patterns).*\n\n")
 
             # Latest release callout (always shown, even at 0 downloads), if available
             latest_release = get_latest_release(downloads_by_release)
@@ -1449,6 +1726,20 @@ def generate_readme(history_data: Dict[str, Any]) -> None:
                         md += f"| {os_label} | " + " | ".join(cells) + f" | **{row_total}** |\n"
                     md += "\n"
 
+                    # Pruning hint: flag OS/arch builds with a negligible lifetime share
+                    total_dl = dl_lifetime.get('total', 0)
+                    if total_dl > 0:
+                        low = []
+                        for os_key, os_label in os_rows:
+                            row = downloads_by_arch.get(os_key) or {}
+                            for arch, cnt in sorted(row.items()):
+                                share = cnt / total_dl * 100
+                                if 0 < share < 2:
+                                    low.append(f"{os_label} {arch} ({cnt}, {share:.1f}%)")
+                        if low:
+                            md += ("*\U0001f4a1 Low-volume builds (<2% of lifetime downloads), "
+                                   "candidates to stop shipping: " + "; ".join(low) + ".*\n\n")
+
             # Top releases by downloads table (lifetime), if available
             if downloads_by_release:
                 top_releases = sorted(
@@ -1467,9 +1758,27 @@ def generate_readme(history_data: Dict[str, Any]) -> None:
                         md += f"| {tag} | {downloads} | {published} |\n"
                     md += "\n"
 
+            # Recent release reception (early-life adoption), once per-release daily
+            # snapshots have started accruing (by_release_daily from merge_history).
+            reception_rows = compute_release_reception(downloads_by_release_daily)
+            if reception_rows:
+                md += f"**Recent Release Reception (first ~{RELEASE_RECEPTION_WINDOW_DAYS} days):**\n\n"
+                md += (f"*Downloads accrued per release since it was first tracked. Measured "
+                       f"over each release's own early-life window, so a brand-new release "
+                       f"isn't unfairly compared against a mature one. Only releases published "
+                       f"within ~{RELEASE_RECEPTION_WINDOW_DAYS} days appear; this accrues over "
+                       f"time and cannot be backfilled.*\n\n")
+                md += "| Release | Published | Tracked | \U0001fa9f | \U0001f34e | \U0001f427 | Downloads (tracked) |\n"
+                md += "|---------|-----------|---------|----|----|----|---------------------|\n"
+                for r in reception_rows:
+                    md += (f"| {r['tag']} | {r['published']} | {r['tracked_days']}d | "
+                           f"{r['accrued_windows']} | {r['accrued_macos']} | {r['accrued_linux']} | "
+                           f"**{r['accrued']}** |\n")
+                md += "\n"
+
             # Generate and embed download graphs
             print(f"Generating download graphs for {repo_name}...")
-            dl_graphs = generate_repository_downloads_graphs(repo_name, downloads_daily)
+            dl_graphs = generate_repository_downloads_graphs(repo_name, downloads_daily, downloads_by_release)
 
             if 'downloads_daily' in dl_graphs:
                 md += f"#### Daily Release Downloads ({DAILY_GRAPH_DAYS} Days)\n\n"
