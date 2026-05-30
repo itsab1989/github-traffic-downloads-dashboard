@@ -7,7 +7,7 @@ https://soul-traveller.github.io/github-traffic-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-05-30T09:18:36.829302Z
+**Last Updated:** 2026-05-30T11:21:07.548585Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -97,9 +97,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 6638 | 1482 |
-| Last 90 Days | 6638 | 1482 |
-| Lifetime | 6638 | 1482 |
+| Last 30 Days | 6851 | 1513 |
+| Last 90 Days | 6851 | 1513 |
+| Lifetime | 6851 | 1513 |
 
 ### 📄 Repeat vs New Clones
 
@@ -109,9 +109,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
 |--------|--------------|----------------|----------------|----------|
-| Last 30 Days | 6638 | 1482 | 5156 | 77.7% |
-| Last 90 Days | 6638 | 1482 | 5156 | 77.7% |
-| Lifetime | 6638 | 1482 | 5156 | 77.7% |
+| Last 30 Days | 6851 | 1513 | 5338 | 77.9% |
+| Last 90 Days | 6851 | 1513 | 5338 | 77.9% |
+| Lifetime | 6851 | 1513 | 5338 | 77.9% |
 
 ### 👀 Views
 
@@ -119,9 +119,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 938 | 269 |
-| Last 90 Days | 938 | 269 |
-| Lifetime | 938 | 269 |
+| Last 30 Days | 972 | 280 |
+| Last 90 Days | 972 | 280 |
+| Lifetime | 972 | 280 |
 
 ### 📞 Referrers
 
@@ -131,16 +131,16 @@ Quick navigation to repository statistics:
 
 | Referrer | Total Views | Unique Visitors |
 |----------|-------------|----------------|
-| github.com | 72 | 12 |
+| github.com | 68 | 9 |
 | reddit.com | 40 | 14 |
-| dpreview.com | 28 | 11 |
+| dpreview.com | 32 | 14 |
+| printerknowledge.com | 14 | 7 |
 | hub.displaycal.net | 14 | 4 |
-| printerknowledge.com | 13 | 6 |
 | Google | 12 | 8 |
 | freelists.org | 4 | 1 |
-| forum.luminous-landscape.com | 3 | 3 |
 | com.reddit.frontpage | 2 | 2 |
-| www-printerknowledge-com.translate.goog | 2 | 1 |
+| forum.luminous-landscape.com | 2 | 2 |
+| Bing | 1 | 1 |
 
 ### 👥 Repeat vs New Visitors
 
@@ -150,9 +150,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Views | Unique Visitors | Repeat Visitors | Repeat % |
 |--------|-------------|-----------------|-----------------|----------|
-| Last 30 Days | 938 | 269 | 669 | 71.3% |
-| Last 90 Days | 938 | 269 | 669 | 71.3% |
-| Lifetime | 938 | 269 | 669 | 71.3% |
+| Last 30 Days | 972 | 280 | 692 | 71.2% |
+| Last 90 Days | 972 | 280 | 692 | 71.2% |
+| Lifetime | 972 | 280 | 692 | 71.2% |
 
 ### 📥 Release Downloads
 

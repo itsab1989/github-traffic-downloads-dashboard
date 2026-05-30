@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-30T09:18:31Z",
-    "last_updated": "2026-05-30T09:18:36.829302Z",
+    "generated_at": "2026-05-30T11:21:03Z",
+    "last_updated": "2026-05-30T11:21:07.548585Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2559,10 +2559,10 @@
         },
         {
           "date": "2026-05-29",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
+          "clones_total": 213,
+          "clones_unique": 31,
+          "views_total": 34,
+          "views_unique": 11
         },
         {
           "date": "2026-05-30",
@@ -2575,8 +2575,8 @@
       "referrers": [
         {
           "referrer": "github.com",
-          "count": 72,
-          "uniques": 12
+          "count": 68,
+          "uniques": 9
         },
         {
           "referrer": "reddit.com",
@@ -2585,18 +2585,18 @@
         },
         {
           "referrer": "dpreview.com",
-          "count": 28,
-          "uniques": 11
+          "count": 32,
+          "uniques": 14
+        },
+        {
+          "referrer": "printerknowledge.com",
+          "count": 14,
+          "uniques": 7
         },
         {
           "referrer": "hub.displaycal.net",
           "count": 14,
           "uniques": 4
-        },
-        {
-          "referrer": "printerknowledge.com",
-          "count": 13,
-          "uniques": 6
         },
         {
           "referrer": "Google",
@@ -2609,27 +2609,27 @@
           "uniques": 1
         },
         {
-          "referrer": "forum.luminous-landscape.com",
-          "count": 3,
-          "uniques": 3
-        },
-        {
           "referrer": "com.reddit.frontpage",
           "count": 2,
           "uniques": 2
         },
         {
-          "referrer": "www-printerknowledge-com.translate.goog",
+          "referrer": "forum.luminous-landscape.com",
           "count": 2,
+          "uniques": 2
+        },
+        {
+          "referrer": "Bing",
+          "count": 1,
           "uniques": 1
         }
       ],
       "metadata": {
-        "last_fetched": "2026-05-30T09:18:36Z",
-        "clones_total": 6638,
-        "clones_unique_total": 1482,
-        "views_total": 938,
-        "views_unique_total": 269
+        "last_fetched": "2026-05-30T11:21:07Z",
+        "clones_total": 6851,
+        "clones_unique_total": 1513,
+        "views_total": 972,
+        "views_unique_total": 280
       },
       "downloads": {
         "daily_data": [
@@ -2712,7 +2712,7 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-05-30T09:18:36Z",
+          "last_fetched": "2026-05-30T11:21:07Z",
           "cumulative_total": 731,
           "cumulative_windows": 138,
           "cumulative_macos": 553,
