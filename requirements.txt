@@ -1,3 +1,7 @@
 # Python dependencies for the traffic dashboard scripts.
-# Only matplotlib is imported directly; numpy is pulled in transitively.
+#
+# The default dashboard (interactive charts via dashboard.html + chart-data.json)
+# is pure standard library and needs NOTHING here. matplotlib is only required for
+# the optional legacy static-PNG mode (INCLUDE_GRAPHS=True in generate_dashboard.py);
+# it is imported lazily, so the scripts and tests run fine without it installed.
 matplotlib>=3.7

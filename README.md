@@ -1,5 +1,5 @@
 See full Reference and Usage Guide at:
-https://soul-traveller.github.io/github-traffic-dashboard/
+https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 > This is a modified version of the original [github-traffic-dashboard](https://github.com/soul-traveller/github-traffic-dashboard), extended with platform-specific download statistics (Windows / macOS / Linux).
 
@@ -91,6 +91,18 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
+![downloads](https://img.shields.io/badge/downloads-745-212121) ![clones](https://img.shields.io/badge/clones-6851-2196F3) ![views](https://img.shields.io/badge/views-972-4CAF50) ![releases](https://img.shields.io/badge/releases-195-6f42c1)
+
+*Tracking since **2026-05-02** (28 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~28 days have been tracked so far.*
+
+**This week vs last week:**
+
+| Metric | This week | Last week | Change |
+|--------|-----------|-----------|--------|
+| Clones | 1133 | 2217 | ▼ -48.9% |
+| Views | 264 | 229 | ▲ +15.3% |
+| Downloads | 145 | 0 | — |
+
 ### 🗅️ Clones
 
 *Repository clone statistics showing total and unique clones over different time periods.*
@@ -122,6 +134,16 @@ Quick navigation to repository statistics:
 | Last 30 Days | 972 | 280 |
 | Last 90 Days | 972 | 280 |
 | Lifetime | 972 | 280 |
+
+### 🎯 Engagement Ratios
+
+*How interest deepens over the last 30 days. Views, clones and downloads are independent GitHub metrics, so this is not a strict per-user funnel - clones can exceed views (CI, mirrors, `git clone` without a page view), which shows up as a ratio above 100%.*
+
+| Stage | Count | Ratio to previous stage |
+|-------|-------|-------------------------|
+| 👀 Views | 972 | — |
+| 🗅️ Clones | 6851 | 704.8% |
+| 📥 Downloads | 145 | 2.1% |
 
 ### 📞 Referrers
 
@@ -382,6 +404,8 @@ Quick navigation to repository statistics:
 | 🍎 macOS | 342 | 144 | 75 | **561** |
 | 🐧 Linux | 12 | 28 | 0 | **40** |
 
+*💡 Low-volume builds (<2% of lifetime downloads), candidates to stop shipping: 🐧 Linux arm64 (12, 1.6%).*
+
 **Top 10 Releases by Downloads (lifetime):**
 
 | Release | Downloads | Published |
@@ -397,57 +421,11 @@ Quick navigation to repository statistics:
 | v3.7.42 | 15 | 2026-05-26 |
 | v3.7.5 | 13 | 2026-05-19 |
 
-#### Daily Release Downloads (30 Days)
+### 📈 Interactive Charts
 
-*Per-day downloads for the last 30 days, by platform. Useful for spotting download spikes after new releases.*
+*Clones/views and per-platform download charts - with hover tooltips, dark mode, and release-date markers - are rendered live on the dashboard page (GitHub can't run the charts inside this README):*
 
-![Daily Downloads 30 Days](graphs/itsab1989_ChromIQ_downloads_daily_30d.png)
-
-#### Cumulative Release Downloads (Lifetime)
-
-*All-time running download totals by platform. Useful for seeing overall adoption per platform.*
-
-![Cumulative Downloads](graphs/itsab1989_ChromIQ_downloads_cumulative.png)
-
-### 📈 Traffic Graphs
-
-*Visual representations of traffic trends over different time periods.*
-
-#### Daily Traffic (30 Days)
-
-*Shows daily clones and views trends for the last 30 days. Useful for identifying short-term patterns and recent activity spikes.*
-
-![Daily 30 Days](graphs/itsab1989_ChromIQ_daily_30d.png)
-
-#### Weekly Traffic (12 Weeks)
-
-*Shows weekly aggregated clones and views for the last 12 weeks (~3 months). Useful for identifying medium-term trends and seasonal patterns.*
-
-![Weekly 12 Weeks](graphs/itsab1989_ChromIQ_weekly_12m.png)
-
-#### Bi-Weekly Traffic (26 Periods)
-
-*Shows bi-weekly aggregated clones and views for the last 26 periods (~1 year). Useful for identifying long-term trends and yearly patterns.*
-
-![Bi-Weekly 26 Periods](graphs/itsab1989_ChromIQ_biweekly_26y.png)
-
-#### Cumulative Traffic (Lifetime)
-
-*Shows running totals of both clones and views over the entire lifetime of tracking. Useful for seeing overall growth and total adoption.*
-
-![Cumulative](graphs/itsab1989_ChromIQ_cumulative.png)
-
-#### Separate Cumulative Graphs
-
-*Individual cumulative graphs for clones and views, allowing for easier comparison between the two metrics.*
-
-**Cumulative Clones:**
-
-![Cumulative Clones](graphs/itsab1989_ChromIQ_cumulative_clones.png)
-
-**Cumulative Views:**
-
-![Cumulative Views](graphs/itsab1989_ChromIQ_cumulative_views.png)
+📊 **[Open the interactive dashboard →](https://itsab1989.github.io/github-traffic-downloads-dashboard/dashboard.html#chromiq)**
 
 ---
 

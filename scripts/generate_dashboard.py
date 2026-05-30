@@ -89,6 +89,18 @@ INCLUDE_FUNNEL = True                        # Views -> Clones -> Downloads enga
 # with RELEASE_DAILY_TRACKING_DAYS in merge_history.py (the data it reads from).
 RELEASE_RECEPTION_WINDOW_DAYS = 14
 
+# Charts Configuration
+# INCLUDE_CHARTS writes an interactive chart-data JSON (read by dashboard.html)
+# and links the README to that JS-rendered page. GitHub's README view can't run
+# JavaScript, so the interactive charts live on the GitHub Pages site and the
+# README links out to them. INCLUDE_GRAPHS keeps the legacy static matplotlib
+# PNGs (off by default now that interactive charts replace them).
+INCLUDE_CHARTS = True
+INCLUDE_GRAPHS = False
+CHART_DATA_PATH = "assets/chart-data.json"   # Written relative to the repo root
+# Live URL of the interactive dashboard page (GitHub Pages), linked from the README
+CHARTS_PAGE_URL = "https://itsab1989.github.io/github-traffic-downloads-dashboard/dashboard.html"
+
 # ============================================================================
 # END OF CONFIGURATION SECTION
 # The following settings typically do not need modification
@@ -105,9 +117,17 @@ from datetime import datetime, timedelta, timezone  # For date calculations (UTC
 # Type hints for better code documentation
 from typing import Dict, List, Any, Tuple, Optional  # For type annotations
 
-# Plotting libraries
-import matplotlib.pyplot as plt  # For creating graphs
-import matplotlib.dates as mdates  # For date formatting in graphs
+# Plotting libraries (optional). Only the legacy static-PNG path (INCLUDE_GRAPHS)
+# needs matplotlib; the default interactive-charts path does not. Importing it
+# lazily keeps the module - and its tests - usable without matplotlib installed.
+try:
+    import matplotlib
+    matplotlib.use("Agg")  # headless backend (no display needed in CI)
+    import matplotlib.pyplot as plt
+    import matplotlib.dates as mdates
+except ImportError:  # pragma: no cover - only hit when PNG mode is unavailable
+    plt = None
+    mdates = None
 
 
 def load_json_file(filepath: str) -> Dict[str, Any]:
@@ -1776,61 +1796,66 @@ def generate_readme(history_data: Dict[str, Any]) -> None:
                            f"**{r['accrued']}** |\n")
                 md += "\n"
 
-            # Generate and embed download graphs
-            print(f"Generating download graphs for {repo_name}...")
-            dl_graphs = generate_repository_downloads_graphs(repo_name, downloads_daily, downloads_by_release)
+            # Legacy: embed static download PNG graphs (only when INCLUDE_GRAPHS)
+            if INCLUDE_GRAPHS:
+                print(f"Generating download graphs for {repo_name}...")
+                dl_graphs = generate_repository_downloads_graphs(repo_name, downloads_daily, downloads_by_release)
 
-            if 'downloads_daily' in dl_graphs:
-                md += f"#### Daily Release Downloads ({DAILY_GRAPH_DAYS} Days)\n\n"
-                md += f"*Per-day downloads for the last {DAILY_GRAPH_DAYS} days, by platform. Useful for spotting download spikes after new releases.*\n\n"
-                md += f"![Daily Downloads {DAILY_GRAPH_DAYS} Days]({dl_graphs['downloads_daily']})\n\n"
+                if 'downloads_daily' in dl_graphs:
+                    md += f"#### Daily Release Downloads ({DAILY_GRAPH_DAYS} Days)\n\n"
+                    md += f"*Per-day downloads for the last {DAILY_GRAPH_DAYS} days, by platform. Useful for spotting download spikes after new releases.*\n\n"
+                    md += f"![Daily Downloads {DAILY_GRAPH_DAYS} Days]({dl_graphs['downloads_daily']})\n\n"
 
-            if 'downloads_cumulative' in dl_graphs:
-                md += "#### Cumulative Release Downloads (Lifetime)\n\n"
-                md += "*All-time running download totals by platform. Useful for seeing overall adoption per platform.*\n\n"
-                md += f"![Cumulative Downloads]({dl_graphs['downloads_cumulative']})\n\n"
+                if 'downloads_cumulative' in dl_graphs:
+                    md += "#### Cumulative Release Downloads (Lifetime)\n\n"
+                    md += "*All-time running download totals by platform. Useful for seeing overall adoption per platform.*\n\n"
+                    md += f"![Cumulative Downloads]({dl_graphs['downloads_cumulative']})\n\n"
 
-        # Generate all graphs for this repository
-        print(f"Generating graphs for {repo_name}...")
-        graphs = generate_repository_graphs(repo_name, daily_data)
-        
-        # Add Graphs section with emoji
-        md += "### \U0001f4c8 Traffic Graphs\n\n"
-        md += "*Visual representations of traffic trends over different time periods.*\n\n"
-        
-        # Embed Daily Traffic graph if available
-        if 'daily' in graphs:
-            md += f"#### Daily Traffic ({DAILY_GRAPH_DAYS} Days)\n\n"
-            md += f"*Shows daily clones and views trends for the last {DAILY_GRAPH_DAYS} days. Useful for identifying short-term patterns and recent activity spikes.*\n\n"
-            md += f"![Daily {DAILY_GRAPH_DAYS} Days]({graphs['daily']})\n\n"
-        
-        # Embed Weekly Traffic graph if available
-        if 'weekly' in graphs:
-            md += f"#### Weekly Traffic ({WEEKLY_GRAPH_WEEKS} Weeks)\n\n"
-            md += f"*Shows weekly aggregated clones and views for the last {WEEKLY_GRAPH_WEEKS} weeks (~3 months). Useful for identifying medium-term trends and seasonal patterns.*\n\n"
-            md += f"![Weekly {WEEKLY_GRAPH_WEEKS} Weeks]({graphs['weekly']})\n\n"
-        
-        # Embed Bi-Weekly Traffic graph if available
-        if 'biweekly' in graphs:
-            md += f"#### Bi-Weekly Traffic ({BIWEEKLY_GRAPH_PERIODS} Periods)\n\n"
-            md += f"*Shows bi-weekly aggregated clones and views for the last {BIWEEKLY_GRAPH_PERIODS} periods (~1 year). Useful for identifying long-term trends and yearly patterns.*\n\n"
-            md += f"![Bi-Weekly {BIWEEKLY_GRAPH_PERIODS} Periods]({graphs['biweekly']})\n\n"
-        
-        # Embed Cumulative Traffic graph if available and enabled
-        if 'cumulative' in graphs and INCLUDE_CUMULATIVE_GRAPHS:
-            md += "#### Cumulative Traffic (Lifetime)\n\n"
-            md += "*Shows running totals of both clones and views over the entire lifetime of tracking. Useful for seeing overall growth and total adoption.*\n\n"
-            md += f"![Cumulative]({graphs['cumulative']})\n\n"
-        
-        # Embed separate cumulative graphs if available and enabled
-        if 'cumulative_clones' in graphs and 'cumulative_views' in graphs and INCLUDE_SEPARATE_CUMULATIVE:
-            md += "#### Separate Cumulative Graphs\n\n"
-            md += "*Individual cumulative graphs for clones and views, allowing for easier comparison between the two metrics.*\n\n"
-            md += f"**Cumulative Clones:**\n\n"
-            md += f"![Cumulative Clones]({graphs['cumulative_clones']})\n\n"
-            md += f"**Cumulative Views:**\n\n"
-            md += f"![Cumulative Views]({graphs['cumulative_views']})\n\n"
-        
+        # Charts: interactive (linked) or legacy static PNGs (embedded)
+        if INCLUDE_GRAPHS:
+            # Generate and embed static traffic PNG graphs
+            print(f"Generating graphs for {repo_name}...")
+            graphs = generate_repository_graphs(repo_name, daily_data)
+
+            md += "### \U0001f4c8 Traffic Graphs\n\n"
+            md += "*Visual representations of traffic trends over different time periods.*\n\n"
+
+            if 'daily' in graphs:
+                md += f"#### Daily Traffic ({DAILY_GRAPH_DAYS} Days)\n\n"
+                md += f"*Shows daily clones and views trends for the last {DAILY_GRAPH_DAYS} days. Useful for identifying short-term patterns and recent activity spikes.*\n\n"
+                md += f"![Daily {DAILY_GRAPH_DAYS} Days]({graphs['daily']})\n\n"
+
+            if 'weekly' in graphs:
+                md += f"#### Weekly Traffic ({WEEKLY_GRAPH_WEEKS} Weeks)\n\n"
+                md += f"*Shows weekly aggregated clones and views for the last {WEEKLY_GRAPH_WEEKS} weeks (~3 months). Useful for identifying medium-term trends and seasonal patterns.*\n\n"
+                md += f"![Weekly {WEEKLY_GRAPH_WEEKS} Weeks]({graphs['weekly']})\n\n"
+
+            if 'biweekly' in graphs:
+                md += f"#### Bi-Weekly Traffic ({BIWEEKLY_GRAPH_PERIODS} Periods)\n\n"
+                md += f"*Shows bi-weekly aggregated clones and views for the last {BIWEEKLY_GRAPH_PERIODS} periods (~1 year). Useful for identifying long-term trends and yearly patterns.*\n\n"
+                md += f"![Bi-Weekly {BIWEEKLY_GRAPH_PERIODS} Periods]({graphs['biweekly']})\n\n"
+
+            if 'cumulative' in graphs and INCLUDE_CUMULATIVE_GRAPHS:
+                md += "#### Cumulative Traffic (Lifetime)\n\n"
+                md += "*Shows running totals of both clones and views over the entire lifetime of tracking. Useful for seeing overall growth and total adoption.*\n\n"
+                md += f"![Cumulative]({graphs['cumulative']})\n\n"
+
+            if 'cumulative_clones' in graphs and 'cumulative_views' in graphs and INCLUDE_SEPARATE_CUMULATIVE:
+                md += "#### Separate Cumulative Graphs\n\n"
+                md += "*Individual cumulative graphs for clones and views, allowing for easier comparison between the two metrics.*\n\n"
+                md += f"**Cumulative Clones:**\n\n"
+                md += f"![Cumulative Clones]({graphs['cumulative_clones']})\n\n"
+                md += f"**Cumulative Views:**\n\n"
+                md += f"![Cumulative Views]({graphs['cumulative_views']})\n\n"
+        elif INCLUDE_CHARTS:
+            # Interactive charts can't run in GitHub's README (no JS), so link to
+            # the JS-rendered dashboard page instead of embedding static images.
+            md += "### \U0001f4c8 Interactive Charts\n\n"
+            md += ("*Clones/views and per-platform download charts - with hover tooltips, "
+                   "dark mode, and release-date markers - are rendered live on the dashboard "
+                   "page (GitHub can't run the charts inside this README):*\n\n")
+            md += f"\U0001f4ca **[Open the interactive dashboard →]({CHARTS_PAGE_URL}#{anchor})**\n\n"
+
         # Add horizontal separator between repositories
         md += "---\n\n"
     
@@ -1839,6 +1864,87 @@ def generate_readme(history_data: Dict[str, Any]) -> None:
     
     # Save the generated README.md using configured path
     save_file(md, README_FILE_PATH)
+
+
+def build_chart_data(history_data: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Assemble the time-series payload consumed by the interactive dashboard page.
+
+    Reuses the same extraction helpers that fed the matplotlib graphs, so the
+    interactive charts plot exactly the series the PNGs used to: daily/weekly/
+    bi-weekly/cumulative traffic, plus per-platform daily/cumulative downloads
+    and release publish dates (for vertical markers).
+
+    Args:
+        history_data: The full history.json structure.
+
+    Returns:
+        A JSON-serializable dict: {'generated_at', 'repositories': [ ... ]}.
+    """
+    repositories = history_data.get('repositories', {})
+    repo_order = history_data.get('metadata', {}).get('repositories', list(repositories.keys()))
+
+    repos_out = []
+    for repo_name in repo_order:
+        if repo_name not in repositories:
+            continue
+        repo_data = repositories[repo_name]
+        daily_data = repo_data.get('daily_data', [])
+        downloads_section = repo_data.get('downloads', {})
+        downloads_daily = downloads_section.get('daily_data', [])
+        downloads_by_release = downloads_section.get('by_release', [])
+        display = repo_name if SHOW_FULL_REPO_NAME else repo_name.split('/')[-1]
+
+        d_dates, d_clones, d_views = get_daily_data(daily_data, DAILY_GRAPH_DAYS)
+        w_dates, w_clones, w_views = get_weekly_data(daily_data, WEEKLY_GRAPH_WEEKS)
+        b_dates, b_clones, b_views = get_biweekly_data(daily_data, BIWEEKLY_GRAPH_PERIODS)
+        c_dates, c_clones, c_views = get_cumulative_data(daily_data)
+
+        dl_d_dates, dl_d_series = get_downloads_daily(downloads_daily, DAILY_GRAPH_DAYS)
+        dl_c_dates, dl_c_series = get_downloads_cumulative(downloads_daily)
+
+        release_markers = [
+            {'date': (r.get('published_at') or '')[:10], 'tag': r.get('tag', '')}
+            for r in downloads_by_release if r.get('published_at')
+        ]
+
+        repos_out.append({
+            'name': repo_name,
+            'display': display,
+            'anchor': display.lower().replace(' ', '-').replace('_', '-'),
+            'traffic': {
+                'daily': {'dates': d_dates, 'clones': d_clones, 'views': d_views},
+                'weekly': {'dates': w_dates, 'clones': w_clones, 'views': w_views},
+                'biweekly': {'dates': b_dates, 'clones': b_clones, 'views': b_views},
+                'cumulative': {'dates': c_dates, 'clones': c_clones, 'views': c_views},
+            },
+            'downloads': {
+                'has_data': bool(downloads_daily),
+                'daily': dict({'dates': dl_d_dates}, **dl_d_series),
+                'cumulative': dict({'dates': dl_c_dates}, **dl_c_series),
+                'releases': release_markers,
+            },
+            'config': {
+                'daily_days': DAILY_GRAPH_DAYS,
+                'weekly_weeks': WEEKLY_GRAPH_WEEKS,
+                'biweekly_periods': BIWEEKLY_GRAPH_PERIODS,
+            },
+        })
+
+    return {
+        'generated_at': history_data.get('metadata', {}).get('last_updated', ''),
+        'repositories': repos_out,
+    }
+
+
+def write_chart_data(history_data: Dict[str, Any]) -> None:
+    """Write the interactive chart payload to CHART_DATA_PATH (creating its dir)."""
+    data = build_chart_data(history_data)
+    out_dir = os.path.dirname(CHART_DATA_PATH)
+    if out_dir:
+        os.makedirs(out_dir, exist_ok=True)
+    save_file(json.dumps(data, indent=2), CHART_DATA_PATH)
+    print(f"Wrote chart data to {CHART_DATA_PATH}")
 
 
 def main():
@@ -1868,9 +1974,14 @@ def main():
         print("ERROR_CODE: GD008 - history.json missing 'repositories' key", file=sys.stderr)
         sys.exit(1)
     
-    # Ensure the graphs directory exists using GRAPHS_DIRECTORY
-    prepare_graphs_directory()
-    
+    # Ensure the graphs directory exists (only needed for legacy PNG graphs)
+    if INCLUDE_GRAPHS:
+        prepare_graphs_directory()
+
+    # Write the interactive chart-data JSON consumed by dashboard.html
+    if INCLUDE_CHARTS:
+        write_chart_data(history_data)
+
     # Generate README.md with all statistics and embedded graphs
     print(f"Generating {README_FILE_PATH} with graphs...")
     generate_readme(history_data)
