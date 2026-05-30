@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-30T13:40:33Z",
-    "last_updated": "2026-05-30T13:40:36.930060Z",
+    "generated_at": "2026-05-30T15:08:01Z",
+    "last_updated": "2026-05-30T15:08:06.420943Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2625,7 +2625,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-05-30T13:40:36Z",
+        "last_fetched": "2026-05-30T15:08:06Z",
         "clones_total": 6851,
         "clones_unique_total": 1513,
         "views_total": 972,
@@ -2701,21 +2701,21 @@
           },
           {
             "date": "2026-05-30",
-            "cumulative_total": 739,
-            "downloads_total": 10,
+            "cumulative_total": 741,
+            "downloads_total": 12,
             "cumulative_windows": 142,
             "downloads_windows": 6,
-            "cumulative_macos": 557,
-            "downloads_macos": 4,
+            "cumulative_macos": 559,
+            "downloads_macos": 6,
             "cumulative_linux": 40,
             "downloads_linux": 0
           }
         ],
         "metadata": {
-          "last_fetched": "2026-05-30T13:40:36Z",
-          "cumulative_total": 739,
+          "last_fetched": "2026-05-30T15:08:06Z",
+          "cumulative_total": 741,
           "cumulative_windows": 142,
-          "cumulative_macos": 557,
+          "cumulative_macos": 559,
           "cumulative_linux": 40
         },
         "by_release": [
@@ -3313,9 +3313,9 @@
           },
           {
             "tag": "v3.6.7",
-            "downloads": 46,
+            "downloads": 48,
             "windows": 3,
-            "macos": 40,
+            "macos": 42,
             "linux": 3,
             "published_at": "2026-05-18T15:57:21Z"
           },
@@ -4270,8 +4270,8 @@
             "x86_64": 116
           },
           "macos": {
-            "arm64": 339,
-            "universal": 74,
+            "arm64": 340,
+            "universal": 75,
             "x86_64": 144
           },
           "linux": {
