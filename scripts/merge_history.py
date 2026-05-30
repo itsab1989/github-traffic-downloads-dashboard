@@ -267,6 +267,106 @@ def calculate_totals(daily_data: List[Dict[str, Any]]) -> Dict[str, int]:
 # downloads_<platform> in the downloads daily_data entries.
 DOWNLOAD_PLATFORMS = ['total', 'windows', 'macos', 'linux']
 
+# How long (in days after a release's publish date) we keep per-release daily
+# download snapshots in 'by_release_daily'. This bounds the size of history.json:
+# only releases still inside this early-life window carry a daily series; older
+# releases keep just their lifetime total in 'by_release'. The window is what
+# powers "downloads in the first N days" reception analysis.
+#
+# Kept deliberately short: a release only stays tracked for ~this many days, so
+# storage is bounded by (releases published in the window) x (window days) and
+# does NOT grow with the repo's total release count over time. Repos with very
+# high release cadence (e.g. an automated tagger) rely on this bound, so raise
+# it only with that growth in mind.
+RELEASE_DAILY_TRACKING_DAYS = 14
+
+# Per-release fields snapshotted in 'by_release_daily' (cumulative download_count
+# split the same way as the platform totals).
+RELEASE_SNAPSHOT_FIELDS = ['downloads', 'windows', 'macos', 'linux']
+
+
+def _release_published_date(published_at: str):
+    """Parse the YYYY-MM-DD date out of an ISO published_at string, or None."""
+    if not published_at:
+        return None
+    try:
+        return datetime.strptime(published_at[:10], '%Y-%m-%d').date()
+    except (ValueError, TypeError):
+        return None
+
+
+def merge_release_daily(existing_by_release_daily: Dict[str, Any],
+                        new_by_release: List[Dict[str, Any]],
+                        as_of_date: str) -> Dict[str, Any]:
+    """
+    Maintain a bounded per-release daily snapshot series.
+
+    ## Why
+
+    'by_release' only stores each release's *latest* cumulative download_count,
+    so once a release is published we can never reconstruct how its downloads
+    accrued over time. This function records a dated snapshot of each young
+    release's cumulative counts on every run, which is what makes reception
+    ("downloads in the first 7/14 days") and decay analysis possible.
+
+    ## Bounding
+
+    Only releases whose age (as_of_date - published_at) is within
+    RELEASE_DAILY_TRACKING_DAYS keep a daily series; older releases are dropped
+    from this structure (their lifetime totals still live in 'by_release'). This
+    keeps history.json from growing without bound, since the snapshot count per
+    release is capped by the early-life window.
+
+    Args:
+        existing_by_release_daily: Prior structure (tag -> {published_at, snapshots})
+        new_by_release: Latest per-release lifetime snapshot (each with tag,
+            downloads, windows/macos/linux, published_at)
+        as_of_date: Snapshot date (YYYY-MM-DD) for the new data
+
+    Returns:
+        Updated structure: {tag: {'published_at': str, 'snapshots': [
+            {'date', 'downloads', 'windows', 'macos', 'linux'} ...]}}, snapshots
+        sorted by date.
+    """
+    existing_by_release_daily = existing_by_release_daily or {}
+    new_by_release = new_by_release or []
+
+    as_of = _release_published_date(as_of_date)
+
+    # Start from existing snapshots, indexed by tag then by date for dedup.
+    result: Dict[str, Any] = {}
+    for tag, info in existing_by_release_daily.items():
+        snaps = {s['date']: s for s in info.get('snapshots', []) if s.get('date')}
+        result[tag] = {'published_at': info.get('published_at', ''), 'snapshots': snaps}
+
+    # Overlay today's snapshot for each release in the fresh fetch.
+    if as_of_date:
+        for rel in new_by_release:
+            tag = rel.get('tag')
+            if not tag:
+                continue
+            published_at = rel.get('published_at') or ''
+            entry = result.setdefault(tag, {'published_at': published_at, 'snapshots': {}})
+            if published_at:
+                entry['published_at'] = published_at
+            snapshot = {'date': as_of_date}
+            for field in RELEASE_SNAPSHOT_FIELDS:
+                snapshot[field] = int(rel.get(field, 0) or 0)
+            entry['snapshots'][as_of_date] = snapshot
+
+    # Drop releases that have aged out of the early-life window, and flatten
+    # the per-date dicts back into sorted lists.
+    pruned: Dict[str, Any] = {}
+    for tag, info in result.items():
+        published = _release_published_date(info.get('published_at', ''))
+        if published and as_of and (as_of - published).days > RELEASE_DAILY_TRACKING_DAYS:
+            continue
+        snapshots = sorted(info['snapshots'].values(), key=lambda s: s['date'])
+        if snapshots:
+            pruned[tag] = {'published_at': info.get('published_at', ''), 'snapshots': snapshots}
+
+    return pruned
+
 
 def _cumulative_snapshot(entry: Dict[str, Any]) -> Dict[str, int]:
     """Extract the per-platform cumulative counts from a downloads entry."""
@@ -311,7 +411,9 @@ def merge_downloads(existing_downloads: Dict[str, Any], new_downloads: Dict[str,
     Returns:
         Dictionary with 'daily_data' (per-day deltas + cumulative snapshots),
         'metadata' (latest cumulative totals), 'by_release' (latest per-release
-        lifetime totals) and 'by_arch' (latest per-OS/per-arch lifetime totals).
+        lifetime totals), 'by_arch' (latest per-OS/per-arch lifetime totals) and
+        'by_release_daily' (bounded per-release daily snapshot series for young
+        releases - see merge_release_daily).
     """
     existing_downloads = existing_downloads or {}
     new_downloads = new_downloads or {}
@@ -321,6 +423,16 @@ def merge_downloads(existing_downloads: Dict[str, Any], new_downloads: Dict[str,
     # part of the per-day series, so they do not accumulate over time.
     by_release = new_downloads.get('by_release', existing_downloads.get('by_release', []))
     by_arch = new_downloads.get('by_arch', existing_downloads.get('by_arch', {}))
+
+    # Per-release daily snapshots: a bounded time series (young releases only)
+    # that lets us reconstruct how each release's downloads accrue over time.
+    # Unlike by_release, this CANNOT be recovered retroactively, so it only
+    # starts accumulating from the first run that records it.
+    by_release_daily = merge_release_daily(
+        existing_downloads.get('by_release_daily', {}),
+        new_downloads.get('by_release', []),
+        new_downloads.get('date', ''),
+    )
 
     # Index existing cumulative snapshots by date
     by_date: Dict[str, Dict[str, int]] = {}
@@ -336,7 +448,8 @@ def merge_downloads(existing_downloads: Dict[str, Any], new_downloads: Dict[str,
 
     # Nothing to merge yet (e.g. first ever run before any snapshot exists)
     if not by_date:
-        return {'daily_data': [], 'metadata': {}, 'by_release': by_release, 'by_arch': by_arch}
+        return {'daily_data': [], 'metadata': {}, 'by_release': by_release,
+                'by_arch': by_arch, 'by_release_daily': by_release_daily}
 
     # Build a continuous daily series from the first to the last snapshot,
     # carrying cumulative values forward across missing days.
@@ -388,7 +501,8 @@ def merge_downloads(existing_downloads: Dict[str, Any], new_downloads: Dict[str,
         'daily_data': daily_data,
         'metadata': metadata,
         'by_release': by_release,
-        'by_arch': by_arch
+        'by_arch': by_arch,
+        'by_release_daily': by_release_daily
     }
 
 
