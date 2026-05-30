@@ -7,7 +7,7 @@ https://soul-traveller.github.io/github-traffic-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-05-30T20:59:07.586199Z
+**Last Updated:** 2026-05-30T22:08:32.841614Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -162,20 +162,21 @@ Quick navigation to repository statistics:
 
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
-| 🪟 Windows | 53 | 53 | 143 |
-| 🍎 macOS | 81 | 81 | 560 |
+| 🪟 Windows | 54 | 54 | 144 |
+| 🍎 macOS | 82 | 82 | 561 |
 | 🐧 Linux | 9 | 9 | 40 |
-| **All** | **143** | **143** | **743** |
+| **All** | **145** | **145** | **745** |
 
-🆕 **Latest Release:** `v3.8.1` - **2** downloads (published 2026-05-30)
+🆕 **Latest Release:** `v3.8.2` - **1** download (published 2026-05-30)
 
 <details>
-<summary><strong>📦 Per-version downloads</strong> (194 releases - click to expand)</summary>
+<summary><strong>📦 Per-version downloads</strong> (195 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
+| v3.8.2 | 0 | 1 | 0 | **1** |
 | v3.8.1 | 1 | 1 | 0 | **2** |
-| v3.8.0 | 8 | 7 | 2 | **17** |
+| v3.8.0 | 9 | 7 | 2 | **18** |
 | v3.8.0-beta.31 | 0 | 1 | 0 | **1** |
 | v3.8.0-beta.30 | 0 | 1 | 0 | **1** |
 | v3.8.0-beta.29 | 0 | 1 | 0 | **1** |
@@ -377,8 +378,8 @@ Quick navigation to repository statistics:
 
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
-| 🪟 Windows | 26 | 117 | 0 | **143** |
-| 🍎 macOS | 341 | 144 | 75 | **560** |
+| 🪟 Windows | 26 | 118 | 0 | **144** |
+| 🍎 macOS | 342 | 144 | 75 | **561** |
 | 🐧 Linux | 12 | 28 | 0 | **40** |
 
 **Top 10 Releases by Downloads (lifetime):**
@@ -391,8 +392,8 @@ Quick navigation to repository statistics:
 | v3.7.0 | 41 | 2026-05-18 |
 | v3.7.1 | 40 | 2026-05-18 |
 | v3.6.6 | 38 | 2026-05-18 |
+| v3.8.0 | 18 | 2026-05-29 |
 | v3.0.0-beta.10 | 18 | 2026-05-08 |
-| v3.8.0 | 17 | 2026-05-29 |
 | v3.7.42 | 15 | 2026-05-26 |
 | v3.7.5 | 13 | 2026-05-19 |
 
