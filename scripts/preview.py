@@ -3,21 +3,21 @@
 Build and serve a local, browser-viewable preview of the dashboard using FAKE data.
 
 What it does (all inside ./.preview, nothing real is touched):
-1. Ensures a Python with matplotlib is available (reuses .preview/venv, creating
-   and populating it once if the current interpreter lacks matplotlib).
-2. Generates seeded sample data (scripts/generate_sample_history.py).
-3. Runs the real generator (scripts/generate_dashboard.py) with cwd=.preview, so
+1. Generates seeded sample data (scripts/generate_sample_history.py).
+2. Runs the real generator (scripts/generate_dashboard.py) with cwd=.preview, so
    it reads/writes only inside the preview directory.
-4. Drops an index.html that renders the produced README.md the way GitHub would
-   (marked.js + github-markdown-css from a CDN).
-5. Serves .preview over HTTP and opens it in your browser.
+3. Copies the interactive dashboard.html and drops an index.html that renders the
+   produced README.md the way GitHub would (marked.js + github-markdown-css).
+4. Serves .preview over HTTP and opens the interactive charts in your browser.
+
+The default (interactive-charts) dashboard is pure standard library, so no
+dependencies are needed - the browser pulls Chart.js / marked.js from a CDN, so
+internet is only required when actually viewing the page.
 
 Usage:
     python scripts/preview.py            # build + serve on http://localhost:8000
     python scripts/preview.py --port 9000
     python scripts/preview.py --no-serve # just build .preview/, don't serve
-
-Requires internet the first time (to create the venv / load the CDN assets).
 """
 
 import argparse
@@ -66,34 +66,6 @@ INDEX_HTML = """<!doctype html>
 """
 
 
-def _has_matplotlib(python):
-    return subprocess.run(
-        [python, '-c', 'import matplotlib'],
-        stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL
-    ).returncode == 0
-
-
-def resolve_python():
-    """Return a python executable that can import matplotlib, bootstrapping a venv if needed."""
-    if _has_matplotlib(sys.executable):
-        return sys.executable
-
-    venv_dir = os.path.join(PREVIEW_DIR, 'venv')
-    venv_python = os.path.join(venv_dir, 'bin', 'python')
-    if os.name == 'nt':
-        venv_python = os.path.join(venv_dir, 'Scripts', 'python.exe')
-
-    if not _has_matplotlib(venv_python if os.path.exists(venv_python) else sys.executable):
-        if not os.path.exists(venv_python):
-            print("Creating preview venv (.preview/venv)…")
-            subprocess.run([sys.executable, '-m', 'venv', venv_dir], check=True)
-        print("Installing matplotlib into the preview venv (one-time)…")
-        subprocess.run([venv_python, '-m', 'pip', 'install', '-q', '--upgrade', 'pip'], check=True)
-        subprocess.run([venv_python, '-m', 'pip', 'install', '-q',
-                        '-r', os.path.join(REPO_ROOT, 'requirements.txt')], check=True)
-    return venv_python
-
-
 def build(python):
     os.makedirs(os.path.join(PREVIEW_DIR, 'graphs'), exist_ok=True)
     print("Generating sample data…")
@@ -104,14 +76,25 @@ def build(python):
                    cwd=PREVIEW_DIR, check=True)
     with open(os.path.join(PREVIEW_DIR, 'index.html'), 'w') as f:
         f.write(INDEX_HTML)
+    # Copy the interactive charts page so it can read .preview/assets/chart-data.json
+    src = os.path.join(REPO_ROOT, 'dashboard.html')
+    if os.path.exists(src):
+        with open(src) as f:
+            html = f.read()
+        with open(os.path.join(PREVIEW_DIR, 'dashboard.html'), 'w') as f:
+            f.write(html)
     print(f"Preview built in {PREVIEW_DIR}")
 
 
 def serve(port):
     handler = partial(SimpleHTTPRequestHandler, directory=PREVIEW_DIR)
     httpd = ThreadingHTTPServer(('127.0.0.1', port), handler)
-    url = f"http://localhost:{port}/"
-    print(f"\nServing preview at {url}  (Ctrl+C to stop)")
+    base = f"http://localhost:{port}/"
+    # Open the interactive charts page; the README render is at index.html
+    url = base + ('dashboard.html' if os.path.exists(os.path.join(PREVIEW_DIR, 'dashboard.html')) else '')
+    print(f"\nServing preview at {base}  (Ctrl+C to stop)")
+    print(f"  • Interactive charts: {base}dashboard.html")
+    print(f"  • README render:      {base}index.html")
     try:
         webbrowser.open(url)
     except Exception:
@@ -129,8 +112,7 @@ def main():
     parser.add_argument('--no-serve', action='store_true', help="Build .preview/ but don't serve.")
     args = parser.parse_args()
 
-    python = resolve_python()
-    build(python)
+    build(sys.executable)
     if not args.no_serve:
         serve(args.port)
 
