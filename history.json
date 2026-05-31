@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-31T10:58:18Z",
-    "last_updated": "2026-05-31T10:58:18.230435Z",
+    "generated_at": "2026-05-31T12:16:21Z",
+    "last_updated": "2026-05-31T12:16:22.007105Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2559,10 +2559,10 @@
         },
         {
           "date": "2026-05-30",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
+          "clones_total": 331,
+          "clones_unique": 106,
+          "views_total": 61,
+          "views_unique": 12
         },
         {
           "date": "2026-05-31",
@@ -2585,12 +2585,12 @@
         },
         {
           "referrer": "dpreview.com",
-          "count": 32,
-          "uniques": 14
+          "count": 30,
+          "uniques": 13
         },
         {
           "referrer": "printerknowledge.com",
-          "count": 14,
+          "count": 15,
           "uniques": 7
         },
         {
@@ -2600,8 +2600,8 @@
         },
         {
           "referrer": "Google",
-          "count": 12,
-          "uniques": 8
+          "count": 9,
+          "uniques": 7
         },
         {
           "referrer": "freelists.org",
@@ -2619,17 +2619,17 @@
           "uniques": 2
         },
         {
-          "referrer": "Bing",
+          "referrer": "DuckDuckGo",
           "count": 1,
           "uniques": 1
         }
       ],
       "metadata": {
-        "last_fetched": "2026-05-31T10:58:18Z",
-        "clones_total": 6851,
-        "clones_unique_total": 1513,
-        "views_total": 972,
-        "views_unique_total": 280
+        "last_fetched": "2026-05-31T12:16:21Z",
+        "clones_total": 7182,
+        "clones_unique_total": 1619,
+        "views_total": 1033,
+        "views_unique_total": 292
       },
       "downloads": {
         "daily_data": [
@@ -2723,7 +2723,7 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-05-31T10:58:18Z",
+          "last_fetched": "2026-05-31T12:16:21Z",
           "cumulative_total": 748,
           "cumulative_windows": 146,
           "cumulative_macos": 562,
