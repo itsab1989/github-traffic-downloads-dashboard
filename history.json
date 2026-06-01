@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-06-01T00:06:50Z",
-    "last_updated": "2026-06-01T00:06:50.745773Z",
+    "generated_at": "2026-06-01T06:03:25Z",
+    "last_updated": "2026-06-01T06:03:25.194505Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2559,10 +2559,10 @@
         },
         {
           "date": "2026-05-31",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
+          "clones_total": 43,
+          "clones_unique": 14,
+          "views_total": 14,
+          "views_unique": 10
         },
         {
           "date": "2026-06-01",
@@ -2575,8 +2575,8 @@
       "referrers": [
         {
           "referrer": "github.com",
-          "count": 68,
-          "uniques": 9
+          "count": 61,
+          "uniques": 10
         },
         {
           "referrer": "reddit.com",
@@ -2585,13 +2585,13 @@
         },
         {
           "referrer": "dpreview.com",
-          "count": 30,
-          "uniques": 13
+          "count": 22,
+          "uniques": 8
         },
         {
           "referrer": "printerknowledge.com",
           "count": 15,
-          "uniques": 7
+          "uniques": 6
         },
         {
           "referrer": "hub.displaycal.net",
@@ -2600,13 +2600,13 @@
         },
         {
           "referrer": "Google",
-          "count": 9,
-          "uniques": 7
+          "count": 10,
+          "uniques": 8
         },
         {
           "referrer": "freelists.org",
-          "count": 4,
-          "uniques": 1
+          "count": 5,
+          "uniques": 2
         },
         {
           "referrer": "com.reddit.frontpage",
@@ -2625,11 +2625,11 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-06-01T00:06:50Z",
-        "clones_total": 7182,
-        "clones_unique_total": 1619,
-        "views_total": 1033,
-        "views_unique_total": 292
+        "last_fetched": "2026-06-01T06:03:25Z",
+        "clones_total": 7225,
+        "clones_unique_total": 1633,
+        "views_total": 1047,
+        "views_unique_total": 302
       },
       "downloads": {
         "daily_data": [
@@ -2723,10 +2723,10 @@
           },
           {
             "date": "2026-06-01",
-            "cumulative_total": 751,
-            "downloads_total": 1,
-            "cumulative_windows": 149,
-            "downloads_windows": 1,
+            "cumulative_total": 754,
+            "downloads_total": 4,
+            "cumulative_windows": 152,
+            "downloads_windows": 4,
             "cumulative_macos": 562,
             "downloads_macos": 0,
             "cumulative_linux": 40,
@@ -2734,17 +2734,17 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-06-01T00:06:50Z",
-          "cumulative_total": 751,
-          "cumulative_windows": 149,
+          "last_fetched": "2026-06-01T06:03:25Z",
+          "cumulative_total": 754,
+          "cumulative_windows": 152,
           "cumulative_macos": 562,
           "cumulative_linux": 40
         },
         "by_release": [
           {
             "tag": "v3.8.3",
-            "downloads": 2,
-            "windows": 2,
+            "downloads": 4,
+            "windows": 4,
             "macos": 0,
             "linux": 0,
             "published_at": "2026-05-31T20:52:40Z"
@@ -2767,8 +2767,8 @@
           },
           {
             "tag": "v3.8.0",
-            "downloads": 19,
-            "windows": 10,
+            "downloads": 20,
+            "windows": 11,
             "macos": 7,
             "linux": 2,
             "published_at": "2026-05-29T21:25:08Z"
@@ -4313,7 +4313,7 @@
         "by_arch": {
           "windows": {
             "arm64": 26,
-            "x86_64": 123
+            "x86_64": 126
           },
           "macos": {
             "arm64": 343,
@@ -4397,8 +4397,8 @@
               },
               {
                 "date": "2026-06-01",
-                "downloads": 19,
-                "windows": 10,
+                "downloads": 20,
+                "windows": 11,
                 "macos": 7,
                 "linux": 2
               }
@@ -6392,8 +6392,8 @@
               },
               {
                 "date": "2026-06-01",
-                "downloads": 2,
-                "windows": 2,
+                "downloads": 4,
+                "windows": 4,
                 "macos": 0,
                 "linux": 0
               }
