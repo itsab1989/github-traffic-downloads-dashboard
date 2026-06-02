@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-06-02T00:14:23Z",
-    "last_updated": "2026-06-02T00:14:23.391540Z",
+    "generated_at": "2026-06-02T05:49:08Z",
+    "last_updated": "2026-06-02T05:49:08.264508Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2559,10 +2559,10 @@
         },
         {
           "date": "2026-06-01",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
+          "clones_total": 59,
+          "clones_unique": 25,
+          "views_total": 9,
+          "views_unique": 6
         },
         {
           "date": "2026-06-02",
@@ -2580,18 +2580,18 @@
         },
         {
           "referrer": "reddit.com",
-          "count": 40,
-          "uniques": 14
+          "count": 39,
+          "uniques": 13
         },
         {
           "referrer": "dpreview.com",
-          "count": 22,
-          "uniques": 8
+          "count": 17,
+          "uniques": 7
         },
         {
           "referrer": "printerknowledge.com",
-          "count": 15,
-          "uniques": 6
+          "count": 16,
+          "uniques": 7
         },
         {
           "referrer": "hub.displaycal.net",
@@ -2600,8 +2600,8 @@
         },
         {
           "referrer": "Google",
-          "count": 10,
-          "uniques": 8
+          "count": 8,
+          "uniques": 7
         },
         {
           "referrer": "freelists.org",
@@ -2609,12 +2609,12 @@
           "uniques": 2
         },
         {
-          "referrer": "com.reddit.frontpage",
-          "count": 2,
-          "uniques": 2
+          "referrer": "forum.luminous-landscape.com",
+          "count": 3,
+          "uniques": 3
         },
         {
-          "referrer": "forum.luminous-landscape.com",
+          "referrer": "com.reddit.frontpage",
           "count": 2,
           "uniques": 2
         },
@@ -2625,11 +2625,11 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-06-02T00:14:23Z",
-        "clones_total": 7225,
-        "clones_unique_total": 1633,
-        "views_total": 1047,
-        "views_unique_total": 302
+        "last_fetched": "2026-06-02T05:49:08Z",
+        "clones_total": 7284,
+        "clones_unique_total": 1658,
+        "views_total": 1056,
+        "views_unique_total": 308
       },
       "downloads": {
         "daily_data": [
@@ -2734,24 +2734,32 @@
           },
           {
             "date": "2026-06-02",
-            "cumulative_total": 763,
-            "downloads_total": 0,
+            "cumulative_total": 764,
+            "downloads_total": 1,
             "cumulative_windows": 159,
             "downloads_windows": 0,
-            "cumulative_macos": 564,
-            "downloads_macos": 0,
+            "cumulative_macos": 565,
+            "downloads_macos": 1,
             "cumulative_linux": 40,
             "downloads_linux": 0
           }
         ],
         "metadata": {
-          "last_fetched": "2026-06-02T00:14:23Z",
-          "cumulative_total": 763,
+          "last_fetched": "2026-06-02T05:49:08Z",
+          "cumulative_total": 764,
           "cumulative_windows": 159,
-          "cumulative_macos": 564,
+          "cumulative_macos": 565,
           "cumulative_linux": 40
         },
         "by_release": [
+          {
+            "tag": "v3.8.4",
+            "downloads": 1,
+            "windows": 0,
+            "macos": 1,
+            "linux": 0,
+            "published_at": "2026-06-02T04:41:22Z"
+          },
           {
             "tag": "v3.8.3",
             "downloads": 13,
@@ -4327,7 +4335,7 @@
             "x86_64": 133
           },
           "macos": {
-            "arm64": 345,
+            "arm64": 346,
             "universal": 75,
             "x86_64": 144
           },
@@ -6801,6 +6809,18 @@
                 "downloads": 13,
                 "windows": 11,
                 "macos": 2,
+                "linux": 0
+              }
+            ]
+          },
+          "v3.8.4": {
+            "published_at": "2026-06-02T04:41:22Z",
+            "snapshots": [
+              {
+                "date": "2026-06-02",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
                 "linux": 0
               }
             ]
