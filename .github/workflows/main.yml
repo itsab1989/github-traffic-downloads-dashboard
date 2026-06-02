@@ -26,14 +26,17 @@ name: GitHub Traffic Dashboard
 # ============================================================================
 
 # Trigger the workflow:
-# - Schedule: Run every hour (UTC). history.json, README.md and the interactive
-#   chart payload (assets/chart-data.json) refresh hourly. All committed artifacts
-#   are text now (charts render client-side from JSON), so hourly commits diff
-#   cleanly without the binary PNG bloat the old static graphs caused.
+# - Schedule: Run every 30 minutes (UTC). history.json, README.md, the chart
+#   payload (assets/chart-data.json) and the downloads badge endpoints
+#   (assets/badges/) refresh each run. All committed artifacts are text now
+#   (charts render client-side from JSON), so frequent commits diff cleanly
+#   without the binary PNG bloat the old static graphs caused. 30 min keeps the
+#   downloads badge reasonably fresh; going lower has diminishing returns since
+#   GitHub throttles/delays scheduled crons and shields caches badges for 300s.
 # - Manual: Allow manual trigger via GitHub Actions UI
 on:
   schedule:
-    - cron: "0 * * * *"   # every hour, on the hour (UTC)
+    - cron: "*/30 * * * *"   # every 30 minutes (UTC)
   workflow_dispatch:
 
 # Permissions required for the workflow:
