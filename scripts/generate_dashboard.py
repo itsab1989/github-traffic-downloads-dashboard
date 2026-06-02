@@ -101,6 +101,16 @@ CHART_DATA_PATH = "assets/chart-data.json"   # Written relative to the repo root
 # Live URL of the interactive dashboard page (GitHub Pages), linked from the README
 CHARTS_PAGE_URL = "https://itsab1989.github.io/github-traffic-downloads-dashboard/dashboard.html"
 
+# Per-repo shields.io "endpoint" badge JSON, written under this directory and
+# served from GitHub Pages. Lets an external repo (e.g. the app being tracked)
+# embed an accurate lifetime-downloads badge that reflects ALL releases. Shields'
+# built-in github/downloads badge only sums the most recent 100 releases, so it
+# under-counts repos with many releases; this dashboard already paginates every
+# release, so it can publish the true total. Embed with:
+#   https://img.shields.io/endpoint?url=<pages-url>/assets/badges/<owner>_<repo>-downloads.json
+WRITE_BADGE_ENDPOINTS = True
+BADGES_DIRECTORY = "assets/badges"           # Written relative to the repo root
+
 # ============================================================================
 # END OF CONFIGURATION SECTION
 # The following settings typically do not need modification
@@ -1969,6 +1979,39 @@ def write_chart_data(history_data: Dict[str, Any]) -> None:
     print(f"Wrote chart data to {CHART_DATA_PATH}")
 
 
+def write_badge_endpoints(history_data: Dict[str, Any]) -> None:
+    """
+    Write one shields.io "endpoint" badge JSON per tracked repo.
+
+    Each file exposes the lifetime download total summed across *all* releases,
+    using the same figure as the README's downloads badge. External repos can
+    embed it via shields' endpoint badge to get an accurate count - shields' own
+    github/downloads badge only sums the most recent 100 releases and so
+    under-counts repos with many releases. Filenames mirror the graph naming
+    convention (``owner_repo``) so they're stable and collision-free.
+    """
+    repositories = history_data.get('repositories', {})
+    repo_order = history_data.get('metadata', {}).get(
+        'repositories', list(repositories.keys()))
+    os.makedirs(BADGES_DIRECTORY, exist_ok=True)
+    for repo_name in repo_order:
+        if repo_name not in repositories:
+            continue
+        downloads_daily = repositories[repo_name].get(
+            'downloads', {}).get('daily_data', [])
+        total = calculate_downloads_lifetime(downloads_daily).get('total', 0)
+        payload = {
+            'schemaVersion': 1,
+            'label': 'downloads',
+            'message': str(total),
+            'color': '212121',
+        }
+        safe_repo_name = repo_name.replace('/', '_')
+        path = f"{BADGES_DIRECTORY}/{safe_repo_name}-downloads.json"
+        save_file(json.dumps(payload), path)
+        print(f"Wrote badge endpoint to {path}")
+
+
 def main():
     """
     Main function to generate the GitHub traffic dashboard.
@@ -2003,6 +2046,11 @@ def main():
     # Write the interactive chart-data JSON consumed by dashboard.html
     if INCLUDE_CHARTS:
         write_chart_data(history_data)
+
+    # Write per-repo shields.io endpoint badges (served from Pages, embedded by
+    # external repos for an accurate all-releases downloads count)
+    if WRITE_BADGE_ENDPOINTS:
+        write_badge_endpoints(history_data)
 
     # Generate README.md with all statistics and embedded graphs
     print(f"Generating {README_FILE_PATH} with graphs...")
