@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T05:21:57.916748Z",
+  "generated_at": "2026-06-03T10:14:35.660671Z",
   "repositories": [
     {
       "name": "itsab1989/ChromIQ",
@@ -482,6 +482,10 @@
           ]
         },
         "releases": [
+          {
+            "date": "2026-06-03",
+            "tag": "v3.8.5"
+          },
           {
             "date": "2026-06-02",
             "tag": "v3.8.4"
