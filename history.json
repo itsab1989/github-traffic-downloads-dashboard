@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-06-03T10:14:35Z",
-    "last_updated": "2026-06-03T10:14:35.660671Z",
+    "generated_at": "2026-06-03T15:11:15Z",
+    "last_updated": "2026-06-03T15:11:15.802874Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2559,10 +2559,10 @@
         },
         {
           "date": "2026-06-02",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
+          "clones_total": 42,
+          "clones_unique": 18,
+          "views_total": 69,
+          "views_unique": 53
         },
         {
           "date": "2026-06-03",
@@ -2580,8 +2580,13 @@
         },
         {
           "referrer": "reddit.com",
-          "count": 39,
-          "uniques": 13
+          "count": 37,
+          "uniques": 11
+        },
+        {
+          "referrer": "ifun.de",
+          "count": 25,
+          "uniques": 17
         },
         {
           "referrer": "dpreview.com",
@@ -2590,7 +2595,7 @@
         },
         {
           "referrer": "printerknowledge.com",
-          "count": 16,
+          "count": 17,
           "uniques": 7
         },
         {
@@ -2600,8 +2605,8 @@
         },
         {
           "referrer": "Google",
-          "count": 8,
-          "uniques": 7
+          "count": 6,
+          "uniques": 6
         },
         {
           "referrer": "freelists.org",
@@ -2617,19 +2622,14 @@
           "referrer": "com.reddit.frontpage",
           "count": 2,
           "uniques": 2
-        },
-        {
-          "referrer": "DuckDuckGo",
-          "count": 1,
-          "uniques": 1
         }
       ],
       "metadata": {
-        "last_fetched": "2026-06-03T10:14:35Z",
-        "clones_total": 7284,
-        "clones_unique_total": 1658,
-        "views_total": 1056,
-        "views_unique_total": 308
+        "last_fetched": "2026-06-03T15:11:15Z",
+        "clones_total": 7326,
+        "clones_unique_total": 1676,
+        "views_total": 1125,
+        "views_unique_total": 361
       },
       "downloads": {
         "daily_data": [
@@ -2745,29 +2745,29 @@
           },
           {
             "date": "2026-06-03",
-            "cumulative_total": 783,
-            "downloads_total": 2,
-            "cumulative_windows": 175,
-            "downloads_windows": 2,
-            "cumulative_macos": 568,
-            "downloads_macos": 0,
+            "cumulative_total": 786,
+            "downloads_total": 5,
+            "cumulative_windows": 176,
+            "downloads_windows": 3,
+            "cumulative_macos": 570,
+            "downloads_macos": 2,
             "cumulative_linux": 40,
             "downloads_linux": 0
           }
         ],
         "metadata": {
-          "last_fetched": "2026-06-03T10:14:35Z",
-          "cumulative_total": 783,
-          "cumulative_windows": 175,
-          "cumulative_macos": 568,
+          "last_fetched": "2026-06-03T15:11:15Z",
+          "cumulative_total": 786,
+          "cumulative_windows": 176,
+          "cumulative_macos": 570,
           "cumulative_linux": 40
         },
         "by_release": [
           {
             "tag": "v3.8.5",
-            "downloads": 0,
-            "windows": 0,
-            "macos": 0,
+            "downloads": 3,
+            "windows": 1,
+            "macos": 2,
             "linux": 0,
             "published_at": "2026-06-03T07:59:52Z"
           },
@@ -4351,10 +4351,10 @@
         "by_arch": {
           "windows": {
             "arm64": 26,
-            "x86_64": 149
+            "x86_64": 150
           },
           "macos": {
-            "arm64": 348,
+            "arm64": 350,
             "universal": 75,
             "x86_64": 145
           },
@@ -7221,9 +7221,9 @@
             "snapshots": [
               {
                 "date": "2026-06-03",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
+                "downloads": 3,
+                "windows": 1,
+                "macos": 2,
                 "linux": 0
               }
             ]
