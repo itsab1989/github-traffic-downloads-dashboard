@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-06-04T09:06:34Z",
-    "last_updated": "2026-06-04T09:06:34.872433Z",
+    "generated_at": "2026-06-04T12:24:13Z",
+    "last_updated": "2026-06-04T12:24:13.332366Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2559,10 +2559,10 @@
         },
         {
           "date": "2026-06-03",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
+          "clones_total": 39,
+          "clones_unique": 11,
+          "views_total": 89,
+          "views_unique": 52
         },
         {
           "date": "2026-06-04",
@@ -2575,43 +2575,38 @@
       "referrers": [
         {
           "referrer": "github.com",
-          "count": 61,
+          "count": 60,
           "uniques": 10
         },
         {
-          "referrer": "reddit.com",
-          "count": 37,
-          "uniques": 11
-        },
-        {
           "referrer": "ifun.de",
-          "count": 25,
-          "uniques": 17
+          "count": 56,
+          "uniques": 41
         },
         {
-          "referrer": "dpreview.com",
-          "count": 17,
-          "uniques": 7
+          "referrer": "reddit.com",
+          "count": 33,
+          "uniques": 9
         },
         {
           "referrer": "printerknowledge.com",
-          "count": 17,
-          "uniques": 7
-        },
-        {
-          "referrer": "hub.displaycal.net",
-          "count": 14,
-          "uniques": 4
+          "count": 26,
+          "uniques": 9
         },
         {
           "referrer": "Google",
-          "count": 6,
+          "count": 17,
           "uniques": 6
         },
         {
-          "referrer": "freelists.org",
+          "referrer": "hub.displaycal.net",
+          "count": 12,
+          "uniques": 3
+        },
+        {
+          "referrer": "dpreview.com",
           "count": 5,
-          "uniques": 2
+          "uniques": 4
         },
         {
           "referrer": "forum.luminous-landscape.com",
@@ -2622,14 +2617,19 @@
           "referrer": "com.reddit.frontpage",
           "count": 2,
           "uniques": 2
+        },
+        {
+          "referrer": "freelists.org",
+          "count": 1,
+          "uniques": 1
         }
       ],
       "metadata": {
-        "last_fetched": "2026-06-04T09:06:34Z",
-        "clones_total": 7326,
-        "clones_unique_total": 1676,
-        "views_total": 1125,
-        "views_unique_total": 361
+        "last_fetched": "2026-06-04T12:24:13Z",
+        "clones_total": 7365,
+        "clones_unique_total": 1687,
+        "views_total": 1214,
+        "views_unique_total": 413
       },
       "downloads": {
         "daily_data": [
@@ -2756,24 +2756,32 @@
           },
           {
             "date": "2026-06-04",
-            "cumulative_total": 789,
-            "downloads_total": 2,
+            "cumulative_total": 790,
+            "downloads_total": 3,
             "cumulative_windows": 177,
             "downloads_windows": 1,
-            "cumulative_macos": 572,
-            "downloads_macos": 1,
+            "cumulative_macos": 573,
+            "downloads_macos": 2,
             "cumulative_linux": 40,
             "downloads_linux": 0
           }
         ],
         "metadata": {
-          "last_fetched": "2026-06-04T09:06:34Z",
-          "cumulative_total": 789,
+          "last_fetched": "2026-06-04T12:24:13Z",
+          "cumulative_total": 790,
           "cumulative_windows": 177,
-          "cumulative_macos": 572,
+          "cumulative_macos": 573,
           "cumulative_linux": 40
         },
         "by_release": [
+          {
+            "tag": "v3.8.6",
+            "downloads": 1,
+            "windows": 0,
+            "macos": 1,
+            "linux": 0,
+            "published_at": "2026-06-04T11:05:39Z"
+          },
           {
             "tag": "v3.8.5",
             "downloads": 6,
@@ -4365,7 +4373,7 @@
             "x86_64": 151
           },
           "macos": {
-            "arm64": 352,
+            "arm64": 353,
             "universal": 75,
             "x86_64": 145
           },
@@ -7511,6 +7519,18 @@
                 "downloads": 6,
                 "windows": 2,
                 "macos": 4,
+                "linux": 0
+              }
+            ]
+          },
+          "v3.8.6": {
+            "published_at": "2026-06-04T11:05:39Z",
+            "snapshots": [
+              {
+                "date": "2026-06-04",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
                 "linux": 0
               }
             ]
