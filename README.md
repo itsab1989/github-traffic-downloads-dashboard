@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-06-05T01:34:35.923741Z
+**Last Updated:** 2026-06-05T06:09:29.024340Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -91,16 +91,16 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-794-212121) ![clones](https://img.shields.io/badge/clones-7365-2196F3) ![views](https://img.shields.io/badge/views-1214-4CAF50) ![releases](https://img.shields.io/badge/releases-201-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-794-212121) ![clones](https://img.shields.io/badge/clones-7436-2196F3) ![views](https://img.shields.io/badge/views-1223-4CAF50) ![releases](https://img.shields.io/badge/releases-201-6f42c1)
 
-*Tracking since **2026-05-02** (33 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~33 days have been tracked so far.*
+*Tracking since **2026-05-02** (34 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~34 days have been tracked so far.*
 
 **This week vs last week:**
 
 | Metric | This week | Last week | Change |
 |--------|-----------|-----------|--------|
-| Clones | 514 | 1218 | ▼ -57.8% |
-| Views | 242 | 276 | ▼ -12.3% |
+| Clones | 585 | 1218 | ▼ -52.0% |
+| Views | 251 | 276 | ▼ -9.1% |
 | Downloads | 65 | 129 | ▼ -49.6% |
 
 ### 🗅️ Clones
@@ -109,9 +109,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 6421 | 1560 |
-| Last 90 Days | 7365 | 1687 |
-| Lifetime | 7365 | 1687 |
+| Last 30 Days | 6492 | 1579 |
+| Last 90 Days | 7436 | 1706 |
+| Lifetime | 7436 | 1706 |
 
 ### 📄 Repeat vs New Clones
 
@@ -121,9 +121,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
 |--------|--------------|----------------|----------------|----------|
-| Last 30 Days | 6421 | 1560 | 4861 | 75.7% |
-| Last 90 Days | 7365 | 1687 | 5678 | 77.1% |
-| Lifetime | 7365 | 1687 | 5678 | 77.1% |
+| Last 30 Days | 6492 | 1579 | 4913 | 75.7% |
+| Last 90 Days | 7436 | 1706 | 5730 | 77.1% |
+| Lifetime | 7436 | 1706 | 5730 | 77.1% |
 
 ### 👀 Views
 
@@ -131,9 +131,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 1135 | 387 |
-| Last 90 Days | 1214 | 413 |
-| Lifetime | 1214 | 413 |
+| Last 30 Days | 1144 | 395 |
+| Last 90 Days | 1223 | 421 |
+| Lifetime | 1223 | 421 |
 
 ### 🎯 Engagement Ratios
 
@@ -141,8 +141,8 @@ Quick navigation to repository statistics:
 
 | Stage | Count | Ratio to previous stage |
 |-------|-------|-------------------------|
-| 👀 Views | 1135 | — |
-| 🗅️ Clones | 6421 | 565.7% |
+| 👀 Views | 1144 | — |
+| 🗅️ Clones | 6492 | 567.5% |
 | 📥 Downloads | 194 | 3.0% |
 
 ### 📞 Referrers
@@ -153,16 +153,16 @@ Quick navigation to repository statistics:
 
 | Referrer | Total Views | Unique Visitors |
 |----------|-------------|----------------|
-| github.com | 60 | 10 |
+| github.com | 61 | 11 |
 | ifun.de | 56 | 41 |
-| reddit.com | 33 | 9 |
-| printerknowledge.com | 26 | 9 |
-| Google | 17 | 6 |
-| hub.displaycal.net | 12 | 3 |
+| reddit.com | 32 | 8 |
+| printerknowledge.com | 22 | 7 |
+| Google | 16 | 5 |
 | dpreview.com | 5 | 4 |
-| forum.luminous-landscape.com | 3 | 3 |
-| com.reddit.frontpage | 2 | 2 |
-| freelists.org | 1 | 1 |
+| hub.displaycal.net | 3 | 2 |
+| forum.luminous-landscape.com | 2 | 2 |
+| Bing | 1 | 1 |
+| com.reddit.frontpage | 1 | 1 |
 
 ### 👥 Repeat vs New Visitors
 
@@ -172,9 +172,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Views | Unique Visitors | Repeat Visitors | Repeat % |
 |--------|-------------|-----------------|-----------------|----------|
-| Last 30 Days | 1135 | 387 | 748 | 65.9% |
-| Last 90 Days | 1214 | 413 | 801 | 66.0% |
-| Lifetime | 1214 | 413 | 801 | 66.0% |
+| Last 30 Days | 1144 | 395 | 749 | 65.5% |
+| Last 90 Days | 1223 | 421 | 802 | 65.6% |
+| Lifetime | 1223 | 421 | 802 | 65.6% |
 
 ### 📥 Release Downloads
 

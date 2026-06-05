@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-06-05T01:34:35Z",
-    "last_updated": "2026-06-05T01:34:35.923741Z",
+    "generated_at": "2026-06-05T06:09:28Z",
+    "last_updated": "2026-06-05T06:09:29.024340Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2559,10 +2559,10 @@
         },
         {
           "date": "2026-06-04",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
+          "clones_total": 71,
+          "clones_unique": 19,
+          "views_total": 9,
+          "views_unique": 8
         },
         {
           "date": "2026-06-05",
@@ -2575,8 +2575,8 @@
       "referrers": [
         {
           "referrer": "github.com",
-          "count": 60,
-          "uniques": 10
+          "count": 61,
+          "uniques": 11
         },
         {
           "referrer": "ifun.de",
@@ -2585,23 +2585,18 @@
         },
         {
           "referrer": "reddit.com",
-          "count": 33,
-          "uniques": 9
+          "count": 32,
+          "uniques": 8
         },
         {
           "referrer": "printerknowledge.com",
-          "count": 26,
-          "uniques": 9
+          "count": 22,
+          "uniques": 7
         },
         {
           "referrer": "Google",
-          "count": 17,
-          "uniques": 6
-        },
-        {
-          "referrer": "hub.displaycal.net",
-          "count": 12,
-          "uniques": 3
+          "count": 16,
+          "uniques": 5
         },
         {
           "referrer": "dpreview.com",
@@ -2609,27 +2604,32 @@
           "uniques": 4
         },
         {
-          "referrer": "forum.luminous-landscape.com",
+          "referrer": "hub.displaycal.net",
           "count": 3,
-          "uniques": 3
+          "uniques": 2
         },
         {
-          "referrer": "com.reddit.frontpage",
+          "referrer": "forum.luminous-landscape.com",
           "count": 2,
           "uniques": 2
         },
         {
-          "referrer": "freelists.org",
+          "referrer": "Bing",
+          "count": 1,
+          "uniques": 1
+        },
+        {
+          "referrer": "com.reddit.frontpage",
           "count": 1,
           "uniques": 1
         }
       ],
       "metadata": {
-        "last_fetched": "2026-06-05T01:34:35Z",
-        "clones_total": 7365,
-        "clones_unique_total": 1687,
-        "views_total": 1214,
-        "views_unique_total": 413
+        "last_fetched": "2026-06-05T06:09:28Z",
+        "clones_total": 7436,
+        "clones_unique_total": 1706,
+        "views_total": 1223,
+        "views_unique_total": 421
       },
       "downloads": {
         "daily_data": [
@@ -2778,7 +2778,7 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-06-05T01:34:35Z",
+          "last_fetched": "2026-06-05T06:09:28Z",
           "cumulative_total": 794,
           "cumulative_windows": 179,
           "cumulative_macos": 575,
