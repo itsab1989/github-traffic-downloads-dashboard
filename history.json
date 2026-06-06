@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-06-06T08:18:56Z",
-    "last_updated": "2026-06-06T08:18:56.345971Z",
+    "generated_at": "2026-06-06T10:27:31Z",
+    "last_updated": "2026-06-06T10:27:31.336359Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2625,7 +2625,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-06-06T08:18:56Z",
+        "last_fetched": "2026-06-06T10:27:31Z",
         "clones_total": 7436,
         "clones_unique_total": 1706,
         "views_total": 1223,
@@ -2778,22 +2778,22 @@
           },
           {
             "date": "2026-06-06",
-            "cumulative_total": 945,
-            "downloads_total": 37,
+            "cumulative_total": 947,
+            "downloads_total": 39,
             "cumulative_windows": 181,
             "downloads_windows": 0,
             "cumulative_macos": 724,
             "downloads_macos": 37,
-            "cumulative_linux": 40,
-            "downloads_linux": 0
+            "cumulative_linux": 42,
+            "downloads_linux": 2
           }
         ],
         "metadata": {
-          "last_fetched": "2026-06-06T08:18:56Z",
-          "cumulative_total": 945,
+          "last_fetched": "2026-06-06T10:27:31Z",
+          "cumulative_total": 947,
           "cumulative_windows": 181,
           "cumulative_macos": 724,
-          "cumulative_linux": 40
+          "cumulative_linux": 42
         },
         "by_release": [
           {
@@ -3078,10 +3078,10 @@
           },
           {
             "tag": "v3.8.0-beta.5",
-            "downloads": 1,
+            "downloads": 3,
             "windows": 0,
             "macos": 1,
-            "linux": 0,
+            "linux": 2,
             "published_at": "2026-05-25T21:07:39Z"
           },
           {
@@ -4416,8 +4416,8 @@
             "x86_64": 145
           },
           "linux": {
-            "arm64": 12,
-            "x86_64": 28
+            "arm64": 13,
+            "x86_64": 29
           }
         },
         "by_release_daily": {
@@ -6244,10 +6244,10 @@
               },
               {
                 "date": "2026-06-06",
-                "downloads": 1,
+                "downloads": 3,
                 "windows": 0,
                 "macos": 1,
-                "linux": 0
+                "linux": 2
               }
             ]
           },
