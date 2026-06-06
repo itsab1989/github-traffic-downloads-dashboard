@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-06-06T10:27:31Z",
-    "last_updated": "2026-06-06T10:27:31.336359Z",
+    "generated_at": "2026-06-06T11:51:02Z",
+    "last_updated": "2026-06-06T11:51:02.175231Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2559,10 +2559,10 @@
         },
         {
           "date": "2026-06-05",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
+          "clones_total": 4,
+          "clones_unique": 3,
+          "views_total": 22,
+          "views_unique": 13
         },
         {
           "date": "2026-06-06",
@@ -2574,14 +2574,14 @@
       ],
       "referrers": [
         {
-          "referrer": "github.com",
-          "count": 61,
-          "uniques": 11
+          "referrer": "ifun.de",
+          "count": 57,
+          "uniques": 42
         },
         {
-          "referrer": "ifun.de",
-          "count": 56,
-          "uniques": 41
+          "referrer": "github.com",
+          "count": 51,
+          "uniques": 12
         },
         {
           "referrer": "reddit.com",
@@ -2595,8 +2595,8 @@
         },
         {
           "referrer": "Google",
-          "count": 16,
-          "uniques": 5
+          "count": 21,
+          "uniques": 7
         },
         {
           "referrer": "dpreview.com",
@@ -2605,6 +2605,11 @@
         },
         {
           "referrer": "hub.displaycal.net",
+          "count": 4,
+          "uniques": 3
+        },
+        {
+          "referrer": "Bing",
           "count": 3,
           "uniques": 2
         },
@@ -2614,22 +2619,17 @@
           "uniques": 2
         },
         {
-          "referrer": "Bing",
-          "count": 1,
-          "uniques": 1
-        },
-        {
           "referrer": "com.reddit.frontpage",
           "count": 1,
           "uniques": 1
         }
       ],
       "metadata": {
-        "last_fetched": "2026-06-06T10:27:31Z",
-        "clones_total": 7436,
-        "clones_unique_total": 1706,
-        "views_total": 1223,
-        "views_unique_total": 421
+        "last_fetched": "2026-06-06T11:51:02Z",
+        "clones_total": 7440,
+        "clones_unique_total": 1709,
+        "views_total": 1245,
+        "views_unique_total": 434
       },
       "downloads": {
         "daily_data": [
@@ -2778,21 +2778,21 @@
           },
           {
             "date": "2026-06-06",
-            "cumulative_total": 947,
-            "downloads_total": 39,
+            "cumulative_total": 948,
+            "downloads_total": 40,
             "cumulative_windows": 181,
             "downloads_windows": 0,
-            "cumulative_macos": 724,
-            "downloads_macos": 37,
+            "cumulative_macos": 725,
+            "downloads_macos": 38,
             "cumulative_linux": 42,
             "downloads_linux": 2
           }
         ],
         "metadata": {
-          "last_fetched": "2026-06-06T10:27:31Z",
-          "cumulative_total": 947,
+          "last_fetched": "2026-06-06T11:51:02Z",
+          "cumulative_total": 948,
           "cumulative_windows": 181,
-          "cumulative_macos": 724,
+          "cumulative_macos": 725,
           "cumulative_linux": 42
         },
         "by_release": [
@@ -3078,9 +3078,9 @@
           },
           {
             "tag": "v3.8.0-beta.5",
-            "downloads": 3,
+            "downloads": 4,
             "windows": 0,
-            "macos": 1,
+            "macos": 2,
             "linux": 2,
             "published_at": "2026-05-25T21:07:39Z"
           },
@@ -4412,7 +4412,7 @@
           },
           "macos": {
             "arm64": 504,
-            "universal": 75,
+            "universal": 76,
             "x86_64": 145
           },
           "linux": {
@@ -6244,9 +6244,9 @@
               },
               {
                 "date": "2026-06-06",
-                "downloads": 3,
+                "downloads": 4,
                 "windows": 0,
-                "macos": 1,
+                "macos": 2,
                 "linux": 2
               }
             ]
