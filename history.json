@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-06-06T15:59:58Z",
-    "last_updated": "2026-06-06T15:59:58.129841Z",
+    "generated_at": "2026-06-06T17:13:42Z",
+    "last_updated": "2026-06-06T17:13:43.066252Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2625,7 +2625,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-06-06T15:59:58Z",
+        "last_fetched": "2026-06-06T17:13:42Z",
         "clones_total": 7440,
         "clones_unique_total": 1709,
         "views_total": 1245,
@@ -2778,21 +2778,21 @@
           },
           {
             "date": "2026-06-06",
-            "cumulative_total": 1135,
-            "downloads_total": 227,
+            "cumulative_total": 1144,
+            "downloads_total": 236,
             "cumulative_windows": 182,
             "downloads_windows": 1,
-            "cumulative_macos": 911,
-            "downloads_macos": 224,
+            "cumulative_macos": 920,
+            "downloads_macos": 233,
             "cumulative_linux": 42,
             "downloads_linux": 2
           }
         ],
         "metadata": {
-          "last_fetched": "2026-06-06T15:59:58Z",
-          "cumulative_total": 1135,
+          "last_fetched": "2026-06-06T17:13:42Z",
+          "cumulative_total": 1144,
           "cumulative_windows": 182,
-          "cumulative_macos": 911,
+          "cumulative_macos": 920,
           "cumulative_linux": 42
         },
         "by_release": [
@@ -3622,9 +3622,9 @@
           },
           {
             "tag": "v3.5.0",
-            "downloads": 7,
+            "downloads": 8,
             "windows": 1,
-            "macos": 5,
+            "macos": 6,
             "linux": 1,
             "published_at": "2026-05-15T12:07:25Z"
           },
@@ -3654,57 +3654,57 @@
           },
           {
             "tag": "v3.5.0-beta.3",
-            "downloads": 2,
+            "downloads": 3,
             "windows": 0,
-            "macos": 2,
+            "macos": 3,
             "linux": 0,
             "published_at": "2026-05-14T15:48:11Z"
           },
           {
             "tag": "v3.5.0-beta.2",
-            "downloads": 4,
+            "downloads": 5,
             "windows": 0,
-            "macos": 4,
+            "macos": 5,
             "linux": 0,
             "published_at": "2026-05-14T14:11:56Z"
           },
           {
             "tag": "v3.5.0-beta.1",
-            "downloads": 2,
+            "downloads": 3,
             "windows": 0,
-            "macos": 2,
+            "macos": 3,
             "linux": 0,
             "published_at": "2026-05-14T12:44:22Z"
           },
           {
             "tag": "v3.2.9",
-            "downloads": 6,
+            "downloads": 7,
             "windows": 3,
-            "macos": 3,
+            "macos": 4,
             "linux": 0,
             "published_at": "2026-05-14T18:10:21Z"
           },
           {
             "tag": "v3.2.8",
-            "downloads": 5,
+            "downloads": 6,
             "windows": 1,
-            "macos": 4,
+            "macos": 5,
             "linux": 0,
             "published_at": "2026-05-14T00:45:53Z"
           },
           {
             "tag": "v3.2.7",
-            "downloads": 5,
+            "downloads": 6,
             "windows": 0,
-            "macos": 5,
+            "macos": 6,
             "linux": 0,
             "published_at": "2026-05-13T23:21:24Z"
           },
           {
             "tag": "v3.2.6",
-            "downloads": 2,
+            "downloads": 3,
             "windows": 0,
-            "macos": 2,
+            "macos": 3,
             "linux": 0,
             "published_at": "2026-05-13T21:55:30Z"
           },
@@ -4342,9 +4342,9 @@
           },
           {
             "tag": "v1.1.3",
-            "downloads": 5,
+            "downloads": 6,
             "windows": 0,
-            "macos": 5,
+            "macos": 6,
             "linux": 0,
             "published_at": "2026-04-21T06:08:06Z"
           },
@@ -4412,8 +4412,8 @@
           },
           "macos": {
             "arm64": 505,
-            "universal": 210,
-            "x86_64": 196
+            "universal": 211,
+            "x86_64": 204
           },
           "linux": {
             "arm64": 13,
