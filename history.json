@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-06-07T06:45:31Z",
-    "last_updated": "2026-06-07T06:45:31.704564Z",
+    "generated_at": "2026-06-07T09:53:19Z",
+    "last_updated": "2026-06-07T09:53:19.989719Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2559,10 +2559,10 @@
         },
         {
           "date": "2026-06-06",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
+          "clones_total": 7,
+          "clones_unique": 3,
+          "views_total": 19,
+          "views_unique": 11
         },
         {
           "date": "2026-06-07",
@@ -2575,33 +2575,33 @@
       "referrers": [
         {
           "referrer": "ifun.de",
-          "count": 57,
-          "uniques": 42
+          "count": 61,
+          "uniques": 43
         },
         {
           "referrer": "github.com",
-          "count": 51,
+          "count": 50,
           "uniques": 12
         },
         {
           "referrer": "reddit.com",
-          "count": 32,
-          "uniques": 8
-        },
-        {
-          "referrer": "printerknowledge.com",
-          "count": 22,
+          "count": 30,
           "uniques": 7
         },
         {
           "referrer": "Google",
-          "count": 21,
+          "count": 24,
+          "uniques": 9
+        },
+        {
+          "referrer": "printerknowledge.com",
+          "count": 20,
           "uniques": 7
         },
         {
           "referrer": "dpreview.com",
-          "count": 5,
-          "uniques": 4
+          "count": 4,
+          "uniques": 3
         },
         {
           "referrer": "hub.displaycal.net",
@@ -2619,17 +2619,17 @@
           "uniques": 2
         },
         {
-          "referrer": "com.reddit.frontpage",
+          "referrer": "DuckDuckGo",
           "count": 1,
           "uniques": 1
         }
       ],
       "metadata": {
-        "last_fetched": "2026-06-07T06:45:31Z",
-        "clones_total": 7440,
-        "clones_unique_total": 1709,
-        "views_total": 1245,
-        "views_unique_total": 434
+        "last_fetched": "2026-06-07T09:53:19Z",
+        "clones_total": 7447,
+        "clones_unique_total": 1712,
+        "views_total": 1264,
+        "views_unique_total": 445
       },
       "downloads": {
         "daily_data": [
@@ -2789,10 +2789,10 @@
           },
           {
             "date": "2026-06-07",
-            "cumulative_total": 1149,
-            "downloads_total": 3,
-            "cumulative_windows": 186,
-            "downloads_windows": 3,
+            "cumulative_total": 1150,
+            "downloads_total": 4,
+            "cumulative_windows": 187,
+            "downloads_windows": 4,
             "cumulative_macos": 921,
             "downloads_macos": 0,
             "cumulative_linux": 42,
@@ -2800,9 +2800,9 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-06-07T06:45:31Z",
-          "cumulative_total": 1149,
-          "cumulative_windows": 186,
+          "last_fetched": "2026-06-07T09:53:19Z",
+          "cumulative_total": 1150,
+          "cumulative_windows": 187,
           "cumulative_macos": 921,
           "cumulative_linux": 42
         },
@@ -2945,8 +2945,8 @@
           },
           {
             "tag": "v3.8.0-beta.23",
-            "downloads": 7,
-            "windows": 2,
+            "downloads": 8,
+            "windows": 3,
             "macos": 3,
             "linux": 2,
             "published_at": "2026-05-28T23:45:12Z"
@@ -4418,7 +4418,7 @@
         ],
         "by_arch": {
           "windows": {
-            "arm64": 27,
+            "arm64": 28,
             "x86_64": 159
           },
           "macos": {
@@ -5241,8 +5241,8 @@
               },
               {
                 "date": "2026-06-07",
-                "downloads": 7,
-                "windows": 2,
+                "downloads": 8,
+                "windows": 3,
                 "macos": 3,
                 "linux": 2
               }
