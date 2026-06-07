@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-06-07T11:30:33Z",
-    "last_updated": "2026-06-07T11:30:33.537169Z",
+    "generated_at": "2026-06-07T13:12:26Z",
+    "last_updated": "2026-06-07T13:12:26.500581Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2625,7 +2625,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-06-07T11:30:33Z",
+        "last_fetched": "2026-06-07T13:12:26Z",
         "clones_total": 7447,
         "clones_unique_total": 1712,
         "views_total": 1264,
@@ -2789,10 +2789,10 @@
           },
           {
             "date": "2026-06-07",
-            "cumulative_total": 1152,
-            "downloads_total": 6,
-            "cumulative_windows": 188,
-            "downloads_windows": 5,
+            "cumulative_total": 1153,
+            "downloads_total": 7,
+            "cumulative_windows": 189,
+            "downloads_windows": 6,
             "cumulative_macos": 922,
             "downloads_macos": 1,
             "cumulative_linux": 42,
@@ -2800,17 +2800,17 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-06-07T11:30:33Z",
-          "cumulative_total": 1152,
-          "cumulative_windows": 188,
+          "last_fetched": "2026-06-07T13:12:26Z",
+          "cumulative_total": 1153,
+          "cumulative_windows": 189,
           "cumulative_macos": 922,
           "cumulative_linux": 42
         },
         "by_release": [
           {
             "tag": "v3.8.9",
-            "downloads": 1,
-            "windows": 0,
+            "downloads": 2,
+            "windows": 1,
             "macos": 1,
             "linux": 0,
             "published_at": "2026-06-07T10:33:38Z"
@@ -4427,7 +4427,7 @@
         "by_arch": {
           "windows": {
             "arm64": 28,
-            "x86_64": 160
+            "x86_64": 161
           },
           "macos": {
             "arm64": 507,
@@ -7548,8 +7548,8 @@
             "snapshots": [
               {
                 "date": "2026-06-07",
-                "downloads": 1,
-                "windows": 0,
+                "downloads": 2,
+                "windows": 1,
                 "macos": 1,
                 "linux": 0
               }

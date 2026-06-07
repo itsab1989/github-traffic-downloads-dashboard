@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-06-07T11:30:33.537169Z
+**Last Updated:** 2026-06-07T13:12:26.500581Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -91,7 +91,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-1152-212121) ![clones](https://img.shields.io/badge/clones-7447-2196F3) ![views](https://img.shields.io/badge/views-1264-4CAF50) ![releases](https://img.shields.io/badge/releases-202-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-1153-212121) ![clones](https://img.shields.io/badge/clones-7447-2196F3) ![views](https://img.shields.io/badge/views-1264-4CAF50) ![releases](https://img.shields.io/badge/releases-202-6f42c1)
 
 *Tracking since **2026-05-02** (36 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~36 days have been tracked so far.*
 
@@ -101,7 +101,7 @@ Quick navigation to repository statistics:
 |--------|-----------|-----------|--------|
 | Clones | 222 | 1369 | ▼ -83.8% |
 | Views | 217 | 319 | ▼ -32.0% |
-| Downloads | 402 | 150 | ▲ +168.0% |
+| Downloads | 403 | 150 | ▲ +168.7% |
 
 ### 🗅️ Clones
 
@@ -143,7 +143,7 @@ Quick navigation to repository statistics:
 |-------|-------|-------------------------|
 | 👀 Views | 1146 | — |
 | 🗅️ Clones | 5740 | 500.9% |
-| 📥 Downloads | 552 | 9.6% |
+| 📥 Downloads | 553 | 9.6% |
 
 ### 📞 Referrers
 
@@ -184,19 +184,19 @@ Quick navigation to repository statistics:
 
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
-| 🪟 Windows | 98 | 98 | 188 |
+| 🪟 Windows | 99 | 99 | 189 |
 | 🍎 macOS | 443 | 443 | 922 |
 | 🐧 Linux | 11 | 11 | 42 |
-| **All** | **552** | **552** | **1152** |
+| **All** | **553** | **553** | **1153** |
 
-🆕 **Latest Release:** `v3.8.9` - **1** download (published 2026-06-07)
+🆕 **Latest Release:** `v3.8.9` - **2** downloads (published 2026-06-07)
 
 <details>
 <summary><strong>📦 Per-version downloads</strong> (202 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
-| v3.8.9 | 0 | 1 | 0 | **1** |
+| v3.8.9 | 1 | 1 | 0 | **2** |
 | v3.8.8 | 4 | 7 | 0 | **11** |
 | v3.8.7 | 0 | 0 | 0 | **0** |
 | v3.8.6 | 2 | 2 | 0 | **4** |
@@ -407,7 +407,7 @@ Quick navigation to repository statistics:
 
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
-| 🪟 Windows | 28 | 160 | 0 | **188** |
+| 🪟 Windows | 28 | 161 | 0 | **189** |
 | 🍎 macOS | 507 | 204 | 211 | **922** |
 | 🐧 Linux | 13 | 29 | 0 | **42** |
 
