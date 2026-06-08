@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-06-08T02:08:08Z",
-    "last_updated": "2026-06-08T02:08:08.315346Z",
+    "generated_at": "2026-06-08T07:11:10Z",
+    "last_updated": "2026-06-08T07:11:10.365638Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2625,7 +2625,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-06-08T02:08:08Z",
+        "last_fetched": "2026-06-08T07:11:10Z",
         "clones_total": 7447,
         "clones_unique_total": 1712,
         "views_total": 1264,
@@ -2800,21 +2800,21 @@
           },
           {
             "date": "2026-06-08",
-            "cumulative_total": 1166,
-            "downloads_total": 1,
+            "cumulative_total": 1177,
+            "downloads_total": 12,
             "cumulative_windows": 191,
             "downloads_windows": 0,
-            "cumulative_macos": 932,
-            "downloads_macos": 0,
+            "cumulative_macos": 943,
+            "downloads_macos": 11,
             "cumulative_linux": 43,
             "downloads_linux": 1
           }
         ],
         "metadata": {
-          "last_fetched": "2026-06-08T02:08:08Z",
-          "cumulative_total": 1166,
+          "last_fetched": "2026-06-08T07:11:10Z",
+          "cumulative_total": 1177,
           "cumulative_windows": 191,
-          "cumulative_macos": 932,
+          "cumulative_macos": 943,
           "cumulative_linux": 43
         },
         "by_release": [
@@ -3172,9 +3172,9 @@
           },
           {
             "tag": "v3.7.38",
-            "downloads": 14,
+            "downloads": 25,
             "windows": 1,
-            "macos": 13,
+            "macos": 24,
             "linux": 0,
             "published_at": "2026-05-24T18:11:22Z"
           },
@@ -4441,9 +4441,9 @@
             "x86_64": 163
           },
           "macos": {
-            "arm64": 509,
-            "universal": 215,
-            "x86_64": 208
+            "arm64": 512,
+            "universal": 222,
+            "x86_64": 209
           },
           "linux": {
             "arm64": 13,
