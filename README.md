@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-06-08T19:11:49.882545Z
+**Last Updated:** 2026-06-08T21:22:58.627138Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -91,7 +91,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-1187-212121) ![clones](https://img.shields.io/badge/clones-7505-2196F3) ![views](https://img.shields.io/badge/views-1273-4CAF50) ![releases](https://img.shields.io/badge/releases-204-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-1187-212121) ![clones](https://img.shields.io/badge/clones-7505-2196F3) ![views](https://img.shields.io/badge/views-1273-4CAF50) ![releases](https://img.shields.io/badge/releases-205-6f42c1)
 
 *Tracking since **2026-05-02** (37 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~37 days have been tracked so far.*
 
@@ -189,13 +189,14 @@ Quick navigation to repository statistics:
 | 🐧 Linux | 13 | 13 | 44 |
 | **All** | **587** | **587** | **1187** |
 
-🆕 **Latest Release:** `v3.8.11` - **4** downloads (published 2026-06-08)
+🆕 **Latest Release:** `v3.8.12` - **0** downloads (published 2026-06-08)
 
 <details>
-<summary><strong>📦 Per-version downloads</strong> (204 releases - click to expand)</summary>
+<summary><strong>📦 Per-version downloads</strong> (205 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
+| v3.8.12 | 0 | 0 | 0 | **0** |
 | v3.8.11 | 3 | 1 | 0 | **4** |
 | v3.8.10 | 0 | 3 | 0 | **3** |
 | v3.8.9 | 2 | 1 | 0 | **3** |
@@ -438,6 +439,7 @@ Quick navigation to repository statistics:
 |---------|-----------|---------|----|----|----|---------------------|
 | v3.8.10 | 2026-06-08 | 1d | 0 | 0 | 0 | **0** |
 | v3.8.11 | 2026-06-08 | 1d | 0 | 0 | 0 | **0** |
+| v3.8.12 | 2026-06-08 | 1d | 0 | 0 | 0 | **0** |
 | v3.8.9 | 2026-06-07 | 2d | 0 | 0 | 0 | **0** |
 | v3.8.6 | 2026-06-04 | 5d | 0 | 0 | 0 | **0** |
 | v3.8.7 | 2026-06-04 | 5d | 0 | 0 | 0 | **0** |
