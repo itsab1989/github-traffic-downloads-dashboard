@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-06-08T12:12:09Z",
-    "last_updated": "2026-06-08T12:12:09.482904Z",
+    "generated_at": "2026-06-08T16:32:46Z",
+    "last_updated": "2026-06-08T16:32:46.739075Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2559,10 +2559,10 @@
         },
         {
           "date": "2026-06-07",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
+          "clones_total": 58,
+          "clones_unique": 12,
+          "views_total": 9,
+          "views_unique": 6
         },
         {
           "date": "2026-06-08",
@@ -2575,13 +2575,13 @@
       "referrers": [
         {
           "referrer": "ifun.de",
-          "count": 61,
-          "uniques": 43
+          "count": 66,
+          "uniques": 45
         },
         {
           "referrer": "github.com",
-          "count": 50,
-          "uniques": 12
+          "count": 41,
+          "uniques": 10
         },
         {
           "referrer": "reddit.com",
@@ -2590,18 +2590,18 @@
         },
         {
           "referrer": "Google",
-          "count": 24,
-          "uniques": 9
+          "count": 25,
+          "uniques": 10
         },
         {
           "referrer": "printerknowledge.com",
-          "count": 20,
+          "count": 21,
           "uniques": 7
         },
         {
           "referrer": "dpreview.com",
-          "count": 4,
-          "uniques": 3
+          "count": 5,
+          "uniques": 4
         },
         {
           "referrer": "hub.displaycal.net",
@@ -2625,11 +2625,11 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-06-08T12:12:09Z",
-        "clones_total": 7447,
-        "clones_unique_total": 1712,
-        "views_total": 1264,
-        "views_unique_total": 445
+        "last_fetched": "2026-06-08T16:32:46Z",
+        "clones_total": 7505,
+        "clones_unique_total": 1724,
+        "views_total": 1273,
+        "views_unique_total": 451
       },
       "downloads": {
         "daily_data": [
@@ -2800,24 +2800,32 @@
           },
           {
             "date": "2026-06-08",
-            "cumulative_total": 1183,
-            "downloads_total": 18,
-            "cumulative_windows": 191,
-            "downloads_windows": 0,
-            "cumulative_macos": 948,
-            "downloads_macos": 16,
+            "cumulative_total": 1187,
+            "downloads_total": 22,
+            "cumulative_windows": 194,
+            "downloads_windows": 3,
+            "cumulative_macos": 949,
+            "downloads_macos": 17,
             "cumulative_linux": 44,
             "downloads_linux": 2
           }
         ],
         "metadata": {
-          "last_fetched": "2026-06-08T12:12:09Z",
-          "cumulative_total": 1183,
-          "cumulative_windows": 191,
-          "cumulative_macos": 948,
+          "last_fetched": "2026-06-08T16:32:46Z",
+          "cumulative_total": 1187,
+          "cumulative_windows": 194,
+          "cumulative_macos": 949,
           "cumulative_linux": 44
         },
         "by_release": [
+          {
+            "tag": "v3.8.11",
+            "downloads": 4,
+            "windows": 3,
+            "macos": 1,
+            "linux": 0,
+            "published_at": "2026-06-08T14:53:44Z"
+          },
           {
             "tag": "v3.8.10",
             "downloads": 3,
@@ -4446,10 +4454,10 @@
         "by_arch": {
           "windows": {
             "arm64": 28,
-            "x86_64": 163
+            "x86_64": 166
           },
           "macos": {
-            "arm64": 516,
+            "arm64": 517,
             "universal": 223,
             "x86_64": 209
           },
@@ -7400,6 +7408,18 @@
                 "downloads": 3,
                 "windows": 0,
                 "macos": 3,
+                "linux": 0
+              }
+            ]
+          },
+          "v3.8.11": {
+            "published_at": "2026-06-08T14:53:44Z",
+            "snapshots": [
+              {
+                "date": "2026-06-08",
+                "downloads": 4,
+                "windows": 3,
+                "macos": 1,
                 "linux": 0
               }
             ]
