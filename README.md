@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-06-09T21:26:36.953984Z
+**Last Updated:** 2026-06-09T22:55:39.259281Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -91,7 +91,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-1202-212121) ![clones](https://img.shields.io/badge/clones-7505-2196F3) ![views](https://img.shields.io/badge/views-1273-4CAF50) ![releases](https://img.shields.io/badge/releases-208-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-1203-212121) ![clones](https://img.shields.io/badge/clones-7505-2196F3) ![views](https://img.shields.io/badge/views-1273-4CAF50) ![releases](https://img.shields.io/badge/releases-208-6f42c1)
 
 *Tracking since **2026-05-02** (37 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~37 days have been tracked so far.*
 
@@ -101,7 +101,7 @@ Quick navigation to repository statistics:
 |--------|-----------|-----------|--------|
 | Clones | 179 | 1114 | ▼ -83.9% |
 | Views | 148 | 254 | ▼ -41.7% |
-| Downloads | 421 | 127 | ▲ +231.5% |
+| Downloads | 422 | 127 | ▲ +232.3% |
 
 ### 🗅️ Clones
 
@@ -143,7 +143,7 @@ Quick navigation to repository statistics:
 |-------|-------|-------------------------|
 | 👀 Views | 998 | — |
 | 🗅️ Clones | 5599 | 561.0% |
-| 📥 Downloads | 602 | 10.8% |
+| 📥 Downloads | 603 | 10.8% |
 
 ### 📞 Referrers
 
@@ -184,19 +184,19 @@ Quick navigation to repository statistics:
 
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
-| 🪟 Windows | 110 | 110 | 200 |
+| 🪟 Windows | 111 | 111 | 201 |
 | 🍎 macOS | 478 | 478 | 957 |
 | 🐧 Linux | 14 | 14 | 45 |
-| **All** | **602** | **602** | **1202** |
+| **All** | **603** | **603** | **1203** |
 
-🆕 **Latest Release:** `v3.8.15` - **0** downloads (published 2026-06-09)
+🆕 **Latest Release:** `v3.8.15` - **1** download (published 2026-06-09)
 
 <details>
 <summary><strong>📦 Per-version downloads</strong> (208 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
-| v3.8.15 | 0 | 0 | 0 | **0** |
+| v3.8.15 | 1 | 0 | 0 | **1** |
 | v3.8.14 | 0 | 1 | 0 | **1** |
 | v3.8.13 | 0 | 3 | 0 | **3** |
 | v3.8.12 | 5 | 2 | 0 | **7** |
@@ -413,7 +413,7 @@ Quick navigation to repository statistics:
 
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
-| 🪟 Windows | 28 | 172 | 0 | **200** |
+| 🪟 Windows | 28 | 173 | 0 | **201** |
 | 🍎 macOS | 524 | 210 | 223 | **957** |
 | 🐧 Linux | 14 | 31 | 0 | **45** |
 
