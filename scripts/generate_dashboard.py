@@ -720,7 +720,10 @@ def compute_release_reception(by_release_daily: Dict[str, Any]) -> List[Dict[str
         Rows {tag, published, tracked_days, accrued, accrued_windows, accrued_macos,
         accrued_linux, lifetime}, newest published first. Empty until data accrues.
     """
-    rows = []
+    # Rows are paired with the full published_at timestamp for sorting: the
+    # row's 'published' field is truncated to the date, which would leave
+    # same-day releases in arbitrary dict order.
+    keyed_rows = []
     for tag, info in (by_release_daily or {}).items():
         snaps = info.get('snapshots') or []
         if not snaps:
@@ -732,9 +735,10 @@ def compute_release_reception(by_release_daily: Dict[str, Any]) -> List[Dict[str
             tracked_days = (d1 - d0).days + 1
         except (ValueError, KeyError):
             tracked_days = len(snaps)
-        published = (info.get('published_at') or '')[:10]
+        published_at = info.get('published_at') or ''
+        published = published_at[:10]
         baseline = {} if published else first
-        rows.append({
+        keyed_rows.append((published_at, {
             'tag': tag,
             'published': published,
             'tracked_days': tracked_days,
@@ -743,9 +747,9 @@ def compute_release_reception(by_release_daily: Dict[str, Any]) -> List[Dict[str
             'accrued_macos': max(0, last.get('macos', 0) - baseline.get('macos', 0)),
             'accrued_linux': max(0, last.get('linux', 0) - baseline.get('linux', 0)),
             'lifetime': last.get('downloads', 0),
-        })
-    rows.sort(key=lambda r: r['published'], reverse=True)
-    return rows
+        }))
+    keyed_rows.sort(key=lambda kr: kr[0], reverse=True)
+    return [row for _, row in keyed_rows]
 
 
 def render_badges(repo_name: str, dl_lifetime: Dict[str, int],

@@ -174,6 +174,17 @@ class TestReleaseReception(unittest.TestCase):
         }
         self.assertEqual([r['tag'] for r in compute_release_reception(brd)], ['new', 'old'])
 
+    def test_same_day_releases_sorted_by_publish_time(self):
+        """Same-day releases must order by full timestamp, not dict order."""
+        brd = {
+            'morning': {'published_at': '2026-06-09T08:00:00Z',
+                        'snapshots': [{'date': '2026-06-09', 'downloads': 1}]},
+            'evening': {'published_at': '2026-06-09T20:00:00Z',
+                        'snapshots': [{'date': '2026-06-09', 'downloads': 1}]},
+        }
+        self.assertEqual([r['tag'] for r in compute_release_reception(brd)],
+                         ['evening', 'morning'])
+
     def test_empty(self):
         self.assertEqual(compute_release_reception({}), [])
 
