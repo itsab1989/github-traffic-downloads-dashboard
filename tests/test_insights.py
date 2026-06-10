@@ -82,13 +82,15 @@ class TestMomentum(unittest.TestCase):
 
 class TestFunnel(unittest.TestCase):
 
-    def test_ratios(self):
+    def test_ratios_are_relative_to_views(self):
+        """Clones and downloads are independent branches off views, not a chain:
+        download_rate must divide by views, not by clones."""
         f = compute_funnel(views=100, clones=25, downloads=5)
         self.assertEqual(f['clone_rate'], 25.0)
-        self.assertEqual(f['download_rate'], 20.0)
+        self.assertEqual(f['download_rate'], 5.0)
 
-    def test_zero_denominators_are_none(self):
-        f = compute_funnel(views=0, clones=0, downloads=0)
+    def test_zero_views_means_no_rates(self):
+        f = compute_funnel(views=0, clones=10, downloads=5)
         self.assertIsNone(f['clone_rate'])
         self.assertIsNone(f['download_rate'])
 

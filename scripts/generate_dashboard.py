@@ -670,18 +670,21 @@ def compute_momentum(daily_data: List[Dict[str, Any]],
 
 def compute_funnel(views: int, clones: int, downloads: int) -> Dict[str, Any]:
     """
-    Engagement funnel ratios across views -> clones -> downloads for a period.
+    Engagement ratios: clones and downloads, each relative to views.
 
-    Views, clones and downloads are independent GitHub metrics, so these are
-    interest ratios rather than a strict per-user funnel - but they answer
-    "of the people who looked, how many took a deeper action?".
+    Views are the top of the funnel ("people who looked"); clones (developer
+    interest) and downloads (end-user adoption) are two independent branches
+    off it, NOT sequential stages - someone who downloads a release binary
+    rarely cloned the repo first, so dividing downloads by clones would relate
+    two unrelated populations. Both rates answer "of the people who looked,
+    how many took this deeper action?".
 
     Returns:
         {'views', 'clones', 'downloads', 'clone_rate', 'download_rate'} where the
-        rates are percentages (float) or None when the denominator is zero.
+        rates are percentages of views (float) or None when views is zero.
     """
     clone_rate = round(clones / views * 100, 1) if views else None
-    download_rate = round(downloads / clones * 100, 1) if clones else None
+    download_rate = round(downloads / views * 100, 1) if views else None
     return {'views': views, 'clones': clones, 'downloads': downloads,
             'clone_rate': clone_rate, 'download_rate': download_rate}
 
@@ -1699,13 +1702,14 @@ def generate_readme(history_data: Dict[str, Any]) -> None:
             funnel = compute_funnel(
                 stats_short['views_total'], stats_short['clones_total'], dl_short['total'])
             md += "### \U0001f3af Engagement Ratios\n\n"
-            md += (f"*How interest deepens over the last {STATS_PERIOD_SHORT_TERM} days. "
-                   f"Views, clones and downloads are independent GitHub metrics, so this "
-                   f"is not a strict per-user funnel - clones can exceed views (CI, "
-                   f"mirrors, `git clone` without a page view), which shows up as a "
-                   f"ratio above 100%.*\n\n")
-            md += "| Stage | Count | Ratio to previous stage |\n"
-            md += "|-------|-------|-------------------------|\n"
+            md += (f"*Of the people who looked at the repo in the last "
+                   f"{STATS_PERIOD_SHORT_TERM} days, how many took a deeper action? "
+                   f"Clones (developer interest) and downloads (end-user adoption) are "
+                   f"independent actions, each shown relative to views. Clones and "
+                   f"downloads can happen without a page view (CI, mirrors, direct "
+                   f"links), so ratios above 100% are possible.*\n\n")
+            md += "| Action | Count | Ratio to views |\n"
+            md += "|--------|-------|----------------|\n"
             md += f"| \U0001f440 Views | {funnel['views']} | — |\n"
             clone_rate = f"{funnel['clone_rate']}%" if funnel['clone_rate'] is not None else "—"
             dl_rate = f"{funnel['download_rate']}%" if funnel['download_rate'] is not None else "—"
