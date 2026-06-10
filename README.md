@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-06-10T13:59:52.507878Z
+**Last Updated:** 2026-06-10T14:08:04.068992Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -137,13 +137,13 @@ Quick navigation to repository statistics:
 
 ### 🎯 Engagement Ratios
 
-*How interest deepens over the last 30 days. Views, clones and downloads are independent GitHub metrics, so this is not a strict per-user funnel - clones can exceed views (CI, mirrors, `git clone` without a page view), which shows up as a ratio above 100%.*
+*Of the people who looked at the repo in the last 30 days, how many took a deeper action? Clones (developer interest) and downloads (end-user adoption) are independent actions, each shown relative to views. Clones and downloads can happen without a page view (CI, mirrors, direct links), so ratios above 100% are possible.*
 
-| Stage | Count | Ratio to previous stage |
-|-------|-------|-------------------------|
+| Action | Count | Ratio to views |
+|--------|-------|----------------|
 | 👀 Views | 985 | — |
 | 🗅️ Clones | 5609 | 569.4% |
-| 📥 Downloads | 630 | 11.2% |
+| 📥 Downloads | 630 | 64.0% |
 
 ### 📞 Referrers
 
