@@ -50,6 +50,21 @@ def _history(with_downloads=True):
                  'cumulative_linux': 2, 'downloads_linux': 1},
             ],
             'by_release': [{'tag': 'v1.0.0', 'downloads': 14, 'published_at': _day(1) + 'T00:00:00Z'}],
+            'by_release_daily': {
+                'v1.0.0': {
+                    'published_at': _day(1) + 'T00:00:00Z',
+                    'snapshots': [
+                        {'date': _day(1), 'downloads': 10, 'windows': 3, 'macos': 6, 'linux': 1},
+                        {'date': _day(0), 'downloads': 14, 'windows': 4, 'macos': 8, 'linux': 2},
+                    ],
+                    'launch': [
+                        {'time': _day(1) + 'T02:00:00Z', 'downloads': 4,
+                         'windows': 1, 'macos': 2, 'linux': 1},
+                        {'time': _day(1) + 'T08:30:00Z', 'downloads': 10,
+                         'windows': 3, 'macos': 6, 'linux': 1},
+                    ],
+                },
+            },
         }
     else:
         repo['downloads'] = {}
@@ -94,6 +109,25 @@ class TestBuildChartData(unittest.TestCase):
     def test_downloads_absent(self):
         repo = build_chart_data(_history(with_downloads=False))['repositories'][0]
         self.assertFalse(repo['downloads']['has_data'])
+
+    def test_reception_rows(self):
+        d = build_chart_data(_history())['repositories'][0]['downloads']
+        self.assertEqual(len(d['reception']), 1)
+        r = d['reception'][0]
+        self.assertEqual(r['tag'], 'v1.0.0')
+        # Latest cumulative counts, not a delta against the first snapshot
+        self.assertEqual(r['total'], 14)
+        self.assertEqual((r['windows'], r['macos'], r['linux']), (4, 8, 2))
+
+    def test_launch_curves(self):
+        d = build_chart_data(_history())['repositories'][0]['downloads']
+        self.assertEqual(len(d['launch_curves']), 1)
+        curve = d['launch_curves'][0]
+        self.assertEqual(curve['tag'], 'v1.0.0')
+        # Origin point plus one per recorded launch point, as publish offsets
+        self.assertEqual(curve['points'][0], {'h': 0, 'downloads': 0})
+        self.assertEqual([p['h'] for p in curve['points']], [0, 2.0, 8.5])
+        self.assertEqual([p['downloads'] for p in curve['points']], [0, 4, 10])
 
     def test_respects_metadata_repo_order(self):
         h = _history()

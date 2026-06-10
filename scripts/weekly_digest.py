@@ -104,9 +104,9 @@ def build_digest(history_data, now=None):
         reception = [r for r in compute_release_reception(by_release_daily) if r['accrued'] > 0]
         if reception:
             top = sorted(reception, key=lambda r: r['accrued'], reverse=True)[:3]
-            out.append("**Top early-life reception** (downloads since first tracked)")
+            out.append("**Top early-life reception** (downloads in a release's first days)")
             for r in top:
-                out.append(f"- `{r['tag']}` — **{r['accrued']}** in {r['tracked_days']}d")
+                out.append(f"- `{r['tag']}` — **{r['accrued']}** in {r['age_days']}d")
             out.append("")
 
         out.append("---")

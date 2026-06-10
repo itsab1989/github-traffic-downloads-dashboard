@@ -122,6 +122,51 @@
       });
     }
 
+    // Horizontal stacked bars: downloads each recent release accrued in its
+    // early life, split by platform (plus an "Other" remainder for assets that
+    // matched no platform pattern).
+    function receptionChart(canvas, reception) {
+      const labels = reception.map(r => r.tag);
+      const mk = (label, data, color) => ({ label, data, backgroundColor: color, stack: 'dl' });
+      const datasets = [
+        mk('Windows', reception.map(r => r.windows), '#0078D6'),
+        mk('macOS',   reception.map(r => r.macos),   '#8E8E93'),
+        mk('Linux',   reception.map(r => r.linux),   '#E95420'),
+      ];
+      const other = reception.map(r => Math.max(0, r.total - r.windows - r.macos - r.linux));
+      if (other.some(v => v)) datasets.push(mk('Other', other, '#9C27B0'));
+      const opts = baseOptions();
+      opts.indexAxis = 'y';
+      opts.interaction = { mode: 'index', axis: 'y', intersect: false };
+      opts.scales = {
+        x: { stacked: true, beginAtZero: true, grid: { color: cssVar('--grid') }, ticks: { precision: 0 } },
+        y: { stacked: true, grid: { display: false }, ticks: { autoSkip: false } },
+      };
+      charts.push(new Chart(canvas, { type: 'bar', data: { labels, datasets }, options: opts }));
+    }
+
+    // Stepped lines: cumulative downloads over each release's first 24 hours,
+    // on a shared hours-since-publish axis. Steps sit at the runs where the
+    // count was observed to change.
+    function launchChart(canvas, curves) {
+      const palette = ['#0969da', '#d73a49', '#28a745', '#f66a0a', '#6f42c1', '#1b7c83'];
+      const datasets = curves.map((c, i) => ({
+        label: c.tag,
+        data: c.points.map(p => ({ x: p.h, y: p.downloads })),
+        borderColor: palette[i % palette.length],
+        backgroundColor: palette[i % palette.length],
+        borderWidth: 2, stepped: true,
+      }));
+      const opts = baseOptions();
+      opts.interaction = { mode: 'nearest', intersect: false };
+      opts.scales.x = {
+        type: 'linear', min: 0, max: 24,
+        title: { display: true, text: 'Hours since publish' },
+        grid: { color: cssVar('--grid') },
+      };
+      charts.push(new Chart(canvas, { type: 'line', data: { datasets }, options: opts }));
+    }
+
     // Vertical markers at release publish dates that fall within `labels`.
     function releaseAnnotations(labels, releases) {
       const anns = {};
@@ -174,6 +219,16 @@
         lineChart(card(grid, 'Cumulative Downloads (lifetime)',
                   'All-time running totals per platform.'),
                   d.cumulative.dates, downloadDatasets(d.cumulative));
+        if (d.reception && d.reception.length) {
+          receptionChart(card(grid, 'Release Reception (first ~14 days)',
+                    'Downloads each recent release accrued in its early life, newest first.'),
+                    d.reception);
+        }
+        if (d.launch_curves && d.launch_curves.length) {
+          launchChart(card(grid, 'Launch Curves (first 24 h)',
+                    'Cumulative downloads over each release\'s first day.'),
+                    d.launch_curves);
+        }
       }
     }
 

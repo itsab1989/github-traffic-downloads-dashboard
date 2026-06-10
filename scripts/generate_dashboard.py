@@ -88,6 +88,10 @@ INCLUDE_FUNNEL = True                        # Views -> Clones -> Downloads enga
 # Early-life window (days) for the "recent release reception" table. Keep in sync
 # with RELEASE_DAILY_TRACKING_DAYS in merge_history.py (the data it reads from).
 RELEASE_RECEPTION_WINDOW_DAYS = 14
+# Caps for the interactive dashboard's per-release charts, keeping them readable
+# (and the chart JSON small) for repos with a very high release cadence.
+CHART_RECEPTION_MAX_RELEASES = 15            # bars in the reception chart
+CHART_LAUNCH_MAX_RELEASES = 6                # lines in the launch-curve chart
 
 # Charts Configuration
 # INCLUDE_CHARTS writes an interactive chart-data JSON (read by dashboard.html)
@@ -694,6 +698,48 @@ def compute_unclassified(dl_lifetime: Dict[str, int]) -> int:
     return max(0, dl_lifetime.get('total', 0) - matched)
 
 
+def _parse_release_timestamp(timestamp: str):
+    """Parse a 'YYYY-MM-DDTHH:MM:SSZ' timestamp (GitHub API format), or None."""
+    try:
+        return datetime.strptime(timestamp or '', '%Y-%m-%dT%H:%M:%SZ')
+    except ValueError:
+        return None
+
+
+def compute_launch_curves(by_release_daily: Dict[str, Any]) -> List[Dict[str, Any]]:
+    """
+    Build first-day download curves for the interactive dashboard.
+
+    Converts each tracked release's timestamped launch points (recorded by
+    merge_release_daily during the release's first 24h, only when counts
+    changed) into hours-since-publish offsets, so releases published at
+    different times plot on a shared axis. Every curve starts at the
+    (0h, 0 downloads) origin each release begins life at.
+
+    Returns:
+        Up to CHART_LAUNCH_MAX_RELEASES entries, newest published first:
+        [{'tag', 'points': [{'h': float, 'downloads': int} ...]} ...].
+    """
+    curves = []
+    for tag, info in sorted((by_release_daily or {}).items(),
+                            key=lambda kv: kv[1].get('published_at', ''), reverse=True):
+        published = _parse_release_timestamp(info.get('published_at', ''))
+        points = info.get('launch') or []
+        if not published or not points:
+            continue
+        curve = [{'h': 0, 'downloads': 0}]
+        for p in points:
+            t = _parse_release_timestamp(p.get('time', ''))
+            if t:
+                curve.append({'h': round((t - published).total_seconds() / 3600, 2),
+                              'downloads': p.get('downloads', 0)})
+        if len(curve) > 1:
+            curves.append({'tag': tag, 'points': curve})
+        if len(curves) >= CHART_LAUNCH_MAX_RELEASES:
+            break
+    return curves
+
+
 def compute_release_reception(by_release_daily: Dict[str, Any]) -> List[Dict[str, Any]]:
     """
     Summarize how recently published releases are being adopted in their early life.
@@ -717,8 +763,8 @@ def compute_release_reception(by_release_daily: Dict[str, Any]) -> List[Dict[str
             windows, macos, linux} ...]}} (snapshots date-sorted)
 
     Returns:
-        Rows {tag, published, tracked_days, accrued, accrued_windows, accrued_macos,
-        accrued_linux, lifetime}, newest published first. Empty until data accrues.
+        Rows {tag, published, age_days, accrued, accrued_windows, accrued_macos,
+        accrued_linux}, newest published first. Empty until data accrues.
     """
     # Rows are paired with the full published_at timestamp for sorting: the
     # row's 'published' field is truncated to the date, which would leave
@@ -729,24 +775,28 @@ def compute_release_reception(by_release_daily: Dict[str, Any]) -> List[Dict[str
         if not snaps:
             continue
         first, last = snaps[0], snaps[-1]
-        try:
-            d0 = datetime.strptime(first['date'], '%Y-%m-%d').date()
-            d1 = datetime.strptime(last['date'], '%Y-%m-%d').date()
-            tracked_days = (d1 - d0).days + 1
-        except (ValueError, KeyError):
-            tracked_days = len(snaps)
         published_at = info.get('published_at') or ''
         published = published_at[:10]
+        # Age in days, inclusive of publish day, measured against the latest
+        # snapshot (the data's "today"). A late-UTC publish may only get its
+        # first snapshot the next day, so age is anchored on the publish date
+        # rather than on when tracking first observed the release; without a
+        # publish date fall back to the observed snapshot span.
+        try:
+            d1 = datetime.strptime(last['date'], '%Y-%m-%d').date()
+            start = datetime.strptime(published or first['date'], '%Y-%m-%d').date()
+            age_days = max(1, (d1 - start).days + 1)
+        except (ValueError, KeyError):
+            age_days = len(snaps)
         baseline = {} if published else first
         keyed_rows.append((published_at, {
             'tag': tag,
             'published': published,
-            'tracked_days': tracked_days,
+            'age_days': age_days,
             'accrued': max(0, last.get('downloads', 0) - baseline.get('downloads', 0)),
             'accrued_windows': max(0, last.get('windows', 0) - baseline.get('windows', 0)),
             'accrued_macos': max(0, last.get('macos', 0) - baseline.get('macos', 0)),
             'accrued_linux': max(0, last.get('linux', 0) - baseline.get('linux', 0)),
-            'lifetime': last.get('downloads', 0),
         }))
     keyed_rows.sort(key=lambda kr: kr[0], reverse=True)
     return [row for _, row in keyed_rows]
@@ -1812,10 +1862,10 @@ def generate_readme(history_data: Dict[str, Any]) -> None:
                        f"over each release's own early-life window, so a brand-new release "
                        f"isn't unfairly compared against a mature one. Only releases published "
                        f"within ~{RELEASE_RECEPTION_WINDOW_DAYS} days appear.*\n\n")
-                md += "| Release | Published | Tracked | \U0001fa9f | \U0001f34e | \U0001f427 | Downloads (tracked) |\n"
-                md += "|---------|-----------|---------|----|----|----|---------------------|\n"
+                md += "| Release | Published | Age | \U0001fa9f | \U0001f34e | \U0001f427 | Downloads |\n"
+                md += "|---------|-----------|-----|----|----|----|-----------|\n"
                 for r in reception_rows:
-                    md += (f"| {r['tag']} | {r['published']} | {r['tracked_days']}d | "
+                    md += (f"| {r['tag']} | {r['published']} | {r['age_days']}d | "
                            f"{r['accrued_windows']} | {r['accrued_macos']} | {r['accrued_linux']} | "
                            f"**{r['accrued']}** |\n")
                 md += "\n"
@@ -1954,6 +2004,15 @@ def build_chart_data(history_data: Dict[str, Any]) -> Dict[str, Any]:
             for r in downloads_by_release if r.get('published_at')
         ]
 
+        by_release_daily = downloads_section.get('by_release_daily', {})
+        reception = [
+            {'tag': r['tag'], 'published': r['published'], 'age_days': r['age_days'],
+             'windows': r['accrued_windows'], 'macos': r['accrued_macos'],
+             'linux': r['accrued_linux'], 'total': r['accrued']}
+            for r in compute_release_reception(by_release_daily)[:CHART_RECEPTION_MAX_RELEASES]
+        ]
+        launch_curves = compute_launch_curves(by_release_daily)
+
         repos_out.append({
             'name': repo_name,
             'display': display,
@@ -1969,6 +2028,8 @@ def build_chart_data(history_data: Dict[str, Any]) -> Dict[str, Any]:
                 'daily': dict({'dates': dl_d_dates}, **dl_d_series),
                 'cumulative': dict({'dates': dl_c_dates}, **dl_c_series),
                 'releases': release_markers,
+                'reception': reception,
+                'launch_curves': launch_curves,
             },
             'config': {
                 'daily_days': DAILY_GRAPH_DAYS,

@@ -128,8 +128,7 @@ class TestReleaseReception(unittest.TestCase):
         self.assertEqual(r['accrued_windows'], 4)
         self.assertEqual(r['accrued_macos'], 7)
         self.assertEqual(r['accrued_linux'], 1)
-        self.assertEqual(r['tracked_days'], 5)
-        self.assertEqual(r['lifetime'], 12)
+        self.assertEqual(r['age_days'], 5)
 
     def test_day_one_downloads_are_counted(self):
         """Regression: a release whose downloads all landed on publish day must
@@ -146,6 +145,21 @@ class TestReleaseReception(unittest.TestCase):
         self.assertEqual(r['accrued'], 8)
         self.assertEqual(r['accrued_windows'], 6)
         self.assertEqual(r['accrued_macos'], 2)
+        self.assertEqual(r['age_days'], 1)
+
+    def test_age_anchored_on_publish_date_not_first_snapshot(self):
+        """A late-UTC publish first snapshotted the next day is still 2 days old."""
+        brd = {
+            'v2.1.0': {
+                'published_at': '2026-06-09T23:50:00Z',
+                'snapshots': [
+                    {'date': '2026-06-10', 'downloads': 14, 'windows': 4, 'macos': 9, 'linux': 1},
+                ],
+            }
+        }
+        r = compute_release_reception(brd)[0]
+        self.assertEqual(r['age_days'], 2)
+        self.assertEqual(r['accrued'], 14)
 
     def test_unknown_publish_date_falls_back_to_delta(self):
         """Without published_at a release never ages out of tracking, so its
@@ -163,7 +177,7 @@ class TestReleaseReception(unittest.TestCase):
         self.assertEqual(r['accrued'], 3)
         self.assertEqual(r['accrued_windows'], 2)
         self.assertEqual(r['accrued_macos'], 1)
-        self.assertEqual(r['lifetime'], 53)
+        self.assertEqual(r['age_days'], 5)
 
     def test_sorted_newest_first(self):
         brd = {

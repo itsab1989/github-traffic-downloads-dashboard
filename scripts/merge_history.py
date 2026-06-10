@@ -284,6 +284,27 @@ RELEASE_DAILY_TRACKING_DAYS = 14
 # split the same way as the platform totals).
 RELEASE_SNAPSHOT_FIELDS = ['downloads', 'windows', 'macos', 'linux']
 
+# Launch curve: while a release is within its first LAUNCH_WINDOW_HOURS after
+# publish, each run additionally records a timestamped point in the release's
+# 'launch' list - but only when the counts changed since the previous point,
+# so storage scales with download activity rather than with run cadence. The
+# daily 'snapshots' entries are date-keyed and overwritten by later runs the
+# same day, so without these points all within-day shape of a release's debut
+# would be lost. MAX_LAUNCH_POINTS caps pathological cases; launch points are
+# pruned together with the release entry they ride along in.
+LAUNCH_WINDOW_HOURS = 24
+MAX_LAUNCH_POINTS = 96
+
+
+def _parse_iso_utc(timestamp: str):
+    """Parse a 'YYYY-MM-DDTHH:MM:SSZ' timestamp (GitHub API format), or None."""
+    if not timestamp:
+        return None
+    try:
+        return datetime.strptime(timestamp, '%Y-%m-%dT%H:%M:%SZ')
+    except (ValueError, TypeError):
+        return None
+
 
 def _release_published_date(published_at: str):
     """Parse the YYYY-MM-DD date out of an ISO published_at string, or None."""
@@ -297,7 +318,8 @@ def _release_published_date(published_at: str):
 
 def merge_release_daily(existing_by_release_daily: Dict[str, Any],
                         new_by_release: List[Dict[str, Any]],
-                        as_of_date: str) -> Dict[str, Any]:
+                        as_of_date: str,
+                        fetched_at: str = '') -> Dict[str, Any]:
     """
     Maintain a bounded per-release daily snapshot series.
 
@@ -317,27 +339,42 @@ def merge_release_daily(existing_by_release_daily: Dict[str, Any],
     keeps history.json from growing without bound, since the snapshot count per
     release is capped by the early-life window.
 
+    ## Launch points
+
+    While a release is within LAUNCH_WINDOW_HOURS of publish, each run also
+    appends a timestamped point to the release's 'launch' list whenever the
+    counts changed since the previous point (see the constants above). These
+    preserve the within-day shape of a release's debut, which the date-keyed
+    daily snapshots cannot (later runs overwrite the same date).
+
     Args:
-        existing_by_release_daily: Prior structure (tag -> {published_at, snapshots})
+        existing_by_release_daily: Prior structure (tag -> {published_at,
+            snapshots, optional launch})
         new_by_release: Latest per-release lifetime snapshot (each with tag,
             downloads, windows/macos/linux, published_at)
         as_of_date: Snapshot date (YYYY-MM-DD) for the new data
+        fetched_at: Full fetch timestamp (YYYY-MM-DDTHH:MM:SSZ); enables
+            launch points when provided
 
     Returns:
         Updated structure: {tag: {'published_at': str, 'snapshots': [
-            {'date', 'downloads', 'windows', 'macos', 'linux'} ...]}}, snapshots
-        sorted by date.
+            {'date', 'downloads', 'windows', 'macos', 'linux'} ...],
+            'launch': [{'time', 'downloads', ...} ...] (only when points
+            exist)}}, snapshots sorted by date, launch sorted by time.
     """
     existing_by_release_daily = existing_by_release_daily or {}
     new_by_release = new_by_release or []
 
     as_of = _release_published_date(as_of_date)
+    fetched = _parse_iso_utc(fetched_at)
 
     # Start from existing snapshots, indexed by tag then by date for dedup.
     result: Dict[str, Any] = {}
     for tag, info in existing_by_release_daily.items():
         snaps = {s['date']: s for s in info.get('snapshots', []) if s.get('date')}
         result[tag] = {'published_at': info.get('published_at', ''), 'snapshots': snaps}
+        if info.get('launch'):
+            result[tag]['launch'] = list(info['launch'])
 
     # Overlay today's snapshot for each release in the fresh fetch.
     if as_of_date:
@@ -354,6 +391,20 @@ def merge_release_daily(existing_by_release_daily: Dict[str, Any],
                 snapshot[field] = int(rel.get(field, 0) or 0)
             entry['snapshots'][as_of_date] = snapshot
 
+            # Launch point: timestamped, change-driven, first day only.
+            published_dt = _parse_iso_utc(published_at)
+            if (fetched and published_dt
+                    and 0 <= (fetched - published_dt).total_seconds() <= LAUNCH_WINDOW_HOURS * 3600):
+                launch = entry.setdefault('launch', [])
+                point = {'time': fetched_at}
+                for field in RELEASE_SNAPSHOT_FIELDS:
+                    point[field] = snapshot[field]
+                prev = launch[-1] if launch else None
+                changed = prev is None or any(
+                    point[f] != prev.get(f, 0) for f in RELEASE_SNAPSHOT_FIELDS)
+                if changed and len(launch) < MAX_LAUNCH_POINTS:
+                    launch.append(point)
+
     # Drop releases that have aged out of the early-life window, and flatten
     # the per-date dicts back into sorted lists.
     pruned: Dict[str, Any] = {}
@@ -364,6 +415,8 @@ def merge_release_daily(existing_by_release_daily: Dict[str, Any],
         snapshots = sorted(info['snapshots'].values(), key=lambda s: s['date'])
         if snapshots:
             pruned[tag] = {'published_at': info.get('published_at', ''), 'snapshots': snapshots}
+            if info.get('launch'):
+                pruned[tag]['launch'] = info['launch']
 
     return pruned
 
@@ -432,6 +485,7 @@ def merge_downloads(existing_downloads: Dict[str, Any], new_downloads: Dict[str,
         existing_downloads.get('by_release_daily', {}),
         new_downloads.get('by_release', []),
         new_downloads.get('date', ''),
+        new_downloads.get('last_fetched', ''),
     )
 
     # Index existing cumulative snapshots by date

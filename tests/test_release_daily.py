@@ -28,6 +28,7 @@ from merge_history import (  # noqa: E402
     merge_release_daily,
     merge_downloads,
     RELEASE_DAILY_TRACKING_DAYS,
+    MAX_LAUNCH_POINTS,
 )
 
 
@@ -142,6 +143,76 @@ class TestMergeReleaseDaily(unittest.TestCase):
     def test_empty_inputs(self):
         """No data in, empty dict out."""
         self.assertEqual(merge_release_daily({}, [], '2026-05-24'), {})
+
+
+class TestLaunchPoints(unittest.TestCase):
+    """Timestamped within-day points during a release's first 24h after publish."""
+
+    PUB = '2026-05-24T08:00:00Z'
+
+    def test_point_recorded_inside_launch_window(self):
+        result = merge_release_daily(
+            {}, [release('v1.0.0', self.PUB, 3, windows=1, macos=2)],
+            '2026-05-24', fetched_at='2026-05-24T09:00:00Z')
+        launch = result['v1.0.0']['launch']
+        self.assertEqual(launch, [{'time': '2026-05-24T09:00:00Z', 'downloads': 3,
+                                   'windows': 1, 'macos': 2, 'linux': 0}])
+
+    def test_unchanged_counts_add_no_point(self):
+        """Points are change-driven so storage scales with activity, not cadence."""
+        run1 = merge_release_daily(
+            {}, [release('v1.0.0', self.PUB, 3)],
+            '2026-05-24', fetched_at='2026-05-24T09:00:00Z')
+        run2 = merge_release_daily(
+            run1, [release('v1.0.0', self.PUB, 3)],
+            '2026-05-24', fetched_at='2026-05-24T09:30:00Z')
+        run3 = merge_release_daily(
+            run2, [release('v1.0.0', self.PUB, 5)],
+            '2026-05-24', fetched_at='2026-05-24T10:00:00Z')
+        launch = run3['v1.0.0']['launch']
+        self.assertEqual([p['time'] for p in launch],
+                         ['2026-05-24T09:00:00Z', '2026-05-24T10:00:00Z'])
+        self.assertEqual([p['downloads'] for p in launch], [3, 5])
+
+    def test_no_point_outside_launch_window(self):
+        """After the first 24h only the daily snapshots keep accruing."""
+        result = merge_release_daily(
+            {}, [release('v1.0.0', self.PUB, 3)],
+            '2026-05-26', fetched_at='2026-05-26T09:00:00Z')
+        self.assertNotIn('launch', result['v1.0.0'])
+        self.assertEqual(len(result['v1.0.0']['snapshots']), 1)
+
+    def test_no_point_without_fetch_timestamp(self):
+        result = merge_release_daily(
+            {}, [release('v1.0.0', self.PUB, 3)], '2026-05-24')
+        self.assertNotIn('launch', result['v1.0.0'])
+
+    def test_existing_points_survive_later_merges(self):
+        """Launch points persist after the window closes, until the release ages out."""
+        run1 = merge_release_daily(
+            {}, [release('v1.0.0', self.PUB, 3)],
+            '2026-05-24', fetched_at='2026-05-24T09:00:00Z')
+        later = merge_release_daily(
+            run1, [release('v1.0.0', self.PUB, 9)],
+            '2026-05-28', fetched_at='2026-05-28T09:00:00Z')
+        self.assertEqual(len(later['v1.0.0']['launch']), 1)
+        self.assertEqual(later['v1.0.0']['launch'][0]['downloads'], 3)
+
+    def test_points_capped(self):
+        existing = {
+            'v1.0.0': {
+                'published_at': self.PUB,
+                'snapshots': [{'date': '2026-05-24', 'downloads': 1,
+                               'windows': 0, 'macos': 1, 'linux': 0}],
+                'launch': [{'time': f'2026-05-24T08:{m:02d}:00Z', 'downloads': m,
+                            'windows': 0, 'macos': m, 'linux': 0}
+                           for m in range(MAX_LAUNCH_POINTS)],
+            }
+        }
+        result = merge_release_daily(
+            existing, [release('v1.0.0', self.PUB, 999)],
+            '2026-05-24', fetched_at='2026-05-24T10:00:00Z')
+        self.assertEqual(len(result['v1.0.0']['launch']), MAX_LAUNCH_POINTS)
 
 
 if __name__ == '__main__':
