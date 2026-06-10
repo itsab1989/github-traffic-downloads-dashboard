@@ -108,8 +108,10 @@ class TestUnclassified(unittest.TestCase):
 
 class TestReleaseReception(unittest.TestCase):
 
-    def test_accrued_downloads_since_first_tracked(self):
-        """Reception = latest minus first observed snapshot, per platform."""
+    def test_accrued_is_latest_cumulative_count(self):
+        """Reception = latest cumulative count: only early-life releases are
+        tracked, so their cumulative count is the early-life total. The first
+        snapshot must NOT be used as a baseline (it already contains day one)."""
         brd = {
             'v1.0.0': {
                 'published_at': '2026-05-20T00:00:00Z',
@@ -122,12 +124,46 @@ class TestReleaseReception(unittest.TestCase):
         rows = compute_release_reception(brd)
         self.assertEqual(len(rows), 1)
         r = rows[0]
-        self.assertEqual(r['accrued'], 10)
-        self.assertEqual(r['accrued_windows'], 3)
-        self.assertEqual(r['accrued_macos'], 6)
+        self.assertEqual(r['accrued'], 12)
+        self.assertEqual(r['accrued_windows'], 4)
+        self.assertEqual(r['accrued_macos'], 7)
         self.assertEqual(r['accrued_linux'], 1)
         self.assertEqual(r['tracked_days'], 5)
         self.assertEqual(r['lifetime'], 12)
+
+    def test_day_one_downloads_are_counted(self):
+        """Regression: a release whose downloads all landed on publish day must
+        not show 0 (the date-keyed first snapshot already holds end-of-day-one)."""
+        brd = {
+            'v2.0.0': {
+                'published_at': '2026-06-10T04:00:00Z',
+                'snapshots': [
+                    {'date': '2026-06-10', 'downloads': 8, 'windows': 6, 'macos': 2, 'linux': 0},
+                ],
+            }
+        }
+        r = compute_release_reception(brd)[0]
+        self.assertEqual(r['accrued'], 8)
+        self.assertEqual(r['accrued_windows'], 6)
+        self.assertEqual(r['accrued_macos'], 2)
+
+    def test_unknown_publish_date_falls_back_to_delta(self):
+        """Without published_at a release never ages out of tracking, so its
+        cumulative count may predate the window; use the observed delta instead."""
+        brd = {
+            'mystery': {
+                'published_at': '',
+                'snapshots': [
+                    {'date': '2026-05-20', 'downloads': 50, 'windows': 30, 'macos': 20, 'linux': 0},
+                    {'date': '2026-05-24', 'downloads': 53, 'windows': 32, 'macos': 21, 'linux': 0},
+                ],
+            }
+        }
+        r = compute_release_reception(brd)[0]
+        self.assertEqual(r['accrued'], 3)
+        self.assertEqual(r['accrued_windows'], 2)
+        self.assertEqual(r['accrued_macos'], 1)
+        self.assertEqual(r['lifetime'], 53)
 
     def test_sorted_newest_first(self):
         brd = {

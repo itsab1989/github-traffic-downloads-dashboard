@@ -699,9 +699,18 @@ def compute_release_reception(by_release_daily: Dict[str, Any]) -> List[Dict[str
     Summarize how recently published releases are being adopted in their early life.
 
     Reads the bounded per-release daily snapshot series (by_release_daily) produced
-    by merge_history. For each tracked release it reports downloads accrued since we
-    first observed it - i.e. early-life reception, comparable across releases of
-    different ages because each is measured over its own tracked window.
+    by merge_history. For each tracked release it reports the downloads accrued in
+    its early life - comparable across releases of different ages because each is
+    measured over its own tracked window.
+
+    A release starts life at zero downloads, and merge_release_daily only retains
+    releases still inside their early-life window, so the latest cumulative count
+    IS the early-life total. Do not subtract the first snapshot as a baseline:
+    snapshots are date-keyed and overwritten by later runs the same day, so the
+    first snapshot already holds the end of day one - subtracting it silently
+    drops everything downloaded on publish day. Only when published_at is unknown
+    (such a release never ages out of tracking, so its counts may predate the
+    window) do we fall back to the delta since first observation.
 
     Args:
         by_release_daily: {tag: {'published_at', 'snapshots': [{date, downloads,
@@ -723,14 +732,16 @@ def compute_release_reception(by_release_daily: Dict[str, Any]) -> List[Dict[str
             tracked_days = (d1 - d0).days + 1
         except (ValueError, KeyError):
             tracked_days = len(snaps)
+        published = (info.get('published_at') or '')[:10]
+        baseline = {} if published else first
         rows.append({
             'tag': tag,
-            'published': (info.get('published_at') or '')[:10],
+            'published': published,
             'tracked_days': tracked_days,
-            'accrued': max(0, last.get('downloads', 0) - first.get('downloads', 0)),
-            'accrued_windows': max(0, last.get('windows', 0) - first.get('windows', 0)),
-            'accrued_macos': max(0, last.get('macos', 0) - first.get('macos', 0)),
-            'accrued_linux': max(0, last.get('linux', 0) - first.get('linux', 0)),
+            'accrued': max(0, last.get('downloads', 0) - baseline.get('downloads', 0)),
+            'accrued_windows': max(0, last.get('windows', 0) - baseline.get('windows', 0)),
+            'accrued_macos': max(0, last.get('macos', 0) - baseline.get('macos', 0)),
+            'accrued_linux': max(0, last.get('linux', 0) - baseline.get('linux', 0)),
             'lifetime': last.get('downloads', 0),
         })
     rows.sort(key=lambda r: r['published'], reverse=True)
@@ -1793,11 +1804,10 @@ def generate_readme(history_data: Dict[str, Any]) -> None:
             reception_rows = compute_release_reception(downloads_by_release_daily)
             if reception_rows:
                 md += f"**Recent Release Reception (first ~{RELEASE_RECEPTION_WINDOW_DAYS} days):**\n\n"
-                md += (f"*Downloads accrued per release since it was first tracked. Measured "
+                md += (f"*Downloads each release accrued in its early life. Measured "
                        f"over each release's own early-life window, so a brand-new release "
                        f"isn't unfairly compared against a mature one. Only releases published "
-                       f"within ~{RELEASE_RECEPTION_WINDOW_DAYS} days appear; this accrues over "
-                       f"time and cannot be backfilled.*\n\n")
+                       f"within ~{RELEASE_RECEPTION_WINDOW_DAYS} days appear.*\n\n")
                 md += "| Release | Published | Tracked | \U0001fa9f | \U0001f34e | \U0001f427 | Downloads (tracked) |\n"
                 md += "|---------|-----------|---------|----|----|----|---------------------|\n"
                 for r in reception_rows:
