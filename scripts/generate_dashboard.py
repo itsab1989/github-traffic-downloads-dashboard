@@ -679,6 +679,11 @@ def compute_funnel(views: int, clones: int, downloads: int) -> Dict[str, Any]:
     two unrelated populations. Both rates answer "of the people who looked,
     how many took this deeper action?".
 
+    Callers should pass UNIQUE views and cloners: total clones are dominated
+    by automation (CI re-cloning on every run, mirrors), so per-day uniques
+    are the closest available proxy for people. Downloads have no unique
+    equivalent, so the total is used there.
+
     Returns:
         {'views', 'clones', 'downloads', 'clone_rate', 'download_rate'} where the
         rates are percentages of views (float) or None when views is zero.
@@ -1694,26 +1699,28 @@ def generate_readme(history_data: Dict[str, Any]) -> None:
         md += f"| Last {STATS_PERIOD_MEDIUM_TERM} Days | {stats_medium['views_total']} | {stats_medium['views_unique']} |\n"
         md += f"| Lifetime | {stats_lifetime['views_total']} | {stats_lifetime['views_unique']} |\n\n"
 
-        # Add Engagement Ratios (views -> clones -> downloads), last short-term period.
-        # Deliberately not called a "funnel": these are independent GitHub metrics,
-        # and clones frequently exceed views (CI, mirrors, `git clone` without a page
-        # view), so the ratio can exceed 100%.
+        # Add Engagement Ratios (unique views vs. deeper actions), last short-term
+        # period. Uses unique views/cloners as the closest proxy for people: total
+        # clones are dominated by automation (CI re-cloning every run, mirrors).
+        # Downloads have no unique equivalent, so the total is used there.
         if INCLUDE_FUNNEL:
             funnel = compute_funnel(
-                stats_short['views_total'], stats_short['clones_total'], dl_short['total'])
+                stats_short['views_unique'], stats_short['clones_unique'], dl_short['total'])
             md += "### \U0001f3af Engagement Ratios\n\n"
             md += (f"*Of the people who looked at the repo in the last "
                    f"{STATS_PERIOD_SHORT_TERM} days, how many took a deeper action? "
-                   f"Clones (developer interest) and downloads (end-user adoption) are "
-                   f"independent actions, each shown relative to views. Clones and "
-                   f"downloads can happen without a page view (CI, mirrors, direct "
-                   f"links), so ratios above 100% are possible.*\n\n")
-            md += "| Action | Count | Ratio to views |\n"
-            md += "|--------|-------|----------------|\n"
-            md += f"| \U0001f440 Views | {funnel['views']} | — |\n"
+                   f"Cloning (developer interest) and downloading (end-user adoption) "
+                   f"are independent actions, each shown relative to unique visitors. "
+                   f"Uniques are per-day and cloning/downloading can happen without a "
+                   f"page view (CI, mirrors, direct links), so ratios above 100% are "
+                   f"possible. Downloads have no unique-people equivalent, so the "
+                   f"total is shown.*\n\n")
+            md += "| Action | Count | Ratio to unique visitors |\n"
+            md += "|--------|-------|--------------------------|\n"
+            md += f"| \U0001f440 Unique visitors | {funnel['views']} | — |\n"
             clone_rate = f"{funnel['clone_rate']}%" if funnel['clone_rate'] is not None else "—"
             dl_rate = f"{funnel['download_rate']}%" if funnel['download_rate'] is not None else "—"
-            md += f"| \U0001f5c5️ Clones | {funnel['clones']} | {clone_rate} |\n"
+            md += f"| \U0001f5c5️ Unique cloners | {funnel['clones']} | {clone_rate} |\n"
             md += f"| \U0001f4e5 Downloads | {funnel['downloads']} | {dl_rate} |\n\n"
 
         # Add Referrers section with emoji
