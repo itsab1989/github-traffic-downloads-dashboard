@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-06-12T20:31:22.991914Z
+**Last Updated:** 2026-06-12T22:17:19.063134Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -91,7 +91,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-1252-212121) ![clones](https://img.shields.io/badge/clones-7804-2196F3) ![views](https://img.shields.io/badge/views-1357-4CAF50) ![releases](https://img.shields.io/badge/releases-223-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-1252-212121) ![clones](https://img.shields.io/badge/clones-7804-2196F3) ![views](https://img.shields.io/badge/views-1357-4CAF50) ![releases](https://img.shields.io/badge/releases-224-6f42c1)
 
 *Tracking since **2026-05-02** (40 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~40 days have been tracked so far.*
 
@@ -189,13 +189,14 @@ Quick navigation to repository statistics:
 | 🐧 Linux | 18 | 18 | 49 |
 | **All** | **652** | **652** | **1252** |
 
-🆕 **Latest Release:** `v3.9.10` - **1** download (published 2026-06-12)
+🆕 **Latest Release:** `v3.9.11` - **0** downloads (published 2026-06-12)
 
 <details>
-<summary><strong>📦 Per-version downloads</strong> (223 releases - click to expand)</summary>
+<summary><strong>📦 Per-version downloads</strong> (224 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
+| v3.9.11 | 0 | 0 | 0 | **0** |
 | v3.9.10 | 0 | 1 | 0 | **1** |
 | v3.9.9 | 0 | 0 | 0 | **0** |
 | v3.9.8 | 0 | 0 | 0 | **0** |
@@ -455,6 +456,7 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
+| v3.9.11 | 2026-06-12 | 1d | 0 | 0 | 0 | **0** |
 | v3.9.10 | 2026-06-12 | 1d | 0 | 1 | 0 | **1** |
 | v3.9.9 | 2026-06-12 | 1d | 0 | 0 | 0 | **0** |
 | v3.9.8 | 2026-06-12 | 1d | 0 | 0 | 0 | **0** |
