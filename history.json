@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-06-12T18:22:00Z",
-    "last_updated": "2026-06-12T18:22:00.573013Z",
+    "generated_at": "2026-06-12T20:31:22Z",
+    "last_updated": "2026-06-12T20:31:22.991914Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2625,7 +2625,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-06-12T18:22:00Z",
+        "last_fetched": "2026-06-12T20:31:22Z",
         "clones_total": 7804,
         "clones_unique_total": 1794,
         "views_total": 1357,
@@ -2844,24 +2844,32 @@
           },
           {
             "date": "2026-06-12",
-            "cumulative_total": 1251,
-            "downloads_total": 8,
+            "cumulative_total": 1252,
+            "downloads_total": 9,
             "cumulative_windows": 216,
             "downloads_windows": 2,
-            "cumulative_macos": 986,
-            "downloads_macos": 6,
+            "cumulative_macos": 987,
+            "downloads_macos": 7,
             "cumulative_linux": 49,
             "downloads_linux": 0
           }
         ],
         "metadata": {
-          "last_fetched": "2026-06-12T18:22:00Z",
-          "cumulative_total": 1251,
+          "last_fetched": "2026-06-12T20:31:22Z",
+          "cumulative_total": 1252,
           "cumulative_windows": 216,
-          "cumulative_macos": 986,
+          "cumulative_macos": 987,
           "cumulative_linux": 49
         },
         "by_release": [
+          {
+            "tag": "v3.9.10",
+            "downloads": 1,
+            "windows": 0,
+            "macos": 1,
+            "linux": 0,
+            "published_at": "2026-06-12T20:00:50Z"
+          },
           {
             "tag": "v3.9.9",
             "downloads": 0,
@@ -4647,7 +4655,7 @@
           "macos": {
             "arm64": 539,
             "universal": 232,
-            "x86_64": 215
+            "x86_64": 216
           },
           "linux": {
             "arm64": 16,
@@ -6945,6 +6953,27 @@
                 "downloads": 0,
                 "windows": 0,
                 "macos": 0,
+                "linux": 0
+              }
+            ]
+          },
+          "v3.9.10": {
+            "published_at": "2026-06-12T20:00:50Z",
+            "snapshots": [
+              {
+                "date": "2026-06-12",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0
+              }
+            ],
+            "launch": [
+              {
+                "time": "2026-06-12T20:31:22Z",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
                 "linux": 0
               }
             ]
