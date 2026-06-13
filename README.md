@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-06-12T23:57:15.800175Z
+**Last Updated:** 2026-06-13T02:35:50.102433Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -91,7 +91,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-1253-212121) ![clones](https://img.shields.io/badge/clones-7804-2196F3) ![views](https://img.shields.io/badge/views-1357-4CAF50) ![releases](https://img.shields.io/badge/releases-225-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-1253-212121) ![clones](https://img.shields.io/badge/clones-7804-2196F3) ![views](https://img.shields.io/badge/views-1357-4CAF50) ![releases](https://img.shields.io/badge/releases-226-6f42c1)
 
 *Tracking since **2026-05-02** (40 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~40 days have been tracked so far.*
 
@@ -99,9 +99,9 @@ Quick navigation to repository statistics:
 
 | Metric | This week | Last week | Change |
 |--------|-----------|-----------|--------|
-| Clones | 364 | 589 | ▼ -38.2% |
-| Views | 112 | 273 | ▼ -59.0% |
-| Downloads | 345 | 179 | ▲ +92.7% |
+| Clones | 357 | 265 | ▲ +34.7% |
+| Views | 93 | 231 | ▼ -59.7% |
+| Downloads | 107 | 400 | ▼ -73.2% |
 
 ### 🗅️ Clones
 
@@ -109,7 +109,7 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 5628 | 1325 |
+| Last 30 Days | 5097 | 1204 |
 | Last 90 Days | 7804 | 1794 |
 | Lifetime | 7804 | 1794 |
 
@@ -121,7 +121,7 @@ Quick navigation to repository statistics:
 
 | Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
 |--------|--------------|----------------|----------------|----------|
-| Last 30 Days | 5628 | 1325 | 4303 | 76.5% |
+| Last 30 Days | 5097 | 1204 | 3893 | 76.4% |
 | Last 90 Days | 7804 | 1794 | 6010 | 77.0% |
 | Lifetime | 7804 | 1794 | 6010 | 77.0% |
 
@@ -131,7 +131,7 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 1024 | 386 |
+| Last 30 Days | 997 | 375 |
 | Last 90 Days | 1357 | 490 |
 | Lifetime | 1357 | 490 |
 
@@ -141,9 +141,9 @@ Quick navigation to repository statistics:
 
 | Action | Count | Ratio to unique visitors |
 |--------|-------|--------------------------|
-| 👀 Unique visitors | 386 | — |
-| 🗅️ Unique cloners | 1325 | 343.3% |
-| 📥 Downloads | 653 | 169.2% |
+| 👀 Unique visitors | 375 | — |
+| 🗅️ Unique cloners | 1204 | 321.1% |
+| 📥 Downloads | 653 | 174.1% |
 
 ### 📞 Referrers
 
@@ -172,7 +172,7 @@ Quick navigation to repository statistics:
 
 | Period | Total Views | Unique Visitors | Repeat Visitors | Repeat % |
 |--------|-------------|-----------------|-----------------|----------|
-| Last 30 Days | 1024 | 386 | 638 | 62.3% |
+| Last 30 Days | 997 | 375 | 622 | 62.4% |
 | Last 90 Days | 1357 | 490 | 867 | 63.9% |
 | Lifetime | 1357 | 490 | 867 | 63.9% |
 
@@ -189,13 +189,14 @@ Quick navigation to repository statistics:
 | 🐧 Linux | 18 | 18 | 49 |
 | **All** | **653** | **653** | **1253** |
 
-🆕 **Latest Release:** `v3.9.12` - **1** download (published 2026-06-12)
+🆕 **Latest Release:** `v3.9.13` - **0** downloads (published 2026-06-13)
 
 <details>
-<summary><strong>📦 Per-version downloads</strong> (225 releases - click to expand)</summary>
+<summary><strong>📦 Per-version downloads</strong> (226 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
+| v3.9.13 | 0 | 0 | 0 | **0** |
 | v3.9.12 | 0 | 1 | 0 | **1** |
 | v3.9.11 | 0 | 0 | 0 | **0** |
 | v3.9.10 | 0 | 1 | 0 | **1** |
@@ -457,47 +458,39 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
-| v3.9.12 | 2026-06-12 | 1d | 0 | 1 | 0 | **1** |
-| v3.9.11 | 2026-06-12 | 1d | 0 | 0 | 0 | **0** |
-| v3.9.10 | 2026-06-12 | 1d | 0 | 1 | 0 | **1** |
-| v3.9.9 | 2026-06-12 | 1d | 0 | 0 | 0 | **0** |
-| v3.9.8 | 2026-06-12 | 1d | 0 | 0 | 0 | **0** |
-| v3.9.7 | 2026-06-12 | 1d | 0 | 0 | 0 | **0** |
-| v3.9.6 | 2026-06-12 | 1d | 1 | 2 | 0 | **3** |
-| v3.9.5 | 2026-06-12 | 1d | 0 | 0 | 0 | **0** |
-| v3.9.4 | 2026-06-12 | 1d | 0 | 0 | 0 | **0** |
-| v3.9.3 | 2026-06-11 | 2d | 1 | 0 | 0 | **1** |
-| v3.9.2 | 2026-06-11 | 2d | 0 | 0 | 0 | **0** |
-| v3.9.1 | 2026-06-11 | 2d | 1 | 1 | 0 | **2** |
-| v3.9.0 | 2026-06-11 | 2d | 0 | 0 | 0 | **0** |
-| v3.8.19 | 2026-06-10 | 3d | 4 | 4 | 0 | **8** |
-| v3.8.18 | 2026-06-10 | 3d | 1 | 2 | 0 | **3** |
-| v3.8.17 | 2026-06-10 | 3d | 2 | 5 | 2 | **9** |
-| v3.8.16 | 2026-06-09 | 4d | 4 | 9 | 1 | **14** |
-| v3.8.15 | 2026-06-09 | 4d | 1 | 0 | 0 | **1** |
-| v3.8.14 | 2026-06-09 | 4d | 0 | 1 | 0 | **1** |
-| v3.8.13 | 2026-06-09 | 4d | 0 | 3 | 0 | **3** |
-| v3.8.12 | 2026-06-08 | 5d | 5 | 2 | 0 | **7** |
-| v3.8.11 | 2026-06-08 | 5d | 4 | 1 | 0 | **5** |
-| v3.8.10 | 2026-06-08 | 5d | 0 | 3 | 0 | **3** |
-| v3.8.9 | 2026-06-07 | 6d | 2 | 1 | 0 | **3** |
-| v3.8.8 | 2026-06-04 | 9d | 4 | 7 | 0 | **11** |
-| v3.8.7 | 2026-06-04 | 9d | 0 | 0 | 0 | **0** |
-| v3.8.6 | 2026-06-04 | 9d | 2 | 2 | 0 | **4** |
-| v3.8.5 | 2026-06-03 | 10d | 2 | 4 | 0 | **6** |
-| v3.8.4 | 2026-06-02 | 11d | 15 | 4 | 0 | **19** |
-| v3.8.3 | 2026-05-31 | 13d | 11 | 2 | 0 | **13** |
-| v3.8.2 | 2026-05-30 | 14d | 2 | 2 | 0 | **4** |
-| v3.8.1 | 2026-05-30 | 14d | 1 | 1 | 0 | **2** |
-| v3.8.0 | 2026-05-29 | 15d | 12 | 7 | 2 | **21** |
-| v3.8.0-beta.31 | 2026-05-29 | 15d | 1 | 1 | 0 | **2** |
-| v3.8.0-beta.30 | 2026-05-29 | 15d | 0 | 1 | 0 | **1** |
-| v3.8.0-beta.29 | 2026-05-29 | 15d | 0 | 1 | 0 | **1** |
-| v3.8.0-beta.28 | 2026-05-29 | 15d | 0 | 1 | 0 | **1** |
-| v3.8.0-beta.27 | 2026-05-29 | 15d | 0 | 1 | 0 | **1** |
-| v3.8.0-beta.26 | 2026-05-29 | 15d | 1 | 2 | 0 | **3** |
-| v3.8.0-beta.25 | 2026-05-29 | 15d | 0 | 0 | 0 | **0** |
-| v3.8.0-beta.24 | 2026-05-29 | 15d | 5 | 6 | 4 | **15** |
+| v3.9.13 | 2026-06-13 | 1d | 0 | 0 | 0 | **0** |
+| v3.9.12 | 2026-06-12 | 2d | 0 | 1 | 0 | **1** |
+| v3.9.11 | 2026-06-12 | 2d | 0 | 0 | 0 | **0** |
+| v3.9.10 | 2026-06-12 | 2d | 0 | 1 | 0 | **1** |
+| v3.9.9 | 2026-06-12 | 2d | 0 | 0 | 0 | **0** |
+| v3.9.8 | 2026-06-12 | 2d | 0 | 0 | 0 | **0** |
+| v3.9.7 | 2026-06-12 | 2d | 0 | 0 | 0 | **0** |
+| v3.9.6 | 2026-06-12 | 2d | 1 | 2 | 0 | **3** |
+| v3.9.5 | 2026-06-12 | 2d | 0 | 0 | 0 | **0** |
+| v3.9.4 | 2026-06-12 | 2d | 0 | 0 | 0 | **0** |
+| v3.9.3 | 2026-06-11 | 3d | 1 | 0 | 0 | **1** |
+| v3.9.2 | 2026-06-11 | 3d | 0 | 0 | 0 | **0** |
+| v3.9.1 | 2026-06-11 | 3d | 1 | 1 | 0 | **2** |
+| v3.9.0 | 2026-06-11 | 3d | 0 | 0 | 0 | **0** |
+| v3.8.19 | 2026-06-10 | 4d | 4 | 4 | 0 | **8** |
+| v3.8.18 | 2026-06-10 | 4d | 1 | 2 | 0 | **3** |
+| v3.8.17 | 2026-06-10 | 4d | 2 | 5 | 2 | **9** |
+| v3.8.16 | 2026-06-09 | 5d | 4 | 9 | 1 | **14** |
+| v3.8.15 | 2026-06-09 | 5d | 1 | 0 | 0 | **1** |
+| v3.8.14 | 2026-06-09 | 5d | 0 | 1 | 0 | **1** |
+| v3.8.13 | 2026-06-09 | 5d | 0 | 3 | 0 | **3** |
+| v3.8.12 | 2026-06-08 | 6d | 5 | 2 | 0 | **7** |
+| v3.8.11 | 2026-06-08 | 6d | 4 | 1 | 0 | **5** |
+| v3.8.10 | 2026-06-08 | 6d | 0 | 3 | 0 | **3** |
+| v3.8.9 | 2026-06-07 | 7d | 2 | 1 | 0 | **3** |
+| v3.8.8 | 2026-06-04 | 10d | 4 | 7 | 0 | **11** |
+| v3.8.7 | 2026-06-04 | 10d | 0 | 0 | 0 | **0** |
+| v3.8.6 | 2026-06-04 | 10d | 2 | 2 | 0 | **4** |
+| v3.8.5 | 2026-06-03 | 11d | 2 | 4 | 0 | **6** |
+| v3.8.4 | 2026-06-02 | 12d | 15 | 4 | 0 | **19** |
+| v3.8.3 | 2026-05-31 | 14d | 11 | 2 | 0 | **13** |
+| v3.8.2 | 2026-05-30 | 15d | 2 | 2 | 0 | **4** |
+| v3.8.1 | 2026-05-30 | 15d | 1 | 1 | 0 | **2** |
 
 ### 📈 Interactive Charts
 
