@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T13:16:03.933794Z",
+  "generated_at": "2026-06-13T15:15:07.030553Z",
   "repositories": [
     {
       "name": "itsab1989/ChromIQ",
@@ -422,7 +422,7 @@
             32,
             8,
             10,
-            4
+            5
           ],
           "windows": [
             0,
@@ -468,7 +468,7 @@
             19,
             4,
             8,
-            2
+            3
           ],
           "linux": [
             0,
@@ -539,7 +539,7 @@
             1235,
             1243,
             1253,
-            1257
+            1258
           ],
           "windows": [
             90,
@@ -585,7 +585,7 @@
             976,
             980,
             988,
-            990
+            991
           ],
           "linux": [
             31,
@@ -612,6 +612,14 @@
           ]
         },
         "releases": [
+          {
+            "date": "2026-06-13",
+            "tag": "v3.9.15"
+          },
+          {
+            "date": "2026-06-13",
+            "tag": "v3.9.14"
+          },
           {
             "date": "2026-06-13",
             "tag": "v3.9.13"
@@ -1519,13 +1527,31 @@
         ],
         "reception": [
           {
+            "tag": "v3.9.15",
+            "published": "2026-06-13",
+            "age_days": 1,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "total": 0
+          },
+          {
+            "tag": "v3.9.14",
+            "published": "2026-06-13",
+            "age_days": 1,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "total": 0
+          },
+          {
             "tag": "v3.9.13",
             "published": "2026-06-13",
             "age_days": 1,
             "windows": 2,
-            "macos": 1,
+            "macos": 2,
             "linux": 0,
-            "total": 3
+            "total": 4
           },
           {
             "tag": "v3.9.12",
@@ -1634,27 +1660,35 @@
             "macos": 1,
             "linux": 0,
             "total": 2
-          },
-          {
-            "tag": "v3.9.0",
-            "published": "2026-06-11",
-            "age_days": 3,
-            "windows": 0,
-            "macos": 0,
-            "linux": 0,
-            "total": 0
-          },
-          {
-            "tag": "v3.8.19",
-            "published": "2026-06-10",
-            "age_days": 4,
-            "windows": 4,
-            "macos": 4,
-            "linux": 0,
-            "total": 8
           }
         ],
         "launch_curves": [
+          {
+            "tag": "v3.9.15",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 0.03,
+                "downloads": 0
+              }
+            ]
+          },
+          {
+            "tag": "v3.9.14",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 0.51,
+                "downloads": 0
+              }
+            ]
+          },
           {
             "tag": "v3.9.13",
             "points": [
@@ -1677,6 +1711,10 @@
               {
                 "h": 10.38,
                 "downloads": 3
+              },
+              {
+                "h": 12.36,
+                "downloads": 4
               }
             ]
           },
@@ -1720,32 +1758,6 @@
               {
                 "h": 0.51,
                 "downloads": 1
-              }
-            ]
-          },
-          {
-            "tag": "v3.9.9",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 0.93,
-                "downloads": 0
-              }
-            ]
-          },
-          {
-            "tag": "v3.9.8",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 1.1,
-                "downloads": 0
               }
             ]
           }
