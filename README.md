@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-06-13T06:43:41.120660Z
+**Last Updated:** 2026-06-13T09:48:26.480021Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -91,17 +91,17 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-1255-212121) ![clones](https://img.shields.io/badge/clones-7804-2196F3) ![views](https://img.shields.io/badge/views-1357-4CAF50) ![releases](https://img.shields.io/badge/releases-226-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-1256-212121) ![clones](https://img.shields.io/badge/clones-8703-2196F3) ![views](https://img.shields.io/badge/views-1394-4CAF50) ![releases](https://img.shields.io/badge/releases-226-6f42c1)
 
-*Tracking since **2026-05-02** (40 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~40 days have been tracked so far.*
+*Tracking since **2026-05-02** (42 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~42 days have been tracked so far.*
 
 **This week vs last week:**
 
 | Metric | This week | Last week | Change |
 |--------|-----------|-----------|--------|
-| Clones | 357 | 265 | ▲ +34.7% |
-| Views | 93 | 231 | ▼ -59.7% |
-| Downloads | 109 | 400 | ▼ -72.8% |
+| Clones | 1256 | 265 | ▲ +374.0% |
+| Views | 130 | 231 | ▼ -43.7% |
+| Downloads | 110 | 400 | ▼ -72.5% |
 
 ### 🗅️ Clones
 
@@ -109,9 +109,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 5097 | 1204 |
-| Last 90 Days | 7804 | 1794 |
-| Lifetime | 7804 | 1794 |
+| Last 30 Days | 5996 | 1362 |
+| Last 90 Days | 8703 | 1952 |
+| Lifetime | 8703 | 1952 |
 
 ### 📄 Repeat vs New Clones
 
@@ -121,9 +121,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
 |--------|--------------|----------------|----------------|----------|
-| Last 30 Days | 5097 | 1204 | 3893 | 76.4% |
-| Last 90 Days | 7804 | 1794 | 6010 | 77.0% |
-| Lifetime | 7804 | 1794 | 6010 | 77.0% |
+| Last 30 Days | 5996 | 1362 | 4634 | 77.3% |
+| Last 90 Days | 8703 | 1952 | 6751 | 77.6% |
+| Lifetime | 8703 | 1952 | 6751 | 77.6% |
 
 ### 👀 Views
 
@@ -131,9 +131,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 997 | 375 |
-| Last 90 Days | 1357 | 490 |
-| Lifetime | 1357 | 490 |
+| Last 30 Days | 1034 | 389 |
+| Last 90 Days | 1394 | 504 |
+| Lifetime | 1394 | 504 |
 
 ### 🎯 Engagement Ratios
 
@@ -141,9 +141,9 @@ Quick navigation to repository statistics:
 
 | Action | Count | Ratio to unique visitors |
 |--------|-------|--------------------------|
-| 👀 Unique visitors | 375 | — |
-| 🗅️ Unique cloners | 1204 | 321.1% |
-| 📥 Downloads | 655 | 174.7% |
+| 👀 Unique visitors | 389 | — |
+| 🗅️ Unique cloners | 1362 | 350.1% |
+| 📥 Downloads | 656 | 168.6% |
 
 ### 📞 Referrers
 
@@ -153,16 +153,16 @@ Quick navigation to repository statistics:
 
 | Referrer | Total Views | Unique Visitors |
 |----------|-------------|----------------|
-| ifun.de | 68 | 46 |
-| Google | 30 | 12 |
-| printerknowledge.com | 23 | 9 |
-| github.com | 9 | 6 |
-| dpreview.com | 5 | 4 |
-| forum.luminous-landscape.com | 5 | 3 |
+| ifun.de | 70 | 48 |
+| Google | 28 | 11 |
+| printerknowledge.com | 19 | 7 |
+| github.com | 8 | 6 |
 | Bing | 4 | 3 |
-| reddit.com | 4 | 3 |
-| hub.displaycal.net | 3 | 3 |
+| forum.luminous-landscape.com | 4 | 2 |
+| hub.displaycal.net | 2 | 2 |
+| reddit.com | 2 | 2 |
 | DuckDuckGo | 1 | 1 |
+| dpreview.com | 1 | 1 |
 
 ### 👥 Repeat vs New Visitors
 
@@ -172,9 +172,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Views | Unique Visitors | Repeat Visitors | Repeat % |
 |--------|-------------|-----------------|-----------------|----------|
-| Last 30 Days | 997 | 375 | 622 | 62.4% |
-| Last 90 Days | 1357 | 490 | 867 | 63.9% |
-| Lifetime | 1357 | 490 | 867 | 63.9% |
+| Last 30 Days | 1034 | 389 | 645 | 62.4% |
+| Last 90 Days | 1394 | 504 | 890 | 63.8% |
+| Lifetime | 1394 | 504 | 890 | 63.8% |
 
 ### 📥 Release Downloads
 
@@ -184,19 +184,19 @@ Quick navigation to repository statistics:
 
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
-| 🪟 Windows | 126 | 126 | 216 |
+| 🪟 Windows | 127 | 127 | 217 |
 | 🍎 macOS | 511 | 511 | 990 |
 | 🐧 Linux | 18 | 18 | 49 |
-| **All** | **655** | **655** | **1255** |
+| **All** | **656** | **656** | **1256** |
 
-🆕 **Latest Release:** `v3.9.13` - **1** download (published 2026-06-13)
+🆕 **Latest Release:** `v3.9.13` - **2** downloads (published 2026-06-13)
 
 <details>
 <summary><strong>📦 Per-version downloads</strong> (226 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
-| v3.9.13 | 0 | 1 | 0 | **1** |
+| v3.9.13 | 1 | 1 | 0 | **2** |
 | v3.9.12 | 0 | 2 | 0 | **2** |
 | v3.9.11 | 0 | 0 | 0 | **0** |
 | v3.9.10 | 0 | 1 | 0 | **1** |
@@ -431,7 +431,7 @@ Quick navigation to repository statistics:
 
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
-| 🪟 Windows | 31 | 185 | 0 | **216** |
+| 🪟 Windows | 31 | 186 | 0 | **217** |
 | 🍎 macOS | 542 | 216 | 232 | **990** |
 | 🐧 Linux | 16 | 33 | 0 | **49** |
 
@@ -458,7 +458,7 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
-| v3.9.13 | 2026-06-13 | 1d | 0 | 1 | 0 | **1** |
+| v3.9.13 | 2026-06-13 | 1d | 1 | 1 | 0 | **2** |
 | v3.9.12 | 2026-06-12 | 2d | 0 | 2 | 0 | **2** |
 | v3.9.11 | 2026-06-12 | 2d | 0 | 0 | 0 | **0** |
 | v3.9.10 | 2026-06-12 | 2d | 0 | 1 | 0 | **1** |
