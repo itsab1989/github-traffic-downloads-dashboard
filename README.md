@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-06-15T05:32:51.346136Z
+**Last Updated:** 2026-06-15T11:37:45.277047Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -91,7 +91,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-1291-212121) ![clones](https://img.shields.io/badge/clones-9600-2196F3) ![views](https://img.shields.io/badge/views-1591-4CAF50) ![releases](https://img.shields.io/badge/releases-242-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-1296-212121) ![clones](https://img.shields.io/badge/clones-9600-2196F3) ![views](https://img.shields.io/badge/views-1591-4CAF50) ![releases](https://img.shields.io/badge/releases-242-6f42c1)
 
 *Tracking since **2026-05-02** (44 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~44 days have been tracked so far.*
 
@@ -101,7 +101,7 @@ Quick navigation to repository statistics:
 |--------|-----------|-----------|--------|
 | Clones | 1986 | 330 | ▲ +501.8% |
 | Views | 304 | 231 | ▲ +31.6% |
-| Downloads | 103 | 425 | ▼ -75.8% |
+| Downloads | 108 | 425 | ▼ -74.6% |
 
 ### 🗅️ Clones
 
@@ -143,7 +143,7 @@ Quick navigation to repository statistics:
 |--------|-------|--------------------------|
 | 👀 Unique visitors | 380 | — |
 | 🗅️ Unique cloners | 1432 | 376.8% |
-| 📥 Downloads | 691 | 181.8% |
+| 📥 Downloads | 696 | 183.2% |
 
 ### 📞 Referrers
 
@@ -184,19 +184,19 @@ Quick navigation to repository statistics:
 
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
-| 🪟 Windows | 139 | 139 | 229 |
-| 🍎 macOS | 534 | 534 | 1013 |
+| 🪟 Windows | 141 | 141 | 231 |
+| 🍎 macOS | 537 | 537 | 1016 |
 | 🐧 Linux | 18 | 18 | 49 |
-| **All** | **691** | **691** | **1291** |
+| **All** | **696** | **696** | **1296** |
 
-🆕 **Latest Release:** `v3.9.29` - **1** download (published 2026-06-15)
+🆕 **Latest Release:** `v3.9.29` - **5** downloads (published 2026-06-15)
 
 <details>
 <summary><strong>📦 Per-version downloads</strong> (242 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
-| v3.9.29 | 0 | 1 | 0 | **1** |
+| v3.9.29 | 2 | 3 | 0 | **5** |
 | v3.9.28 | 1 | 2 | 0 | **3** |
 | v3.9.27 | 0 | 1 | 0 | **1** |
 | v3.9.26 | 0 | 2 | 0 | **2** |
@@ -204,7 +204,7 @@ Quick navigation to repository statistics:
 | v3.9.24 | 0 | 2 | 0 | **2** |
 | v3.9.23 | 1 | 2 | 0 | **3** |
 | v3.9.22 | 0 | 0 | 0 | **0** |
-| v3.9.21 | 3 | 2 | 0 | **5** |
+| v3.9.21 | 3 | 3 | 0 | **6** |
 | v3.9.20 | 0 | 2 | 0 | **2** |
 | v3.9.19 | 2 | 0 | 0 | **2** |
 | v3.9.18 | 0 | 2 | 0 | **2** |
@@ -447,8 +447,8 @@ Quick navigation to repository statistics:
 
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
-| 🪟 Windows | 31 | 198 | 0 | **229** |
-| 🍎 macOS | 560 | 221 | 232 | **1013** |
+| 🪟 Windows | 31 | 200 | 0 | **231** |
+| 🍎 macOS | 563 | 221 | 232 | **1016** |
 | 🐧 Linux | 16 | 33 | 0 | **49** |
 
 *💡 Low-volume builds (<2% of lifetime downloads), candidates to stop shipping: 🐧 Linux arm64 (16, 1.2%).*
@@ -474,7 +474,7 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
-| v3.9.29 | 2026-06-15 | 1d | 0 | 1 | 0 | **1** |
+| v3.9.29 | 2026-06-15 | 1d | 2 | 3 | 0 | **5** |
 | v3.9.28 | 2026-06-14 | 2d | 1 | 2 | 0 | **3** |
 | v3.9.27 | 2026-06-14 | 2d | 0 | 1 | 0 | **1** |
 | v3.9.26 | 2026-06-14 | 2d | 0 | 2 | 0 | **2** |
@@ -482,7 +482,7 @@ Quick navigation to repository statistics:
 | v3.9.24 | 2026-06-14 | 2d | 0 | 2 | 0 | **2** |
 | v3.9.23 | 2026-06-14 | 2d | 1 | 2 | 0 | **3** |
 | v3.9.22 | 2026-06-14 | 2d | 0 | 0 | 0 | **0** |
-| v3.9.21 | 2026-06-14 | 2d | 3 | 2 | 0 | **5** |
+| v3.9.21 | 2026-06-14 | 2d | 3 | 3 | 0 | **6** |
 | v3.9.20 | 2026-06-13 | 3d | 0 | 2 | 0 | **2** |
 | v3.9.19 | 2026-06-13 | 3d | 2 | 0 | 0 | **2** |
 | v3.9.18 | 2026-06-13 | 3d | 0 | 2 | 0 | **2** |
