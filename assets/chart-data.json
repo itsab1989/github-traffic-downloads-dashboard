@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T11:37:45.277047Z",
+  "generated_at": "2026-06-15T16:47:19.788493Z",
   "repositories": [
     {
       "name": "itsab1989/ChromIQ",
@@ -432,7 +432,7 @@
             10,
             20,
             14,
-            9
+            16
           ],
           "windows": [
             0,
@@ -457,7 +457,7 @@
             2,
             8,
             4,
-            3
+            5
           ],
           "macos": [
             0,
@@ -482,7 +482,7 @@
             8,
             12,
             10,
-            6
+            11
           ],
           "linux": [
             0,
@@ -559,7 +559,7 @@
             1253,
             1273,
             1287,
-            1296
+            1303
           ],
           "windows": [
             90,
@@ -584,7 +584,7 @@
             216,
             224,
             228,
-            231
+            233
           ],
           "macos": [
             479,
@@ -609,7 +609,7 @@
             988,
             1000,
             1010,
-            1016
+            1021
           ],
           "linux": [
             31,
@@ -638,6 +638,26 @@
           ]
         },
         "releases": [
+          {
+            "date": "2026-06-15",
+            "tag": "v3.10.2"
+          },
+          {
+            "date": "2026-06-15",
+            "tag": "v3.10.1"
+          },
+          {
+            "date": "2026-06-15",
+            "tag": "v3.10.0"
+          },
+          {
+            "date": "2026-06-15",
+            "tag": "v3.9.31"
+          },
+          {
+            "date": "2026-06-15",
+            "tag": "v3.9.30"
+          },
           {
             "date": "2026-06-15",
             "tag": "v3.9.29"
@@ -1609,6 +1629,51 @@
         ],
         "reception": [
           {
+            "tag": "v3.10.2",
+            "published": "2026-06-15",
+            "age_days": 1,
+            "windows": 0,
+            "macos": 3,
+            "linux": 0,
+            "total": 3
+          },
+          {
+            "tag": "v3.10.1",
+            "published": "2026-06-15",
+            "age_days": 1,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "total": 0
+          },
+          {
+            "tag": "v3.10.0",
+            "published": "2026-06-15",
+            "age_days": 1,
+            "windows": 1,
+            "macos": 1,
+            "linux": 0,
+            "total": 2
+          },
+          {
+            "tag": "v3.9.31",
+            "published": "2026-06-15",
+            "age_days": 1,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "total": 0
+          },
+          {
+            "tag": "v3.9.30",
+            "published": "2026-06-15",
+            "age_days": 1,
+            "windows": 0,
+            "macos": 1,
+            "linux": 0,
+            "total": 1
+          },
+          {
             "tag": "v3.9.29",
             "published": "2026-06-15",
             "age_days": 1,
@@ -1697,54 +1762,74 @@
             "macos": 2,
             "linux": 0,
             "total": 2
-          },
-          {
-            "tag": "v3.9.19",
-            "published": "2026-06-13",
-            "age_days": 3,
-            "windows": 2,
-            "macos": 0,
-            "linux": 0,
-            "total": 2
-          },
-          {
-            "tag": "v3.9.18",
-            "published": "2026-06-13",
-            "age_days": 3,
-            "windows": 0,
-            "macos": 2,
-            "linux": 0,
-            "total": 2
-          },
-          {
-            "tag": "v3.9.17",
-            "published": "2026-06-13",
-            "age_days": 3,
-            "windows": 1,
-            "macos": 1,
-            "linux": 0,
-            "total": 2
-          },
-          {
-            "tag": "v3.9.16",
-            "published": "2026-06-13",
-            "age_days": 3,
-            "windows": 2,
-            "macos": 3,
-            "linux": 0,
-            "total": 5
-          },
-          {
-            "tag": "v3.9.15",
-            "published": "2026-06-13",
-            "age_days": 3,
-            "windows": 1,
-            "macos": 1,
-            "linux": 0,
-            "total": 2
           }
         ],
         "launch_curves": [
+          {
+            "tag": "v3.10.2",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 0.37,
+                "downloads": 3
+              }
+            ]
+          },
+          {
+            "tag": "v3.10.1",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 0.89,
+                "downloads": 0
+              }
+            ]
+          },
+          {
+            "tag": "v3.10.0",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 2.1,
+                "downloads": 2
+              }
+            ]
+          },
+          {
+            "tag": "v3.9.31",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 2.51,
+                "downloads": 0
+              }
+            ]
+          },
+          {
+            "tag": "v3.9.30",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 3.61,
+                "downloads": 1
+              }
+            ]
+          },
           {
             "tag": "v3.9.29",
             "points": [
@@ -1759,79 +1844,6 @@
               {
                 "h": 6.31,
                 "downloads": 5
-              }
-            ]
-          },
-          {
-            "tag": "v3.9.28",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 0.05,
-                "downloads": 0
-              },
-              {
-                "h": 1.14,
-                "downloads": 1
-              },
-              {
-                "h": 6.65,
-                "downloads": 3
-              }
-            ]
-          },
-          {
-            "tag": "v3.9.27",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 0.77,
-                "downloads": 1
-              }
-            ]
-          },
-          {
-            "tag": "v3.9.26",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 0.94,
-                "downloads": 2
-              }
-            ]
-          },
-          {
-            "tag": "v3.9.25",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 1.54,
-                "downloads": 1
-              }
-            ]
-          },
-          {
-            "tag": "v3.9.24",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 0.59,
-                "downloads": 2
               }
             ]
           }
