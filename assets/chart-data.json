@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T20:18:43.100627Z",
+  "generated_at": "2026-06-15T22:31:48.465973Z",
   "repositories": [
     {
       "name": "itsab1989/ChromIQ",
@@ -432,7 +432,7 @@
             10,
             20,
             14,
-            27
+            29
           ],
           "windows": [
             0,
@@ -457,7 +457,7 @@
             2,
             8,
             4,
-            11
+            12
           ],
           "macos": [
             0,
@@ -482,7 +482,7 @@
             8,
             12,
             10,
-            14
+            15
           ],
           "linux": [
             0,
@@ -559,7 +559,7 @@
             1253,
             1273,
             1287,
-            1314
+            1316
           ],
           "windows": [
             90,
@@ -584,7 +584,7 @@
             216,
             224,
             228,
-            239
+            240
           ],
           "macos": [
             479,
@@ -609,7 +609,7 @@
             988,
             1000,
             1010,
-            1024
+            1025
           ],
           "linux": [
             31,
@@ -638,6 +638,14 @@
           ]
         },
         "releases": [
+          {
+            "date": "2026-06-15",
+            "tag": "v3.10.4"
+          },
+          {
+            "date": "2026-06-15",
+            "tag": "v3.10.3"
+          },
           {
             "date": "2026-06-15",
             "tag": "v3.10.2"
@@ -1629,13 +1637,31 @@
         ],
         "reception": [
           {
+            "tag": "v3.10.4",
+            "published": "2026-06-15",
+            "age_days": 1,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "total": 0
+          },
+          {
+            "tag": "v3.10.3",
+            "published": "2026-06-15",
+            "age_days": 1,
+            "windows": 0,
+            "macos": 1,
+            "linux": 0,
+            "total": 1
+          },
+          {
             "tag": "v3.10.2",
             "published": "2026-06-15",
             "age_days": 1,
-            "windows": 6,
+            "windows": 7,
             "macos": 6,
             "linux": 2,
-            "total": 14
+            "total": 15
           },
           {
             "tag": "v3.10.1",
@@ -1744,27 +1770,35 @@
             "macos": 0,
             "linux": 0,
             "total": 0
-          },
-          {
-            "tag": "v3.9.21",
-            "published": "2026-06-14",
-            "age_days": 2,
-            "windows": 3,
-            "macos": 3,
-            "linux": 0,
-            "total": 6
-          },
-          {
-            "tag": "v3.9.20",
-            "published": "2026-06-13",
-            "age_days": 3,
-            "windows": 0,
-            "macos": 2,
-            "linux": 0,
-            "total": 2
           }
         ],
         "launch_curves": [
+          {
+            "tag": "v3.10.4",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 0.13,
+                "downloads": 0
+              }
+            ]
+          },
+          {
+            "tag": "v3.10.3",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 1.12,
+                "downloads": 1
+              }
+            ]
+          },
           {
             "tag": "v3.10.2",
             "points": [
@@ -1779,6 +1813,10 @@
               {
                 "h": 3.89,
                 "downloads": 14
+              },
+              {
+                "h": 6.11,
+                "downloads": 15
               }
             ]
           },
@@ -1818,36 +1856,6 @@
               {
                 "h": 2.51,
                 "downloads": 0
-              }
-            ]
-          },
-          {
-            "tag": "v3.9.30",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 3.61,
-                "downloads": 1
-              }
-            ]
-          },
-          {
-            "tag": "v3.9.29",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 0.23,
-                "downloads": 1
-              },
-              {
-                "h": 6.31,
-                "downloads": 5
               }
             ]
           }
