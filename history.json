@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-06-16T19:25:25Z",
-    "last_updated": "2026-06-16T19:25:25.667390Z",
+    "generated_at": "2026-06-16T21:58:14Z",
+    "last_updated": "2026-06-16T21:58:14.496369Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2625,7 +2625,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-06-16T19:25:25Z",
+        "last_fetched": "2026-06-16T21:58:14Z",
         "clones_total": 9895,
         "clones_unique_total": 2176,
         "views_total": 1629,
@@ -2888,29 +2888,29 @@
           },
           {
             "date": "2026-06-16",
-            "cumulative_total": 1349,
-            "downloads_total": 33,
-            "cumulative_windows": 244,
-            "downloads_windows": 4,
-            "cumulative_macos": 1052,
-            "downloads_macos": 27,
+            "cumulative_total": 1353,
+            "downloads_total": 37,
+            "cumulative_windows": 247,
+            "downloads_windows": 7,
+            "cumulative_macos": 1053,
+            "downloads_macos": 28,
             "cumulative_linux": 53,
             "downloads_linux": 2
           }
         ],
         "metadata": {
-          "last_fetched": "2026-06-16T19:25:25Z",
-          "cumulative_total": 1349,
-          "cumulative_windows": 244,
-          "cumulative_macos": 1052,
+          "last_fetched": "2026-06-16T21:58:14Z",
+          "cumulative_total": 1353,
+          "cumulative_windows": 247,
+          "cumulative_macos": 1053,
           "cumulative_linux": 53
         },
         "by_release": [
           {
             "tag": "v3.10.15",
-            "downloads": 1,
-            "windows": 0,
-            "macos": 1,
+            "downloads": 5,
+            "windows": 3,
+            "macos": 2,
             "linux": 0,
             "published_at": "2026-06-16T19:07:38Z"
           },
@@ -4989,11 +4989,11 @@
         ],
         "by_arch": {
           "windows": {
-            "arm64": 33,
-            "x86_64": 211
+            "arm64": 34,
+            "x86_64": 213
           },
           "macos": {
-            "arm64": 588,
+            "arm64": 589,
             "universal": 237,
             "x86_64": 227
           },
@@ -8138,9 +8138,9 @@
             "snapshots": [
               {
                 "date": "2026-06-16",
-                "downloads": 1,
-                "windows": 0,
-                "macos": 1,
+                "downloads": 5,
+                "windows": 3,
+                "macos": 2,
                 "linux": 0
               }
             ],
@@ -8150,6 +8150,13 @@
                 "downloads": 1,
                 "windows": 0,
                 "macos": 1,
+                "linux": 0
+              },
+              {
+                "time": "2026-06-16T21:58:14Z",
+                "downloads": 5,
+                "windows": 3,
+                "macos": 2,
                 "linux": 0
               }
             ]
