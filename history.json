@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-06-16T15:46:52Z",
-    "last_updated": "2026-06-16T15:46:52.454189Z",
+    "generated_at": "2026-06-16T19:25:25Z",
+    "last_updated": "2026-06-16T19:25:25.667390Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2625,7 +2625,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-06-16T15:46:52Z",
+        "last_fetched": "2026-06-16T19:25:25Z",
         "clones_total": 9895,
         "clones_unique_total": 2176,
         "views_total": 1629,
@@ -2888,29 +2888,45 @@
           },
           {
             "date": "2026-06-16",
-            "cumulative_total": 1345,
-            "downloads_total": 29,
-            "cumulative_windows": 243,
-            "downloads_windows": 3,
-            "cumulative_macos": 1049,
-            "downloads_macos": 24,
+            "cumulative_total": 1349,
+            "downloads_total": 33,
+            "cumulative_windows": 244,
+            "downloads_windows": 4,
+            "cumulative_macos": 1052,
+            "downloads_macos": 27,
             "cumulative_linux": 53,
             "downloads_linux": 2
           }
         ],
         "metadata": {
-          "last_fetched": "2026-06-16T15:46:52Z",
-          "cumulative_total": 1345,
-          "cumulative_windows": 243,
-          "cumulative_macos": 1049,
+          "last_fetched": "2026-06-16T19:25:25Z",
+          "cumulative_total": 1349,
+          "cumulative_windows": 244,
+          "cumulative_macos": 1052,
           "cumulative_linux": 53
         },
         "by_release": [
           {
-            "tag": "v3.10.13",
+            "tag": "v3.10.15",
             "downloads": 1,
             "windows": 0,
             "macos": 1,
+            "linux": 0,
+            "published_at": "2026-06-16T19:07:38Z"
+          },
+          {
+            "tag": "v3.10.14",
+            "downloads": 2,
+            "windows": 1,
+            "macos": 1,
+            "linux": 0,
+            "published_at": "2026-06-16T16:23:31Z"
+          },
+          {
+            "tag": "v3.10.13",
+            "downloads": 2,
+            "windows": 0,
+            "macos": 2,
             "linux": 0,
             "published_at": "2026-06-16T15:32:19Z"
           },
@@ -4974,10 +4990,10 @@
         "by_arch": {
           "windows": {
             "arm64": 33,
-            "x86_64": 210
+            "x86_64": 211
           },
           "macos": {
-            "arm64": 585,
+            "arm64": 588,
             "universal": 237,
             "x86_64": 227
           },
@@ -8052,9 +8068,9 @@
             "snapshots": [
               {
                 "date": "2026-06-16",
-                "downloads": 1,
+                "downloads": 2,
                 "windows": 0,
-                "macos": 1,
+                "macos": 2,
                 "linux": 0
               }
             ],
@@ -8064,6 +8080,13 @@
                 "downloads": 1,
                 "windows": 0,
                 "macos": 1,
+                "linux": 0
+              },
+              {
+                "time": "2026-06-16T19:25:25Z",
+                "downloads": 2,
+                "windows": 0,
+                "macos": 2,
                 "linux": 0
               }
             ]
@@ -8106,6 +8129,48 @@
                 "downloads": 0,
                 "windows": 0,
                 "macos": 0,
+                "linux": 0
+              }
+            ]
+          },
+          "v3.10.15": {
+            "published_at": "2026-06-16T19:07:38Z",
+            "snapshots": [
+              {
+                "date": "2026-06-16",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0
+              }
+            ],
+            "launch": [
+              {
+                "time": "2026-06-16T19:25:25Z",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0
+              }
+            ]
+          },
+          "v3.10.14": {
+            "published_at": "2026-06-16T16:23:31Z",
+            "snapshots": [
+              {
+                "date": "2026-06-16",
+                "downloads": 2,
+                "windows": 1,
+                "macos": 1,
+                "linux": 0
+              }
+            ],
+            "launch": [
+              {
+                "time": "2026-06-16T19:25:25Z",
+                "downloads": 2,
+                "windows": 1,
+                "macos": 1,
                 "linux": 0
               }
             ]
