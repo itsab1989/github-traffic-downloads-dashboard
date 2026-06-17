@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-06-17T01:45:26Z",
-    "last_updated": "2026-06-17T01:45:26.456914Z",
+    "generated_at": "2026-06-17T06:55:58Z",
+    "last_updated": "2026-06-17T06:55:58.992713Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2625,7 +2625,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-06-17T01:45:26Z",
+        "last_fetched": "2026-06-17T06:55:58Z",
         "clones_total": 9895,
         "clones_unique_total": 2176,
         "views_total": 1629,
@@ -2899,29 +2899,29 @@
           },
           {
             "date": "2026-06-17",
-            "cumulative_total": 1354,
-            "downloads_total": 1,
+            "cumulative_total": 1356,
+            "downloads_total": 3,
             "cumulative_windows": 247,
             "downloads_windows": 0,
-            "cumulative_macos": 1054,
-            "downloads_macos": 1,
+            "cumulative_macos": 1056,
+            "downloads_macos": 3,
             "cumulative_linux": 53,
             "downloads_linux": 0
           }
         ],
         "metadata": {
-          "last_fetched": "2026-06-17T01:45:26Z",
-          "cumulative_total": 1354,
+          "last_fetched": "2026-06-17T06:55:58Z",
+          "cumulative_total": 1356,
           "cumulative_windows": 247,
-          "cumulative_macos": 1054,
+          "cumulative_macos": 1056,
           "cumulative_linux": 53
         },
         "by_release": [
           {
             "tag": "v3.10.16",
-            "downloads": 1,
+            "downloads": 3,
             "windows": 0,
-            "macos": 1,
+            "macos": 3,
             "linux": 0,
             "published_at": "2026-06-16T23:14:33Z"
           },
@@ -5012,7 +5012,7 @@
             "x86_64": 213
           },
           "macos": {
-            "arm64": 590,
+            "arm64": 592,
             "universal": 237,
             "x86_64": 227
           },
@@ -8544,9 +8544,9 @@
               },
               {
                 "date": "2026-06-17",
-                "downloads": 1,
+                "downloads": 3,
                 "windows": 0,
-                "macos": 1,
+                "macos": 3,
                 "linux": 0
               }
             ],
@@ -8563,6 +8563,13 @@
                 "downloads": 1,
                 "windows": 0,
                 "macos": 1,
+                "linux": 0
+              },
+              {
+                "time": "2026-06-17T06:55:58Z",
+                "downloads": 3,
+                "windows": 0,
+                "macos": 3,
                 "linux": 0
               }
             ]
