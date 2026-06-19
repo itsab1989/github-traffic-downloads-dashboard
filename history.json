@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-06-19T10:06:49Z",
-    "last_updated": "2026-06-19T10:06:50.018728Z",
+    "generated_at": "2026-06-19T13:52:13Z",
+    "last_updated": "2026-06-19T13:52:14.094111Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2559,10 +2559,10 @@
         },
         {
           "date": "2026-06-18",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
+          "clones_total": 335,
+          "clones_unique": 67,
+          "views_total": 44,
+          "views_unique": 11
         },
         {
           "date": "2026-06-19",
@@ -2575,8 +2575,8 @@
       "referrers": [
         {
           "referrer": "github.com",
-          "count": 187,
-          "uniques": 8
+          "count": 195,
+          "uniques": 7
         },
         {
           "referrer": "Google",
@@ -2584,14 +2584,19 @@
           "uniques": 14
         },
         {
+          "referrer": "printerknowledge.com",
+          "count": 18,
+          "uniques": 7
+        },
+        {
           "referrer": "ifun.de",
           "count": 14,
           "uniques": 8
         },
         {
-          "referrer": "printerknowledge.com",
-          "count": 12,
-          "uniques": 4
+          "referrer": "reddit.com",
+          "count": 5,
+          "uniques": 5
         },
         {
           "referrer": "dpreview.com",
@@ -2604,14 +2609,9 @@
           "uniques": 3
         },
         {
-          "referrer": "reddit.com",
-          "count": 4,
-          "uniques": 4
-        },
-        {
           "referrer": "Bing",
-          "count": 4,
-          "uniques": 3
+          "count": 3,
+          "uniques": 2
         },
         {
           "referrer": "forum.luminous-landscape.com",
@@ -2625,11 +2625,11 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-06-19T10:06:49Z",
-        "clones_total": 10490,
-        "clones_unique_total": 2322,
-        "views_total": 1696,
-        "views_unique_total": 548
+        "last_fetched": "2026-06-19T13:52:13Z",
+        "clones_total": 10825,
+        "clones_unique_total": 2389,
+        "views_total": 1740,
+        "views_unique_total": 559
       },
       "downloads": {
         "daily_data": [
@@ -2921,28 +2921,36 @@
           },
           {
             "date": "2026-06-19",
-            "cumulative_total": 1413,
-            "downloads_total": 5,
-            "cumulative_windows": 268,
-            "downloads_windows": 0,
-            "cumulative_macos": 1092,
-            "downloads_macos": 5,
+            "cumulative_total": 1417,
+            "downloads_total": 9,
+            "cumulative_windows": 270,
+            "downloads_windows": 2,
+            "cumulative_macos": 1094,
+            "downloads_macos": 7,
             "cumulative_linux": 53,
             "downloads_linux": 0
           }
         ],
         "metadata": {
-          "last_fetched": "2026-06-19T10:06:49Z",
-          "cumulative_total": 1413,
-          "cumulative_windows": 268,
-          "cumulative_macos": 1092,
+          "last_fetched": "2026-06-19T13:52:13Z",
+          "cumulative_total": 1417,
+          "cumulative_windows": 270,
+          "cumulative_macos": 1094,
           "cumulative_linux": 53
         },
         "by_release": [
           {
+            "tag": "v3.11.9",
+            "downloads": 3,
+            "windows": 1,
+            "macos": 2,
+            "linux": 0,
+            "published_at": "2026-06-19T12:02:15Z"
+          },
+          {
             "tag": "v3.11.8",
-            "downloads": 5,
-            "windows": 0,
+            "downloads": 6,
+            "windows": 1,
             "macos": 5,
             "linux": 0,
             "published_at": "2026-06-19T00:07:57Z"
@@ -5199,10 +5207,10 @@
         "by_arch": {
           "windows": {
             "arm64": 36,
-            "x86_64": 232
+            "x86_64": 234
           },
           "macos": {
-            "arm64": 626,
+            "arm64": 628,
             "universal": 238,
             "x86_64": 228
           },
@@ -9918,8 +9926,8 @@
             "snapshots": [
               {
                 "date": "2026-06-19",
-                "downloads": 5,
-                "windows": 0,
+                "downloads": 6,
+                "windows": 1,
                 "macos": 5,
                 "linux": 0
               }
@@ -9944,6 +9952,34 @@
                 "downloads": 5,
                 "windows": 0,
                 "macos": 5,
+                "linux": 0
+              },
+              {
+                "time": "2026-06-19T13:52:13Z",
+                "downloads": 6,
+                "windows": 1,
+                "macos": 5,
+                "linux": 0
+              }
+            ]
+          },
+          "v3.11.9": {
+            "published_at": "2026-06-19T12:02:15Z",
+            "snapshots": [
+              {
+                "date": "2026-06-19",
+                "downloads": 3,
+                "windows": 1,
+                "macos": 2,
+                "linux": 0
+              }
+            ],
+            "launch": [
+              {
+                "time": "2026-06-19T13:52:13Z",
+                "downloads": 3,
+                "windows": 1,
+                "macos": 2,
                 "linux": 0
               }
             ]
