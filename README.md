@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-06-21T20:08:48.084930Z
+**Last Updated:** 2026-06-21T21:48:45.877739Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -91,7 +91,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-1454-212121) ![clones](https://img.shields.io/badge/clones-11452-2196F3) ![views](https://img.shields.io/badge/views-1812-4CAF50) ![releases](https://img.shields.io/badge/releases-295-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-1454-212121) ![clones](https://img.shields.io/badge/clones-11452-2196F3) ![views](https://img.shields.io/badge/views-1812-4CAF50) ![releases](https://img.shields.io/badge/releases-297-6f42c1)
 
 *Tracking since **2026-05-02** (50 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~50 days have been tracked so far.*
 
@@ -189,13 +189,15 @@ Quick navigation to repository statistics:
 | 🐧 Linux | 22 | 22 | 53 |
 | **All** | **854** | **854** | **1454** |
 
-🆕 **Latest Release:** `v3.11.21` - **2** downloads (published 2026-06-21)
+🆕 **Latest Release:** `v3.11.23` - **0** downloads (published 2026-06-21)
 
 <details>
-<summary><strong>📦 Per-version downloads</strong> (295 releases - click to expand)</summary>
+<summary><strong>📦 Per-version downloads</strong> (297 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
+| v3.11.23 | 0 | 0 | 0 | **0** |
+| v3.11.22 | 0 | 0 | 0 | **0** |
 | v3.11.21 | 1 | 1 | 0 | **2** |
 | v3.11.20 | 2 | 2 | 0 | **4** |
 | v3.11.19 | 1 | 2 | 0 | **3** |
@@ -527,6 +529,8 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
+| v3.11.23 | 2026-06-21 | 1d | 0 | 0 | 0 | **0** |
+| v3.11.22 | 2026-06-21 | 1d | 0 | 0 | 0 | **0** |
 | v3.11.21 | 2026-06-21 | 1d | 1 | 1 | 0 | **2** |
 | v3.11.20 | 2026-06-21 | 1d | 2 | 2 | 0 | **4** |
 | v3.11.19 | 2026-06-21 | 1d | 1 | 2 | 0 | **3** |

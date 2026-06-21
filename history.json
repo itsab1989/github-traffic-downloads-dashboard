@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-06-21T20:08:47Z",
-    "last_updated": "2026-06-21T20:08:48.084930Z",
+    "generated_at": "2026-06-21T21:48:45Z",
+    "last_updated": "2026-06-21T21:48:45.877739Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2625,7 +2625,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-06-21T20:08:47Z",
+        "last_fetched": "2026-06-21T21:48:45Z",
         "clones_total": 11452,
         "clones_unique_total": 2546,
         "views_total": 1812,
@@ -2954,13 +2954,29 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-06-21T20:08:47Z",
+          "last_fetched": "2026-06-21T21:48:45Z",
           "cumulative_total": 1454,
           "cumulative_windows": 290,
           "cumulative_macos": 1111,
           "cumulative_linux": 53
         },
         "by_release": [
+          {
+            "tag": "v3.11.23",
+            "downloads": 0,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "published_at": "2026-06-21T21:42:50Z"
+          },
+          {
+            "tag": "v3.11.22",
+            "downloads": 0,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "published_at": "2026-06-21T21:35:04Z"
+          },
           {
             "tag": "v3.11.21",
             "downloads": 2,
@@ -11666,6 +11682,48 @@
                 "downloads": 2,
                 "windows": 1,
                 "macos": 1,
+                "linux": 0
+              }
+            ]
+          },
+          "v3.11.23": {
+            "published_at": "2026-06-21T21:42:50Z",
+            "snapshots": [
+              {
+                "date": "2026-06-21",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
+              }
+            ],
+            "launch": [
+              {
+                "time": "2026-06-21T21:48:45Z",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
+              }
+            ]
+          },
+          "v3.11.22": {
+            "published_at": "2026-06-21T21:35:04Z",
+            "snapshots": [
+              {
+                "date": "2026-06-21",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
+              }
+            ],
+            "launch": [
+              {
+                "time": "2026-06-21T21:48:45Z",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
                 "linux": 0
               }
             ]
