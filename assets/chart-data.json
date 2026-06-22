@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T11:26:07.103951Z",
+  "generated_at": "2026-06-22T16:08:04.541010Z",
   "repositories": [
     {
       "name": "itsab1989/ChromIQ",
@@ -467,7 +467,7 @@
             23,
             7,
             17,
-            6
+            14
           ],
           "windows": [
             0,
@@ -499,7 +499,7 @@
             9,
             5,
             9,
-            4
+            6
           ],
           "macos": [
             0,
@@ -531,7 +531,7 @@
             14,
             2,
             8,
-            2
+            8
           ],
           "linux": [
             0,
@@ -629,7 +629,7 @@
             1431,
             1438,
             1455,
-            1461
+            1469
           ],
           "windows": [
             90,
@@ -661,7 +661,7 @@
             277,
             282,
             291,
-            295
+            297
           ],
           "macos": [
             479,
@@ -693,7 +693,7 @@
             1101,
             1103,
             1111,
-            1113
+            1119
           ],
           "linux": [
             31,
@@ -729,6 +729,14 @@
           ]
         },
         "releases": [
+          {
+            "date": "2026-06-22",
+            "tag": "v3.11.25"
+          },
+          {
+            "date": "2026-06-22",
+            "tag": "v3.11.24"
+          },
           {
             "date": "2026-06-21",
             "tag": "v3.11.23"
@@ -1920,6 +1928,24 @@
         ],
         "reception": [
           {
+            "tag": "v3.11.25",
+            "published": "2026-06-22",
+            "age_days": 1,
+            "windows": 1,
+            "macos": 1,
+            "linux": 0,
+            "total": 2
+          },
+          {
+            "tag": "v3.11.24",
+            "published": "2026-06-22",
+            "age_days": 1,
+            "windows": 1,
+            "macos": 5,
+            "linux": 0,
+            "total": 6
+          },
+          {
             "tag": "v3.11.23",
             "published": "2026-06-21",
             "age_days": 2,
@@ -2035,27 +2061,35 @@
             "macos": 5,
             "linux": 0,
             "total": 11
-          },
-          {
-            "tag": "v3.11.10",
-            "published": "2026-06-19",
-            "age_days": 4,
-            "windows": 0,
-            "macos": 2,
-            "linux": 0,
-            "total": 2
-          },
-          {
-            "tag": "v3.11.9",
-            "published": "2026-06-19",
-            "age_days": 4,
-            "windows": 1,
-            "macos": 2,
-            "linux": 0,
-            "total": 3
           }
         ],
         "launch_curves": [
+          {
+            "tag": "v3.11.25",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 1.09,
+                "downloads": 2
+              }
+            ]
+          },
+          {
+            "tag": "v3.11.24",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 4.38,
+                "downloads": 6
+              }
+            ]
+          },
           {
             "tag": "v3.11.23",
             "points": [
@@ -2121,48 +2155,6 @@
               {
                 "h": 2.8,
                 "downloads": 4
-              }
-            ]
-          },
-          {
-            "tag": "v3.11.19",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 0.33,
-                "downloads": 1
-              },
-              {
-                "h": 2.48,
-                "downloads": 2
-              },
-              {
-                "h": 4.67,
-                "downloads": 3
-              }
-            ]
-          },
-          {
-            "tag": "v3.11.18",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 1.19,
-                "downloads": 1
-              },
-              {
-                "h": 5.51,
-                "downloads": 4
-              },
-              {
-                "h": 8.99,
-                "downloads": 6
               }
             ]
           }
