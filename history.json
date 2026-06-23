@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-06-23T08:52:13Z",
-    "last_updated": "2026-06-23T08:52:13.707796Z",
+    "generated_at": "2026-06-23T11:49:09Z",
+    "last_updated": "2026-06-23T11:49:09.629483Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2559,10 +2559,10 @@
         },
         {
           "date": "2026-06-22",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
+          "clones_total": 120,
+          "clones_unique": 28,
+          "views_total": 41,
+          "views_unique": 13
         },
         {
           "date": "2026-06-23",
@@ -2575,18 +2575,18 @@
       "referrers": [
         {
           "referrer": "github.com",
-          "count": 210,
-          "uniques": 7
+          "count": 212,
+          "uniques": 8
+        },
+        {
+          "referrer": "printerknowledge.com",
+          "count": 27,
+          "uniques": 11
         },
         {
           "referrer": "Google",
           "count": 26,
           "uniques": 13
-        },
-        {
-          "referrer": "printerknowledge.com",
-          "count": 25,
-          "uniques": 10
         },
         {
           "referrer": "dpreview.com",
@@ -2595,18 +2595,18 @@
         },
         {
           "referrer": "reddit.com",
+          "count": 6,
+          "uniques": 6
+        },
+        {
+          "referrer": "hub.displaycal.net",
           "count": 5,
-          "uniques": 5
+          "uniques": 3
         },
         {
           "referrer": "ifun.de",
           "count": 4,
           "uniques": 4
-        },
-        {
-          "referrer": "hub.displaycal.net",
-          "count": 4,
-          "uniques": 2
         },
         {
           "referrer": "forum.luminous-landscape.com",
@@ -2625,11 +2625,11 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-06-23T08:52:13Z",
-        "clones_total": 11675,
-        "clones_unique_total": 2608,
-        "views_total": 1834,
-        "views_unique_total": 587
+        "last_fetched": "2026-06-23T11:49:09Z",
+        "clones_total": 11795,
+        "clones_unique_total": 2636,
+        "views_total": 1875,
+        "views_unique_total": 600
       },
       "downloads": {
         "daily_data": [
@@ -2965,10 +2965,10 @@
           },
           {
             "date": "2026-06-23",
-            "cumulative_total": 1480,
-            "downloads_total": 7,
-            "cumulative_windows": 302,
-            "downloads_windows": 2,
+            "cumulative_total": 1481,
+            "downloads_total": 8,
+            "cumulative_windows": 303,
+            "downloads_windows": 3,
             "cumulative_macos": 1125,
             "downloads_macos": 5,
             "cumulative_linux": 53,
@@ -2976,9 +2976,9 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-06-23T08:52:13Z",
-          "cumulative_total": 1480,
-          "cumulative_windows": 302,
+          "last_fetched": "2026-06-23T11:49:09Z",
+          "cumulative_total": 1481,
+          "cumulative_windows": 303,
           "cumulative_macos": 1125,
           "cumulative_linux": 53
         },
@@ -3033,8 +3033,8 @@
           },
           {
             "tag": "v3.11.25",
-            "downloads": 7,
-            "windows": 5,
+            "downloads": 8,
+            "windows": 6,
             "macos": 2,
             "linux": 0,
             "published_at": "2026-06-22T15:02:53Z"
@@ -5427,7 +5427,7 @@
         "by_arch": {
           "windows": {
             "arm64": 40,
-            "x86_64": 262
+            "x86_64": 263
           },
           "macos": {
             "arm64": 650,
@@ -12716,8 +12716,8 @@
               },
               {
                 "date": "2026-06-23",
-                "downloads": 7,
-                "windows": 5,
+                "downloads": 8,
+                "windows": 6,
                 "macos": 2,
                 "linux": 0
               }
@@ -12741,6 +12741,13 @@
                 "time": "2026-06-23T01:27:05Z",
                 "downloads": 7,
                 "windows": 5,
+                "macos": 2,
+                "linux": 0
+              },
+              {
+                "time": "2026-06-23T11:49:09Z",
+                "downloads": 8,
+                "windows": 6,
                 "macos": 2,
                 "linux": 0
               }
