@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-06-24T05:54:42Z",
-    "last_updated": "2026-06-24T05:54:42.975925Z",
+    "generated_at": "2026-06-24T08:47:46Z",
+    "last_updated": "2026-06-24T08:47:47.064827Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2559,10 +2559,10 @@
         },
         {
           "date": "2026-06-23",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
+          "clones_total": 427,
+          "clones_unique": 85,
+          "views_total": 119,
+          "views_unique": 10
         },
         {
           "date": "2026-06-24",
@@ -2581,12 +2581,12 @@
         {
           "referrer": "printerknowledge.com",
           "count": 27,
-          "uniques": 11
+          "uniques": 10
         },
         {
           "referrer": "Google",
           "count": 26,
-          "uniques": 13
+          "uniques": 15
         },
         {
           "referrer": "dpreview.com",
@@ -2605,8 +2605,8 @@
         },
         {
           "referrer": "ifun.de",
-          "count": 4,
-          "uniques": 4
+          "count": 3,
+          "uniques": 3
         },
         {
           "referrer": "forum.luminous-landscape.com",
@@ -2615,8 +2615,8 @@
         },
         {
           "referrer": "Bing",
-          "count": 2,
-          "uniques": 2
+          "count": 1,
+          "uniques": 1
         },
         {
           "referrer": "kagi.com",
@@ -2625,11 +2625,11 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-06-24T05:54:42Z",
-        "clones_total": 11795,
-        "clones_unique_total": 2636,
-        "views_total": 1875,
-        "views_unique_total": 600
+        "last_fetched": "2026-06-24T08:47:46Z",
+        "clones_total": 12222,
+        "clones_unique_total": 2721,
+        "views_total": 1994,
+        "views_unique_total": 610
       },
       "downloads": {
         "daily_data": [
@@ -2976,10 +2976,10 @@
           },
           {
             "date": "2026-06-24",
-            "cumulative_total": 1492,
-            "downloads_total": 1,
-            "cumulative_windows": 304,
-            "downloads_windows": 0,
+            "cumulative_total": 1493,
+            "downloads_total": 2,
+            "cumulative_windows": 305,
+            "downloads_windows": 1,
             "cumulative_macos": 1135,
             "downloads_macos": 1,
             "cumulative_linux": 53,
@@ -2987,9 +2987,9 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-06-24T05:54:42Z",
-          "cumulative_total": 1492,
-          "cumulative_windows": 304,
+          "last_fetched": "2026-06-24T08:47:46Z",
+          "cumulative_total": 1493,
+          "cumulative_windows": 305,
           "cumulative_macos": 1135,
           "cumulative_linux": 53
         },
@@ -3004,8 +3004,8 @@
           },
           {
             "tag": "v3.12.0",
-            "downloads": 1,
-            "windows": 0,
+            "downloads": 2,
+            "windows": 1,
             "macos": 1,
             "linux": 0,
             "published_at": "2026-06-24T00:13:02Z"
@@ -5550,7 +5550,7 @@
         "by_arch": {
           "windows": {
             "arm64": 40,
-            "x86_64": 264
+            "x86_64": 265
           },
           "macos": {
             "arm64": 660,
@@ -13583,8 +13583,8 @@
             "snapshots": [
               {
                 "date": "2026-06-24",
-                "downloads": 1,
-                "windows": 0,
+                "downloads": 2,
+                "windows": 1,
                 "macos": 1,
                 "linux": 0
               }
@@ -13594,6 +13594,13 @@
                 "time": "2026-06-24T01:50:32Z",
                 "downloads": 1,
                 "windows": 0,
+                "macos": 1,
+                "linux": 0
+              },
+              {
+                "time": "2026-06-24T08:47:46Z",
+                "downloads": 2,
+                "windows": 1,
                 "macos": 1,
                 "linux": 0
               }
