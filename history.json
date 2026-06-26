@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-06-26T06:00:52Z",
-    "last_updated": "2026-06-26T06:00:52.612065Z",
+    "generated_at": "2026-06-26T09:55:25Z",
+    "last_updated": "2026-06-26T09:55:25.165400Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2625,7 +2625,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-06-26T06:00:52Z",
+        "last_fetched": "2026-06-26T09:55:25Z",
         "clones_total": 12304,
         "clones_unique_total": 2746,
         "views_total": 2049,
@@ -3009,7 +3009,7 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-06-26T06:00:52Z",
+          "last_fetched": "2026-06-26T09:55:25Z",
           "cumulative_total": 1508,
           "cumulative_windows": 314,
           "cumulative_macos": 1141,
@@ -5612,8 +5612,8 @@
             "x86_64": 232
           },
           "linux": {
-            "x86_64": 35,
-            "arm64": 18
+            "arm64": 18,
+            "x86_64": 35
           }
         },
         "by_release_daily": {
