@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-06-27T05:42:32Z",
-    "last_updated": "2026-06-27T05:42:32.308586Z",
+    "generated_at": "2026-06-27T08:21:05Z",
+    "last_updated": "2026-06-27T08:21:05.957715Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2559,10 +2559,10 @@
         },
         {
           "date": "2026-06-26",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
+          "clones_total": 226,
+          "clones_unique": 68,
+          "views_total": 68,
+          "views_unique": 7
         },
         {
           "date": "2026-06-27",
@@ -2575,13 +2575,13 @@
       "referrers": [
         {
           "referrer": "github.com",
-          "count": 222,
+          "count": 234,
           "uniques": 9
         },
         {
           "referrer": "Google",
-          "count": 31,
-          "uniques": 14
+          "count": 35,
+          "uniques": 16
         },
         {
           "referrer": "printerknowledge.com",
@@ -2594,14 +2594,14 @@
           "uniques": 7
         },
         {
+          "referrer": "Bing",
+          "count": 7,
+          "uniques": 2
+        },
+        {
           "referrer": "reddit.com",
           "count": 5,
           "uniques": 5
-        },
-        {
-          "referrer": "Bing",
-          "count": 4,
-          "uniques": 2
         },
         {
           "referrer": "hub.displaycal.net",
@@ -2625,11 +2625,11 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-06-27T05:42:32Z",
-        "clones_total": 12605,
-        "clones_unique_total": 2823,
-        "views_total": 2094,
-        "views_unique_total": 639
+        "last_fetched": "2026-06-27T08:21:05Z",
+        "clones_total": 12831,
+        "clones_unique_total": 2891,
+        "views_total": 2162,
+        "views_unique_total": 646
       },
       "downloads": {
         "daily_data": [
@@ -3020,7 +3020,7 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-06-27T05:42:32Z",
+          "last_fetched": "2026-06-27T08:21:05Z",
           "cumulative_total": 1517,
           "cumulative_windows": 317,
           "cumulative_macos": 1147,
