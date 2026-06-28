@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-06-28T01:59:48Z",
-    "last_updated": "2026-06-28T01:59:48.771811Z",
+    "generated_at": "2026-06-28T06:17:21Z",
+    "last_updated": "2026-06-28T06:17:21.820673Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2559,10 +2559,10 @@
         },
         {
           "date": "2026-06-27",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
+          "clones_total": 55,
+          "clones_unique": 12,
+          "views_total": 21,
+          "views_unique": 6
         },
         {
           "date": "2026-06-28",
@@ -2575,28 +2575,28 @@
       "referrers": [
         {
           "referrer": "github.com",
-          "count": 234,
-          "uniques": 9
+          "count": 178,
+          "uniques": 7
         },
         {
           "referrer": "Google",
-          "count": 35,
-          "uniques": 16
+          "count": 29,
+          "uniques": 14
         },
         {
           "referrer": "printerknowledge.com",
-          "count": 26,
+          "count": 25,
           "uniques": 9
         },
         {
           "referrer": "dpreview.com",
-          "count": 11,
-          "uniques": 7
+          "count": 9,
+          "uniques": 6
         },
         {
           "referrer": "Bing",
-          "count": 7,
-          "uniques": 2
+          "count": 9,
+          "uniques": 3
         },
         {
           "referrer": "reddit.com",
@@ -2625,11 +2625,11 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-06-28T01:59:48Z",
-        "clones_total": 12831,
-        "clones_unique_total": 2891,
-        "views_total": 2162,
-        "views_unique_total": 646
+        "last_fetched": "2026-06-28T06:17:21Z",
+        "clones_total": 12886,
+        "clones_unique_total": 2903,
+        "views_total": 2183,
+        "views_unique_total": 652
       },
       "downloads": {
         "daily_data": [
@@ -3031,13 +3031,21 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-06-28T01:59:48Z",
+          "last_fetched": "2026-06-28T06:17:21Z",
           "cumulative_total": 1521,
           "cumulative_windows": 317,
           "cumulative_macos": 1151,
           "cumulative_linux": 53
         },
         "by_release": [
+          {
+            "tag": "v3.13.0-beta.12",
+            "downloads": 0,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "published_at": "2026-06-28T05:19:52Z"
+          },
           {
             "tag": "v3.13.0-beta.11",
             "downloads": 0,
@@ -14040,6 +14048,27 @@
             "launch": [
               {
                 "time": "2026-06-28T01:59:48Z",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
+              }
+            ]
+          },
+          "v3.13.0-beta.12": {
+            "published_at": "2026-06-28T05:19:52Z",
+            "snapshots": [
+              {
+                "date": "2026-06-28",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
+              }
+            ],
+            "launch": [
+              {
+                "time": "2026-06-28T06:17:21Z",
                 "downloads": 0,
                 "windows": 0,
                 "macos": 0,
