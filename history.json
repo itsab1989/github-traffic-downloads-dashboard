@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-06-28T21:33:59Z",
-    "last_updated": "2026-06-28T21:33:59.185686Z",
+    "generated_at": "2026-06-28T22:49:05Z",
+    "last_updated": "2026-06-28T22:49:05.937627Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2625,7 +2625,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-06-28T21:33:59Z",
+        "last_fetched": "2026-06-28T22:49:05Z",
         "clones_total": 12886,
         "clones_unique_total": 2903,
         "views_total": 2183,
@@ -3020,21 +3020,21 @@
           },
           {
             "date": "2026-06-28",
-            "cumulative_total": 1529,
-            "downloads_total": 10,
+            "cumulative_total": 1530,
+            "downloads_total": 11,
             "cumulative_windows": 320,
             "downloads_windows": 3,
-            "cumulative_macos": 1156,
-            "downloads_macos": 7,
+            "cumulative_macos": 1157,
+            "downloads_macos": 8,
             "cumulative_linux": 53,
             "downloads_linux": 0
           }
         ],
         "metadata": {
-          "last_fetched": "2026-06-28T21:33:59Z",
-          "cumulative_total": 1529,
+          "last_fetched": "2026-06-28T22:49:05Z",
+          "cumulative_total": 1530,
           "cumulative_windows": 320,
-          "cumulative_macos": 1156,
+          "cumulative_macos": 1157,
           "cumulative_linux": 53
         },
         "by_release": [
@@ -3144,9 +3144,9 @@
           },
           {
             "tag": "v3.12.1",
-            "downloads": 13,
+            "downloads": 14,
             "windows": 7,
-            "macos": 6,
+            "macos": 7,
             "linux": 0,
             "published_at": "2026-06-25T12:27:54Z"
           },
@@ -5709,7 +5709,7 @@
             "x86_64": 280
           },
           "macos": {
-            "arm64": 680,
+            "arm64": 681,
             "universal": 244,
             "x86_64": 232
           },
@@ -13669,9 +13669,9 @@
               },
               {
                 "date": "2026-06-28",
-                "downloads": 13,
+                "downloads": 14,
                 "windows": 7,
-                "macos": 6,
+                "macos": 7,
                 "linux": 0
               }
             ],
