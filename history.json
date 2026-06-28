@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-06-28T22:49:05Z",
-    "last_updated": "2026-06-28T22:49:05.937627Z",
+    "generated_at": "2026-06-28T23:56:46Z",
+    "last_updated": "2026-06-28T23:56:46.135736Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2625,7 +2625,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-06-28T22:49:05Z",
+        "last_fetched": "2026-06-28T23:56:46Z",
         "clones_total": 12886,
         "clones_unique_total": 2903,
         "views_total": 2183,
@@ -3020,24 +3020,48 @@
           },
           {
             "date": "2026-06-28",
-            "cumulative_total": 1530,
-            "downloads_total": 11,
+            "cumulative_total": 1531,
+            "downloads_total": 12,
             "cumulative_windows": 320,
             "downloads_windows": 3,
-            "cumulative_macos": 1157,
-            "downloads_macos": 8,
+            "cumulative_macos": 1158,
+            "downloads_macos": 9,
             "cumulative_linux": 53,
             "downloads_linux": 0
           }
         ],
         "metadata": {
-          "last_fetched": "2026-06-28T22:49:05Z",
-          "cumulative_total": 1530,
+          "last_fetched": "2026-06-28T23:56:46Z",
+          "cumulative_total": 1531,
           "cumulative_windows": 320,
-          "cumulative_macos": 1157,
+          "cumulative_macos": 1158,
           "cumulative_linux": 53
         },
         "by_release": [
+          {
+            "tag": "v3.13.0-beta.16",
+            "downloads": 0,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "published_at": "2026-06-28T23:47:38Z"
+          },
+          {
+            "tag": "v3.13.0-beta.15",
+            "downloads": 0,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "published_at": "2026-06-28T23:21:37Z"
+          },
+          {
+            "tag": "v3.13.0-beta.14",
+            "downloads": 1,
+            "windows": 0,
+            "macos": 1,
+            "linux": 0,
+            "published_at": "2026-06-28T23:03:59Z"
+          },
           {
             "tag": "v3.13.0-beta.13",
             "downloads": 3,
@@ -5709,7 +5733,7 @@
             "x86_64": 280
           },
           "macos": {
-            "arm64": 681,
+            "arm64": 682,
             "universal": 244,
             "x86_64": 232
           },
@@ -14115,6 +14139,69 @@
                 "downloads": 3,
                 "windows": 1,
                 "macos": 2,
+                "linux": 0
+              }
+            ]
+          },
+          "v3.13.0-beta.16": {
+            "published_at": "2026-06-28T23:47:38Z",
+            "snapshots": [
+              {
+                "date": "2026-06-28",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
+              }
+            ],
+            "launch": [
+              {
+                "time": "2026-06-28T23:56:46Z",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
+              }
+            ]
+          },
+          "v3.13.0-beta.15": {
+            "published_at": "2026-06-28T23:21:37Z",
+            "snapshots": [
+              {
+                "date": "2026-06-28",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
+              }
+            ],
+            "launch": [
+              {
+                "time": "2026-06-28T23:56:46Z",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
+              }
+            ]
+          },
+          "v3.13.0-beta.14": {
+            "published_at": "2026-06-28T23:03:59Z",
+            "snapshots": [
+              {
+                "date": "2026-06-28",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0
+              }
+            ],
+            "launch": [
+              {
+                "time": "2026-06-28T23:56:46Z",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
                 "linux": 0
               }
             ]
