@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-06-28T12:53:27Z",
-    "last_updated": "2026-06-28T12:53:28.106577Z",
+    "generated_at": "2026-06-28T14:29:32Z",
+    "last_updated": "2026-06-28T14:29:32.699882Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2625,7 +2625,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-06-28T12:53:27Z",
+        "last_fetched": "2026-06-28T14:29:32Z",
         "clones_total": 12886,
         "clones_unique_total": 2903,
         "views_total": 2183,
@@ -3020,10 +3020,10 @@
           },
           {
             "date": "2026-06-28",
-            "cumulative_total": 1522,
-            "downloads_total": 3,
-            "cumulative_windows": 317,
-            "downloads_windows": 0,
+            "cumulative_total": 1523,
+            "downloads_total": 4,
+            "cumulative_windows": 318,
+            "downloads_windows": 1,
             "cumulative_macos": 1152,
             "downloads_macos": 3,
             "cumulative_linux": 53,
@@ -3031,9 +3031,9 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-06-28T12:53:27Z",
-          "cumulative_total": 1522,
-          "cumulative_windows": 317,
+          "last_fetched": "2026-06-28T14:29:32Z",
+          "cumulative_total": 1523,
+          "cumulative_windows": 318,
           "cumulative_macos": 1152,
           "cumulative_linux": 53
         },
@@ -3304,8 +3304,8 @@
           },
           {
             "tag": "v3.11.25",
-            "downloads": 9,
-            "windows": 6,
+            "downloads": 10,
+            "windows": 7,
             "macos": 3,
             "linux": 0,
             "published_at": "2026-06-22T15:02:53Z"
@@ -5698,7 +5698,7 @@
         "by_arch": {
           "windows": {
             "arm64": 40,
-            "x86_64": 277
+            "x86_64": 278
           },
           "macos": {
             "arm64": 677,
@@ -12324,8 +12324,8 @@
               },
               {
                 "date": "2026-06-28",
-                "downloads": 9,
-                "windows": 6,
+                "downloads": 10,
+                "windows": 7,
                 "macos": 3,
                 "linux": 0
               }
