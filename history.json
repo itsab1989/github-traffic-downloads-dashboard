@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-06-29T21:48:22Z",
-    "last_updated": "2026-06-29T21:48:22.575092Z",
+    "generated_at": "2026-06-29T22:44:05Z",
+    "last_updated": "2026-06-29T22:44:05.660195Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2625,7 +2625,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-06-29T21:48:22Z",
+        "last_fetched": "2026-06-29T22:44:05Z",
         "clones_total": 13129,
         "clones_unique_total": 2957,
         "views_total": 2215,
@@ -3042,13 +3042,21 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-06-29T21:48:22Z",
+          "last_fetched": "2026-06-29T22:44:05Z",
           "cumulative_total": 1542,
           "cumulative_windows": 326,
           "cumulative_macos": 1163,
           "cumulative_linux": 53
         },
         "by_release": [
+          {
+            "tag": "v3.13.0-beta.29",
+            "downloads": 0,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "published_at": "2026-06-29T22:16:39Z"
+          },
           {
             "tag": "v3.13.0-beta.28",
             "downloads": 0,
@@ -14264,6 +14272,27 @@
             "launch": [
               {
                 "time": "2026-06-29T21:48:22Z",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
+              }
+            ]
+          },
+          "v3.13.0-beta.29": {
+            "published_at": "2026-06-29T22:16:39Z",
+            "snapshots": [
+              {
+                "date": "2026-06-29",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
+              }
+            ],
+            "launch": [
+              {
+                "time": "2026-06-29T22:44:05Z",
                 "downloads": 0,
                 "windows": 0,
                 "macos": 0,
