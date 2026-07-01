@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-07-01T01:36:28Z",
-    "last_updated": "2026-07-01T01:36:28.268647Z",
+    "generated_at": "2026-07-01T06:13:34Z",
+    "last_updated": "2026-07-01T06:13:34.653909Z",
     "repositories": [
       "itsab1989/ChromIQ"
     ]
@@ -2559,10 +2559,10 @@
         },
         {
           "date": "2026-06-30",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
+          "clones_total": 238,
+          "clones_unique": 41,
+          "views_total": 90,
+          "views_unique": 10
         },
         {
           "date": "2026-07-01",
@@ -2575,28 +2575,33 @@
       "referrers": [
         {
           "referrer": "github.com",
-          "count": 76,
+          "count": 73,
           "uniques": 6
         },
         {
           "referrer": "Google",
-          "count": 31,
-          "uniques": 13
+          "count": 39,
+          "uniques": 15
         },
         {
           "referrer": "printerknowledge.com",
-          "count": 29,
+          "count": 24,
           "uniques": 10
-        },
-        {
-          "referrer": "dpreview.com",
-          "count": 9,
-          "uniques": 6
         },
         {
           "referrer": "Bing",
           "count": 9,
           "uniques": 3
+        },
+        {
+          "referrer": "DuckDuckGo",
+          "count": 8,
+          "uniques": 1
+        },
+        {
+          "referrer": "dpreview.com",
+          "count": 7,
+          "uniques": 4
         },
         {
           "referrer": "hub.displaycal.net",
@@ -2605,13 +2610,8 @@
         },
         {
           "referrer": "reddit.com",
-          "count": 3,
-          "uniques": 3
-        },
-        {
-          "referrer": "DuckDuckGo",
-          "count": 2,
-          "uniques": 1
+          "count": 4,
+          "uniques": 4
         },
         {
           "referrer": "freelists.org",
@@ -2625,11 +2625,11 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-07-01T01:36:28Z",
-        "clones_total": 13461,
-        "clones_unique_total": 3024,
-        "views_total": 2238,
-        "views_unique_total": 672
+        "last_fetched": "2026-07-01T06:13:34Z",
+        "clones_total": 13699,
+        "clones_unique_total": 3065,
+        "views_total": 2328,
+        "views_unique_total": 682
       },
       "downloads": {
         "daily_data": [
@@ -3064,13 +3064,29 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-07-01T01:36:28Z",
+          "last_fetched": "2026-07-01T06:13:34Z",
           "cumulative_total": 1600,
           "cumulative_windows": 343,
           "cumulative_macos": 1196,
           "cumulative_linux": 61
         },
         "by_release": [
+          {
+            "tag": "v3.13.0-beta.50",
+            "downloads": 0,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "published_at": "2026-07-01T03:56:47Z"
+          },
+          {
+            "tag": "v3.13.0-beta.49",
+            "downloads": 0,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "published_at": "2026-07-01T03:42:37Z"
+          },
           {
             "tag": "v3.13.0-beta.48",
             "downloads": 0,
@@ -13879,6 +13895,48 @@
             "launch": [
               {
                 "time": "2026-06-30T21:51:33Z",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
+              }
+            ]
+          },
+          "v3.13.0-beta.50": {
+            "published_at": "2026-07-01T03:56:47Z",
+            "snapshots": [
+              {
+                "date": "2026-07-01",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
+              }
+            ],
+            "launch": [
+              {
+                "time": "2026-07-01T06:13:34Z",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
+              }
+            ]
+          },
+          "v3.13.0-beta.49": {
+            "published_at": "2026-07-01T03:42:37Z",
+            "snapshots": [
+              {
+                "date": "2026-07-01",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
+              }
+            ],
+            "launch": [
+              {
+                "time": "2026-07-01T06:13:34Z",
                 "downloads": 0,
                 "windows": 0,
                 "macos": 0,
