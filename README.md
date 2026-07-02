@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-07-02T22:52:52.939542Z
+**Last Updated:** 2026-07-02T23:51:57.226120Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -740,7 +740,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ-Patches
 
-![downloads](https://img.shields.io/badge/downloads-8-212121) ![clones](https://img.shields.io/badge/clones-0-2196F3) ![views](https://img.shields.io/badge/views-0-4CAF50) ![releases](https://img.shields.io/badge/releases-3-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-9-212121) ![clones](https://img.shields.io/badge/clones-0-2196F3) ![views](https://img.shields.io/badge/views-0-4CAF50) ![releases](https://img.shields.io/badge/releases-3-6f42c1)
 
 **This week vs last week:**
 
@@ -821,18 +821,18 @@ Quick navigation to repository statistics:
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
 | 🪟 Windows | 0 | 0 | 4 |
-| 🍎 macOS | 0 | 0 | 4 |
+| 🍎 macOS | 0 | 0 | 5 |
 | 🐧 Linux | 0 | 0 | 0 |
-| **All** | **0** | **0** | **8** |
+| **All** | **0** | **0** | **9** |
 
-🆕 **Latest Release:** `v1.1.0` - **0** downloads (published 2026-07-02)
+🆕 **Latest Release:** `v1.1.0` - **1** download (published 2026-07-02)
 
 <details>
 <summary><strong>📦 Per-version downloads</strong> (3 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
-| v1.1.0 | 0 | 0 | 0 | **0** |
+| v1.1.0 | 0 | 1 | 0 | **1** |
 | v1.0.1 | 1 | 3 | 0 | **4** |
 | v1.0.0 | 3 | 1 | 0 | **4** |
 
@@ -845,15 +845,16 @@ Quick navigation to repository statistics:
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
 | 🪟 Windows | 0 | 4 | 0 | **4** |
-| 🍎 macOS | 4 | 0 | 0 | **4** |
+| 🍎 macOS | 5 | 0 | 0 | **5** |
 | 🐧 Linux | 0 | 0 | 0 | **0** |
 
-**Top 2 Releases by Downloads (lifetime):**
+**Top 3 Releases by Downloads (lifetime):**
 
 | Release | Downloads | Published |
 |---------|-----------|-----------|
 | v1.0.1 | 4 | 2026-07-02 |
 | v1.0.0 | 4 | 2026-07-02 |
+| v1.1.0 | 1 | 2026-07-02 |
 
 **Recent Release Reception (first ~14 days):**
 
@@ -861,7 +862,7 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
-| v1.1.0 | 2026-07-02 | 1d | 0 | 0 | 0 | **0** |
+| v1.1.0 | 2026-07-02 | 1d | 0 | 1 | 0 | **1** |
 | v1.0.1 | 2026-07-02 | 1d | 1 | 3 | 0 | **4** |
 | v1.0.0 | 2026-07-02 | 1d | 3 | 1 | 0 | **4** |
 

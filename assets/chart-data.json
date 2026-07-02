@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T22:52:52.939542Z",
+  "generated_at": "2026-07-02T23:51:57.226120Z",
   "repositories": [
     {
       "name": "itsab1989/ChromIQ",
@@ -2879,13 +2879,13 @@
             "2026-07-02"
           ],
           "total": [
-            8
+            9
           ],
           "windows": [
             4
           ],
           "macos": [
-            4
+            5
           ],
           "linux": [
             0
@@ -2911,9 +2911,9 @@
             "published": "2026-07-02",
             "age_days": 1,
             "windows": 0,
-            "macos": 0,
+            "macos": 1,
             "linux": 0,
-            "total": 0
+            "total": 1
           },
           {
             "tag": "v1.0.1",
@@ -2945,6 +2945,10 @@
               {
                 "h": 0.01,
                 "downloads": 0
+              },
+              {
+                "h": 2.23,
+                "downloads": 1
               }
             ]
           },
