@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-07-02T15:37:07.362887Z
+**Last Updated:** 2026-07-02T15:58:34.841018Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -88,7 +88,7 @@ Then:
 Quick navigation to repository statistics:
 
 - [ChromIQ](#chromiq)
-- [chromiq-patches](#chromiq-patches)
+- [ChromIQ-Patches](#chromiq-patches)
 
 # ChromIQ
 
@@ -730,7 +730,7 @@ Quick navigation to repository statistics:
 
 ---
 
-# chromiq-patches
+# ChromIQ-Patches
 
 ![downloads](https://img.shields.io/badge/downloads-5-212121) ![clones](https://img.shields.io/badge/clones-0-2196F3) ![views](https://img.shields.io/badge/views-0-4CAF50) ![releases](https://img.shields.io/badge/releases-2-6f42c1)
 

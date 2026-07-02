@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T15:37:07.362887Z",
+  "generated_at": "2026-07-02T15:58:34.841018Z",
   "repositories": [
     {
       "name": "itsab1989/ChromIQ",
@@ -2576,8 +2576,8 @@
       }
     },
     {
-      "name": "itsab1989/chromiq-patches",
-      "display": "chromiq-patches",
+      "name": "itsab1989/ChromIQ-Patches",
+      "display": "ChromIQ-Patches",
       "anchor": "chromiq-patches",
       "traffic": {
         "daily": {

@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-07-02T15:37:07Z",
-    "last_updated": "2026-07-02T15:37:07.362887Z",
+    "generated_at": "2026-07-02T15:58:34Z",
+    "last_updated": "2026-07-02T15:58:34.841018Z",
     "repositories": [
       "itsab1989/ChromIQ",
-      "itsab1989/chromiq-patches"
+      "itsab1989/ChromIQ-Patches"
     ]
   },
   "repositories": {
@@ -2626,7 +2626,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-07-02T15:37:07Z",
+        "last_fetched": "2026-07-02T15:58:34Z",
         "clones_total": 13907,
         "clones_unique_total": 3112,
         "views_total": 2378,
@@ -3076,7 +3076,7 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-07-02T15:37:07Z",
+          "last_fetched": "2026-07-02T15:58:34Z",
           "cumulative_total": 1622,
           "cumulative_windows": 349,
           "cumulative_macos": 1212,
@@ -16033,7 +16033,7 @@
       ],
       "referrers": [],
       "metadata": {
-        "last_fetched": "2026-07-02T15:37:07Z",
+        "last_fetched": "2026-07-02T15:58:34Z",
         "clones_total": 0,
         "clones_unique_total": 0,
         "views_total": 0,
@@ -16054,7 +16054,7 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-07-02T15:37:07Z",
+          "last_fetched": "2026-07-02T15:58:34Z",
           "cumulative_total": 5,
           "cumulative_windows": 3,
           "cumulative_macos": 2,
