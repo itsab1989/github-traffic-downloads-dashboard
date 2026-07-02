@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-07-02T10:39:20.019048Z
+**Last Updated:** 2026-07-02T11:24:01.812297Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -732,7 +732,7 @@ Quick navigation to repository statistics:
 
 # chromiq-patches
 
-![downloads](https://img.shields.io/badge/downloads-3-212121) ![clones](https://img.shields.io/badge/clones-0-2196F3) ![views](https://img.shields.io/badge/views-0-4CAF50) ![releases](https://img.shields.io/badge/releases-1-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-4-212121) ![clones](https://img.shields.io/badge/clones-0-2196F3) ![views](https://img.shields.io/badge/views-0-4CAF50) ![releases](https://img.shields.io/badge/releases-1-6f42c1)
 
 **This week vs last week:**
 
@@ -812,19 +812,19 @@ Quick navigation to repository statistics:
 
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
-| 🪟 Windows | 0 | 0 | 2 |
+| 🪟 Windows | 0 | 0 | 3 |
 | 🍎 macOS | 0 | 0 | 1 |
 | 🐧 Linux | 0 | 0 | 0 |
-| **All** | **0** | **0** | **3** |
+| **All** | **0** | **0** | **4** |
 
-🆕 **Latest Release:** `v1.0.0` - **3** downloads (published 2026-07-02)
+🆕 **Latest Release:** `v1.0.0` - **4** downloads (published 2026-07-02)
 
 <details>
 <summary><strong>📦 Per-version downloads</strong> (1 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
-| v1.0.0 | 2 | 1 | 0 | **3** |
+| v1.0.0 | 3 | 1 | 0 | **4** |
 
 </details>
 
@@ -834,7 +834,7 @@ Quick navigation to repository statistics:
 
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
-| 🪟 Windows | 0 | 2 | 0 | **2** |
+| 🪟 Windows | 0 | 3 | 0 | **3** |
 | 🍎 macOS | 1 | 0 | 0 | **1** |
 | 🐧 Linux | 0 | 0 | 0 | **0** |
 
@@ -842,7 +842,7 @@ Quick navigation to repository statistics:
 
 | Release | Downloads | Published |
 |---------|-----------|-----------|
-| v1.0.0 | 3 | 2026-07-02 |
+| v1.0.0 | 4 | 2026-07-02 |
 
 **Recent Release Reception (first ~14 days):**
 
@@ -850,7 +850,7 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
-| v1.0.0 | 2026-07-02 | 1d | 2 | 1 | 0 | **3** |
+| v1.0.0 | 2026-07-02 | 1d | 3 | 1 | 0 | **4** |
 
 ### 📈 Interactive Charts
 
