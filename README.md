@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-07-02T08:36:52.091261Z
+**Last Updated:** 2026-07-02T10:39:20.019048Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -88,6 +88,7 @@ Then:
 Quick navigation to repository statistics:
 
 - [ChromIQ](#chromiq)
+- [chromiq-patches](#chromiq-patches)
 
 # ChromIQ
 
@@ -726,6 +727,136 @@ Quick navigation to repository statistics:
 *Clones/views and per-platform download charts - with hover tooltips, dark mode, and release-date markers - are rendered live on the dashboard page (GitHub can't run the charts inside this README):*
 
 📊 **[Open the interactive dashboard →](https://itsab1989.github.io/github-traffic-downloads-dashboard/dashboard.html#chromiq)**
+
+---
+
+# chromiq-patches
+
+![downloads](https://img.shields.io/badge/downloads-3-212121) ![clones](https://img.shields.io/badge/clones-0-2196F3) ![views](https://img.shields.io/badge/views-0-4CAF50) ![releases](https://img.shields.io/badge/releases-1-6f42c1)
+
+**This week vs last week:**
+
+| Metric | This week | Last week | Change |
+|--------|-----------|-----------|--------|
+| Clones | 0 | 0 | — |
+| Views | 0 | 0 | — |
+| Downloads | 0 | 0 | — |
+
+### 🗅️ Clones
+
+*Repository clone statistics showing total and unique clones over different time periods.*
+
+| Period | Total | Unique |
+|--------|-------|--------|
+| Last 30 Days | 0 | 0 |
+| Last 90 Days | 0 | 0 |
+| Lifetime | 0 | 0 |
+
+### 📄 Repeat vs New Clones
+
+*Analysis of repository adoption showing repeat clones vs new unique clones.*
+
+*Note: GitHub API does not provide geographical location data for cloners.*
+
+| Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
+|--------|--------------|----------------|----------------|----------|
+| Last 30 Days | 0 | 0 | 0 | 0% |
+| Last 90 Days | 0 | 0 | 0 | 0% |
+| Lifetime | 0 | 0 | 0 | 0% |
+
+### 👀 Views
+
+*Repository view statistics showing total and unique views over different time periods.*
+
+| Period | Total | Unique |
+|--------|-------|--------|
+| Last 30 Days | 0 | 0 |
+| Last 90 Days | 0 | 0 |
+| Lifetime | 0 | 0 |
+
+### 🎯 Engagement Ratios
+
+*Of the people who looked at the repo in the last 30 days, how many took a deeper action? Cloning (developer interest) and downloading (end-user adoption) are independent actions, each shown relative to unique visitors. Uniques are per-day and cloning/downloading can happen without a page view (CI, mirrors, direct links), so ratios above 100% are possible. Downloads have no unique-people equivalent, so the total is shown.*
+
+| Action | Count | Ratio to unique visitors |
+|--------|-------|--------------------------|
+| 👀 Unique visitors | 0 | — |
+| 🗅️ Unique cloners | 0 | — |
+| 📥 Downloads | 0 | — |
+
+### 📞 Referrers
+
+*Top referrer sources driving traffic to this repository.*
+
+**Total Unique Referrers:** 0
+
+*No referrer data available.*
+
+### 👥 Repeat vs New Visitors
+
+*Analysis of visitor engagement showing repeat visitors vs new unique visitors.*
+
+*Note: GitHub API does not provide geographical location data for visitors.*
+
+| Period | Total Views | Unique Visitors | Repeat Visitors | Repeat % |
+|--------|-------------|-----------------|-----------------|----------|
+| Last 30 Days | 0 | 0 | 0 | 0% |
+| Last 90 Days | 0 | 0 | 0 | 0% |
+| Lifetime | 0 | 0 | 0 | 0% |
+
+### 📥 Release Downloads
+
+*Pre-compiled release-asset downloads, split by platform. This is separate from clones.*
+
+*Lifetime totals reflect all-time downloads (GitHub's cumulative counter). Per-day figures (Last 30/90 Days) are derived from daily snapshots and only accrue from the first tracked day onward.*
+
+| Platform | Last 30 Days | Last 90 Days | Lifetime |
+|----------|-----------|-----------|----------|
+| 🪟 Windows | 0 | 0 | 2 |
+| 🍎 macOS | 0 | 0 | 1 |
+| 🐧 Linux | 0 | 0 | 0 |
+| **All** | **0** | **0** | **3** |
+
+🆕 **Latest Release:** `v1.0.0` - **3** downloads (published 2026-07-02)
+
+<details>
+<summary><strong>📦 Per-version downloads</strong> (1 releases - click to expand)</summary>
+
+| Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
+|---------|-----------|----------|----------|-------|
+| v1.0.0 | 2 | 1 | 0 | **3** |
+
+</details>
+
+**By Architecture (lifetime):**
+
+*Lifetime downloads split by CPU architecture - useful for deciding which builds are still worth shipping.*
+
+| Platform | arm64 | x86_64 | universal | Total |
+|----------|-------|-------|-------|-------|
+| 🪟 Windows | 0 | 2 | 0 | **2** |
+| 🍎 macOS | 1 | 0 | 0 | **1** |
+| 🐧 Linux | 0 | 0 | 0 | **0** |
+
+**Top 1 Releases by Downloads (lifetime):**
+
+| Release | Downloads | Published |
+|---------|-----------|-----------|
+| v1.0.0 | 3 | 2026-07-02 |
+
+**Recent Release Reception (first ~14 days):**
+
+*Downloads each release accrued in its early life. Measured over each release's own early-life window, so a brand-new release isn't unfairly compared against a mature one. Only releases published within ~14 days appear.*
+
+| Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
+|---------|-----------|-----|----|----|----|-----------|
+| v1.0.0 | 2026-07-02 | 1d | 2 | 1 | 0 | **3** |
+
+### 📈 Interactive Charts
+
+*Clones/views and per-platform download charts - with hover tooltips, dark mode, and release-date markers - are rendered live on the dashboard page (GitHub can't run the charts inside this README):*
+
+📊 **[Open the interactive dashboard →](https://itsab1989.github.io/github-traffic-downloads-dashboard/dashboard.html#chromiq-patches)**
 
 ---
 
