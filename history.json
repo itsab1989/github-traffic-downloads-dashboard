@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-07-02T17:22:28Z",
-    "last_updated": "2026-07-02T17:22:28.293103Z",
+    "generated_at": "2026-07-02T18:53:20Z",
+    "last_updated": "2026-07-02T18:53:20.193014Z",
     "repositories": [
       "itsab1989/ChromIQ",
       "itsab1989/ChromIQ-Patches"
@@ -2575,7 +2575,7 @@
       ],
       "referrers": [],
       "metadata": {
-        "last_fetched": "2026-07-02T17:22:28Z",
+        "last_fetched": "2026-07-02T18:53:20Z",
         "clones_total": 0,
         "clones_unique_total": 0,
         "views_total": 0,
@@ -2585,9 +2585,9 @@
         "daily_data": [
           {
             "date": "2026-07-02",
-            "cumulative_total": 6,
+            "cumulative_total": 7,
             "downloads_total": 0,
-            "cumulative_windows": 3,
+            "cumulative_windows": 4,
             "downloads_windows": 0,
             "cumulative_macos": 3,
             "downloads_macos": 0,
@@ -2596,17 +2596,17 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-07-02T17:22:28Z",
-          "cumulative_total": 6,
-          "cumulative_windows": 3,
+          "last_fetched": "2026-07-02T18:53:20Z",
+          "cumulative_total": 7,
+          "cumulative_windows": 4,
           "cumulative_macos": 3,
           "cumulative_linux": 0
         },
         "by_release": [
           {
             "tag": "v1.0.1",
-            "downloads": 2,
-            "windows": 0,
+            "downloads": 3,
+            "windows": 1,
             "macos": 2,
             "linux": 0,
             "published_at": "2026-07-02T11:46:50Z"
@@ -2623,7 +2623,7 @@
         "by_arch": {
           "windows": {
             "arm64": 0,
-            "x86_64": 3
+            "x86_64": 4
           },
           "macos": {
             "arm64": 3,
@@ -2669,8 +2669,8 @@
             "snapshots": [
               {
                 "date": "2026-07-02",
-                "downloads": 2,
-                "windows": 0,
+                "downloads": 3,
+                "windows": 1,
                 "macos": 2,
                 "linux": 0
               }
@@ -2687,6 +2687,13 @@
                 "time": "2026-07-02T17:22:28Z",
                 "downloads": 2,
                 "windows": 0,
+                "macos": 2,
+                "linux": 0
+              },
+              {
+                "time": "2026-07-02T18:53:20Z",
+                "downloads": 3,
+                "windows": 1,
                 "macos": 2,
                 "linux": 0
               }
@@ -5313,7 +5320,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-07-02T17:22:28Z",
+        "last_fetched": "2026-07-02T18:53:20Z",
         "clones_total": 13907,
         "clones_unique_total": 3112,
         "views_total": 2378,
@@ -5752,29 +5759,29 @@
           },
           {
             "date": "2026-07-02",
-            "cumulative_total": 1624,
-            "downloads_total": 10,
-            "cumulative_windows": 351,
-            "downloads_windows": 5,
-            "cumulative_macos": 1212,
-            "downloads_macos": 5,
+            "cumulative_total": 1627,
+            "downloads_total": 13,
+            "cumulative_windows": 352,
+            "downloads_windows": 6,
+            "cumulative_macos": 1214,
+            "downloads_macos": 7,
             "cumulative_linux": 61,
             "downloads_linux": 0
           }
         ],
         "metadata": {
-          "last_fetched": "2026-07-02T17:22:28Z",
-          "cumulative_total": 1624,
-          "cumulative_windows": 351,
-          "cumulative_macos": 1212,
+          "last_fetched": "2026-07-02T18:53:20Z",
+          "cumulative_total": 1627,
+          "cumulative_windows": 352,
+          "cumulative_macos": 1214,
           "cumulative_linux": 61
         },
         "by_release": [
           {
             "tag": "v3.13.0-beta.63",
-            "downloads": 0,
+            "downloads": 2,
             "windows": 0,
-            "macos": 0,
+            "macos": 2,
             "linux": 0,
             "published_at": "2026-07-02T17:16:21Z"
           },
@@ -8252,8 +8259,8 @@
           },
           {
             "tag": "v3.0.1",
-            "downloads": 2,
-            "windows": 0,
+            "downloads": 3,
+            "windows": 1,
             "macos": 2,
             "linux": 0,
             "published_at": "2026-05-11T21:42:48Z"
@@ -8830,10 +8837,10 @@
         "by_arch": {
           "windows": {
             "arm64": 44,
-            "x86_64": 307
+            "x86_64": 308
           },
           "macos": {
-            "arm64": 718,
+            "arm64": 720,
             "universal": 251,
             "x86_64": 243
           },
@@ -16170,9 +16177,9 @@
             "snapshots": [
               {
                 "date": "2026-07-02",
-                "downloads": 0,
+                "downloads": 2,
                 "windows": 0,
-                "macos": 0,
+                "macos": 2,
                 "linux": 0
               }
             ],
@@ -16182,6 +16189,13 @@
                 "downloads": 0,
                 "windows": 0,
                 "macos": 0,
+                "linux": 0
+              },
+              {
+                "time": "2026-07-02T18:53:20Z",
+                "downloads": 2,
+                "windows": 0,
+                "macos": 2,
                 "linux": 0
               }
             ]
