@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-07-03T20:06:47.965465Z
+**Last Updated:** 2026-07-03T21:36:18.836211Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -92,7 +92,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-1664-212121) ![clones](https://img.shields.io/badge/clones-14014-2196F3) ![views](https://img.shields.io/badge/views-2472-4CAF50) ![releases](https://img.shields.io/badge/releases-400-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-1664-212121) ![clones](https://img.shields.io/badge/clones-14014-2196F3) ![views](https://img.shields.io/badge/views-2472-4CAF50) ![releases](https://img.shields.io/badge/releases-404-6f42c1)
 
 *Tracking since **2026-05-02** (62 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~62 days have been tracked so far.*
 
@@ -190,13 +190,17 @@ Quick navigation to repository statistics:
 | 🐧 Linux | 26 | 35 | 66 |
 | **All** | **883** | **1064** | **1664** |
 
-🆕 **Latest Release:** `v3.13.0-beta.81` - **1** download (published 2026-07-03)
+🆕 **Latest Release:** `v3.13.0-beta.85` - **0** downloads (published 2026-07-03)
 
 <details>
-<summary><strong>📦 Per-version downloads</strong> (400 releases - click to expand)</summary>
+<summary><strong>📦 Per-version downloads</strong> (404 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
+| v3.13.0-beta.85 | 0 | 0 | 0 | **0** |
+| v3.13.0-beta.84 | 0 | 0 | 0 | **0** |
+| v3.13.0-beta.83 | 0 | 0 | 0 | **0** |
+| v3.13.0-beta.82 | 0 | 0 | 0 | **0** |
 | v3.13.0-beta.81 | 0 | 1 | 0 | **1** |
 | v3.13.0-beta.80 | 0 | 0 | 0 | **0** |
 | v3.13.0-beta.79 | 1 | 1 | 0 | **2** |
@@ -633,6 +637,10 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
+| v3.13.0-beta.85 | 2026-07-03 | 1d | 0 | 0 | 0 | **0** |
+| v3.13.0-beta.84 | 2026-07-03 | 1d | 0 | 0 | 0 | **0** |
+| v3.13.0-beta.83 | 2026-07-03 | 1d | 0 | 0 | 0 | **0** |
+| v3.13.0-beta.82 | 2026-07-03 | 1d | 0 | 0 | 0 | **0** |
 | v3.13.0-beta.81 | 2026-07-03 | 1d | 0 | 1 | 0 | **1** |
 | v3.13.0-beta.80 | 2026-07-03 | 1d | 0 | 0 | 0 | **0** |
 | v3.13.0-beta.79 | 2026-07-03 | 1d | 1 | 1 | 0 | **2** |
