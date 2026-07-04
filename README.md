@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-07-04T22:16:21.034902Z
+**Last Updated:** 2026-07-04T23:26:56.596456Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -92,7 +92,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-1702-212121) ![clones](https://img.shields.io/badge/clones-14392-2196F3) ![views](https://img.shields.io/badge/views-2552-4CAF50) ![releases](https://img.shields.io/badge/releases-419-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-1702-212121) ![clones](https://img.shields.io/badge/clones-14392-2196F3) ![views](https://img.shields.io/badge/views-2552-4CAF50) ![releases](https://img.shields.io/badge/releases-421-6f42c1)
 
 *Tracking since **2026-05-02** (63 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~63 days have been tracked so far.*
 
@@ -190,13 +190,15 @@ Quick navigation to repository statistics:
 | 🐧 Linux | 34 | 43 | 74 |
 | **All** | **915** | **1102** | **1702** |
 
-🆕 **Latest Release:** `v3.13.0-beta.100` - **1** download (published 2026-07-04)
+🆕 **Latest Release:** `v3.13.0-beta.102` - **0** downloads (published 2026-07-04)
 
 <details>
-<summary><strong>📦 Per-version downloads</strong> (419 releases - click to expand)</summary>
+<summary><strong>📦 Per-version downloads</strong> (421 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
+| v3.13.0-beta.102 | 0 | 0 | 0 | **0** |
+| v3.13.0-beta.101 | 0 | 0 | 0 | **0** |
 | v3.13.0-beta.100 | 0 | 1 | 0 | **1** |
 | v3.13.0-beta.99 | 2 | 0 | 0 | **2** |
 | v3.13.0-beta.98 | 1 | 2 | 0 | **3** |
@@ -652,6 +654,8 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
+| v3.13.0-beta.102 | 2026-07-04 | 1d | 0 | 0 | 0 | **0** |
+| v3.13.0-beta.101 | 2026-07-04 | 1d | 0 | 0 | 0 | **0** |
 | v3.13.0-beta.100 | 2026-07-04 | 1d | 0 | 1 | 0 | **1** |
 | v3.13.0-beta.99 | 2026-07-04 | 1d | 2 | 0 | 0 | **2** |
 | v3.13.0-beta.98 | 2026-07-04 | 1d | 1 | 2 | 0 | **3** |
