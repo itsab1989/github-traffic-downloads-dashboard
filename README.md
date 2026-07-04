@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-07-04T01:23:54.229230Z
+**Last Updated:** 2026-07-04T04:58:29.388349Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -92,7 +92,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-1668-212121) ![clones](https://img.shields.io/badge/clones-14014-2196F3) ![views](https://img.shields.io/badge/views-2472-4CAF50) ![releases](https://img.shields.io/badge/releases-410-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-1677-212121) ![clones](https://img.shields.io/badge/clones-14014-2196F3) ![views](https://img.shields.io/badge/views-2472-4CAF50) ![releases](https://img.shields.io/badge/releases-410-6f42c1)
 
 *Tracking since **2026-05-02** (62 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~62 days have been tracked so far.*
 
@@ -102,7 +102,7 @@ Quick navigation to repository statistics:
 |--------|-----------|-----------|--------|
 | Clones | 1128 | 1434 | ▼ -21.3% |
 | Views | 289 | 371 | ▼ -22.1% |
-| Downloads | 149 | 81 | ▲ +84.0% |
+| Downloads | 158 | 81 | ▲ +95.1% |
 
 ### 🗅️ Clones
 
@@ -144,7 +144,7 @@ Quick navigation to repository statistics:
 |--------|-------|--------------------------|
 | 👀 Unique visitors | 295 | — |
 | 🗅️ Unique cloners | 1458 | 494.2% |
-| 📥 Downloads | 881 | 298.6% |
+| 📥 Downloads | 890 | 301.7% |
 
 ### 📞 Referrers
 
@@ -185,19 +185,19 @@ Quick navigation to repository statistics:
 
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
-| 🪟 Windows | 192 | 278 | 368 |
-| 🍎 macOS | 663 | 755 | 1234 |
-| 🐧 Linux | 26 | 35 | 66 |
-| **All** | **881** | **1068** | **1668** |
+| 🪟 Windows | 195 | 281 | 371 |
+| 🍎 macOS | 666 | 758 | 1237 |
+| 🐧 Linux | 29 | 38 | 69 |
+| **All** | **890** | **1077** | **1677** |
 
-🆕 **Latest Release:** `v3.13.0-beta.91` - **1** download (published 2026-07-04)
+🆕 **Latest Release:** `v3.13.0-beta.91` - **8** downloads (published 2026-07-04)
 
 <details>
 <summary><strong>📦 Per-version downloads</strong> (410 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
-| v3.13.0-beta.91 | 0 | 1 | 0 | **1** |
+| v3.13.0-beta.91 | 2 | 4 | 2 | **8** |
 | v3.13.0-beta.90 | 0 | 0 | 0 | **0** |
 | v3.13.0-beta.89 | 0 | 1 | 0 | **1** |
 | v3.13.0-beta.88 | 0 | 1 | 0 | **1** |
@@ -286,7 +286,7 @@ Quick navigation to repository statistics:
 | v3.13.0-beta.4 | 0 | 1 | 0 | **1** |
 | v3.13.0-beta.3 | 0 | 1 | 0 | **1** |
 | v3.13.0-beta.2 | 0 | 0 | 0 | **0** |
-| v3.12.1 | 22 | 16 | 1 | **39** |
+| v3.12.1 | 23 | 16 | 1 | **40** |
 | v3.13.0-beta.1 | 0 | 0 | 0 | **0** |
 | v3.12.1-beta.1 | 2 | 0 | 0 | **2** |
 | v3.12.0 | 5 | 5 | 0 | **10** |
@@ -423,7 +423,7 @@ Quick navigation to repository statistics:
 | v3.8.0-beta.26 | 1 | 2 | 0 | **3** |
 | v3.8.0-beta.25 | 0 | 0 | 0 | **0** |
 | v3.8.0-beta.24 | 5 | 7 | 4 | **16** |
-| v3.8.0-beta.23 | 5 | 7 | 4 | **16** |
+| v3.8.0-beta.23 | 5 | 7 | 5 | **17** |
 | v3.8.0-beta.22 | 1 | 1 | 0 | **2** |
 | v3.8.0-beta.21 | 1 | 0 | 0 | **1** |
 | v3.8.0-beta.20 | 4 | 3 | 2 | **9** |
@@ -616,11 +616,11 @@ Quick navigation to repository statistics:
 
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
-| 🪟 Windows | 46 | 322 | 0 | **368** |
-| 🍎 macOS | 736 | 245 | 253 | **1234** |
-| 🐧 Linux | 24 | 42 | 0 | **66** |
+| 🪟 Windows | 47 | 324 | 0 | **371** |
+| 🍎 macOS | 737 | 246 | 254 | **1237** |
+| 🐧 Linux | 25 | 44 | 0 | **69** |
 
-*💡 Low-volume builds (<2% of lifetime downloads), candidates to stop shipping: 🐧 Linux arm64 (24, 1.4%).*
+*💡 Low-volume builds (<2% of lifetime downloads), candidates to stop shipping: 🐧 Linux arm64 (25, 1.5%).*
 
 **Top 10 Releases by Downloads (lifetime):**
 
@@ -631,7 +631,7 @@ Quick navigation to repository statistics:
 | v3.6.5 | 48 | 2026-05-18 |
 | v3.7.1 | 42 | 2026-05-18 |
 | v3.7.0 | 41 | 2026-05-18 |
-| v3.12.1 | 39 | 2026-06-25 |
+| v3.12.1 | 40 | 2026-06-25 |
 | v3.6.6 | 38 | 2026-05-18 |
 | v3.7.38 | 28 | 2026-05-24 |
 | v3.8.0 | 22 | 2026-05-29 |
@@ -643,7 +643,7 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
-| v3.13.0-beta.91 | 2026-07-04 | 1d | 0 | 1 | 0 | **1** |
+| v3.13.0-beta.91 | 2026-07-04 | 1d | 2 | 4 | 2 | **8** |
 | v3.13.0-beta.90 | 2026-07-04 | 1d | 0 | 0 | 0 | **0** |
 | v3.13.0-beta.89 | 2026-07-03 | 2d | 0 | 1 | 0 | **1** |
 | v3.13.0-beta.88 | 2026-07-03 | 2d | 0 | 1 | 0 | **1** |
@@ -732,7 +732,7 @@ Quick navigation to repository statistics:
 | v3.13.0-beta.4 | 2026-06-26 | 9d | 0 | 1 | 0 | **1** |
 | v3.13.0-beta.3 | 2026-06-26 | 9d | 0 | 1 | 0 | **1** |
 | v3.13.0-beta.2 | 2026-06-26 | 9d | 0 | 0 | 0 | **0** |
-| v3.12.1 | 2026-06-25 | 10d | 22 | 16 | 1 | **39** |
+| v3.12.1 | 2026-06-25 | 10d | 23 | 16 | 1 | **40** |
 | v3.13.0-beta.1 | 2026-06-25 | 10d | 0 | 0 | 0 | **0** |
 | v3.12.1-beta.1 | 2026-06-24 | 11d | 2 | 0 | 0 | **2** |
 | v3.12.0 | 2026-06-24 | 11d | 5 | 5 | 0 | **10** |
