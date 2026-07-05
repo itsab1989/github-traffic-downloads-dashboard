@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-07-05T16:50:45.586248Z
+**Last Updated:** 2026-07-05T17:53:04.192550Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -92,7 +92,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-1747-212121) ![clones](https://img.shields.io/badge/clones-14625-2196F3) ![views](https://img.shields.io/badge/views-2609-4CAF50) ![releases](https://img.shields.io/badge/releases-436-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-1751-212121) ![clones](https://img.shields.io/badge/clones-14625-2196F3) ![views](https://img.shields.io/badge/views-2609-4CAF50) ![releases](https://img.shields.io/badge/releases-436-6f42c1)
 
 *Tracking since **2026-05-02** (64 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~64 days have been tracked so far.*
 
@@ -102,7 +102,7 @@ Quick navigation to repository statistics:
 |--------|-----------|-----------|--------|
 | Clones | 1496 | 1454 | ▲ +2.9% |
 | Views | 394 | 381 | ▲ +3.4% |
-| Downloads | 216 | 76 | ▲ +184.2% |
+| Downloads | 220 | 76 | ▲ +189.5% |
 
 ### 🗅️ Clones
 
@@ -144,7 +144,7 @@ Quick navigation to repository statistics:
 |--------|-------|--------------------------|
 | 👀 Unique visitors | 312 | — |
 | 🗅️ Unique cloners | 1558 | 499.4% |
-| 📥 Downloads | 953 | 305.4% |
+| 📥 Downloads | 957 | 306.7% |
 
 ### 📞 Referrers
 
@@ -185,20 +185,20 @@ Quick navigation to repository statistics:
 
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
-| 🪟 Windows | 216 | 305 | 395 |
-| 🍎 macOS | 699 | 795 | 1274 |
+| 🪟 Windows | 218 | 307 | 397 |
+| 🍎 macOS | 701 | 797 | 1276 |
 | 🐧 Linux | 38 | 47 | 78 |
-| **All** | **953** | **1147** | **1747** |
+| **All** | **957** | **1151** | **1751** |
 
-🆕 **Latest Release:** `v3.13.0-beta.117` - **0** downloads (published 2026-07-05)
+🆕 **Latest Release:** `v3.13.0-beta.117` - **2** downloads (published 2026-07-05)
 
 <details>
 <summary><strong>📦 Per-version downloads</strong> (436 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
-| v3.13.0-beta.117 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.116 | 0 | 0 | 0 | **0** |
+| v3.13.0-beta.117 | 1 | 1 | 0 | **2** |
+| v3.13.0-beta.116 | 1 | 0 | 0 | **1** |
 | v3.13.0-beta.115 | 0 | 1 | 0 | **1** |
 | v3.13.0-beta.114 | 1 | 2 | 0 | **3** |
 | v3.13.0-beta.113 | 1 | 6 | 0 | **7** |
@@ -560,7 +560,7 @@ Quick navigation to repository statistics:
 | v3.1.2 | 0 | 3 | 0 | **3** |
 | v3.1.1 | 1 | 5 | 0 | **6** |
 | v3.1.0 | 1 | 3 | 0 | **4** |
-| v3.0.2 | 2 | 3 | 0 | **5** |
+| v3.0.2 | 2 | 4 | 0 | **6** |
 | v3.0.1 | 1 | 2 | 0 | **3** |
 | v3.0.0 | 3 | 6 | 0 | **9** |
 | v3.0.0-beta.10 | 3 | 17 | 0 | **20** |
@@ -642,8 +642,8 @@ Quick navigation to repository statistics:
 
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
-| 🪟 Windows | 53 | 342 | 0 | **395** |
-| 🍎 macOS | 754 | 259 | 261 | **1274** |
+| 🪟 Windows | 53 | 344 | 0 | **397** |
+| 🍎 macOS | 755 | 259 | 262 | **1276** |
 | 🐧 Linux | 30 | 48 | 0 | **78** |
 
 *💡 Low-volume builds (<2% of lifetime downloads), candidates to stop shipping: 🐧 Linux arm64 (30, 1.7%).*
@@ -669,8 +669,8 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
-| v3.13.0-beta.117 | 2026-07-05 | 1d | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.116 | 2026-07-05 | 1d | 0 | 0 | 0 | **0** |
+| v3.13.0-beta.117 | 2026-07-05 | 1d | 1 | 1 | 0 | **2** |
+| v3.13.0-beta.116 | 2026-07-05 | 1d | 1 | 0 | 0 | **1** |
 | v3.13.0-beta.115 | 2026-07-05 | 1d | 0 | 1 | 0 | **1** |
 | v3.13.0-beta.114 | 2026-07-05 | 1d | 1 | 2 | 0 | **3** |
 | v3.13.0-beta.113 | 2026-07-05 | 1d | 1 | 6 | 0 | **7** |
