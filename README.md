@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-07-05T10:32:11.710426Z
+**Last Updated:** 2026-07-05T12:06:55.968188Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -92,17 +92,17 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-1728-212121) ![clones](https://img.shields.io/badge/clones-14392-2196F3) ![views](https://img.shields.io/badge/views-2552-4CAF50) ![releases](https://img.shields.io/badge/releases-430-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-1732-212121) ![clones](https://img.shields.io/badge/clones-14625-2196F3) ![views](https://img.shields.io/badge/views-2609-4CAF50) ![releases](https://img.shields.io/badge/releases-432-6f42c1)
 
-*Tracking since **2026-05-02** (63 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~63 days have been tracked so far.*
+*Tracking since **2026-05-02** (64 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~64 days have been tracked so far.*
 
 **This week vs last week:**
 
 | Metric | This week | Last week | Change |
 |--------|-----------|-----------|--------|
-| Clones | 1263 | 1454 | ▼ -13.1% |
-| Views | 337 | 381 | ▼ -11.5% |
-| Downloads | 197 | 76 | ▲ +159.2% |
+| Clones | 1496 | 1454 | ▲ +2.9% |
+| Views | 394 | 381 | ▲ +3.4% |
+| Downloads | 201 | 76 | ▲ +164.5% |
 
 ### 🗅️ Clones
 
@@ -110,9 +110,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 6956 | 1509 |
-| Last 90 Days | 14392 | 3215 |
-| Lifetime | 14392 | 3215 |
+| Last 30 Days | 7189 | 1558 |
+| Last 90 Days | 14625 | 3264 |
+| Lifetime | 14625 | 3264 |
 
 ### 📄 Repeat vs New Clones
 
@@ -122,9 +122,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
 |--------|--------------|----------------|----------------|----------|
-| Last 30 Days | 6956 | 1509 | 5447 | 78.3% |
-| Last 90 Days | 14392 | 3215 | 11177 | 77.7% |
-| Lifetime | 14392 | 3215 | 11177 | 77.7% |
+| Last 30 Days | 7189 | 1558 | 5631 | 78.3% |
+| Last 90 Days | 14625 | 3264 | 11361 | 77.7% |
+| Lifetime | 14625 | 3264 | 11361 | 77.7% |
 
 ### 👀 Views
 
@@ -132,9 +132,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 1329 | 300 |
-| Last 90 Days | 2552 | 721 |
-| Lifetime | 2552 | 721 |
+| Last 30 Days | 1386 | 312 |
+| Last 90 Days | 2609 | 733 |
+| Lifetime | 2609 | 733 |
 
 ### 🎯 Engagement Ratios
 
@@ -142,9 +142,9 @@ Quick navigation to repository statistics:
 
 | Action | Count | Ratio to unique visitors |
 |--------|-------|--------------------------|
-| 👀 Unique visitors | 300 | — |
-| 🗅️ Unique cloners | 1509 | 503.0% |
-| 📥 Downloads | 934 | 311.3% |
+| 👀 Unique visitors | 312 | — |
+| 🗅️ Unique cloners | 1558 | 499.4% |
+| 📥 Downloads | 938 | 300.6% |
 
 ### 📞 Referrers
 
@@ -154,14 +154,14 @@ Quick navigation to repository statistics:
 
 | Referrer | Total Views | Unique Visitors |
 |----------|-------------|----------------|
-| Google | 54 | 19 |
-| github.com | 51 | 6 |
-| printerknowledge.com | 22 | 10 |
+| github.com | 65 | 7 |
+| Google | 51 | 21 |
+| printerknowledge.com | 20 | 11 |
 | dpreview.com | 12 | 5 |
-| Bing | 9 | 3 |
+| Bing | 8 | 3 |
 | DuckDuckGo | 8 | 1 |
 | Yahoo | 8 | 1 |
-| reddit.com | 3 | 3 |
+| reddit.com | 4 | 4 |
 | hub.displaycal.net | 2 | 2 |
 | freelists.org | 1 | 1 |
 
@@ -173,9 +173,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Views | Unique Visitors | Repeat Visitors | Repeat % |
 |--------|-------------|-----------------|-----------------|----------|
-| Last 30 Days | 1329 | 300 | 1029 | 77.4% |
-| Last 90 Days | 2552 | 721 | 1831 | 71.7% |
-| Lifetime | 2552 | 721 | 1831 | 71.7% |
+| Last 30 Days | 1386 | 312 | 1074 | 77.5% |
+| Last 90 Days | 2609 | 733 | 1876 | 71.9% |
+| Lifetime | 2609 | 733 | 1876 | 71.9% |
 
 ### 📥 Release Downloads
 
@@ -185,19 +185,21 @@ Quick navigation to repository statistics:
 
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
-| 🪟 Windows | 210 | 299 | 389 |
-| 🍎 macOS | 686 | 782 | 1261 |
+| 🪟 Windows | 212 | 301 | 391 |
+| 🍎 macOS | 688 | 784 | 1263 |
 | 🐧 Linux | 38 | 47 | 78 |
-| **All** | **934** | **1128** | **1728** |
+| **All** | **938** | **1132** | **1732** |
 
-🆕 **Latest Release:** `v3.13.0-beta.111` - **0** downloads (published 2026-07-05)
+🆕 **Latest Release:** `v3.13.0-beta.113` - **0** downloads (published 2026-07-05)
 
 <details>
-<summary><strong>📦 Per-version downloads</strong> (430 releases - click to expand)</summary>
+<summary><strong>📦 Per-version downloads</strong> (432 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
-| v3.13.0-beta.111 | 0 | 0 | 0 | **0** |
+| v3.13.0-beta.113 | 0 | 0 | 0 | **0** |
+| v3.13.0-beta.112 | 1 | 1 | 0 | **2** |
+| v3.13.0-beta.111 | 0 | 1 | 0 | **1** |
 | v3.13.0-beta.110 | 1 | 4 | 0 | **5** |
 | v3.13.0-beta.109 | 0 | 0 | 0 | **0** |
 | v3.13.0-beta.108 | 0 | 0 | 0 | **0** |
@@ -505,7 +507,7 @@ Quick navigation to repository statistics:
 | v3.7.5 | 5 | 7 | 1 | **13** |
 | v3.7.4 | 1 | 8 | 0 | **9** |
 | v3.7.3 | 0 | 8 | 0 | **8** |
-| v3.7.2 | 1 | 4 | 1 | **6** |
+| v3.7.2 | 2 | 4 | 1 | **7** |
 | v3.7.1 | 0 | 40 | 2 | **42** |
 | v3.7.0 | 3 | 35 | 3 | **41** |
 | v3.6.7 | 3 | 42 | 3 | **48** |
@@ -636,8 +638,8 @@ Quick navigation to repository statistics:
 
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
-| 🪟 Windows | 51 | 338 | 0 | **389** |
-| 🍎 macOS | 750 | 254 | 257 | **1261** |
+| 🪟 Windows | 52 | 339 | 0 | **391** |
+| 🍎 macOS | 752 | 254 | 257 | **1263** |
 | 🐧 Linux | 30 | 48 | 0 | **78** |
 
 *💡 Low-volume builds (<2% of lifetime downloads), candidates to stop shipping: 🐧 Linux arm64 (30, 1.7%).*
@@ -663,7 +665,9 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
-| v3.13.0-beta.111 | 2026-07-05 | 1d | 0 | 0 | 0 | **0** |
+| v3.13.0-beta.113 | 2026-07-05 | 1d | 0 | 0 | 0 | **0** |
+| v3.13.0-beta.112 | 2026-07-05 | 1d | 1 | 1 | 0 | **2** |
+| v3.13.0-beta.111 | 2026-07-05 | 1d | 0 | 1 | 0 | **1** |
 | v3.13.0-beta.110 | 2026-07-05 | 1d | 1 | 4 | 0 | **5** |
 | v3.13.0-beta.109 | 2026-07-05 | 1d | 0 | 0 | 0 | **0** |
 | v3.13.0-beta.108 | 2026-07-05 | 1d | 0 | 0 | 0 | **0** |
