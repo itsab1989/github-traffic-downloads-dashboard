@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-07-07T11:44:42.932545Z
+**Last Updated:** 2026-07-07T13:58:01.201699Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -92,17 +92,17 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-1799-212121) ![clones](https://img.shields.io/badge/clones-14926-2196F3) ![views](https://img.shields.io/badge/views-2763-4CAF50) ![releases](https://img.shields.io/badge/releases-456-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-1800-212121) ![clones](https://img.shields.io/badge/clones-15125-2196F3) ![views](https://img.shields.io/badge/views-2842-4CAF50) ![releases](https://img.shields.io/badge/releases-457-6f42c1)
 
-*Tracking since **2026-05-02** (65 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~65 days have been tracked so far.*
+*Tracking since **2026-05-02** (66 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~66 days have been tracked so far.*
 
 **This week vs last week:**
 
 | Metric | This week | Last week | Change |
 |--------|-----------|-----------|--------|
-| Clones | 1227 | 1477 | ▼ -16.9% |
-| Views | 435 | 334 | ▲ +30.2% |
-| Downloads | 199 | 109 | ▲ +82.6% |
+| Clones | 1426 | 1477 | ▼ -3.5% |
+| Views | 514 | 334 | ▲ +53.9% |
+| Downloads | 200 | 109 | ▲ +83.5% |
 
 ### 🗅️ Clones
 
@@ -110,9 +110,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 7479 | 1609 |
-| Last 90 Days | 14926 | 3321 |
-| Lifetime | 14926 | 3321 |
+| Last 30 Days | 7678 | 1646 |
+| Last 90 Days | 15125 | 3358 |
+| Lifetime | 15125 | 3358 |
 
 ### 📄 Repeat vs New Clones
 
@@ -122,9 +122,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
 |--------|--------------|----------------|----------------|----------|
-| Last 30 Days | 7479 | 1609 | 5870 | 78.5% |
-| Last 90 Days | 14926 | 3321 | 11605 | 77.8% |
-| Lifetime | 14926 | 3321 | 11605 | 77.8% |
+| Last 30 Days | 7678 | 1646 | 6032 | 78.6% |
+| Last 90 Days | 15125 | 3358 | 11767 | 77.8% |
+| Lifetime | 15125 | 3358 | 11767 | 77.8% |
 
 ### 👀 Views
 
@@ -132,9 +132,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 1499 | 298 |
-| Last 90 Days | 2763 | 743 |
-| Lifetime | 2763 | 743 |
+| Last 30 Days | 1578 | 309 |
+| Last 90 Days | 2842 | 754 |
+| Lifetime | 2842 | 754 |
 
 ### 🎯 Engagement Ratios
 
@@ -142,9 +142,9 @@ Quick navigation to repository statistics:
 
 | Action | Count | Ratio to unique visitors |
 |--------|-------|--------------------------|
-| 👀 Unique visitors | 298 | — |
-| 🗅️ Unique cloners | 1609 | 539.9% |
-| 📥 Downloads | 653 | 219.1% |
+| 👀 Unique visitors | 309 | — |
+| 🗅️ Unique cloners | 1646 | 532.7% |
+| 📥 Downloads | 654 | 211.7% |
 
 ### 📞 Referrers
 
@@ -154,16 +154,16 @@ Quick navigation to repository statistics:
 
 | Referrer | Total Views | Unique Visitors |
 |----------|-------------|----------------|
-| github.com | 66 | 7 |
-| Google | 57 | 23 |
-| printerknowledge.com | 19 | 10 |
+| github.com | 64 | 7 |
+| Google | 62 | 24 |
+| printerknowledge.com | 33 | 10 |
 | dpreview.com | 12 | 5 |
-| Bing | 8 | 3 |
+| Bing | 10 | 4 |
 | DuckDuckGo | 8 | 1 |
 | Yahoo | 8 | 1 |
 | reddit.com | 4 | 4 |
-| hub.displaycal.net | 2 | 2 |
 | freelists.org | 1 | 1 |
+| hub.displaycal.net | 1 | 1 |
 
 ### 👥 Repeat vs New Visitors
 
@@ -173,9 +173,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Views | Unique Visitors | Repeat Visitors | Repeat % |
 |--------|-------------|-----------------|-----------------|----------|
-| Last 30 Days | 1499 | 298 | 1201 | 80.1% |
-| Last 90 Days | 2763 | 743 | 2020 | 73.1% |
-| Lifetime | 2763 | 743 | 2020 | 73.1% |
+| Last 30 Days | 1578 | 309 | 1269 | 80.4% |
+| Last 90 Days | 2842 | 754 | 2088 | 73.5% |
+| Lifetime | 2842 | 754 | 2088 | 73.5% |
 
 ### 📥 Release Downloads
 
@@ -186,18 +186,19 @@ Quick navigation to repository statistics:
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
 | 🪟 Windows | 220 | 313 | 403 |
-| 🍎 macOS | 395 | 837 | 1316 |
+| 🍎 macOS | 396 | 838 | 1317 |
 | 🐧 Linux | 38 | 49 | 80 |
-| **All** | **653** | **1199** | **1799** |
+| **All** | **654** | **1200** | **1800** |
 
-🆕 **Latest Release:** `v3.13.0-beta.136` - **7** downloads (published 2026-07-07)
+🆕 **Latest Release:** `v3.13.0-beta.137` - **0** downloads (published 2026-07-07)
 
 <details>
-<summary><strong>📦 Per-version downloads</strong> (456 releases - click to expand)</summary>
+<summary><strong>📦 Per-version downloads</strong> (457 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
-| v3.13.0-beta.136 | 2 | 5 | 0 | **7** |
+| v3.13.0-beta.137 | 0 | 0 | 0 | **0** |
+| v3.13.0-beta.136 | 2 | 6 | 0 | **8** |
 | v3.13.0-beta.135 | 0 | 1 | 0 | **1** |
 | v3.13.0-beta.134 | 0 | 0 | 0 | **0** |
 | v3.13.0-beta.133 | 0 | 0 | 0 | **0** |
@@ -663,7 +664,7 @@ Quick navigation to repository statistics:
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
 | 🪟 Windows | 53 | 350 | 0 | **403** |
-| 🍎 macOS | 784 | 265 | 267 | **1316** |
+| 🍎 macOS | 785 | 265 | 267 | **1317** |
 | 🐧 Linux | 32 | 48 | 0 | **80** |
 
 *💡 Low-volume builds (<2% of lifetime downloads), candidates to stop shipping: 🐧 Linux arm64 (32, 1.8%).*
@@ -689,7 +690,8 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
-| v3.13.0-beta.136 | 2026-07-07 | 1d | 2 | 5 | 0 | **7** |
+| v3.13.0-beta.137 | 2026-07-07 | 1d | 0 | 0 | 0 | **0** |
+| v3.13.0-beta.136 | 2026-07-07 | 1d | 2 | 6 | 0 | **8** |
 | v3.13.0-beta.135 | 2026-07-06 | 2d | 0 | 1 | 0 | **1** |
 | v3.13.0-beta.134 | 2026-07-06 | 2d | 0 | 0 | 0 | **0** |
 | v3.13.0-beta.133 | 2026-07-06 | 2d | 0 | 0 | 0 | **0** |
