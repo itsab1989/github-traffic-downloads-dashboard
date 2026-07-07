@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T21:48:25.985106Z",
+  "generated_at": "2026-07-07T22:47:56.825063Z",
   "repositories": [
     {
       "name": "itsab1989/ChromIQ",
@@ -514,7 +514,7 @@
             36,
             59,
             27,
-            21
+            22
           ],
           "windows": [
             8,
@@ -580,7 +580,7 @@
             13,
             39,
             24,
-            16
+            17
           ],
           "linux": [
             0,
@@ -709,7 +709,7 @@
             1702,
             1761,
             1788,
-            1809
+            1810
           ],
           "windows": [
             90,
@@ -803,7 +803,7 @@
             1245,
             1284,
             1308,
-            1324
+            1325
           ],
           "linux": [
             31,
@@ -854,6 +854,10 @@
           ]
         },
         "releases": [
+          {
+            "date": "2026-07-07",
+            "tag": "v3.13.0-beta.142"
+          },
           {
             "date": "2026-07-07",
             "tag": "v3.13.0-beta.141"
@@ -2701,6 +2705,15 @@
         ],
         "reception": [
           {
+            "tag": "v3.13.0-beta.142",
+            "published": "2026-07-07",
+            "age_days": 1,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "total": 0
+          },
+          {
             "tag": "v3.13.0-beta.141",
             "published": "2026-07-07",
             "age_days": 1,
@@ -2825,18 +2838,22 @@
             "macos": 2,
             "linux": 0,
             "total": 2
-          },
-          {
-            "tag": "v3.13.0-beta.127",
-            "published": "2026-07-06",
-            "age_days": 2,
-            "windows": 0,
-            "macos": 0,
-            "linux": 0,
-            "total": 0
           }
         ],
         "launch_curves": [
+          {
+            "tag": "v3.13.0-beta.142",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 0.15,
+                "downloads": 0
+              }
+            ]
+          },
           {
             "tag": "v3.13.0-beta.141",
             "points": [
@@ -2907,31 +2924,6 @@
               {
                 "h": 2.73,
                 "downloads": 1
-              }
-            ]
-          },
-          {
-            "tag": "v3.13.0-beta.136",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 3.53,
-                "downloads": 0
-              },
-              {
-                "h": 6.61,
-                "downloads": 5
-              },
-              {
-                "h": 9.37,
-                "downloads": 7
-              },
-              {
-                "h": 11.6,
-                "downloads": 8
               }
             ]
           }
@@ -3294,6 +3286,10 @@
         },
         "releases": [
           {
+            "date": "2026-07-07",
+            "tag": "v1.2.1"
+          },
+          {
             "date": "2026-07-03",
             "tag": "v1.2.0"
           },
@@ -3311,6 +3307,15 @@
           }
         ],
         "reception": [
+          {
+            "tag": "v1.2.1",
+            "published": "2026-07-07",
+            "age_days": 1,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "total": 0
+          },
           {
             "tag": "v1.2.0",
             "published": "2026-07-03",
@@ -3349,6 +3354,19 @@
           }
         ],
         "launch_curves": [
+          {
+            "tag": "v1.2.1",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 0.09,
+                "downloads": 0
+              }
+            ]
+          },
           {
             "tag": "v1.2.0",
             "points": [
