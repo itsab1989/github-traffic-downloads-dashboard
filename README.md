@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-07-08T20:14:41.198652Z
+**Last Updated:** 2026-07-08T21:35:37.535696Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -220,8 +220,8 @@ Quick navigation to repository statistics:
 | v3.13.0-beta.125 | 0 | 1 | 0 | **1** |
 | v3.13.0-beta.124 | 0 | 3 | 0 | **3** |
 | v3.13.0-beta.123 | 0 | 1 | 0 | **1** |
-| v3.13.0-beta.122 | 1 | 6 | 0 | **7** |
 | v3.13.0-beta.122 | 0 | 0 | 0 | **0** |
+| v3.13.0-beta.122 | 1 | 6 | 0 | **7** |
 | v3.13.0-beta.121 | 0 | 0 | 0 | **0** |
 | v3.13.0-beta.120 | 0 | 2 | 0 | **2** |
 | v3.13.0-beta.119 | 0 | 1 | 0 | **1** |
@@ -721,7 +721,7 @@ Quick navigation to repository statistics:
 | v3.13.0-beta.125 | 2026-07-06 | 3d | 0 | 1 | 0 | **1** |
 | v3.13.0-beta.124 | 2026-07-06 | 3d | 0 | 3 | 0 | **3** |
 | v3.13.0-beta.123 | 2026-07-06 | 3d | 0 | 1 | 0 | **1** |
-| v3.13.0-beta.122 | 2026-07-06 | 3d | 0 | 0 | 0 | **0** |
+| v3.13.0-beta.122 | 2026-07-06 | 3d | 1 | 6 | 0 | **7** |
 | v3.13.0-beta.121 | 2026-07-06 | 3d | 0 | 0 | 0 | **0** |
 | v3.13.0-beta.120 | 2026-07-05 | 4d | 0 | 2 | 0 | **2** |
 | v3.13.0-beta.119 | 2026-07-05 | 4d | 0 | 1 | 0 | **1** |

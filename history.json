@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-07-08T20:14:41Z",
-    "last_updated": "2026-07-08T20:14:41.198652Z",
+    "generated_at": "2026-07-08T21:35:37Z",
+    "last_updated": "2026-07-08T21:35:37.535696Z",
     "repositories": [
       "itsab1989/ChromIQ",
       "itsab1989/ChromIQ-Patches"
@@ -2601,7 +2601,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-07-08T20:14:41Z",
+        "last_fetched": "2026-07-08T21:35:37Z",
         "clones_total": 289,
         "clones_unique_total": 124,
         "views_total": 65,
@@ -2688,7 +2688,7 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-07-08T20:14:41Z",
+          "last_fetched": "2026-07-08T21:35:37Z",
           "cumulative_total": 25,
           "cumulative_windows": 9,
           "cumulative_macos": 14,
@@ -5723,7 +5723,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-07-08T20:14:41Z",
+        "last_fetched": "2026-07-08T21:35:37Z",
         "clones_total": 15265,
         "clones_unique_total": 3383,
         "views_total": 2899,
@@ -6239,7 +6239,7 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-07-08T20:14:41Z",
+          "last_fetched": "2026-07-08T21:35:37Z",
           "cumulative_total": 1840,
           "cumulative_windows": 414,
           "cumulative_macos": 1343,
@@ -6432,17 +6432,17 @@
           },
           {
             "tag": "v3.13.0-beta.122",
-            "downloads": 7,
-            "windows": 1,
-            "macos": 6,
+            "downloads": 0,
+            "windows": 0,
+            "macos": 0,
             "linux": 0,
             "published_at": "2026-07-06T00:26:20Z"
           },
           {
             "tag": "v3.13.0-beta.122",
-            "downloads": 0,
-            "windows": 0,
-            "macos": 0,
+            "downloads": 7,
+            "windows": 1,
+            "macos": 6,
             "linux": 0,
             "published_at": "2026-07-06T00:26:20Z"
           },
@@ -18850,9 +18850,9 @@
               },
               {
                 "date": "2026-07-08",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
+                "downloads": 7,
+                "windows": 1,
+                "macos": 6,
                 "linux": 0
               }
             ],
