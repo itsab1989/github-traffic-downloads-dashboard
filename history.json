@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-07-09T05:51:14Z",
-    "last_updated": "2026-07-09T05:51:14.448258Z",
+    "generated_at": "2026-07-09T09:07:54Z",
+    "last_updated": "2026-07-09T09:07:54.651345Z",
     "repositories": [
       "itsab1989/ChromIQ",
       "itsab1989/ChromIQ-Patches"
@@ -2560,10 +2560,10 @@
         },
         {
           "date": "2026-07-08",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
+          "clones_total": 6,
+          "clones_unique": 5,
+          "views_total": 4,
+          "views_unique": 2
         },
         {
           "date": "2026-07-09",
@@ -2576,7 +2576,7 @@
       "referrers": [
         {
           "referrer": "github.com",
-          "count": 23,
+          "count": 26,
           "uniques": 8
         },
         {
@@ -2586,7 +2586,7 @@
         },
         {
           "referrer": "printerknowledge.com",
-          "count": 5,
+          "count": 6,
           "uniques": 2
         },
         {
@@ -2601,11 +2601,11 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-07-09T05:51:14Z",
-        "clones_total": 289,
-        "clones_unique_total": 124,
-        "views_total": 65,
-        "views_unique_total": 23
+        "last_fetched": "2026-07-09T09:07:54Z",
+        "clones_total": 295,
+        "clones_unique_total": 129,
+        "views_total": 69,
+        "views_unique_total": 25
       },
       "downloads": {
         "daily_data": [
@@ -2699,7 +2699,7 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-07-09T05:51:14Z",
+          "last_fetched": "2026-07-09T09:07:54Z",
           "cumulative_total": 25,
           "cumulative_windows": 9,
           "cumulative_macos": 14,
@@ -5769,7 +5769,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-07-09T05:51:14Z",
+        "last_fetched": "2026-07-09T09:07:54Z",
         "clones_total": 15265,
         "clones_unique_total": 3383,
         "views_total": 2899,
@@ -6285,28 +6285,28 @@
           },
           {
             "date": "2026-07-09",
-            "cumulative_total": 1846,
-            "downloads_total": 5,
-            "cumulative_windows": 417,
-            "downloads_windows": 3,
+            "cumulative_total": 1849,
+            "downloads_total": 8,
+            "cumulative_windows": 419,
+            "downloads_windows": 5,
             "cumulative_macos": 1345,
             "downloads_macos": 2,
-            "cumulative_linux": 84,
-            "downloads_linux": 0
+            "cumulative_linux": 85,
+            "downloads_linux": 1
           }
         ],
         "metadata": {
-          "last_fetched": "2026-07-09T05:51:14Z",
-          "cumulative_total": 1846,
-          "cumulative_windows": 417,
+          "last_fetched": "2026-07-09T09:07:54Z",
+          "cumulative_total": 1849,
+          "cumulative_windows": 419,
           "cumulative_macos": 1345,
-          "cumulative_linux": 84
+          "cumulative_linux": 85
         },
         "by_release": [
           {
             "tag": "v3.13.2",
-            "downloads": 0,
-            "windows": 0,
+            "downloads": 2,
+            "windows": 2,
             "macos": 0,
             "linux": 0,
             "published_at": "2026-07-09T05:29:10Z"
@@ -6729,10 +6729,10 @@
           },
           {
             "tag": "v3.13.0-beta.91",
-            "downloads": 12,
+            "downloads": 13,
             "windows": 4,
             "macos": 5,
-            "linux": 3,
+            "linux": 4,
             "published_at": "2026-07-04T00:37:00Z"
           },
           {
@@ -10035,7 +10035,7 @@
         "by_arch": {
           "windows": {
             "arm64": 56,
-            "x86_64": 361
+            "x86_64": 363
           },
           "macos": {
             "arm64": 806,
@@ -10044,7 +10044,7 @@
           },
           "linux": {
             "arm64": 33,
-            "x86_64": 51
+            "x86_64": 52
           }
         },
         "by_release_daily": {
@@ -17641,10 +17641,10 @@
               },
               {
                 "date": "2026-07-09",
-                "downloads": 12,
+                "downloads": 13,
                 "windows": 4,
                 "macos": 5,
-                "linux": 3
+                "linux": 4
               }
             ],
             "launch": [
@@ -20546,8 +20546,8 @@
             "snapshots": [
               {
                 "date": "2026-07-09",
-                "downloads": 0,
-                "windows": 0,
+                "downloads": 2,
+                "windows": 2,
                 "macos": 0,
                 "linux": 0
               }
@@ -20557,6 +20557,13 @@
                 "time": "2026-07-09T05:51:14Z",
                 "downloads": 0,
                 "windows": 0,
+                "macos": 0,
+                "linux": 0
+              },
+              {
+                "time": "2026-07-09T09:07:54Z",
+                "downloads": 2,
+                "windows": 2,
                 "macos": 0,
                 "linux": 0
               }
