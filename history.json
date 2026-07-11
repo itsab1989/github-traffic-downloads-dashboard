@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-07-11T04:33:19Z",
-    "last_updated": "2026-07-11T04:33:19.213161Z",
+    "generated_at": "2026-07-11T07:02:21Z",
+    "last_updated": "2026-07-11T07:02:21.727951Z",
     "repositories": [
       "itsab1989/ChromIQ",
       "itsab1989/ChromIQ-Patches"
@@ -2626,7 +2626,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-07-11T04:33:19Z",
+        "last_fetched": "2026-07-11T07:02:21Z",
         "clones_total": 15390,
         "clones_unique_total": 3411,
         "views_total": 3008,
@@ -3164,24 +3164,32 @@
           },
           {
             "date": "2026-07-11",
-            "cumulative_total": 1871,
-            "downloads_total": 0,
+            "cumulative_total": 1873,
+            "downloads_total": 2,
             "cumulative_windows": 423,
             "downloads_windows": 0,
-            "cumulative_macos": 1362,
-            "downloads_macos": 0,
-            "cumulative_linux": 86,
-            "downloads_linux": 0
+            "cumulative_macos": 1363,
+            "downloads_macos": 1,
+            "cumulative_linux": 87,
+            "downloads_linux": 1
           }
         ],
         "metadata": {
-          "last_fetched": "2026-07-11T04:33:19Z",
-          "cumulative_total": 1871,
+          "last_fetched": "2026-07-11T07:02:21Z",
+          "cumulative_total": 1873,
           "cumulative_windows": 423,
-          "cumulative_macos": 1362,
-          "cumulative_linux": 86
+          "cumulative_macos": 1363,
+          "cumulative_linux": 87
         },
         "by_release": [
+          {
+            "tag": "v3.13.4-beta.5",
+            "downloads": 1,
+            "windows": 0,
+            "macos": 1,
+            "linux": 0,
+            "published_at": "2026-07-11T05:13:57Z"
+          },
           {
             "tag": "v3.13.4-beta.4",
             "downloads": 1,
@@ -4080,10 +4088,10 @@
           },
           {
             "tag": "v3.13.0-beta.39",
-            "downloads": 14,
+            "downloads": 15,
             "windows": 4,
             "macos": 6,
-            "linux": 4,
+            "linux": 5,
             "published_at": "2026-06-30T13:35:18Z"
           },
           {
@@ -6957,12 +6965,12 @@
             "x86_64": 367
           },
           "macos": {
-            "arm64": 817,
+            "arm64": 818,
             "universal": 270,
             "x86_64": 275
           },
           "linux": {
-            "arm64": 33,
+            "arm64": 34,
             "x86_64": 53
           }
         },
@@ -10367,10 +10375,10 @@
               },
               {
                 "date": "2026-07-11",
-                "downloads": 14,
+                "downloads": 15,
                 "windows": 4,
                 "macos": 6,
-                "linux": 4
+                "linux": 5
               }
             ],
             "launch": [
@@ -18544,6 +18552,27 @@
                 "linux": 0
               }
             ]
+          },
+          "v3.13.4-beta.5": {
+            "published_at": "2026-07-11T05:13:57Z",
+            "snapshots": [
+              {
+                "date": "2026-07-11",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0
+              }
+            ],
+            "launch": [
+              {
+                "time": "2026-07-11T07:02:21Z",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0
+              }
+            ]
           }
         }
       }
@@ -21141,7 +21170,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-07-11T04:33:19Z",
+        "last_fetched": "2026-07-11T07:02:21Z",
         "clones_total": 295,
         "clones_unique_total": 129,
         "views_total": 69,
@@ -21261,7 +21290,7 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-07-11T04:33:19Z",
+          "last_fetched": "2026-07-11T07:02:21Z",
           "cumulative_total": 27,
           "cumulative_windows": 9,
           "cumulative_macos": 16,
