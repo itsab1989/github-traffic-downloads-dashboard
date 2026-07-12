@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-07-12T09:22:33.574390Z
+**Last Updated:** 2026-07-12T10:48:42.002562Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -92,16 +92,16 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-1901-212121) ![clones](https://img.shields.io/badge/clones-15483-2196F3) ![views](https://img.shields.io/badge/views-3072-4CAF50) ![releases](https://img.shields.io/badge/releases-479-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-1901-212121) ![clones](https://img.shields.io/badge/clones-15549-2196F3) ![views](https://img.shields.io/badge/views-3130-4CAF50) ![releases](https://img.shields.io/badge/releases-479-6f42c1)
 
-*Tracking since **2026-05-02** (70 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~70 days have been tracked so far.*
+*Tracking since **2026-05-02** (71 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~71 days have been tracked so far.*
 
 **This week vs last week:**
 
 | Metric | This week | Last week | Change |
 |--------|-----------|-----------|--------|
-| Clones | 557 | 1797 | ▼ -69.0% |
-| Views | 309 | 548 | ▼ -43.6% |
+| Clones | 623 | 1797 | ▼ -65.3% |
+| Views | 367 | 548 | ▼ -33.0% |
 | Downloads | 140 | 230 | ▼ -39.1% |
 
 ### 🗅️ Clones
@@ -110,9 +110,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 7479 | 1603 |
-| Last 90 Days | 15483 | 3438 |
-| Lifetime | 15483 | 3438 |
+| Last 30 Days | 7545 | 1616 |
+| Last 90 Days | 15549 | 3451 |
+| Lifetime | 15549 | 3451 |
 
 ### 📄 Repeat vs New Clones
 
@@ -122,9 +122,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
 |--------|--------------|----------------|----------------|----------|
-| Last 30 Days | 7479 | 1603 | 5876 | 78.6% |
-| Last 90 Days | 15483 | 3438 | 12045 | 77.8% |
-| Lifetime | 15483 | 3438 | 12045 | 77.8% |
+| Last 30 Days | 7545 | 1616 | 5929 | 78.6% |
+| Last 90 Days | 15549 | 3451 | 12098 | 77.8% |
+| Lifetime | 15549 | 3451 | 12098 | 77.8% |
 
 ### 👀 Views
 
@@ -132,9 +132,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 1700 | 305 |
-| Last 90 Days | 3072 | 803 |
-| Lifetime | 3072 | 803 |
+| Last 30 Days | 1758 | 311 |
+| Last 90 Days | 3130 | 809 |
+| Lifetime | 3130 | 809 |
 
 ### 🎯 Engagement Ratios
 
@@ -142,9 +142,9 @@ Quick navigation to repository statistics:
 
 | Action | Count | Ratio to unique visitors |
 |--------|-------|--------------------------|
-| 👀 Unique visitors | 305 | — |
-| 🗅️ Unique cloners | 1603 | 525.6% |
-| 📥 Downloads | 658 | 215.7% |
+| 👀 Unique visitors | 311 | — |
+| 🗅️ Unique cloners | 1616 | 519.6% |
+| 📥 Downloads | 658 | 211.6% |
 
 ### 📞 Referrers
 
@@ -154,13 +154,13 @@ Quick navigation to repository statistics:
 
 | Referrer | Total Views | Unique Visitors |
 |----------|-------------|----------------|
-| Google | 59 | 21 |
-| github.com | 43 | 7 |
-| printerknowledge.com | 33 | 13 |
+| Google | 63 | 21 |
+| github.com | 38 | 7 |
+| printerknowledge.com | 35 | 14 |
 | dpreview.com | 12 | 6 |
 | Yahoo | 8 | 1 |
-| Bing | 7 | 3 |
 | DuckDuckGo | 6 | 1 |
+| Bing | 5 | 2 |
 | reddit.com | 4 | 4 |
 | forum.luminous-landscape.com | 3 | 1 |
 | yandex.ru | 2 | 2 |
@@ -173,9 +173,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Views | Unique Visitors | Repeat Visitors | Repeat % |
 |--------|-------------|-----------------|-----------------|----------|
-| Last 30 Days | 1700 | 305 | 1395 | 82.1% |
-| Last 90 Days | 3072 | 803 | 2269 | 73.9% |
-| Lifetime | 3072 | 803 | 2269 | 73.9% |
+| Last 30 Days | 1758 | 311 | 1447 | 82.3% |
+| Last 90 Days | 3130 | 809 | 2321 | 74.2% |
+| Lifetime | 3130 | 809 | 2321 | 74.2% |
 
 ### 📥 Release Downloads
 
