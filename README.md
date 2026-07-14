@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-07-14T06:31:10.104552Z
+**Last Updated:** 2026-07-14T08:56:22.370361Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -92,7 +92,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-1930-212121) ![clones](https://img.shields.io/badge/clones-15639-2196F3) ![views](https://img.shields.io/badge/views-3212-4CAF50) ![releases](https://img.shields.io/badge/releases-486-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-1933-212121) ![clones](https://img.shields.io/badge/clones-15639-2196F3) ![views](https://img.shields.io/badge/views-3212-4CAF50) ![releases](https://img.shields.io/badge/releases-487-6f42c1)
 
 *Tracking since **2026-05-02** (73 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~73 days have been tracked so far.*
 
@@ -102,7 +102,7 @@ Quick navigation to repository statistics:
 |--------|-----------|-----------|--------|
 | Clones | 374 | 1566 | ▼ -76.1% |
 | Views | 313 | 571 | ▼ -45.2% |
-| Downloads | 117 | 213 | ▼ -45.1% |
+| Downloads | 120 | 213 | ▼ -43.7% |
 
 ### 🗅️ Clones
 
@@ -144,7 +144,7 @@ Quick navigation to repository statistics:
 |--------|-------|--------------------------|
 | 👀 Unique visitors | 315 | — |
 | 🗅️ Unique cloners | 1435 | 455.6% |
-| 📥 Downloads | 657 | 208.6% |
+| 📥 Downloads | 660 | 209.5% |
 
 ### 📞 Referrers
 
@@ -185,19 +185,20 @@ Quick navigation to repository statistics:
 
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
-| 🪟 Windows | 215 | 349 | 439 |
-| 🍎 macOS | 398 | 919 | 1398 |
+| 🪟 Windows | 217 | 351 | 441 |
+| 🍎 macOS | 399 | 920 | 1399 |
 | 🐧 Linux | 44 | 62 | 93 |
-| **All** | **657** | **1330** | **1930** |
+| **All** | **660** | **1333** | **1933** |
 
-🆕 **Latest Release:** `v3.13.7-beta.1` - **0** downloads (published 2026-07-14)
+🆕 **Latest Release:** `v3.13.7-beta.2` - **0** downloads (published 2026-07-14)
 
 <details>
-<summary><strong>📦 Per-version downloads</strong> (486 releases - click to expand)</summary>
+<summary><strong>📦 Per-version downloads</strong> (487 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
-| v3.13.7-beta.1 | 0 | 0 | 0 | **0** |
+| v3.13.7-beta.2 | 0 | 0 | 0 | **0** |
+| v3.13.7-beta.1 | 2 | 0 | 0 | **2** |
 | v3.13.6 | 1 | 1 | 0 | **2** |
 | v3.13.6-beta.4 | 0 | 1 | 0 | **1** |
 | v3.13.6-beta.3 | 0 | 0 | 0 | **0** |
@@ -332,7 +333,7 @@ Quick navigation to repository statistics:
 | v3.13.0-beta.34 | 2 | 3 | 2 | **7** |
 | v3.13.0-beta.33 | 2 | 4 | 2 | **8** |
 | v3.13.0-beta.32 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.31 | 4 | 5 | 3 | **12** |
+| v3.13.0-beta.31 | 4 | 6 | 3 | **13** |
 | v3.13.0-beta.30 | 1 | 1 | 0 | **2** |
 | v3.13.0-beta.29 | 0 | 0 | 0 | **0** |
 | v3.13.0-beta.28 | 0 | 0 | 0 | **0** |
@@ -692,8 +693,8 @@ Quick navigation to repository statistics:
 
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
-| 🪟 Windows | 60 | 379 | 0 | **439** |
-| 🍎 macOS | 841 | 282 | 275 | **1398** |
+| 🪟 Windows | 61 | 380 | 0 | **441** |
+| 🍎 macOS | 841 | 282 | 276 | **1399** |
 | 🐧 Linux | 37 | 56 | 0 | **93** |
 
 *💡 Low-volume builds (<2% of lifetime downloads), candidates to stop shipping: 🐧 Linux arm64 (37, 1.9%).*
@@ -719,7 +720,8 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
-| v3.13.7-beta.1 | 2026-07-14 | 1d | 0 | 0 | 0 | **0** |
+| v3.13.7-beta.2 | 2026-07-14 | 1d | 0 | 0 | 0 | **0** |
+| v3.13.7-beta.1 | 2026-07-14 | 1d | 2 | 0 | 0 | **2** |
 | v3.13.6 | 2026-07-13 | 2d | 1 | 1 | 0 | **2** |
 | v3.13.6-beta.4 | 2026-07-13 | 2d | 0 | 1 | 0 | **1** |
 | v3.13.6-beta.3 | 2026-07-13 | 2d | 0 | 0 | 0 | **0** |
