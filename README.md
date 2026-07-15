@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-07-15T00:10:24.101758Z
+**Last Updated:** 2026-07-15T03:41:45.320099Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -92,7 +92,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-1942-212121) ![clones](https://img.shields.io/badge/clones-15639-2196F3) ![views](https://img.shields.io/badge/views-3212-4CAF50) ![releases](https://img.shields.io/badge/releases-487-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-1942-212121) ![clones](https://img.shields.io/badge/clones-15639-2196F3) ![views](https://img.shields.io/badge/views-3212-4CAF50) ![releases](https://img.shields.io/badge/releases-488-6f42c1)
 
 *Tracking since **2026-05-02** (73 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~73 days have been tracked so far.*
 
@@ -190,13 +190,14 @@ Quick navigation to repository statistics:
 | 🐧 Linux | 44 | 62 | 93 |
 | **All** | **655** | **1342** | **1942** |
 
-🆕 **Latest Release:** `v3.13.7-beta.2` - **1** download (published 2026-07-14)
+🆕 **Latest Release:** `v3.13.7-beta.3` - **0** downloads (published 2026-07-15)
 
 <details>
-<summary><strong>📦 Per-version downloads</strong> (487 releases - click to expand)</summary>
+<summary><strong>📦 Per-version downloads</strong> (488 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
+| v3.13.7-beta.3 | 0 | 0 | 0 | **0** |
 | v3.13.7-beta.2 | 0 | 1 | 0 | **1** |
 | v3.13.7-beta.1 | 2 | 0 | 0 | **2** |
 | v3.13.6 | 6 | 2 | 0 | **8** |
@@ -720,6 +721,7 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
+| v3.13.7-beta.3 | 2026-07-15 | 1d | 0 | 0 | 0 | **0** |
 | v3.13.7-beta.2 | 2026-07-14 | 2d | 0 | 1 | 0 | **1** |
 | v3.13.7-beta.1 | 2026-07-14 | 2d | 2 | 0 | 0 | **2** |
 | v3.13.6 | 2026-07-13 | 3d | 6 | 2 | 0 | **8** |
