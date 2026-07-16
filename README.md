@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-07-16T06:41:19.694380Z
+**Last Updated:** 2026-07-16T09:06:18.898398Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -190,14 +190,14 @@ Quick navigation to repository statistics:
 | 🐧 Linux | 43 | 63 | 94 |
 | **All** | **636** | **1352** | **1952** |
 
-🆕 **Latest Release:** `v3.13.7-beta.6` - **0** downloads (published 2026-07-16)
+🆕 **Latest Release:** `v3.13.7` - **0** downloads (published 2026-07-16)
 
 <details>
 <summary><strong>📦 Per-version downloads</strong> (491 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
-| v3.13.7-beta.6 | 0 | 0 | 0 | **0** |
+| v3.13.7 | 0 | 0 | 0 | **0** |
 | v3.13.7-beta.5 | 0 | 0 | 0 | **0** |
 | v3.13.7-beta.4 | 1 | 1 | 0 | **2** |
 | v3.13.7-beta.3 | 0 | 0 | 0 | **0** |
@@ -724,6 +724,7 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
+| v3.13.7 | 2026-07-16 | 1d | 0 | 0 | 0 | **0** |
 | v3.13.7-beta.6 | 2026-07-16 | 1d | 0 | 0 | 0 | **0** |
 | v3.13.7-beta.5 | 2026-07-15 | 2d | 0 | 0 | 0 | **0** |
 | v3.13.7-beta.4 | 2026-07-15 | 2d | 1 | 1 | 0 | **2** |
