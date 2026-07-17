@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T04:31:15.807232Z",
+  "generated_at": "2026-07-17T07:06:28.347078Z",
   "repositories": [
     {
       "name": "itsab1989/ChromIQ",
@@ -759,7 +759,7 @@
             1942,
             1950,
             1961,
-            1953
+            1954
           ],
           "windows": [
             90,
@@ -816,7 +816,7 @@
             448,
             450,
             455,
-            451
+            452
           ],
           "macos": [
             479,
@@ -2904,10 +2904,10 @@
             "tag": "v3.13.7",
             "published": "2026-07-16",
             "age_days": 2,
-            "windows": 0,
+            "windows": 1,
             "macos": 0,
             "linux": 0,
-            "total": 0
+            "total": 1
           },
           {
             "tag": "v3.13.7-beta.6",
