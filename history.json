@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-07-18T17:26:55Z",
-    "last_updated": "2026-07-18T17:26:56.098404Z",
+    "generated_at": "2026-07-18T18:13:37Z",
+    "last_updated": "2026-07-18T18:13:37.423161Z",
     "repositories": [
       "itsab1989/ChromIQ",
       "itsab1989/ChromIQ-Patches"
@@ -2596,7 +2596,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-07-18T17:26:55Z",
+        "last_fetched": "2026-07-18T18:13:37Z",
         "clones_total": 314,
         "clones_unique_total": 143,
         "views_total": 73,
@@ -2793,7 +2793,7 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-07-18T17:26:55Z",
+          "last_fetched": "2026-07-18T18:13:37Z",
           "cumulative_total": 31,
           "cumulative_windows": 10,
           "cumulative_macos": 18,
@@ -5590,7 +5590,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-07-18T17:26:55Z",
+        "last_fetched": "2026-07-18T18:13:37Z",
         "clones_total": 16275,
         "clones_unique_total": 3628,
         "views_total": 3333,
@@ -6205,24 +6205,32 @@
           },
           {
             "date": "2026-07-18",
-            "cumulative_total": 1992,
-            "downloads_total": 18,
+            "cumulative_total": 1993,
+            "downloads_total": 19,
             "cumulative_windows": 466,
             "downloads_windows": 8,
             "cumulative_macos": 1429,
             "downloads_macos": 10,
-            "cumulative_linux": 97,
-            "downloads_linux": 0
+            "cumulative_linux": 98,
+            "downloads_linux": 1
           }
         ],
         "metadata": {
-          "last_fetched": "2026-07-18T17:26:55Z",
-          "cumulative_total": 1992,
+          "last_fetched": "2026-07-18T18:13:37Z",
+          "cumulative_total": 1993,
           "cumulative_windows": 466,
           "cumulative_macos": 1429,
-          "cumulative_linux": 97
+          "cumulative_linux": 98
         },
         "by_release": [
+          {
+            "tag": "v3.13.12-beta.2",
+            "downloads": 0,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "published_at": "2026-07-18T18:03:58Z"
+          },
           {
             "tag": "v3.13.12-beta.1",
             "downloads": 2,
@@ -6246,14 +6254,6 @@
             "macos": 2,
             "linux": 0,
             "published_at": "2026-07-18T06:30:14Z"
-          },
-          {
-            "tag": "feature/126-chartread-engine",
-            "downloads": 0,
-            "windows": 0,
-            "macos": 0,
-            "linux": 0,
-            "published_at": "2026-07-18T12:44:38Z"
           },
           {
             "tag": "v3.13.9",
@@ -9153,10 +9153,10 @@
           },
           {
             "tag": "v3.7.11",
-            "downloads": 11,
+            "downloads": 12,
             "windows": 3,
             "macos": 7,
-            "linux": 1,
+            "linux": 2,
             "published_at": "2026-05-21T06:17:13Z"
           },
           {
@@ -10211,7 +10211,7 @@
             "x86_64": 287
           },
           "linux": {
-            "arm64": 38,
+            "arm64": 39,
             "x86_64": 59
           }
         },
@@ -18819,6 +18819,27 @@
             "launch": [
               {
                 "time": "2026-07-18T14:12:04Z",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
+              }
+            ]
+          },
+          "v3.13.12-beta.2": {
+            "published_at": "2026-07-18T18:03:58Z",
+            "snapshots": [
+              {
+                "date": "2026-07-18",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
+              }
+            ],
+            "launch": [
+              {
+                "time": "2026-07-18T18:13:37Z",
                 "downloads": 0,
                 "windows": 0,
                 "macos": 0,
