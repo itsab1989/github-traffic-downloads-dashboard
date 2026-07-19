@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-07-19T19:37:50.083272Z
+**Last Updated:** 2026-07-19T20:34:47.300521Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -92,7 +92,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-2022-212121) ![clones](https://img.shields.io/badge/clones-16423-2196F3) ![views](https://img.shields.io/badge/views-3394-4CAF50) ![releases](https://img.shields.io/badge/releases-515-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-2024-212121) ![clones](https://img.shields.io/badge/clones-16423-2196F3) ![views](https://img.shields.io/badge/views-3394-4CAF50) ![releases](https://img.shields.io/badge/releases-515-6f42c1)
 
 *Tracking since **2026-05-02** (78 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~78 days have been tracked so far.*
 
@@ -102,7 +102,7 @@ Quick navigation to repository statistics:
 |--------|-----------|-----------|--------|
 | Clones | 846 | 651 | ▲ +30.0% |
 | Views | 227 | 404 | ▼ -43.8% |
-| Downloads | 115 | 146 | ▼ -21.2% |
+| Downloads | 117 | 146 | ▼ -19.9% |
 
 ### 🗅️ Clones
 
@@ -144,7 +144,7 @@ Quick navigation to repository statistics:
 |--------|-------|--------------------------|
 | 👀 Unique visitors | 310 | — |
 | 🗅️ Unique cloners | 1265 | 408.1% |
-| 📥 Downloads | 614 | 198.1% |
+| 📥 Downloads | 616 | 198.7% |
 
 ### 📞 Referrers
 
@@ -185,19 +185,19 @@ Quick navigation to repository statistics:
 
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
-| 🪟 Windows | 206 | 384 | 474 |
-| 🍎 macOS | 361 | 969 | 1448 |
+| 🪟 Windows | 207 | 385 | 475 |
+| 🍎 macOS | 362 | 970 | 1449 |
 | 🐧 Linux | 47 | 69 | 100 |
-| **All** | **614** | **1422** | **2022** |
+| **All** | **616** | **1424** | **2024** |
 
-🆕 **Latest Release:** `v3.13.12-beta.20` - **1** download (published 2026-07-19)
+🆕 **Latest Release:** `v3.13.12-beta.20` - **2** downloads (published 2026-07-19)
 
 <details>
 <summary><strong>📦 Per-version downloads</strong> (515 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
-| v3.13.12-beta.20 | 0 | 1 | 0 | **1** |
+| v3.13.12-beta.20 | 1 | 1 | 0 | **2** |
 | v3.13.12-beta.19 | 2 | 2 | 0 | **4** |
 | v3.13.12-beta.18 | 0 | 1 | 0 | **1** |
 | v3.13.12-beta.17 | 0 | 0 | 0 | **0** |
@@ -217,7 +217,7 @@ Quick navigation to repository statistics:
 | v3.13.12-beta.3 | 0 | 1 | 0 | **1** |
 | v3.13.12-beta.2 | 0 | 1 | 0 | **1** |
 | v3.13.12-beta.1 | 1 | 1 | 0 | **2** |
-| v3.13.11 | 2 | 8 | 0 | **10** |
+| v3.13.11 | 2 | 9 | 0 | **11** |
 | v3.13.10 | 1 | 2 | 0 | **3** |
 | v3.13.9 | 6 | 4 | 2 | **12** |
 | v3.13.8 | 1 | 5 | 0 | **6** |
@@ -721,8 +721,8 @@ Quick navigation to repository statistics:
 
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
-| 🪟 Windows | 65 | 409 | 0 | **474** |
-| 🍎 macOS | 877 | 289 | 282 | **1448** |
+| 🪟 Windows | 65 | 410 | 0 | **475** |
+| 🍎 macOS | 878 | 289 | 282 | **1449** |
 | 🐧 Linux | 40 | 60 | 0 | **100** |
 
 *💡 Low-volume builds (<2% of lifetime downloads), candidates to stop shipping: 🐧 Linux arm64 (40, 2.0%).*
@@ -748,7 +748,7 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
-| v3.13.12-beta.20 | 2026-07-19 | 1d | 0 | 1 | 0 | **1** |
+| v3.13.12-beta.20 | 2026-07-19 | 1d | 1 | 1 | 0 | **2** |
 | v3.13.12-beta.19 | 2026-07-19 | 1d | 2 | 2 | 0 | **4** |
 | v3.13.12-beta.18 | 2026-07-19 | 1d | 0 | 1 | 0 | **1** |
 | v3.13.12-beta.17 | 2026-07-19 | 1d | 0 | 0 | 0 | **0** |
@@ -769,7 +769,7 @@ Quick navigation to repository statistics:
 | v3.13.12-beta.2 | 2026-07-18 | 2d | 0 | 1 | 0 | **1** |
 | v3.13.12-beta.1 | 2026-07-18 | 2d | 1 | 1 | 0 | **2** |
 | feature/126-chartread-engine | 2026-07-18 | 1d | 0 | 0 | 0 | **0** |
-| v3.13.11 | 2026-07-18 | 2d | 2 | 8 | 0 | **10** |
+| v3.13.11 | 2026-07-18 | 2d | 2 | 9 | 0 | **11** |
 | v3.13.10 | 2026-07-18 | 2d | 1 | 2 | 0 | **3** |
 | v3.13.9 | 2026-07-17 | 3d | 6 | 4 | 2 | **12** |
 | v3.13.8 | 2026-07-17 | 3d | 1 | 5 | 0 | **6** |
