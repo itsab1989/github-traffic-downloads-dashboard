@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-07-22T03:53:00.503596Z
+**Last Updated:** 2026-07-22T06:18:20.371375Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -92,17 +92,17 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-2100-212121) ![clones](https://img.shields.io/badge/clones-16899-2196F3) ![views](https://img.shields.io/badge/views-3605-4CAF50) ![releases](https://img.shields.io/badge/releases-535-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-2101-212121) ![clones](https://img.shields.io/badge/clones-16997-2196F3) ![views](https://img.shields.io/badge/views-3673-4CAF50) ![releases](https://img.shields.io/badge/releases-535-6f42c1)
 
-*Tracking since **2026-05-02** (80 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~80 days have been tracked so far.*
+*Tracking since **2026-05-02** (81 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~81 days have been tracked so far.*
 
 **This week vs last week:**
 
 | Metric | This week | Last week | Change |
 |--------|-----------|-----------|--------|
-| Clones | 794 | 743 | ▲ +6.9% |
-| Views | 343 | 306 | ▲ +12.1% |
-| Downloads | 150 | 109 | ▲ +37.6% |
+| Clones | 892 | 743 | ▲ +20.1% |
+| Views | 411 | 306 | ▲ +34.3% |
+| Downloads | 151 | 109 | ▲ +38.5% |
 
 ### 🗅️ Clones
 
@@ -110,9 +110,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 5224 | 1141 |
-| Last 90 Days | 16899 | 3749 |
-| Lifetime | 16899 | 3749 |
+| Last 30 Days | 5322 | 1151 |
+| Last 90 Days | 16997 | 3759 |
+| Lifetime | 16997 | 3759 |
 
 ### 📄 Repeat vs New Clones
 
@@ -122,9 +122,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
 |--------|--------------|----------------|----------------|----------|
-| Last 30 Days | 5224 | 1141 | 4083 | 78.2% |
-| Last 90 Days | 16899 | 3749 | 13150 | 77.8% |
-| Lifetime | 16899 | 3749 | 13150 | 77.8% |
+| Last 30 Days | 5322 | 1151 | 4171 | 78.4% |
+| Last 90 Days | 16997 | 3759 | 13238 | 77.9% |
+| Lifetime | 16997 | 3759 | 13238 | 77.9% |
 
 ### 👀 Views
 
@@ -132,9 +132,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 1771 | 307 |
-| Last 90 Days | 3605 | 894 |
-| Lifetime | 3605 | 894 |
+| Last 30 Days | 1839 | 318 |
+| Last 90 Days | 3673 | 905 |
+| Lifetime | 3673 | 905 |
 
 ### 🎯 Engagement Ratios
 
@@ -142,9 +142,9 @@ Quick navigation to repository statistics:
 
 | Action | Count | Ratio to unique visitors |
 |--------|-------|--------------------------|
-| 👀 Unique visitors | 307 | — |
-| 🗅️ Unique cloners | 1141 | 371.7% |
-| 📥 Downloads | 645 | 210.1% |
+| 👀 Unique visitors | 318 | — |
+| 🗅️ Unique cloners | 1151 | 361.9% |
+| 📥 Downloads | 646 | 203.1% |
 
 ### 📞 Referrers
 
@@ -154,16 +154,16 @@ Quick navigation to repository statistics:
 
 | Referrer | Total Views | Unique Visitors |
 |----------|-------------|----------------|
-| Google | 50 | 22 |
-| printerknowledge.com | 26 | 11 |
-| forum.luminous-landscape.com | 14 | 2 |
-| github.com | 11 | 5 |
+| Google | 52 | 23 |
+| printerknowledge.com | 25 | 10 |
+| forum.luminous-landscape.com | 16 | 1 |
 | Bing | 11 | 2 |
-| dpreview.com | 6 | 6 |
+| github.com | 10 | 4 |
+| dpreview.com | 7 | 7 |
 | hub.displaycal.net | 5 | 3 |
-| yandex.ru | 2 | 2 |
 | qianwen.com | 2 | 1 |
 | DuckDuckGo | 1 | 1 |
+| chatgpt.com | 1 | 1 |
 
 ### 👥 Repeat vs New Visitors
 
@@ -173,9 +173,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Views | Unique Visitors | Repeat Visitors | Repeat % |
 |--------|-------------|-----------------|-----------------|----------|
-| Last 30 Days | 1771 | 307 | 1464 | 82.7% |
-| Last 90 Days | 3605 | 894 | 2711 | 75.2% |
-| Lifetime | 3605 | 894 | 2711 | 75.2% |
+| Last 30 Days | 1839 | 318 | 1521 | 82.7% |
+| Last 90 Days | 3673 | 905 | 2768 | 75.4% |
+| Lifetime | 3673 | 905 | 2768 | 75.4% |
 
 ### 📥 Release Downloads
 
@@ -187,17 +187,17 @@ Quick navigation to repository statistics:
 |----------|-----------|-----------|----------|
 | 🪟 Windows | 212 | 413 | 503 |
 | 🍎 macOS | 379 | 1011 | 1490 |
-| 🐧 Linux | 54 | 76 | 107 |
-| **All** | **645** | **1500** | **2100** |
+| 🐧 Linux | 55 | 77 | 108 |
+| **All** | **646** | **1501** | **2101** |
 
-🆕 **Latest Release:** `v3.14.4` - **1** download (published 2026-07-22)
+🆕 **Latest Release:** `v3.14.4` - **2** downloads (published 2026-07-22)
 
 <details>
 <summary><strong>📦 Per-version downloads</strong> (535 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
-| v3.14.4 | 0 | 1 | 0 | **1** |
+| v3.14.4 | 0 | 1 | 1 | **2** |
 | v3.14.3 | 6 | 9 | 3 | **18** |
 | v3.14.2 | 3 | 2 | 0 | **5** |
 | v3.14.1 | 1 | 2 | 0 | **3** |
@@ -743,7 +743,7 @@ Quick navigation to repository statistics:
 |----------|-------|-------|-------|-------|
 | 🪟 Windows | 68 | 435 | 0 | **503** |
 | 🍎 macOS | 907 | 298 | 285 | **1490** |
-| 🐧 Linux | 43 | 64 | 0 | **107** |
+| 🐧 Linux | 44 | 64 | 0 | **108** |
 
 **Top 10 Releases by Downloads (lifetime):**
 
@@ -766,7 +766,7 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
-| v3.14.4 | 2026-07-22 | 1d | 0 | 1 | 0 | **1** |
+| v3.14.4 | 2026-07-22 | 1d | 0 | 1 | 1 | **2** |
 | v3.14.3 | 2026-07-21 | 2d | 6 | 9 | 3 | **18** |
 | v3.14.2 | 2026-07-21 | 2d | 3 | 2 | 0 | **5** |
 | v3.14.1 | 2026-07-21 | 2d | 1 | 2 | 0 | **3** |
@@ -914,7 +914,7 @@ Quick navigation to repository statistics:
 | Referrer | Total Views | Unique Visitors |
 |----------|-------------|----------------|
 | github.com | 6 | 2 |
-| printerknowledge.com | 2 | 1 |
+| printerknowledge.com | 1 | 1 |
 
 ### 👥 Repeat vs New Visitors
 
