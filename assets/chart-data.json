@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T20:47:22.566269Z",
+  "generated_at": "2026-07-23T21:51:43.060877Z",
   "repositories": [
     {
       "name": "itsab1989/ChromIQ",
@@ -562,7 +562,7 @@
             28,
             41,
             22,
-            22
+            23
           ],
           "windows": [
             4,
@@ -789,7 +789,7 @@
             2055,
             2096,
             2118,
-            2140
+            2141
           ],
           "windows": [
             90,
@@ -1001,6 +1001,10 @@
           {
             "date": "2026-07-23",
             "tag": "v3.14.8-beta.1"
+          },
+          {
+            "date": "2026-07-23",
+            "tag": "test-data-130"
           },
           {
             "date": "2026-07-22",
@@ -3157,6 +3161,15 @@
         ],
         "reception": [
           {
+            "tag": "test-data-130",
+            "published": "2026-07-23",
+            "age_days": 1,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "total": 1
+          },
+          {
             "tag": "v3.14.8-beta.5",
             "published": "2026-07-23",
             "age_days": 1,
@@ -3281,18 +3294,22 @@
             "macos": 3,
             "linux": 0,
             "total": 5
-          },
-          {
-            "tag": "v3.13.12-beta.34",
-            "published": "2026-07-21",
-            "age_days": 3,
-            "windows": 0,
-            "macos": 0,
-            "linux": 0,
-            "total": 0
           }
         ],
         "launch_curves": [
+          {
+            "tag": "test-data-130",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 0.63,
+                "downloads": 1
+              }
+            ]
+          },
           {
             "tag": "v3.14.8-beta.5",
             "points": [
@@ -3359,43 +3376,6 @@
               {
                 "h": 17.67,
                 "downloads": 2
-              }
-            ]
-          },
-          {
-            "tag": "v3.14.7",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 1.15,
-                "downloads": 0
-              },
-              {
-                "h": 2.26,
-                "downloads": 1
-              },
-              {
-                "h": 6.18,
-                "downloads": 2
-              },
-              {
-                "h": 12.11,
-                "downloads": 4
-              },
-              {
-                "h": 17.12,
-                "downloads": 7
-              },
-              {
-                "h": 19.11,
-                "downloads": 8
-              },
-              {
-                "h": 22.88,
-                "downloads": 9
               }
             ]
           }
