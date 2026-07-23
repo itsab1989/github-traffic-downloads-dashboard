@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-07-23T22:42:54.295305Z
+**Last Updated:** 2026-07-23T23:45:09.936159Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -92,7 +92,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-2141-212121) ![clones](https://img.shields.io/badge/clones-17079-2196F3) ![views](https://img.shields.io/badge/views-3743-4CAF50) ![releases](https://img.shields.io/badge/releases-544-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-2141-212121) ![clones](https://img.shields.io/badge/clones-17079-2196F3) ![views](https://img.shields.io/badge/views-3743-4CAF50) ![releases](https://img.shields.io/badge/releases-545-6f42c1)
 
 *Tracking since **2026-05-02** (82 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~82 days have been tracked so far.*
 
@@ -192,13 +192,14 @@ Quick navigation to repository statistics:
 
 *ℹ️ 1 lifetime download are counted in **All** but matched no platform (the asset filename didn't match the Windows/macOS/Linux patterns).*
 
-🆕 **Latest Release:** `test-data-130` - **1** download (published 2026-07-23)
+🆕 **Latest Release:** `v3.14.8-beta.6` - **0** downloads (published 2026-07-23)
 
 <details>
-<summary><strong>📦 Per-version downloads</strong> (544 releases - click to expand)</summary>
+<summary><strong>📦 Per-version downloads</strong> (545 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
+| v3.14.8-beta.6 | 0 | 0 | 0 | **0** |
 | test-data-130 | 0 | 0 | 0 | **1** |
 | v3.14.8-beta.5 | 0 | 0 | 0 | **0** |
 | v3.14.8-beta.4 | 0 | 0 | 0 | **0** |
@@ -777,6 +778,7 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
+| v3.14.8-beta.6 | 2026-07-23 | 1d | 0 | 0 | 0 | **0** |
 | test-data-130 | 2026-07-23 | 1d | 0 | 0 | 0 | **1** |
 | v3.14.8-beta.5 | 2026-07-23 | 1d | 0 | 0 | 0 | **0** |
 | v3.14.8-beta.4 | 2026-07-23 | 1d | 0 | 0 | 0 | **0** |
