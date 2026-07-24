@@ -1,22 +1,2917 @@
 {
   "metadata": {
-    "generated_at": "2026-07-23T23:45:09Z",
-    "last_updated": "2026-07-23T23:45:09.936159Z",
+    "generated_at": "2026-07-24T01:16:07Z",
+    "last_updated": "2026-07-24T01:16:07.883276Z",
     "repositories": [
       "itsab1989/ChromIQ",
       "itsab1989/ChromIQ-Patches"
     ]
   },
   "repositories": {
-    "itsab1989/ChromIQ": {
+    "itsab1989/ChromIQ-Patches": {
       "daily_data": [
         {
-          "date": "2025-07-23",
+          "date": "2025-07-24",
           "clones_total": 0,
           "clones_unique": 0,
           "views_total": 0,
           "views_unique": 0
         },
+        {
+          "date": "2025-07-25",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-07-26",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-07-27",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-07-28",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-07-29",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-07-30",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-07-31",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-08-01",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-08-02",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-08-03",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-08-04",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-08-05",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-08-06",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-08-07",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-08-08",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-08-09",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-08-10",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-08-11",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-08-12",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-08-13",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-08-14",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-08-15",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-08-16",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-08-17",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-08-18",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-08-19",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-08-20",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-08-21",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-08-22",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-08-23",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-08-24",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-08-25",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-08-26",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-08-27",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-08-28",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-08-29",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-08-30",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-08-31",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-09-01",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-09-02",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-09-03",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-09-04",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-09-05",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-09-06",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-09-07",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-09-08",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-09-09",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-09-10",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-09-11",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-09-12",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-09-13",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-09-14",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-09-15",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-09-16",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-09-17",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-09-18",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-09-19",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-09-20",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-09-21",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-09-22",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-09-23",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-09-24",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-09-25",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-09-26",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-09-27",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-09-28",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-09-29",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-09-30",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-10-01",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-10-02",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-10-03",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-10-04",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-10-05",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-10-06",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-10-07",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-10-08",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-10-09",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-10-10",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-10-11",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-10-12",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-10-13",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-10-14",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-10-15",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-10-16",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-10-17",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-10-18",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-10-19",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-10-20",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-10-21",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-10-22",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-10-23",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-10-24",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-10-25",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-10-26",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-10-27",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-10-28",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-10-29",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-10-30",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-10-31",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-11-01",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-11-02",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-11-03",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-11-04",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-11-05",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-11-06",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-11-07",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-11-08",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-11-09",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-11-10",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-11-11",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-11-12",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-11-13",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-11-14",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-11-15",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-11-16",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-11-17",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-11-18",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-11-19",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-11-20",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-11-21",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-11-22",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-11-23",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-11-24",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-11-25",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-11-26",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-11-27",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-11-28",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-11-29",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-11-30",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-12-01",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-12-02",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-12-03",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-12-04",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-12-05",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-12-06",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-12-07",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-12-08",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-12-09",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-12-10",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-12-11",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-12-12",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-12-13",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-12-14",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-12-15",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-12-16",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-12-17",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-12-18",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-12-19",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-12-20",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-12-21",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-12-22",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-12-23",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-12-24",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-12-25",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-12-26",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-12-27",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-12-28",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-12-29",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-12-30",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2025-12-31",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-01-01",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-01-02",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-01-03",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-01-04",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-01-05",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-01-06",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-01-07",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-01-08",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-01-09",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-01-10",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-01-11",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-01-12",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-01-13",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-01-14",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-01-15",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-01-16",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-01-17",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-01-18",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-01-19",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-01-20",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-01-21",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-01-22",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-01-23",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-01-24",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-01-25",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-01-26",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-01-27",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-01-28",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-01-29",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-01-30",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-01-31",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-02-01",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-02-02",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-02-03",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-02-04",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-02-05",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-02-06",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-02-07",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-02-08",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-02-09",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-02-10",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-02-11",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-02-12",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-02-13",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-02-14",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-02-15",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-02-16",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-02-17",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-02-18",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-02-19",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-02-20",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-02-21",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-02-22",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-02-23",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-02-24",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-02-25",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-02-26",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-02-27",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-02-28",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-03-01",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-03-02",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-03-03",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-03-04",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-03-05",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-03-06",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-03-07",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-03-08",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-03-09",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-03-10",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-03-11",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-03-12",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-03-13",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-03-14",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-03-15",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-03-16",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-03-17",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-03-18",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-03-19",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-03-20",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-03-21",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-03-22",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-03-23",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-03-24",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-03-25",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-03-26",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-03-27",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-03-28",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-03-29",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-03-30",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-03-31",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-04-01",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-04-02",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-04-03",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-04-04",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-04-05",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-04-06",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-04-07",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-04-08",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-04-09",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-04-10",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-04-11",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-04-12",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-04-13",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-04-14",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-04-15",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-04-16",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-04-17",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-04-18",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-04-19",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-04-20",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-04-21",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-04-22",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-04-23",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-04-24",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-04-25",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-04-26",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-04-27",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-04-28",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-04-29",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-04-30",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-05-01",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-05-02",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-05-03",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-05-04",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-05-05",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-05-06",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-05-07",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-05-08",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-05-09",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-05-10",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-05-11",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-05-12",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-05-13",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-05-14",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-05-15",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-05-16",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-05-17",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-05-18",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-05-19",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-05-20",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-05-21",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-05-22",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-05-23",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-05-24",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-05-25",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-05-26",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-05-27",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-05-28",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-05-29",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-05-30",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-05-31",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-06-01",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-06-02",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-06-03",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-06-04",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-06-05",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-06-06",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-06-07",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-06-08",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-06-09",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-06-10",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-06-11",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-06-12",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-06-13",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-06-14",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-06-15",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-06-16",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-06-17",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-06-18",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-06-19",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-06-20",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-06-21",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-06-22",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-06-23",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-06-24",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-06-25",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-06-26",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-06-27",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-06-28",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-06-29",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-06-30",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-07-01",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-07-02",
+          "clones_total": 205,
+          "clones_unique": 81,
+          "views_total": 12,
+          "views_unique": 9
+        },
+        {
+          "date": "2026-07-03",
+          "clones_total": 57,
+          "clones_unique": 28,
+          "views_total": 11,
+          "views_unique": 3
+        },
+        {
+          "date": "2026-07-04",
+          "clones_total": 2,
+          "clones_unique": 2,
+          "views_total": 20,
+          "views_unique": 4
+        },
+        {
+          "date": "2026-07-05",
+          "clones_total": 1,
+          "clones_unique": 1,
+          "views_total": 17,
+          "views_unique": 4
+        },
+        {
+          "date": "2026-07-06",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 4,
+          "views_unique": 2
+        },
+        {
+          "date": "2026-07-07",
+          "clones_total": 24,
+          "clones_unique": 12,
+          "views_total": 1,
+          "views_unique": 1
+        },
+        {
+          "date": "2026-07-08",
+          "clones_total": 6,
+          "clones_unique": 5,
+          "views_total": 4,
+          "views_unique": 2
+        },
+        {
+          "date": "2026-07-09",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-07-10",
+          "clones_total": 1,
+          "clones_unique": 1,
+          "views_total": 4,
+          "views_unique": 2
+        },
+        {
+          "date": "2026-07-11",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-07-12",
+          "clones_total": 3,
+          "clones_unique": 3,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-07-13",
+          "clones_total": 11,
+          "clones_unique": 6,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-07-14",
+          "clones_total": 2,
+          "clones_unique": 2,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-07-15",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-07-16",
+          "clones_total": 1,
+          "clones_unique": 1,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-07-17",
+          "clones_total": 1,
+          "clones_unique": 1,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-07-18",
+          "clones_total": 1,
+          "clones_unique": 1,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-07-19",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-07-20",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 1,
+          "views_unique": 1
+        },
+        {
+          "date": "2026-07-21",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-07-22",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 2,
+          "views_unique": 1
+        },
+        {
+          "date": "2026-07-23",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-07-24",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
+        }
+      ],
+      "referrers": [
+        {
+          "referrer": "github.com",
+          "count": 5,
+          "uniques": 3
+        }
+      ],
+      "metadata": {
+        "last_fetched": "2026-07-24T01:16:07Z",
+        "clones_total": 315,
+        "clones_unique_total": 144,
+        "views_total": 76,
+        "views_unique_total": 29
+      },
+      "downloads": {
+        "daily_data": [
+          {
+            "date": "2026-07-02",
+            "cumulative_total": 9,
+            "downloads_total": 0,
+            "cumulative_windows": 4,
+            "downloads_windows": 0,
+            "cumulative_macos": 5,
+            "downloads_macos": 0,
+            "cumulative_linux": 0,
+            "downloads_linux": 0
+          },
+          {
+            "date": "2026-07-03",
+            "cumulative_total": 18,
+            "downloads_total": 9,
+            "cumulative_windows": 7,
+            "downloads_windows": 3,
+            "cumulative_macos": 9,
+            "downloads_macos": 4,
+            "cumulative_linux": 2,
+            "downloads_linux": 2
+          },
+          {
+            "date": "2026-07-04",
+            "cumulative_total": 20,
+            "downloads_total": 2,
+            "cumulative_windows": 8,
+            "downloads_windows": 1,
+            "cumulative_macos": 10,
+            "downloads_macos": 1,
+            "cumulative_linux": 2,
+            "downloads_linux": 0
+          },
+          {
+            "date": "2026-07-05",
+            "cumulative_total": 21,
+            "downloads_total": 1,
+            "cumulative_windows": 8,
+            "downloads_windows": 0,
+            "cumulative_macos": 11,
+            "downloads_macos": 1,
+            "cumulative_linux": 2,
+            "downloads_linux": 0
+          },
+          {
+            "date": "2026-07-06",
+            "cumulative_total": 22,
+            "downloads_total": 1,
+            "cumulative_windows": 8,
+            "downloads_windows": 0,
+            "cumulative_macos": 12,
+            "downloads_macos": 1,
+            "cumulative_linux": 2,
+            "downloads_linux": 0
+          },
+          {
+            "date": "2026-07-07",
+            "cumulative_total": 23,
+            "downloads_total": 1,
+            "cumulative_windows": 9,
+            "downloads_windows": 1,
+            "cumulative_macos": 12,
+            "downloads_macos": 0,
+            "cumulative_linux": 2,
+            "downloads_linux": 0
+          },
+          {
+            "date": "2026-07-08",
+            "cumulative_total": 25,
+            "downloads_total": 2,
+            "cumulative_windows": 9,
+            "downloads_windows": 0,
+            "cumulative_macos": 14,
+            "downloads_macos": 2,
+            "cumulative_linux": 2,
+            "downloads_linux": 0
+          },
+          {
+            "date": "2026-07-09",
+            "cumulative_total": 26,
+            "downloads_total": 1,
+            "cumulative_windows": 9,
+            "downloads_windows": 0,
+            "cumulative_macos": 15,
+            "downloads_macos": 1,
+            "cumulative_linux": 2,
+            "downloads_linux": 0
+          },
+          {
+            "date": "2026-07-10",
+            "cumulative_total": 27,
+            "downloads_total": 1,
+            "cumulative_windows": 9,
+            "downloads_windows": 0,
+            "cumulative_macos": 16,
+            "downloads_macos": 1,
+            "cumulative_linux": 2,
+            "downloads_linux": 0
+          },
+          {
+            "date": "2026-07-11",
+            "cumulative_total": 30,
+            "downloads_total": 3,
+            "cumulative_windows": 10,
+            "downloads_windows": 1,
+            "cumulative_macos": 17,
+            "downloads_macos": 1,
+            "cumulative_linux": 3,
+            "downloads_linux": 1
+          },
+          {
+            "date": "2026-07-12",
+            "cumulative_total": 30,
+            "downloads_total": 0,
+            "cumulative_windows": 10,
+            "downloads_windows": 0,
+            "cumulative_macos": 17,
+            "downloads_macos": 0,
+            "cumulative_linux": 3,
+            "downloads_linux": 0
+          },
+          {
+            "date": "2026-07-13",
+            "cumulative_total": 30,
+            "downloads_total": 0,
+            "cumulative_windows": 10,
+            "downloads_windows": 0,
+            "cumulative_macos": 17,
+            "downloads_macos": 0,
+            "cumulative_linux": 3,
+            "downloads_linux": 0
+          },
+          {
+            "date": "2026-07-14",
+            "cumulative_total": 30,
+            "downloads_total": 0,
+            "cumulative_windows": 10,
+            "downloads_windows": 0,
+            "cumulative_macos": 17,
+            "downloads_macos": 0,
+            "cumulative_linux": 3,
+            "downloads_linux": 0
+          },
+          {
+            "date": "2026-07-15",
+            "cumulative_total": 30,
+            "downloads_total": 0,
+            "cumulative_windows": 10,
+            "downloads_windows": 0,
+            "cumulative_macos": 17,
+            "downloads_macos": 0,
+            "cumulative_linux": 3,
+            "downloads_linux": 0
+          },
+          {
+            "date": "2026-07-16",
+            "cumulative_total": 30,
+            "downloads_total": 0,
+            "cumulative_windows": 10,
+            "downloads_windows": 0,
+            "cumulative_macos": 17,
+            "downloads_macos": 0,
+            "cumulative_linux": 3,
+            "downloads_linux": 0
+          },
+          {
+            "date": "2026-07-17",
+            "cumulative_total": 30,
+            "downloads_total": 0,
+            "cumulative_windows": 10,
+            "downloads_windows": 0,
+            "cumulative_macos": 17,
+            "downloads_macos": 0,
+            "cumulative_linux": 3,
+            "downloads_linux": 0
+          },
+          {
+            "date": "2026-07-18",
+            "cumulative_total": 31,
+            "downloads_total": 1,
+            "cumulative_windows": 10,
+            "downloads_windows": 0,
+            "cumulative_macos": 18,
+            "downloads_macos": 1,
+            "cumulative_linux": 3,
+            "downloads_linux": 0
+          },
+          {
+            "date": "2026-07-19",
+            "cumulative_total": 31,
+            "downloads_total": 0,
+            "cumulative_windows": 10,
+            "downloads_windows": 0,
+            "cumulative_macos": 18,
+            "downloads_macos": 0,
+            "cumulative_linux": 3,
+            "downloads_linux": 0
+          },
+          {
+            "date": "2026-07-20",
+            "cumulative_total": 31,
+            "downloads_total": 0,
+            "cumulative_windows": 10,
+            "downloads_windows": 0,
+            "cumulative_macos": 18,
+            "downloads_macos": 0,
+            "cumulative_linux": 3,
+            "downloads_linux": 0
+          },
+          {
+            "date": "2026-07-21",
+            "cumulative_total": 31,
+            "downloads_total": 0,
+            "cumulative_windows": 10,
+            "downloads_windows": 0,
+            "cumulative_macos": 18,
+            "downloads_macos": 0,
+            "cumulative_linux": 3,
+            "downloads_linux": 0
+          },
+          {
+            "date": "2026-07-22",
+            "cumulative_total": 32,
+            "downloads_total": 1,
+            "cumulative_windows": 11,
+            "downloads_windows": 1,
+            "cumulative_macos": 18,
+            "downloads_macos": 0,
+            "cumulative_linux": 3,
+            "downloads_linux": 0
+          },
+          {
+            "date": "2026-07-23",
+            "cumulative_total": 32,
+            "downloads_total": 0,
+            "cumulative_windows": 11,
+            "downloads_windows": 0,
+            "cumulative_macos": 18,
+            "downloads_macos": 0,
+            "cumulative_linux": 3,
+            "downloads_linux": 0
+          },
+          {
+            "date": "2026-07-24",
+            "cumulative_total": 32,
+            "downloads_total": 0,
+            "cumulative_windows": 11,
+            "downloads_windows": 0,
+            "cumulative_macos": 18,
+            "downloads_macos": 0,
+            "cumulative_linux": 3,
+            "downloads_linux": 0
+          }
+        ],
+        "metadata": {
+          "last_fetched": "2026-07-24T01:16:07Z",
+          "cumulative_total": 32,
+          "cumulative_windows": 11,
+          "cumulative_macos": 18,
+          "cumulative_linux": 3
+        },
+        "by_release": [
+          {
+            "tag": "v1.2.1",
+            "downloads": 9,
+            "windows": 2,
+            "macos": 6,
+            "linux": 1,
+            "published_at": "2026-07-07T22:42:20Z"
+          },
+          {
+            "tag": "v1.2.0",
+            "downloads": 14,
+            "windows": 5,
+            "macos": 7,
+            "linux": 2,
+            "published_at": "2026-07-03T02:47:11Z"
+          },
+          {
+            "tag": "v1.1.0",
+            "downloads": 1,
+            "windows": 0,
+            "macos": 1,
+            "linux": 0,
+            "published_at": "2026-07-02T21:38:24Z"
+          },
+          {
+            "tag": "v1.0.1",
+            "downloads": 4,
+            "windows": 1,
+            "macos": 3,
+            "linux": 0,
+            "published_at": "2026-07-02T11:46:50Z"
+          },
+          {
+            "tag": "v1.0.0",
+            "downloads": 4,
+            "windows": 3,
+            "macos": 1,
+            "linux": 0,
+            "published_at": "2026-07-02T10:03:27Z"
+          }
+        ],
+        "by_arch": {
+          "windows": {
+            "arm64": 0,
+            "x86_64": 11
+          },
+          "macos": {
+            "arm64": 15,
+            "universal": 2,
+            "x86_64": 1
+          },
+          "linux": {
+            "arm64": 0,
+            "x86_64": 3
+          }
+        },
+        "by_release_daily": {}
+      }
+    },
+    "itsab1989/ChromIQ": {
+      "daily_data": [
         {
           "date": "2025-07-24",
           "clones_total": 0,
@@ -2571,6 +5466,13 @@
           "clones_unique": 0,
           "views_total": 0,
           "views_unique": 0
+        },
+        {
+          "date": "2026-07-24",
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
         }
       ],
       "referrers": [
@@ -2626,7 +5528,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-07-23T23:45:09Z",
+        "last_fetched": "2026-07-24T01:16:07Z",
         "clones_total": 17079,
         "clones_unique_total": 3778,
         "views_total": 3743,
@@ -3304,21 +6206,48 @@
             "downloads_macos": 12,
             "cumulative_linux": 110,
             "downloads_linux": 2
+          },
+          {
+            "date": "2026-07-24",
+            "cumulative_total": 2142,
+            "downloads_total": 1,
+            "cumulative_windows": 521,
+            "downloads_windows": 0,
+            "cumulative_macos": 1510,
+            "downloads_macos": 1,
+            "cumulative_linux": 110,
+            "downloads_linux": 0
           }
         ],
         "metadata": {
-          "last_fetched": "2026-07-23T23:45:09Z",
-          "cumulative_total": 2141,
+          "last_fetched": "2026-07-24T01:16:07Z",
+          "cumulative_total": 2142,
           "cumulative_windows": 521,
-          "cumulative_macos": 1509,
+          "cumulative_macos": 1510,
           "cumulative_linux": 110
         },
         "by_release": [
           {
-            "tag": "v3.14.8-beta.6",
+            "tag": "v3.14.8-beta.8",
             "downloads": 0,
             "windows": 0,
             "macos": 0,
+            "linux": 0,
+            "published_at": "2026-07-24T01:01:50Z"
+          },
+          {
+            "tag": "v3.14.8-beta.7",
+            "downloads": 0,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "published_at": "2026-07-24T00:11:50Z"
+          },
+          {
+            "tag": "v3.14.8-beta.6",
+            "downloads": 1,
+            "windows": 0,
+            "macos": 1,
             "linux": 0,
             "published_at": "2026-07-23T23:11:11Z"
           },
@@ -7681,7 +10610,7 @@
             "x86_64": 450
           },
           "macos": {
-            "arm64": 919,
+            "arm64": 920,
             "universal": 287,
             "x86_64": 303
           },
@@ -7691,286 +10620,6 @@
           }
         },
         "by_release_daily": {
-          "v3.13.2": {
-            "published_at": "2026-07-09T05:29:10Z",
-            "snapshots": [
-              {
-                "date": "2026-07-09",
-                "downloads": 6,
-                "windows": 2,
-                "macos": 3,
-                "linux": 1
-              },
-              {
-                "date": "2026-07-10",
-                "downloads": 6,
-                "windows": 2,
-                "macos": 3,
-                "linux": 1
-              },
-              {
-                "date": "2026-07-11",
-                "downloads": 6,
-                "windows": 2,
-                "macos": 3,
-                "linux": 1
-              },
-              {
-                "date": "2026-07-12",
-                "downloads": 6,
-                "windows": 2,
-                "macos": 3,
-                "linux": 1
-              },
-              {
-                "date": "2026-07-13",
-                "downloads": 6,
-                "windows": 2,
-                "macos": 3,
-                "linux": 1
-              },
-              {
-                "date": "2026-07-14",
-                "downloads": 6,
-                "windows": 2,
-                "macos": 3,
-                "linux": 1
-              },
-              {
-                "date": "2026-07-15",
-                "downloads": 6,
-                "windows": 2,
-                "macos": 3,
-                "linux": 1
-              },
-              {
-                "date": "2026-07-16",
-                "downloads": 6,
-                "windows": 2,
-                "macos": 3,
-                "linux": 1
-              },
-              {
-                "date": "2026-07-17",
-                "downloads": 6,
-                "windows": 2,
-                "macos": 3,
-                "linux": 1
-              },
-              {
-                "date": "2026-07-18",
-                "downloads": 6,
-                "windows": 2,
-                "macos": 3,
-                "linux": 1
-              },
-              {
-                "date": "2026-07-19",
-                "downloads": 6,
-                "windows": 2,
-                "macos": 3,
-                "linux": 1
-              },
-              {
-                "date": "2026-07-20",
-                "downloads": 6,
-                "windows": 2,
-                "macos": 3,
-                "linux": 1
-              },
-              {
-                "date": "2026-07-21",
-                "downloads": 6,
-                "windows": 2,
-                "macos": 3,
-                "linux": 1
-              },
-              {
-                "date": "2026-07-22",
-                "downloads": 6,
-                "windows": 2,
-                "macos": 3,
-                "linux": 1
-              },
-              {
-                "date": "2026-07-23",
-                "downloads": 6,
-                "windows": 2,
-                "macos": 3,
-                "linux": 1
-              }
-            ],
-            "launch": [
-              {
-                "time": "2026-07-09T05:51:14Z",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-09T09:07:54Z",
-                "downloads": 2,
-                "windows": 2,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-09T14:20:29Z",
-                "downloads": 3,
-                "windows": 2,
-                "macos": 0,
-                "linux": 1
-              },
-              {
-                "time": "2026-07-09T16:58:13Z",
-                "downloads": 6,
-                "windows": 2,
-                "macos": 3,
-                "linux": 1
-              }
-            ]
-          },
-          "v3.13.3": {
-            "published_at": "2026-07-09T22:38:58Z",
-            "snapshots": [
-              {
-                "date": "2026-07-09",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-07-10",
-                "downloads": 4,
-                "windows": 3,
-                "macos": 1,
-                "linux": 0
-              },
-              {
-                "date": "2026-07-11",
-                "downloads": 11,
-                "windows": 5,
-                "macos": 4,
-                "linux": 2
-              },
-              {
-                "date": "2026-07-12",
-                "downloads": 11,
-                "windows": 5,
-                "macos": 4,
-                "linux": 2
-              },
-              {
-                "date": "2026-07-13",
-                "downloads": 11,
-                "windows": 5,
-                "macos": 4,
-                "linux": 2
-              },
-              {
-                "date": "2026-07-14",
-                "downloads": 11,
-                "windows": 5,
-                "macos": 4,
-                "linux": 2
-              },
-              {
-                "date": "2026-07-15",
-                "downloads": 11,
-                "windows": 5,
-                "macos": 4,
-                "linux": 2
-              },
-              {
-                "date": "2026-07-16",
-                "downloads": 11,
-                "windows": 5,
-                "macos": 4,
-                "linux": 2
-              },
-              {
-                "date": "2026-07-17",
-                "downloads": 11,
-                "windows": 5,
-                "macos": 4,
-                "linux": 2
-              },
-              {
-                "date": "2026-07-18",
-                "downloads": 11,
-                "windows": 5,
-                "macos": 4,
-                "linux": 2
-              },
-              {
-                "date": "2026-07-19",
-                "downloads": 11,
-                "windows": 5,
-                "macos": 4,
-                "linux": 2
-              },
-              {
-                "date": "2026-07-20",
-                "downloads": 11,
-                "windows": 5,
-                "macos": 4,
-                "linux": 2
-              },
-              {
-                "date": "2026-07-21",
-                "downloads": 11,
-                "windows": 5,
-                "macos": 4,
-                "linux": 2
-              },
-              {
-                "date": "2026-07-22",
-                "downloads": 11,
-                "windows": 5,
-                "macos": 4,
-                "linux": 2
-              },
-              {
-                "date": "2026-07-23",
-                "downloads": 11,
-                "windows": 5,
-                "macos": 4,
-                "linux": 2
-              }
-            ],
-            "launch": [
-              {
-                "time": "2026-07-09T23:01:41Z",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-10T01:04:47Z",
-                "downloads": 1,
-                "windows": 0,
-                "macos": 1,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-10T11:38:36Z",
-                "downloads": 2,
-                "windows": 1,
-                "macos": 1,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-10T19:55:50Z",
-                "downloads": 4,
-                "windows": 3,
-                "macos": 1,
-                "linux": 0
-              }
-            ]
-          },
           "v3.13.4-beta.2": {
             "published_at": "2026-07-10T02:14:25Z",
             "snapshots": [
@@ -8067,6 +10716,13 @@
               },
               {
                 "date": "2026-07-23",
+                "downloads": 2,
+                "windows": 0,
+                "macos": 2,
+                "linux": 0
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 2,
                 "windows": 0,
                 "macos": 2,
@@ -8197,6 +10853,13 @@
                 "windows": 0,
                 "macos": 0,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
               }
             ],
             "launch": [
@@ -8305,6 +10968,13 @@
               },
               {
                 "date": "2026-07-23",
+                "downloads": 2,
+                "windows": 0,
+                "macos": 2,
+                "linux": 0
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 2,
                 "windows": 0,
                 "macos": 2,
@@ -8428,6 +11098,13 @@
                 "windows": 0,
                 "macos": 1,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0
               }
             ],
             "launch": [
@@ -8540,6 +11217,13 @@
                 "windows": 0,
                 "macos": 1,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0
               }
             ],
             "launch": [
@@ -8641,6 +11325,13 @@
               },
               {
                 "date": "2026-07-23",
+                "downloads": 2,
+                "windows": 0,
+                "macos": 2,
+                "linux": 0
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 2,
                 "windows": 0,
                 "macos": 2,
@@ -8764,6 +11455,13 @@
                 "windows": 0,
                 "macos": 1,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0
               }
             ],
             "launch": [
@@ -8876,6 +11574,13 @@
                 "windows": 0,
                 "macos": 0,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
               }
             ],
             "launch": [
@@ -8977,6 +11682,13 @@
               },
               {
                 "date": "2026-07-23",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 1,
                 "windows": 0,
                 "macos": 1,
@@ -9086,6 +11798,13 @@
                 "windows": 0,
                 "macos": 1,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0
               }
             ],
             "launch": [
@@ -9191,6 +11910,13 @@
                 "windows": 0,
                 "macos": 1,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0
               }
             ],
             "launch": [
@@ -9285,6 +12011,13 @@
               },
               {
                 "date": "2026-07-23",
+                "downloads": 8,
+                "windows": 4,
+                "macos": 4,
+                "linux": 0
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 8,
                 "windows": 4,
                 "macos": 4,
@@ -9411,6 +12144,13 @@
               },
               {
                 "date": "2026-07-23",
+                "downloads": 14,
+                "windows": 5,
+                "macos": 9,
+                "linux": 0
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 14,
                 "windows": 5,
                 "macos": 9,
@@ -9555,6 +12295,13 @@
                 "windows": 0,
                 "macos": 0,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
               }
             ],
             "launch": [
@@ -9642,6 +12389,13 @@
               },
               {
                 "date": "2026-07-23",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 1,
                 "windows": 0,
                 "macos": 1,
@@ -9737,6 +12491,13 @@
                 "windows": 0,
                 "macos": 1,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0
               }
             ],
             "launch": [
@@ -9828,6 +12589,13 @@
                 "windows": 0,
                 "macos": 0,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
               }
             ],
             "launch": [
@@ -9915,6 +12683,13 @@
               },
               {
                 "date": "2026-07-23",
+                "downloads": 15,
+                "windows": 8,
+                "macos": 6,
+                "linux": 1
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 15,
                 "windows": 8,
                 "macos": 6,
@@ -10045,6 +12820,13 @@
                 "windows": 2,
                 "macos": 0,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 2,
+                "windows": 2,
+                "macos": 0,
+                "linux": 0
               }
             ],
             "launch": [
@@ -10136,6 +12918,13 @@
                 "windows": 0,
                 "macos": 1,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0
               }
             ],
             "launch": [
@@ -10220,6 +13009,13 @@
                 "windows": 0,
                 "macos": 0,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
               }
             ],
             "launch": [
@@ -10293,6 +13089,13 @@
               },
               {
                 "date": "2026-07-23",
+                "downloads": 2,
+                "windows": 1,
+                "macos": 1,
+                "linux": 0
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 2,
                 "windows": 1,
                 "macos": 1,
@@ -10377,6 +13180,13 @@
               },
               {
                 "date": "2026-07-23",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 0,
                 "windows": 0,
                 "macos": 0,
@@ -10468,6 +13278,13 @@
               },
               {
                 "date": "2026-07-23",
+                "downloads": 2,
+                "windows": 1,
+                "macos": 1,
+                "linux": 0
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 2,
                 "windows": 1,
                 "macos": 1,
@@ -10584,6 +13401,13 @@
                 "windows": 1,
                 "macos": 5,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 6,
+                "windows": 1,
+                "macos": 5,
+                "linux": 0
               }
             ],
             "launch": [
@@ -10657,6 +13481,13 @@
               },
               {
                 "date": "2026-07-23",
+                "downloads": 12,
+                "windows": 6,
+                "macos": 4,
+                "linux": 2
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 12,
                 "windows": 6,
                 "macos": 4,
@@ -10752,6 +13583,13 @@
                 "windows": 1,
                 "macos": 2,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 3,
+                "windows": 1,
+                "macos": 2,
+                "linux": 0
               }
             ],
             "launch": [
@@ -10804,6 +13642,13 @@
               },
               {
                 "date": "2026-07-23",
+                "downloads": 15,
+                "windows": 4,
+                "macos": 11,
+                "linux": 0
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 15,
                 "windows": 4,
                 "macos": 11,
@@ -10881,6 +13726,13 @@
               },
               {
                 "date": "2026-07-23",
+                "downloads": 2,
+                "windows": 1,
+                "macos": 1,
+                "linux": 0
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 2,
                 "windows": 1,
                 "macos": 1,
@@ -10969,6 +13821,13 @@
                 "windows": 0,
                 "macos": 1,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0
               }
             ],
             "launch": [
@@ -11032,6 +13891,13 @@
                 "windows": 0,
                 "macos": 1,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0
               }
             ],
             "launch": [
@@ -11084,6 +13950,13 @@
               },
               {
                 "date": "2026-07-23",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 1,
                 "windows": 0,
                 "macos": 1,
@@ -11151,6 +14024,13 @@
                 "windows": 2,
                 "macos": 1,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 3,
+                "windows": 2,
+                "macos": 1,
+                "linux": 0
               }
             ],
             "launch": [
@@ -11207,6 +14087,13 @@
                 "windows": 0,
                 "macos": 0,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
               }
             ],
             "launch": [
@@ -11252,6 +14139,13 @@
               },
               {
                 "date": "2026-07-23",
+                "downloads": 2,
+                "windows": 2,
+                "macos": 0,
+                "linux": 0
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 2,
                 "windows": 2,
                 "macos": 0,
@@ -11312,6 +14206,13 @@
                 "windows": 0,
                 "macos": 0,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
               }
             ],
             "launch": [
@@ -11361,6 +14262,13 @@
                 "windows": 1,
                 "macos": 0,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 1,
+                "windows": 1,
+                "macos": 0,
+                "linux": 0
               }
             ],
             "launch": [
@@ -11406,6 +14314,13 @@
               },
               {
                 "date": "2026-07-23",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 1,
                 "windows": 0,
                 "macos": 1,
@@ -11466,6 +14381,13 @@
                 "windows": 0,
                 "macos": 0,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
               }
             ],
             "launch": [
@@ -11511,6 +14433,13 @@
               },
               {
                 "date": "2026-07-23",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 0,
                 "windows": 0,
                 "macos": 0,
@@ -11564,6 +14493,13 @@
                 "windows": 0,
                 "macos": 1,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0
               }
             ],
             "launch": [
@@ -11609,6 +14545,13 @@
               },
               {
                 "date": "2026-07-23",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 0,
                 "windows": 0,
                 "macos": 0,
@@ -11662,6 +14605,13 @@
                 "windows": 0,
                 "macos": 2,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 2,
+                "windows": 0,
+                "macos": 2,
+                "linux": 0
               }
             ],
             "launch": [
@@ -11711,6 +14661,13 @@
                 "windows": 0,
                 "macos": 0,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
               }
             ],
             "launch": [
@@ -11756,6 +14713,13 @@
               },
               {
                 "date": "2026-07-23",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 1,
                 "windows": 0,
                 "macos": 1,
@@ -11816,6 +14780,13 @@
                 "windows": 0,
                 "macos": 0,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
               }
             ],
             "launch": [
@@ -11861,6 +14832,13 @@
               },
               {
                 "date": "2026-07-23",
+                "downloads": 4,
+                "windows": 2,
+                "macos": 2,
+                "linux": 0
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 4,
                 "windows": 2,
                 "macos": 2,
@@ -11921,6 +14899,13 @@
                 "windows": 1,
                 "macos": 1,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 2,
+                "windows": 1,
+                "macos": 1,
+                "linux": 0
               }
             ],
             "launch": [
@@ -11977,6 +14962,13 @@
                 "windows": 1,
                 "macos": 2,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 3,
+                "windows": 1,
+                "macos": 2,
+                "linux": 0
               }
             ],
             "launch": [
@@ -12022,6 +15014,13 @@
               },
               {
                 "date": "2026-07-23",
+                "downloads": 9,
+                "windows": 4,
+                "macos": 4,
+                "linux": 1
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 9,
                 "windows": 4,
                 "macos": 4,
@@ -12082,6 +15081,13 @@
                 "windows": 0,
                 "macos": 0,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
               }
             ],
             "launch": [
@@ -12120,6 +15126,13 @@
               },
               {
                 "date": "2026-07-23",
+                "downloads": 8,
+                "windows": 3,
+                "macos": 3,
+                "linux": 2
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 8,
                 "windows": 3,
                 "macos": 3,
@@ -12180,6 +15193,13 @@
                 "windows": 1,
                 "macos": 1,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 2,
+                "windows": 1,
+                "macos": 1,
+                "linux": 0
               }
             ],
             "launch": [
@@ -12218,6 +15238,13 @@
               },
               {
                 "date": "2026-07-23",
+                "downloads": 4,
+                "windows": 2,
+                "macos": 2,
+                "linux": 0
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 4,
                 "windows": 2,
                 "macos": 2,
@@ -12271,6 +15298,13 @@
                 "windows": 0,
                 "macos": 0,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
               }
             ],
             "launch": [
@@ -12313,6 +15347,13 @@
                 "windows": 0,
                 "macos": 1,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0
               }
             ],
             "launch": [
@@ -12344,6 +15385,13 @@
               },
               {
                 "date": "2026-07-23",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 0,
                 "windows": 0,
                 "macos": 0,
@@ -12383,6 +15431,13 @@
                 "windows": 0,
                 "macos": 0,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
               }
             ],
             "launch": [
@@ -12418,6 +15473,13 @@
                 "windows": 0,
                 "macos": 1,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0
               }
             ],
             "launch": [
@@ -12449,6 +15511,13 @@
               },
               {
                 "date": "2026-07-23",
+                "downloads": 5,
+                "windows": 2,
+                "macos": 3,
+                "linux": 0
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 5,
                 "windows": 2,
                 "macos": 3,
@@ -12509,6 +15578,13 @@
                 "windows": 0,
                 "macos": 0,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
               }
             ],
             "launch": [
@@ -12540,6 +15616,13 @@
               },
               {
                 "date": "2026-07-23",
+                "downloads": 2,
+                "windows": 0,
+                "macos": 2,
+                "linux": 0
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 2,
                 "windows": 0,
                 "macos": 2,
@@ -12579,6 +15662,13 @@
                 "windows": 0,
                 "macos": 1,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0
               }
             ],
             "launch": [
@@ -12610,6 +15700,13 @@
               },
               {
                 "date": "2026-07-23",
+                "downloads": 5,
+                "windows": 2,
+                "macos": 3,
+                "linux": 0
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 5,
                 "windows": 2,
                 "macos": 3,
@@ -12652,6 +15749,13 @@
               },
               {
                 "date": "2026-07-23",
+                "downloads": 18,
+                "windows": 6,
+                "macos": 9,
+                "linux": 3
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 18,
                 "windows": 6,
                 "macos": 9,
@@ -12726,6 +15830,13 @@
                 "windows": 3,
                 "macos": 2,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 5,
+                "windows": 3,
+                "macos": 2,
+                "linux": 0
               }
             ],
             "launch": [
@@ -12761,6 +15872,13 @@
                 "windows": 1,
                 "macos": 2,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 3,
+                "windows": 1,
+                "macos": 2,
+                "linux": 0
               }
             ],
             "launch": [
@@ -12785,6 +15903,13 @@
               },
               {
                 "date": "2026-07-23",
+                "downloads": 12,
+                "windows": 4,
+                "macos": 7,
+                "linux": 1
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 12,
                 "windows": 4,
                 "macos": 7,
@@ -12845,6 +15970,13 @@
                 "windows": 1,
                 "macos": 0,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 1,
+                "windows": 1,
+                "macos": 0,
+                "linux": 0
               }
             ],
             "launch": [
@@ -12880,6 +16012,13 @@
                 "windows": 1,
                 "macos": 1,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 2,
+                "windows": 1,
+                "macos": 1,
+                "linux": 0
               }
             ],
             "launch": [
@@ -12911,6 +16050,13 @@
               },
               {
                 "date": "2026-07-23",
+                "downloads": 17,
+                "windows": 6,
+                "macos": 9,
+                "linux": 2
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 17,
                 "windows": 6,
                 "macos": 9,
@@ -12978,6 +16124,13 @@
                 "windows": 1,
                 "macos": 1,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 2,
+                "windows": 1,
+                "macos": 1,
+                "linux": 0
               }
             ],
             "launch": [
@@ -13006,6 +16159,13 @@
                 "windows": 0,
                 "macos": 1,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0
               }
             ],
             "launch": [
@@ -13023,6 +16183,13 @@
             "snapshots": [
               {
                 "date": "2026-07-23",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 0,
                 "windows": 0,
                 "macos": 0,
@@ -13048,6 +16215,13 @@
                 "windows": 0,
                 "macos": 0,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
               }
             ],
             "launch": [
@@ -13065,6 +16239,13 @@
             "snapshots": [
               {
                 "date": "2026-07-23",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
+              },
+              {
+                "date": "2026-07-24",
                 "downloads": 0,
                 "windows": 0,
                 "macos": 0,
@@ -13090,6 +16271,13 @@
                 "windows": 0,
                 "macos": 0,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
               }
             ],
             "launch": [
@@ -13111,6 +16299,13 @@
                 "windows": 0,
                 "macos": 0,
                 "linux": 0
+              },
+              {
+                "date": "2026-07-24",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0
               }
             ],
             "launch": [
@@ -13120,2901 +16315,59 @@
                 "windows": 0,
                 "macos": 0,
                 "linux": 0
+              },
+              {
+                "time": "2026-07-24T01:16:07Z",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0
+              }
+            ]
+          },
+          "v3.14.8-beta.8": {
+            "published_at": "2026-07-24T01:01:50Z",
+            "snapshots": [
+              {
+                "date": "2026-07-24",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
+              }
+            ],
+            "launch": [
+              {
+                "time": "2026-07-24T01:16:07Z",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
+              }
+            ]
+          },
+          "v3.14.8-beta.7": {
+            "published_at": "2026-07-24T00:11:50Z",
+            "snapshots": [
+              {
+                "date": "2026-07-24",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
+              }
+            ],
+            "launch": [
+              {
+                "time": "2026-07-24T01:16:07Z",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
               }
             ]
           }
         }
-      }
-    },
-    "itsab1989/ChromIQ-Patches": {
-      "daily_data": [
-        {
-          "date": "2025-07-23",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-07-24",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-07-25",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-07-26",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-07-27",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-07-28",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-07-29",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-07-30",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-07-31",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-08-01",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-08-02",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-08-03",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-08-04",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-08-05",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-08-06",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-08-07",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-08-08",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-08-09",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-08-10",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-08-11",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-08-12",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-08-13",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-08-14",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-08-15",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-08-16",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-08-17",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-08-18",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-08-19",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-08-20",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-08-21",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-08-22",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-08-23",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-08-24",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-08-25",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-08-26",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-08-27",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-08-28",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-08-29",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-08-30",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-08-31",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-09-01",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-09-02",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-09-03",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-09-04",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-09-05",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-09-06",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-09-07",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-09-08",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-09-09",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-09-10",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-09-11",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-09-12",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-09-13",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-09-14",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-09-15",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-09-16",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-09-17",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-09-18",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-09-19",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-09-20",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-09-21",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-09-22",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-09-23",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-09-24",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-09-25",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-09-26",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-09-27",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-09-28",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-09-29",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-09-30",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-10-01",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-10-02",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-10-03",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-10-04",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-10-05",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-10-06",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-10-07",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-10-08",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-10-09",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-10-10",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-10-11",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-10-12",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-10-13",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-10-14",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-10-15",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-10-16",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-10-17",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-10-18",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-10-19",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-10-20",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-10-21",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-10-22",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-10-23",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-10-24",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-10-25",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-10-26",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-10-27",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-10-28",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-10-29",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-10-30",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-10-31",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-11-01",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-11-02",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-11-03",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-11-04",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-11-05",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-11-06",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-11-07",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-11-08",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-11-09",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-11-10",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-11-11",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-11-12",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-11-13",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-11-14",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-11-15",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-11-16",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-11-17",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-11-18",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-11-19",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-11-20",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-11-21",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-11-22",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-11-23",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-11-24",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-11-25",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-11-26",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-11-27",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-11-28",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-11-29",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-11-30",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-12-01",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-12-02",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-12-03",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-12-04",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-12-05",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-12-06",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-12-07",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-12-08",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-12-09",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-12-10",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-12-11",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-12-12",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-12-13",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-12-14",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-12-15",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-12-16",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-12-17",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-12-18",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-12-19",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-12-20",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-12-21",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-12-22",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-12-23",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-12-24",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-12-25",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-12-26",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-12-27",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-12-28",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-12-29",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-12-30",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2025-12-31",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-01-01",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-01-02",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-01-03",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-01-04",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-01-05",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-01-06",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-01-07",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-01-08",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-01-09",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-01-10",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-01-11",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-01-12",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-01-13",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-01-14",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-01-15",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-01-16",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-01-17",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-01-18",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-01-19",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-01-20",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-01-21",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-01-22",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-01-23",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-01-24",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-01-25",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-01-26",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-01-27",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-01-28",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-01-29",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-01-30",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-01-31",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-02-01",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-02-02",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-02-03",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-02-04",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-02-05",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-02-06",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-02-07",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-02-08",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-02-09",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-02-10",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-02-11",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-02-12",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-02-13",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-02-14",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-02-15",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-02-16",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-02-17",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-02-18",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-02-19",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-02-20",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-02-21",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-02-22",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-02-23",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-02-24",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-02-25",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-02-26",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-02-27",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-02-28",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-03-01",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-03-02",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-03-03",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-03-04",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-03-05",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-03-06",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-03-07",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-03-08",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-03-09",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-03-10",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-03-11",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-03-12",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-03-13",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-03-14",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-03-15",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-03-16",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-03-17",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-03-18",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-03-19",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-03-20",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-03-21",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-03-22",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-03-23",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-03-24",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-03-25",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-03-26",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-03-27",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-03-28",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-03-29",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-03-30",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-03-31",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-04-01",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-04-02",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-04-03",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-04-04",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-04-05",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-04-06",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-04-07",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-04-08",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-04-09",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-04-10",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-04-11",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-04-12",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-04-13",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-04-14",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-04-15",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-04-16",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-04-17",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-04-18",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-04-19",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-04-20",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-04-21",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-04-22",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-04-23",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-04-24",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-04-25",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-04-26",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-04-27",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-04-28",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-04-29",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-04-30",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-05-01",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-05-02",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-05-03",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-05-04",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-05-05",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-05-06",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-05-07",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-05-08",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-05-09",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-05-10",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-05-11",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-05-12",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-05-13",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-05-14",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-05-15",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-05-16",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-05-17",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-05-18",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-05-19",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-05-20",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-05-21",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-05-22",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-05-23",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-05-24",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-05-25",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-05-26",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-05-27",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-05-28",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-05-29",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-05-30",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-05-31",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-06-01",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-06-02",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-06-03",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-06-04",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-06-05",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-06-06",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-06-07",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-06-08",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-06-09",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-06-10",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-06-11",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-06-12",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-06-13",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-06-14",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-06-15",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-06-16",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-06-17",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-06-18",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-06-19",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-06-20",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-06-21",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-06-22",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-06-23",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-06-24",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-06-25",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-06-26",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-06-27",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-06-28",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-06-29",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-06-30",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-07-01",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-07-02",
-          "clones_total": 205,
-          "clones_unique": 81,
-          "views_total": 12,
-          "views_unique": 9
-        },
-        {
-          "date": "2026-07-03",
-          "clones_total": 57,
-          "clones_unique": 28,
-          "views_total": 11,
-          "views_unique": 3
-        },
-        {
-          "date": "2026-07-04",
-          "clones_total": 2,
-          "clones_unique": 2,
-          "views_total": 20,
-          "views_unique": 4
-        },
-        {
-          "date": "2026-07-05",
-          "clones_total": 1,
-          "clones_unique": 1,
-          "views_total": 17,
-          "views_unique": 4
-        },
-        {
-          "date": "2026-07-06",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 4,
-          "views_unique": 2
-        },
-        {
-          "date": "2026-07-07",
-          "clones_total": 24,
-          "clones_unique": 12,
-          "views_total": 1,
-          "views_unique": 1
-        },
-        {
-          "date": "2026-07-08",
-          "clones_total": 6,
-          "clones_unique": 5,
-          "views_total": 4,
-          "views_unique": 2
-        },
-        {
-          "date": "2026-07-09",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-07-10",
-          "clones_total": 1,
-          "clones_unique": 1,
-          "views_total": 4,
-          "views_unique": 2
-        },
-        {
-          "date": "2026-07-11",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-07-12",
-          "clones_total": 3,
-          "clones_unique": 3,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-07-13",
-          "clones_total": 11,
-          "clones_unique": 6,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-07-14",
-          "clones_total": 2,
-          "clones_unique": 2,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-07-15",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-07-16",
-          "clones_total": 1,
-          "clones_unique": 1,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-07-17",
-          "clones_total": 1,
-          "clones_unique": 1,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-07-18",
-          "clones_total": 1,
-          "clones_unique": 1,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-07-19",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-07-20",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 1,
-          "views_unique": 1
-        },
-        {
-          "date": "2026-07-21",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-07-22",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 2,
-          "views_unique": 1
-        },
-        {
-          "date": "2026-07-23",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
-        }
-      ],
-      "referrers": [
-        {
-          "referrer": "github.com",
-          "count": 5,
-          "uniques": 3
-        }
-      ],
-      "metadata": {
-        "last_fetched": "2026-07-23T23:45:09Z",
-        "clones_total": 315,
-        "clones_unique_total": 144,
-        "views_total": 76,
-        "views_unique_total": 29
-      },
-      "downloads": {
-        "daily_data": [
-          {
-            "date": "2026-07-02",
-            "cumulative_total": 9,
-            "downloads_total": 0,
-            "cumulative_windows": 4,
-            "downloads_windows": 0,
-            "cumulative_macos": 5,
-            "downloads_macos": 0,
-            "cumulative_linux": 0,
-            "downloads_linux": 0
-          },
-          {
-            "date": "2026-07-03",
-            "cumulative_total": 18,
-            "downloads_total": 9,
-            "cumulative_windows": 7,
-            "downloads_windows": 3,
-            "cumulative_macos": 9,
-            "downloads_macos": 4,
-            "cumulative_linux": 2,
-            "downloads_linux": 2
-          },
-          {
-            "date": "2026-07-04",
-            "cumulative_total": 20,
-            "downloads_total": 2,
-            "cumulative_windows": 8,
-            "downloads_windows": 1,
-            "cumulative_macos": 10,
-            "downloads_macos": 1,
-            "cumulative_linux": 2,
-            "downloads_linux": 0
-          },
-          {
-            "date": "2026-07-05",
-            "cumulative_total": 21,
-            "downloads_total": 1,
-            "cumulative_windows": 8,
-            "downloads_windows": 0,
-            "cumulative_macos": 11,
-            "downloads_macos": 1,
-            "cumulative_linux": 2,
-            "downloads_linux": 0
-          },
-          {
-            "date": "2026-07-06",
-            "cumulative_total": 22,
-            "downloads_total": 1,
-            "cumulative_windows": 8,
-            "downloads_windows": 0,
-            "cumulative_macos": 12,
-            "downloads_macos": 1,
-            "cumulative_linux": 2,
-            "downloads_linux": 0
-          },
-          {
-            "date": "2026-07-07",
-            "cumulative_total": 23,
-            "downloads_total": 1,
-            "cumulative_windows": 9,
-            "downloads_windows": 1,
-            "cumulative_macos": 12,
-            "downloads_macos": 0,
-            "cumulative_linux": 2,
-            "downloads_linux": 0
-          },
-          {
-            "date": "2026-07-08",
-            "cumulative_total": 25,
-            "downloads_total": 2,
-            "cumulative_windows": 9,
-            "downloads_windows": 0,
-            "cumulative_macos": 14,
-            "downloads_macos": 2,
-            "cumulative_linux": 2,
-            "downloads_linux": 0
-          },
-          {
-            "date": "2026-07-09",
-            "cumulative_total": 26,
-            "downloads_total": 1,
-            "cumulative_windows": 9,
-            "downloads_windows": 0,
-            "cumulative_macos": 15,
-            "downloads_macos": 1,
-            "cumulative_linux": 2,
-            "downloads_linux": 0
-          },
-          {
-            "date": "2026-07-10",
-            "cumulative_total": 27,
-            "downloads_total": 1,
-            "cumulative_windows": 9,
-            "downloads_windows": 0,
-            "cumulative_macos": 16,
-            "downloads_macos": 1,
-            "cumulative_linux": 2,
-            "downloads_linux": 0
-          },
-          {
-            "date": "2026-07-11",
-            "cumulative_total": 30,
-            "downloads_total": 3,
-            "cumulative_windows": 10,
-            "downloads_windows": 1,
-            "cumulative_macos": 17,
-            "downloads_macos": 1,
-            "cumulative_linux": 3,
-            "downloads_linux": 1
-          },
-          {
-            "date": "2026-07-12",
-            "cumulative_total": 30,
-            "downloads_total": 0,
-            "cumulative_windows": 10,
-            "downloads_windows": 0,
-            "cumulative_macos": 17,
-            "downloads_macos": 0,
-            "cumulative_linux": 3,
-            "downloads_linux": 0
-          },
-          {
-            "date": "2026-07-13",
-            "cumulative_total": 30,
-            "downloads_total": 0,
-            "cumulative_windows": 10,
-            "downloads_windows": 0,
-            "cumulative_macos": 17,
-            "downloads_macos": 0,
-            "cumulative_linux": 3,
-            "downloads_linux": 0
-          },
-          {
-            "date": "2026-07-14",
-            "cumulative_total": 30,
-            "downloads_total": 0,
-            "cumulative_windows": 10,
-            "downloads_windows": 0,
-            "cumulative_macos": 17,
-            "downloads_macos": 0,
-            "cumulative_linux": 3,
-            "downloads_linux": 0
-          },
-          {
-            "date": "2026-07-15",
-            "cumulative_total": 30,
-            "downloads_total": 0,
-            "cumulative_windows": 10,
-            "downloads_windows": 0,
-            "cumulative_macos": 17,
-            "downloads_macos": 0,
-            "cumulative_linux": 3,
-            "downloads_linux": 0
-          },
-          {
-            "date": "2026-07-16",
-            "cumulative_total": 30,
-            "downloads_total": 0,
-            "cumulative_windows": 10,
-            "downloads_windows": 0,
-            "cumulative_macos": 17,
-            "downloads_macos": 0,
-            "cumulative_linux": 3,
-            "downloads_linux": 0
-          },
-          {
-            "date": "2026-07-17",
-            "cumulative_total": 30,
-            "downloads_total": 0,
-            "cumulative_windows": 10,
-            "downloads_windows": 0,
-            "cumulative_macos": 17,
-            "downloads_macos": 0,
-            "cumulative_linux": 3,
-            "downloads_linux": 0
-          },
-          {
-            "date": "2026-07-18",
-            "cumulative_total": 31,
-            "downloads_total": 1,
-            "cumulative_windows": 10,
-            "downloads_windows": 0,
-            "cumulative_macos": 18,
-            "downloads_macos": 1,
-            "cumulative_linux": 3,
-            "downloads_linux": 0
-          },
-          {
-            "date": "2026-07-19",
-            "cumulative_total": 31,
-            "downloads_total": 0,
-            "cumulative_windows": 10,
-            "downloads_windows": 0,
-            "cumulative_macos": 18,
-            "downloads_macos": 0,
-            "cumulative_linux": 3,
-            "downloads_linux": 0
-          },
-          {
-            "date": "2026-07-20",
-            "cumulative_total": 31,
-            "downloads_total": 0,
-            "cumulative_windows": 10,
-            "downloads_windows": 0,
-            "cumulative_macos": 18,
-            "downloads_macos": 0,
-            "cumulative_linux": 3,
-            "downloads_linux": 0
-          },
-          {
-            "date": "2026-07-21",
-            "cumulative_total": 31,
-            "downloads_total": 0,
-            "cumulative_windows": 10,
-            "downloads_windows": 0,
-            "cumulative_macos": 18,
-            "downloads_macos": 0,
-            "cumulative_linux": 3,
-            "downloads_linux": 0
-          },
-          {
-            "date": "2026-07-22",
-            "cumulative_total": 32,
-            "downloads_total": 1,
-            "cumulative_windows": 11,
-            "downloads_windows": 1,
-            "cumulative_macos": 18,
-            "downloads_macos": 0,
-            "cumulative_linux": 3,
-            "downloads_linux": 0
-          },
-          {
-            "date": "2026-07-23",
-            "cumulative_total": 32,
-            "downloads_total": 0,
-            "cumulative_windows": 11,
-            "downloads_windows": 0,
-            "cumulative_macos": 18,
-            "downloads_macos": 0,
-            "cumulative_linux": 3,
-            "downloads_linux": 0
-          }
-        ],
-        "metadata": {
-          "last_fetched": "2026-07-23T23:45:09Z",
-          "cumulative_total": 32,
-          "cumulative_windows": 11,
-          "cumulative_macos": 18,
-          "cumulative_linux": 3
-        },
-        "by_release": [
-          {
-            "tag": "v1.2.1",
-            "downloads": 9,
-            "windows": 2,
-            "macos": 6,
-            "linux": 1,
-            "published_at": "2026-07-07T22:42:20Z"
-          },
-          {
-            "tag": "v1.2.0",
-            "downloads": 14,
-            "windows": 5,
-            "macos": 7,
-            "linux": 2,
-            "published_at": "2026-07-03T02:47:11Z"
-          },
-          {
-            "tag": "v1.1.0",
-            "downloads": 1,
-            "windows": 0,
-            "macos": 1,
-            "linux": 0,
-            "published_at": "2026-07-02T21:38:24Z"
-          },
-          {
-            "tag": "v1.0.1",
-            "downloads": 4,
-            "windows": 1,
-            "macos": 3,
-            "linux": 0,
-            "published_at": "2026-07-02T11:46:50Z"
-          },
-          {
-            "tag": "v1.0.0",
-            "downloads": 4,
-            "windows": 3,
-            "macos": 1,
-            "linux": 0,
-            "published_at": "2026-07-02T10:03:27Z"
-          }
-        ],
-        "by_arch": {
-          "windows": {
-            "arm64": 0,
-            "x86_64": 11
-          },
-          "macos": {
-            "arm64": 15,
-            "universal": 2,
-            "x86_64": 1
-          },
-          "linux": {
-            "arm64": 0,
-            "x86_64": 3
-          }
-        },
-        "by_release_daily": {}
       }
     }
   }
