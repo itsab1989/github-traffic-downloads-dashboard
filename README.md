@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-07-28T17:49:12.560225Z
+**Last Updated:** 2026-07-28T19:00:33.595806Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -92,7 +92,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-2197-212121) ![clones](https://img.shields.io/badge/clones-17775-2196F3) ![views](https://img.shields.io/badge/views-4032-4CAF50) ![releases](https://img.shields.io/badge/releases-617-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-2197-212121) ![clones](https://img.shields.io/badge/clones-17775-2196F3) ![views](https://img.shields.io/badge/views-4032-4CAF50) ![releases](https://img.shields.io/badge/releases-619-6f42c1)
 
 *Tracking since **2026-05-02** (87 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~87 days have been tracked so far.*
 
@@ -192,13 +192,15 @@ Quick navigation to repository statistics:
 
 *ℹ️ 2 lifetime downloads are counted in **All** but matched no platform (the asset filename didn't match the Windows/macOS/Linux patterns).*
 
-🆕 **Latest Release:** `v3.14.8-beta.79` - **0** downloads (published 2026-07-28)
+🆕 **Latest Release:** `v3.14.8-beta.81` - **0** downloads (published 2026-07-28)
 
 <details>
-<summary><strong>📦 Per-version downloads</strong> (617 releases - click to expand)</summary>
+<summary><strong>📦 Per-version downloads</strong> (619 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
+| v3.14.8-beta.81 | 0 | 0 | 0 | **0** |
+| v3.14.8-beta.80 | 0 | 0 | 0 | **0** |
 | v3.14.8-beta.79 | 0 | 0 | 0 | **0** |
 | v3.14.8-beta.78 | 0 | 0 | 0 | **0** |
 | v3.14.8-beta.77 | 0 | 0 | 0 | **0** |
@@ -850,6 +852,8 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
+| v3.14.8-beta.81 | 2026-07-28 | 1d | 0 | 0 | 0 | **0** |
+| v3.14.8-beta.80 | 2026-07-28 | 1d | 0 | 0 | 0 | **0** |
 | v3.14.8-beta.79 | 2026-07-28 | 1d | 0 | 0 | 0 | **0** |
 | v3.14.8-beta.78 | 2026-07-28 | 1d | 0 | 0 | 0 | **0** |
 | v3.14.8-beta.77 | 2026-07-28 | 1d | 0 | 0 | 0 | **0** |
