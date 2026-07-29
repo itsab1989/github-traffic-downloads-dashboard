@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T07:34:32.644470Z",
+  "generated_at": "2026-07-29T10:23:03.431954Z",
   "repositories": [
     {
       "name": "itsab1989/ChromIQ",
@@ -580,7 +580,7 @@
             16,
             18,
             13,
-            3
+            95
           ],
           "windows": [
             7,
@@ -613,7 +613,7 @@
             6,
             7,
             3,
-            1
+            4
           ],
           "macos": [
             6,
@@ -819,7 +819,7 @@
             2172,
             2190,
             2203,
-            2206
+            2298
           ],
           "windows": [
             90,
@@ -888,7 +888,7 @@
             530,
             537,
             540,
-            541
+            544
           ],
           "macos": [
             479,
@@ -1030,6 +1030,14 @@
           ]
         },
         "releases": [
+          {
+            "date": "2026-07-29",
+            "tag": "v3.14.8-beta.94"
+          },
+          {
+            "date": "2026-07-29",
+            "tag": "v3.14.8-beta.93"
+          },
           {
             "date": "2026-07-29",
             "tag": "v3.14.8-beta.92"
@@ -1395,8 +1403,16 @@
             "tag": "v3.14.8-beta.1"
           },
           {
-            "date": "2026-07-28",
-            "tag": "chromiq-demo-projects-v2-2026-07-28"
+            "date": "2026-07-29",
+            "tag": "chromiq-onscreen-e2e-2026-07-29"
+          },
+          {
+            "date": "2026-07-29",
+            "tag": "chromiq-demo-projects-v3-2026-07-29"
+          },
+          {
+            "date": "2026-07-29",
+            "tag": "chromiq-button-overlap-fix-2026-07-29"
           },
           {
             "date": "2026-07-23",
@@ -3557,6 +3573,51 @@
         ],
         "reception": [
           {
+            "tag": "v3.14.8-beta.94",
+            "published": "2026-07-29",
+            "age_days": 1,
+            "windows": 2,
+            "macos": 0,
+            "linux": 0,
+            "total": 2
+          },
+          {
+            "tag": "chromiq-button-overlap-fix-2026-07-29",
+            "published": "2026-07-29",
+            "age_days": 1,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "total": 16
+          },
+          {
+            "tag": "chromiq-onscreen-e2e-2026-07-29",
+            "published": "2026-07-29",
+            "age_days": 1,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "total": 75
+          },
+          {
+            "tag": "v3.14.8-beta.93",
+            "published": "2026-07-29",
+            "age_days": 1,
+            "windows": 1,
+            "macos": 0,
+            "linux": 0,
+            "total": 1
+          },
+          {
+            "tag": "chromiq-demo-projects-v3-2026-07-29",
+            "published": "2026-07-29",
+            "age_days": 1,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "total": 0
+          },
+          {
             "tag": "v3.14.8-beta.92",
             "published": "2026-07-29",
             "age_days": 1,
@@ -3645,54 +3706,74 @@
             "macos": 0,
             "linux": 0,
             "total": 0
-          },
-          {
-            "tag": "v3.14.8-beta.84",
-            "published": "2026-07-28",
-            "age_days": 2,
-            "windows": 0,
-            "macos": 1,
-            "linux": 0,
-            "total": 1
-          },
-          {
-            "tag": "v3.14.8-beta.83",
-            "published": "2026-07-28",
-            "age_days": 2,
-            "windows": 0,
-            "macos": 1,
-            "linux": 0,
-            "total": 1
-          },
-          {
-            "tag": "v3.14.8-beta.82",
-            "published": "2026-07-28",
-            "age_days": 2,
-            "windows": 0,
-            "macos": 0,
-            "linux": 0,
-            "total": 0
-          },
-          {
-            "tag": "v3.14.8-beta.81",
-            "published": "2026-07-28",
-            "age_days": 2,
-            "windows": 0,
-            "macos": 0,
-            "linux": 0,
-            "total": 0
-          },
-          {
-            "tag": "v3.14.8-beta.80",
-            "published": "2026-07-28",
-            "age_days": 2,
-            "windows": 0,
-            "macos": 0,
-            "linux": 0,
-            "total": 0
           }
         ],
         "launch_curves": [
+          {
+            "tag": "v3.14.8-beta.94",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 0.83,
+                "downloads": 2
+              }
+            ]
+          },
+          {
+            "tag": "chromiq-button-overlap-fix-2026-07-29",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 0.85,
+                "downloads": 16
+              }
+            ]
+          },
+          {
+            "tag": "chromiq-onscreen-e2e-2026-07-29",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 2.2,
+                "downloads": 75
+              }
+            ]
+          },
+          {
+            "tag": "v3.14.8-beta.93",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 2.72,
+                "downloads": 1
+              }
+            ]
+          },
+          {
+            "tag": "chromiq-demo-projects-v3-2026-07-29",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 2.74,
+                "downloads": 0
+              }
+            ]
+          },
           {
             "tag": "v3.14.8-beta.92",
             "points": [
@@ -3702,75 +3783,6 @@
               },
               {
                 "h": 0.59,
-                "downloads": 1
-              }
-            ]
-          },
-          {
-            "tag": "v3.14.8-beta.91",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 1.9,
-                "downloads": 1
-              }
-            ]
-          },
-          {
-            "tag": "v3.14.8-beta.90",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 3.03,
-                "downloads": 0
-              }
-            ]
-          },
-          {
-            "tag": "v3.14.8-beta.89",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 0.77,
-                "downloads": 0
-              }
-            ]
-          },
-          {
-            "tag": "v3.14.8-beta.88",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 0.4,
-                "downloads": 0
-              },
-              {
-                "h": 1.88,
-                "downloads": 1
-              }
-            ]
-          },
-          {
-            "tag": "v3.14.8-beta.87",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 1.0,
                 "downloads": 1
               }
             ]
