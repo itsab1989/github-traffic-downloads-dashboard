@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T10:23:03.431954Z",
+  "generated_at": "2026-07-29T12:26:01.459177Z",
   "repositories": [
     {
       "name": "itsab1989/ChromIQ",
@@ -70,7 +70,7 @@
             34,
             176,
             235,
-            0,
+            222,
             0
           ],
           "views": [
@@ -103,7 +103,7 @@
             32,
             90,
             56,
-            0,
+            44,
             0
           ]
         },
@@ -133,7 +133,7 @@
             1566,
             469,
             1263,
-            778,
+            1000,
             0
           ],
           "views": [
@@ -147,7 +147,7 @@
             571,
             343,
             431,
-            359,
+            403,
             0
           ]
         },
@@ -205,7 +205,7 @@
             2891,
             3482,
             2035,
-            2041,
+            2263,
             0
           ],
           "views": [
@@ -233,7 +233,7 @@
             530,
             673,
             914,
-            790,
+            834,
             0
           ]
         },
@@ -417,8 +417,8 @@
             17364,
             17540,
             17775,
-            17775,
-            17775
+            17997,
+            17997
           ],
           "views": [
             37,
@@ -508,8 +508,8 @@
             3886,
             3976,
             4032,
-            4032,
-            4032
+            4076,
+            4076
           ]
         }
       },
@@ -580,7 +580,7 @@
             16,
             18,
             13,
-            95
+            153
           ],
           "windows": [
             7,
@@ -613,7 +613,7 @@
             6,
             7,
             3,
-            4
+            6
           ],
           "macos": [
             6,
@@ -819,7 +819,7 @@
             2172,
             2190,
             2203,
-            2298
+            2356
           ],
           "windows": [
             90,
@@ -888,7 +888,7 @@
             530,
             537,
             540,
-            544
+            546
           ],
           "macos": [
             479,
@@ -1030,6 +1030,14 @@
           ]
         },
         "releases": [
+          {
+            "date": "2026-07-29",
+            "tag": "v3.14.8-beta.96"
+          },
+          {
+            "date": "2026-07-29",
+            "tag": "v3.14.8-beta.95"
+          },
           {
             "date": "2026-07-29",
             "tag": "v3.14.8-beta.94"
@@ -1408,7 +1416,15 @@
           },
           {
             "date": "2026-07-29",
+            "tag": "chromiq-icon-mockups-v2-2026-07-29"
+          },
+          {
+            "date": "2026-07-29",
             "tag": "chromiq-demo-projects-v3-2026-07-29"
+          },
+          {
+            "date": "2026-07-29",
+            "tag": "chromiq-buttons-all-tabs-2026-07-29"
           },
           {
             "date": "2026-07-29",
@@ -3573,13 +3589,49 @@
         ],
         "reception": [
           {
+            "tag": "chromiq-icon-mockups-v2-2026-07-29",
+            "published": "2026-07-29",
+            "age_days": 1,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "total": 0
+          },
+          {
+            "tag": "v3.14.8-beta.96",
+            "published": "2026-07-29",
+            "age_days": 1,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "total": 0
+          },
+          {
+            "tag": "v3.14.8-beta.95",
+            "published": "2026-07-29",
+            "age_days": 1,
+            "windows": 1,
+            "macos": 0,
+            "linux": 0,
+            "total": 1
+          },
+          {
+            "tag": "chromiq-buttons-all-tabs-2026-07-29",
+            "published": "2026-07-29",
+            "age_days": 1,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "total": 56
+          },
+          {
             "tag": "v3.14.8-beta.94",
             "published": "2026-07-29",
             "age_days": 1,
-            "windows": 2,
+            "windows": 3,
             "macos": 0,
             "linux": 0,
-            "total": 2
+            "total": 3
           },
           {
             "tag": "chromiq-button-overlap-fix-2026-07-29",
@@ -3670,45 +3722,61 @@
             "macos": 1,
             "linux": 0,
             "total": 1
-          },
-          {
-            "tag": "v3.14.8-beta.86",
-            "published": "2026-07-28",
-            "age_days": 2,
-            "windows": 0,
-            "macos": 1,
-            "linux": 0,
-            "total": 1
-          },
-          {
-            "tag": "chromiq-demo-projects-v2-2026-07-28",
-            "published": "2026-07-28",
-            "age_days": 2,
-            "windows": 0,
-            "macos": 0,
-            "linux": 0,
-            "total": 2
-          },
-          {
-            "tag": "chromiq-demo-and-icons-2026-07-28",
-            "published": "2026-07-28",
-            "age_days": 1,
-            "windows": 0,
-            "macos": 0,
-            "linux": 0,
-            "total": 4
-          },
-          {
-            "tag": "v3.14.8-beta.85",
-            "published": "2026-07-28",
-            "age_days": 2,
-            "windows": 0,
-            "macos": 0,
-            "linux": 0,
-            "total": 0
           }
         ],
         "launch_curves": [
+          {
+            "tag": "chromiq-icon-mockups-v2-2026-07-29",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 0.07,
+                "downloads": 0
+              }
+            ]
+          },
+          {
+            "tag": "v3.14.8-beta.96",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 0.14,
+                "downloads": 0
+              }
+            ]
+          },
+          {
+            "tag": "v3.14.8-beta.95",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 1.19,
+                "downloads": 1
+              }
+            ]
+          },
+          {
+            "tag": "chromiq-buttons-all-tabs-2026-07-29",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 1.21,
+                "downloads": 56
+              }
+            ]
+          },
           {
             "tag": "v3.14.8-beta.94",
             "points": [
@@ -3719,6 +3787,10 @@
               {
                 "h": 0.83,
                 "downloads": 2
+              },
+              {
+                "h": 2.87,
+                "downloads": 3
               }
             ]
           },
@@ -3732,58 +3804,6 @@
               {
                 "h": 0.85,
                 "downloads": 16
-              }
-            ]
-          },
-          {
-            "tag": "chromiq-onscreen-e2e-2026-07-29",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 2.2,
-                "downloads": 75
-              }
-            ]
-          },
-          {
-            "tag": "v3.14.8-beta.93",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 2.72,
-                "downloads": 1
-              }
-            ]
-          },
-          {
-            "tag": "chromiq-demo-projects-v3-2026-07-29",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 2.74,
-                "downloads": 0
-              }
-            ]
-          },
-          {
-            "tag": "v3.14.8-beta.92",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 0.59,
-                "downloads": 1
               }
             ]
           }

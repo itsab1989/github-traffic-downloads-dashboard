@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-07-29T10:23:03.431954Z
+**Last Updated:** 2026-07-29T12:26:01.459177Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -92,17 +92,17 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-2298-212121) ![clones](https://img.shields.io/badge/clones-17775-2196F3) ![views](https://img.shields.io/badge/views-4032-4CAF50) ![releases](https://img.shields.io/badge/releases-635-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-2356-212121) ![clones](https://img.shields.io/badge/clones-17997-2196F3) ![views](https://img.shields.io/badge/views-4076-4CAF50) ![releases](https://img.shields.io/badge/releases-639-6f42c1)
 
-*Tracking since **2026-05-02** (87 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~87 days have been tracked so far.*
+*Tracking since **2026-05-02** (88 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~88 days have been tracked so far.*
 
 **This week vs last week:**
 
 | Metric | This week | Last week | Change |
 |--------|-----------|-----------|--------|
-| Clones | 696 | 974 | ▼ -28.5% |
-| Views | 289 | 481 | ▼ -39.9% |
-| Downloads | 180 | 168 | ▲ +7.1% |
+| Clones | 918 | 974 | ▼ -5.7% |
+| Views | 333 | 481 | ▼ -30.8% |
+| Downloads | 238 | 168 | ▲ +41.7% |
 
 ### 🗅️ Clones
 
@@ -110,9 +110,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 4646 | 947 |
-| Last 90 Days | 17775 | 3904 |
-| Lifetime | 17775 | 3904 |
+| Last 30 Days | 4868 | 990 |
+| Last 90 Days | 17997 | 3947 |
+| Lifetime | 17997 | 3947 |
 
 ### 📄 Repeat vs New Clones
 
@@ -122,9 +122,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
 |--------|--------------|----------------|----------------|----------|
-| Last 30 Days | 4646 | 947 | 3699 | 79.6% |
-| Last 90 Days | 17775 | 3904 | 13871 | 78.0% |
-| Lifetime | 17775 | 3904 | 13871 | 78.0% |
+| Last 30 Days | 4868 | 990 | 3878 | 79.7% |
+| Last 90 Days | 17997 | 3947 | 14050 | 78.1% |
+| Lifetime | 17997 | 3947 | 14050 | 78.1% |
 
 ### 👀 Views
 
@@ -132,9 +132,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 1817 | 319 |
-| Last 90 Days | 4032 | 984 |
-| Lifetime | 4032 | 984 |
+| Last 30 Days | 1861 | 326 |
+| Last 90 Days | 4076 | 991 |
+| Lifetime | 4076 | 991 |
 
 ### 🎯 Engagement Ratios
 
@@ -142,9 +142,9 @@ Quick navigation to repository statistics:
 
 | Action | Count | Ratio to unique visitors |
 |--------|-------|--------------------------|
-| 👀 Unique visitors | 319 | — |
-| 🗅️ Unique cloners | 947 | 296.9% |
-| 📥 Downloads | 767 | 240.4% |
+| 👀 Unique visitors | 326 | — |
+| 🗅️ Unique cloners | 990 | 303.7% |
+| 📥 Downloads | 825 | 253.1% |
 
 ### 📞 Referrers
 
@@ -154,10 +154,10 @@ Quick navigation to repository statistics:
 
 | Referrer | Total Views | Unique Visitors |
 |----------|-------------|----------------|
-| Google | 67 | 23 |
-| printerknowledge.com | 20 | 8 |
-| github.com | 17 | 9 |
+| Google | 78 | 26 |
+| printerknowledge.com | 18 | 7 |
 | forum.luminous-landscape.com | 16 | 1 |
+| github.com | 15 | 8 |
 | dpreview.com | 9 | 6 |
 | Yahoo | 7 | 1 |
 | hub.displaycal.net | 5 | 3 |
@@ -173,9 +173,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Views | Unique Visitors | Repeat Visitors | Repeat % |
 |--------|-------------|-----------------|-----------------|----------|
-| Last 30 Days | 1817 | 319 | 1498 | 82.4% |
-| Last 90 Days | 4032 | 984 | 3048 | 75.6% |
-| Lifetime | 4032 | 984 | 3048 | 75.6% |
+| Last 30 Days | 1861 | 326 | 1535 | 82.5% |
+| Last 90 Days | 4076 | 991 | 3085 | 75.7% |
+| Lifetime | 4076 | 991 | 3085 | 75.7% |
 
 ### 📥 Release Downloads
 
@@ -185,21 +185,25 @@ Quick navigation to repository statistics:
 
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
-| 🪟 Windows | 224 | 454 | 544 |
+| 🪟 Windows | 226 | 456 | 546 |
 | 🍎 macOS | 390 | 1069 | 1548 |
 | 🐧 Linux | 60 | 82 | 113 |
-| **All** | **767** | **1698** | **2298** |
+| **All** | **825** | **1756** | **2356** |
 
-*ℹ️ 93 lifetime downloads are counted in **All** but matched no platform (the asset filename didn't match the Windows/macOS/Linux patterns).*
+*ℹ️ 149 lifetime downloads are counted in **All** but matched no platform (the asset filename didn't match the Windows/macOS/Linux patterns).*
 
-🆕 **Latest Release:** `v3.14.8-beta.94` - **2** downloads (published 2026-07-29)
+🆕 **Latest Release:** `chromiq-icon-mockups-v2-2026-07-29` - **0** downloads (published 2026-07-29)
 
 <details>
-<summary><strong>📦 Per-version downloads</strong> (635 releases - click to expand)</summary>
+<summary><strong>📦 Per-version downloads</strong> (639 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
-| v3.14.8-beta.94 | 2 | 0 | 0 | **2** |
+| chromiq-icon-mockups-v2-2026-07-29 | 0 | 0 | 0 | **0** |
+| v3.14.8-beta.96 | 0 | 0 | 0 | **0** |
+| v3.14.8-beta.95 | 1 | 0 | 0 | **1** |
+| chromiq-buttons-all-tabs-2026-07-29 | 0 | 0 | 0 | **56** |
+| v3.14.8-beta.94 | 3 | 0 | 0 | **3** |
 | chromiq-button-overlap-fix-2026-07-29 | 0 | 0 | 0 | **16** |
 | chromiq-onscreen-e2e-2026-07-29 | 0 | 0 | 0 | **75** |
 | v3.14.8-beta.93 | 1 | 0 | 0 | **1** |
@@ -843,15 +847,18 @@ Quick navigation to repository statistics:
 
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
-| 🪟 Windows | 72 | 472 | 0 | **544** |
+| 🪟 Windows | 72 | 474 | 0 | **546** |
 | 🍎 macOS | 955 | 305 | 288 | **1548** |
 | 🐧 Linux | 46 | 67 | 0 | **113** |
+
+*💡 Low-volume builds (<2% of lifetime downloads), candidates to stop shipping: 🐧 Linux arm64 (46, 2.0%).*
 
 **Top 10 Releases by Downloads (lifetime):**
 
 | Release | Downloads | Published |
 |---------|-----------|-----------|
 | chromiq-onscreen-e2e-2026-07-29 | 75 | 2026-07-29 |
+| chromiq-buttons-all-tabs-2026-07-29 | 56 | 2026-07-29 |
 | v3.6.4 | 54 | 2026-05-17 |
 | v3.12.1 | 52 | 2026-06-25 |
 | v3.6.7 | 48 | 2026-05-18 |
@@ -860,7 +867,6 @@ Quick navigation to repository statistics:
 | v3.7.0 | 41 | 2026-05-18 |
 | v3.6.6 | 38 | 2026-05-18 |
 | v3.7.38 | 28 | 2026-05-24 |
-| v3.14.7 | 26 | 2026-07-22 |
 
 **Recent Release Reception (first ~14 days):**
 
@@ -868,7 +874,11 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
-| v3.14.8-beta.94 | 2026-07-29 | 1d | 2 | 0 | 0 | **2** |
+| chromiq-icon-mockups-v2-2026-07-29 | 2026-07-29 | 1d | 0 | 0 | 0 | **0** |
+| v3.14.8-beta.96 | 2026-07-29 | 1d | 0 | 0 | 0 | **0** |
+| v3.14.8-beta.95 | 2026-07-29 | 1d | 1 | 0 | 0 | **1** |
+| chromiq-buttons-all-tabs-2026-07-29 | 2026-07-29 | 1d | 0 | 0 | 0 | **56** |
+| v3.14.8-beta.94 | 2026-07-29 | 1d | 3 | 0 | 0 | **3** |
 | chromiq-button-overlap-fix-2026-07-29 | 2026-07-29 | 1d | 0 | 0 | 0 | **16** |
 | chromiq-onscreen-e2e-2026-07-29 | 2026-07-29 | 1d | 0 | 0 | 0 | **75** |
 | v3.14.8-beta.93 | 2026-07-29 | 1d | 1 | 0 | 0 | **1** |
