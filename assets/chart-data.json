@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T22:25:35.988398Z",
+  "generated_at": "2026-07-29T23:27:49.804595Z",
   "repositories": [
     {
       "name": "itsab1989/ChromIQ",
@@ -580,7 +580,7 @@
             16,
             18,
             13,
-            421
+            467
           ],
           "windows": [
             7,
@@ -646,7 +646,7 @@
             8,
             11,
             8,
-            11
+            12
           ],
           "linux": [
             0,
@@ -819,7 +819,7 @@
             2172,
             2190,
             2203,
-            2624
+            2670
           ],
           "windows": [
             90,
@@ -957,7 +957,7 @@
             1527,
             1538,
             1546,
-            1557
+            1558
           ],
           "linux": [
             31,
@@ -3633,9 +3633,9 @@
             "published": "2026-07-29",
             "age_days": 1,
             "windows": 0,
-            "macos": 0,
+            "macos": 1,
             "linux": 0,
-            "total": 0
+            "total": 1
           },
           {
             "tag": "v3.14.8-beta.102",
@@ -3671,7 +3671,7 @@
             "windows": 0,
             "macos": 0,
             "linux": 0,
-            "total": 18
+            "total": 24
           },
           {
             "tag": "v3.14.8-beta.99",
@@ -3707,7 +3707,7 @@
             "windows": 0,
             "macos": 0,
             "linux": 0,
-            "total": 16
+            "total": 18
           },
           {
             "tag": "chromiq-undo-icon-mockups-2026-07-29",
@@ -3734,7 +3734,7 @@
             "windows": 0,
             "macos": 0,
             "linux": 0,
-            "total": 41
+            "total": 45
           },
           {
             "tag": "chromiq-icon-mockups-v2-2026-07-29",
@@ -3775,6 +3775,10 @@
               {
                 "h": 0.1,
                 "downloads": 0
+              },
+              {
+                "h": 1.13,
+                "downloads": 1
               }
             ]
           },
@@ -3843,6 +3847,10 @@
               {
                 "h": 3.43,
                 "downloads": 18
+              },
+              {
+                "h": 4.47,
+                "downloads": 24
               }
             ]
           },
