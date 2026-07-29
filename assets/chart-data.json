@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T17:43:36.442356Z",
+  "generated_at": "2026-07-29T18:45:52.733648Z",
   "repositories": [
     {
       "name": "itsab1989/ChromIQ",
@@ -580,7 +580,7 @@
             16,
             18,
             13,
-            373
+            392
           ],
           "windows": [
             7,
@@ -646,7 +646,7 @@
             8,
             11,
             8,
-            5
+            6
           ],
           "linux": [
             0,
@@ -819,7 +819,7 @@
             2172,
             2190,
             2203,
-            2576
+            2595
           ],
           "windows": [
             90,
@@ -957,7 +957,7 @@
             1527,
             1538,
             1546,
-            1551
+            1552
           ],
           "linux": [
             31,
@@ -3613,9 +3613,9 @@
             "published": "2026-07-29",
             "age_days": 1,
             "windows": 0,
-            "macos": 0,
+            "macos": 1,
             "linux": 0,
-            "total": 0
+            "total": 1
           },
           {
             "tag": "chromiq-text-audit-2026-07-29",
@@ -3642,7 +3642,7 @@
             "windows": 0,
             "macos": 0,
             "linux": 0,
-            "total": 8
+            "total": 14
           },
           {
             "tag": "chromiq-undo-icon-mockups-2026-07-29",
@@ -3669,7 +3669,7 @@
             "windows": 0,
             "macos": 0,
             "linux": 0,
-            "total": 25
+            "total": 37
           },
           {
             "tag": "chromiq-icon-mockups-v2-2026-07-29",
@@ -3755,6 +3755,10 @@
               {
                 "h": 0.12,
                 "downloads": 0
+              },
+              {
+                "h": 1.15,
+                "downloads": 1
               }
             ]
           },
@@ -3798,6 +3802,10 @@
               {
                 "h": 1.53,
                 "downloads": 8
+              },
+              {
+                "h": 4.08,
+                "downloads": 14
               }
             ]
           },

@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-07-29T17:43:36.442356Z
+**Last Updated:** 2026-07-29T18:45:52.733648Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -92,7 +92,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-2576-212121) ![clones](https://img.shields.io/badge/clones-17997-2196F3) ![views](https://img.shields.io/badge/views-4076-4CAF50) ![releases](https://img.shields.io/badge/releases-644-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-2595-212121) ![clones](https://img.shields.io/badge/clones-17997-2196F3) ![views](https://img.shields.io/badge/views-4076-4CAF50) ![releases](https://img.shields.io/badge/releases-644-6f42c1)
 
 *Tracking since **2026-05-02** (88 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~88 days have been tracked so far.*
 
@@ -102,7 +102,7 @@ Quick navigation to repository statistics:
 |--------|-----------|-----------|--------|
 | Clones | 918 | 974 | ▼ -5.7% |
 | Views | 333 | 481 | ▼ -30.8% |
-| Downloads | 458 | 168 | ▲ +172.6% |
+| Downloads | 477 | 168 | ▲ +183.9% |
 
 ### 🗅️ Clones
 
@@ -144,7 +144,7 @@ Quick navigation to repository statistics:
 |--------|-------|--------------------------|
 | 👀 Unique visitors | 326 | — |
 | 🗅️ Unique cloners | 990 | 303.7% |
-| 📥 Downloads | 1045 | 320.6% |
+| 📥 Downloads | 1064 | 326.4% |
 
 ### 📞 Referrers
 
@@ -186,25 +186,25 @@ Quick navigation to repository statistics:
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
 | 🪟 Windows | 227 | 457 | 547 |
-| 🍎 macOS | 393 | 1072 | 1551 |
+| 🍎 macOS | 394 | 1073 | 1552 |
 | 🐧 Linux | 60 | 82 | 113 |
-| **All** | **1045** | **1976** | **2576** |
+| **All** | **1064** | **1995** | **2595** |
 
-*ℹ️ 365 lifetime downloads are counted in **All** but matched no platform (the asset filename didn't match the Windows/macOS/Linux patterns).*
+*ℹ️ 383 lifetime downloads are counted in **All** but matched no platform (the asset filename didn't match the Windows/macOS/Linux patterns).*
 
-🆕 **Latest Release:** `v3.14.8-beta.99` - **0** downloads (published 2026-07-29)
+🆕 **Latest Release:** `v3.14.8-beta.99` - **1** download (published 2026-07-29)
 
 <details>
 <summary><strong>📦 Per-version downloads</strong> (644 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
-| v3.14.8-beta.99 | 0 | 0 | 0 | **0** |
+| v3.14.8-beta.99 | 0 | 1 | 0 | **1** |
 | chromiq-text-audit-2026-07-29 | 0 | 0 | 0 | **0** |
 | v3.14.8-beta.98 | 1 | 1 | 0 | **2** |
-| chromiq-undo-icon-mockups-v2-2026-07-29 | 0 | 0 | 0 | **8** |
+| chromiq-undo-icon-mockups-v2-2026-07-29 | 0 | 0 | 0 | **14** |
 | v3.14.8-beta.97 | 0 | 1 | 0 | **1** |
-| chromiq-icon-mockups-v4-2026-07-29 | 0 | 0 | 0 | **25** |
+| chromiq-icon-mockups-v4-2026-07-29 | 0 | 0 | 0 | **37** |
 | v3.14.8-beta.96 | 0 | 1 | 0 | **1** |
 | v3.14.8-beta.95 | 1 | 0 | 0 | **1** |
 | chromiq-buttons-all-tabs-2026-07-29 | 0 | 0 | 0 | **141** |
@@ -853,7 +853,7 @@ Quick navigation to repository statistics:
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
 | 🪟 Windows | 72 | 475 | 0 | **547** |
-| 🍎 macOS | 958 | 305 | 288 | **1551** |
+| 🍎 macOS | 959 | 305 | 288 | **1552** |
 | 🐧 Linux | 46 | 67 | 0 | **113** |
 
 *💡 Low-volume builds (<2% of lifetime downloads), candidates to stop shipping: 🐧 Linux arm64 (46, 1.8%).*
@@ -871,7 +871,7 @@ Quick navigation to repository statistics:
 | v3.7.1 | 42 | 2026-05-18 |
 | v3.7.0 | 41 | 2026-05-18 |
 | v3.6.6 | 38 | 2026-05-18 |
-| chromiq-button-overlap-fix-2026-07-29 | 36 | 2026-07-29 |
+| chromiq-icon-mockups-v4-2026-07-29 | 37 | 2026-07-29 |
 
 **Recent Release Reception (first ~14 days):**
 
@@ -879,13 +879,13 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
-| v3.14.8-beta.99 | 2026-07-29 | 1d | 0 | 0 | 0 | **0** |
+| v3.14.8-beta.99 | 2026-07-29 | 1d | 0 | 1 | 0 | **1** |
 | chromiq-text-audit-2026-07-29 | 2026-07-29 | 1d | 0 | 0 | 0 | **0** |
 | v3.14.8-beta.98 | 2026-07-29 | 1d | 1 | 1 | 0 | **2** |
-| chromiq-undo-icon-mockups-v2-2026-07-29 | 2026-07-29 | 1d | 0 | 0 | 0 | **8** |
+| chromiq-undo-icon-mockups-v2-2026-07-29 | 2026-07-29 | 1d | 0 | 0 | 0 | **14** |
 | chromiq-undo-icon-mockups-2026-07-29 | 2026-07-29 | 1d | 0 | 0 | 0 | **0** |
 | v3.14.8-beta.97 | 2026-07-29 | 1d | 0 | 1 | 0 | **1** |
-| chromiq-icon-mockups-v4-2026-07-29 | 2026-07-29 | 1d | 0 | 0 | 0 | **25** |
+| chromiq-icon-mockups-v4-2026-07-29 | 2026-07-29 | 1d | 0 | 0 | 0 | **37** |
 | chromiq-icon-mockups-v2-2026-07-29 | 2026-07-29 | 1d | 0 | 0 | 0 | **0** |
 | v3.14.8-beta.96 | 2026-07-29 | 1d | 0 | 1 | 0 | **1** |
 | v3.14.8-beta.95 | 2026-07-29 | 1d | 1 | 0 | 0 | **1** |
