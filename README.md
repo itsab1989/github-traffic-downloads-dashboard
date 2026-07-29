@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-07-29T16:13:18.447501Z
+**Last Updated:** 2026-07-29T17:43:36.442356Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -92,7 +92,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-2574-212121) ![clones](https://img.shields.io/badge/clones-17997-2196F3) ![views](https://img.shields.io/badge/views-4076-4CAF50) ![releases](https://img.shields.io/badge/releases-643-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-2576-212121) ![clones](https://img.shields.io/badge/clones-17997-2196F3) ![views](https://img.shields.io/badge/views-4076-4CAF50) ![releases](https://img.shields.io/badge/releases-644-6f42c1)
 
 *Tracking since **2026-05-02** (88 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~88 days have been tracked so far.*
 
@@ -102,7 +102,7 @@ Quick navigation to repository statistics:
 |--------|-----------|-----------|--------|
 | Clones | 918 | 974 | ▼ -5.7% |
 | Views | 333 | 481 | ▼ -30.8% |
-| Downloads | 456 | 168 | ▲ +171.4% |
+| Downloads | 458 | 168 | ▲ +172.6% |
 
 ### 🗅️ Clones
 
@@ -144,7 +144,7 @@ Quick navigation to repository statistics:
 |--------|-------|--------------------------|
 | 👀 Unique visitors | 326 | — |
 | 🗅️ Unique cloners | 990 | 303.7% |
-| 📥 Downloads | 1043 | 319.9% |
+| 📥 Downloads | 1045 | 320.6% |
 
 ### 📞 Referrers
 
@@ -185,22 +185,23 @@ Quick navigation to repository statistics:
 
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
-| 🪟 Windows | 226 | 456 | 546 |
-| 🍎 macOS | 392 | 1071 | 1550 |
+| 🪟 Windows | 227 | 457 | 547 |
+| 🍎 macOS | 393 | 1072 | 1551 |
 | 🐧 Linux | 60 | 82 | 113 |
-| **All** | **1043** | **1974** | **2574** |
+| **All** | **1045** | **1976** | **2576** |
 
 *ℹ️ 365 lifetime downloads are counted in **All** but matched no platform (the asset filename didn't match the Windows/macOS/Linux patterns).*
 
-🆕 **Latest Release:** `chromiq-text-audit-2026-07-29` - **0** downloads (published 2026-07-29)
+🆕 **Latest Release:** `v3.14.8-beta.99` - **0** downloads (published 2026-07-29)
 
 <details>
-<summary><strong>📦 Per-version downloads</strong> (643 releases - click to expand)</summary>
+<summary><strong>📦 Per-version downloads</strong> (644 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
+| v3.14.8-beta.99 | 0 | 0 | 0 | **0** |
 | chromiq-text-audit-2026-07-29 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.98 | 0 | 0 | 0 | **0** |
+| v3.14.8-beta.98 | 1 | 1 | 0 | **2** |
 | chromiq-undo-icon-mockups-v2-2026-07-29 | 0 | 0 | 0 | **8** |
 | v3.14.8-beta.97 | 0 | 1 | 0 | **1** |
 | chromiq-icon-mockups-v4-2026-07-29 | 0 | 0 | 0 | **25** |
@@ -851,8 +852,8 @@ Quick navigation to repository statistics:
 
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
-| 🪟 Windows | 72 | 474 | 0 | **546** |
-| 🍎 macOS | 957 | 305 | 288 | **1550** |
+| 🪟 Windows | 72 | 475 | 0 | **547** |
+| 🍎 macOS | 958 | 305 | 288 | **1551** |
 | 🐧 Linux | 46 | 67 | 0 | **113** |
 
 *💡 Low-volume builds (<2% of lifetime downloads), candidates to stop shipping: 🐧 Linux arm64 (46, 1.8%).*
@@ -878,8 +879,9 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
+| v3.14.8-beta.99 | 2026-07-29 | 1d | 0 | 0 | 0 | **0** |
 | chromiq-text-audit-2026-07-29 | 2026-07-29 | 1d | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.98 | 2026-07-29 | 1d | 0 | 0 | 0 | **0** |
+| v3.14.8-beta.98 | 2026-07-29 | 1d | 1 | 1 | 0 | **2** |
 | chromiq-undo-icon-mockups-v2-2026-07-29 | 2026-07-29 | 1d | 0 | 0 | 0 | **8** |
 | chromiq-undo-icon-mockups-2026-07-29 | 2026-07-29 | 1d | 0 | 0 | 0 | **0** |
 | v3.14.8-beta.97 | 2026-07-29 | 1d | 0 | 1 | 0 | **1** |
