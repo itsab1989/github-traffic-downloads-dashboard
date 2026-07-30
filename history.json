@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-07-30T06:14:44Z",
-    "last_updated": "2026-07-30T06:14:44.885220Z",
+    "generated_at": "2026-07-30T09:08:20Z",
+    "last_updated": "2026-07-30T09:08:20.233847Z",
     "repositories": [
       "itsab1989/ChromIQ",
       "itsab1989/ChromIQ-Patches"
@@ -2581,7 +2581,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-07-30T06:14:44Z",
+        "last_fetched": "2026-07-30T09:08:20Z",
         "clones_total": 319,
         "clones_unique_total": 147,
         "views_total": 78,
@@ -2910,7 +2910,7 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-07-30T06:14:44Z",
+          "last_fetched": "2026-07-30T09:08:20Z",
           "cumulative_total": 33,
           "cumulative_windows": 12,
           "cumulative_macos": 18,
@@ -5528,10 +5528,10 @@
         },
         {
           "date": "2026-07-29",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
+          "clones_total": 143,
+          "clones_unique": 27,
+          "views_total": 64,
+          "views_unique": 9
         },
         {
           "date": "2026-07-30",
@@ -5544,13 +5544,13 @@
       "referrers": [
         {
           "referrer": "Google",
-          "count": 78,
-          "uniques": 26
+          "count": 84,
+          "uniques": 27
         },
         {
           "referrer": "printerknowledge.com",
-          "count": 18,
-          "uniques": 7
+          "count": 21,
+          "uniques": 8
         },
         {
           "referrer": "forum.luminous-landscape.com",
@@ -5574,8 +5574,8 @@
         },
         {
           "referrer": "hub.displaycal.net",
-          "count": 5,
-          "uniques": 3
+          "count": 6,
+          "uniques": 4
         },
         {
           "referrer": "reddit.com",
@@ -5583,22 +5583,22 @@
           "uniques": 2
         },
         {
-          "referrer": "DuckDuckGo",
-          "count": 1,
-          "uniques": 1
+          "referrer": "chatgpt.com",
+          "count": 2,
+          "uniques": 2
         },
         {
-          "referrer": "chatgpt.com",
+          "referrer": "DuckDuckGo",
           "count": 1,
           "uniques": 1
         }
       ],
       "metadata": {
-        "last_fetched": "2026-07-30T06:14:44Z",
-        "clones_total": 17997,
-        "clones_unique_total": 3947,
-        "views_total": 4076,
-        "views_unique_total": 991
+        "last_fetched": "2026-07-30T09:08:20Z",
+        "clones_total": 18140,
+        "clones_unique_total": 3974,
+        "views_total": 4140,
+        "views_unique_total": 1000
       },
       "downloads": {
         "daily_data": [
@@ -6341,29 +6341,29 @@
           },
           {
             "date": "2026-07-30",
-            "cumulative_total": 2717,
-            "downloads_total": 47,
+            "cumulative_total": 2723,
+            "downloads_total": 53,
             "cumulative_windows": 549,
             "downloads_windows": 2,
-            "cumulative_macos": 1560,
-            "downloads_macos": 2,
+            "cumulative_macos": 1561,
+            "downloads_macos": 3,
             "cumulative_linux": 113,
             "downloads_linux": 0
           }
         ],
         "metadata": {
-          "last_fetched": "2026-07-30T06:14:44Z",
-          "cumulative_total": 2717,
+          "last_fetched": "2026-07-30T09:08:20Z",
+          "cumulative_total": 2723,
           "cumulative_windows": 549,
-          "cumulative_macos": 1560,
+          "cumulative_macos": 1561,
           "cumulative_linux": 113
         },
         "by_release": [
           {
             "tag": "v3.14.8-beta.105",
-            "downloads": 1,
+            "downloads": 2,
             "windows": 1,
-            "macos": 0,
+            "macos": 1,
             "linux": 0,
             "published_at": "2026-07-30T01:31:34Z"
           },
@@ -7201,7 +7201,7 @@
           },
           {
             "tag": "chromiq-undo-icon-mockups-v2-2026-07-29",
-            "downloads": 22,
+            "downloads": 24,
             "windows": 0,
             "macos": 0,
             "linux": 0,
@@ -7257,7 +7257,7 @@
           },
           {
             "tag": "chromiq-bar-icons-shipped-2026-07-29",
-            "downloads": 30,
+            "downloads": 33,
             "windows": 0,
             "macos": 0,
             "linux": 0,
@@ -11574,7 +11574,7 @@
             "x86_64": 477
           },
           "macos": {
-            "arm64": 966,
+            "arm64": 967,
             "universal": 288,
             "x86_64": 306
           },
@@ -21473,7 +21473,7 @@
               },
               {
                 "date": "2026-07-30",
-                "downloads": 22,
+                "downloads": 24,
                 "windows": 0,
                 "macos": 0,
                 "linux": 0
@@ -21518,6 +21518,13 @@
               {
                 "time": "2026-07-30T03:47:39Z",
                 "downloads": 22,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
+              },
+              {
+                "time": "2026-07-30T09:08:20Z",
+                "downloads": 24,
                 "windows": 0,
                 "macos": 0,
                 "linux": 0
@@ -21669,7 +21676,7 @@
               },
               {
                 "date": "2026-07-30",
-                "downloads": 30,
+                "downloads": 33,
                 "windows": 0,
                 "macos": 0,
                 "linux": 0
@@ -21714,6 +21721,13 @@
               {
                 "time": "2026-07-30T03:47:39Z",
                 "downloads": 30,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
+              },
+              {
+                "time": "2026-07-30T09:08:20Z",
+                "downloads": 33,
                 "windows": 0,
                 "macos": 0,
                 "linux": 0
@@ -21809,9 +21823,9 @@
             "snapshots": [
               {
                 "date": "2026-07-30",
-                "downloads": 1,
+                "downloads": 2,
                 "windows": 1,
-                "macos": 0,
+                "macos": 1,
                 "linux": 0
               }
             ],
@@ -21828,6 +21842,13 @@
                 "downloads": 1,
                 "windows": 1,
                 "macos": 0,
+                "linux": 0
+              },
+              {
+                "time": "2026-07-30T09:08:20Z",
+                "downloads": 2,
+                "windows": 1,
+                "macos": 1,
                 "linux": 0
               }
             ]
