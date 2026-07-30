@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T00:52:52.434321Z",
+  "generated_at": "2026-07-30T03:47:39.784795Z",
   "repositories": [
     {
       "name": "itsab1989/ChromIQ",
@@ -583,7 +583,7 @@
             18,
             13,
             467,
-            39
+            44
           ],
           "windows": [
             16,
@@ -824,7 +824,7 @@
             2190,
             2203,
             2670,
-            2709
+            2714
           ],
           "windows": [
             90,
@@ -1038,6 +1038,10 @@
           ]
         },
         "releases": [
+          {
+            "date": "2026-07-30",
+            "tag": "v3.14.8-beta.105"
+          },
           {
             "date": "2026-07-29",
             "tag": "v3.14.8-beta.99"
@@ -3641,6 +3645,15 @@
         ],
         "reception": [
           {
+            "tag": "v3.14.8-beta.105",
+            "published": "2026-07-30",
+            "age_days": 1,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "total": 0
+          },
+          {
             "tag": "v3.14.8-beta.104",
             "published": "2026-07-29",
             "age_days": 2,
@@ -3692,7 +3705,7 @@
             "windows": 0,
             "macos": 0,
             "linux": 0,
-            "total": 27
+            "total": 30
           },
           {
             "tag": "v3.14.8-beta.99",
@@ -3728,7 +3741,7 @@
             "windows": 0,
             "macos": 0,
             "linux": 0,
-            "total": 20
+            "total": 22
           },
           {
             "tag": "chromiq-undo-icon-mockups-2026-07-29",
@@ -3765,18 +3778,22 @@
             "macos": 0,
             "linux": 0,
             "total": 0
-          },
-          {
-            "tag": "v3.14.8-beta.96",
-            "published": "2026-07-29",
-            "age_days": 2,
-            "windows": 0,
-            "macos": 1,
-            "linux": 0,
-            "total": 1
           }
         ],
         "launch_curves": [
+          {
+            "tag": "v3.14.8-beta.105",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 2.27,
+                "downloads": 0
+              }
+            ]
+          },
           {
             "tag": "v3.14.8-beta.104",
             "points": [
@@ -3851,35 +3868,6 @@
               {
                 "h": 2.37,
                 "downloads": 2
-              }
-            ]
-          },
-          {
-            "tag": "chromiq-bar-icons-shipped-2026-07-29",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 1.09,
-                "downloads": 12
-              },
-              {
-                "h": 2.4,
-                "downloads": 15
-              },
-              {
-                "h": 3.43,
-                "downloads": 18
-              },
-              {
-                "h": 4.47,
-                "downloads": 24
-              },
-              {
-                "h": 5.88,
-                "downloads": 27
               }
             ]
           }
