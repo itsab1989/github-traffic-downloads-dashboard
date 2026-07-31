@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-07-31T19:58:57.124943Z
+**Last Updated:** 2026-07-31T20:59:48.023256Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -92,7 +92,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-2858-212121) ![clones](https://img.shields.io/badge/clones-18254-2196F3) ![views](https://img.shields.io/badge/views-4188-4CAF50) ![releases](https://img.shields.io/badge/releases-660-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-2879-212121) ![clones](https://img.shields.io/badge/clones-18254-2196F3) ![views](https://img.shields.io/badge/views-4188-4CAF50) ![releases](https://img.shields.io/badge/releases-660-6f42c1)
 
 *Tracking since **2026-05-02** (90 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~90 days have been tracked so far.*
 
@@ -102,7 +102,7 @@ Quick navigation to repository statistics:
 |--------|-----------|-----------|--------|
 | Clones | 924 | 1055 | ▼ -12.4% |
 | Views | 334 | 521 | ▼ -35.9% |
-| Downloads | 706 | 178 | ▲ +296.6% |
+| Downloads | 727 | 178 | ▲ +308.4% |
 
 ### 🗅️ Clones
 
@@ -144,7 +144,7 @@ Quick navigation to repository statistics:
 |--------|-------|--------------------------|
 | 👀 Unique visitors | 327 | — |
 | 🗅️ Unique cloners | 939 | 287.2% |
-| 📥 Downloads | 1258 | 384.7% |
+| 📥 Downloads | 1279 | 391.1% |
 
 ### 📞 Referrers
 
@@ -188,9 +188,9 @@ Quick navigation to repository statistics:
 | 🪟 Windows | 216 | 469 | 559 |
 | 🍎 macOS | 374 | 1091 | 1570 |
 | 🐧 Linux | 52 | 82 | 113 |
-| **All** | **1258** | **2258** | **2858** |
+| **All** | **1279** | **2279** | **2879** |
 
-*ℹ️ 616 lifetime downloads are counted in **All** but matched no platform (the asset filename didn't match the Windows/macOS/Linux patterns).*
+*ℹ️ 637 lifetime downloads are counted in **All** but matched no platform (the asset filename didn't match the Windows/macOS/Linux patterns).*
 
 🆕 **Latest Release:** `v3.14.8-beta.114` - **1** download (published 2026-07-31)
 
@@ -214,11 +214,11 @@ Quick navigation to repository statistics:
 | v3.14.8-beta.102 | 0 | 1 | 0 | **1** |
 | v3.14.8-beta.101 | 0 | 1 | 0 | **1** |
 | v3.14.8-beta.100 | 0 | 2 | 0 | **2** |
-| chromiq-bar-icons-shipped-2026-07-29 | 0 | 0 | 0 | **57** |
+| chromiq-bar-icons-shipped-2026-07-29 | 0 | 0 | 0 | **72** |
 | v3.14.8-beta.99 | 0 | 1 | 0 | **1** |
 | chromiq-text-audit-2026-07-29 | 0 | 0 | 0 | **0** |
 | v3.14.8-beta.98 | 1 | 1 | 0 | **2** |
-| chromiq-undo-icon-mockups-v2-2026-07-29 | 0 | 0 | 0 | **40** |
+| chromiq-undo-icon-mockups-v2-2026-07-29 | 0 | 0 | 0 | **46** |
 | v3.14.8-beta.97 | 0 | 1 | 0 | **1** |
 | chromiq-icon-mockups-v4-2026-07-29 | 0 | 0 | 0 | **53** |
 | v3.14.8-beta.96 | 0 | 1 | 0 | **1** |
@@ -880,14 +880,14 @@ Quick navigation to repository statistics:
 |---------|-----------|-----------|
 | chromiq-onscreen-e2e-2026-07-29 | 211 | 2026-07-29 |
 | chromiq-buttons-all-tabs-2026-07-29 | 197 | 2026-07-29 |
-| chromiq-bar-icons-shipped-2026-07-29 | 57 | 2026-07-29 |
+| chromiq-bar-icons-shipped-2026-07-29 | 72 | 2026-07-29 |
 | v3.6.4 | 54 | 2026-05-17 |
 | chromiq-icon-mockups-v4-2026-07-29 | 53 | 2026-07-29 |
 | chromiq-button-overlap-fix-2026-07-29 | 52 | 2026-07-29 |
 | v3.12.1 | 52 | 2026-06-25 |
 | v3.6.7 | 48 | 2026-05-18 |
 | v3.6.5 | 48 | 2026-05-18 |
-| v3.7.1 | 42 | 2026-05-18 |
+| chromiq-undo-icon-mockups-v2-2026-07-29 | 46 | 2026-07-29 |
 
 **Recent Release Reception (first ~14 days):**
 
@@ -910,11 +910,11 @@ Quick navigation to repository statistics:
 | v3.14.8-beta.102 | 2026-07-29 | 3d | 0 | 1 | 0 | **1** |
 | v3.14.8-beta.101 | 2026-07-29 | 3d | 0 | 1 | 0 | **1** |
 | v3.14.8-beta.100 | 2026-07-29 | 3d | 0 | 2 | 0 | **2** |
-| chromiq-bar-icons-shipped-2026-07-29 | 2026-07-29 | 3d | 0 | 0 | 0 | **57** |
+| chromiq-bar-icons-shipped-2026-07-29 | 2026-07-29 | 3d | 0 | 0 | 0 | **72** |
 | v3.14.8-beta.99 | 2026-07-29 | 3d | 0 | 1 | 0 | **1** |
 | chromiq-text-audit-2026-07-29 | 2026-07-29 | 3d | 0 | 0 | 0 | **0** |
 | v3.14.8-beta.98 | 2026-07-29 | 3d | 1 | 1 | 0 | **2** |
-| chromiq-undo-icon-mockups-v2-2026-07-29 | 2026-07-29 | 3d | 0 | 0 | 0 | **40** |
+| chromiq-undo-icon-mockups-v2-2026-07-29 | 2026-07-29 | 3d | 0 | 0 | 0 | **46** |
 | chromiq-undo-icon-mockups-2026-07-29 | 2026-07-29 | 1d | 0 | 0 | 0 | **0** |
 | v3.14.8-beta.97 | 2026-07-29 | 3d | 0 | 1 | 0 | **1** |
 | chromiq-icon-mockups-v4-2026-07-29 | 2026-07-29 | 3d | 0 | 0 | 0 | **53** |
