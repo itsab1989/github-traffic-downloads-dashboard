@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-08-01T06:46:38.862392Z
+**Last Updated:** 2026-08-01T08:58:44.527426Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -92,7 +92,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-3094-212121) ![clones](https://img.shields.io/badge/clones-18254-2196F3) ![views](https://img.shields.io/badge/views-4188-4CAF50) ![releases](https://img.shields.io/badge/releases-661-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-3115-212121) ![clones](https://img.shields.io/badge/clones-18254-2196F3) ![views](https://img.shields.io/badge/views-4188-4CAF50) ![releases](https://img.shields.io/badge/releases-661-6f42c1)
 
 *Tracking since **2026-05-02** (90 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~90 days have been tracked so far.*
 
@@ -102,7 +102,7 @@ Quick navigation to repository statistics:
 |--------|-----------|-----------|--------|
 | Clones | 890 | 941 | ▼ -5.4% |
 | Views | 302 | 492 | ▼ -38.6% |
-| Downloads | 938 | 156 | ▲ +501.3% |
+| Downloads | 959 | 156 | ▲ +514.7% |
 
 ### 🗅️ Clones
 
@@ -144,7 +144,7 @@ Quick navigation to repository statistics:
 |--------|-------|--------------------------|
 | 👀 Unique visitors | 317 | — |
 | 🗅️ Unique cloners | 892 | 281.4% |
-| 📥 Downloads | 1480 | 466.9% |
+| 📥 Downloads | 1501 | 473.5% |
 
 ### 📞 Referrers
 
@@ -186,20 +186,20 @@ Quick navigation to repository statistics:
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
 | 🪟 Windows | 214 | 470 | 560 |
-| 🍎 macOS | 366 | 1094 | 1573 |
+| 🍎 macOS | 367 | 1095 | 1574 |
 | 🐧 Linux | 53 | 83 | 114 |
-| **All** | **1480** | **2494** | **3094** |
+| **All** | **1501** | **2515** | **3115** |
 
-*ℹ️ 847 lifetime downloads are counted in **All** but matched no platform (the asset filename didn't match the Windows/macOS/Linux patterns).*
+*ℹ️ 867 lifetime downloads are counted in **All** but matched no platform (the asset filename didn't match the Windows/macOS/Linux patterns).*
 
-🆕 **Latest Release:** `v3.14.8-beta.115` - **0** downloads (published 2026-07-31)
+🆕 **Latest Release:** `v3.14.8-beta.115` - **1** download (published 2026-07-31)
 
 <details>
 <summary><strong>📦 Per-version downloads</strong> (661 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
-| v3.14.8-beta.115 | 0 | 0 | 0 | **0** |
+| v3.14.8-beta.115 | 0 | 1 | 0 | **1** |
 | v3.14.8-beta.114 | 0 | 1 | 0 | **1** |
 | v3.14.8-beta.113 | 1 | 0 | 0 | **1** |
 | v3.14.8-beta.112 | 0 | 1 | 0 | **1** |
@@ -215,11 +215,11 @@ Quick navigation to repository statistics:
 | v3.14.8-beta.102 | 0 | 1 | 0 | **1** |
 | v3.14.8-beta.101 | 0 | 1 | 0 | **1** |
 | v3.14.8-beta.100 | 0 | 2 | 0 | **2** |
-| chromiq-bar-icons-shipped-2026-07-29 | 0 | 0 | 0 | **198** |
+| chromiq-bar-icons-shipped-2026-07-29 | 0 | 0 | 0 | **210** |
 | v3.14.8-beta.99 | 0 | 1 | 0 | **1** |
 | chromiq-text-audit-2026-07-29 | 0 | 0 | 0 | **0** |
 | v3.14.8-beta.98 | 1 | 1 | 0 | **2** |
-| chromiq-undo-icon-mockups-v2-2026-07-29 | 0 | 0 | 0 | **130** |
+| chromiq-undo-icon-mockups-v2-2026-07-29 | 0 | 0 | 0 | **138** |
 | v3.14.8-beta.97 | 0 | 1 | 0 | **1** |
 | chromiq-icon-mockups-v4-2026-07-29 | 0 | 0 | 0 | **53** |
 | v3.14.8-beta.96 | 0 | 1 | 0 | **1** |
@@ -870,7 +870,7 @@ Quick navigation to repository statistics:
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
 | 🪟 Windows | 73 | 487 | 0 | **560** |
-| 🍎 macOS | 976 | 308 | 289 | **1573** |
+| 🍎 macOS | 977 | 308 | 289 | **1574** |
 | 🐧 Linux | 46 | 68 | 0 | **114** |
 
 *💡 Low-volume builds (<2% of lifetime downloads), candidates to stop shipping: 🐧 Linux arm64 (46, 1.5%).*
@@ -880,9 +880,9 @@ Quick navigation to repository statistics:
 | Release | Downloads | Published |
 |---------|-----------|-----------|
 | chromiq-onscreen-e2e-2026-07-29 | 211 | 2026-07-29 |
-| chromiq-bar-icons-shipped-2026-07-29 | 198 | 2026-07-29 |
+| chromiq-bar-icons-shipped-2026-07-29 | 210 | 2026-07-29 |
 | chromiq-buttons-all-tabs-2026-07-29 | 197 | 2026-07-29 |
-| chromiq-undo-icon-mockups-v2-2026-07-29 | 130 | 2026-07-29 |
+| chromiq-undo-icon-mockups-v2-2026-07-29 | 138 | 2026-07-29 |
 | v3.6.4 | 54 | 2026-05-17 |
 | chromiq-icon-mockups-v4-2026-07-29 | 53 | 2026-07-29 |
 | chromiq-button-overlap-fix-2026-07-29 | 52 | 2026-07-29 |
@@ -896,7 +896,7 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
-| v3.14.8-beta.115 | 2026-07-31 | 2d | 0 | 0 | 0 | **0** |
+| v3.14.8-beta.115 | 2026-07-31 | 2d | 0 | 1 | 0 | **1** |
 | v3.14.8-beta.114 | 2026-07-31 | 2d | 0 | 1 | 0 | **1** |
 | v3.14.8-beta.113 | 2026-07-31 | 2d | 1 | 0 | 0 | **1** |
 | v3.14.8-beta.112 | 2026-07-30 | 3d | 0 | 1 | 0 | **1** |
@@ -912,11 +912,11 @@ Quick navigation to repository statistics:
 | v3.14.8-beta.102 | 2026-07-29 | 4d | 0 | 1 | 0 | **1** |
 | v3.14.8-beta.101 | 2026-07-29 | 4d | 0 | 1 | 0 | **1** |
 | v3.14.8-beta.100 | 2026-07-29 | 4d | 0 | 2 | 0 | **2** |
-| chromiq-bar-icons-shipped-2026-07-29 | 2026-07-29 | 4d | 0 | 0 | 0 | **198** |
+| chromiq-bar-icons-shipped-2026-07-29 | 2026-07-29 | 4d | 0 | 0 | 0 | **210** |
 | v3.14.8-beta.99 | 2026-07-29 | 4d | 0 | 1 | 0 | **1** |
 | chromiq-text-audit-2026-07-29 | 2026-07-29 | 4d | 0 | 0 | 0 | **0** |
 | v3.14.8-beta.98 | 2026-07-29 | 4d | 1 | 1 | 0 | **2** |
-| chromiq-undo-icon-mockups-v2-2026-07-29 | 2026-07-29 | 4d | 0 | 0 | 0 | **130** |
+| chromiq-undo-icon-mockups-v2-2026-07-29 | 2026-07-29 | 4d | 0 | 0 | 0 | **138** |
 | chromiq-undo-icon-mockups-2026-07-29 | 2026-07-29 | 1d | 0 | 0 | 0 | **0** |
 | v3.14.8-beta.97 | 2026-07-29 | 4d | 0 | 1 | 0 | **1** |
 | chromiq-icon-mockups-v4-2026-07-29 | 2026-07-29 | 4d | 0 | 0 | 0 | **53** |
