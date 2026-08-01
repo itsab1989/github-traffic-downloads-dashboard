@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-08-01T01:00:18Z",
-    "last_updated": "2026-08-01T01:00:18.722888Z",
+    "generated_at": "2026-08-01T04:20:30Z",
+    "last_updated": "2026-08-01T04:20:30.772558Z",
     "repositories": [
       "itsab1989/ChromIQ",
       "itsab1989/ChromIQ-Patches"
@@ -2581,7 +2581,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-08-01T01:00:18Z",
+        "last_fetched": "2026-08-01T04:20:30Z",
         "clones_total": 319,
         "clones_unique_total": 147,
         "views_total": 78,
@@ -2932,7 +2932,7 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-08-01T01:00:18Z",
+          "last_fetched": "2026-08-01T04:20:30Z",
           "cumulative_total": 33,
           "cumulative_windows": 12,
           "cumulative_macos": 18,
@@ -5616,7 +5616,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-08-01T01:00:18Z",
+        "last_fetched": "2026-08-01T04:20:30Z",
         "clones_total": 18254,
         "clones_unique_total": 4004,
         "views_total": 4188,
@@ -6385,8 +6385,8 @@
           },
           {
             "date": "2026-08-01",
-            "cumulative_total": 3019,
-            "downloads_total": 40,
+            "cumulative_total": 3079,
+            "downloads_total": 100,
             "cumulative_windows": 559,
             "downloads_windows": 0,
             "cumulative_macos": 1570,
@@ -6396,8 +6396,8 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-08-01T01:00:18Z",
-          "cumulative_total": 3019,
+          "last_fetched": "2026-08-01T04:20:30Z",
+          "cumulative_total": 3079,
           "cumulative_windows": 559,
           "cumulative_macos": 1570,
           "cumulative_linux": 113
@@ -7325,7 +7325,7 @@
           },
           {
             "tag": "chromiq-undo-icon-mockups-v2-2026-07-29",
-            "downloads": 102,
+            "downloads": 126,
             "windows": 0,
             "macos": 0,
             "linux": 0,
@@ -7381,7 +7381,7 @@
           },
           {
             "tag": "chromiq-bar-icons-shipped-2026-07-29",
-            "downloads": 156,
+            "downloads": 192,
             "windows": 0,
             "macos": 0,
             "linux": 0,
@@ -23221,7 +23221,7 @@
               },
               {
                 "date": "2026-08-01",
-                "downloads": 102,
+                "downloads": 126,
                 "windows": 0,
                 "macos": 0,
                 "linux": 0
@@ -23508,7 +23508,7 @@
               },
               {
                 "date": "2026-08-01",
-                "downloads": 156,
+                "downloads": 192,
                 "windows": 0,
                 "macos": 0,
                 "linux": 0
