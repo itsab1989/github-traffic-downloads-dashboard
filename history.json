@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-08-01T08:58:44Z",
-    "last_updated": "2026-08-01T08:58:44.527426Z",
+    "generated_at": "2026-08-01T10:37:03Z",
+    "last_updated": "2026-08-01T10:37:03.297979Z",
     "repositories": [
       "itsab1989/ChromIQ",
       "itsab1989/ChromIQ-Patches"
@@ -2581,7 +2581,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-08-01T08:58:44Z",
+        "last_fetched": "2026-08-01T10:37:03Z",
         "clones_total": 319,
         "clones_unique_total": 147,
         "views_total": 78,
@@ -2932,7 +2932,7 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-08-01T08:58:44Z",
+          "last_fetched": "2026-08-01T10:37:03Z",
           "cumulative_total": 37,
           "cumulative_windows": 13,
           "cumulative_macos": 21,
@@ -5550,10 +5550,10 @@
         },
         {
           "date": "2026-07-31",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
+          "clones_total": 45,
+          "clones_unique": 16,
+          "views_total": 46,
+          "views_unique": 6
         },
         {
           "date": "2026-08-01",
@@ -5566,8 +5566,8 @@
       "referrers": [
         {
           "referrer": "Google",
-          "count": 88,
-          "uniques": 28
+          "count": 87,
+          "uniques": 27
         },
         {
           "referrer": "printerknowledge.com",
@@ -5575,13 +5575,13 @@
           "uniques": 9
         },
         {
-          "referrer": "github.com",
-          "count": 13,
+          "referrer": "dpreview.com",
+          "count": 23,
           "uniques": 7
         },
         {
-          "referrer": "dpreview.com",
-          "count": 10,
+          "referrer": "github.com",
+          "count": 11,
           "uniques": 7
         },
         {
@@ -5616,11 +5616,11 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-08-01T08:58:44Z",
-        "clones_total": 18254,
-        "clones_unique_total": 4004,
-        "views_total": 4188,
-        "views_unique_total": 1009
+        "last_fetched": "2026-08-01T10:37:03Z",
+        "clones_total": 18299,
+        "clones_unique_total": 4020,
+        "views_total": 4234,
+        "views_unique_total": 1015
       },
       "downloads": {
         "daily_data": [
@@ -6385,8 +6385,8 @@
           },
           {
             "date": "2026-08-01",
-            "cumulative_total": 3115,
-            "downloads_total": 136,
+            "cumulative_total": 3181,
+            "downloads_total": 202,
             "cumulative_windows": 560,
             "downloads_windows": 1,
             "cumulative_macos": 1574,
@@ -6396,8 +6396,8 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-08-01T08:58:44Z",
-          "cumulative_total": 3115,
+          "last_fetched": "2026-08-01T10:37:03Z",
+          "cumulative_total": 3181,
           "cumulative_windows": 560,
           "cumulative_macos": 1574,
           "cumulative_linux": 114
@@ -7325,7 +7325,7 @@
           },
           {
             "tag": "chromiq-undo-icon-mockups-v2-2026-07-29",
-            "downloads": 138,
+            "downloads": 162,
             "windows": 0,
             "macos": 0,
             "linux": 0,
@@ -7381,7 +7381,7 @@
           },
           {
             "tag": "chromiq-bar-icons-shipped-2026-07-29",
-            "downloads": 210,
+            "downloads": 252,
             "windows": 0,
             "macos": 0,
             "linux": 0,
@@ -23221,7 +23221,7 @@
               },
               {
                 "date": "2026-08-01",
-                "downloads": 138,
+                "downloads": 162,
                 "windows": 0,
                 "macos": 0,
                 "linux": 0
@@ -23508,7 +23508,7 @@
               },
               {
                 "date": "2026-08-01",
-                "downloads": 210,
+                "downloads": 252,
                 "windows": 0,
                 "macos": 0,
                 "linux": 0
