@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-08-01T14:18:05Z",
-    "last_updated": "2026-08-01T14:18:05.270967Z",
+    "generated_at": "2026-08-01T15:32:31Z",
+    "last_updated": "2026-08-01T15:32:31.594707Z",
     "repositories": [
       "itsab1989/ChromIQ",
       "itsab1989/ChromIQ-Patches"
@@ -2581,7 +2581,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-08-01T14:18:05Z",
+        "last_fetched": "2026-08-01T15:32:31Z",
         "clones_total": 319,
         "clones_unique_total": 147,
         "views_total": 78,
@@ -2932,7 +2932,7 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-08-01T14:18:05Z",
+          "last_fetched": "2026-08-01T15:32:31Z",
           "cumulative_total": 37,
           "cumulative_windows": 13,
           "cumulative_macos": 21,
@@ -5616,7 +5616,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-08-01T14:18:05Z",
+        "last_fetched": "2026-08-01T15:32:31Z",
         "clones_total": 18299,
         "clones_unique_total": 4020,
         "views_total": 4234,
@@ -6385,29 +6385,29 @@
           },
           {
             "date": "2026-08-01",
-            "cumulative_total": 3229,
-            "downloads_total": 250,
+            "cumulative_total": 3230,
+            "downloads_total": 251,
             "cumulative_windows": 563,
             "downloads_windows": 4,
-            "cumulative_macos": 1574,
-            "downloads_macos": 4,
+            "cumulative_macos": 1575,
+            "downloads_macos": 5,
             "cumulative_linux": 114,
             "downloads_linux": 1
           }
         ],
         "metadata": {
-          "last_fetched": "2026-08-01T14:18:05Z",
-          "cumulative_total": 3229,
+          "last_fetched": "2026-08-01T15:32:31Z",
+          "cumulative_total": 3230,
           "cumulative_windows": 563,
-          "cumulative_macos": 1574,
+          "cumulative_macos": 1575,
           "cumulative_linux": 114
         },
         "by_release": [
           {
             "tag": "v3.14.8-beta.117",
-            "downloads": 1,
+            "downloads": 2,
             "windows": 1,
-            "macos": 0,
+            "macos": 1,
             "linux": 0,
             "published_at": "2026-08-01T12:24:12Z"
           },
@@ -11714,7 +11714,7 @@
             "x86_64": 490
           },
           "macos": {
-            "arm64": 977,
+            "arm64": 978,
             "universal": 289,
             "x86_64": 308
           },
@@ -24189,9 +24189,9 @@
             "snapshots": [
               {
                 "date": "2026-08-01",
-                "downloads": 1,
+                "downloads": 2,
                 "windows": 1,
-                "macos": 0,
+                "macos": 1,
                 "linux": 0
               }
             ],
@@ -24208,6 +24208,13 @@
                 "downloads": 1,
                 "windows": 1,
                 "macos": 0,
+                "linux": 0
+              },
+              {
+                "time": "2026-08-01T15:32:31Z",
+                "downloads": 2,
+                "windows": 1,
+                "macos": 1,
                 "linux": 0
               }
             ]
