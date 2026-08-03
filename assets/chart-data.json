@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T22:45:39.072170Z",
+  "generated_at": "2026-08-03T23:56:01.684108Z",
   "repositories": [
     {
       "name": "itsab1989/ChromIQ",
@@ -1070,6 +1070,10 @@
           ]
         },
         "releases": [
+          {
+            "date": "2026-08-03",
+            "tag": "v3.14.8-beta.126"
+          },
           {
             "date": "2026-08-03",
             "tag": "v3.14.8-beta.125"
@@ -3757,6 +3761,15 @@
         ],
         "reception": [
           {
+            "tag": "v3.14.8-beta.126",
+            "published": "2026-08-03",
+            "age_days": 1,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "total": 0
+          },
+          {
             "tag": "v3.14.8-beta.125",
             "published": "2026-08-03",
             "age_days": 1,
@@ -3881,18 +3894,22 @@
             "macos": 1,
             "linux": 0,
             "total": 1
-          },
-          {
-            "tag": "v3.14.8-beta.111",
-            "published": "2026-07-30",
-            "age_days": 5,
-            "windows": 0,
-            "macos": 0,
-            "linux": 0,
-            "total": 0
           }
         ],
         "launch_curves": [
+          {
+            "tag": "v3.14.8-beta.126",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 1.05,
+                "downloads": 0
+              }
+            ]
+          },
           {
             "tag": "v3.14.8-beta.125",
             "points": [
@@ -3975,23 +3992,6 @@
               {
                 "h": 0.22,
                 "downloads": 0
-              }
-            ]
-          },
-          {
-            "tag": "v3.14.8-beta.120",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 3.04,
-                "downloads": 0
-              },
-              {
-                "h": 7.76,
-                "downloads": 2
               }
             ]
           }
