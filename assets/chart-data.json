@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T10:06:39.270623Z",
+  "generated_at": "2026-08-04T12:22:39.350629Z",
   "repositories": [
     {
       "name": "itsab1989/ChromIQ",
@@ -598,7 +598,7 @@
             254,
             5,
             47,
-            5
+            9
           ],
           "windows": [
             15,
@@ -631,7 +631,7 @@
             6,
             3,
             1,
-            0
+            1
           ],
           "macos": [
             39,
@@ -664,7 +664,7 @@
             6,
             2,
             3,
-            3
+            4
           ],
           "linux": [
             5,
@@ -849,7 +849,7 @@
             3233,
             3238,
             3285,
-            3290
+            3294
           ],
           "windows": [
             90,
@@ -924,7 +924,7 @@
             565,
             568,
             569,
-            569
+            570
           ],
           "macos": [
             479,
@@ -999,7 +999,7 @@
             1576,
             1578,
             1581,
-            1584
+            1585
           ],
           "linux": [
             31,
@@ -1078,6 +1078,14 @@
           ]
         },
         "releases": [
+          {
+            "date": "2026-08-04",
+            "tag": "v3.14.8-beta.134"
+          },
+          {
+            "date": "2026-08-04",
+            "tag": "v3.14.8-beta.133"
+          },
           {
             "date": "2026-08-04",
             "tag": "v3.14.8-beta.132"
@@ -3793,13 +3801,31 @@
         ],
         "reception": [
           {
+            "tag": "v3.14.8-beta.134",
+            "published": "2026-08-04",
+            "age_days": 1,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "total": 0
+          },
+          {
+            "tag": "v3.14.8-beta.133",
+            "published": "2026-08-04",
+            "age_days": 1,
+            "windows": 1,
+            "macos": 1,
+            "linux": 0,
+            "total": 3
+          },
+          {
             "tag": "v3.14.8-beta.132",
             "published": "2026-08-04",
             "age_days": 1,
             "windows": 0,
             "macos": 1,
             "linux": 0,
-            "total": 2
+            "total": 3
           },
           {
             "tag": "v3.14.8-beta.131",
@@ -3908,27 +3934,35 @@
             "macos": 1,
             "linux": 0,
             "total": 2
-          },
-          {
-            "tag": "v3.14.8-beta.119",
-            "published": "2026-08-01",
-            "age_days": 4,
-            "windows": 0,
-            "macos": 1,
-            "linux": 0,
-            "total": 1
-          },
-          {
-            "tag": "v3.14.8-beta.118",
-            "published": "2026-08-01",
-            "age_days": 4,
-            "windows": 2,
-            "macos": 1,
-            "linux": 0,
-            "total": 3
           }
         ],
         "launch_curves": [
+          {
+            "tag": "v3.14.8-beta.134",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 0.07,
+                "downloads": 0
+              }
+            ]
+          },
+          {
+            "tag": "v3.14.8-beta.133",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 0.69,
+                "downloads": 3
+              }
+            ]
+          },
           {
             "tag": "v3.14.8-beta.132",
             "points": [
@@ -3939,6 +3973,10 @@
               {
                 "h": 2.2,
                 "downloads": 2
+              },
+              {
+                "h": 4.47,
+                "downloads": 3
               }
             ]
           },
@@ -3978,32 +4016,6 @@
               {
                 "h": 1.85,
                 "downloads": 0
-              }
-            ]
-          },
-          {
-            "tag": "v3.14.8-beta.128",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 2.08,
-                "downloads": 2
-              }
-            ]
-          },
-          {
-            "tag": "v3.14.8-beta.127",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 1.29,
-                "downloads": 1
               }
             ]
           }
