@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-08-04T04:35:27Z",
-    "last_updated": "2026-08-04T04:35:28.091998Z",
+    "generated_at": "2026-08-04T07:27:43Z",
+    "last_updated": "2026-08-04T07:27:43.624447Z",
     "repositories": [
       "itsab1989/ChromIQ",
       "itsab1989/ChromIQ-Patches"
@@ -2560,8 +2560,8 @@
         },
         {
           "date": "2026-08-03",
-          "clones_total": 0,
-          "clones_unique": 0,
+          "clones_total": 1,
+          "clones_unique": 1,
           "views_total": 0,
           "views_unique": 0
         },
@@ -2576,14 +2576,14 @@
       "referrers": [
         {
           "referrer": "github.com",
-          "count": 3,
-          "uniques": 2
+          "count": 2,
+          "uniques": 1
         }
       ],
       "metadata": {
-        "last_fetched": "2026-08-04T04:35:27Z",
-        "clones_total": 319,
-        "clones_unique_total": 147,
+        "last_fetched": "2026-08-04T07:27:43Z",
+        "clones_total": 320,
+        "clones_unique_total": 148,
         "views_total": 78,
         "views_unique_total": 31
       },
@@ -2965,7 +2965,7 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-08-04T04:35:27Z",
+          "last_fetched": "2026-08-04T07:27:43Z",
           "cumulative_total": 37,
           "cumulative_windows": 13,
           "cumulative_macos": 21,
@@ -5569,24 +5569,24 @@
         },
         {
           "date": "2026-08-01",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
+          "clones_total": 41,
+          "clones_unique": 13,
+          "views_total": 26,
+          "views_unique": 6
         },
         {
           "date": "2026-08-02",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
+          "clones_total": 105,
+          "clones_unique": 28,
+          "views_total": 23,
+          "views_unique": 3
         },
         {
           "date": "2026-08-03",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
+          "clones_total": 109,
+          "clones_unique": 20,
+          "views_total": 46,
+          "views_unique": 10
         },
         {
           "date": "2026-08-04",
@@ -5599,28 +5599,28 @@
       "referrers": [
         {
           "referrer": "Google",
-          "count": 87,
-          "uniques": 27
-        },
-        {
-          "referrer": "printerknowledge.com",
-          "count": 24,
-          "uniques": 9
+          "count": 77,
+          "uniques": 23
         },
         {
           "referrer": "dpreview.com",
-          "count": 23,
-          "uniques": 7
+          "count": 21,
+          "uniques": 5
         },
         {
           "referrer": "github.com",
-          "count": 11,
-          "uniques": 7
+          "count": 13,
+          "uniques": 8
+        },
+        {
+          "referrer": "printerknowledge.com",
+          "count": 12,
+          "uniques": 6
         },
         {
           "referrer": "Yahoo",
-          "count": 7,
-          "uniques": 1
+          "count": 9,
+          "uniques": 2
         },
         {
           "referrer": "forum.luminous-landscape.com",
@@ -5628,12 +5628,12 @@
           "uniques": 1
         },
         {
-          "referrer": "hub.displaycal.net",
-          "count": 3,
+          "referrer": "reddit.com",
+          "count": 4,
           "uniques": 3
         },
         {
-          "referrer": "reddit.com",
+          "referrer": "Bing",
           "count": 3,
           "uniques": 2
         },
@@ -5649,11 +5649,11 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-08-04T04:35:27Z",
-        "clones_total": 18299,
-        "clones_unique_total": 4020,
-        "views_total": 4234,
-        "views_unique_total": 1015
+        "last_fetched": "2026-08-04T07:27:43Z",
+        "clones_total": 18554,
+        "clones_unique_total": 4081,
+        "views_total": 4329,
+        "views_unique_total": 1034
       },
       "downloads": {
         "daily_data": [
@@ -6462,13 +6462,29 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-08-04T04:35:27Z",
+          "last_fetched": "2026-08-04T07:27:43Z",
           "cumulative_total": 3288,
           "cumulative_windows": 569,
           "cumulative_macos": 1583,
           "cumulative_linux": 114
         },
         "by_release": [
+          {
+            "tag": "v3.14.8-beta.130",
+            "downloads": 0,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "published_at": "2026-08-04T07:25:53Z"
+          },
+          {
+            "tag": "v3.14.8-beta.129",
+            "downloads": 0,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "published_at": "2026-08-04T05:36:31Z"
+          },
           {
             "tag": "v3.14.8-beta.128",
             "downloads": 2,
@@ -24201,6 +24217,48 @@
                 "downloads": 2,
                 "windows": 0,
                 "macos": 1,
+                "linux": 0
+              }
+            ]
+          },
+          "v3.14.8-beta.130": {
+            "published_at": "2026-08-04T07:25:53Z",
+            "snapshots": [
+              {
+                "date": "2026-08-04",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
+              }
+            ],
+            "launch": [
+              {
+                "time": "2026-08-04T07:27:43Z",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
+              }
+            ]
+          },
+          "v3.14.8-beta.129": {
+            "published_at": "2026-08-04T05:36:31Z",
+            "snapshots": [
+              {
+                "date": "2026-08-04",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
+              }
+            ],
+            "launch": [
+              {
+                "time": "2026-08-04T07:27:43Z",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
                 "linux": 0
               }
             ]
