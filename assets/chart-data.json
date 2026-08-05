@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T14:41:23.150486Z",
+  "generated_at": "2026-08-05T16:24:37.327744Z",
   "repositories": [
     {
       "name": "itsab1989/ChromIQ",
@@ -1086,6 +1086,10 @@
           ]
         },
         "releases": [
+          {
+            "date": "2026-08-05",
+            "tag": "v3.14.8-beta.142"
+          },
           {
             "date": "2026-08-05",
             "tag": "v3.14.8-beta.141"
@@ -3837,6 +3841,15 @@
         ],
         "reception": [
           {
+            "tag": "v3.14.8-beta.142",
+            "published": "2026-08-05",
+            "age_days": 1,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "total": 0
+          },
+          {
             "tag": "v3.14.8-beta.141",
             "published": "2026-08-05",
             "age_days": 1,
@@ -3961,18 +3974,22 @@
             "macos": 1,
             "linux": 0,
             "total": 2
-          },
-          {
-            "tag": "v3.14.8-beta.127",
-            "published": "2026-08-03",
-            "age_days": 3,
-            "windows": 0,
-            "macos": 1,
-            "linux": 0,
-            "total": 1
           }
         ],
         "launch_curves": [
+          {
+            "tag": "v3.14.8-beta.142",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 0.5,
+                "downloads": 0
+              }
+            ]
+          },
           {
             "tag": "v3.14.8-beta.141",
             "points": [
@@ -4046,23 +4063,6 @@
               },
               {
                 "h": 5.18,
-                "downloads": 3
-              }
-            ]
-          },
-          {
-            "tag": "v3.14.8-beta.136",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 0.41,
-                "downloads": 0
-              },
-              {
-                "h": 2.01,
                 "downloads": 3
               }
             ]
