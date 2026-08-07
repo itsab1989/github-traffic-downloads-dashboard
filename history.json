@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-08-07T17:37:24Z",
-    "last_updated": "2026-08-07T17:37:25.103240Z",
+    "generated_at": "2026-08-07T18:34:17Z",
+    "last_updated": "2026-08-07T18:34:17.960505Z",
     "repositories": [
       "itsab1989/ChromIQ",
       "itsab1989/ChromIQ-Patches"
@@ -2575,7 +2575,7 @@
       ],
       "referrers": [],
       "metadata": {
-        "last_fetched": "2026-08-07T17:37:24Z",
+        "last_fetched": "2026-08-07T18:34:17Z",
         "clones_total": 322,
         "clones_unique_total": 150,
         "views_total": 78,
@@ -2992,7 +2992,7 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-08-07T17:37:24Z",
+          "last_fetched": "2026-08-07T18:34:17Z",
           "cumulative_total": 37,
           "cumulative_windows": 13,
           "cumulative_macos": 21,
@@ -5676,7 +5676,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-08-07T17:37:24Z",
+        "last_fetched": "2026-08-07T18:34:17Z",
         "clones_total": 18862,
         "clones_unique_total": 4145,
         "views_total": 4480,
@@ -6522,13 +6522,21 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-08-07T17:37:24Z",
+          "last_fetched": "2026-08-07T18:34:17Z",
           "cumulative_total": 3395,
           "cumulative_windows": 592,
           "cumulative_macos": 1610,
           "cumulative_linux": 116
         },
         "by_release": [
+          {
+            "tag": "v3.14.8-beta.182",
+            "downloads": 0,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "published_at": "2026-08-07T18:12:40Z"
+          },
           {
             "tag": "v3.14.8-beta.181",
             "downloads": 1,
@@ -26106,6 +26114,27 @@
                 "downloads": 1,
                 "windows": 0,
                 "macos": 1,
+                "linux": 0
+              }
+            ]
+          },
+          "v3.14.8-beta.182": {
+            "published_at": "2026-08-07T18:12:40Z",
+            "snapshots": [
+              {
+                "date": "2026-08-07",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0
+              }
+            ],
+            "launch": [
+              {
+                "time": "2026-08-07T18:34:17Z",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
                 "linux": 0
               }
             ]
