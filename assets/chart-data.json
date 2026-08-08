@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T18:16:57.188812Z",
+  "generated_at": "2026-08-08T19:04:47.286897Z",
   "repositories": [
     {
       "name": "itsab1989/ChromIQ",
@@ -1110,6 +1110,10 @@
           ]
         },
         "releases": [
+          {
+            "date": "2026-08-08",
+            "tag": "v3.14.8-beta.206"
+          },
           {
             "date": "2026-08-08",
             "tag": "v3.14.8-beta.205"
@@ -4089,6 +4093,15 @@
         ],
         "reception": [
           {
+            "tag": "v3.14.8-beta.206",
+            "published": "2026-08-08",
+            "age_days": 1,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "total": 0
+          },
+          {
             "tag": "v3.14.8-beta.205",
             "published": "2026-08-08",
             "age_days": 1,
@@ -4213,18 +4226,22 @@
             "macos": 3,
             "linux": 2,
             "total": 6
-          },
-          {
-            "tag": "v3.14.8-beta.191",
-            "published": "2026-08-08",
-            "age_days": 1,
-            "windows": 0,
-            "macos": 0,
-            "linux": 0,
-            "total": 0
           }
         ],
         "launch_curves": [
+          {
+            "tag": "v3.14.8-beta.206",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 0.38,
+                "downloads": 0
+              }
+            ]
+          },
           {
             "tag": "v3.14.8-beta.205",
             "points": [
@@ -4290,19 +4307,6 @@
               },
               {
                 "h": 0.47,
-                "downloads": 0
-              }
-            ]
-          },
-          {
-            "tag": "v3.14.8-beta.200",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 0.6,
                 "downloads": 0
               }
             ]
