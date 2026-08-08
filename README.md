@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-08-08T21:51:36.037671Z
+**Last Updated:** 2026-08-08T22:13:32.676801Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -92,7 +92,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-3434-212121) ![clones](https://img.shields.io/badge/clones-19071-2196F3) ![views](https://img.shields.io/badge/views-4551-4CAF50) ![releases](https://img.shields.io/badge/releases-747-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-3435-212121) ![clones](https://img.shields.io/badge/clones-19071-2196F3) ![views](https://img.shields.io/badge/views-4551-4CAF50) ![releases](https://img.shields.io/badge/releases-747-6f42c1)
 
 *Tracking since **2026-05-02** (98 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~98 days have been tracked so far.*
 
@@ -102,7 +102,7 @@ Quick navigation to repository statistics:
 |--------|-----------|-----------|--------|
 | Clones | 731 | 976 | ▼ -25.1% |
 | Views | 291 | 374 | ▼ -22.2% |
-| Downloads | 201 | 1077 | ▼ -81.3% |
+| Downloads | 202 | 1077 | ▼ -81.2% |
 
 ### 🗅️ Clones
 
@@ -144,7 +144,7 @@ Quick navigation to repository statistics:
 |--------|-------|--------------------------|
 | 👀 Unique visitors | 287 | — |
 | 🗅️ Unique cloners | 780 | 271.8% |
-| 📥 Downloads | 1593 | 555.1% |
+| 📥 Downloads | 1594 | 555.4% |
 
 ### 📞 Referrers
 
@@ -186,9 +186,9 @@ Quick navigation to repository statistics:
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
 | 🪟 Windows | 191 | 515 | 605 |
-| 🍎 macOS | 284 | 1148 | 1627 |
+| 🍎 macOS | 285 | 1149 | 1628 |
 | 🐧 Linux | 41 | 94 | 125 |
-| **All** | **1593** | **2834** | **3434** |
+| **All** | **1594** | **2835** | **3435** |
 
 *ℹ️ 1077 lifetime downloads are counted in **All** but matched no platform (the asset filename didn't match the Windows/macOS/Linux patterns).*
 
@@ -408,7 +408,7 @@ Quick navigation to repository statistics:
 | v3.14.8-beta.3 | 0 | 0 | 0 | **0** |
 | v3.14.8-beta.2 | 0 | 1 | 0 | **1** |
 | v3.14.8-beta.1 | 1 | 1 | 0 | **2** |
-| v3.14.7 | 25 | 26 | 3 | **54** |
+| v3.14.7 | 25 | 27 | 3 | **55** |
 | v3.14.6 | 1 | 0 | 0 | **1** |
 | v3.14.5 | 1 | 1 | 0 | **2** |
 | v3.14.4 | 4 | 7 | 1 | **12** |
@@ -956,7 +956,7 @@ Quick navigation to repository statistics:
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
 | 🪟 Windows | 79 | 526 | 0 | **605** |
-| 🍎 macOS | 1018 | 315 | 294 | **1627** |
+| 🍎 macOS | 1019 | 315 | 294 | **1628** |
 | 🐧 Linux | 53 | 72 | 0 | **125** |
 
 *💡 Low-volume builds (<2% of lifetime downloads), candidates to stop shipping: 🐧 Linux arm64 (53, 1.5%).*
@@ -971,7 +971,7 @@ Quick navigation to repository statistics:
 | chromiq-undo-icon-mockups-v2-2026-07-29 | 184 | 2026-07-29 |
 | chromiq-icon-mockups-v4-2026-07-29 | 61 | 2026-07-29 |
 | chromiq-button-overlap-fix-2026-07-29 | 60 | 2026-07-29 |
-| v3.14.7 | 54 | 2026-07-22 |
+| v3.14.7 | 55 | 2026-07-22 |
 | v3.6.4 | 54 | 2026-05-17 |
 | v3.12.1 | 52 | 2026-06-25 |
 | v3.6.7 | 48 | 2026-05-18 |
