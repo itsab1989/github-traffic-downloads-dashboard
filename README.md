@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-08-08T20:13:44.149107Z
+**Last Updated:** 2026-08-08T20:53:42.172969Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -92,7 +92,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-3434-212121) ![clones](https://img.shields.io/badge/clones-19071-2196F3) ![views](https://img.shields.io/badge/views-4551-4CAF50) ![releases](https://img.shields.io/badge/releases-745-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-3434-212121) ![clones](https://img.shields.io/badge/clones-19071-2196F3) ![views](https://img.shields.io/badge/views-4551-4CAF50) ![releases](https://img.shields.io/badge/releases-747-6f42c1)
 
 *Tracking since **2026-05-02** (98 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~98 days have been tracked so far.*
 
@@ -192,13 +192,15 @@ Quick navigation to repository statistics:
 
 *ℹ️ 1077 lifetime downloads are counted in **All** but matched no platform (the asset filename didn't match the Windows/macOS/Linux patterns).*
 
-🆕 **Latest Release:** `v3.14.8-beta.206` - **0** downloads (published 2026-08-08)
+🆕 **Latest Release:** `v3.14.8-beta.207` - **0** downloads (published 2026-08-08)
 
 <details>
-<summary><strong>📦 Per-version downloads</strong> (745 releases - click to expand)</summary>
+<summary><strong>📦 Per-version downloads</strong> (747 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
+| v3.14.8-beta.207 | 0 | 0 | 0 | **0** |
+| v3.14.8-beta.207 | 0 | 0 | 0 | **0** |
 | v3.14.8-beta.206 | 0 | 0 | 0 | **0** |
 | v3.14.8-beta.205 | 1 | 0 | 0 | **1** |
 | v3.14.8-beta.204 | 0 | 0 | 0 | **0** |
@@ -980,6 +982,7 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
+| v3.14.8-beta.207 | 2026-08-08 | 1d | 0 | 0 | 0 | **0** |
 | v3.14.8-beta.206 | 2026-08-08 | 1d | 0 | 0 | 0 | **0** |
 | v3.14.8-beta.205 | 2026-08-08 | 1d | 1 | 0 | 0 | **1** |
 | v3.14.8-beta.204 | 2026-08-08 | 1d | 0 | 0 | 0 | **0** |
