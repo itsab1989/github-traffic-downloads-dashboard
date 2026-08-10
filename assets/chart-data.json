@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T12:36:32.449107Z",
+  "generated_at": "2026-08-10T14:08:57.988656Z",
   "repositories": [
     {
       "name": "itsab1989/ChromIQ",
@@ -1126,6 +1126,10 @@
           ]
         },
         "releases": [
+          {
+            "date": "2026-08-10",
+            "tag": "v3.14.8-beta.215"
+          },
           {
             "date": "2026-08-10",
             "tag": "v3.14.8-beta.214"
@@ -4137,6 +4141,15 @@
         ],
         "reception": [
           {
+            "tag": "v3.14.8-beta.215",
+            "published": "2026-08-10",
+            "age_days": 1,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "total": 0
+          },
+          {
             "tag": "v3.14.8-beta.214",
             "published": "2026-08-10",
             "age_days": 1,
@@ -4261,18 +4274,22 @@
             "macos": 0,
             "linux": 0,
             "total": 0
-          },
-          {
-            "tag": "v3.14.8-beta.198",
-            "published": "2026-08-08",
-            "age_days": 3,
-            "windows": 0,
-            "macos": 0,
-            "linux": 0,
-            "total": 0
           }
         ],
         "launch_curves": [
+          {
+            "tag": "v3.14.8-beta.215",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 1.29,
+                "downloads": 0
+              }
+            ]
+          },
           {
             "tag": "v3.14.8-beta.214",
             "points": [
@@ -4335,167 +4352,6 @@
               {
                 "h": 0.11,
                 "downloads": 0
-              }
-            ]
-          },
-          {
-            "tag": "v3.14.8-beta.207",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 0.13,
-                "downloads": 0
-              },
-              {
-                "h": 11.34,
-                "downloads": 1
-              },
-              {
-                "h": 12.37,
-                "downloads": 0
-              },
-              {
-                "h": 12.37,
-                "downloads": 1
-              },
-              {
-                "h": 13.26,
-                "downloads": 0
-              },
-              {
-                "h": 13.26,
-                "downloads": 1
-              },
-              {
-                "h": 14.21,
-                "downloads": 0
-              },
-              {
-                "h": 14.21,
-                "downloads": 1
-              },
-              {
-                "h": 14.61,
-                "downloads": 0
-              },
-              {
-                "h": 14.61,
-                "downloads": 1
-              },
-              {
-                "h": 15.09,
-                "downloads": 0
-              },
-              {
-                "h": 15.09,
-                "downloads": 1
-              },
-              {
-                "h": 15.58,
-                "downloads": 0
-              },
-              {
-                "h": 15.58,
-                "downloads": 1
-              },
-              {
-                "h": 16.69,
-                "downloads": 0
-              },
-              {
-                "h": 16.69,
-                "downloads": 1
-              },
-              {
-                "h": 17.31,
-                "downloads": 0
-              },
-              {
-                "h": 17.31,
-                "downloads": 2
-              },
-              {
-                "h": 18.2,
-                "downloads": 0
-              },
-              {
-                "h": 18.2,
-                "downloads": 2
-              },
-              {
-                "h": 18.62,
-                "downloads": 0
-              },
-              {
-                "h": 18.62,
-                "downloads": 2
-              },
-              {
-                "h": 19.13,
-                "downloads": 0
-              },
-              {
-                "h": 19.13,
-                "downloads": 2
-              },
-              {
-                "h": 19.52,
-                "downloads": 0
-              },
-              {
-                "h": 19.52,
-                "downloads": 2
-              },
-              {
-                "h": 20.25,
-                "downloads": 0
-              },
-              {
-                "h": 20.25,
-                "downloads": 2
-              },
-              {
-                "h": 21.13,
-                "downloads": 0
-              },
-              {
-                "h": 21.13,
-                "downloads": 2
-              },
-              {
-                "h": 21.56,
-                "downloads": 0
-              },
-              {
-                "h": 21.56,
-                "downloads": 2
-              },
-              {
-                "h": 22.38,
-                "downloads": 0
-              },
-              {
-                "h": 22.38,
-                "downloads": 2
-              },
-              {
-                "h": 23.12,
-                "downloads": 0
-              },
-              {
-                "h": 23.12,
-                "downloads": 2
-              },
-              {
-                "h": 23.51,
-                "downloads": 0
-              },
-              {
-                "h": 23.51,
-                "downloads": 2
               }
             ]
           }
