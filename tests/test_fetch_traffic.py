@@ -20,7 +20,7 @@ sys.path.insert(0, SCRIPTS)
 
 from fetch_traffic import (  # noqa: E402
     build_daily_data, aggregate_release, aggregate_downloads,
-    build_repo_payload, build_traffic_data,
+    build_repo_payload, build_traffic_data, filter_releases, is_countable_release,
 )
 
 
@@ -82,6 +82,45 @@ class TestDownloadAggregation(unittest.TestCase):
         agg = aggregate_downloads([])
         self.assertEqual(agg['cumulative_total'], 0)
         self.assertEqual(agg['by_release'], [])
+
+
+class TestReleaseFiltering(unittest.TestCase):
+
+    def test_version_like_tags_are_countable(self):
+        for tag in ['v1.0.0', '1.0', 'v3.14.8-beta.221', '2.0-rc1', 'v2.1+build.5']:
+            self.assertTrue(is_countable_release({'tag_name': tag}), tag)
+
+    def test_file_sharing_tags_are_not_countable(self):
+        for tag in ['chromiq-icon-mockups-v4-2026-07-29', 'test-data-130',
+                    'nightly', '', None]:
+            self.assertFalse(is_countable_release({'tag_name': tag}), tag)
+
+    def test_drafts_are_not_countable(self):
+        self.assertFalse(is_countable_release({'tag_name': 'v1.0.0', 'draft': True}))
+
+    def test_aggregate_downloads_ignores_pseudo_releases(self):
+        releases = [
+            _release('v1.0.0', '2026-05-20T00:00:00Z', [('App-win-x64.exe', 7)]),
+            _release('ui-mockups-2026-07-29', '2026-07-29T00:00:00Z',
+                     [('screenshot.png', 500)]),
+        ]
+        out = aggregate_downloads(releases)
+        self.assertEqual(out['cumulative_total'], 7)
+        self.assertEqual([r['tag'] for r in out['by_release']], ['v1.0.0'])
+        self.assertEqual(filter_releases(releases), releases[:1])
+
+    def test_duplicate_tags_merged_into_one_row(self):
+        # A re-created release can leave an asset-less duplicate with the same tag
+        releases = [
+            _release('v1.1.0', '2026-05-21T00:00:00Z', []),
+            _release('v1.1.0', '2026-05-20T00:00:00Z', [('App-win-x64.exe', 3)]),
+        ]
+        out = aggregate_downloads(releases)
+        self.assertEqual(len(out['by_release']), 1)
+        rel = out['by_release'][0]
+        self.assertEqual(rel['downloads'], 3)
+        self.assertEqual(rel['published_at'], '2026-05-20T00:00:00Z')
+        self.assertEqual(out['cumulative_total'], 3)
 
 
 class TestRepoPayload(unittest.TestCase):

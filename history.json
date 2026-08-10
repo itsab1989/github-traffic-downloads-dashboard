@@ -6379,8 +6379,8 @@
           },
           {
             "date": "2026-07-23",
-            "cumulative_total": 2141,
-            "downloads_total": 23,
+            "cumulative_total": 2139,
+            "downloads_total": 21,
             "cumulative_windows": 521,
             "downloads_windows": 8,
             "cumulative_macos": 1509,
@@ -6390,7 +6390,7 @@
           },
           {
             "date": "2026-07-24",
-            "cumulative_total": 2152,
+            "cumulative_total": 2150,
             "downloads_total": 11,
             "cumulative_windows": 523,
             "downloads_windows": 2,
@@ -6401,7 +6401,7 @@
           },
           {
             "date": "2026-07-25",
-            "cumulative_total": 2156,
+            "cumulative_total": 2154,
             "downloads_total": 4,
             "cumulative_windows": 524,
             "downloads_windows": 1,
@@ -6412,7 +6412,7 @@
           },
           {
             "date": "2026-07-26",
-            "cumulative_total": 2172,
+            "cumulative_total": 2170,
             "downloads_total": 16,
             "cumulative_windows": 530,
             "downloads_windows": 6,
@@ -6423,7 +6423,7 @@
           },
           {
             "date": "2026-07-27",
-            "cumulative_total": 2190,
+            "cumulative_total": 2188,
             "downloads_total": 18,
             "cumulative_windows": 537,
             "downloads_windows": 7,
@@ -6434,8 +6434,8 @@
           },
           {
             "date": "2026-07-28",
-            "cumulative_total": 2203,
-            "downloads_total": 13,
+            "cumulative_total": 2195,
+            "downloads_total": 7,
             "cumulative_windows": 540,
             "downloads_windows": 3,
             "cumulative_macos": 1546,
@@ -6445,8 +6445,8 @@
           },
           {
             "date": "2026-07-29",
-            "cumulative_total": 2670,
-            "downloads_total": 467,
+            "cumulative_total": 2216,
+            "downloads_total": 21,
             "cumulative_windows": 547,
             "downloads_windows": 7,
             "cumulative_macos": 1558,
@@ -6456,8 +6456,8 @@
           },
           {
             "date": "2026-07-30",
-            "cumulative_total": 2754,
-            "downloads_total": 84,
+            "cumulative_total": 2239,
+            "downloads_total": 23,
             "cumulative_windows": 557,
             "downloads_windows": 10,
             "cumulative_macos": 1567,
@@ -6467,8 +6467,8 @@
           },
           {
             "date": "2026-07-31",
-            "cumulative_total": 2979,
-            "downloads_total": 225,
+            "cumulative_total": 2244,
+            "downloads_total": 5,
             "cumulative_windows": 559,
             "downloads_windows": 2,
             "cumulative_macos": 1570,
@@ -6478,8 +6478,8 @@
           },
           {
             "date": "2026-08-01",
-            "cumulative_total": 3233,
-            "downloads_total": 254,
+            "cumulative_total": 2257,
+            "downloads_total": 13,
             "cumulative_windows": 565,
             "downloads_windows": 6,
             "cumulative_macos": 1576,
@@ -6489,7 +6489,7 @@
           },
           {
             "date": "2026-08-02",
-            "cumulative_total": 3238,
+            "cumulative_total": 2262,
             "downloads_total": 5,
             "cumulative_windows": 568,
             "downloads_windows": 3,
@@ -6500,8 +6500,8 @@
           },
           {
             "date": "2026-08-03",
-            "cumulative_total": 3285,
-            "downloads_total": 47,
+            "cumulative_total": 2267,
+            "downloads_total": 5,
             "cumulative_windows": 569,
             "downloads_windows": 1,
             "cumulative_macos": 1581,
@@ -6511,7 +6511,7 @@
           },
           {
             "date": "2026-08-04",
-            "cumulative_total": 3304,
+            "cumulative_total": 2286,
             "downloads_total": 19,
             "cumulative_windows": 574,
             "downloads_windows": 5,
@@ -6522,7 +6522,7 @@
           },
           {
             "date": "2026-08-05",
-            "cumulative_total": 3326,
+            "cumulative_total": 2308,
             "downloads_total": 22,
             "cumulative_windows": 583,
             "downloads_windows": 9,
@@ -6533,8 +6533,8 @@
           },
           {
             "date": "2026-08-06",
-            "cumulative_total": 3374,
-            "downloads_total": 48,
+            "cumulative_total": 2314,
+            "downloads_total": 6,
             "cumulative_windows": 586,
             "downloads_windows": 3,
             "cumulative_macos": 1599,
@@ -6544,7 +6544,7 @@
           },
           {
             "date": "2026-08-07",
-            "cumulative_total": 3397,
+            "cumulative_total": 2337,
             "downloads_total": 23,
             "cumulative_windows": 593,
             "downloads_windows": 7,
@@ -6555,7 +6555,7 @@
           },
           {
             "date": "2026-08-08",
-            "cumulative_total": 3437,
+            "cumulative_total": 2377,
             "downloads_total": 40,
             "cumulative_windows": 607,
             "downloads_windows": 14,
@@ -6566,7 +6566,7 @@
           },
           {
             "date": "2026-08-09",
-            "cumulative_total": 3453,
+            "cumulative_total": 2393,
             "downloads_total": 16,
             "cumulative_windows": 613,
             "downloads_windows": 6,
@@ -6577,7 +6577,7 @@
           },
           {
             "date": "2026-08-10",
-            "cumulative_total": 3467,
+            "cumulative_total": 2407,
             "downloads_total": 14,
             "cumulative_windows": 619,
             "downloads_windows": 6,
@@ -6589,7 +6589,7 @@
         ],
         "metadata": {
           "last_fetched": "2026-08-10T22:02:55Z",
-          "cumulative_total": 3467,
+          "cumulative_total": 2407,
           "cumulative_windows": 619,
           "cumulative_macos": 1639,
           "cumulative_linux": 131
@@ -6690,14 +6690,6 @@
             "macos": 0,
             "linux": 0,
             "published_at": "2026-08-10T00:33:56Z"
-          },
-          {
-            "tag": "v3.14.8-beta.207",
-            "downloads": 0,
-            "windows": 0,
-            "macos": 0,
-            "linux": 0,
-            "published_at": "2026-08-08T20:45:40Z"
           },
           {
             "tag": "v3.14.8-beta.207",
@@ -8292,78 +8284,6 @@
             "published_at": "2026-07-23T02:12:05Z"
           },
           {
-            "tag": "test-data-130",
-            "downloads": 2,
-            "windows": 0,
-            "macos": 0,
-            "linux": 0,
-            "published_at": "2026-07-23T21:13:55Z"
-          },
-          {
-            "tag": "chromiq-undo-icon-mockups-v2-2026-07-29",
-            "downloads": 184,
-            "windows": 0,
-            "macos": 0,
-            "linux": 0,
-            "published_at": "2026-07-29T14:41:17Z"
-          },
-          {
-            "tag": "chromiq-text-audit-2026-07-29",
-            "downloads": 0,
-            "windows": 0,
-            "macos": 0,
-            "linux": 0,
-            "published_at": "2026-07-29T15:52:25Z"
-          },
-          {
-            "tag": "chromiq-onscreen-e2e-2026-07-29",
-            "downloads": 241,
-            "windows": 0,
-            "macos": 0,
-            "linux": 0,
-            "published_at": "2026-07-29T08:11:11Z"
-          },
-          {
-            "tag": "chromiq-icon-mockups-v4-2026-07-29",
-            "downloads": 61,
-            "windows": 0,
-            "macos": 0,
-            "linux": 0,
-            "published_at": "2026-07-29T13:11:04Z"
-          },
-          {
-            "tag": "chromiq-demo-projects-v3-2026-07-29",
-            "downloads": 2,
-            "windows": 0,
-            "macos": 0,
-            "linux": 0,
-            "published_at": "2026-07-29T07:38:47Z"
-          },
-          {
-            "tag": "chromiq-buttons-all-tabs-2026-07-29",
-            "downloads": 225,
-            "windows": 0,
-            "macos": 0,
-            "linux": 0,
-            "published_at": "2026-07-29T11:13:10Z"
-          },
-          {
-            "tag": "chromiq-button-overlap-fix-2026-07-29",
-            "downloads": 60,
-            "windows": 0,
-            "macos": 0,
-            "linux": 0,
-            "published_at": "2026-07-29T09:31:52Z"
-          },
-          {
-            "tag": "chromiq-bar-icons-shipped-2026-07-29",
-            "downloads": 285,
-            "windows": 0,
-            "macos": 0,
-            "linux": 0,
-            "published_at": "2026-07-29T18:59:48Z"
-          },
-          {
             "tag": "v3.14.7",
             "downloads": 61,
             "windows": 27,
@@ -9136,14 +9056,6 @@
             "downloads": 7,
             "windows": 1,
             "macos": 6,
-            "linux": 0,
-            "published_at": "2026-07-06T00:26:20Z"
-          },
-          {
-            "tag": "v3.13.0-beta.122",
-            "downloads": 0,
-            "windows": 0,
-            "macos": 0,
             "linux": 0,
             "published_at": "2026-07-06T00:26:20Z"
           },
@@ -18088,27 +18000,6 @@
               }
             ]
           },
-          "chromiq-demo-and-icons-2026-07-28": {
-            "published_at": "2026-07-28T20:31:10Z",
-            "snapshots": [
-              {
-                "date": "2026-07-28",
-                "downloads": 4,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              }
-            ],
-            "launch": [
-              {
-                "time": "2026-07-28T21:35:30Z",
-                "downloads": 4,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              }
-            ]
-          },
           "v3.14.8-beta.86": {
             "published_at": "2026-07-28T21:39:33Z",
             "snapshots": [
@@ -18217,34 +18108,6 @@
                 "downloads": 1,
                 "windows": 0,
                 "macos": 1,
-                "linux": 0
-              }
-            ]
-          },
-          "chromiq-demo-projects-v2-2026-07-28": {
-            "published_at": "2026-07-28T21:37:42Z",
-            "snapshots": [
-              {
-                "date": "2026-07-28",
-                "downloads": 2,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-07-29",
-                "downloads": 2,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              }
-            ],
-            "launch": [
-              {
-                "time": "2026-07-28T22:46:11Z",
-                "downloads": 2,
-                "windows": 0,
-                "macos": 0,
                 "linux": 0
               }
             ]
@@ -19117,384 +18980,6 @@
               }
             ]
           },
-          "chromiq-onscreen-e2e-2026-07-29": {
-            "published_at": "2026-07-29T08:11:11Z",
-            "snapshots": [
-              {
-                "date": "2026-07-29",
-                "downloads": 166,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-07-30",
-                "downloads": 181,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-07-31",
-                "downloads": 211,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-01",
-                "downloads": 211,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-02",
-                "downloads": 211,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-03",
-                "downloads": 226,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-04",
-                "downloads": 226,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-05",
-                "downloads": 226,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-06",
-                "downloads": 241,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-07",
-                "downloads": 241,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-08",
-                "downloads": 241,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-09",
-                "downloads": 241,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-10",
-                "downloads": 241,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              }
-            ],
-            "launch": [
-              {
-                "time": "2026-07-29T10:23:03Z",
-                "downloads": 75,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-29T14:36:46Z",
-                "downloads": 136,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-29T16:13:18Z",
-                "downloads": 151,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-29T23:27:49Z",
-                "downloads": 166,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-30T00:52:52Z",
-                "downloads": 181,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              }
-            ]
-          },
-          "chromiq-demo-projects-v3-2026-07-29": {
-            "published_at": "2026-07-29T07:38:47Z",
-            "snapshots": [
-              {
-                "date": "2026-07-29",
-                "downloads": 2,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-07-30",
-                "downloads": 2,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-07-31",
-                "downloads": 2,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-01",
-                "downloads": 2,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-02",
-                "downloads": 2,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-03",
-                "downloads": 2,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-04",
-                "downloads": 2,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-05",
-                "downloads": 2,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-06",
-                "downloads": 2,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-07",
-                "downloads": 2,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-08",
-                "downloads": 2,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-09",
-                "downloads": 2,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-10",
-                "downloads": 2,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              }
-            ],
-            "launch": [
-              {
-                "time": "2026-07-29T10:23:03Z",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-29T14:36:46Z",
-                "downloads": 2,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              }
-            ]
-          },
-          "chromiq-button-overlap-fix-2026-07-29": {
-            "published_at": "2026-07-29T09:31:52Z",
-            "snapshots": [
-              {
-                "date": "2026-07-29",
-                "downloads": 40,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-07-30",
-                "downloads": 44,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-07-31",
-                "downloads": 52,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-01",
-                "downloads": 52,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-02",
-                "downloads": 52,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-03",
-                "downloads": 56,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-04",
-                "downloads": 56,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-05",
-                "downloads": 56,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-06",
-                "downloads": 60,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-07",
-                "downloads": 60,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-08",
-                "downloads": 60,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-09",
-                "downloads": 60,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-10",
-                "downloads": 60,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              }
-            ],
-            "launch": [
-              {
-                "time": "2026-07-29T10:23:03Z",
-                "downloads": 16,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-29T14:36:46Z",
-                "downloads": 28,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-29T16:13:18Z",
-                "downloads": 36,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-29T23:27:49Z",
-                "downloads": 40,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-30T00:52:52Z",
-                "downloads": 44,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              }
-            ]
-          },
           "v3.14.8-beta.96": {
             "published_at": "2026-07-29T12:17:50Z",
             "snapshots": [
@@ -19712,160 +19197,6 @@
               }
             ]
           },
-          "chromiq-icon-mockups-v2-2026-07-29": {
-            "published_at": "2026-07-29T12:21:34Z",
-            "snapshots": [
-              {
-                "date": "2026-07-29",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              }
-            ],
-            "launch": [
-              {
-                "time": "2026-07-29T12:26:01Z",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              }
-            ]
-          },
-          "chromiq-buttons-all-tabs-2026-07-29": {
-            "published_at": "2026-07-29T11:13:10Z",
-            "snapshots": [
-              {
-                "date": "2026-07-29",
-                "downloads": 155,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-07-30",
-                "downloads": 169,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-07-31",
-                "downloads": 197,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-01",
-                "downloads": 197,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-02",
-                "downloads": 197,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-03",
-                "downloads": 211,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-04",
-                "downloads": 211,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-05",
-                "downloads": 211,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-06",
-                "downloads": 225,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-07",
-                "downloads": 225,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-08",
-                "downloads": 225,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-09",
-                "downloads": 225,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-10",
-                "downloads": 225,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              }
-            ],
-            "launch": [
-              {
-                "time": "2026-07-29T12:26:01Z",
-                "downloads": 56,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-29T14:36:46Z",
-                "downloads": 113,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-29T16:13:18Z",
-                "downloads": 141,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-29T23:27:49Z",
-                "downloads": 155,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-30T00:52:52Z",
-                "downloads": 169,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              }
-            ]
-          },
           "v3.14.8-beta.97": {
             "published_at": "2026-07-29T14:24:34Z",
             "snapshots": [
@@ -19978,160 +19309,6 @@
               }
             ]
           },
-          "chromiq-undo-icon-mockups-2026-07-29": {
-            "published_at": "2026-07-29T14:29:59Z",
-            "snapshots": [
-              {
-                "date": "2026-07-29",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              }
-            ],
-            "launch": [
-              {
-                "time": "2026-07-29T14:36:46Z",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              }
-            ]
-          },
-          "chromiq-icon-mockups-v4-2026-07-29": {
-            "published_at": "2026-07-29T13:11:04Z",
-            "snapshots": [
-              {
-                "date": "2026-07-29",
-                "downloads": 45,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-07-30",
-                "downloads": 45,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-07-31",
-                "downloads": 53,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-01",
-                "downloads": 53,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-02",
-                "downloads": 53,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-03",
-                "downloads": 57,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-04",
-                "downloads": 57,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-05",
-                "downloads": 57,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-06",
-                "downloads": 61,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-07",
-                "downloads": 61,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-08",
-                "downloads": 61,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-09",
-                "downloads": 61,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-10",
-                "downloads": 61,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              }
-            ],
-            "launch": [
-              {
-                "time": "2026-07-29T14:36:46Z",
-                "downloads": 20,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-29T16:13:18Z",
-                "downloads": 25,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-29T18:45:52Z",
-                "downloads": 37,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-29T20:05:04Z",
-                "downloads": 41,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-29T23:27:49Z",
-                "downloads": 45,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              }
-            ]
-          },
           "v3.14.8-beta.98": {
             "published_at": "2026-07-29T15:50:06Z",
             "snapshots": [
@@ -20240,272 +19417,6 @@
                 "downloads": 2,
                 "windows": 1,
                 "macos": 1,
-                "linux": 0
-              }
-            ]
-          },
-          "chromiq-undo-icon-mockups-v2-2026-07-29": {
-            "published_at": "2026-07-29T14:41:17Z",
-            "snapshots": [
-              {
-                "date": "2026-07-29",
-                "downloads": 18,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-07-30",
-                "downloads": 30,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-07-31",
-                "downloads": 86,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-01",
-                "downloads": 180,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-02",
-                "downloads": 180,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-03",
-                "downloads": 182,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-04",
-                "downloads": 182,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-05",
-                "downloads": 182,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-06",
-                "downloads": 184,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-07",
-                "downloads": 184,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-08",
-                "downloads": 184,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-09",
-                "downloads": 184,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-10",
-                "downloads": 184,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              }
-            ],
-            "launch": [
-              {
-                "time": "2026-07-29T16:13:18Z",
-                "downloads": 8,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-29T18:45:52Z",
-                "downloads": 14,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-29T20:05:04Z",
-                "downloads": 16,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-29T23:27:49Z",
-                "downloads": 18,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-30T00:52:52Z",
-                "downloads": 20,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-30T03:47:39Z",
-                "downloads": 22,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-30T09:08:20Z",
-                "downloads": 24,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-30T11:25:48Z",
-                "downloads": 26,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-30T12:59:15Z",
-                "downloads": 28,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              }
-            ]
-          },
-          "chromiq-text-audit-2026-07-29": {
-            "published_at": "2026-07-29T15:52:25Z",
-            "snapshots": [
-              {
-                "date": "2026-07-29",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-07-30",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-07-31",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-01",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-02",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-03",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-04",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-05",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-06",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-07",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-08",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-09",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-10",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              }
-            ],
-            "launch": [
-              {
-                "time": "2026-07-29T16:13:18Z",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
                 "linux": 0
               }
             ]
@@ -20842,174 +19753,6 @@
                 "downloads": 2,
                 "windows": 0,
                 "macos": 2,
-                "linux": 0
-              }
-            ]
-          },
-          "chromiq-bar-icons-shipped-2026-07-29": {
-            "published_at": "2026-07-29T18:59:48Z",
-            "snapshots": [
-              {
-                "date": "2026-07-29",
-                "downloads": 24,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-07-30",
-                "downloads": 42,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-07-31",
-                "downloads": 132,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-01",
-                "downloads": 279,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-02",
-                "downloads": 279,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-03",
-                "downloads": 282,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-04",
-                "downloads": 282,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-05",
-                "downloads": 282,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-06",
-                "downloads": 285,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-07",
-                "downloads": 285,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-08",
-                "downloads": 285,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-09",
-                "downloads": 285,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "date": "2026-08-10",
-                "downloads": 285,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              }
-            ],
-            "launch": [
-              {
-                "time": "2026-07-29T20:05:04Z",
-                "downloads": 12,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-29T21:23:41Z",
-                "downloads": 15,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-29T22:25:35Z",
-                "downloads": 18,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-29T23:27:49Z",
-                "downloads": 24,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-30T00:52:52Z",
-                "downloads": 27,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-30T03:47:39Z",
-                "downloads": 30,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-30T09:08:20Z",
-                "downloads": 33,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-30T11:25:48Z",
-                "downloads": 36,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-30T12:59:15Z",
-                "downloads": 39,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0
-              },
-              {
-                "time": "2026-07-30T16:55:35Z",
-                "downloads": 42,
-                "windows": 0,
-                "macos": 0,
                 "linux": 0
               }
             ]

@@ -30,6 +30,7 @@ Error codes (kept from the original step):
 
 import json
 import os
+import re
 import sys
 import urllib.error
 import urllib.request
@@ -44,6 +45,13 @@ REPOS_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file
 API_BASE = os.environ.get("GITHUB_API_BASE_URL", "https://api.github.com")
 API_VERSION = os.environ.get("GITHUB_API_VERSION", "2022-11-28")
 PLATFORMS = ["windows", "macos", "linux"]
+
+# Only releases whose tag looks like a version number count toward download
+# statistics: "v1.2.3", "1.0", "v3.14.8-beta.221", "2.0-rc1", ... Tracked repos
+# sometimes carry ad-hoc releases used purely to share files (design mockups,
+# test data, screenshots); their asset fetches would otherwise inflate the
+# download totals. Draft releases are excluded for the same reason.
+RELEASE_TAG_PATTERN = re.compile(r"^v?\d+(\.\d+)*([-+.].*)?$")
 
 
 class FetchError(Exception):
@@ -100,6 +108,18 @@ def build_daily_data(clones, views):
     return out
 
 
+def is_countable_release(release):
+    """True if the release is a real, published release (version-like tag, not a draft)."""
+    if release.get('draft'):
+        return False
+    return bool(RELEASE_TAG_PATTERN.match(release.get('tag_name') or ''))
+
+
+def filter_releases(releases):
+    """Drop drafts and file-sharing pseudo-releases (non-version tags) from the list."""
+    return [r for r in releases or [] if is_countable_release(r)]
+
+
 def aggregate_release(release):
     """Per-release lifetime totals split by platform (matching the by_release shape)."""
     counts = {'downloads': 0, 'windows': 0, 'macos': 0, 'linux': 0}
@@ -125,13 +145,29 @@ def aggregate_downloads(releases):
 
     'cumulative_total' counts every asset (matched or not), so it can exceed the
     sum of the platform buckets - the gap is the dashboard's "unclassified" note.
+
+    Drafts and non-version tags are dropped first (see filter_releases), and
+    releases sharing a tag (e.g. a re-created release whose failed first attempt
+    left an asset-less duplicate) are merged into a single by_release row.
     """
     cumulative = {'total': 0, 'windows': 0, 'macos': 0, 'linux': 0}
     by_arch = {'windows': {}, 'macos': {}, 'linux': {}}
     by_release = []
-    for release in releases or []:
+    by_tag = {}
+    for release in filter_releases(releases):
         rel = aggregate_release(release)
-        by_release.append(rel)
+        merged = by_tag.get(rel['tag'])
+        if merged:
+            merged['downloads'] += rel['downloads']
+            for p in PLATFORMS:
+                merged[p] += rel[p]
+            # ISO timestamps compare lexicographically; keep the earliest publish
+            if rel['published_at'] and (not merged['published_at']
+                                        or rel['published_at'] < merged['published_at']):
+                merged['published_at'] = rel['published_at']
+        else:
+            by_tag[rel['tag']] = rel
+            by_release.append(rel)
         cumulative['total'] += rel['downloads']
         for p in PLATFORMS:
             cumulative[p] += rel[p]
