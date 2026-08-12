@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-08-12T00:03:53.466397Z
+**Last Updated:** 2026-08-12T03:00:58.744133Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -192,7 +192,7 @@ Quick navigation to repository statistics:
 
 *ℹ️ 25 lifetime downloads are counted in **All** but matched no platform (the asset filename didn't match the Windows/macOS/Linux patterns).*
 
-🆕 **Latest Release:** `v4.0.0` - **0** downloads (published 2026-08-11)
+🆕 **Latest Release:** `v4.0.0` - **0** downloads (published 2026-08-12)
 
 <details>
 <summary><strong>📦 Per-version downloads</strong> (755 releases - click to expand)</summary>
@@ -988,7 +988,7 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
-| v4.0.0 | 2026-08-11 | 2d | 0 | 0 | 0 | **0** |
+| v4.0.0 | 2026-08-12 | 1d | 0 | 0 | 0 | **0** |
 | v4.0.0-beta.5 | 2026-08-11 | 2d | 0 | 2 | 0 | **4** |
 | v4.0.0-beta.4 | 2026-08-11 | 2d | 0 | 1 | 0 | **1** |
 | v4.0.0-beta.3 | 2026-08-11 | 2d | 1 | 0 | 0 | **1** |
