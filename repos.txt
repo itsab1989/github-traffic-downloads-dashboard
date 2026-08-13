@@ -4,7 +4,8 @@
 itsab1989/ChromIQ
 itsab1989/ChromIQ-Patches
 
-# The dashboard itself (Knut, 2026-08-13). Caveat: its own 30-minute
-# collector run clones this repo, so the clone line largely measures
-# that heartbeat - unique cloners are the meaningful number here.
+# The dashboard itself (Knut, 2026-08-13). Its own 30-minute collector run
+# clones this repo, so both clone columns - total and unique - mostly count
+# GitHub's runners. With no releases and ~2 views a fortnight, this repo is
+# the control case: it shows what the clone columns measure when nobody visits.
 itsab1989/github-traffic-downloads-dashboard
