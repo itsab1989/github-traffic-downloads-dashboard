@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-08-13T06:51:47.426631Z
+**Last Updated:** 2026-08-13T08:08:45.359353Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -92,7 +92,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-2445-212121) ![clones](https://img.shields.io/badge/clones-20662-2196F3) ![views](https://img.shields.io/badge/views-4699-4CAF50) ![releases](https://img.shields.io/badge/releases-755-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-2449-212121) ![clones](https://img.shields.io/badge/clones-20662-2196F3) ![views](https://img.shields.io/badge/views-4699-4CAF50) ![releases](https://img.shields.io/badge/releases-755-6f42c1)
 
 *Tracking since **2026-05-02** (102 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~102 days have been tracked so far.*
 
@@ -102,7 +102,7 @@ Quick navigation to repository statistics:
 |--------|-----------|-----------|--------|
 | Clones | 1800 | 608 | ▲ +196.1% |
 | Views | 219 | 292 | ▼ -25.0% |
-| Downloads | 131 | 75 | ▲ +74.7% |
+| Downloads | 135 | 75 | ▲ +80.0% |
 
 ### 🗅️ Clones
 
@@ -144,7 +144,7 @@ Quick navigation to repository statistics:
 |--------|-------|--------------------------|
 | 👀 Unique visitors | 283 | — |
 | 🗅️ Unique cloners | 1146 | 404.9% |
-| 📥 Downloads | 517 | 182.7% |
+| 📥 Downloads | 521 | 184.1% |
 
 ### 📞 Referrers
 
@@ -185,21 +185,21 @@ Quick navigation to repository statistics:
 
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
-| 🪟 Windows | 188 | 536 | 626 |
-| 🍎 macOS | 260 | 1179 | 1658 |
-| 🐧 Linux | 44 | 105 | 136 |
-| **All** | **517** | **1845** | **2445** |
+| 🪟 Windows | 189 | 537 | 627 |
+| 🍎 macOS | 262 | 1181 | 1660 |
+| 🐧 Linux | 45 | 106 | 137 |
+| **All** | **521** | **1849** | **2449** |
 
 *ℹ️ 25 lifetime downloads are counted in **All** but matched no platform (the asset filename didn't match the Windows/macOS/Linux patterns).*
 
-🆕 **Latest Release:** `v4.0.0` - **2** downloads (published 2026-08-12)
+🆕 **Latest Release:** `v4.0.0` - **3** downloads (published 2026-08-12)
 
 <details>
 <summary><strong>📦 Per-version downloads</strong> (755 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
-| v4.0.0 | 1 | 1 | 0 | **2** |
+| v4.0.0 | 2 | 1 | 0 | **3** |
 | v4.0.0-beta.5 | 0 | 2 | 0 | **4** |
 | v4.0.0-beta.4 | 0 | 1 | 0 | **1** |
 | v4.0.0-beta.3 | 1 | 0 | 0 | **1** |
@@ -253,7 +253,7 @@ Quick navigation to repository statistics:
 | v3.14.8-beta.175 | 2 | 2 | 2 | **6** |
 | v3.14.8-beta.174 | 2 | 3 | 1 | **6** |
 | v3.14.8-beta.173 | 2 | 3 | 2 | **7** |
-| v3.14.8-beta.172 | 1 | 1 | 1 | **3** |
+| v3.14.8-beta.172 | 1 | 3 | 2 | **6** |
 | v3.14.8-beta.171 | 0 | 0 | 0 | **0** |
 | v3.14.8-beta.170 | 0 | 1 | 0 | **2** |
 | v3.14.8-beta.165 | 0 | 1 | 0 | **1** |
@@ -963,9 +963,9 @@ Quick navigation to repository statistics:
 
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
-| 🪟 Windows | 84 | 542 | 0 | **626** |
-| 🍎 macOS | 1034 | 322 | 302 | **1658** |
-| 🐧 Linux | 59 | 77 | 0 | **136** |
+| 🪟 Windows | 84 | 543 | 0 | **627** |
+| 🍎 macOS | 1035 | 322 | 303 | **1660** |
+| 🐧 Linux | 59 | 78 | 0 | **137** |
 
 **Top 10 Releases by Downloads (lifetime):**
 
@@ -988,7 +988,7 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
-| v4.0.0 | 2026-08-12 | 2d | 1 | 1 | 0 | **2** |
+| v4.0.0 | 2026-08-12 | 2d | 2 | 1 | 0 | **3** |
 | v4.0.0-beta.5 | 2026-08-11 | 3d | 0 | 2 | 0 | **4** |
 | v4.0.0-beta.4 | 2026-08-11 | 3d | 0 | 1 | 0 | **1** |
 | v4.0.0-beta.3 | 2026-08-11 | 3d | 1 | 0 | 0 | **1** |
@@ -1042,7 +1042,7 @@ Quick navigation to repository statistics:
 | v3.14.8-beta.175 | 2026-08-07 | 7d | 2 | 2 | 2 | **6** |
 | v3.14.8-beta.174 | 2026-08-07 | 7d | 2 | 3 | 1 | **6** |
 | v3.14.8-beta.173 | 2026-08-07 | 7d | 2 | 3 | 2 | **7** |
-| v3.14.8-beta.172 | 2026-08-07 | 7d | 1 | 1 | 1 | **3** |
+| v3.14.8-beta.172 | 2026-08-07 | 7d | 1 | 3 | 2 | **6** |
 | v3.14.8-beta.171 | 2026-08-06 | 8d | 0 | 0 | 0 | **0** |
 | v3.14.8-beta.170 | 2026-08-06 | 8d | 0 | 1 | 0 | **2** |
 | v3.14.8-beta.165 | 2026-08-06 | 8d | 0 | 1 | 0 | **1** |
