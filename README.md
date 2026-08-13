@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-08-13T10:48:30.700682Z
+**Last Updated:** 2026-08-13T11:36:06.008009Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -89,6 +89,7 @@ Quick navigation to repository statistics:
 
 - [ChromIQ](#chromiq)
 - [ChromIQ-Patches](#chromiq-patches)
+- [github-traffic-downloads-dashboard](#github-traffic-downloads-dashboard)
 
 # ChromIQ
 
@@ -186,20 +187,20 @@ Quick navigation to repository statistics:
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
 | 🪟 Windows | 187 | 535 | 625 |
-| 🍎 macOS | 262 | 1181 | 1660 |
-| 🐧 Linux | 46 | 107 | 138 |
+| 🍎 macOS | 261 | 1180 | 1659 |
+| 🐧 Linux | 47 | 108 | 139 |
 | **All** | **520** | **1848** | **2448** |
 
 *ℹ️ 25 lifetime downloads are counted in **All** but matched no platform (the asset filename didn't match the Windows/macOS/Linux patterns).*
 
-🆕 **Latest Release:** `v4.0.0` - **1** download (published 2026-08-13)
+🆕 **Latest Release:** `v4.0.0` - **0** downloads (published 2026-08-13)
 
 <details>
 <summary><strong>📦 Per-version downloads</strong> (755 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
-| v4.0.0 | 0 | 1 | 0 | **1** |
+| v4.0.0 | 0 | 0 | 0 | **0** |
 | v4.0.0-beta.5 | 0 | 2 | 0 | **4** |
 | v4.0.0-beta.4 | 0 | 1 | 0 | **1** |
 | v4.0.0-beta.3 | 1 | 0 | 0 | **1** |
@@ -269,7 +270,7 @@ Quick navigation to repository statistics:
 | v3.14.8-beta.152 | 0 | 0 | 0 | **0** |
 | v3.14.8-beta.151 | 0 | 0 | 0 | **0** |
 | v3.14.8-beta.150 | 0 | 1 | 0 | **1** |
-| v3.14.8-beta.149 | 2 | 3 | 1 | **8** |
+| v3.14.8-beta.149 | 2 | 3 | 2 | **9** |
 | v3.14.8-beta.148 | 1 | 1 | 0 | **2** |
 | v3.14.8-beta.147 | 0 | 1 | 0 | **1** |
 | v3.14.8-beta.146 | 0 | 0 | 0 | **0** |
@@ -964,8 +965,8 @@ Quick navigation to repository statistics:
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
 | 🪟 Windows | 84 | 541 | 0 | **625** |
-| 🍎 macOS | 1035 | 322 | 303 | **1660** |
-| 🐧 Linux | 59 | 79 | 0 | **138** |
+| 🍎 macOS | 1034 | 322 | 303 | **1659** |
+| 🐧 Linux | 59 | 80 | 0 | **139** |
 
 **Top 10 Releases by Downloads (lifetime):**
 
@@ -988,7 +989,7 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
-| v4.0.0 | 2026-08-13 | 1d | 0 | 1 | 0 | **1** |
+| v4.0.0 | 2026-08-13 | 1d | 0 | 0 | 0 | **0** |
 | v4.0.0-beta.5 | 2026-08-11 | 3d | 0 | 2 | 0 | **4** |
 | v4.0.0-beta.4 | 2026-08-11 | 3d | 0 | 1 | 0 | **1** |
 | v4.0.0-beta.3 | 2026-08-11 | 3d | 1 | 0 | 0 | **1** |
@@ -1058,7 +1059,7 @@ Quick navigation to repository statistics:
 | v3.14.8-beta.152 | 2026-08-06 | 8d | 0 | 0 | 0 | **0** |
 | v3.14.8-beta.151 | 2026-08-06 | 8d | 0 | 0 | 0 | **0** |
 | v3.14.8-beta.150 | 2026-08-06 | 8d | 0 | 1 | 0 | **1** |
-| v3.14.8-beta.149 | 2026-08-06 | 8d | 2 | 3 | 1 | **8** |
+| v3.14.8-beta.149 | 2026-08-06 | 8d | 2 | 3 | 2 | **9** |
 | v3.14.8-beta.148 | 2026-08-06 | 8d | 1 | 1 | 0 | **2** |
 | v3.14.8-beta.147 | 2026-08-05 | 9d | 0 | 1 | 0 | **1** |
 | v3.14.8-beta.146 | 2026-08-05 | 9d | 0 | 0 | 0 | **0** |
@@ -1243,6 +1244,105 @@ Quick navigation to repository statistics:
 *Clones/views and per-platform download charts - with hover tooltips, dark mode, and release-date markers - are rendered live on the dashboard page (GitHub can't run the charts inside this README):*
 
 📊 **[Open the interactive dashboard →](https://itsab1989.github.io/github-traffic-downloads-dashboard/dashboard.html#chromiq-patches)**
+
+---
+
+# github-traffic-downloads-dashboard
+
+![downloads](https://img.shields.io/badge/downloads-0-212121) ![clones](https://img.shields.io/badge/clones-999-2196F3) ![views](https://img.shields.io/badge/views-2-4CAF50) ![releases](https://img.shields.io/badge/releases-0-6f42c1)
+
+*Tracking since **2026-07-30** (14 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~14 days have been tracked so far.*
+
+**This week vs last week:**
+
+| Metric | This week | Last week | Change |
+|--------|-----------|-----------|--------|
+| Clones | 653 | 308 | ▲ +112.0% |
+| Views | 1 | 0 | — |
+| Downloads | 0 | 0 | — |
+
+### 🗅️ Clones
+
+*Repository clone statistics showing total and unique clones over different time periods.*
+
+| Period | Total | Unique |
+|--------|-------|--------|
+| Last 30 Days | 999 | 262 |
+| Last 90 Days | 999 | 262 |
+| Lifetime | 999 | 262 |
+
+### 📄 Repeat vs New Clones
+
+*Analysis of repository adoption showing repeat clones vs new unique clones.*
+
+*Note: GitHub API does not provide geographical location data for cloners.*
+
+| Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
+|--------|--------------|----------------|----------------|----------|
+| Last 30 Days | 999 | 262 | 737 | 73.8% |
+| Last 90 Days | 999 | 262 | 737 | 73.8% |
+| Lifetime | 999 | 262 | 737 | 73.8% |
+
+### 👀 Views
+
+*Repository view statistics showing total and unique views over different time periods.*
+
+| Period | Total | Unique |
+|--------|-------|--------|
+| Last 30 Days | 2 | 2 |
+| Last 90 Days | 2 | 2 |
+| Lifetime | 2 | 2 |
+
+### 🎯 Engagement Ratios
+
+*Of the people who looked at the repo in the last 30 days, how many took a deeper action? Cloning (developer interest) and downloading (end-user adoption) are independent actions, each shown relative to unique visitors. Uniques are per-day and cloning/downloading can happen without a page view (CI, mirrors, direct links), so ratios above 100% are possible. Downloads have no unique-people equivalent, so the total is shown.*
+
+| Action | Count | Ratio to unique visitors |
+|--------|-------|--------------------------|
+| 👀 Unique visitors | 2 | — |
+| 🗅️ Unique cloners | 262 | 13100.0% |
+| 📥 Downloads | 0 | 0.0% |
+
+### 📞 Referrers
+
+*Top referrer sources driving traffic to this repository.*
+
+**Total Unique Referrers:** 1
+
+| Referrer | Total Views | Unique Visitors |
+|----------|-------------|----------------|
+| DuckDuckGo | 1 | 1 |
+
+### 👥 Repeat vs New Visitors
+
+*Analysis of visitor engagement showing repeat visitors vs new unique visitors.*
+
+*Note: GitHub API does not provide geographical location data for visitors.*
+
+| Period | Total Views | Unique Visitors | Repeat Visitors | Repeat % |
+|--------|-------------|-----------------|-----------------|----------|
+| Last 30 Days | 2 | 2 | 0 | 0.0% |
+| Last 90 Days | 2 | 2 | 0 | 0.0% |
+| Lifetime | 2 | 2 | 0 | 0.0% |
+
+### 📥 Release Downloads
+
+*Pre-compiled release-asset downloads, split by platform. This is separate from clones.*
+
+*Lifetime totals reflect all-time downloads (GitHub's cumulative counter). Per-day figures (Last 30/90 Days) are derived from daily snapshots and only accrue from the first tracked day onward.*
+
+| Platform | Last 30 Days | Last 90 Days | Lifetime |
+|----------|-----------|-----------|----------|
+| 🪟 Windows | 0 | 0 | 0 |
+| 🍎 macOS | 0 | 0 | 0 |
+| 🐧 Linux | 0 | 0 | 0 |
+| **All** | **0** | **0** | **0** |
+
+### 📈 Interactive Charts
+
+*Clones/views and per-platform download charts - with hover tooltips, dark mode, and release-date markers - are rendered live on the dashboard page (GitHub can't run the charts inside this README):*
+
+📊 **[Open the interactive dashboard →](https://itsab1989.github.io/github-traffic-downloads-dashboard/dashboard.html#github-traffic-downloads-dashboard)**
 
 ---
 
