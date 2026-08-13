@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-08-13T19:30:58Z",
-    "last_updated": "2026-08-13T19:30:58.413361Z",
+    "generated_at": "2026-08-13T20:26:22Z",
+    "last_updated": "2026-08-13T20:26:22.227768Z",
     "repositories": [
       "itsab1989/ChromIQ",
       "itsab1989/ChromIQ-Patches",
@@ -2582,7 +2582,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-08-13T19:30:58Z",
+        "last_fetched": "2026-08-13T20:26:22Z",
         "clones_total": 999,
         "clones_unique_total": 262,
         "views_total": 2,
@@ -2603,7 +2603,7 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-08-13T19:30:58Z",
+          "last_fetched": "2026-08-13T20:26:22Z",
           "cumulative_total": 0,
           "cumulative_windows": 0,
           "cumulative_macos": 0,
@@ -5236,7 +5236,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-08-13T19:30:58Z",
+        "last_fetched": "2026-08-13T20:26:22Z",
         "clones_total": 20817,
         "clones_unique_total": 4688,
         "views_total": 4747,
@@ -6137,32 +6137,24 @@
           },
           {
             "date": "2026-08-13",
-            "cumulative_total": 2478,
-            "downloads_total": 37,
-            "cumulative_windows": 632,
-            "downloads_windows": 7,
-            "cumulative_macos": 1672,
-            "downloads_macos": 16,
-            "cumulative_linux": 140,
-            "downloads_linux": 5
+            "cumulative_total": 2467,
+            "downloads_total": 26,
+            "cumulative_windows": 629,
+            "downloads_windows": 4,
+            "cumulative_macos": 1665,
+            "downloads_macos": 9,
+            "cumulative_linux": 139,
+            "downloads_linux": 4
           }
         ],
         "metadata": {
-          "last_fetched": "2026-08-13T19:30:58Z",
-          "cumulative_total": 2478,
-          "cumulative_windows": 632,
-          "cumulative_macos": 1672,
-          "cumulative_linux": 140
+          "last_fetched": "2026-08-13T20:26:22Z",
+          "cumulative_total": 2467,
+          "cumulative_windows": 629,
+          "cumulative_macos": 1665,
+          "cumulative_linux": 139
         },
         "by_release": [
-          {
-            "tag": "v4.0.1",
-            "downloads": 12,
-            "windows": 4,
-            "macos": 7,
-            "linux": 1,
-            "published_at": "2026-08-13T14:05:49Z"
-          },
           {
             "tag": "v4.0.0",
             "downloads": 17,
@@ -6597,8 +6589,8 @@
           },
           {
             "tag": "v3.14.8-beta.172",
-            "downloads": 6,
-            "windows": 1,
+            "downloads": 7,
+            "windows": 2,
             "macos": 3,
             "linux": 2,
             "published_at": "2026-08-07T00:37:41Z"
@@ -12206,17 +12198,17 @@
         ],
         "by_arch": {
           "windows": {
-            "arm64": 84,
-            "x86_64": 548
+            "arm64": 85,
+            "x86_64": 544
           },
           "macos": {
-            "arm64": 1037,
-            "universal": 308,
-            "x86_64": 327
+            "arm64": 1034,
+            "universal": 306,
+            "x86_64": 325
           },
           "linux": {
             "arm64": 59,
-            "x86_64": 81
+            "x86_64": 80
           }
         },
         "by_release_daily": {
@@ -17839,8 +17831,8 @@
               },
               {
                 "date": "2026-08-13",
-                "downloads": 6,
-                "windows": 1,
+                "downloads": 7,
+                "windows": 2,
                 "macos": 3,
                 "linux": 2
               }
@@ -23637,7 +23629,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-08-13T19:30:58Z",
+        "last_fetched": "2026-08-13T20:26:22Z",
         "clones_total": 329,
         "clones_unique_total": 156,
         "views_total": 80,
@@ -24120,7 +24112,7 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-08-13T19:30:58Z",
+          "last_fetched": "2026-08-13T20:26:22Z",
           "cumulative_total": 37,
           "cumulative_windows": 13,
           "cumulative_macos": 21,
