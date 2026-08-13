@@ -3,3 +3,8 @@
 # scripts/fetch_traffic.py). Blank lines and #comments are ignored.
 itsab1989/ChromIQ
 itsab1989/ChromIQ-Patches
+
+# The dashboard itself (Knut, 2026-08-13). Caveat: its own 30-minute
+# collector run clones this repo, so the clone line largely measures
+# that heartbeat - unique cloners are the meaningful number here.
+itsab1989/github-traffic-downloads-dashboard
