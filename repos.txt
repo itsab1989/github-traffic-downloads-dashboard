@@ -3,6 +3,7 @@
 # scripts/fetch_traffic.py). Blank lines and #comments are ignored.
 itsab1989/ChromIQ
 itsab1989/ChromIQ-Patches
+itsab1989/ChromIQ-Gamut-Viewer
 
 # The dashboard itself (Knut, 2026-08-13). Its own 30-minute collector run
 # clones this repo, so both clone columns - total and unique - mostly count
