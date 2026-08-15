@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T15:07:44.101808Z",
+  "generated_at": "2026-08-15T15:40:48.056715Z",
   "repositories": [
     {
       "name": "itsab1989/ChromIQ",
@@ -5595,6 +5595,10 @@
         "releases": [
           {
             "date": "2026-08-15",
+            "tag": "v2.8.0"
+          },
+          {
+            "date": "2026-08-15",
             "tag": "v2.7.0"
           },
           {
@@ -5711,6 +5715,15 @@
           }
         ],
         "reception": [
+          {
+            "tag": "v2.8.0",
+            "published": "2026-08-15",
+            "age_days": 1,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "total": 0
+          },
           {
             "tag": "v2.7.0",
             "published": "2026-08-15",
@@ -5836,18 +5849,22 @@
             "macos": 0,
             "linux": 0,
             "total": 0
-          },
-          {
-            "tag": "v1.8.0",
-            "published": "2026-08-14",
-            "age_days": 2,
-            "windows": 0,
-            "macos": 0,
-            "linux": 0,
-            "total": 0
           }
         ],
         "launch_curves": [
+          {
+            "tag": "v2.8.0",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 0.23,
+                "downloads": 0
+              }
+            ]
+          },
           {
             "tag": "v2.7.0",
             "points": [
@@ -5910,23 +5927,6 @@
               {
                 "h": 0.48,
                 "downloads": 0
-              }
-            ]
-          },
-          {
-            "tag": "v2.2.1",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 0.08,
-                "downloads": 0
-              },
-              {
-                "h": 3.01,
-                "downloads": 1
               }
             ]
           }
