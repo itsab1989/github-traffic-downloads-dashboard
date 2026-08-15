@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T13:47:44.250574Z",
+  "generated_at": "2026-08-15T14:09:13.484016Z",
   "repositories": [
     {
       "name": "itsab1989/ChromIQ",
@@ -5595,6 +5595,14 @@
         "releases": [
           {
             "date": "2026-08-15",
+            "tag": "v2.6.0"
+          },
+          {
+            "date": "2026-08-15",
+            "tag": "v2.5.0"
+          },
+          {
+            "date": "2026-08-15",
             "tag": "v2.4.0"
           },
           {
@@ -5699,6 +5707,24 @@
           }
         ],
         "reception": [
+          {
+            "tag": "v2.6.0",
+            "published": "2026-08-15",
+            "age_days": 1,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "total": 0
+          },
+          {
+            "tag": "v2.5.0",
+            "published": "2026-08-15",
+            "age_days": 1,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "total": 0
+          },
           {
             "tag": "v2.4.0",
             "published": "2026-08-15",
@@ -5815,27 +5841,35 @@
             "macos": 0,
             "linux": 0,
             "total": 0
-          },
-          {
-            "tag": "v1.7.0",
-            "published": "2026-08-14",
-            "age_days": 2,
-            "windows": 0,
-            "macos": 0,
-            "linux": 0,
-            "total": 0
-          },
-          {
-            "tag": "v1.6.1",
-            "published": "2026-08-14",
-            "age_days": 2,
-            "windows": 0,
-            "macos": 0,
-            "linux": 0,
-            "total": 0
           }
         ],
         "launch_curves": [
+          {
+            "tag": "v2.6.0",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 0.06,
+                "downloads": 0
+              }
+            ]
+          },
+          {
+            "tag": "v2.5.0",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 0.23,
+                "downloads": 0
+              }
+            ]
+          },
           {
             "tag": "v2.4.0",
             "points": [
@@ -5888,32 +5922,6 @@
               },
               {
                 "h": 0.26,
-                "downloads": 0
-              }
-            ]
-          },
-          {
-            "tag": "v2.1.0",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 0.83,
-                "downloads": 0
-              }
-            ]
-          },
-          {
-            "tag": "v2.0.1",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 1.4,
                 "downloads": 0
               }
             ]
