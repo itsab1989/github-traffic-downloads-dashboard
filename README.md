@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-08-17T17:14:35.466931Z
+**Last Updated:** 2026-08-17T19:04:39.088117Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -1260,7 +1260,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ-Gamut-Viewer
 
-![downloads](https://img.shields.io/badge/downloads-19-212121) ![clones](https://img.shields.io/badge/clones-720-2196F3) ![views](https://img.shields.io/badge/views-2-4CAF50) ![releases](https://img.shields.io/badge/releases-48-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-19-212121) ![clones](https://img.shields.io/badge/clones-720-2196F3) ![views](https://img.shields.io/badge/views-2-4CAF50) ![releases](https://img.shields.io/badge/releases-49-6f42c1)
 
 *Tracking since **2026-08-13** (3 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~3 days have been tracked so far.*
 
@@ -1349,13 +1349,14 @@ Quick navigation to repository statistics:
 
 *ℹ️ 5 lifetime downloads are counted in **All** but matched no platform (the asset filename didn't match the Windows/macOS/Linux patterns).*
 
-🆕 **Latest Release:** `v2.24.0` - **1** download (published 2026-08-17)
+🆕 **Latest Release:** `v2.25.0` - **0** downloads (published 2026-08-17)
 
 <details>
-<summary><strong>📦 Per-version downloads</strong> (48 releases - click to expand)</summary>
+<summary><strong>📦 Per-version downloads</strong> (49 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
+| v2.25.0 | 0 | 0 | 0 | **0** |
 | v2.24.0 | 0 | 1 | 0 | **1** |
 | v2.23.0 | 0 | 0 | 0 | **0** |
 | v2.22.0 | 0 | 0 | 0 | **0** |
@@ -1433,6 +1434,7 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
+| v2.25.0 | 2026-08-17 | 1d | 0 | 0 | 0 | **0** |
 | v2.24.0 | 2026-08-17 | 1d | 0 | 1 | 0 | **1** |
 | v2.23.0 | 2026-08-17 | 1d | 0 | 0 | 0 | **0** |
 | v2.22.0 | 2026-08-17 | 1d | 0 | 0 | 0 | **0** |
