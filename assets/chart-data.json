@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T16:57:04.396679Z",
+  "generated_at": "2026-08-21T17:19:56.509449Z",
   "repositories": [
     {
       "name": "itsab1989/ChromIQ",
@@ -5825,6 +5825,14 @@
         "releases": [
           {
             "date": "2026-08-21",
+            "tag": "v2.50.1"
+          },
+          {
+            "date": "2026-08-21",
+            "tag": "v2.50.0"
+          },
+          {
+            "date": "2026-08-21",
             "tag": "v2.49.0"
           },
           {
@@ -6158,6 +6166,24 @@
         ],
         "reception": [
           {
+            "tag": "v2.50.1",
+            "published": "2026-08-21",
+            "age_days": 1,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "total": 0
+          },
+          {
+            "tag": "v2.50.0",
+            "published": "2026-08-21",
+            "age_days": 1,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "total": 0
+          },
+          {
             "tag": "v2.49.0",
             "published": "2026-08-21",
             "age_days": 1,
@@ -6273,27 +6299,35 @@
             "macos": 0,
             "linux": 0,
             "total": 0
-          },
-          {
-            "tag": "v2.40.0",
-            "published": "2026-08-20",
-            "age_days": 2,
-            "windows": 0,
-            "macos": 0,
-            "linux": 0,
-            "total": 0
-          },
-          {
-            "tag": "v2.39.6",
-            "published": "2026-08-19",
-            "age_days": 3,
-            "windows": 0,
-            "macos": 0,
-            "linux": 0,
-            "total": 0
           }
         ],
         "launch_curves": [
+          {
+            "tag": "v2.50.1",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 0.01,
+                "downloads": 0
+              }
+            ]
+          },
+          {
+            "tag": "v2.50.0",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 0.32,
+                "downloads": 0
+              }
+            ]
+          },
           {
             "tag": "v2.49.0",
             "points": [
@@ -6342,32 +6376,6 @@
               },
               {
                 "h": 0.22,
-                "downloads": 0
-              }
-            ]
-          },
-          {
-            "tag": "v2.45.1",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 0.24,
-                "downloads": 0
-              }
-            ]
-          },
-          {
-            "tag": "v2.45.0",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 0.37,
                 "downloads": 0
               }
             ]
