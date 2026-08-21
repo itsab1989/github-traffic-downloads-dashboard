@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T05:00:01.013400Z",
+  "generated_at": "2026-08-21T05:30:23.064497Z",
   "repositories": [
     {
       "name": "itsab1989/ChromIQ",
@@ -1214,6 +1214,10 @@
           ]
         },
         "releases": [
+          {
+            "date": "2026-08-21",
+            "tag": "v4.1.2-beta.5"
+          },
           {
             "date": "2026-08-21",
             "tag": "v4.1.2-beta.4"
@@ -4313,6 +4317,15 @@
         ],
         "reception": [
           {
+            "tag": "v4.1.2-beta.5",
+            "published": "2026-08-21",
+            "age_days": 1,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "total": 0
+          },
+          {
             "tag": "v4.1.2-beta.4",
             "published": "2026-08-21",
             "age_days": 1,
@@ -4437,18 +4450,22 @@
             "macos": 1,
             "linux": 0,
             "total": 1
-          },
-          {
-            "tag": "v4.0.2-beta.4",
-            "published": "2026-08-14",
-            "age_days": 8,
-            "windows": 0,
-            "macos": 1,
-            "linux": 0,
-            "total": 1
           }
         ],
         "launch_curves": [
+          {
+            "tag": "v4.1.2-beta.5",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 0.22,
+                "downloads": 0
+              }
+            ]
+          },
           {
             "tag": "v4.1.2-beta.4",
             "points": [
@@ -4550,67 +4567,6 @@
               },
               {
                 "h": 22.91,
-                "downloads": 14
-              }
-            ]
-          },
-          {
-            "tag": "v4.1.0",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": -6.84,
-                "downloads": 0
-              },
-              {
-                "h": -5.94,
-                "downloads": 1
-              },
-              {
-                "h": -5.21,
-                "downloads": 2
-              },
-              {
-                "h": -3.89,
-                "downloads": 3
-              },
-              {
-                "h": -2.89,
-                "downloads": 5
-              },
-              {
-                "h": -0.88,
-                "downloads": 6
-              },
-              {
-                "h": -0.18,
-                "downloads": 0
-              },
-              {
-                "h": 1.05,
-                "downloads": 1
-              },
-              {
-                "h": 8.59,
-                "downloads": 3
-              },
-              {
-                "h": 15.0,
-                "downloads": 6
-              },
-              {
-                "h": 15.84,
-                "downloads": 7
-              },
-              {
-                "h": 16.74,
-                "downloads": 9
-              },
-              {
-                "h": 21.81,
                 "downloads": 14
               }
             ]
