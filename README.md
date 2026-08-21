@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-08-21T06:21:13.148387Z
+**Last Updated:** 2026-08-21T07:13:44.616463Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -94,7 +94,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-2539-212121) ![clones](https://img.shields.io/badge/clones-25362-2196F3) ![views](https://img.shields.io/badge/views-5223-4CAF50) ![releases](https://img.shields.io/badge/releases-775-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-2541-212121) ![clones](https://img.shields.io/badge/clones-25362-2196F3) ![views](https://img.shields.io/badge/views-5223-4CAF50) ![releases](https://img.shields.io/badge/releases-775-6f42c1)
 
 *Tracking since **2026-05-02** (110 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~110 days have been tracked so far.*
 
@@ -104,7 +104,7 @@ Quick navigation to repository statistics:
 |--------|-----------|-----------|--------|
 | Clones | 3860 | 2431 | ▲ +58.8% |
 | Views | 204 | 468 | ▼ -56.4% |
-| Downloads | 60 | 142 | ▼ -57.7% |
+| Downloads | 62 | 142 | ▼ -56.3% |
 
 ### 🗅️ Clones
 
@@ -146,7 +146,7 @@ Quick navigation to repository statistics:
 |--------|-------|--------------------------|
 | 👀 Unique visitors | 323 | — |
 | 🗅️ Unique cloners | 4143 | 1282.7% |
-| 📥 Downloads | 443 | 137.2% |
+| 📥 Downloads | 445 | 137.8% |
 
 ### 📞 Referrers
 
@@ -187,10 +187,10 @@ Quick navigation to repository statistics:
 
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
-| 🪟 Windows | 168 | 579 | 669 |
+| 🪟 Windows | 170 | 581 | 671 |
 | 🍎 macOS | 206 | 1215 | 1694 |
 | 🐧 Linux | 35 | 111 | 141 |
-| **All** | **443** | **1939** | **2539** |
+| **All** | **445** | **1941** | **2541** |
 
 *ℹ️ 35 lifetime downloads are counted in **All** but matched no platform (the asset filename didn't match the Windows/macOS/Linux patterns).*
 
@@ -206,7 +206,7 @@ Quick navigation to repository statistics:
 | v4.1.2-beta.3 | 0 | 0 | 0 | **0** |
 | v4.1.2-beta.2 | 0 | 0 | 0 | **0** |
 | v4.1.2-beta.1 | 0 | 0 | 0 | **0** |
-| v4.1.1 | 23 | 9 | 0 | **32** |
+| v4.1.1 | 25 | 9 | 0 | **34** |
 | v4.1.0 | 12 | 6 | 2 | **20** |
 | v4.0.2-beta.12 | 0 | 1 | 0 | **1** |
 | v4.0.2-beta.11 | 0 | 2 | 0 | **2** |
@@ -985,7 +985,7 @@ Quick navigation to repository statistics:
 
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
-| 🪟 Windows | 87 | 582 | 0 | **669** |
+| 🪟 Windows | 88 | 583 | 0 | **671** |
 | 🍎 macOS | 1048 | 336 | 310 | **1694** |
 | 🐧 Linux | 60 | 81 | 0 | **141** |
 
@@ -1001,7 +1001,7 @@ Quick navigation to repository statistics:
 | v3.7.1 | 42 | 2026-05-18 |
 | v3.7.0 | 41 | 2026-05-18 |
 | v3.6.6 | 38 | 2026-05-18 |
-| v4.1.1 | 32 | 2026-08-18 |
+| v4.1.1 | 34 | 2026-08-18 |
 | v3.7.38 | 28 | 2026-05-24 |
 
 **Recent Release Reception (first ~14 days):**
@@ -1015,7 +1015,7 @@ Quick navigation to repository statistics:
 | v4.1.2-beta.3 | 2026-08-21 | 1d | 0 | 0 | 0 | **0** |
 | v4.1.2-beta.2 | 2026-08-21 | 1d | 0 | 0 | 0 | **0** |
 | v4.1.2-beta.1 | 2026-08-20 | 2d | 0 | 0 | 0 | **0** |
-| v4.1.1 | 2026-08-18 | 4d | 23 | 9 | 0 | **32** |
+| v4.1.1 | 2026-08-18 | 4d | 25 | 9 | 0 | **34** |
 | v4.1.0 | 2026-08-16 | 6d | 12 | 6 | 2 | **20** |
 | v4.0.2-beta.12 | 2026-08-15 | 7d | 0 | 1 | 0 | **1** |
 | v4.0.2-beta.11 | 2026-08-14 | 8d | 0 | 2 | 0 | **2** |
@@ -1231,7 +1231,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ-Gamut-Viewer
 
-![downloads](https://img.shields.io/badge/downloads-25-212121) ![clones](https://img.shields.io/badge/clones-1594-2196F3) ![views](https://img.shields.io/badge/views-4-4CAF50) ![releases](https://img.shields.io/badge/releases-82-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-25-212121) ![clones](https://img.shields.io/badge/clones-1594-2196F3) ![views](https://img.shields.io/badge/views-4-4CAF50) ![releases](https://img.shields.io/badge/releases-83-6f42c1)
 
 *Tracking since **2026-08-13** (7 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~7 days have been tracked so far.*
 
@@ -1322,13 +1322,14 @@ Quick navigation to repository statistics:
 
 *ℹ️ 5 lifetime downloads are counted in **All** but matched no platform (the asset filename didn't match the Windows/macOS/Linux patterns).*
 
-🆕 **Latest Release:** `v2.48.0` - **0** downloads (published 2026-08-21)
+🆕 **Latest Release:** `v2.49.0` - **0** downloads (published 2026-08-21)
 
 <details>
-<summary><strong>📦 Per-version downloads</strong> (82 releases - click to expand)</summary>
+<summary><strong>📦 Per-version downloads</strong> (83 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
+| v2.49.0 | 0 | 0 | 0 | **0** |
 | v2.48.0 | 0 | 0 | 0 | **0** |
 | v2.47.0 | 0 | 0 | 0 | **0** |
 | v2.46.0 | 0 | 0 | 0 | **0** |
@@ -1444,6 +1445,7 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
+| v2.49.0 | 2026-08-21 | 1d | 0 | 0 | 0 | **0** |
 | v2.48.0 | 2026-08-21 | 1d | 0 | 0 | 0 | **0** |
 | v2.47.0 | 2026-08-21 | 1d | 0 | 0 | 0 | **0** |
 | v2.46.0 | 2026-08-20 | 2d | 0 | 0 | 0 | **0** |
