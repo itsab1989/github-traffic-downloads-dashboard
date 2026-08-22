@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T01:55:17.372948Z",
+  "generated_at": "2026-08-22T02:43:52.749081Z",
   "repositories": [
     {
       "name": "itsab1989/ChromIQ",
@@ -1222,6 +1222,10 @@
           ]
         },
         "releases": [
+          {
+            "date": "2026-08-22",
+            "tag": "v4.1.2-beta.7"
+          },
           {
             "date": "2026-08-22",
             "tag": "v4.1.2-beta.6"
@@ -4329,6 +4333,15 @@
         ],
         "reception": [
           {
+            "tag": "v4.1.2-beta.7",
+            "published": "2026-08-22",
+            "age_days": 1,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "total": 0
+          },
+          {
             "tag": "v4.1.2-beta.6",
             "published": "2026-08-22",
             "age_days": 1,
@@ -4453,18 +4466,22 @@
             "macos": 0,
             "linux": 0,
             "total": 0
-          },
-          {
-            "tag": "v4.0.2-beta.6",
-            "published": "2026-08-14",
-            "age_days": 9,
-            "windows": 0,
-            "macos": 0,
-            "linux": 0,
-            "total": 0
           }
         ],
         "launch_curves": [
+          {
+            "tag": "v4.1.2-beta.7",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 0.01,
+                "downloads": 0
+              }
+            ]
+          },
           {
             "tag": "v4.1.2-beta.6",
             "points": [
@@ -4530,19 +4547,6 @@
               },
               {
                 "h": 1.37,
-                "downloads": 0
-              }
-            ]
-          },
-          {
-            "tag": "v4.1.2-beta.1",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 0.13,
                 "downloads": 0
               }
             ]
