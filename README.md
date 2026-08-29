@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-08-29T19:49:28.353482Z
+**Last Updated:** 2026-08-29T22:02:47.486703Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -1087,7 +1087,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ-Patches
 
-![downloads](https://img.shields.io/badge/downloads-41-212121) ![clones](https://img.shields.io/badge/clones-337-2196F3) ![views](https://img.shields.io/badge/views-82-4CAF50) ![releases](https://img.shields.io/badge/releases-5-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-42-212121) ![clones](https://img.shields.io/badge/clones-337-2196F3) ![views](https://img.shields.io/badge/views-82-4CAF50) ![releases](https://img.shields.io/badge/releases-5-6f42c1)
 
 *Tracking since **2026-07-02** (55 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~55 days have been tracked so far.*
 
@@ -1097,7 +1097,7 @@ Quick navigation to repository statistics:
 |--------|-----------|-----------|--------|
 | Clones | 2 | 6 | ▼ -66.7% |
 | Views | 0 | 0 | — |
-| Downloads | 2 | 2 | ▬ 0% |
+| Downloads | 3 | 2 | ▲ +50.0% |
 
 ### 🗅️ Clones
 
@@ -1139,7 +1139,7 @@ Quick navigation to repository statistics:
 |--------|-------|--------------------------|
 | 👀 Unique visitors | 3 | — |
 | 🗅️ Unique cloners | 17 | 566.7% |
-| 📥 Downloads | 8 | 266.7% |
+| 📥 Downloads | 9 | 300.0% |
 
 ### 📞 Referrers
 
@@ -1169,19 +1169,19 @@ Quick navigation to repository statistics:
 
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
-| 🪟 Windows | 3 | 11 | 15 |
+| 🪟 Windows | 4 | 12 | 16 |
 | 🍎 macOS | 5 | 18 | 23 |
 | 🐧 Linux | 0 | 3 | 3 |
-| **All** | **8** | **32** | **41** |
+| **All** | **9** | **33** | **42** |
 
-🆕 **Latest Release:** `v1.2.1` - **18** downloads (published 2026-07-07)
+🆕 **Latest Release:** `v1.2.1` - **19** downloads (published 2026-07-07)
 
 <details>
 <summary><strong>📦 Per-version downloads</strong> (5 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
-| v1.2.1 | 6 | 11 | 1 | **18** |
+| v1.2.1 | 7 | 11 | 1 | **19** |
 | v1.2.0 | 5 | 7 | 2 | **14** |
 | v1.1.0 | 0 | 1 | 0 | **1** |
 | v1.0.1 | 1 | 3 | 0 | **4** |
@@ -1195,7 +1195,7 @@ Quick navigation to repository statistics:
 
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
-| 🪟 Windows | 0 | 15 | 0 | **15** |
+| 🪟 Windows | 0 | 16 | 0 | **16** |
 | 🍎 macOS | 17 | 3 | 3 | **23** |
 | 🐧 Linux | 0 | 3 | 0 | **3** |
 
@@ -1203,7 +1203,7 @@ Quick navigation to repository statistics:
 
 | Release | Downloads | Published |
 |---------|-----------|-----------|
-| v1.2.1 | 18 | 2026-07-07 |
+| v1.2.1 | 19 | 2026-07-07 |
 | v1.2.0 | 14 | 2026-07-03 |
 | v1.0.1 | 4 | 2026-07-02 |
 | v1.0.0 | 4 | 2026-07-02 |
