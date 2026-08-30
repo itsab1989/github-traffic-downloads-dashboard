@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-08-30T21:40:25.263428Z
+**Last Updated:** 2026-08-30T23:57:13.946635Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -94,7 +94,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-2656-212121) ![clones](https://img.shields.io/badge/clones-25860-2196F3) ![views](https://img.shields.io/badge/views-5668-4CAF50) ![releases](https://img.shields.io/badge/releases-808-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-2656-212121) ![clones](https://img.shields.io/badge/clones-25860-2196F3) ![views](https://img.shields.io/badge/views-5668-4CAF50) ![releases](https://img.shields.io/badge/releases-809-6f42c1)
 
 *Tracking since **2026-05-02** (120 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~120 days have been tracked so far.*
 
@@ -194,13 +194,14 @@ Quick navigation to repository statistics:
 
 *ℹ️ 35 lifetime downloads are counted in **All** but matched no platform (the asset filename didn't match the Windows/macOS/Linux patterns).*
 
-🆕 **Latest Release:** `v4.1.5-beta.4` - **0** downloads (published 2026-08-30)
+🆕 **Latest Release:** `v4.1.5-beta.5` - **0** downloads (published 2026-08-30)
 
 <details>
-<summary><strong>📦 Per-version downloads</strong> (808 releases - click to expand)</summary>
+<summary><strong>📦 Per-version downloads</strong> (809 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
+| v4.1.5-beta.5 | 0 | 0 | 0 | **0** |
 | v4.1.5-beta.4 | 0 | 0 | 0 | **0** |
 | v4.1.5-beta.3 | 1 | 0 | 0 | **1** |
 | v4.1.5-beta.2 | 1 | 1 | 0 | **2** |
@@ -1043,6 +1044,7 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
+| v4.1.5-beta.5 | 2026-08-30 | 1d | 0 | 0 | 0 | **0** |
 | v4.1.5-beta.4 | 2026-08-30 | 1d | 0 | 0 | 0 | **0** |
 | v4.1.5-beta.3 | 2026-08-30 | 1d | 1 | 0 | 0 | **1** |
 | v4.1.5-beta.2 | 2026-08-30 | 1d | 1 | 1 | 0 | **2** |
