@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T13:58:55.412411Z",
+  "generated_at": "2026-09-09T17:29:39.298744Z",
   "repositories": [
     {
       "name": "itsab1989/ChromIQ",
@@ -706,7 +706,7 @@
             8,
             12,
             15,
-            8
+            14
           ],
           "windows": [
             6,
@@ -739,7 +739,7 @@
             4,
             8,
             7,
-            1
+            3
           ],
           "macos": [
             3,
@@ -772,7 +772,7 @@
             4,
             4,
             3,
-            5
+            8
           ],
           "linux": [
             4,
@@ -805,7 +805,7 @@
             0,
             0,
             5,
-            2
+            3
           ]
         },
         "cumulative": {
@@ -1029,7 +1029,7 @@
             2714,
             2726,
             2741,
-            2749
+            2755
           ],
           "windows": [
             90,
@@ -1140,7 +1140,7 @@
             751,
             759,
             766,
-            767
+            769
           ],
           "macos": [
             479,
@@ -1251,7 +1251,7 @@
             1778,
             1782,
             1785,
-            1790
+            1793
           ],
           "linux": [
             31,
@@ -1362,10 +1362,18 @@
             150,
             150,
             155,
-            157
+            158
           ]
         },
         "releases": [
+          {
+            "date": "2026-09-09",
+            "tag": "v4.3.0-beta.1"
+          },
+          {
+            "date": "2026-09-09",
+            "tag": "v4.2.1"
+          },
           {
             "date": "2026-09-07",
             "tag": "v4.2.0"
@@ -4633,6 +4641,24 @@
         ],
         "reception": [
           {
+            "tag": "v4.3.0-beta.1",
+            "published": "2026-09-09",
+            "age_days": 1,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "total": 0
+          },
+          {
+            "tag": "v4.2.1",
+            "published": "2026-09-09",
+            "age_days": 1,
+            "windows": 0,
+            "macos": 2,
+            "linux": 0,
+            "total": 2
+          },
+          {
             "tag": "v4.2.1-beta.1",
             "published": "2026-09-08",
             "age_days": 2,
@@ -4645,10 +4671,10 @@
             "tag": "v4.2.0",
             "published": "2026-09-07",
             "age_days": 3,
-            "windows": 15,
-            "macos": 6,
+            "windows": 17,
+            "macos": 7,
             "linux": 1,
-            "total": 22
+            "total": 25
           },
           {
             "tag": "v4.1.5-beta.11",
@@ -4674,8 +4700,8 @@
             "age_days": 5,
             "windows": 3,
             "macos": 3,
-            "linux": 3,
-            "total": 9
+            "linux": 4,
+            "total": 10
           },
           {
             "tag": "v4.1.5-beta.8",
@@ -4748,27 +4774,35 @@
             "macos": 0,
             "linux": 0,
             "total": 1
-          },
-          {
-            "tag": "v4.1.4",
-            "published": "2026-08-28",
-            "age_days": 13,
-            "windows": 33,
-            "macos": 28,
-            "linux": 5,
-            "total": 66
-          },
-          {
-            "tag": "v4.1.3",
-            "published": "2026-08-27",
-            "age_days": 14,
-            "windows": 3,
-            "macos": 12,
-            "linux": 0,
-            "total": 15
           }
         ],
         "launch_curves": [
+          {
+            "tag": "v4.3.0-beta.1",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 1.29,
+                "downloads": 0
+              }
+            ]
+          },
+          {
+            "tag": "v4.2.1",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 1.98,
+                "downloads": 2
+              }
+            ]
+          },
           {
             "tag": "v4.2.1-beta.1",
             "points": [
@@ -4846,48 +4880,6 @@
               {
                 "h": 9.43,
                 "downloads": 5
-              }
-            ]
-          },
-          {
-            "tag": "v4.1.5-beta.9",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 1.43,
-                "downloads": 0
-              },
-              {
-                "h": 4.92,
-                "downloads": 3
-              },
-              {
-                "h": 8.13,
-                "downloads": 4
-              },
-              {
-                "h": 10.18,
-                "downloads": 6
-              }
-            ]
-          },
-          {
-            "tag": "v4.1.5-beta.8",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 2.7,
-                "downloads": 1
-              },
-              {
-                "h": 12.91,
-                "downloads": 2
               }
             ]
           }
