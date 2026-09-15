@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-09-14T22:09:26.365462Z
+**Last Updated:** 2026-09-15T00:42:30.734855Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -94,7 +94,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-2883-212121) ![clones](https://img.shields.io/badge/clones-27091-2196F3) ![views](https://img.shields.io/badge/views-6447-4CAF50) ![releases](https://img.shields.io/badge/releases-839-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-2884-212121) ![clones](https://img.shields.io/badge/clones-27091-2196F3) ![views](https://img.shields.io/badge/views-6447-4CAF50) ![releases](https://img.shields.io/badge/releases-839-6f42c1)
 
 *Tracking since **2026-05-02** (135 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~135 days have been tracked so far.*
 
@@ -102,9 +102,9 @@ Quick navigation to repository statistics:
 
 | Metric | This week | Last week | Change |
 |--------|-----------|-----------|--------|
-| Clones | 414 | 596 | ▼ -30.5% |
-| Views | 381 | 331 | ▲ +15.1% |
-| Downloads | 157 | 61 | ▲ +157.4% |
+| Clones | 347 | 616 | ▼ -43.7% |
+| Views | 324 | 341 | ▼ -5.0% |
+| Downloads | 143 | 71 | ▲ +101.4% |
 
 ### 🗅️ Clones
 
@@ -112,8 +112,8 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 5589 | 3509 |
-| Last 90 Days | 17196 | 6242 |
+| Last 30 Days | 3782 | 1881 |
+| Last 90 Days | 16874 | 6163 |
 | Lifetime | 27091 | 8418 |
 
 ### 📄 Repeat vs New Clones
@@ -124,8 +124,8 @@ Quick navigation to repository statistics:
 
 | Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
 |--------|--------------|----------------|----------------|----------|
-| Last 30 Days | 5589 | 3509 | 2080 | 37.2% |
-| Last 90 Days | 17196 | 6242 | 10954 | 63.7% |
+| Last 30 Days | 3782 | 1881 | 1901 | 50.3% |
+| Last 90 Days | 16874 | 6163 | 10711 | 63.5% |
 | Lifetime | 27091 | 8418 | 18673 | 68.9% |
 
 ### 👀 Views
@@ -134,8 +134,8 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 1428 | 429 |
-| Last 90 Days | 4818 | 1062 |
+| Last 30 Days | 1407 | 419 |
+| Last 90 Days | 4792 | 1052 |
 | Lifetime | 6447 | 1591 |
 
 ### 🎯 Engagement Ratios
@@ -144,9 +144,9 @@ Quick navigation to repository statistics:
 
 | Action | Count | Ratio to unique visitors |
 |--------|-------|--------------------------|
-| 👀 Unique visitors | 429 | — |
-| 🗅️ Unique cloners | 3509 | 817.9% |
-| 📥 Downloads | 404 | 94.2% |
+| 👀 Unique visitors | 419 | — |
+| 🗅️ Unique cloners | 1881 | 448.9% |
+| 📥 Downloads | 403 | 96.2% |
 
 ### 📞 Referrers
 
@@ -175,8 +175,8 @@ Quick navigation to repository statistics:
 
 | Period | Total Views | Unique Visitors | Repeat Visitors | Repeat % |
 |--------|-------------|-----------------|-----------------|----------|
-| Last 30 Days | 1428 | 429 | 999 | 70.0% |
-| Last 90 Days | 4818 | 1062 | 3756 | 78.0% |
+| Last 30 Days | 1407 | 419 | 988 | 70.2% |
+| Last 90 Days | 4792 | 1052 | 3740 | 78.0% |
 | Lifetime | 6447 | 1591 | 4856 | 75.3% |
 
 ### 📥 Release Downloads
@@ -187,10 +187,10 @@ Quick navigation to repository statistics:
 
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
-| 🪟 Windows | 179 | 572 | 812 |
-| 🍎 macOS | 170 | 817 | 1842 |
-| 🐧 Linux | 27 | 116 | 166 |
-| **All** | **404** | **1567** | **2883** |
+| 🪟 Windows | 179 | 565 | 812 |
+| 🍎 macOS | 168 | 789 | 1842 |
+| 🐧 Linux | 28 | 115 | 167 |
+| **All** | **403** | **1531** | **2884** |
 
 *ℹ️ 63 lifetime downloads are counted in **All** but matched no platform (the asset filename didn't match the Windows/macOS/Linux patterns).*
 
@@ -224,7 +224,7 @@ Quick navigation to repository statistics:
 | v4.2.2 | 1 | 4 | 0 | **5** |
 | v4.3.0-beta.1 | 1 | 0 | 0 | **1** |
 | v4.2.1 | 3 | 3 | 0 | **6** |
-| v4.2.0 | 18 | 10 | 1 | **29** |
+| v4.2.0 | 18 | 10 | 2 | **30** |
 | v4.1.5-beta.11 | 0 | 1 | 0 | **1** |
 | v4.1.5-beta.10 | 3 | 2 | 0 | **5** |
 | v4.1.5-beta.9 | 5 | 7 | 6 | **18** |
@@ -1051,7 +1051,7 @@ Quick navigation to repository statistics:
 |----------|-------|-------|-------|-------|
 | 🪟 Windows | 99 | 713 | 0 | **812** |
 | 🍎 macOS | 1166 | 353 | 323 | **1842** |
-| 🐧 Linux | 70 | 96 | 0 | **166** |
+| 🐧 Linux | 71 | 96 | 0 | **167** |
 
 **Top 10 Releases by Downloads (lifetime):**
 
@@ -1074,37 +1074,37 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
-| v4.3.0-beta.16 | 2026-09-14 | 1d | 1 | 1 | 0 | **4** |
-| v4.3.0-beta.15 | 2026-09-14 | 1d | 0 | 1 | 0 | **2** |
-| v4.3.0-beta.14 | 2026-09-14 | 1d | 0 | 0 | 0 | **1** |
-| v4.3.0-beta.13 | 2026-09-14 | 1d | 0 | 1 | 0 | **2** |
-| v4.3.0-beta.12 | 2026-09-13 | 2d | 0 | 0 | 0 | **1** |
-| v4.3.0-beta.11 | 2026-09-13 | 2d | 0 | 0 | 0 | **0** |
-| v4.3.0-beta.10 | 2026-09-13 | 2d | 0 | 1 | 0 | **2** |
-| v4.3.0-beta.9 | 2026-09-13 | 2d | 0 | 2 | 0 | **5** |
-| v4.3.0-beta.8 | 2026-09-13 | 2d | 0 | 1 | 0 | **4** |
-| v4.3.0-beta.7 | 2026-09-13 | 2d | 0 | 1 | 0 | **3** |
-| v4.3.0-beta.6 | 2026-09-13 | 2d | 0 | 0 | 0 | **2** |
-| v4.3.0-beta.5 | 2026-09-12 | 3d | 0 | 1 | 0 | **3** |
-| v4.2.7 | 2026-09-12 | 3d | 10 | 7 | 2 | **19** |
-| v4.2.6 | 2026-09-11 | 4d | 3 | 0 | 0 | **3** |
-| v4.3.0-beta.4 | 2026-09-11 | 4d | 0 | 2 | 0 | **2** |
-| v4.2.5 | 2026-09-11 | 4d | 3 | 3 | 0 | **6** |
-| v4.3.0-beta.3 | 2026-09-11 | 4d | 1 | 3 | 0 | **13** |
-| v4.2.4 | 2026-09-11 | 4d | 2 | 2 | 0 | **4** |
-| v4.2.3 | 2026-09-10 | 5d | 4 | 1 | 0 | **5** |
-| v4.3.0-beta.2 | 2026-09-10 | 5d | 5 | 1 | 0 | **6** |
-| v4.2.2 | 2026-09-10 | 5d | 1 | 4 | 0 | **5** |
-| v4.3.0-beta.1 | 2026-09-09 | 6d | 1 | 0 | 0 | **1** |
-| v4.2.1 | 2026-09-09 | 6d | 3 | 3 | 0 | **6** |
+| v4.3.0-beta.16 | 2026-09-14 | 2d | 1 | 1 | 0 | **4** |
+| v4.3.0-beta.15 | 2026-09-14 | 2d | 0 | 1 | 0 | **2** |
+| v4.3.0-beta.14 | 2026-09-14 | 2d | 0 | 0 | 0 | **1** |
+| v4.3.0-beta.13 | 2026-09-14 | 2d | 0 | 1 | 0 | **2** |
+| v4.3.0-beta.12 | 2026-09-13 | 3d | 0 | 0 | 0 | **1** |
+| v4.3.0-beta.11 | 2026-09-13 | 3d | 0 | 0 | 0 | **0** |
+| v4.3.0-beta.10 | 2026-09-13 | 3d | 0 | 1 | 0 | **2** |
+| v4.3.0-beta.9 | 2026-09-13 | 3d | 0 | 2 | 0 | **5** |
+| v4.3.0-beta.8 | 2026-09-13 | 3d | 0 | 1 | 0 | **4** |
+| v4.3.0-beta.7 | 2026-09-13 | 3d | 0 | 1 | 0 | **3** |
+| v4.3.0-beta.6 | 2026-09-13 | 3d | 0 | 0 | 0 | **2** |
+| v4.3.0-beta.5 | 2026-09-12 | 4d | 0 | 1 | 0 | **3** |
+| v4.2.7 | 2026-09-12 | 4d | 10 | 7 | 2 | **19** |
+| v4.2.6 | 2026-09-11 | 5d | 3 | 0 | 0 | **3** |
+| v4.3.0-beta.4 | 2026-09-11 | 5d | 0 | 2 | 0 | **2** |
+| v4.2.5 | 2026-09-11 | 5d | 3 | 3 | 0 | **6** |
+| v4.3.0-beta.3 | 2026-09-11 | 5d | 1 | 3 | 0 | **13** |
+| v4.2.4 | 2026-09-11 | 5d | 2 | 2 | 0 | **4** |
+| v4.2.3 | 2026-09-10 | 6d | 4 | 1 | 0 | **5** |
+| v4.3.0-beta.2 | 2026-09-10 | 6d | 5 | 1 | 0 | **6** |
+| v4.2.2 | 2026-09-10 | 6d | 1 | 4 | 0 | **5** |
+| v4.3.0-beta.1 | 2026-09-09 | 7d | 1 | 0 | 0 | **1** |
+| v4.2.1 | 2026-09-09 | 7d | 3 | 3 | 0 | **6** |
 | v4.2.1-beta.1 | 2026-09-08 | 2d | 2 | 1 | 0 | **3** |
-| v4.2.0 | 2026-09-07 | 8d | 18 | 10 | 1 | **29** |
-| v4.1.5-beta.11 | 2026-09-06 | 9d | 0 | 1 | 0 | **1** |
-| v4.1.5-beta.10 | 2026-09-06 | 9d | 3 | 2 | 0 | **5** |
-| v4.1.5-beta.9 | 2026-09-05 | 10d | 5 | 7 | 6 | **18** |
-| v4.1.5-beta.8 | 2026-09-04 | 11d | 4 | 7 | 5 | **16** |
-| v4.1.5-beta.7 | 2026-09-03 | 12d | 3 | 4 | 2 | **9** |
-| v4.1.5-beta.6 | 2026-09-01 | 14d | 3 | 4 | 3 | **10** |
+| v4.2.0 | 2026-09-07 | 9d | 18 | 10 | 2 | **30** |
+| v4.1.5-beta.11 | 2026-09-06 | 10d | 0 | 1 | 0 | **1** |
+| v4.1.5-beta.10 | 2026-09-06 | 10d | 3 | 2 | 0 | **5** |
+| v4.1.5-beta.9 | 2026-09-05 | 11d | 5 | 7 | 6 | **18** |
+| v4.1.5-beta.8 | 2026-09-04 | 12d | 4 | 7 | 5 | **16** |
+| v4.1.5-beta.7 | 2026-09-03 | 13d | 3 | 4 | 2 | **9** |
+| v4.1.5-beta.6 | 2026-09-01 | 15d | 3 | 4 | 3 | **10** |
 
 ### 📈 Interactive Charts
 
@@ -1260,8 +1260,8 @@ Quick navigation to repository statistics:
 
 | Metric | This week | Last week | Change |
 |--------|-----------|-----------|--------|
-| Clones | 36 | 115 | ▼ -68.7% |
-| Views | 0 | 8 | ▼ -100.0% |
+| Clones | 35 | 74 | ▼ -52.7% |
+| Views | 0 | 5 | ▼ -100.0% |
 | Downloads | 1 | 1 | ▬ 0% |
 
 ### 🗅️ Clones
@@ -1270,7 +1270,7 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 1921 | 342 |
+| Last 30 Days | 1742 | 318 |
 | Last 90 Days | 2462 | 488 |
 | Lifetime | 2462 | 488 |
 
@@ -1282,7 +1282,7 @@ Quick navigation to repository statistics:
 
 | Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
 |--------|--------------|----------------|----------------|----------|
-| Last 30 Days | 1921 | 342 | 1579 | 82.2% |
+| Last 30 Days | 1742 | 318 | 1424 | 81.7% |
 | Last 90 Days | 2462 | 488 | 1974 | 80.2% |
 | Lifetime | 2462 | 488 | 1974 | 80.2% |
 
@@ -1303,8 +1303,8 @@ Quick navigation to repository statistics:
 | Action | Count | Ratio to unique visitors |
 |--------|-------|--------------------------|
 | 👀 Unique visitors | 13 | — |
-| 🗅️ Unique cloners | 342 | 2630.8% |
-| 📥 Downloads | 40 | 307.7% |
+| 🗅️ Unique cloners | 318 | 2446.2% |
+| 📥 Downloads | 39 | 300.0% |
 
 ### 📞 Referrers
 
@@ -1336,10 +1336,10 @@ Quick navigation to repository statistics:
 
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
-| 🪟 Windows | 9 | 9 | 10 |
+| 🪟 Windows | 8 | 9 | 10 |
 | 🍎 macOS | 17 | 17 | 21 |
 | 🐧 Linux | 4 | 4 | 6 |
-| **All** | **40** | **40** | **47** |
+| **All** | **39** | **40** | **47** |
 
 *ℹ️ 10 lifetime downloads are counted in **All** but matched no platform (the asset filename didn't match the Windows/macOS/Linux patterns).*
 
@@ -1474,14 +1474,6 @@ Quick navigation to repository statistics:
 | v2.53.2 | 1 | 2026-08-30 |
 | v2.53.1 | 1 | 2026-08-30 |
 
-**Recent Release Reception (first ~14 days):**
-
-*Downloads each release accrued in its early life. Measured over each release's own early-life window, so a brand-new release isn't unfairly compared against a mature one. Only releases published within ~14 days appear.*
-
-| Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
-|---------|-----------|-----|----|----|----|-----------|
-| v2.54.0 | 2026-08-31 | 15d | 1 | 2 | 0 | **3** |
-
 ### 📈 Interactive Charts
 
 *Clones/views and per-platform download charts - with hover tooltips, dark mode, and release-date markers - are rendered live on the dashboard page (GitHub can't run the charts inside this README):*
@@ -1500,7 +1492,7 @@ Quick navigation to repository statistics:
 
 | Metric | This week | Last week | Change |
 |--------|-----------|-----------|--------|
-| Clones | 201 | 205 | ▼ -2.0% |
+| Clones | 154 | 232 | ▼ -33.6% |
 | Views | 0 | 0 | — |
 | Downloads | 0 | 0 | — |
 
@@ -1510,7 +1502,7 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 4327 | 2767 |
+| Last 30 Days | 3025 | 1587 |
 | Last 90 Days | 6901 | 4242 |
 | Lifetime | 6901 | 4242 |
 
@@ -1522,7 +1514,7 @@ Quick navigation to repository statistics:
 
 | Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
 |--------|--------------|----------------|----------------|----------|
-| Last 30 Days | 4327 | 2767 | 1560 | 36.1% |
+| Last 30 Days | 3025 | 1587 | 1438 | 47.5% |
 | Last 90 Days | 6901 | 4242 | 2659 | 38.5% |
 | Lifetime | 6901 | 4242 | 2659 | 38.5% |
 
@@ -1543,7 +1535,7 @@ Quick navigation to repository statistics:
 | Action | Count | Ratio to unique visitors |
 |--------|-------|--------------------------|
 | 👀 Unique visitors | 4 | — |
-| 🗅️ Unique cloners | 2767 | 69175.0% |
+| 🗅️ Unique cloners | 1587 | 39675.0% |
 | 📥 Downloads | 0 | 0.0% |
 
 ### 📞 Referrers
