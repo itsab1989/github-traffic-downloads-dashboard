@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-09-17T20:24:24.959958Z
+**Last Updated:** 2026-09-17T22:55:31.524713Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -94,7 +94,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-2934-212121) ![clones](https://img.shields.io/badge/clones-27819-2196F3) ![views](https://img.shields.io/badge/views-6797-4CAF50) ![releases](https://img.shields.io/badge/releases-843-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-2936-212121) ![clones](https://img.shields.io/badge/clones-27819-2196F3) ![views](https://img.shields.io/badge/views-6797-4CAF50) ![releases](https://img.shields.io/badge/releases-843-6f42c1)
 
 *Tracking since **2026-05-02** (138 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~138 days have been tracked so far.*
 
@@ -104,7 +104,7 @@ Quick navigation to repository statistics:
 |--------|-----------|-----------|--------|
 | Clones | 1002 | 587 | ▲ +70.7% |
 | Views | 516 | 436 | ▲ +18.3% |
-| Downloads | 152 | 97 | ▲ +56.7% |
+| Downloads | 154 | 97 | ▲ +58.8% |
 
 ### 🗅️ Clones
 
@@ -146,7 +146,7 @@ Quick navigation to repository statistics:
 |--------|-------|--------------------------|
 | 👀 Unique visitors | 464 | — |
 | 🗅️ Unique cloners | 573 | 123.5% |
-| 📥 Downloads | 433 | 93.3% |
+| 📥 Downloads | 435 | 93.8% |
 
 ### 📞 Referrers
 
@@ -187,10 +187,10 @@ Quick navigation to repository statistics:
 
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
-| 🪟 Windows | 195 | 569 | 837 |
+| 🪟 Windows | 196 | 570 | 838 |
 | 🍎 macOS | 172 | 768 | 1855 |
-| 🐧 Linux | 31 | 120 | 172 |
-| **All** | **433** | **1526** | **2934** |
+| 🐧 Linux | 32 | 121 | 173 |
+| **All** | **435** | **1528** | **2936** |
 
 *ℹ️ 70 lifetime downloads are counted in **All** but matched no platform (the asset filename didn't match the Windows/macOS/Linux patterns).*
 
@@ -217,7 +217,7 @@ Quick navigation to repository statistics:
 | v4.3.0-beta.7 | 0 | 1 | 0 | **3** |
 | v4.3.0-beta.6 | 0 | 0 | 0 | **2** |
 | v4.3.0-beta.5 | 0 | 1 | 0 | **3** |
-| v4.2.7 | 25 | 12 | 5 | **42** |
+| v4.2.7 | 26 | 12 | 6 | **44** |
 | v4.2.6 | 3 | 0 | 0 | **3** |
 | v4.3.0-beta.4 | 0 | 2 | 0 | **2** |
 | v4.2.5 | 3 | 3 | 0 | **6** |
@@ -1053,9 +1053,9 @@ Quick navigation to repository statistics:
 
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
-| 🪟 Windows | 103 | 734 | 0 | **837** |
+| 🪟 Windows | 103 | 735 | 0 | **838** |
 | 🍎 macOS | 1176 | 355 | 324 | **1855** |
-| 🐧 Linux | 72 | 100 | 0 | **172** |
+| 🐧 Linux | 72 | 101 | 0 | **173** |
 
 **Top 10 Releases by Downloads (lifetime):**
 
@@ -1067,7 +1067,7 @@ Quick navigation to repository statistics:
 | v3.12.1 | 52 | 2026-06-25 |
 | v3.6.7 | 48 | 2026-05-18 |
 | v3.6.5 | 48 | 2026-05-18 |
-| v4.2.7 | 42 | 2026-09-12 |
+| v4.2.7 | 44 | 2026-09-12 |
 | v4.1.1 | 42 | 2026-08-18 |
 | v3.7.1 | 42 | 2026-05-18 |
 | v3.7.0 | 41 | 2026-05-18 |
@@ -1094,7 +1094,7 @@ Quick navigation to repository statistics:
 | v4.3.0-beta.7 | 2026-09-13 | 5d | 0 | 1 | 0 | **3** |
 | v4.3.0-beta.6 | 2026-09-13 | 5d | 0 | 0 | 0 | **2** |
 | v4.3.0-beta.5 | 2026-09-12 | 6d | 0 | 1 | 0 | **3** |
-| v4.2.7 | 2026-09-12 | 6d | 25 | 12 | 5 | **42** |
+| v4.2.7 | 2026-09-12 | 6d | 26 | 12 | 6 | **44** |
 | v4.2.6 | 2026-09-11 | 7d | 3 | 0 | 0 | **3** |
 | v4.3.0-beta.4 | 2026-09-11 | 7d | 0 | 2 | 0 | **2** |
 | v4.2.5 | 2026-09-11 | 7d | 3 | 3 | 0 | **6** |
