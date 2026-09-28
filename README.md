@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-09-28T00:56:13.028690Z
+**Last Updated:** 2026-09-28T06:03:47.912468Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -94,7 +94,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-3081-212121) ![clones](https://img.shields.io/badge/clones-28203-2196F3) ![views](https://img.shields.io/badge/views-7297-4CAF50) ![releases](https://img.shields.io/badge/releases-870-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-3086-212121) ![clones](https://img.shields.io/badge/clones-28203-2196F3) ![views](https://img.shields.io/badge/views-7297-4CAF50) ![releases](https://img.shields.io/badge/releases-871-6f42c1)
 
 *Tracking since **2026-05-02** (145 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~145 days have been tracked so far.*
 
@@ -104,7 +104,7 @@ Quick navigation to repository statistics:
 |--------|-----------|-----------|--------|
 | Clones | 121 | 714 | ▼ -83.1% |
 | Views | 165 | 597 | ▼ -72.4% |
-| Downloads | 100 | 98 | ▲ +2.0% |
+| Downloads | 105 | 98 | ▲ +7.1% |
 
 ### 🗅️ Clones
 
@@ -146,7 +146,7 @@ Quick navigation to repository statistics:
 |--------|-------|--------------------------|
 | 👀 Unique visitors | 458 | — |
 | 🗅️ Unique cloners | 574 | 125.3% |
-| 📥 Downloads | 457 | 99.8% |
+| 📥 Downloads | 462 | 100.9% |
 
 ### 📞 Referrers
 
@@ -187,21 +187,22 @@ Quick navigation to repository statistics:
 
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
-| 🪟 Windows | 177 | 552 | 879 |
-| 🍎 macOS | 196 | 776 | 1940 |
+| 🪟 Windows | 179 | 554 | 881 |
+| 🍎 macOS | 199 | 779 | 1943 |
 | 🐧 Linux | 30 | 121 | 173 |
-| **All** | **457** | **1537** | **3081** |
+| **All** | **462** | **1542** | **3086** |
 
 *ℹ️ 89 lifetime downloads are counted in **All** but matched no platform (the asset filename didn't match the Windows/macOS/Linux patterns).*
 
-🆕 **Latest Release:** `v4.3.0-beta.47` - **1** download (published 2026-09-27)
+🆕 **Latest Release:** `v4.3.0-beta.48` - **2** downloads (published 2026-09-28)
 
 <details>
-<summary><strong>📦 Per-version downloads</strong> (870 releases - click to expand)</summary>
+<summary><strong>📦 Per-version downloads</strong> (871 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
-| v4.3.0-beta.47 | 0 | 1 | 0 | **1** |
+| v4.3.0-beta.48 | 0 | 2 | 0 | **2** |
+| v4.3.0-beta.47 | 1 | 1 | 0 | **2** |
 | v4.3.0-beta.46 | 0 | 3 | 0 | **4** |
 | v4.3.0-beta.45 | 1 | 1 | 0 | **2** |
 | v4.3.0-beta.44 | 2 | 5 | 0 | **8** |
@@ -244,7 +245,7 @@ Quick navigation to repository statistics:
 | v4.3.0-beta.7 | 0 | 1 | 0 | **3** |
 | v4.3.0-beta.6 | 0 | 0 | 0 | **2** |
 | v4.3.0-beta.5 | 0 | 1 | 0 | **3** |
-| v4.2.7 | 53 | 43 | 6 | **102** |
+| v4.2.7 | 54 | 44 | 6 | **104** |
 | v4.2.6 | 3 | 0 | 0 | **3** |
 | v4.3.0-beta.4 | 0 | 2 | 0 | **2** |
 | v4.2.5 | 3 | 3 | 0 | **6** |
@@ -1080,15 +1081,15 @@ Quick navigation to repository statistics:
 
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
-| 🪟 Windows | 104 | 775 | 0 | **879** |
-| 🍎 macOS | 1245 | 361 | 334 | **1940** |
+| 🪟 Windows | 104 | 777 | 0 | **881** |
+| 🍎 macOS | 1247 | 362 | 334 | **1943** |
 | 🐧 Linux | 72 | 101 | 0 | **173** |
 
 **Top 10 Releases by Downloads (lifetime):**
 
 | Release | Downloads | Published |
 |---------|-----------|-----------|
-| v4.2.7 | 102 | 2026-09-12 |
+| v4.2.7 | 104 | 2026-09-12 |
 | v4.1.4 | 66 | 2026-08-28 |
 | v3.14.7 | 61 | 2026-07-22 |
 | v3.6.4 | 54 | 2026-05-17 |
@@ -1105,7 +1106,8 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
-| v4.3.0-beta.47 | 2026-09-27 | 2d | 0 | 1 | 0 | **1** |
+| v4.3.0-beta.48 | 2026-09-28 | 1d | 0 | 2 | 0 | **2** |
+| v4.3.0-beta.47 | 2026-09-27 | 2d | 1 | 1 | 0 | **2** |
 | v4.3.0-beta.46 | 2026-09-27 | 2d | 0 | 3 | 0 | **4** |
 | v4.3.0-beta.45 | 2026-09-27 | 2d | 1 | 1 | 0 | **2** |
 | v4.3.0-beta.44 | 2026-09-26 | 3d | 2 | 5 | 0 | **8** |
