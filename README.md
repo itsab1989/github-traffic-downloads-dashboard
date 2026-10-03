@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-10-03T01:15:00.306582Z
+**Last Updated:** 2026-10-03T06:39:23.909813Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -94,7 +94,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-3178-212121) ![clones](https://img.shields.io/badge/clones-31063-2196F3) ![views](https://img.shields.io/badge/views-7761-4CAF50) ![releases](https://img.shields.io/badge/releases-881-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-3179-212121) ![clones](https://img.shields.io/badge/clones-31063-2196F3) ![views](https://img.shields.io/badge/views-7761-4CAF50) ![releases](https://img.shields.io/badge/releases-881-6f42c1)
 
 *Tracking since **2026-05-02** (153 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~153 days have been tracked so far.*
 
@@ -104,7 +104,7 @@ Quick navigation to repository statistics:
 |--------|-----------|-----------|--------|
 | Clones | 2373 | 747 | ▲ +217.7% |
 | Views | 308 | 459 | ▼ -32.9% |
-| Downloads | 119 | 89 | ▲ +33.7% |
+| Downloads | 120 | 89 | ▲ +34.8% |
 
 ### 🗅️ Clones
 
@@ -146,7 +146,7 @@ Quick navigation to repository statistics:
 |--------|-------|--------------------------|
 | 👀 Unique visitors | 533 | — |
 | 🗅️ Unique cloners | 933 | 175.0% |
-| 📥 Downloads | 500 | 93.8% |
+| 📥 Downloads | 501 | 94.0% |
 
 ### 📞 Referrers
 
@@ -188,20 +188,20 @@ Quick navigation to repository statistics:
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
 | 🪟 Windows | 180 | 527 | 910 |
-| 🍎 macOS | 232 | 752 | 1997 |
+| 🍎 macOS | 233 | 753 | 1998 |
 | 🐧 Linux | 29 | 104 | 177 |
-| **All** | **500** | **1476** | **3178** |
+| **All** | **501** | **1477** | **3179** |
 
 *ℹ️ 94 lifetime downloads are counted in **All** but matched no platform (the asset filename didn't match the Windows/macOS/Linux patterns).*
 
-🆕 **Latest Release:** `v4.3.3-beta.6` - **0** downloads (published 2026-10-03)
+🆕 **Latest Release:** `v4.3.3-beta.6` - **1** download (published 2026-10-03)
 
 <details>
 <summary><strong>📦 Per-version downloads</strong> (881 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | Total |
 |---------|-----------|----------|----------|-------|
-| v4.3.3-beta.6 | 0 | 0 | 0 | **0** |
+| v4.3.3-beta.6 | 0 | 1 | 0 | **1** |
 | v4.3.3-beta.5 | 0 | 3 | 0 | **3** |
 | v4.3.3-beta.4 | 0 | 1 | 0 | **1** |
 | v4.3.3-beta.3 | 0 | 1 | 0 | **1** |
@@ -1092,7 +1092,7 @@ Quick navigation to repository statistics:
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
 | 🪟 Windows | 105 | 805 | 0 | **910** |
-| 🍎 macOS | 1280 | 369 | 348 | **1997** |
+| 🍎 macOS | 1281 | 369 | 348 | **1998** |
 | 🐧 Linux | 73 | 104 | 0 | **177** |
 
 **Top 10 Releases by Downloads (lifetime):**
@@ -1116,7 +1116,7 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | Downloads |
 |---------|-----------|-----|----|----|----|-----------|
-| v4.3.3-beta.6 | 2026-10-03 | 1d | 0 | 0 | 0 | **0** |
+| v4.3.3-beta.6 | 2026-10-03 | 1d | 0 | 1 | 0 | **1** |
 | v4.3.3-beta.5 | 2026-10-02 | 2d | 0 | 3 | 0 | **3** |
 | v4.3.3-beta.4 | 2026-10-02 | 2d | 0 | 1 | 0 | **1** |
 | v4.3.3-beta.3 | 2026-10-02 | 2d | 0 | 1 | 0 | **1** |
@@ -1533,15 +1533,15 @@ Quick navigation to repository statistics:
 
 # github-traffic-downloads-dashboard
 
-![downloads](https://img.shields.io/badge/downloads-0-212121) ![clones](https://img.shields.io/badge/clones-7551-2196F3) ![views](https://img.shields.io/badge/views-31-4CAF50) ![releases](https://img.shields.io/badge/releases-0-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-0-212121) ![clones](https://img.shields.io/badge/clones-7592-2196F3) ![views](https://img.shields.io/badge/views-31-4CAF50) ![releases](https://img.shields.io/badge/releases-0-6f42c1)
 
-*Tracking since **2026-07-30** (64 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~64 days have been tracked so far.*
+*Tracking since **2026-07-30** (65 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~65 days have been tracked so far.*
 
 **This week vs last week:**
 
 | Metric | This week | Last week | Change |
 |--------|-----------|-----------|--------|
-| Clones | 147 | 278 | ▼ -47.1% |
+| Clones | 188 | 278 | ▼ -32.4% |
 | Views | 16 | 1 | ▲ +1500.0% |
 | Downloads | 0 | 0 | — |
 
@@ -1551,9 +1551,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 1015 | 439 |
-| Last 90 Days | 7551 | 4527 |
-| Lifetime | 7551 | 4527 |
+| Last 30 Days | 1056 | 457 |
+| Last 90 Days | 7592 | 4545 |
+| Lifetime | 7592 | 4545 |
 
 ### 📄 Repeat vs New Clones
 
@@ -1563,9 +1563,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
 |--------|--------------|----------------|----------------|----------|
-| Last 30 Days | 1015 | 439 | 576 | 56.7% |
-| Last 90 Days | 7551 | 4527 | 3024 | 40.0% |
-| Lifetime | 7551 | 4527 | 3024 | 40.0% |
+| Last 30 Days | 1056 | 457 | 599 | 56.7% |
+| Last 90 Days | 7592 | 4545 | 3047 | 40.1% |
+| Lifetime | 7592 | 4545 | 3047 | 40.1% |
 
 ### 👀 Views
 
@@ -1584,7 +1584,7 @@ Quick navigation to repository statistics:
 | Action | Count | Ratio to unique visitors |
 |--------|-------|--------------------------|
 | 👀 Unique visitors | 7 | — |
-| 🗅️ Unique cloners | 439 | 6271.4% |
+| 🗅️ Unique cloners | 457 | 6528.6% |
 | 📥 Downloads | 0 | 0.0% |
 
 ### 📞 Referrers
@@ -1596,8 +1596,8 @@ Quick navigation to repository statistics:
 | Referrer | Total Views | Unique Visitors |
 |----------|-------------|----------------|
 | github.com | 14 | 2 |
-| DuckDuckGo | 2 | 2 |
 | Bing | 1 | 1 |
+| DuckDuckGo | 1 | 1 |
 
 ### 👥 Repeat vs New Visitors
 
