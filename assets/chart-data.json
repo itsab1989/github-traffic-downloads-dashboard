@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T06:39:23.909813Z",
+  "generated_at": "2026-10-03T12:06:28.935092Z",
   "repositories": [
     {
       "name": "itsab1989/ChromIQ",
@@ -778,7 +778,7 @@
             6,
             13,
             29,
-            3
+            11
           ],
           "windows": [
             3,
@@ -811,7 +811,7 @@
             4,
             5,
             5,
-            1
+            4
           ],
           "macos": [
             4,
@@ -844,7 +844,7 @@
             2,
             6,
             23,
-            2
+            5
           ],
           "linux": [
             0,
@@ -877,7 +877,7 @@
             0,
             2,
             0,
-            0
+            2
           ]
         },
         "cumulative": {
@@ -1149,7 +1149,7 @@
             3134,
             3147,
             3176,
-            3179
+            3187
           ],
           "windows": [
             90,
@@ -1284,7 +1284,7 @@
             899,
             904,
             909,
-            910
+            913
           ],
           "macos": [
             479,
@@ -1419,7 +1419,7 @@
             1967,
             1973,
             1996,
-            1998
+            2001
           ],
           "linux": [
             31,
@@ -1554,10 +1554,14 @@
             175,
             177,
             177,
-            177
+            179
           ]
         },
         "releases": [
+          {
+            "date": "2026-10-03",
+            "tag": "v4.3.3-beta.7"
+          },
           {
             "date": "2026-10-03",
             "tag": "v4.3.3-beta.6"
@@ -5085,13 +5089,22 @@
         ],
         "reception": [
           {
+            "tag": "v4.3.3-beta.7",
+            "published": "2026-10-03",
+            "age_days": 1,
+            "windows": 1,
+            "macos": 0,
+            "linux": 0,
+            "total": 1
+          },
+          {
             "tag": "v4.3.3-beta.6",
             "published": "2026-10-03",
             "age_days": 1,
-            "windows": 0,
+            "windows": 1,
             "macos": 1,
             "linux": 0,
-            "total": 1
+            "total": 2
           },
           {
             "tag": "v4.3.3-beta.5",
@@ -5134,18 +5147,18 @@
             "published": "2026-10-02",
             "age_days": 2,
             "windows": 0,
-            "macos": 6,
-            "linux": 0,
-            "total": 6
+            "macos": 9,
+            "linux": 2,
+            "total": 11
           },
           {
             "tag": "v4.3.2",
             "published": "2026-09-28",
             "age_days": 6,
-            "windows": 25,
+            "windows": 26,
             "macos": 29,
             "linux": 4,
-            "total": 62
+            "total": 63
           },
           {
             "tag": "v4.3.1",
@@ -5209,18 +5222,22 @@
             "macos": 1,
             "linux": 0,
             "total": 2
-          },
-          {
-            "tag": "v4.3.0-beta.44",
-            "published": "2026-09-26",
-            "age_days": 8,
-            "windows": 2,
-            "macos": 5,
-            "linux": 0,
-            "total": 8
           }
         ],
         "launch_curves": [
+          {
+            "tag": "v4.3.3-beta.7",
+            "points": [
+              {
+                "h": 0,
+                "downloads": 0
+              },
+              {
+                "h": 2.34,
+                "downloads": 1
+              }
+            ]
+          },
           {
             "tag": "v4.3.3-beta.6",
             "points": [
@@ -5235,6 +5252,10 @@
               {
                 "h": 5.44,
                 "downloads": 1
+              },
+              {
+                "h": 10.89,
+                "downloads": 2
               }
             ]
           },
@@ -5299,23 +5320,6 @@
               {
                 "h": 6.49,
                 "downloads": 3
-              }
-            ]
-          },
-          {
-            "tag": "v4.3.3-beta.1",
-            "points": [
-              {
-                "h": 0,
-                "downloads": 0
-              },
-              {
-                "h": 3.46,
-                "downloads": 5
-              },
-              {
-                "h": 15.1,
-                "downloads": 6
               }
             ]
           }
