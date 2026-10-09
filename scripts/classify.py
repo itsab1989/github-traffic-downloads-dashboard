@@ -13,6 +13,15 @@ Matching mirrors the original jq patterns exactly (case-insensitive):
 - Linux:   'linux', or a .appimage / .deb / .rpm extension
 - Arch:    arm64/aarch64 -> arm64; 'universal' -> universal;
            x86_64/x64/amd64 -> x86_64; otherwise 'other'
+
+One category comes before the operating systems:
+- Homebrew: a "_homebrew" (or "-homebrew") suffix right before the extension,
+  e.g. ChromIQ-macOS-arm64_v4.3.3_homebrew.dmg. ChromIQ uploads a byte copy of
+  each Mac DMG under that name for its Homebrew cask, so a Homebrew install is
+  counted as 'homebrew' and NOT again as 'macos'.
+
+A name that matches nothing (demo projects, screenshots, checksums, icons) is
+not an app download: it is counted as "other", apart from the app total.
 """
 
 import re
@@ -24,6 +33,7 @@ import re
 # "dar(win-)arm64", so macOS darwin assets were misclassified as Windows (a latent
 # bug in the original jq regex). The guard requires "win" to start a name token.
 _PLATFORM_PATTERNS = [
+    ('homebrew', re.compile(r'[-_]homebrew\.(dmg|pkg|zip|tar\.gz|tgz|tar\.xz)$', re.IGNORECASE)),
     ('windows', re.compile(r'windows|(?<![a-z])win[-_.]|\.exe$|\.msi$', re.IGNORECASE)),
     ('macos', re.compile(r'macos|darwin|osx|\.dmg$|\.pkg$', re.IGNORECASE)),
     ('linux', re.compile(r'linux|\.appimage$|\.deb$|\.rpm$', re.IGNORECASE)),
@@ -37,7 +47,7 @@ _ARCH_PATTERNS = [
 
 
 def classify_platform(name):
-    """Return 'windows' | 'macos' | 'linux', or None if the name matches none."""
+    """Return 'homebrew' | 'windows' | 'macos' | 'linux', or None if the name matches none."""
     if not name:
         return None
     for platform, pattern in _PLATFORM_PATTERNS:

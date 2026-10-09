@@ -148,6 +148,18 @@ def zero_fill_daily_data(daily_data: List[Dict[str, Any]], days_back: int = 365)
         date_str = entry.get('date')
         if date_str:
             data_dict[date_str] = entry
+
+    # Never drop recorded days: the range starts at the earliest recorded day
+    # when that is older than days_back. (It used to start at today - days_back
+    # unconditionally, so every day older than a year was silently deleted
+    # from history.json on the next run - real traffic from May 2026 on would
+    # have started disappearing in May 2027.)
+    if data_dict:
+        try:
+            earliest = datetime.strptime(min(data_dict), '%Y-%m-%d').date()
+            start_date = min(start_date, earliest)
+        except ValueError:
+            pass
     
     # Generate all dates and fill missing ones with zeros
     filled_data = []
@@ -265,10 +277,31 @@ def calculate_totals(daily_data: List[Dict[str, Any]]) -> Dict[str, int]:
 # "total" is the grand total across all assets (matched or not); the others are
 # the per-platform sums. Keys map to fields named cumulative_<platform> and
 # downloads_<platform> in the downloads daily_data entries.
-DOWNLOAD_PLATFORMS = ['total', 'windows', 'macos', 'linux']
+DOWNLOAD_PLATFORMS = ['total', 'windows', 'macos', 'linux', 'homebrew', 'other']
+
+# App categories ('total' is their sum; 'other' - demo projects, screenshots,
+# checksums - is never part of it) and the release channels they are split by.
+APP_KEYS = ['total', 'windows', 'macos', 'linux', 'homebrew']
+CHANNELS = ['stable', 'beta']
+CHANNEL_KEYS = [f'{c}_{k}' for c in CHANNELS for k in APP_KEYS]
+
+# Every per-day series merge_downloads keeps. A key is diffed only between two
+# snapshots that both have it, so a series added later (Homebrew, the channel
+# split) starts at a delta of 0 instead of booking its whole lifetime total on
+# the first day it is recorded.
+DOWNLOAD_SERIES_KEYS = DOWNLOAD_PLATFORMS + CHANNEL_KEYS
+
+# Version of the downloads section's layout. 2: 'total' counts app downloads
+# only (the platforms plus Homebrew); before, it counted every asset, demo
+# ZIPs and screenshots included. migrate_downloads() converts version 1.
+DOWNLOADS_SCHEMA = 2
 
 # How long (in days after a release's publish date) we keep per-release daily
-# download snapshots in 'by_release_daily'. This bounds the size of history.json:
+# download snapshots in 'by_release_daily'. 90 days, so the dashboard can draw
+# each release's 30- and 90-day download curve (an occasional tool is not
+# downloaded in its first days only). Snapshots are stored only on the days a
+# release's counts changed (see _drop_unchanged), so a quiet release costs a
+# handful of points, not 90. This bounds the size of history.json:
 # only releases still inside this early-life window carry a daily series; older
 # releases keep just their lifetime total in 'by_release'. The window is what
 # powers "downloads in the first N days" reception analysis.
@@ -278,11 +311,11 @@ DOWNLOAD_PLATFORMS = ['total', 'windows', 'macos', 'linux']
 # does NOT grow with the repo's total release count over time. Repos with very
 # high release cadence (e.g. an automated tagger) rely on this bound, so raise
 # it only with that growth in mind.
-RELEASE_DAILY_TRACKING_DAYS = 14
+RELEASE_DAILY_TRACKING_DAYS = 90
 
 # Per-release fields snapshotted in 'by_release_daily' (cumulative download_count
 # split the same way as the platform totals).
-RELEASE_SNAPSHOT_FIELDS = ['downloads', 'windows', 'macos', 'linux']
+RELEASE_SNAPSHOT_FIELDS = ['downloads', 'windows', 'macos', 'linux', 'homebrew']
 
 # Launch curve: while a release is within its first LAUNCH_WINDOW_HOURS after
 # publish, each run additionally records a timestamped point in the release's
@@ -373,6 +406,9 @@ def merge_release_daily(existing_by_release_daily: Dict[str, Any],
     for tag, info in existing_by_release_daily.items():
         snaps = {s['date']: s for s in info.get('snapshots', []) if s.get('date')}
         result[tag] = {'published_at': info.get('published_at', ''), 'snapshots': snaps}
+        for key in ('prerelease', 'last_seen'):
+            if key in info:
+                result[tag][key] = info[key]
         if info.get('launch'):
             result[tag]['launch'] = list(info['launch'])
 
@@ -386,6 +422,9 @@ def merge_release_daily(existing_by_release_daily: Dict[str, Any],
             entry = result.setdefault(tag, {'published_at': published_at, 'snapshots': {}})
             if published_at:
                 entry['published_at'] = published_at
+            if 'prerelease' in rel:
+                entry['prerelease'] = bool(rel['prerelease'])
+            entry['last_seen'] = max(as_of_date, entry.get('last_seen', ''))
             snapshot = {'date': as_of_date}
             for field in RELEASE_SNAPSHOT_FIELDS:
                 snapshot[field] = int(rel.get(field, 0) or 0)
@@ -412,20 +451,86 @@ def merge_release_daily(existing_by_release_daily: Dict[str, Any],
         published = _release_published_date(info.get('published_at', ''))
         if published and as_of and (as_of - published).days > RELEASE_DAILY_TRACKING_DAYS:
             continue
-        snapshots = sorted(info['snapshots'].values(), key=lambda s: s['date'])
+        snapshots = _drop_unchanged(
+            sorted(info['snapshots'].values(), key=lambda s: s['date']))
         if snapshots:
             pruned[tag] = {'published_at': info.get('published_at', ''), 'snapshots': snapshots}
+            for key in ('prerelease', 'last_seen'):
+                if key in info:
+                    pruned[tag][key] = info[key]
             if info.get('launch'):
                 pruned[tag]['launch'] = info['launch']
 
     return pruned
 
 
+def _drop_unchanged(snapshots: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """
+    Keep the first snapshot and every one whose counts differ from the one
+    before it. A cumulative count is a step function, so the dropped days are
+    exactly the previous value carried forward; 'last_seen' on the release says
+    up to when the last value is known to hold.
+    """
+    kept: List[Dict[str, Any]] = []
+    for snap in snapshots:
+        if kept and all(int(snap.get(f, 0) or 0) == int(kept[-1].get(f, 0) or 0)
+                        for f in RELEASE_SNAPSHOT_FIELDS):
+            continue
+        kept.append(snap)
+    return kept
+
+
+def _app_point(point: Dict[str, Any]) -> Dict[str, Any]:
+    """A schema-1 release point with 'downloads' recounted as app downloads."""
+    out = dict(point)
+    out['downloads'] = sum(int(point.get(p, 0) or 0) for p in ('windows', 'macos', 'linux'))
+    out.setdefault('homebrew', 0)
+    return out
+
+
+def migrate_downloads(downloads: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Bring a stored downloads section to DOWNLOADS_SCHEMA.
+
+    Schema 1 counted EVERY release asset in 'total' and in each release's
+    'downloads': demo-project ZIPs and screenshots too. Its platform fields
+    were app-only already, so the app total is their sum, exactly, and the
+    rest is 'other'. Converting the stored cumulative series and the
+    per-release points the same way keeps the per-day deltas continuous; a
+    total that simply changed meaning between two runs would have shown up as
+    a drop (clamped to 0, hiding that day's downloads).
+    """
+    if not downloads or downloads.get('schema', 1) >= DOWNLOADS_SCHEMA:
+        return downloads or {}
+    out = dict(downloads)
+    daily = []
+    for entry in downloads.get('daily_data', []):
+        e = dict(entry)
+        if 'cumulative_windows' in e:
+            app = sum(int(e.get(f'cumulative_{p}', 0) or 0) for p in ('windows', 'macos', 'linux'))
+            e['cumulative_other'] = max(0, int(e.get('cumulative_total', 0) or 0) - app)
+            e['cumulative_total'] = app
+            e.setdefault('cumulative_homebrew', 0)
+        daily.append(e)
+    out['daily_data'] = daily
+    brd = {}
+    for tag, info in (downloads.get('by_release_daily') or {}).items():
+        i = dict(info)
+        i['snapshots'] = [_app_point(s) for s in info.get('snapshots', [])]
+        if info.get('launch'):
+            i['launch'] = [_app_point(p) for p in info['launch']]
+        brd[tag] = i
+    out['by_release_daily'] = brd
+    out['schema'] = DOWNLOADS_SCHEMA
+    return out
+
+
 def _cumulative_snapshot(entry: Dict[str, Any]) -> Dict[str, int]:
-    """Extract the per-platform cumulative counts from a downloads entry."""
+    """The cumulative counts a downloads entry HAS (absent series stay absent)."""
     return {
-        f'cumulative_{p}': int(entry.get(f'cumulative_{p}', 0) or 0)
-        for p in DOWNLOAD_PLATFORMS
+        f'cumulative_{k}': int(entry.get(f'cumulative_{k}', 0) or 0)
+        for k in DOWNLOAD_SERIES_KEYS
+        if f'cumulative_{k}' in entry
     }
 
 
@@ -468,7 +573,7 @@ def merge_downloads(existing_downloads: Dict[str, Any], new_downloads: Dict[str,
         'by_release_daily' (bounded per-release daily snapshot series for young
         releases - see merge_release_daily).
     """
-    existing_downloads = existing_downloads or {}
+    existing_downloads = migrate_downloads(existing_downloads or {})
     new_downloads = new_downloads or {}
 
     # Lifetime breakdowns (per-release and per-arch) are stored as the latest
@@ -502,8 +607,9 @@ def merge_downloads(existing_downloads: Dict[str, Any], new_downloads: Dict[str,
 
     # Nothing to merge yet (e.g. first ever run before any snapshot exists)
     if not by_date:
-        return {'daily_data': [], 'metadata': {}, 'by_release': by_release,
-                'by_arch': by_arch, 'by_release_daily': by_release_daily}
+        return {'schema': DOWNLOADS_SCHEMA, 'daily_data': [], 'metadata': {},
+                'by_release': by_release, 'by_arch': by_arch,
+                'by_release_daily': by_release_daily}
 
     # Build a continuous daily series from the first to the last snapshot,
     # carrying cumulative values forward across missing days.
@@ -512,32 +618,36 @@ def merge_downloads(existing_downloads: Dict[str, Any], new_downloads: Dict[str,
     end = datetime.strptime(sorted_dates[-1], '%Y-%m-%d').date()
 
     daily_data: List[Dict[str, Any]] = []
-    prev_cumulative = None
-    last_known = by_date[sorted_dates[0]]
+    prev_cumulative: Dict[str, int] = {}
+    last_known: Dict[str, int] = {}
     current_date = start
 
     while current_date <= end:
         date_str = current_date.strftime('%Y-%m-%d')
 
         # Use a fresh snapshot if one exists for this date, else carry forward
+        # (series a snapshot lacks keep their last known value)
         if date_str in by_date:
-            last_known = by_date[date_str]
+            last_known = dict(last_known, **by_date[date_str])
 
         entry: Dict[str, Any] = {'date': date_str}
-        for p in DOWNLOAD_PLATFORMS:
+        for p in DOWNLOAD_SERIES_KEYS:
             cumulative_key = f'cumulative_{p}'
+            if cumulative_key not in last_known:
+                continue
             cumulative_value = last_known[cumulative_key]
             entry[cumulative_key] = cumulative_value
 
-            if prev_cumulative is None:
-                # No prior baseline for the very first day
+            if cumulative_key not in prev_cumulative:
+                # No prior baseline: the very first day, or the first day
+                # this series was recorded
                 entry[f'downloads_{p}'] = 0
             else:
                 # Clamp negative deltas (deleted releases/assets) to 0
                 entry[f'downloads_{p}'] = max(0, cumulative_value - prev_cumulative[cumulative_key])
 
         daily_data.append(entry)
-        prev_cumulative = {f'cumulative_{p}': entry[f'cumulative_{p}'] for p in DOWNLOAD_PLATFORMS}
+        prev_cumulative = {k: v for k, v in entry.items() if k.startswith('cumulative_')}
         current_date += timedelta(days=1)
 
     # Metadata reflects the latest cumulative totals (true lifetime figures)
@@ -548,16 +658,31 @@ def merge_downloads(existing_downloads: Dict[str, Any], new_downloads: Dict[str,
             existing_downloads.get('metadata', {}).get('last_fetched', '')
         ),
     }
-    for p in DOWNLOAD_PLATFORMS:
-        metadata[f'cumulative_{p}'] = latest[f'cumulative_{p}']
+    for k, v in latest.items():
+        if k.startswith('cumulative_'):
+            metadata[k] = v
 
     return {
+        'schema': DOWNLOADS_SCHEMA,
         'daily_data': daily_data,
         'metadata': metadata,
         'by_release': by_release,
         'by_arch': by_arch,
         'by_release_daily': by_release_daily
     }
+
+
+def merge_window_14d(existing: List[Dict[str, Any]], new: Dict[str, Any]) -> List[Dict[str, Any]]:
+    """
+    Date-keyed series of the traffic API's own 14-day totals (count and
+    distinct uniques for clones and views), one entry per day, latest run of
+    the day wins. Only recorded from the first run that fetched it: GitHub
+    keeps no history of these.
+    """
+    by_date = {e['date']: e for e in existing or [] if e.get('date')}
+    if new and new.get('date'):
+        by_date[new['date']] = dict(new)
+    return [by_date[d] for d in sorted(by_date)]
 
 
 def merge_repositories(existing_repos: Dict[str, Any], new_repos: Dict[str, Any]) -> Dict[str, Any]:
@@ -623,6 +748,10 @@ def merge_repositories(existing_repos: Dict[str, Any], new_repos: Dict[str, Any]
             'metadata': metadata,
             'downloads': merged_downloads
         }
+        window_14d = merge_window_14d(existing_repo.get('window_14d', []),
+                                      new_repo.get('window_14d', {}))
+        if window_14d:
+            merged_repos[repo_name]['window_14d'] = window_14d
 
     return merged_repos
 

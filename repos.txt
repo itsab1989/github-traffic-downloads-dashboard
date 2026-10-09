@@ -10,3 +10,12 @@ itsab1989/ChromIQ-Gamut-Viewer
 # GitHub's runners. With no releases and ~2 views a fortnight, this repo is
 # the control case: it shows what the clone columns measure when nobody visits.
 itsab1989/github-traffic-downloads-dashboard
+
+# The Homebrew tap for ChromIQ (casks chromiq and chromiq@beta). It has no
+# releases: Homebrew downloads the DMG from ChromIQ's own release (the
+# "_homebrew" copies, counted as Homebrew there). `brew` clones this tap on
+# install and fetches it on update, so its UNIQUE cloners over 14 days are a
+# rough indicator of how many machines use the Homebrew install. Not downloads.
+itsab1989/homebrew-chromiq
+
+itsab1989/MacReplica

@@ -376,6 +376,29 @@ Your README.md will contain:
 | Last [medium-term period] Days | X | Y | Z | P% |
 | Lifetime | X | Y | Z | P% |
 
+### Release Downloads and the User Estimate
+
+Release downloads are split by the asset file name into **Windows**, **macOS**, **Linux** and **Homebrew**. A file whose name ends in `_homebrew` before its extension (for example `ChromIQ-macOS-arm64_v4.3.3_homebrew.dmg`) is the copy a Homebrew cask downloads: it counts as Homebrew and is not counted again under macOS. Files that match no platform (demo projects, screenshots, checksums, icons) are counted apart as *other files* and are not part of the app total.
+
+Every figure is also split into **stable** and **beta** releases by GitHub's pre-release flag.
+
+For an estimate of how many people seem to use an app, the dashboard page shows:
+
+- **Downloads in the last 30 and 90 days over all releases**, per platform plus Homebrew, for all, stable and beta releases. Old releases count too: an occasional tool is downloaded long after its release day.
+- **Rolling 30-day downloads** over time, by platform and by channel.
+- **Release curves**: each release's cumulative downloads by day since publish, over 30 and 90 days.
+
+What these numbers can and cannot tell:
+
+- A download is a file someone fetched, not a person. One person on two computers, or one who downloads the same version twice, counts twice.
+- People who installed once and never update do not show up after their first download, however much they use the app.
+- Betas are mostly testers, often the same few people on every beta.
+- Clones of the source code are not downloads.
+
+**Data availability.** GitHub only keeps each file's lifetime download count, so per-day figures are the difference between two daily readings and exist from the first tracked day on. The stable/beta split and the per-release series were rebuilt from this repository's own git history of `history.json` (`scripts/backfill_from_git.py`), so they reach back to the first day each repository was tracked. Release curves cover releases published in the last 90 days.
+
+**A Homebrew tap** (for example `itsab1989/homebrew-chromiq`) has no downloads of its own. Homebrew clones the tap on install and fetches it on update, so its number of *different cloners in the last 14 days* (GitHub's own 14-day unique count, kept per day from 2026-10-09 on) is a rough indicator of how many machines use the Homebrew install, not a download count.
+
 ### Traffic Graphs
 
 *Visual representations of traffic trends over different time periods.*
@@ -1187,19 +1210,14 @@ All error codes follow the format: `MODULE-CODE`
 
 To add new repositories to track:
 
-1. Edit `.github/workflows/main.yml`
-2. Find the `repos` array (around line 147-160)
-3. Add new repository in format: `"owner/repository-name"`
-4. Commit and push changes
-5. Workflow will automatically start tracking new repositories
+1. Edit `repos.txt` at the repository root (one `owner/name` per line; blank lines and `#` comments are ignored)
+2. Commit and push the change
+3. The next collector run starts tracking it. The token in `TRAFFIC_ACTION_TOKEN` must be able to read the repository's traffic; if it cannot, the other repositories are still updated and committed, and the run then fails naming the one that could not be fetched.
 
 **Example:**
-```yaml
-repos=(
-  "your-username/existing-repo"
-  "your-username/new-repo-1"      # Added
-  "your-username/new-repo-2"      # Added
-)
+```
+itsab1989/ChromIQ
+your-username/new-repo   # added
 ```
 
 ### Updating Configuration

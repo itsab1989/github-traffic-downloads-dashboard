@@ -57,7 +57,7 @@ class TestMergeReleaseDaily(unittest.TestCase):
         snaps = result['v1.0.0']['snapshots']
         self.assertEqual(len(snaps), 1)
         self.assertEqual(snaps[0], {'date': '2026-05-24', 'downloads': 10,
-                                    'windows': 2, 'macos': 8, 'linux': 0})
+                                    'windows': 2, 'macos': 8, 'linux': 0, 'homebrew': 0})
 
     def test_snapshots_accumulate_across_runs(self):
         """Each run appends a new dated snapshot; the series grows and stays sorted."""
@@ -156,7 +156,7 @@ class TestLaunchPoints(unittest.TestCase):
             '2026-05-24', fetched_at='2026-05-24T09:00:00Z')
         launch = result['v1.0.0']['launch']
         self.assertEqual(launch, [{'time': '2026-05-24T09:00:00Z', 'downloads': 3,
-                                   'windows': 1, 'macos': 2, 'linux': 0}])
+                                   'windows': 1, 'macos': 2, 'linux': 0, 'homebrew': 0}])
 
     def test_unchanged_counts_add_no_point(self):
         """Points are change-driven so storage scales with activity, not cadence."""

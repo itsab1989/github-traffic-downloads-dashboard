@@ -46,6 +46,21 @@
     .empty { color: var(--muted); font-style: italic; padding: 8px 0; }
     footer { text-align: center; color: var(--muted); font-size: 12px; padding: 24px; }
     a { color: var(--accent); }
+    .wide { grid-column: 1 / -1; }
+    .notes { background: var(--panel); border: 1px solid var(--border); border-radius: 8px;
+             padding: 14px 18px; margin-bottom: 32px; }
+    .notes h2 { font-size: 16px; margin: 0 0 8px; }
+    .notes ul { margin: 6px 0 0; padding-left: 20px; }
+    .notes li { margin: 3px 0; }
+    .repo-note { color: var(--muted); font-size: 14px; border-left: 3px solid var(--accent);
+                 padding: 4px 12px; margin: 0 0 16px; }
+    table.est { border-collapse: collapse; width: 100%; font-size: 13px; font-variant-numeric: tabular-nums; }
+    table.est th, table.est td { padding: 5px 8px; border-bottom: 1px solid var(--border); text-align: right; }
+    table.est th:first-child, table.est td:first-child,
+    table.est th:nth-child(2), table.est td:nth-child(2) { text-align: left; }
+    table.est th { color: var(--muted); font-weight: 600; }
+    table.est td.all { font-weight: 600; }
+    .table-scroll { overflow-x: auto; }
   </style>
 </head>
 <body>
@@ -68,7 +83,9 @@
       { key: 'windows', label: 'Windows', color: '#0078D6' },
       { key: 'macos',   label: 'macOS',   color: '#8E8E93' },
       { key: 'linux',   label: 'Linux',   color: '#E95420' },
+      { key: 'homebrew', label: 'Homebrew', color: '#1B7C83' },
     ];
+    const CURVE_PALETTE = ['#0969da', '#d73a49', '#28a745', '#f66a0a', '#6f42c1', '#1b7c83', '#b5498c', '#57606a'];
     const charts = [];
 
     function cssVar(name) {
@@ -133,8 +150,11 @@
         mk('macOS',   reception.map(r => r.macos),   '#8E8E93'),
         mk('Linux',   reception.map(r => r.linux),   '#E95420'),
       ];
-      const other = reception.map(r => Math.max(0, r.total - r.windows - r.macos - r.linux));
-      if (other.some(v => v)) datasets.push(mk('Other', other, '#9C27B0'));
+      if (reception.some(r => r.homebrew)) {
+        datasets.push(mk('Homebrew', reception.map(r => r.homebrew || 0), '#1B7C83'));
+      }
+      const other2 = reception.map(r => Math.max(0, r.total - r.windows - r.macos - r.linux - (r.homebrew || 0)));
+      if (other2.some(v => v)) datasets.push(mk('Other', other2, '#9C27B0'));
       const opts = baseOptions();
       opts.indexAxis = 'y';
       opts.interaction = { mode: 'index', axis: 'y', intersect: false };
@@ -167,6 +187,85 @@
       charts.push(new Chart(canvas, { type: 'line', data: { datasets }, options: opts }));
     }
 
+    function esc(t) {
+      return String(t == null ? '' : t).replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
+    }
+
+    // Rolling 30/90-day downloads over all releases, by channel and platform.
+    function estimateTable(parent, est) {
+      const el = document.createElement('div');
+      el.className = 'card wide';
+      const rows = [];
+      (est.rolling || []).forEach(r => {
+        const partial = r.covered_days < r.days ? ` (${r.covered_days} days tracked)` : '';
+        [['all', 'All releases'], ['stable', 'Stable'], ['beta', 'Beta']].forEach(([ch, label]) => {
+          if (ch !== 'all' && !est.channel_since) return;
+          const v = r[ch];
+          rows.push(`<tr><td>${r.days} days${ch === 'all' ? partial : ''}</td><td>${label}</td>` +
+            `<td class="all">${v.total}</td><td>${v.windows}</td><td>${v.macos}</td>` +
+            `<td>${v.linux}</td><td>${v.homebrew}</td></tr>`);
+        });
+      });
+      const since = [];
+      if (est.tracked_since) since.push(`per-day downloads from ${esc(est.tracked_since)}`);
+      if (est.channel_since) since.push(`stable/beta split from ${esc(est.channel_since)}`);
+      if (est.release_series_since) since.push(`release curves for releases published from ${esc(est.release_series_since)}`);
+      el.innerHTML = `<h3>Downloads in the last 30 and 90 days (all releases)</h3>` +
+        `<p class="hint">For a user estimate: every release counts, old ones too, because an occasional tool is fetched long after its release day. Data available: ${since.join('; ') || 'not yet'}.</p>` +
+        `<div class="table-scroll"><table class="est"><thead><tr><th>Window</th><th>Channel</th><th>All</th>` +
+        `<th>Windows</th><th>macOS</th><th>Linux</th><th>Homebrew</th></tr></thead><tbody>${rows.join('')}</tbody></table></div>`;
+      parent.appendChild(el);
+    }
+
+    function rollingChart(canvas, rs, keys) {
+      const datasets = keys.map(s => {
+        const color = s.color || cssVar(s.varColor);
+        return { label: s.label, data: rs[s.key] || [], borderColor: color, backgroundColor: color,
+                 borderWidth: s.key === 'total' ? 2.5 : 1.8, borderDash: s.dash || [], spanGaps: false,
+                 _var: s.varColor };
+      });
+      lineChart(canvas, rs.dates, datasets);
+    }
+
+    // Cumulative downloads of single releases by day since publish.
+    // Stable releases solid, betas dashed (identity is not color alone).
+    function curvesChart(canvas, curves, horizon) {
+      const datasets = curves.map((c, i) => {
+        const color = CURVE_PALETTE[i % CURVE_PALETTE.length];
+        return {
+          label: c.tag + (c.prerelease ? ' (beta)' : ''),
+          data: c.points.map((y, x) => ({ x, y })),
+          borderColor: color, backgroundColor: color, borderWidth: 2,
+          borderDash: c.prerelease ? [5, 4] : [], spanGaps: false,
+        };
+      });
+      const opts = baseOptions();
+      opts.interaction = { mode: 'nearest', intersect: false };
+      opts.scales.x = {
+        type: 'linear', min: 0, max: horizon,
+        title: { display: true, text: 'Days since publish' },
+        grid: { color: cssVar('--grid') },
+      };
+      charts.push(new Chart(canvas, { type: 'line', data: { datasets }, options: opts }));
+    }
+
+    function windowChart(canvas, w) {
+      lineChart(canvas, w.dates, [
+        { label: 'Different cloners (14 days)', data: w.clones_unique, borderColor: '#2196F3', backgroundColor: '#2196F3', borderWidth: 2 },
+        { label: 'Different visitors (14 days)', data: w.views_unique, borderColor: '#4CAF50', backgroundColor: '#4CAF50', borderWidth: 2 },
+      ]);
+    }
+
+    function renderNotes(root, notes) {
+      if (!notes || !notes.length) return;
+      const el = document.createElement('section');
+      el.className = 'notes';
+      el.innerHTML = '<h2>How to read the download numbers</h2>' +
+        '<p class="hint">Downloads are GitHub\'s own counters, read every few hours. A day\'s downloads are the difference between two daily readings, so per-day figures (and everything built on them: the 30- and 90-day windows, the trend, the release curves) exist only from the first tracked day on. Lifetime totals are exact from the start.</p>' +
+        '<ul>' + notes.map(n => `<li>${esc(n)}</li>`).join('') + '</ul>';
+      root.appendChild(el);
+    }
+
     // Vertical markers at release publish dates that fall within `labels`.
     function releaseAnnotations(labels, releases) {
       const anns = {};
@@ -194,13 +293,47 @@
       const section = document.createElement('section');
       section.className = 'repo';
       section.id = repo.anchor || repo.display;
-      section.innerHTML = `<h2>${repo.display}</h2>`;
+      section.innerHTML = `<h2>${esc(repo.display)}</h2>` +
+        (repo.note ? `<p class="repo-note">${esc(repo.note)}</p>` : '');
       const grid = document.createElement('div');
       grid.className = 'grid';
       section.appendChild(grid);
       root.appendChild(section);
 
       const t = repo.traffic, cfg = repo.config || {};
+      const w14 = repo.window_14d;
+      if (repo.note && w14 && w14.dates && w14.dates.length) {
+        windowChart(card(grid, 'Different cloners in the last 14 days',
+                  `GitHub's own 14-day count of distinct cloners, recorded daily from ${esc(w14.dates[0])} on. A rough indicator of machines using the tap, not downloads.`), w14);
+      }
+      const d = repo.downloads;
+      const est = d && d.estimate;
+      if (d && d.has_data && d.has_releases && est) {
+        estimateTable(grid, est);
+        const rs = est.rolling_series || {};
+        if (rs.dates && rs.dates.length) {
+          rollingChart(card(grid, 'Rolling 30-day downloads by platform',
+                       'Each point: downloads of all releases in the 30 days ending that day.'),
+                       rs, DL_SERIES);
+          if (est.channel_since) {
+            rollingChart(card(grid, 'Rolling 30-day downloads: stable vs beta',
+                         'Betas are mostly testers; the stable line is the closer one to users.'),
+                         rs, [{ key: 'stable_total', label: 'Stable', varColor: '--series-all' },
+                              { key: 'beta_total', label: 'Beta (dashed)', varColor: '--series-all', dash: [5, 4] }]);
+          }
+        }
+        const curves = est.curves || {};
+        if (curves['30'] && curves['30'].length) {
+          curvesChart(card(grid, 'Release curves: first 30 days',
+                      'Cumulative downloads per release by day since publish. The stable releases and betas with the most downloads; betas dashed.'),
+                      curves['30'], 30);
+        }
+        if (curves['90'] && curves['90'].length) {
+          curvesChart(card(grid, 'Release curves: first 90 days',
+                      'The same over 90 days: how long a release keeps being fetched.'),
+                      curves['90'], 90);
+        }
+      }
       lineChart(card(grid, `Daily Traffic (${cfg.daily_days || 30} days)`,
                 'Clones and views per day.'), t.daily.dates, trafficDatasets(t.daily));
       lineChart(card(grid, `Weekly Traffic (${cfg.weekly_weeks || 12} weeks)`,
@@ -210,7 +343,6 @@
       lineChart(card(grid, 'Cumulative Traffic (lifetime)',
                 'Running totals over all tracked time.'), t.cumulative.dates, trafficDatasets(t.cumulative));
 
-      const d = repo.downloads;
       if (d && d.has_data) {
         lineChart(card(grid, `Daily Downloads (${cfg.daily_days || 30} days)`,
                   'Per-platform downloads. Dashed purple lines mark release dates.'),
@@ -242,6 +374,7 @@
         c.options.scales.y.grid.color = cssVar('--grid');
         const all = c.data.datasets.find(ds => ds.label === 'All');
         if (all) { all.borderColor = all.backgroundColor = cssVar('--series-all'); }
+        c.data.datasets.forEach(ds => { if (ds._var) ds.borderColor = ds.backgroundColor = cssVar(ds._var); });
         c.update('none');
       });
     }
@@ -270,6 +403,7 @@
         if (data.generated_at) {
           document.getElementById('generated').textContent = 'Updated ' + data.generated_at;
         }
+        renderNotes(root, data.estimate_notes);
         const repos = data.repositories || [];
         if (!repos.length) { root.innerHTML = '<p class="empty">No repositories in chart data.</p>'; return; }
         repos.forEach(repo => renderRepo(root, repo));

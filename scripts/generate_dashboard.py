@@ -60,7 +60,35 @@ DOWNLOAD_SERIES = [
     ("Windows", "windows", "#0078D6", "s", 2.0),   # Windows blue
     ("macOS",   "macos",   "#8E8E93", "^", 2.0),   # Apple silver/gray
     ("Linux",   "linux",   "#E95420", "D", 2.0),   # Ubuntu orange
+    ("Homebrew", "homebrew", "#1B7C83", "v", 2.0),  # teal (CVD-checked against the others)
 ]
+# Keys of the download series (see DOWNLOAD_SERIES) and of the release channels.
+DL_KEYS = ["total", "windows", "macos", "linux", "homebrew"]
+DL_CHANNELS = ["stable", "beta"]
+
+# Repositories whose traffic means something other than the default reading.
+# The note is shown on the page and in the README above the repo's numbers.
+REPO_NOTES = {
+    "itsab1989/homebrew-chromiq": (
+        "This is ChromIQ's Homebrew tap: it has no downloads of its own. Homebrew "
+        "clones it when someone installs ChromIQ with brew and fetches it again on "
+        "updates, so the number of different cloners in the last 14 days is a rough "
+        "indicator of how many machines use the Homebrew install. It is not a "
+        "download count, and machines that have not run brew lately do not show. "
+        "The Homebrew downloads themselves are counted under ChromIQ (Homebrew)."
+    ),
+}
+
+# Repos whose releases carry Homebrew copies ("_homebrew" assets): their
+# Homebrew row is shown even while it is still 0.
+HOMEBREW_CASK_REPOS = {"itsab1989/ChromIQ"}
+
+# Release curves on the page: how many releases each chart draws. Stable
+# releases first (newest), then the newest betas.
+CHART_CURVE_STABLE = 5
+CHART_CURVE_BETA = 3
+# Rolling-window lengths for the user estimate (days).
+ROLLING_WINDOWS = [30, 90]
 
 # Repository Display Configuration
 # How repository names are displayed in graphs and README
@@ -216,6 +244,17 @@ def prepare_graphs_directory() -> None:
         sys.exit(1)
 
 
+def _window_start(days: int) -> str:
+    """
+    First date (YYYY-MM-DD) of the last `days` days, today included.
+
+    "Last 30 days" is today and the 29 days before it. The cutoff used to be
+    today - 30, which summed 31 days into every 30-day figure (and 91 into the
+    90-day ones).
+    """
+    return (datetime.now(timezone.utc) - timedelta(days=max(days, 1) - 1)).strftime('%Y-%m-%d')
+
+
 def calculate_period_stats(daily_data: List[Dict[str, Any]], days: int) -> Dict[str, int]:
     """
     Calculate statistics for a specific time period (e.g., last 30 days, last 90 days).
@@ -240,7 +279,7 @@ def calculate_period_stats(daily_data: List[Dict[str, Any]], days: int) -> Dict[
         }
     
     # Calculate the cutoff date (N days ago)
-    cutoff_date = (datetime.now(timezone.utc) - timedelta(days=days)).strftime('%Y-%m-%d')
+    cutoff_date = _window_start(days)
     
     # Initialize statistics counters
     stats = {
@@ -323,7 +362,7 @@ def get_daily_data(daily_data: List[Dict[str, Any]], days: int) -> Tuple[List[st
         return [], [], []
     
     # Calculate the cutoff date (N days ago)
-    cutoff_date = (datetime.now(timezone.utc) - timedelta(days=days)).strftime('%Y-%m-%d')
+    cutoff_date = _window_start(days)
     
     # Initialize lists to hold the filtered data
     dates = []
@@ -510,12 +549,12 @@ def get_downloads_daily(downloads_daily: List[Dict[str, Any]], days: int) -> Tup
         Tuple of (list of date strings, dict mapping platform key -> list of daily counts).
         Platform keys: total, windows, macos, linux.
     """
-    series = {'total': [], 'windows': [], 'macos': [], 'linux': []}
+    series = {k: [] for k in DL_KEYS}
     if not downloads_daily:
         return [], series
 
     # Calculate the cutoff date (N days ago)
-    cutoff_date = (datetime.now(timezone.utc) - timedelta(days=days)).strftime('%Y-%m-%d')
+    cutoff_date = _window_start(days)
 
     dates = []
     for entry in downloads_daily:
@@ -540,7 +579,7 @@ def get_downloads_cumulative(downloads_daily: List[Dict[str, Any]]) -> Tuple[Lis
     Returns:
         Tuple of (list of date strings, dict mapping platform key -> list of cumulative totals).
     """
-    series = {'total': [], 'windows': [], 'macos': [], 'linux': []}
+    series = {k: [] for k in DL_KEYS}
     if not downloads_daily:
         return [], series
 
@@ -564,11 +603,11 @@ def calculate_downloads_period_stats(downloads_daily: List[Dict[str, Any]], days
     Returns:
         Dictionary mapping platform key -> total downloads in the period.
     """
-    stats = {'total': 0, 'windows': 0, 'macos': 0, 'linux': 0}
+    stats = {k: 0 for k in DL_KEYS}
     if not downloads_daily:
         return stats
 
-    cutoff_date = (datetime.now(timezone.utc) - timedelta(days=days)).strftime('%Y-%m-%d')
+    cutoff_date = _window_start(days)
     for entry in downloads_daily:
         if entry.get('date', '') >= cutoff_date:
             for platform in stats:
@@ -591,13 +630,15 @@ def calculate_downloads_lifetime(downloads_daily: List[Dict[str, Any]]) -> Dict[
     Returns:
         Dictionary mapping platform key -> all-time download total.
     """
-    stats = {'total': 0, 'windows': 0, 'macos': 0, 'linux': 0}
+    stats = {k: 0 for k in DL_KEYS}
     if not downloads_daily:
         return stats
 
     latest = downloads_daily[-1]
     for platform in stats:
         stats[platform] = latest.get(f'cumulative_{platform}', 0)
+    if 'cumulative_other' in latest:
+        stats['other'] = latest['cumulative_other']
 
     return stats
 
@@ -702,6 +743,9 @@ def compute_unclassified(dl_lifetime: Dict[str, int]) -> int:
     in windows/macos/linux, so 'total' can exceed their sum. Surfacing the gap
     explains the discrepancy and flags asset-naming regressions. Clamped at >= 0.
     """
+    if 'other' in dl_lifetime:
+        # 'total' counts app downloads only; the rest is stored apart
+        return max(0, dl_lifetime['other'])
     matched = dl_lifetime.get('windows', 0) + dl_lifetime.get('macos', 0) + dl_lifetime.get('linux', 0)
     return max(0, dl_lifetime.get('total', 0) - matched)
 
@@ -790,12 +834,18 @@ def compute_release_reception(by_release_daily: Dict[str, Any]) -> List[Dict[str
         # first snapshot the next day, so age is anchored on the publish date
         # rather than on when tracking first observed the release; without a
         # publish date fall back to the observed snapshot span.
+        # Snapshots are stored only when a count changed, so the data's
+        # "today" for a release is its 'last_seen' date, not its last snapshot.
         try:
-            d1 = datetime.strptime(last['date'], '%Y-%m-%d').date()
+            d1 = datetime.strptime(info.get('last_seen') or last['date'], '%Y-%m-%d').date()
             start = datetime.strptime(published or first['date'], '%Y-%m-%d').date()
             age_days = max(1, (d1 - start).days + 1)
         except (ValueError, KeyError):
             age_days = len(snaps)
+        # by_release_daily keeps releases for 90 days now (for the release
+        # curves); this table is about the first ~14 days only.
+        if published and age_days > RELEASE_RECEPTION_WINDOW_DAYS:
+            continue
         baseline = {} if published else first
         keyed_rows.append((published_at, {
             'tag': tag,
@@ -805,9 +855,207 @@ def compute_release_reception(by_release_daily: Dict[str, Any]) -> List[Dict[str
             'accrued_windows': max(0, last.get('windows', 0) - baseline.get('windows', 0)),
             'accrued_macos': max(0, last.get('macos', 0) - baseline.get('macos', 0)),
             'accrued_linux': max(0, last.get('linux', 0) - baseline.get('linux', 0)),
+            'accrued_homebrew': max(0, last.get('homebrew', 0) - baseline.get('homebrew', 0)),
+            'prerelease': bool(info.get('prerelease', False)),
         }))
     keyed_rows.sort(key=lambda kr: kr[0], reverse=True)
     return [row for _, row in keyed_rows]
+
+
+def _parse_day(date_str: str):
+    try:
+        return datetime.strptime((date_str or '')[:10], '%Y-%m-%d').date()
+    except ValueError:
+        return None
+
+
+def series_since(downloads_daily: List[Dict[str, Any]], key: str) -> Optional[str]:
+    """
+    First day a per-day figure exists for `key` (the day after its first
+    snapshot: a day's downloads are the difference to the day before).
+    """
+    seen = False
+    for entry in downloads_daily or []:
+        if f'cumulative_{key}' in entry:
+            if seen:
+                return entry.get('date')
+            seen = True
+    return None
+
+
+def compute_rolling_downloads(downloads_daily: List[Dict[str, Any]], days: int,
+                              today: Optional[str] = None) -> Dict[str, Any]:
+    """
+    Downloads in the last `days` days (today included), summed over ALL
+    releases, per platform plus Homebrew, for all releases and for stable and
+    beta releases apart.
+
+    Returns {'days', 'all': {key: n}, 'stable': {...}, 'beta': {...},
+    'covered_days', 'channel_covered_days'}. covered_days counts the days of
+    the window that have a per-day figure at all: fewer than `days` means the
+    window reaches back before tracking began and the sum is a lower bound.
+    """
+    end = _parse_day(today) if today else datetime.now(timezone.utc).date()
+    start = end - timedelta(days=max(days, 1) - 1)
+    lo, hi = start.strftime('%Y-%m-%d'), end.strftime('%Y-%m-%d')
+    out: Dict[str, Any] = {'days': days, 'all': {k: 0 for k in DL_KEYS}}
+    for ch in DL_CHANNELS:
+        out[ch] = {k: 0 for k in DL_KEYS}
+    all_since = series_since(downloads_daily, 'total')
+    ch_since = series_since(downloads_daily, 'stable_total')
+    covered = ch_covered = 0
+    for entry in downloads_daily or []:
+        date = entry.get('date', '')
+        if not lo <= date <= hi:
+            continue
+        if all_since and date >= all_since:
+            covered += 1
+        if ch_since and date >= ch_since:
+            ch_covered += 1
+        for k in DL_KEYS:
+            out['all'][k] += entry.get(f'downloads_{k}', 0)
+            for ch in DL_CHANNELS:
+                out[ch][k] += entry.get(f'downloads_{ch}_{k}', 0)
+    out['covered_days'] = covered
+    out['channel_covered_days'] = ch_covered
+    return out
+
+
+def compute_rolling_series(downloads_daily: List[Dict[str, Any]], days: int = 30
+                           ) -> Dict[str, List[Any]]:
+    """
+    For every day with a full window behind it: the downloads of the `days`
+    days ending that day, per platform plus Homebrew (all releases) and for
+    stable and beta releases. Days whose window would reach back before
+    tracking began are left out rather than drawn too low.
+    """
+    keys = DL_KEYS + [f'{ch}_total' for ch in DL_CHANNELS]
+    out: Dict[str, List[Any]] = {'dates': []}
+    out.update({k: [] for k in keys})
+    entries = [e for e in downloads_daily or [] if e.get('date')]
+    since = {k: series_since(entries, k) for k in keys}
+    for i in range(len(entries)):
+        if i + 1 < days:
+            continue
+        window = entries[i + 1 - days:i + 1]
+        first_date = window[0]['date']
+        if not since['total'] or first_date < since['total']:
+            continue
+        out['dates'].append(entries[i]['date'])
+        for k in keys:
+            if since[k] and first_date >= since[k]:
+                out[k].append(sum(e.get(f'downloads_{k}', 0) for e in window))
+            else:
+                out[k].append(None)
+    return out
+
+
+def _value_on(snaps: List[Dict[str, Any]], date: str) -> Optional[int]:
+    """A release's cumulative downloads at the end of `date` (snapshots carry forward)."""
+    value = None
+    for s in snaps:
+        if s.get('date', '') <= date:
+            value = s.get('downloads', 0)
+        else:
+            break
+    return value
+
+
+def compute_release_curves(by_release_daily: Dict[str, Any], horizon_days: int,
+                           n_stable: int = CHART_CURVE_STABLE,
+                           n_beta: int = CHART_CURVE_BETA) -> List[Dict[str, Any]]:
+    """
+    Cumulative downloads of single releases by day since publish (day 0 = the
+    publish date), up to `horizon_days` or the release's age.
+
+    Draws the `n_stable` stable releases and the `n_beta` betas with the most
+    downloads at the end of their curve (newest first among those): a release
+    replaced after a few hours tells nothing about how downloads accrue. A day before the first snapshot is 0 when tracking saw the release
+    from its first day on, and unknown (None) when it only started later.
+
+    Returns [{'tag', 'prerelease', 'published', 'age_days', 'points': [...]}].
+    """
+    rows = []
+    for tag, info in (by_release_daily or {}).items():
+        snaps = info.get('snapshots') or []
+        pub = _parse_day(info.get('published_at', ''))
+        if not snaps or not pub:
+            continue
+        last_seen = _parse_day(info.get('last_seen') or snaps[-1].get('date', ''))
+        if not last_seen:
+            continue
+        age = (last_seen - pub).days
+        first_snap = _parse_day(snaps[0].get('date', ''))
+        seen_from_start = first_snap is not None and (first_snap - pub).days <= 1
+        points = []
+        for d in range(0, min(age, horizon_days) + 1):
+            date = (pub + timedelta(days=d)).strftime('%Y-%m-%d')
+            v = _value_on(snaps, date)
+            if v is None and seen_from_start:
+                v = 0
+            points.append(v)
+        if not any(p for p in points if p is not None):
+            continue
+        rows.append({'tag': tag, 'prerelease': bool(info.get('prerelease', False)),
+                     'published': info.get('published_at', '')[:10],
+                     'published_at': info.get('published_at', ''),
+                     'age_days': age, 'points': points})
+    def top(group, n):
+        best = sorted(group, key=lambda r: (max(p or 0 for p in r['points']), r['published_at']),
+                      reverse=True)[:n]
+        return sorted(best, key=lambda r: r['published_at'], reverse=True)
+    out = (top([r for r in rows if not r['prerelease']], n_stable)
+           + top([r for r in rows if r['prerelease']], n_beta))
+    for r in out:
+        r.pop('published_at', None)
+    return out
+
+
+# What the user-estimate numbers can and cannot tell. Shown on the dashboard
+# page (dashboard.html keeps its own copy of the same words) and in the README.
+ESTIMATE_NOTES = [
+    "A download is a file someone fetched, not a person. One person on two "
+    "computers, or one who downloads the same version twice, counts twice.",
+    "People who installed once and never update do not show up at all after "
+    "their first download, however much they use the app.",
+    "An occasional tool is fetched long after a release, not only in its first "
+    "days. The 30- and 90-day windows and the 90-day release curves catch "
+    "those late downloads; a first-week count misses them.",
+    "Betas are mostly testers, often the same few people on every beta. Read the "
+    "stable column for users.",
+    "Homebrew counts installs and upgrades made with brew (each fetches its "
+    "own copy of the Mac file). They are not counted again under macOS.",
+    "Clones of the source code are not downloads and are not counted here.",
+]
+
+
+def render_estimate_md(downloads_daily: List[Dict[str, Any]]) -> str:
+    """README block: rolling 30/90-day downloads by channel, with its caveats."""
+    if not downloads_daily:
+        return ""
+    since = series_since(downloads_daily, 'total')
+    ch_since = series_since(downloads_daily, 'stable_total')
+    md = "**Downloads in the last 30 and 90 days, all releases (for a user estimate):**\n\n"
+    md += "| Window | Channel | All | \U0001fa9f Windows | \U0001f34e macOS | \U0001f427 Linux | \U0001f37a Homebrew |\n"
+    md += "|--------|---------|-----|---------|-------|-------|----------|\n"
+    for n in ROLLING_WINDOWS:
+        r = compute_rolling_downloads(downloads_daily, n)
+        part = "" if r['covered_days'] >= n else f" ({r['covered_days']} days tracked)"
+        for ch, label in (('all', 'all'), ('stable', 'stable'), ('beta', 'beta')):
+            v = r[ch]
+            if ch != 'all' and not ch_since:
+                continue
+            md += (f"| {n} days{part if ch == 'all' else ''} | {label} | **{v['total']}** | "
+                   f"{v['windows']} | {v['macos']} | {v['linux']} | {v['homebrew']} |\n")
+    md += "\n"
+    md += (f"*Per-day downloads are the difference between two daily readings of "
+           f"GitHub's lifetime counters, available from **{since or 'the second tracked day'}** on"
+           + (f"; the stable/beta split from **{ch_since}**" if ch_since else "")
+           + ". What these numbers can and cannot tell:*\n\n")
+    for note in ESTIMATE_NOTES:
+        md += f"- *{note}*\n"
+    md += "\n"
+    return md
 
 
 def render_badges(repo_name: str, dl_lifetime: Dict[str, int],
@@ -900,6 +1148,8 @@ def get_release_breakdown(downloads_by_release: List[Dict[str, Any]]) -> List[Di
             'windows': r.get('windows', 0),
             'macos': r.get('macos', 0),
             'linux': r.get('linux', 0),
+            'homebrew': r.get('homebrew', 0),
+            'prerelease': bool(r.get('prerelease', False)),
             'total': r.get('downloads', 0),
             'published': (r.get('published_at') or '')[:10],
         }
@@ -1623,6 +1873,14 @@ def generate_readme(history_data: Dict[str, Any]) -> None:
         # Add repository section header using configured header level
         header_prefix = '#' * README_HEADER_LEVEL
         md += f"{header_prefix} {display_name}\n\n"
+        if REPO_NOTES.get(repo_name):
+            md += f"> ℹ️ {REPO_NOTES[repo_name]}\n\n"
+            window_14d = repo_data.get('window_14d') or []
+            if window_14d:
+                w = window_14d[-1]
+                md += (f"**Different cloners in the last 14 days:** {w.get('clones_unique_14d', 0)} "
+                       f"(as of {w.get('date')}; GitHub's own 14-day count, recorded daily from "
+                       f"{window_14d[0].get('date')} on)\n\n")
         
         # Calculate statistics for different time periods using configuration
         # Short-term period (configurable via STATS_PERIOD_SHORT_TERM)
@@ -1768,15 +2026,24 @@ def generate_readme(history_data: Dict[str, Any]) -> None:
             md += f"| \U0001fa9f Windows | {dl_short['windows']} | {dl_medium['windows']} | {dl_lifetime['windows']} |\n"
             md += f"| \U0001f34e macOS | {dl_short['macos']} | {dl_medium['macos']} | {dl_lifetime['macos']} |\n"
             md += f"| \U0001f427 Linux | {dl_short['linux']} | {dl_medium['linux']} | {dl_lifetime['linux']} |\n"
+            if dl_lifetime.get('homebrew') or repo_name in HOMEBREW_CASK_REPOS:
+                md += f"| \U0001f37a Homebrew | {dl_short['homebrew']} | {dl_medium['homebrew']} | {dl_lifetime['homebrew']} |\n"
             md += f"| **All** | **{dl_short['total']}** | **{dl_medium['total']}** | **{dl_lifetime['total']}** |\n\n"
 
-            # Explain any gap between the All total and the per-platform sum
+            # Files that are not the app (demo projects, screenshots, checksums)
             unclassified = compute_unclassified(dl_lifetime)
             if unclassified > 0:
-                md += (f"*ℹ️ {unclassified} lifetime download"
-                       f"{'s' if unclassified != 1 else ''} are counted in **All** but "
-                       f"matched no platform (the asset filename didn't match the "
-                       f"Windows/macOS/Linux patterns).*\n\n")
+                if 'other' in dl_lifetime:
+                    md += (f"*ℹ️ Not counted above: {unclassified} lifetime download"
+                           f"{'s' if unclassified != 1 else ''} of other release files "
+                           f"(demo projects, screenshots, checksums), which are not the app.*\n\n")
+                else:
+                    md += (f"*ℹ️ {unclassified} lifetime download"
+                           f"{'s' if unclassified != 1 else ''} are counted in **All** but "
+                           f"matched no platform (the asset filename didn't match the "
+                           f"Windows/macOS/Linux patterns).*\n\n")
+
+            md += render_estimate_md(downloads_daily)
 
             # Latest release callout (always shown, even at 0 downloads), if available
             latest_release = get_latest_release(downloads_by_release)
@@ -1800,18 +2067,21 @@ def generate_readme(history_data: Dict[str, Any]) -> None:
                     f"<summary><strong>\U0001f4e6 Per-version downloads</strong> "
                     f"({len(breakdown_rows)} releases - click to expand)</summary>\n\n"
                 )
-                md += "| Release | \U0001fa9f Windows | \U0001f34e macOS | \U0001f427 Linux | Total |\n"
-                md += "|---------|-----------|----------|----------|-------|\n"
+                md += "| Release | \U0001fa9f Windows | \U0001f34e macOS | \U0001f427 Linux | \U0001f37a Homebrew | Total |\n"
+                md += "|---------|-----------|----------|----------|----------|-------|\n"
                 for row in breakdown_rows:
+                    beta = " *(beta)*" if row.get('prerelease') else ""
                     md += (
-                        f"| {row['tag']} | {row['windows']} | {row['macos']} | "
-                        f"{row['linux']} | **{row['total']}** |\n"
+                        f"| {row['tag']}{beta} | {row['windows']} | {row['macos']} | "
+                        f"{row['linux']} | {row.get('homebrew', 0)} | **{row['total']}** |\n"
                     )
                 md += "\n</details>\n\n"
 
             # Architecture breakdown table (lifetime), if available
             if downloads_by_arch:
                 os_rows = [('windows', '\U0001fa9f Windows'), ('macos', '\U0001f34e macOS'), ('linux', '\U0001f427 Linux')]
+                if downloads_by_arch.get('homebrew'):
+                    os_rows.append(('homebrew', '\U0001f37a Homebrew'))
                 # Determine which arch columns to show (union across OSes), in a stable order
                 arch_order = ['arm64', 'x86_64', 'universal', 'other']
                 present = set()
@@ -2019,10 +2289,26 @@ def build_chart_data(history_data: Dict[str, Any]) -> Dict[str, Any]:
         reception = [
             {'tag': r['tag'], 'published': r['published'], 'age_days': r['age_days'],
              'windows': r['accrued_windows'], 'macos': r['accrued_macos'],
-             'linux': r['accrued_linux'], 'total': r['accrued']}
+             'linux': r['accrued_linux'], 'homebrew': r['accrued_homebrew'],
+             'total': r['accrued'], 'prerelease': r['prerelease']}
             for r in compute_release_reception(by_release_daily)[:CHART_RECEPTION_MAX_RELEASES]
         ]
         launch_curves = compute_launch_curves(by_release_daily)
+
+        # The user estimate: rolling windows over all releases, the trend of
+        # the 30-day window, and single releases' 30/90-day curves.
+        estimate = {
+            'tracked_since': series_since(downloads_daily, 'total'),
+            'channel_since': series_since(downloads_daily, 'stable_total'),
+            'homebrew_since': series_since(downloads_daily, 'homebrew'),
+            'release_series_since': min(
+                (s['date'] for info in by_release_daily.values()
+                 for s in (info.get('snapshots') or [])[:1]), default=None),
+            'rolling': [compute_rolling_downloads(downloads_daily, n) for n in ROLLING_WINDOWS],
+            'rolling_series': compute_rolling_series(downloads_daily, ROLLING_WINDOWS[0]),
+            'curves': {str(n): compute_release_curves(by_release_daily, n) for n in ROLLING_WINDOWS},
+        }
+        window_14d = repo_data.get('window_14d') or []
 
         repos_out.append({
             'name': repo_name,
@@ -2034,8 +2320,16 @@ def build_chart_data(history_data: Dict[str, Any]) -> Dict[str, Any]:
                 'biweekly': {'dates': b_dates, 'clones': b_clones, 'views': b_views},
                 'cumulative': {'dates': c_dates, 'clones': c_clones, 'views': c_views},
             },
+            'note': REPO_NOTES.get(repo_name, ''),
+            'window_14d': {
+                'dates': [w.get('date') for w in window_14d],
+                'clones_unique': [w.get('clones_unique_14d', 0) for w in window_14d],
+                'views_unique': [w.get('views_unique_14d', 0) for w in window_14d],
+            },
             'downloads': {
                 'has_data': bool(downloads_daily),
+                'has_releases': bool(downloads_by_release),
+                'estimate': estimate,
                 'daily': dict({'dates': dl_d_dates}, **dl_d_series),
                 'cumulative': dict({'dates': dl_c_dates}, **dl_c_series),
                 'releases': release_markers,
@@ -2051,6 +2345,7 @@ def build_chart_data(history_data: Dict[str, Any]) -> Dict[str, Any]:
 
     return {
         'generated_at': history_data.get('metadata', {}).get('last_updated', ''),
+        'estimate_notes': ESTIMATE_NOTES,
         'repositories': repos_out,
     }
 

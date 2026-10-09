@@ -54,12 +54,13 @@ class TestDailyData(unittest.TestCase):
 
 class TestDownloadAggregation(unittest.TestCase):
 
-    def test_release_split_and_unclassified_in_total(self):
+    def test_release_split_and_unclassified_kept_out_of_the_app_total(self):
         rel = _release('v1.0.0', '2026-05-20T00:00:00Z', [
             ('App-windows-x64.exe', 7), ('App-macos-arm64.dmg', 12),
             ('App-linux-x86_64.AppImage', 3), ('checksums.txt', 5)])
         agg = aggregate_release(rel)
-        self.assertEqual(agg['downloads'], 27)            # includes the 5 unclassified
+        self.assertEqual(agg['downloads'], 22)            # app downloads only
+        self.assertEqual(agg['other'], 5)                 # the checksum file
         self.assertEqual((agg['windows'], agg['macos'], agg['linux']), (7, 12, 3))
 
     def test_aggregate_downloads_totals_and_arch(self):
@@ -70,7 +71,8 @@ class TestDownloadAggregation(unittest.TestCase):
                      [('App-linux-arm64.deb', 2), ('notes.txt', 1)]),
         ]
         agg = aggregate_downloads(releases)
-        self.assertEqual(agg['cumulative_total'], 18)     # 5+10+2+1
+        self.assertEqual(agg['cumulative_total'], 17)     # 5+10+2, not notes.txt
+        self.assertEqual(agg['cumulative_other'], 1)
         self.assertEqual(agg['cumulative_windows'], 5)
         self.assertEqual(agg['cumulative_macos'], 10)
         self.assertEqual(agg['cumulative_linux'], 2)

@@ -282,3 +282,21 @@ jobs:
           
           # Push changes to the repository
           git push
+
+      # Step 9: A repository that could not be fetched (say a new entry in
+      # repos.txt the token cannot read) no longer stops the others: they are
+      # merged and committed above. This step then fails the run, naming it,
+      # so the failure is still impossible to miss.
+      - name: Report repositories that could not be fetched
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, sys
+          try:
+              errors = json.load(open('traffic_data.json'))['metadata'].get('fetch_errors') or {}
+          except (OSError, ValueError, KeyError):
+              sys.exit(0)  # the fetch step itself failed and says why
+          for repo, msg in errors.items():
+              print(f"::error::{repo} could not be fetched: {msg}")
+          sys.exit(1 if errors else 0)
+          PY
