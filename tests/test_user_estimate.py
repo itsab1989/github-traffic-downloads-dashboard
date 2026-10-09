@@ -340,6 +340,71 @@ class TestBackfill(unittest.TestCase):
         self.assertEqual(set(bf.rows_by_tag([{'tag': 'screenshots-2026', 'downloads': 3},
                                              {'tag': 'v1.0', 'downloads': 1}])), {'v1.0'})
 
+    def test_a_day_before_the_platform_split_has_no_channel_platforms(self):
+        """Writing 0 there booked every platform's lifetime count as the next
+        day's downloads (ChromIQ, 2026-05-25: 510 'stable macOS' in a day)."""
+        rows = {'2026-05-24': {'v1.0.0': bf.app_counts({'downloads': 9})},
+                '2026-05-25': {'v1.0.0': bf.app_counts({'downloads': 10, 'windows': 4,
+                                                        'macos': 5, 'linux': 1})}}
+        ch = bf.channel_series(bf.fill_values(rows, {'v1.0.0'}), {})
+        self.assertEqual(ch['2026-05-24'], {'cumulative_stable_total': 9,
+                                            'cumulative_beta_total': 0})
+        self.assertEqual(ch['2026-05-25']['cumulative_stable_macos'], 5)
+        daily = [dict({'date': d, 'cumulative_total': v['cumulative_stable_total']}, **v)
+                 for d, v in sorted(ch.items())]
+        merged = merge_downloads({'daily_data': daily}, {})['daily_data']
+        self.assertEqual(merged[1]['downloads_stable_total'], 1)
+        self.assertEqual(merged[1]['downloads_stable_macos'], 0)
+
+    def test_a_split_and_an_unsplit_row_of_one_tag_add_up(self):
+        out = bf.rows_by_tag([{'tag': 'v1.0', 'downloads': 3},
+                              {'tag': 'v1.0', 'downloads': 2, 'windows': 2, 'macos': 0, 'linux': 0}])
+        self.assertEqual(out['v1.0']['downloads'], 5)
+
+
+class TestAllIncludesHomebrew(unittest.TestCase):
+    """Basti, 2026-10-09: one number for normal and Homebrew downloads together."""
+
+    def test_the_total_counts_homebrew_once(self):
+        agg = aggregate_downloads([_release('v4.3.3', CHROMIQ_ASSETS)])
+        self.assertEqual(agg['cumulative_homebrew'], 5)
+        self.assertEqual(agg['cumulative_macos'], 15)       # the copies are not in here
+        self.assertEqual(agg['cumulative_total'], agg['cumulative_windows']
+                         + agg['cumulative_macos'] + agg['cumulative_linux']
+                         + agg['cumulative_homebrew'])
+        self.assertEqual(agg['cumulative_total'], 31)       # demo ZIP left out
+        self.assertEqual(agg['cumulative_other'], 5)
+
+    def test_rolling_all_includes_homebrew(self):
+        daily = merge_downloads({}, {'date': _day(-1), 'cumulative_total': 0, 'cumulative_macos': 0,
+                                     'cumulative_homebrew': 0})
+        daily = merge_downloads(daily, {'date': _day(0), 'cumulative_total': 7, 'cumulative_macos': 4,
+                                        'cumulative_homebrew': 3})['daily_data']
+        r = gd.compute_rolling_downloads(daily, 30)
+        self.assertEqual((r['all']['total'], r['all']['macos'], r['all']['homebrew']), (7, 4, 3))
+
+    def test_labelled_on_the_page_the_readme_and_the_badge(self):
+        with open(os.path.join(ROOT, 'dashboard.html'), encoding='utf-8') as f:
+            page = f.read()
+        self.assertIn('<th>All downloads (incl. Homebrew)</th>', page)
+        self.assertIn('All downloads (incl. Homebrew), lifetime:', page)
+        self.assertIn('est.lifetime', page)
+        md = gd.render_estimate_md(_daily(40, 1))
+        self.assertIn('| Window | Channel | All downloads (incl. Homebrew) |', md)
+        self.assertEqual(gd.ALL_LABEL, 'All downloads (incl. Homebrew)')
+        badges = gd.render_badges('itsab1989/ChromIQ', {'total': 9}, {}, 1)
+        self.assertIn('downloads%20incl.%20Homebrew-9-', badges)
+        self.assertIn('![downloads](', gd.render_badges('someone/else', {'total': 9}, {}, 1))
+
+    def test_the_chart_data_carries_the_lifetime_totals(self):
+        daily = _daily(40, 1)
+        history = {'metadata': {'repositories': ['itsab1989/ChromIQ']},
+                   'repositories': {'itsab1989/ChromIQ': {
+                       'daily_data': [], 'downloads': {'daily_data': daily,
+                                                       'by_release': [{'tag': 'v1', 'downloads': 1}]}}}}
+        est = gd.build_chart_data(history)['repositories'][0]['downloads']['estimate']
+        self.assertEqual(est['lifetime']['total'], daily[-1]['cumulative_total'])
+
 
 if __name__ == '__main__':
     unittest.main()

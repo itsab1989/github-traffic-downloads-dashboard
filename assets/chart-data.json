@@ -4,8 +4,8 @@
     "A download is a file someone fetched, not a person. One person on two computers, or one who downloads the same version twice, counts twice.",
     "People who installed once and never update do not show up at all after their first download, however much they use the app.",
     "An occasional tool is fetched long after a release, not only in its first days. The 30- and 90-day windows and the 90-day release curves catch those late downloads; a first-week count misses them.",
-    "Betas are mostly testers, often the same few people on every beta. Read the stable column for users.",
-    "Homebrew counts installs and upgrades made with brew (each fetches its own copy of the Mac file). They are not counted again under macOS.",
+    "Betas are mostly testers, often the same few people on every beta. The Stable rows are the closer ones to users.",
+    "Homebrew counts installs and upgrades made with brew (each fetches its own copy of the Mac file). They are not counted again under macOS, and the \"All downloads (incl. Homebrew)\" figures include them. For ChromIQ the copies start with 4.3.3-beta.17: brew installs of earlier versions fetched the normal file and count under macOS.",
     "Clones of the source code are not downloads and are not counted here."
   ],
   "repositories": [
@@ -808,6 +808,14 @@
               "channel_covered_days": 90
             }
           ],
+          "lifetime": {
+            "total": 3201,
+            "windows": 960,
+            "macos": 2061,
+            "linux": 180,
+            "homebrew": 0,
+            "other": 97
+          },
           "rolling_series": {
             "dates": [
               "2026-06-23",
@@ -7815,6 +7823,14 @@
               "channel_covered_days": 90
             }
           ],
+          "lifetime": {
+            "total": 45,
+            "windows": 18,
+            "macos": 24,
+            "linux": 3,
+            "homebrew": 0,
+            "other": 0
+          },
           "rolling_series": {
             "dates": [
               "2026-08-01",
@@ -9727,6 +9743,14 @@
               "channel_covered_days": 56
             }
           ],
+          "lifetime": {
+            "total": 39,
+            "windows": 10,
+            "macos": 23,
+            "linux": 6,
+            "homebrew": 0,
+            "other": 11
+          },
           "rolling_series": {
             "dates": [
               "2026-09-13",
@@ -11930,6 +11954,14 @@
               "channel_covered_days": 0
             }
           ],
+          "lifetime": {
+            "total": 0,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "homebrew": 0,
+            "other": 0
+          },
           "rolling_series": {
             "dates": [
               "2026-09-12",
@@ -12988,7 +13020,7 @@
           ]
         }
       },
-      "note": "This is ChromIQ's Homebrew tap: it has no downloads of its own. Homebrew clones it when someone installs ChromIQ with brew and fetches it again on updates, so the number of different cloners in the last 14 days is a rough indicator of how many machines use the Homebrew install. It is not a download count, and machines that have not run brew lately do not show. The Homebrew downloads themselves are counted under ChromIQ (Homebrew).",
+      "note": "This is ChromIQ's Homebrew tap: it has no downloads of its own. Homebrew clones it when someone installs ChromIQ with brew and fetches it again on updates, so the number of different cloners in the last 14 days is a rough indicator of how many machines use the Homebrew install. It is not a download count, and machines that have not run brew lately do not show. ChromIQ's release workflow also clones it once per release. The Homebrew downloads themselves are counted under ChromIQ (Homebrew).",
       "window_14d": {
         "dates": [
           "2026-10-09"
@@ -13062,6 +13094,14 @@
               "channel_covered_days": 0
             }
           ],
+          "lifetime": {
+            "total": 0,
+            "windows": 0,
+            "macos": 0,
+            "linux": 0,
+            "homebrew": 0,
+            "other": 0
+          },
           "rolling_series": {
             "dates": [],
             "total": [],
@@ -13467,6 +13507,14 @@
               "channel_covered_days": 0
             }
           ],
+          "lifetime": {
+            "total": 14,
+            "windows": 0,
+            "macos": 14,
+            "linux": 0,
+            "homebrew": 0,
+            "other": 3
+          },
           "rolling_series": {
             "dates": [],
             "total": [],

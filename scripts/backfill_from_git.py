@@ -60,6 +60,7 @@ def app_counts(row: Dict[str, Any]) -> Dict[str, int]:
         out['downloads'] = sum(out.values())
     else:
         out['downloads'] = int(row.get('downloads', 0) or 0)
+        out['no_split'] = 1     # the platforms of this row are not known
     return out
 
 
@@ -72,7 +73,8 @@ def rows_by_tag(by_release: List[Dict[str, Any]]) -> Dict[str, Dict[str, int]]:
             continue
         counts = app_counts(row)
         if tag in out:
-            out[tag] = {k: out[tag][k] + counts[k] for k in counts}
+            out[tag] = {k: out[tag].get(k, 0) + counts.get(k, 0)
+                        for k in set(out[tag]) | set(counts)}
         else:
             out[tag] = counts
     return out
@@ -140,6 +142,11 @@ def channel_series(values_by_date: Dict[str, Dict[str, Dict[str, int]]],
             sums[f'cumulative_{c}_total'] += counts['downloads']
             for p in PLATFORM_FIELDS:
                 sums[f'cumulative_{c}_{p}'] += counts[p]
+        # A day with a row from before the platform split has channel TOTALS
+        # but no channel platforms: leave those out rather than write 0, which
+        # would book every platform's lifetime count as the next day's downloads.
+        if any(counts.get('no_split') for counts in values.values()):
+            sums = {k: v for k, v in sums.items() if k.endswith('_total')}
         out[date] = sums
     return out
 

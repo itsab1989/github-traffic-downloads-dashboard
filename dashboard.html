@@ -212,9 +212,19 @@
       if (est.release_series_since) since.push(`release curves for releases published from ${esc(est.release_series_since)}`);
       el.innerHTML = `<h3>Downloads in the last 30 and 90 days (all releases)</h3>` +
         `<p class="hint">For a user estimate: every release counts, old ones too, because an occasional tool is fetched long after its release day. Data available: ${since.join('; ') || 'not yet'}.</p>` +
-        `<div class="table-scroll"><table class="est"><thead><tr><th>Window</th><th>Channel</th><th>All</th>` +
+        lifetimeLine(est.lifetime) +
+        `<div class="table-scroll"><table class="est"><thead><tr><th>Window</th><th>Channel</th><th>All downloads (incl. Homebrew)</th>` +
         `<th>Windows</th><th>macOS</th><th>Linux</th><th>Homebrew</th></tr></thead><tbody>${rows.join('')}</tbody></table></div>`;
       parent.appendChild(el);
+    }
+
+    // Lifetime: every app download once, Homebrew included (a Homebrew copy
+    // is never counted again under macOS); other release files apart.
+    function lifetimeLine(lt) {
+      if (!lt) return '';
+      const parts = [`Windows ${lt.windows || 0}`, `macOS ${lt.macos || 0}`, `Linux ${lt.linux || 0}`, `Homebrew ${lt.homebrew || 0}`];
+      const other = lt.other ? ` Not included: ${lt.other} downloads of other release files (demo projects, screenshots, checksums).` : '';
+      return `<p class="lifetime"><strong>All downloads (incl. Homebrew), lifetime: ${lt.total || 0}</strong> (${parts.join(', ')}). Each download is counted once.${other}</p>`;
     }
 
     function rollingChart(canvas, rs, keys) {
@@ -261,7 +271,7 @@
       const el = document.createElement('section');
       el.className = 'notes';
       el.innerHTML = '<h2>How to read the download numbers</h2>' +
-        '<p class="hint">Downloads are GitHub\'s own counters, read every few hours. A day\'s downloads are the difference between two daily readings, so per-day figures (and everything built on them: the 30- and 90-day windows, the trend, the release curves) exist only from the first tracked day on. Lifetime totals are exact from the start.</p>' +
+        '<p class="hint">Downloads are GitHub\'s own counters, read about every half hour. A day\'s downloads are the difference between two daily readings, so per-day figures (and everything built on them: the 30- and 90-day windows, the trend, the release curves) exist only from the first tracked day on. Lifetime totals are exact from the start.</p>' +
         '<ul>' + notes.map(n => `<li>${esc(n)}</li>`).join('') + '</ul>';
       root.appendChild(el);
     }

@@ -27,7 +27,7 @@ This dashboard uses GitHub Traffic API data to calculate the following metrics:
 
 **Release Downloads:**
 - Counted when someone downloads a pre-compiled release asset (binary/installer)
-- Split by platform from the asset file name (Windows, macOS, Linux); **All** is the combined total
+- Split by platform from the asset file name (Windows, macOS, Linux, Homebrew); **All downloads (incl. Homebrew)** is the combined total, with each download counted once
 - This is a **separate metric** from Clones - cloning the source is not a release download
 - **Lifetime** totals reflect all-time downloads (GitHub's cumulative `download_count`) and are accurate immediately
 - **Per-day** figures are derived by diffing daily snapshots, so they only accrue from the first tracked day onward
@@ -96,7 +96,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads](https://img.shields.io/badge/downloads-3201-212121) ![clones](https://img.shields.io/badge/clones-32194-2196F3) ![views](https://img.shields.io/badge/views-8272-4CAF50) ![releases](https://img.shields.io/badge/releases-891-6f42c1)
+![downloads incl. Homebrew](https://img.shields.io/badge/downloads%20incl.%20Homebrew-3201-212121) ![clones](https://img.shields.io/badge/clones-32194-2196F3) ![views](https://img.shields.io/badge/views-8272-4CAF50) ![releases](https://img.shields.io/badge/releases-891-6f42c1)
 
 *Tracking since **2026-05-02** (160 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~160 days have been tracked so far.*
 
@@ -193,14 +193,14 @@ Quick navigation to repository statistics:
 | 🍎 macOS | 268 | 689 | 2061 |
 | 🐧 Linux | 22 | 91 | 180 |
 | 🍺 Homebrew | 0 | 0 | 0 |
-| **All** | **480** | **1312** | **3201** |
+| **All downloads (incl. Homebrew)** | **480** | **1312** | **3201** |
 
 *ℹ️ Not counted above: 97 lifetime downloads of other release files (demo projects, screenshots, checksums), which are not the app.*
 
 **Downloads in the last 30 and 90 days, all releases (for a user estimate):**
 
-| Window | Channel | All | 🪟 Windows | 🍎 macOS | 🐧 Linux | 🍺 Homebrew |
-|--------|---------|-----|---------|-------|-------|----------|
+| Window | Channel | All downloads (incl. Homebrew) | 🪟 Windows | 🍎 macOS | 🐧 Linux | 🍺 Homebrew |
+|--------|---------|--------------------------------|---------|-------|-------|----------|
 | 30 days | all | **480** | 190 | 268 | 22 | 0 |
 | 30 days | stable | **268** | 135 | 120 | 13 | 0 |
 | 30 days | beta | **212** | 55 | 148 | 9 | 0 |
@@ -213,8 +213,8 @@ Quick navigation to repository statistics:
 - *A download is a file someone fetched, not a person. One person on two computers, or one who downloads the same version twice, counts twice.*
 - *People who installed once and never update do not show up at all after their first download, however much they use the app.*
 - *An occasional tool is fetched long after a release, not only in its first days. The 30- and 90-day windows and the 90-day release curves catch those late downloads; a first-week count misses them.*
-- *Betas are mostly testers, often the same few people on every beta. Read the stable column for users.*
-- *Homebrew counts installs and upgrades made with brew (each fetches its own copy of the Mac file). They are not counted again under macOS.*
+- *Betas are mostly testers, often the same few people on every beta. The Stable rows are the closer ones to users.*
+- *Homebrew counts installs and upgrades made with brew (each fetches its own copy of the Mac file). They are not counted again under macOS, and the "All downloads (incl. Homebrew)" figures include them. For ChromIQ the copies start with 4.3.3-beta.17: brew installs of earlier versions fetched the normal file and count under macOS.*
 - *Clones of the source code are not downloads and are not counted here.*
 
 🆕 **Latest Release:** `v4.3.3-beta.16` - **13** downloads (published 2026-10-09)
@@ -1274,12 +1274,12 @@ Quick navigation to repository statistics:
 | 🪟 Windows | 1 | 8 | 18 |
 | 🍎 macOS | 0 | 7 | 24 |
 | 🐧 Linux | 0 | 0 | 3 |
-| **All** | **1** | **15** | **45** |
+| **All downloads (incl. Homebrew)** | **1** | **15** | **45** |
 
 **Downloads in the last 30 and 90 days, all releases (for a user estimate):**
 
-| Window | Channel | All | 🪟 Windows | 🍎 macOS | 🐧 Linux | 🍺 Homebrew |
-|--------|---------|-----|---------|-------|-------|----------|
+| Window | Channel | All downloads (incl. Homebrew) | 🪟 Windows | 🍎 macOS | 🐧 Linux | 🍺 Homebrew |
+|--------|---------|--------------------------------|---------|-------|-------|----------|
 | 30 days | all | **1** | 1 | 0 | 0 | 0 |
 | 30 days | stable | **1** | 1 | 0 | 0 | 0 |
 | 30 days | beta | **0** | 0 | 0 | 0 | 0 |
@@ -1292,8 +1292,8 @@ Quick navigation to repository statistics:
 - *A download is a file someone fetched, not a person. One person on two computers, or one who downloads the same version twice, counts twice.*
 - *People who installed once and never update do not show up at all after their first download, however much they use the app.*
 - *An occasional tool is fetched long after a release, not only in its first days. The 30- and 90-day windows and the 90-day release curves catch those late downloads; a first-week count misses them.*
-- *Betas are mostly testers, often the same few people on every beta. Read the stable column for users.*
-- *Homebrew counts installs and upgrades made with brew (each fetches its own copy of the Mac file). They are not counted again under macOS.*
+- *Betas are mostly testers, often the same few people on every beta. The Stable rows are the closer ones to users.*
+- *Homebrew counts installs and upgrades made with brew (each fetches its own copy of the Mac file). They are not counted again under macOS, and the "All downloads (incl. Homebrew)" figures include them. For ChromIQ the copies start with 4.3.3-beta.17: brew installs of earlier versions fetched the normal file and count under macOS.*
 - *Clones of the source code are not downloads and are not counted here.*
 
 🆕 **Latest Release:** `v1.2.1` - **22** downloads (published 2026-07-07)
@@ -1426,14 +1426,14 @@ Quick navigation to repository statistics:
 | 🪟 Windows | 1 | 9 | 10 |
 | 🍎 macOS | 2 | 19 | 23 |
 | 🐧 Linux | 0 | 4 | 6 |
-| **All** | **3** | **32** | **39** |
+| **All downloads (incl. Homebrew)** | **3** | **32** | **39** |
 
 *ℹ️ Not counted above: 11 lifetime downloads of other release files (demo projects, screenshots, checksums), which are not the app.*
 
 **Downloads in the last 30 and 90 days, all releases (for a user estimate):**
 
-| Window | Channel | All | 🪟 Windows | 🍎 macOS | 🐧 Linux | 🍺 Homebrew |
-|--------|---------|-----|---------|-------|-------|----------|
+| Window | Channel | All downloads (incl. Homebrew) | 🪟 Windows | 🍎 macOS | 🐧 Linux | 🍺 Homebrew |
+|--------|---------|--------------------------------|---------|-------|-------|----------|
 | 30 days | all | **3** | 1 | 2 | 0 | 0 |
 | 30 days | stable | **3** | 1 | 2 | 0 | 0 |
 | 30 days | beta | **0** | 0 | 0 | 0 | 0 |
@@ -1446,8 +1446,8 @@ Quick navigation to repository statistics:
 - *A download is a file someone fetched, not a person. One person on two computers, or one who downloads the same version twice, counts twice.*
 - *People who installed once and never update do not show up at all after their first download, however much they use the app.*
 - *An occasional tool is fetched long after a release, not only in its first days. The 30- and 90-day windows and the 90-day release curves catch those late downloads; a first-week count misses them.*
-- *Betas are mostly testers, often the same few people on every beta. Read the stable column for users.*
-- *Homebrew counts installs and upgrades made with brew (each fetches its own copy of the Mac file). They are not counted again under macOS.*
+- *Betas are mostly testers, often the same few people on every beta. The Stable rows are the closer ones to users.*
+- *Homebrew counts installs and upgrades made with brew (each fetches its own copy of the Mac file). They are not counted again under macOS, and the "All downloads (incl. Homebrew)" figures include them. For ChromIQ the copies start with 4.3.3-beta.17: brew installs of earlier versions fetched the normal file and count under macOS.*
 - *Clones of the source code are not downloads and are not counted here.*
 
 🆕 **Latest Release:** `v2.54.0` - **5** downloads (published 2026-08-31)
@@ -1680,12 +1680,12 @@ Quick navigation to repository statistics:
 | 🪟 Windows | 0 | 0 | 0 |
 | 🍎 macOS | 0 | 0 | 0 |
 | 🐧 Linux | 0 | 0 | 0 |
-| **All** | **0** | **0** | **0** |
+| **All downloads (incl. Homebrew)** | **0** | **0** | **0** |
 
 **Downloads in the last 30 and 90 days, all releases (for a user estimate):**
 
-| Window | Channel | All | 🪟 Windows | 🍎 macOS | 🐧 Linux | 🍺 Homebrew |
-|--------|---------|-----|---------|-------|-------|----------|
+| Window | Channel | All downloads (incl. Homebrew) | 🪟 Windows | 🍎 macOS | 🐧 Linux | 🍺 Homebrew |
+|--------|---------|--------------------------------|---------|-------|-------|----------|
 | 30 days | all | **0** | 0 | 0 | 0 | 0 |
 | 90 days (57 days tracked) | all | **0** | 0 | 0 | 0 | 0 |
 
@@ -1694,8 +1694,8 @@ Quick navigation to repository statistics:
 - *A download is a file someone fetched, not a person. One person on two computers, or one who downloads the same version twice, counts twice.*
 - *People who installed once and never update do not show up at all after their first download, however much they use the app.*
 - *An occasional tool is fetched long after a release, not only in its first days. The 30- and 90-day windows and the 90-day release curves catch those late downloads; a first-week count misses them.*
-- *Betas are mostly testers, often the same few people on every beta. Read the stable column for users.*
-- *Homebrew counts installs and upgrades made with brew (each fetches its own copy of the Mac file). They are not counted again under macOS.*
+- *Betas are mostly testers, often the same few people on every beta. The Stable rows are the closer ones to users.*
+- *Homebrew counts installs and upgrades made with brew (each fetches its own copy of the Mac file). They are not counted again under macOS, and the "All downloads (incl. Homebrew)" figures include them. For ChromIQ the copies start with 4.3.3-beta.17: brew installs of earlier versions fetched the normal file and count under macOS.*
 - *Clones of the source code are not downloads and are not counted here.*
 
 ### 📈 Interactive Charts
@@ -1708,7 +1708,7 @@ Quick navigation to repository statistics:
 
 # homebrew-chromiq
 
-> ℹ️ This is ChromIQ's Homebrew tap: it has no downloads of its own. Homebrew clones it when someone installs ChromIQ with brew and fetches it again on updates, so the number of different cloners in the last 14 days is a rough indicator of how many machines use the Homebrew install. It is not a download count, and machines that have not run brew lately do not show. The Homebrew downloads themselves are counted under ChromIQ (Homebrew).
+> ℹ️ This is ChromIQ's Homebrew tap: it has no downloads of its own. Homebrew clones it when someone installs ChromIQ with brew and fetches it again on updates, so the number of different cloners in the last 14 days is a rough indicator of how many machines use the Homebrew install. It is not a download count, and machines that have not run brew lately do not show. ChromIQ's release workflow also clones it once per release. The Homebrew downloads themselves are counted under ChromIQ (Homebrew).
 
 **Different cloners in the last 14 days:** 0 (as of 2026-10-09; GitHub's own 14-day count, recorded daily from 2026-10-09 on)
 
@@ -1795,12 +1795,12 @@ Quick navigation to repository statistics:
 | 🪟 Windows | 0 | 0 | 0 |
 | 🍎 macOS | 0 | 0 | 0 |
 | 🐧 Linux | 0 | 0 | 0 |
-| **All** | **0** | **0** | **0** |
+| **All downloads (incl. Homebrew)** | **0** | **0** | **0** |
 
 **Downloads in the last 30 and 90 days, all releases (for a user estimate):**
 
-| Window | Channel | All | 🪟 Windows | 🍎 macOS | 🐧 Linux | 🍺 Homebrew |
-|--------|---------|-----|---------|-------|-------|----------|
+| Window | Channel | All downloads (incl. Homebrew) | 🪟 Windows | 🍎 macOS | 🐧 Linux | 🍺 Homebrew |
+|--------|---------|--------------------------------|---------|-------|-------|----------|
 | 30 days (0 days tracked) | all | **0** | 0 | 0 | 0 | 0 |
 | 90 days (0 days tracked) | all | **0** | 0 | 0 | 0 | 0 |
 
@@ -1809,8 +1809,8 @@ Quick navigation to repository statistics:
 - *A download is a file someone fetched, not a person. One person on two computers, or one who downloads the same version twice, counts twice.*
 - *People who installed once and never update do not show up at all after their first download, however much they use the app.*
 - *An occasional tool is fetched long after a release, not only in its first days. The 30- and 90-day windows and the 90-day release curves catch those late downloads; a first-week count misses them.*
-- *Betas are mostly testers, often the same few people on every beta. Read the stable column for users.*
-- *Homebrew counts installs and upgrades made with brew (each fetches its own copy of the Mac file). They are not counted again under macOS.*
+- *Betas are mostly testers, often the same few people on every beta. The Stable rows are the closer ones to users.*
+- *Homebrew counts installs and upgrades made with brew (each fetches its own copy of the Mac file). They are not counted again under macOS, and the "All downloads (incl. Homebrew)" figures include them. For ChromIQ the copies start with 4.3.3-beta.17: brew installs of earlier versions fetched the normal file and count under macOS.*
 - *Clones of the source code are not downloads and are not counted here.*
 
 ### 📈 Interactive Charts
@@ -1910,14 +1910,14 @@ Quick navigation to repository statistics:
 | 🪟 Windows | 0 | 0 | 0 |
 | 🍎 macOS | 0 | 0 | 14 |
 | 🐧 Linux | 0 | 0 | 0 |
-| **All** | **0** | **0** | **14** |
+| **All downloads (incl. Homebrew)** | **0** | **0** | **14** |
 
 *ℹ️ Not counted above: 3 lifetime downloads of other release files (demo projects, screenshots, checksums), which are not the app.*
 
 **Downloads in the last 30 and 90 days, all releases (for a user estimate):**
 
-| Window | Channel | All | 🪟 Windows | 🍎 macOS | 🐧 Linux | 🍺 Homebrew |
-|--------|---------|-----|---------|-------|-------|----------|
+| Window | Channel | All downloads (incl. Homebrew) | 🪟 Windows | 🍎 macOS | 🐧 Linux | 🍺 Homebrew |
+|--------|---------|--------------------------------|---------|-------|-------|----------|
 | 30 days (0 days tracked) | all | **0** | 0 | 0 | 0 | 0 |
 | 90 days (0 days tracked) | all | **0** | 0 | 0 | 0 | 0 |
 
@@ -1926,8 +1926,8 @@ Quick navigation to repository statistics:
 - *A download is a file someone fetched, not a person. One person on two computers, or one who downloads the same version twice, counts twice.*
 - *People who installed once and never update do not show up at all after their first download, however much they use the app.*
 - *An occasional tool is fetched long after a release, not only in its first days. The 30- and 90-day windows and the 90-day release curves catch those late downloads; a first-week count misses them.*
-- *Betas are mostly testers, often the same few people on every beta. Read the stable column for users.*
-- *Homebrew counts installs and upgrades made with brew (each fetches its own copy of the Mac file). They are not counted again under macOS.*
+- *Betas are mostly testers, often the same few people on every beta. The Stable rows are the closer ones to users.*
+- *Homebrew counts installs and upgrades made with brew (each fetches its own copy of the Mac file). They are not counted again under macOS, and the "All downloads (incl. Homebrew)" figures include them. For ChromIQ the copies start with 4.3.3-beta.17: brew installs of earlier versions fetched the normal file and count under macOS.*
 - *Clones of the source code are not downloads and are not counted here.*
 
 🆕 **Latest Release:** `v1.0.4` - **4** downloads (published 2026-10-04)

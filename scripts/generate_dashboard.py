@@ -66,6 +66,10 @@ DOWNLOAD_SERIES = [
 DL_KEYS = ["total", "windows", "macos", "linux", "homebrew"]
 DL_CHANNELS = ["stable", "beta"]
 
+# The combined app-download figure: Windows + macOS + Linux + Homebrew, each
+# download counted once (a Homebrew copy is never counted again under macOS).
+ALL_LABEL = "All downloads (incl. Homebrew)"
+
 # Repositories whose traffic means something other than the default reading.
 # The note is shown on the page and in the README above the repo's numbers.
 REPO_NOTES = {
@@ -75,6 +79,7 @@ REPO_NOTES = {
         "updates, so the number of different cloners in the last 14 days is a rough "
         "indicator of how many machines use the Homebrew install. It is not a "
         "download count, and machines that have not run brew lately do not show. "
+        "ChromIQ's release workflow also clones it once per release. "
         "The Homebrew downloads themselves are counted under ChromIQ (Homebrew)."
     ),
 }
@@ -1021,10 +1026,13 @@ ESTIMATE_NOTES = [
     "An occasional tool is fetched long after a release, not only in its first "
     "days. The 30- and 90-day windows and the 90-day release curves catch "
     "those late downloads; a first-week count misses them.",
-    "Betas are mostly testers, often the same few people on every beta. Read the "
-    "stable column for users.",
+    "Betas are mostly testers, often the same few people on every beta. The "
+    "Stable rows are the closer ones to users.",
     "Homebrew counts installs and upgrades made with brew (each fetches its "
-    "own copy of the Mac file). They are not counted again under macOS.",
+    "own copy of the Mac file). They are not counted again under macOS, and "
+    "the \"All downloads (incl. Homebrew)\" figures include them. For ChromIQ "
+    "the copies start with 4.3.3-beta.17: brew installs of earlier versions "
+    "fetched the normal file and count under macOS.",
     "Clones of the source code are not downloads and are not counted here.",
 ]
 
@@ -1036,8 +1044,8 @@ def render_estimate_md(downloads_daily: List[Dict[str, Any]]) -> str:
     since = series_since(downloads_daily, 'total')
     ch_since = series_since(downloads_daily, 'stable_total')
     md = "**Downloads in the last 30 and 90 days, all releases (for a user estimate):**\n\n"
-    md += "| Window | Channel | All | \U0001fa9f Windows | \U0001f34e macOS | \U0001f427 Linux | \U0001f37a Homebrew |\n"
-    md += "|--------|---------|-----|---------|-------|-------|----------|\n"
+    md += "| Window | Channel | All downloads (incl. Homebrew) | \U0001fa9f Windows | \U0001f34e macOS | \U0001f427 Linux | \U0001f37a Homebrew |\n"
+    md += "|--------|---------|--------------------------------|---------|-------|-------|----------|\n"
     for n in ROLLING_WINDOWS:
         r = compute_rolling_downloads(downloads_daily, n)
         part = "" if r['covered_days'] >= n else f" ({r['covered_days']} days tracked)"
@@ -1058,6 +1066,13 @@ def render_estimate_md(downloads_daily: List[Dict[str, Any]]) -> str:
     return md
 
 
+def _downloads_badge_label(repo_name: str, dl_lifetime: Dict[str, int]) -> str:
+    """'downloads', or 'downloads incl. Homebrew' where Homebrew is part of the total."""
+    if repo_name in HOMEBREW_CASK_REPOS or dl_lifetime.get('homebrew'):
+        return 'downloads incl. Homebrew'
+    return 'downloads'
+
+
 def render_badges(repo_name: str, dl_lifetime: Dict[str, int],
                   stats_lifetime: Dict[str, int], release_count: int) -> str:
     """
@@ -1074,7 +1089,7 @@ def render_badges(repo_name: str, dl_lifetime: Dict[str, int],
                 f"{safe_label}-{safe_value}-{color})")
 
     parts = [
-        badge('downloads', dl_lifetime.get('total', 0), '212121'),
+        badge(_downloads_badge_label(repo_name, dl_lifetime), dl_lifetime.get('total', 0), '212121'),
         badge('clones', stats_lifetime.get('clones_total', 0), '2196F3'),
         badge('views', stats_lifetime.get('views_total', 0), '4CAF50'),
         badge('releases', release_count, '6f42c1'),
@@ -1772,7 +1787,7 @@ def generate_readme(history_data: Dict[str, Any]) -> None:
     md += "- Can occur without a corresponding view event\n\n"
     md += "**Release Downloads:**\n"
     md += "- Counted when someone downloads a pre-compiled release asset (binary/installer)\n"
-    md += "- Split by platform from the asset file name (Windows, macOS, Linux); **All** is the combined total\n"
+    md += "- Split by platform from the asset file name (Windows, macOS, Linux, Homebrew); **All downloads (incl. Homebrew)** is the combined total, with each download counted once\n"
     md += "- This is a **separate metric** from Clones - cloning the source is not a release download\n"
     md += "- **Lifetime** totals reflect all-time downloads (GitHub's cumulative `download_count`) and are accurate immediately\n"
     md += "- **Per-day** figures are derived by diffing daily snapshots, so they only accrue from the first tracked day onward\n\n"
@@ -2028,7 +2043,7 @@ def generate_readme(history_data: Dict[str, Any]) -> None:
             md += f"| \U0001f427 Linux | {dl_short['linux']} | {dl_medium['linux']} | {dl_lifetime['linux']} |\n"
             if dl_lifetime.get('homebrew') or repo_name in HOMEBREW_CASK_REPOS:
                 md += f"| \U0001f37a Homebrew | {dl_short['homebrew']} | {dl_medium['homebrew']} | {dl_lifetime['homebrew']} |\n"
-            md += f"| **All** | **{dl_short['total']}** | **{dl_medium['total']}** | **{dl_lifetime['total']}** |\n\n"
+            md += f"| **{ALL_LABEL}** | **{dl_short['total']}** | **{dl_medium['total']}** | **{dl_lifetime['total']}** |\n\n"
 
             # Files that are not the app (demo projects, screenshots, checksums)
             unclassified = compute_unclassified(dl_lifetime)
@@ -2305,6 +2320,9 @@ def build_chart_data(history_data: Dict[str, Any]) -> Dict[str, Any]:
                 (s['date'] for info in by_release_daily.values()
                  for s in (info.get('snapshots') or [])[:1]), default=None),
             'rolling': [compute_rolling_downloads(downloads_daily, n) for n in ROLLING_WINDOWS],
+            # Lifetime totals: 'total' is every app download once, Homebrew
+            # included; 'other' (demo projects, screenshots) is not in it.
+            'lifetime': calculate_downloads_lifetime(downloads_daily),
             'rolling_series': compute_rolling_series(downloads_daily, ROLLING_WINDOWS[0]),
             'curves': {str(n): compute_release_curves(by_release_daily, n) for n in ROLLING_WINDOWS},
         }
@@ -2380,10 +2398,11 @@ def write_badge_endpoints(history_data: Dict[str, Any]) -> None:
             continue
         downloads_daily = repositories[repo_name].get(
             'downloads', {}).get('daily_data', [])
-        total = calculate_downloads_lifetime(downloads_daily).get('total', 0)
+        lifetime = calculate_downloads_lifetime(downloads_daily)
+        total = lifetime.get('total', 0)
         payload = {
             'schemaVersion': 1,
-            'label': 'downloads',
+            'label': _downloads_badge_label(repo_name, lifetime),
             'message': str(total),
             'color': '212121',
         }
