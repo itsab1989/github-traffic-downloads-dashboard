@@ -422,6 +422,29 @@ class TestAllIncludesHomebrew(unittest.TestCase):
         r = gd.compute_release_reception(brd)[0]
         self.assertEqual((r['accrued_macos'], r['accrued_homebrew'], r['accrued']), (15, 5, 31))
 
+    def test_the_readme_carries_the_reception_homebrew_column(self):
+        """The README itself, not only the helper: generate_readme must use it."""
+        import tempfile
+        brd = {'v4.3.3': {'published_at': f'{_day(0)}T04:28:07Z', 'last_seen': _day(0),
+                          'snapshots': [{'date': _day(0), 'downloads': 10, 'windows': 3,
+                                         'macos': 2, 'linux': 2, 'homebrew': 3}]}}
+        history = {'metadata': {'repositories': ['itsab1989/ChromIQ']},
+                   'repositories': {'itsab1989/ChromIQ': {'downloads': {
+                       'daily_data': [{'date': _day(0), 'cumulative_total': 10,
+                                       'downloads_total': 0}],
+                       'by_release_daily': brd}}}}
+        with tempfile.TemporaryDirectory() as d:
+            saved = gd.README_FILE_PATH
+            gd.README_FILE_PATH = os.path.join(d, 'README.md')
+            try:
+                gd.generate_readme(history)
+                with open(gd.README_FILE_PATH, encoding='utf-8') as f:
+                    md = f.read()
+            finally:
+                gd.README_FILE_PATH = saved
+        self.assertIn(f'| \U0001f427 | \U0001f37a | {gd.ALL_LABEL} |', md)
+        self.assertIn(f'| v4.3.3 | {_day(0)} | 1d | 3 | 2 | 2 | 3 | **10** |', md)
+
     def test_the_chart_data_carries_the_lifetime_totals(self):
         daily = _daily(40, 1)
         history = {'metadata': {'repositories': ['itsab1989/ChromIQ']},
