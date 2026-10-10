@@ -116,6 +116,10 @@ UPSTREAM_URL = "https://github.com/soul-traveller/github-traffic-dashboard"
 
 # At-a-glance Configuration
 INCLUDE_BADGES = True                        # shields.io summary badges per repository
+# Latest-release badges: the same dark as the downloads badge for stable, a
+# lighter grey for beta (betas are the dashed, secondary line on the page too).
+LATEST_STABLE_BADGE_COLOR = '212121'
+LATEST_BETA_BADGE_COLOR = '757575'
 INCLUDE_MOMENTUM = True                      # Week-over-week momentum line
 INCLUDE_FUNNEL = True                        # Views -> Clones -> Downloads engagement funnel
 # Early-life window (days) for the "recent release reception" table. Keep in sync
@@ -1102,20 +1106,42 @@ def _downloads_badge_label(repo_name: str, dl_lifetime: Dict[str, int]) -> str:
     return 'downloads'
 
 
+def _shields_escape(text: Any) -> str:
+    """Escape one static-badge field: '-' and '_' are shields' separators, the rest is URL-quoted."""
+    from urllib.parse import quote
+    return quote(str(text).replace('-', '--').replace('_', '__'), safe='')
+
+
+def get_latest_release_in_channel(downloads_by_release: List[Dict[str, Any]],
+                                  prerelease: bool) -> Optional[Dict[str, Any]]:
+    """
+    The newest release of one channel: stable (prerelease=False) or beta
+    (prerelease=True, GitHub's pre-release flag - the same split the reception
+    table and the stable/beta charts use). Newest by published_at, as in
+    get_latest_release(). None when the repo has no release in that channel.
+    """
+    return get_latest_release([r for r in downloads_by_release or []
+                               if bool(r.get('prerelease', False)) == prerelease])
+
+
 def render_badges(repo_name: str, dl_lifetime: Dict[str, int],
-                  stats_lifetime: Dict[str, int], release_count: int) -> str:
+                  stats_lifetime: Dict[str, int], release_count: int,
+                  downloads_by_release: Optional[List[Dict[str, Any]]] = None) -> str:
     """
     Build a row of shields.io static badges summarizing a repository at a glance.
 
     Uses static badge endpoints (no extra service/auth) so they render anywhere
     the markdown is shown. Returns a single markdown line.
+
+    After the lifetime badges come the downloads of the latest stable and the
+    latest beta release (each only if the repo has one). They are the release's
+    'downloads' figure, the same as its row in the per-version table: every
+    platform plus Homebrew, without demo projects, screenshots or checksums.
     """
-    def badge(label: str, value: Any, color: str) -> str:
-        # shields.io static badge: encode '-' (its field separator) as '--'
-        safe_label = str(label).replace('-', '--').replace(' ', '%20')
-        safe_value = str(value).replace('-', '--').replace(' ', '%20')
+    def badge(label: str, value: Any, color: str, title: str = '') -> str:
+        title_md = f' "{title}"' if title else ''
         return (f"![{label}](https://img.shields.io/badge/"
-                f"{safe_label}-{safe_value}-{color})")
+                f"{_shields_escape(label)}-{_shields_escape(value)}-{color}{title_md})")
 
     parts = [
         badge(_downloads_badge_label(repo_name, dl_lifetime), dl_lifetime.get('total', 0), '212121'),
@@ -1123,6 +1149,13 @@ def render_badges(repo_name: str, dl_lifetime: Dict[str, int],
         badge('views', stats_lifetime.get('views_total', 0), '4CAF50'),
         badge('releases', release_count, '6f42c1'),
     ]
+    for prerelease, channel, color in ((False, 'stable', LATEST_STABLE_BADGE_COLOR),
+                                       (True, 'beta', LATEST_BETA_BADGE_COLOR)):
+        latest = get_latest_release_in_channel(downloads_by_release or [], prerelease)
+        if latest:
+            parts.append(badge(
+                f"latest {channel} {latest.get('tag', '?')}", latest.get('downloads', 0), color,
+                f"Downloads of the latest {channel} release, all platforms incl. Homebrew"))
     return " ".join(parts) + "\n\n"
 
 
@@ -1945,7 +1978,8 @@ def generate_readme(history_data: Dict[str, Any]) -> None:
 
         # ---- At a glance: badges, tracking window, week-over-week momentum ----
         if INCLUDE_BADGES:
-            md += render_badges(repo_name, dl_lifetime, stats_lifetime, len(downloads_by_release))
+            md += render_badges(repo_name, dl_lifetime, stats_lifetime, len(downloads_by_release),
+                                downloads_by_release)
 
         first_active, active_days = compute_tracking_window(daily_data)
         if first_active:
