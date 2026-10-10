@@ -396,6 +396,32 @@ class TestAllIncludesHomebrew(unittest.TestCase):
         self.assertIn('downloads%20incl.%20Homebrew-9-', badges)
         self.assertIn('![downloads](', gd.render_badges('someone/else', {'total': 9}, {}, 1))
 
+    def test_reception_shows_homebrew_beside_the_platforms(self):
+        """Knut, 2026-10-10: the reception table lacked the Homebrew count."""
+        brd = {'v4.3.3': {'published_at': '2026-10-10T04:28:07Z', 'last_seen': '2026-10-10',
+                          'snapshots': [{'date': '2026-10-10', 'downloads': 10, 'windows': 3,
+                                         'macos': 4, 'linux': 0, 'homebrew': 3}]},
+               'v4.3.3-beta.16': {'published_at': '2026-10-09T14:01:37Z', 'last_seen': '2026-10-10',
+                                  'snapshots': [{'date': '2026-10-10', 'downloads': 16, 'windows': 1,
+                                                 'macos': 15, 'linux': 0}]}}
+        rows = gd.compute_release_reception(brd)
+        md = gd.render_reception_md(rows)
+        self.assertIn(f'| \U0001f427 | \U0001f37a | {gd.ALL_LABEL} |', md)
+        self.assertIn('| v4.3.3 | 2026-10-10 | 1d | 3 | 4 | 0 | 3 | **10** |', md)
+        # before Homebrew copies existed: 0, as in the per-version table
+        self.assertIn('| v4.3.3-beta.16 | 2026-10-09 | 2d | 1 | 15 | 0 | 0 | **16** |', md)
+        # counted once: the combined figure is the parts, not the parts plus Homebrew again
+        for r in rows:
+            self.assertEqual(r['accrued'], r['accrued_windows'] + r['accrued_macos']
+                             + r['accrued_linux'] + r['accrued_homebrew'])
+        self.assertEqual(gd.render_reception_md([]), '')
+
+    def test_reception_from_a_real_fetch_counts_homebrew_once(self):
+        rel = aggregate_release(_release('v4.3.3', CHROMIQ_ASSETS))
+        brd = merge_release_daily({}, [rel], _day(0))
+        r = gd.compute_release_reception(brd)[0]
+        self.assertEqual((r['accrued_macos'], r['accrued_homebrew'], r['accrued']), (15, 5, 31))
+
     def test_the_chart_data_carries_the_lifetime_totals(self):
         daily = _daily(40, 1)
         history = {'metadata': {'repositories': ['itsab1989/ChromIQ']},

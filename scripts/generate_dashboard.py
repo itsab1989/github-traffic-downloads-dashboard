@@ -1066,6 +1066,35 @@ def render_estimate_md(downloads_daily: List[Dict[str, Any]]) -> str:
     return md
 
 
+def render_reception_md(reception_rows: List[Dict[str, Any]]) -> str:
+    """README block: each young release's downloads in its first ~14 days.
+
+    The Homebrew column is the release's own '_homebrew' copies. They are never
+    counted under macOS (classify.py), and the release's 'downloads' figure is
+    already windows + macos + linux + homebrew, so the last column is the
+    combined number with each download counted once, as everywhere else on the
+    page. A release without Homebrew copies shows 0, as in the per-version
+    table: the snapshots cannot tell "no copy" from "copy nobody fetched yet".
+    """
+    if not reception_rows:
+        return ""
+    md = f"**Recent Release Reception (first ~{RELEASE_RECEPTION_WINDOW_DAYS} days):**\n\n"
+    md += (f"*Downloads each release accrued in its early life. Measured "
+           f"over each release's own early-life window, so a brand-new release "
+           f"isn't unfairly compared against a mature one. Only releases published "
+           f"within ~{RELEASE_RECEPTION_WINDOW_DAYS} days appear. \U0001f37a is Homebrew "
+           f"(its own copies of the Mac file, not counted again under \U0001f34e); "
+           f"releases without Homebrew copies show 0.*\n\n")
+    md += f"| Release | Published | Age | \U0001fa9f | \U0001f34e | \U0001f427 | \U0001f37a | {ALL_LABEL} |\n"
+    md += "|---------|-----------|-----|----|----|----|----|" + "-" * len(ALL_LABEL) + "|\n"
+    for r in reception_rows:
+        md += (f"| {r['tag']} | {r['published']} | {r['age_days']}d | "
+               f"{r['accrued_windows']} | {r['accrued_macos']} | {r['accrued_linux']} | "
+               f"{r.get('accrued_homebrew', 0)} | **{r['accrued']}** |\n")
+    md += "\n"
+    return md
+
+
 def _downloads_badge_label(repo_name: str, dl_lifetime: Dict[str, int]) -> str:
     """'downloads', or 'downloads incl. Homebrew' where Homebrew is part of the total."""
     if repo_name in HOMEBREW_CASK_REPOS or dl_lifetime.get('homebrew'):
@@ -2151,20 +2180,7 @@ def generate_readme(history_data: Dict[str, Any]) -> None:
 
             # Recent release reception (early-life adoption), once per-release daily
             # snapshots have started accruing (by_release_daily from merge_history).
-            reception_rows = compute_release_reception(downloads_by_release_daily)
-            if reception_rows:
-                md += f"**Recent Release Reception (first ~{RELEASE_RECEPTION_WINDOW_DAYS} days):**\n\n"
-                md += (f"*Downloads each release accrued in its early life. Measured "
-                       f"over each release's own early-life window, so a brand-new release "
-                       f"isn't unfairly compared against a mature one. Only releases published "
-                       f"within ~{RELEASE_RECEPTION_WINDOW_DAYS} days appear.*\n\n")
-                md += "| Release | Published | Age | \U0001fa9f | \U0001f34e | \U0001f427 | Downloads |\n"
-                md += "|---------|-----------|-----|----|----|----|-----------|\n"
-                for r in reception_rows:
-                    md += (f"| {r['tag']} | {r['published']} | {r['age_days']}d | "
-                           f"{r['accrued_windows']} | {r['accrued_macos']} | {r['accrued_linux']} | "
-                           f"**{r['accrued']}** |\n")
-                md += "\n"
+            md += render_reception_md(compute_release_reception(downloads_by_release_daily))
 
             # Legacy: embed static download PNG graphs (only when INCLUDE_GRAPHS)
             if INCLUDE_GRAPHS:
