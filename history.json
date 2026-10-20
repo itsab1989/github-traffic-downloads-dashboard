@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-10-20T13:04:04Z",
-    "last_updated": "2026-10-20T13:04:04.602579Z",
+    "generated_at": "2026-10-20T18:01:43Z",
+    "last_updated": "2026-10-20T18:01:43.941769Z",
     "repositories": [
       "itsab1989/ChromIQ",
       "itsab1989/ChromIQ-Patches",
@@ -12,7 +12,7 @@
     ]
   },
   "repositories": {
-    "itsab1989/MacReplica": {
+    "itsab1989/homebrew-chromiq": {
       "daily_data": [
         {
           "date": "2025-10-09",
@@ -2522,43 +2522,43 @@
         },
         {
           "date": "2026-10-02",
-          "clones_total": 103,
-          "clones_unique": 32,
-          "views_total": 18,
-          "views_unique": 3
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
         },
         {
           "date": "2026-10-03",
-          "clones_total": 147,
-          "clones_unique": 49,
-          "views_total": 5,
-          "views_unique": 2
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
         },
         {
           "date": "2026-10-04",
-          "clones_total": 310,
-          "clones_unique": 113,
-          "views_total": 12,
-          "views_unique": 3
+          "clones_total": 0,
+          "clones_unique": 0,
+          "views_total": 0,
+          "views_unique": 0
         },
         {
           "date": "2026-10-05",
-          "clones_total": 28,
-          "clones_unique": 15,
+          "clones_total": 0,
+          "clones_unique": 0,
           "views_total": 0,
           "views_unique": 0
         },
         {
           "date": "2026-10-06",
-          "clones_total": 2,
-          "clones_unique": 2,
+          "clones_total": 0,
+          "clones_unique": 0,
           "views_total": 0,
           "views_unique": 0
         },
         {
           "date": "2026-10-07",
-          "clones_total": 1,
-          "clones_unique": 1,
+          "clones_total": 0,
+          "clones_unique": 0,
           "views_total": 0,
           "views_unique": 0
         },
@@ -2566,83 +2566,83 @@
           "date": "2026-10-08",
           "clones_total": 0,
           "clones_unique": 0,
-          "views_total": 1,
-          "views_unique": 1
+          "views_total": 0,
+          "views_unique": 0
         },
         {
           "date": "2026-10-09",
-          "clones_total": 1,
-          "clones_unique": 1,
+          "clones_total": 29,
+          "clones_unique": 12,
           "views_total": 0,
           "views_unique": 0
         },
         {
           "date": "2026-10-10",
-          "clones_total": 2,
-          "clones_unique": 2,
+          "clones_total": 33,
+          "clones_unique": 19,
           "views_total": 0,
           "views_unique": 0
         },
         {
           "date": "2026-10-11",
+          "clones_total": 33,
+          "clones_unique": 21,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-10-12",
           "clones_total": 1,
           "clones_unique": 1,
           "views_total": 0,
           "views_unique": 0
         },
         {
-          "date": "2026-10-12",
-          "clones_total": 5,
-          "clones_unique": 2,
+          "date": "2026-10-13",
+          "clones_total": 39,
+          "clones_unique": 23,
           "views_total": 0,
           "views_unique": 0
         },
         {
-          "date": "2026-10-13",
-          "clones_total": 157,
-          "clones_unique": 62,
-          "views_total": 8,
-          "views_unique": 4
-        },
-        {
           "date": "2026-10-14",
-          "clones_total": 53,
-          "clones_unique": 15,
-          "views_total": 3,
-          "views_unique": 2
+          "clones_total": 25,
+          "clones_unique": 13,
+          "views_total": 0,
+          "views_unique": 0
         },
         {
           "date": "2026-10-15",
-          "clones_total": 238,
-          "clones_unique": 96,
-          "views_total": 5,
-          "views_unique": 2
+          "clones_total": 32,
+          "clones_unique": 21,
+          "views_total": 0,
+          "views_unique": 0
         },
         {
           "date": "2026-10-16",
-          "clones_total": 115,
-          "clones_unique": 45,
+          "clones_total": 19,
+          "clones_unique": 13,
           "views_total": 0,
           "views_unique": 0
         },
         {
           "date": "2026-10-17",
-          "clones_total": 112,
-          "clones_unique": 25,
-          "views_total": 14,
-          "views_unique": 4
+          "clones_total": 10,
+          "clones_unique": 7,
+          "views_total": 0,
+          "views_unique": 0
         },
         {
           "date": "2026-10-18",
-          "clones_total": 205,
-          "clones_unique": 58,
-          "views_total": 23,
-          "views_unique": 2
+          "clones_total": 36,
+          "clones_unique": 18,
+          "views_total": 0,
+          "views_unique": 0
         },
         {
           "date": "2026-10-19",
-          "clones_total": 0,
-          "clones_unique": 0,
+          "clones_total": 4,
+          "clones_unique": 3,
           "views_total": 0,
           "views_unique": 0
         },
@@ -2654,42 +2654,36 @@
           "views_unique": 0
         }
       ],
-      "referrers": [
-        {
-          "referrer": "github.com",
-          "count": 2,
-          "uniques": 2
-        }
-      ],
+      "referrers": [],
       "metadata": {
-        "last_fetched": "2026-10-20T13:04:04Z",
-        "clones_total": 1480,
-        "clones_unique_total": 519,
-        "views_total": 89,
-        "views_unique_total": 23
+        "last_fetched": "2026-10-20T18:01:43Z",
+        "clones_total": 261,
+        "clones_unique_total": 151,
+        "views_total": 0,
+        "views_unique_total": 0
       },
       "downloads": {
         "schema": 2,
         "daily_data": [
           {
             "date": "2026-10-09",
-            "cumulative_total": 14,
+            "cumulative_total": 0,
             "downloads_total": 0,
             "cumulative_windows": 0,
             "downloads_windows": 0,
-            "cumulative_macos": 14,
+            "cumulative_macos": 0,
             "downloads_macos": 0,
             "cumulative_linux": 0,
             "downloads_linux": 0,
             "cumulative_homebrew": 0,
             "downloads_homebrew": 0,
-            "cumulative_other": 3,
+            "cumulative_other": 0,
             "downloads_other": 0,
-            "cumulative_stable_total": 14,
+            "cumulative_stable_total": 0,
             "downloads_stable_total": 0,
             "cumulative_stable_windows": 0,
             "downloads_stable_windows": 0,
-            "cumulative_stable_macos": 14,
+            "cumulative_stable_macos": 0,
             "downloads_stable_macos": 0,
             "cumulative_stable_linux": 0,
             "downloads_stable_linux": 0,
@@ -2708,23 +2702,23 @@
           },
           {
             "date": "2026-10-10",
-            "cumulative_total": 14,
+            "cumulative_total": 0,
             "downloads_total": 0,
             "cumulative_windows": 0,
             "downloads_windows": 0,
-            "cumulative_macos": 14,
+            "cumulative_macos": 0,
             "downloads_macos": 0,
             "cumulative_linux": 0,
             "downloads_linux": 0,
             "cumulative_homebrew": 0,
             "downloads_homebrew": 0,
-            "cumulative_other": 3,
+            "cumulative_other": 0,
             "downloads_other": 0,
-            "cumulative_stable_total": 14,
+            "cumulative_stable_total": 0,
             "downloads_stable_total": 0,
             "cumulative_stable_windows": 0,
             "downloads_stable_windows": 0,
-            "cumulative_stable_macos": 14,
+            "cumulative_stable_macos": 0,
             "downloads_stable_macos": 0,
             "cumulative_stable_linux": 0,
             "downloads_stable_linux": 0,
@@ -2743,23 +2737,23 @@
           },
           {
             "date": "2026-10-11",
-            "cumulative_total": 14,
+            "cumulative_total": 0,
             "downloads_total": 0,
             "cumulative_windows": 0,
             "downloads_windows": 0,
-            "cumulative_macos": 14,
+            "cumulative_macos": 0,
             "downloads_macos": 0,
             "cumulative_linux": 0,
             "downloads_linux": 0,
             "cumulative_homebrew": 0,
             "downloads_homebrew": 0,
-            "cumulative_other": 3,
+            "cumulative_other": 0,
             "downloads_other": 0,
-            "cumulative_stable_total": 14,
+            "cumulative_stable_total": 0,
             "downloads_stable_total": 0,
             "cumulative_stable_windows": 0,
             "downloads_stable_windows": 0,
-            "cumulative_stable_macos": 14,
+            "cumulative_stable_macos": 0,
             "downloads_stable_macos": 0,
             "cumulative_stable_linux": 0,
             "downloads_stable_linux": 0,
@@ -2778,23 +2772,23 @@
           },
           {
             "date": "2026-10-12",
-            "cumulative_total": 14,
+            "cumulative_total": 0,
             "downloads_total": 0,
             "cumulative_windows": 0,
             "downloads_windows": 0,
-            "cumulative_macos": 14,
+            "cumulative_macos": 0,
             "downloads_macos": 0,
             "cumulative_linux": 0,
             "downloads_linux": 0,
             "cumulative_homebrew": 0,
             "downloads_homebrew": 0,
-            "cumulative_other": 3,
+            "cumulative_other": 0,
             "downloads_other": 0,
-            "cumulative_stable_total": 14,
+            "cumulative_stable_total": 0,
             "downloads_stable_total": 0,
             "cumulative_stable_windows": 0,
             "downloads_stable_windows": 0,
-            "cumulative_stable_macos": 14,
+            "cumulative_stable_macos": 0,
             "downloads_stable_macos": 0,
             "cumulative_stable_linux": 0,
             "downloads_stable_linux": 0,
@@ -2813,24 +2807,24 @@
           },
           {
             "date": "2026-10-13",
-            "cumulative_total": 19,
-            "downloads_total": 5,
+            "cumulative_total": 0,
+            "downloads_total": 0,
             "cumulative_windows": 0,
             "downloads_windows": 0,
-            "cumulative_macos": 19,
-            "downloads_macos": 5,
+            "cumulative_macos": 0,
+            "downloads_macos": 0,
             "cumulative_linux": 0,
             "downloads_linux": 0,
             "cumulative_homebrew": 0,
             "downloads_homebrew": 0,
-            "cumulative_other": 3,
+            "cumulative_other": 0,
             "downloads_other": 0,
-            "cumulative_stable_total": 19,
-            "downloads_stable_total": 5,
+            "cumulative_stable_total": 0,
+            "downloads_stable_total": 0,
             "cumulative_stable_windows": 0,
             "downloads_stable_windows": 0,
-            "cumulative_stable_macos": 19,
-            "downloads_stable_macos": 5,
+            "cumulative_stable_macos": 0,
+            "downloads_stable_macos": 0,
             "cumulative_stable_linux": 0,
             "downloads_stable_linux": 0,
             "cumulative_stable_homebrew": 0,
@@ -2848,24 +2842,24 @@
           },
           {
             "date": "2026-10-14",
-            "cumulative_total": 20,
-            "downloads_total": 1,
+            "cumulative_total": 0,
+            "downloads_total": 0,
             "cumulative_windows": 0,
             "downloads_windows": 0,
-            "cumulative_macos": 20,
-            "downloads_macos": 1,
+            "cumulative_macos": 0,
+            "downloads_macos": 0,
             "cumulative_linux": 0,
             "downloads_linux": 0,
             "cumulative_homebrew": 0,
             "downloads_homebrew": 0,
-            "cumulative_other": 3,
+            "cumulative_other": 0,
             "downloads_other": 0,
-            "cumulative_stable_total": 20,
-            "downloads_stable_total": 1,
+            "cumulative_stable_total": 0,
+            "downloads_stable_total": 0,
             "cumulative_stable_windows": 0,
             "downloads_stable_windows": 0,
-            "cumulative_stable_macos": 20,
-            "downloads_stable_macos": 1,
+            "cumulative_stable_macos": 0,
+            "downloads_stable_macos": 0,
             "cumulative_stable_linux": 0,
             "downloads_stable_linux": 0,
             "cumulative_stable_homebrew": 0,
@@ -2883,24 +2877,24 @@
           },
           {
             "date": "2026-10-15",
-            "cumulative_total": 26,
-            "downloads_total": 6,
+            "cumulative_total": 0,
+            "downloads_total": 0,
             "cumulative_windows": 0,
             "downloads_windows": 0,
-            "cumulative_macos": 26,
-            "downloads_macos": 6,
+            "cumulative_macos": 0,
+            "downloads_macos": 0,
             "cumulative_linux": 0,
             "downloads_linux": 0,
             "cumulative_homebrew": 0,
             "downloads_homebrew": 0,
-            "cumulative_other": 4,
-            "downloads_other": 1,
-            "cumulative_stable_total": 26,
-            "downloads_stable_total": 6,
+            "cumulative_other": 0,
+            "downloads_other": 0,
+            "cumulative_stable_total": 0,
+            "downloads_stable_total": 0,
             "cumulative_stable_windows": 0,
             "downloads_stable_windows": 0,
-            "cumulative_stable_macos": 26,
-            "downloads_stable_macos": 6,
+            "cumulative_stable_macos": 0,
+            "downloads_stable_macos": 0,
             "cumulative_stable_linux": 0,
             "downloads_stable_linux": 0,
             "cumulative_stable_homebrew": 0,
@@ -2918,23 +2912,23 @@
           },
           {
             "date": "2026-10-16",
-            "cumulative_total": 26,
+            "cumulative_total": 0,
             "downloads_total": 0,
             "cumulative_windows": 0,
             "downloads_windows": 0,
-            "cumulative_macos": 26,
+            "cumulative_macos": 0,
             "downloads_macos": 0,
             "cumulative_linux": 0,
             "downloads_linux": 0,
             "cumulative_homebrew": 0,
             "downloads_homebrew": 0,
-            "cumulative_other": 4,
+            "cumulative_other": 0,
             "downloads_other": 0,
-            "cumulative_stable_total": 26,
+            "cumulative_stable_total": 0,
             "downloads_stable_total": 0,
             "cumulative_stable_windows": 0,
             "downloads_stable_windows": 0,
-            "cumulative_stable_macos": 26,
+            "cumulative_stable_macos": 0,
             "downloads_stable_macos": 0,
             "cumulative_stable_linux": 0,
             "downloads_stable_linux": 0,
@@ -2953,24 +2947,24 @@
           },
           {
             "date": "2026-10-17",
-            "cumulative_total": 30,
-            "downloads_total": 4,
+            "cumulative_total": 0,
+            "downloads_total": 0,
             "cumulative_windows": 0,
             "downloads_windows": 0,
-            "cumulative_macos": 30,
-            "downloads_macos": 4,
+            "cumulative_macos": 0,
+            "downloads_macos": 0,
             "cumulative_linux": 0,
             "downloads_linux": 0,
             "cumulative_homebrew": 0,
             "downloads_homebrew": 0,
-            "cumulative_other": 4,
+            "cumulative_other": 0,
             "downloads_other": 0,
-            "cumulative_stable_total": 30,
-            "downloads_stable_total": 4,
+            "cumulative_stable_total": 0,
+            "downloads_stable_total": 0,
             "cumulative_stable_windows": 0,
             "downloads_stable_windows": 0,
-            "cumulative_stable_macos": 30,
-            "downloads_stable_macos": 4,
+            "cumulative_stable_macos": 0,
+            "downloads_stable_macos": 0,
             "cumulative_stable_linux": 0,
             "downloads_stable_linux": 0,
             "cumulative_stable_homebrew": 0,
@@ -2988,24 +2982,24 @@
           },
           {
             "date": "2026-10-18",
-            "cumulative_total": 33,
-            "downloads_total": 3,
+            "cumulative_total": 0,
+            "downloads_total": 0,
             "cumulative_windows": 0,
             "downloads_windows": 0,
-            "cumulative_macos": 33,
-            "downloads_macos": 3,
+            "cumulative_macos": 0,
+            "downloads_macos": 0,
             "cumulative_linux": 0,
             "downloads_linux": 0,
             "cumulative_homebrew": 0,
             "downloads_homebrew": 0,
-            "cumulative_other": 4,
+            "cumulative_other": 0,
             "downloads_other": 0,
-            "cumulative_stable_total": 33,
-            "downloads_stable_total": 3,
+            "cumulative_stable_total": 0,
+            "downloads_stable_total": 0,
             "cumulative_stable_windows": 0,
             "downloads_stable_windows": 0,
-            "cumulative_stable_macos": 33,
-            "downloads_stable_macos": 3,
+            "cumulative_stable_macos": 0,
+            "downloads_stable_macos": 0,
             "cumulative_stable_linux": 0,
             "downloads_stable_linux": 0,
             "cumulative_stable_homebrew": 0,
@@ -3023,24 +3017,24 @@
           },
           {
             "date": "2026-10-19",
-            "cumulative_total": 37,
-            "downloads_total": 4,
+            "cumulative_total": 0,
+            "downloads_total": 0,
             "cumulative_windows": 0,
             "downloads_windows": 0,
-            "cumulative_macos": 37,
-            "downloads_macos": 4,
+            "cumulative_macos": 0,
+            "downloads_macos": 0,
             "cumulative_linux": 0,
             "downloads_linux": 0,
             "cumulative_homebrew": 0,
             "downloads_homebrew": 0,
-            "cumulative_other": 4,
+            "cumulative_other": 0,
             "downloads_other": 0,
-            "cumulative_stable_total": 37,
-            "downloads_stable_total": 4,
+            "cumulative_stable_total": 0,
+            "downloads_stable_total": 0,
             "cumulative_stable_windows": 0,
             "downloads_stable_windows": 0,
-            "cumulative_stable_macos": 37,
-            "downloads_stable_macos": 4,
+            "cumulative_stable_macos": 0,
+            "downloads_stable_macos": 0,
             "cumulative_stable_linux": 0,
             "downloads_stable_linux": 0,
             "cumulative_stable_homebrew": 0,
@@ -3058,24 +3052,24 @@
           },
           {
             "date": "2026-10-20",
-            "cumulative_total": 41,
-            "downloads_total": 4,
+            "cumulative_total": 0,
+            "downloads_total": 0,
             "cumulative_windows": 0,
             "downloads_windows": 0,
-            "cumulative_macos": 41,
-            "downloads_macos": 4,
+            "cumulative_macos": 0,
+            "downloads_macos": 0,
             "cumulative_linux": 0,
             "downloads_linux": 0,
             "cumulative_homebrew": 0,
             "downloads_homebrew": 0,
-            "cumulative_other": 7,
-            "downloads_other": 3,
-            "cumulative_stable_total": 41,
-            "downloads_stable_total": 4,
+            "cumulative_other": 0,
+            "downloads_other": 0,
+            "cumulative_stable_total": 0,
+            "downloads_stable_total": 0,
             "cumulative_stable_windows": 0,
             "downloads_stable_windows": 0,
-            "cumulative_stable_macos": 41,
-            "downloads_stable_macos": 4,
+            "cumulative_stable_macos": 0,
+            "downloads_stable_macos": 0,
             "cumulative_stable_linux": 0,
             "downloads_stable_linux": 0,
             "cumulative_stable_homebrew": 0,
@@ -3093,16 +3087,16 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-10-20T13:04:04Z",
-          "cumulative_total": 41,
+          "last_fetched": "2026-10-20T18:01:43Z",
+          "cumulative_total": 0,
           "cumulative_windows": 0,
-          "cumulative_macos": 41,
+          "cumulative_macos": 0,
           "cumulative_linux": 0,
           "cumulative_homebrew": 0,
-          "cumulative_other": 7,
-          "cumulative_stable_total": 41,
+          "cumulative_other": 0,
+          "cumulative_stable_total": 0,
           "cumulative_stable_windows": 0,
-          "cumulative_stable_macos": 41,
+          "cumulative_stable_macos": 0,
           "cumulative_stable_linux": 0,
           "cumulative_stable_homebrew": 0,
           "cumulative_beta_total": 0,
@@ -3111,877 +3105,99 @@
           "cumulative_beta_linux": 0,
           "cumulative_beta_homebrew": 0
         },
-        "by_release": [
-          {
-            "tag": "v1.1.11",
-            "downloads": 2,
-            "windows": 0,
-            "macos": 2,
-            "linux": 0,
-            "homebrew": 0,
-            "other": 1,
-            "prerelease": false,
-            "published_at": "2026-10-20T06:12:53Z"
-          },
-          {
-            "tag": "v1.1.10",
-            "downloads": 1,
-            "windows": 0,
-            "macos": 1,
-            "linux": 0,
-            "homebrew": 0,
-            "other": 1,
-            "prerelease": false,
-            "published_at": "2026-10-20T04:45:13Z"
-          },
-          {
-            "tag": "v1.1.9",
-            "downloads": 1,
-            "windows": 0,
-            "macos": 1,
-            "linux": 0,
-            "homebrew": 0,
-            "other": 1,
-            "prerelease": false,
-            "published_at": "2026-10-20T01:07:25Z"
-          },
-          {
-            "tag": "v1.1.8",
-            "downloads": 3,
-            "windows": 0,
-            "macos": 3,
-            "linux": 0,
-            "homebrew": 0,
-            "other": 0,
-            "prerelease": false,
-            "published_at": "2026-10-19T01:33:19Z"
-          },
-          {
-            "tag": "v1.1.7",
-            "downloads": 1,
-            "windows": 0,
-            "macos": 1,
-            "linux": 0,
-            "homebrew": 0,
-            "other": 0,
-            "prerelease": false,
-            "published_at": "2026-10-18T23:45:34Z"
-          },
-          {
-            "tag": "v1.1.6",
-            "downloads": 1,
-            "windows": 0,
-            "macos": 1,
-            "linux": 0,
-            "homebrew": 0,
-            "other": 0,
-            "prerelease": false,
-            "published_at": "2026-10-18T14:00:26Z"
-          },
-          {
-            "tag": "v1.1.5",
-            "downloads": 1,
-            "windows": 0,
-            "macos": 1,
-            "linux": 0,
-            "homebrew": 0,
-            "other": 0,
-            "prerelease": false,
-            "published_at": "2026-10-18T01:10:00Z"
-          },
-          {
-            "tag": "v1.1.4",
-            "downloads": 1,
-            "windows": 0,
-            "macos": 1,
-            "linux": 0,
-            "homebrew": 0,
-            "other": 0,
-            "prerelease": false,
-            "published_at": "2026-10-17T23:56:14Z"
-          },
-          {
-            "tag": "v1.1.3",
-            "downloads": 2,
-            "windows": 0,
-            "macos": 2,
-            "linux": 0,
-            "homebrew": 0,
-            "other": 0,
-            "prerelease": false,
-            "published_at": "2026-10-17T22:16:23Z"
-          },
-          {
-            "tag": "v1.1.2",
-            "downloads": 1,
-            "windows": 0,
-            "macos": 1,
-            "linux": 0,
-            "homebrew": 0,
-            "other": 0,
-            "prerelease": false,
-            "published_at": "2026-10-17T18:24:50Z"
-          },
-          {
-            "tag": "v1.1.1",
-            "downloads": 1,
-            "windows": 0,
-            "macos": 1,
-            "linux": 0,
-            "homebrew": 0,
-            "other": 0,
-            "prerelease": false,
-            "published_at": "2026-10-16T04:15:35Z"
-          },
-          {
-            "tag": "v1.1.0",
-            "downloads": 4,
-            "windows": 0,
-            "macos": 4,
-            "linux": 0,
-            "homebrew": 0,
-            "other": 1,
-            "prerelease": false,
-            "published_at": "2026-10-15T16:17:47Z"
-          },
-          {
-            "tag": "v1.0.7",
-            "downloads": 2,
-            "windows": 0,
-            "macos": 2,
-            "linux": 0,
-            "homebrew": 0,
-            "other": 0,
-            "prerelease": false,
-            "published_at": "2026-10-14T22:29:29Z"
-          },
-          {
-            "tag": "v1.0.6",
-            "downloads": 1,
-            "windows": 0,
-            "macos": 1,
-            "linux": 0,
-            "homebrew": 0,
-            "other": 0,
-            "prerelease": false,
-            "published_at": "2026-10-13T23:43:12Z"
-          },
-          {
-            "tag": "v1.0.5",
-            "downloads": 3,
-            "windows": 0,
-            "macos": 3,
-            "linux": 0,
-            "homebrew": 0,
-            "other": 0,
-            "prerelease": false,
-            "published_at": "2026-10-13T21:04:11Z"
-          },
-          {
-            "tag": "v1.0.4",
-            "downloads": 6,
-            "windows": 0,
-            "macos": 6,
-            "linux": 0,
-            "homebrew": 0,
-            "other": 0,
-            "prerelease": false,
-            "published_at": "2026-10-04T18:13:01Z"
-          },
-          {
-            "tag": "v1.0.3",
-            "downloads": 1,
-            "windows": 0,
-            "macos": 1,
-            "linux": 0,
-            "homebrew": 0,
-            "other": 0,
-            "prerelease": false,
-            "published_at": "2026-10-04T16:37:27Z"
-          },
-          {
-            "tag": "v1.0.2",
-            "downloads": 2,
-            "windows": 0,
-            "macos": 2,
-            "linux": 0,
-            "homebrew": 0,
-            "other": 0,
-            "prerelease": false,
-            "published_at": "2026-10-04T03:20:57Z"
-          },
-          {
-            "tag": "v1.0.1",
-            "downloads": 3,
-            "windows": 0,
-            "macos": 3,
-            "linux": 0,
-            "homebrew": 0,
-            "other": 1,
-            "prerelease": false,
-            "published_at": "2026-10-03T04:19:50Z"
-          },
-          {
-            "tag": "v1.0.0",
-            "downloads": 4,
-            "windows": 0,
-            "macos": 4,
-            "linux": 0,
-            "homebrew": 0,
-            "other": 2,
-            "prerelease": false,
-            "published_at": "2026-10-02T20:04:38Z"
-          }
-        ],
+        "by_release": [],
         "by_arch": {
           "windows": {},
-          "macos": {
-            "other": 41
-          },
+          "macos": {},
           "linux": {},
           "homebrew": {}
         },
-        "by_release_daily": {
-          "v1.0.4": {
-            "published_at": "2026-10-04T18:13:01Z",
-            "snapshots": [
-              {
-                "date": "2026-10-09",
-                "downloads": 4,
-                "windows": 0,
-                "macos": 4,
-                "linux": 0,
-                "homebrew": 0
-              },
-              {
-                "date": "2026-10-13",
-                "downloads": 6,
-                "windows": 0,
-                "macos": 6,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ],
-            "prerelease": false,
-            "last_seen": "2026-10-20"
-          },
-          "v1.0.3": {
-            "published_at": "2026-10-04T16:37:27Z",
-            "snapshots": [
-              {
-                "date": "2026-10-09",
-                "downloads": 1,
-                "windows": 0,
-                "macos": 1,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ],
-            "prerelease": false,
-            "last_seen": "2026-10-20"
-          },
-          "v1.0.2": {
-            "published_at": "2026-10-04T03:20:57Z",
-            "snapshots": [
-              {
-                "date": "2026-10-09",
-                "downloads": 2,
-                "windows": 0,
-                "macos": 2,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ],
-            "prerelease": false,
-            "last_seen": "2026-10-20"
-          },
-          "v1.0.1": {
-            "published_at": "2026-10-03T04:19:50Z",
-            "snapshots": [
-              {
-                "date": "2026-10-09",
-                "downloads": 3,
-                "windows": 0,
-                "macos": 3,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ],
-            "prerelease": false,
-            "last_seen": "2026-10-20"
-          },
-          "v1.0.0": {
-            "published_at": "2026-10-02T20:04:38Z",
-            "snapshots": [
-              {
-                "date": "2026-10-09",
-                "downloads": 4,
-                "windows": 0,
-                "macos": 4,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ],
-            "prerelease": false,
-            "last_seen": "2026-10-20"
-          },
-          "v1.0.6": {
-            "published_at": "2026-10-13T23:43:12Z",
-            "snapshots": [
-              {
-                "date": "2026-10-13",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0,
-                "homebrew": 0
-              },
-              {
-                "date": "2026-10-14",
-                "downloads": 1,
-                "windows": 0,
-                "macos": 1,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ],
-            "prerelease": false,
-            "last_seen": "2026-10-20",
-            "launch": [
-              {
-                "time": "2026-10-13T23:59:12Z",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0,
-                "homebrew": 0
-              },
-              {
-                "time": "2026-10-14T03:23:54Z",
-                "downloads": 1,
-                "windows": 0,
-                "macos": 1,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ]
-          },
-          "v1.0.5": {
-            "published_at": "2026-10-13T21:04:11Z",
-            "snapshots": [
-              {
-                "date": "2026-10-13",
-                "downloads": 3,
-                "windows": 0,
-                "macos": 3,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ],
-            "prerelease": false,
-            "last_seen": "2026-10-20",
-            "launch": [
-              {
-                "time": "2026-10-13T23:59:12Z",
-                "downloads": 3,
-                "windows": 0,
-                "macos": 3,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ]
-          },
-          "v1.0.7": {
-            "published_at": "2026-10-14T22:29:29Z",
-            "snapshots": [
-              {
-                "date": "2026-10-15",
-                "downloads": 2,
-                "windows": 0,
-                "macos": 2,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ],
-            "prerelease": false,
-            "last_seen": "2026-10-20",
-            "launch": [
-              {
-                "time": "2026-10-15T00:14:02Z",
-                "downloads": 1,
-                "windows": 0,
-                "macos": 1,
-                "linux": 0,
-                "homebrew": 0
-              },
-              {
-                "time": "2026-10-15T04:54:30Z",
-                "downloads": 2,
-                "windows": 0,
-                "macos": 2,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ]
-          },
-          "v1.1.0": {
-            "published_at": "2026-10-15T16:17:47Z",
-            "snapshots": [
-              {
-                "date": "2026-10-15",
-                "downloads": 4,
-                "windows": 0,
-                "macos": 4,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ],
-            "prerelease": false,
-            "last_seen": "2026-10-20",
-            "launch": [
-              {
-                "time": "2026-10-15T18:24:55Z",
-                "downloads": 4,
-                "windows": 0,
-                "macos": 4,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ]
-          },
-          "v1.1.1": {
-            "published_at": "2026-10-16T04:15:35Z",
-            "snapshots": [
-              {
-                "date": "2026-10-16",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0,
-                "homebrew": 0
-              },
-              {
-                "date": "2026-10-17",
-                "downloads": 1,
-                "windows": 0,
-                "macos": 1,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ],
-            "prerelease": false,
-            "last_seen": "2026-10-20",
-            "launch": [
-              {
-                "time": "2026-10-16T07:21:27Z",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ]
-          },
-          "v1.1.2": {
-            "published_at": "2026-10-17T18:24:50Z",
-            "snapshots": [
-              {
-                "date": "2026-10-17",
-                "downloads": 1,
-                "windows": 0,
-                "macos": 1,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ],
-            "prerelease": false,
-            "last_seen": "2026-10-20",
-            "launch": [
-              {
-                "time": "2026-10-17T18:54:06Z",
-                "downloads": 1,
-                "windows": 0,
-                "macos": 1,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ]
-          },
-          "v1.1.3": {
-            "published_at": "2026-10-17T22:16:23Z",
-            "snapshots": [
-              {
-                "date": "2026-10-17",
-                "downloads": 2,
-                "windows": 0,
-                "macos": 2,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ],
-            "prerelease": false,
-            "last_seen": "2026-10-20",
-            "launch": [
-              {
-                "time": "2026-10-17T23:13:30Z",
-                "downloads": 2,
-                "windows": 0,
-                "macos": 2,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ]
-          },
-          "v1.1.5": {
-            "published_at": "2026-10-18T01:10:00Z",
-            "snapshots": [
-              {
-                "date": "2026-10-18",
-                "downloads": 1,
-                "windows": 0,
-                "macos": 1,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ],
-            "prerelease": false,
-            "last_seen": "2026-10-20",
-            "launch": [
-              {
-                "time": "2026-10-18T01:14:43Z",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0,
-                "homebrew": 0
-              },
-              {
-                "time": "2026-10-18T11:25:38Z",
-                "downloads": 1,
-                "windows": 0,
-                "macos": 1,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ]
-          },
-          "v1.1.4": {
-            "published_at": "2026-10-17T23:56:14Z",
-            "snapshots": [
-              {
-                "date": "2026-10-18",
-                "downloads": 1,
-                "windows": 0,
-                "macos": 1,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ],
-            "prerelease": false,
-            "last_seen": "2026-10-20",
-            "launch": [
-              {
-                "time": "2026-10-18T01:14:43Z",
-                "downloads": 1,
-                "windows": 0,
-                "macos": 1,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ]
-          },
-          "v1.1.6": {
-            "published_at": "2026-10-18T14:00:26Z",
-            "snapshots": [
-              {
-                "date": "2026-10-18",
-                "downloads": 1,
-                "windows": 0,
-                "macos": 1,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ],
-            "prerelease": false,
-            "last_seen": "2026-10-20",
-            "launch": [
-              {
-                "time": "2026-10-18T14:41:49Z",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0,
-                "homebrew": 0
-              },
-              {
-                "time": "2026-10-18T17:36:42Z",
-                "downloads": 1,
-                "windows": 0,
-                "macos": 1,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ]
-          },
-          "v1.1.7": {
-            "published_at": "2026-10-18T23:45:34Z",
-            "snapshots": [
-              {
-                "date": "2026-10-18",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0,
-                "homebrew": 0
-              },
-              {
-                "date": "2026-10-19",
-                "downloads": 1,
-                "windows": 0,
-                "macos": 1,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ],
-            "prerelease": false,
-            "last_seen": "2026-10-20",
-            "launch": [
-              {
-                "time": "2026-10-18T23:48:56Z",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0,
-                "homebrew": 0
-              },
-              {
-                "time": "2026-10-19T01:54:45Z",
-                "downloads": 1,
-                "windows": 0,
-                "macos": 1,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ]
-          },
-          "v1.1.8": {
-            "published_at": "2026-10-19T01:33:19Z",
-            "snapshots": [
-              {
-                "date": "2026-10-19",
-                "downloads": 3,
-                "windows": 0,
-                "macos": 3,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ],
-            "prerelease": false,
-            "last_seen": "2026-10-20",
-            "launch": [
-              {
-                "time": "2026-10-19T01:54:45Z",
-                "downloads": 0,
-                "windows": 0,
-                "macos": 0,
-                "linux": 0,
-                "homebrew": 0
-              },
-              {
-                "time": "2026-10-19T07:00:14Z",
-                "downloads": 1,
-                "windows": 0,
-                "macos": 1,
-                "linux": 0,
-                "homebrew": 0
-              },
-              {
-                "time": "2026-10-19T14:21:57Z",
-                "downloads": 2,
-                "windows": 0,
-                "macos": 2,
-                "linux": 0,
-                "homebrew": 0
-              },
-              {
-                "time": "2026-10-19T20:01:15Z",
-                "downloads": 3,
-                "windows": 0,
-                "macos": 3,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ]
-          },
-          "v1.1.9": {
-            "published_at": "2026-10-20T01:07:25Z",
-            "snapshots": [
-              {
-                "date": "2026-10-20",
-                "downloads": 1,
-                "windows": 0,
-                "macos": 1,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ],
-            "prerelease": false,
-            "last_seen": "2026-10-20",
-            "launch": [
-              {
-                "time": "2026-10-20T02:12:37Z",
-                "downloads": 1,
-                "windows": 0,
-                "macos": 1,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ]
-          },
-          "v1.1.11": {
-            "published_at": "2026-10-20T06:12:53Z",
-            "snapshots": [
-              {
-                "date": "2026-10-20",
-                "downloads": 2,
-                "windows": 0,
-                "macos": 2,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ],
-            "prerelease": false,
-            "last_seen": "2026-10-20",
-            "launch": [
-              {
-                "time": "2026-10-20T07:46:07Z",
-                "downloads": 1,
-                "windows": 0,
-                "macos": 1,
-                "linux": 0,
-                "homebrew": 0
-              },
-              {
-                "time": "2026-10-20T13:04:04Z",
-                "downloads": 2,
-                "windows": 0,
-                "macos": 2,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ]
-          },
-          "v1.1.10": {
-            "published_at": "2026-10-20T04:45:13Z",
-            "snapshots": [
-              {
-                "date": "2026-10-20",
-                "downloads": 1,
-                "windows": 0,
-                "macos": 1,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ],
-            "prerelease": false,
-            "last_seen": "2026-10-20",
-            "launch": [
-              {
-                "time": "2026-10-20T07:46:07Z",
-                "downloads": 1,
-                "windows": 0,
-                "macos": 1,
-                "linux": 0,
-                "homebrew": 0
-              }
-            ]
-          }
-        }
+        "by_release_daily": {}
       },
       "window_14d": [
         {
           "date": "2026-10-09",
-          "clones_14d": 591,
-          "clones_unique_14d": 192,
-          "views_14d": 36,
-          "views_unique_14d": 4
+          "clones_14d": 0,
+          "clones_unique_14d": 0,
+          "views_14d": 0,
+          "views_unique_14d": 0
         },
         {
           "date": "2026-10-10",
-          "clones_14d": 592,
-          "clones_unique_14d": 193,
-          "views_14d": 36,
-          "views_unique_14d": 4
+          "clones_14d": 29,
+          "clones_unique_14d": 12,
+          "views_14d": 0,
+          "views_unique_14d": 0
         },
         {
           "date": "2026-10-11",
-          "clones_14d": 594,
-          "clones_unique_14d": 195,
-          "views_14d": 36,
-          "views_unique_14d": 4
+          "clones_14d": 62,
+          "clones_unique_14d": 29,
+          "views_14d": 0,
+          "views_unique_14d": 0
         },
         {
           "date": "2026-10-12",
-          "clones_14d": 595,
-          "clones_unique_14d": 196,
-          "views_14d": 36,
-          "views_unique_14d": 4
+          "clones_14d": 95,
+          "clones_unique_14d": 47,
+          "views_14d": 0,
+          "views_unique_14d": 0
         },
         {
           "date": "2026-10-13",
-          "clones_14d": 600,
-          "clones_unique_14d": 197,
-          "views_14d": 36,
-          "views_unique_14d": 4
+          "clones_14d": 96,
+          "clones_unique_14d": 48,
+          "views_14d": 0,
+          "views_unique_14d": 0
         },
         {
           "date": "2026-10-14",
-          "clones_14d": 757,
-          "clones_unique_14d": 247,
-          "views_14d": 44,
-          "views_unique_14d": 4
+          "clones_14d": 135,
+          "clones_unique_14d": 67,
+          "views_14d": 0,
+          "views_unique_14d": 0
         },
         {
           "date": "2026-10-15",
-          "clones_14d": 810,
-          "clones_unique_14d": 258,
-          "views_14d": 47,
-          "views_unique_14d": 4
+          "clones_14d": 160,
+          "clones_unique_14d": 76,
+          "views_14d": 0,
+          "views_unique_14d": 0
         },
         {
           "date": "2026-10-16",
-          "clones_14d": 1048,
-          "clones_unique_14d": 335,
-          "views_14d": 52,
-          "views_unique_14d": 4
+          "clones_14d": 192,
+          "clones_unique_14d": 93,
+          "views_14d": 0,
+          "views_unique_14d": 0
         },
         {
           "date": "2026-10-17",
-          "clones_14d": 1060,
-          "clones_unique_14d": 352,
-          "views_14d": 34,
-          "views_unique_14d": 4
+          "clones_14d": 211,
+          "clones_unique_14d": 103,
+          "views_14d": 0,
+          "views_unique_14d": 0
         },
         {
           "date": "2026-10-18",
-          "clones_14d": 1025,
-          "clones_unique_14d": 330,
-          "views_14d": 43,
-          "views_unique_14d": 5
+          "clones_14d": 221,
+          "clones_unique_14d": 108,
+          "views_14d": 0,
+          "views_unique_14d": 0
         },
         {
           "date": "2026-10-19",
-          "clones_14d": 920,
-          "clones_unique_14d": 292,
-          "views_14d": 54,
-          "views_unique_14d": 5
+          "clones_14d": 257,
+          "clones_unique_14d": 122,
+          "views_14d": 0,
+          "views_unique_14d": 0
         },
         {
           "date": "2026-10-20",
-          "clones_14d": 920,
-          "clones_unique_14d": 292,
-          "views_14d": 54,
-          "views_unique_14d": 5
+          "clones_14d": 261,
+          "clones_unique_14d": 125,
+          "views_14d": 0,
+          "views_unique_14d": 0
         }
       ]
     },
@@ -6629,7 +5845,7 @@
       ],
       "referrers": [],
       "metadata": {
-        "last_fetched": "2026-10-20T13:04:04Z",
+        "last_fetched": "2026-10-20T18:01:43Z",
         "clones_total": 2500,
         "clones_unique_total": 524,
         "views_total": 64,
@@ -9020,7 +8236,7 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-10-20T13:04:04Z",
+          "last_fetched": "2026-10-20T18:01:43Z",
           "cumulative_total": 39,
           "cumulative_windows": 10,
           "cumulative_macos": 23,
@@ -11690,8 +10906,8 @@
         },
         {
           "date": "2026-10-20",
-          "clones_14d": 8,
-          "clones_unique_14d": 8,
+          "clones_14d": 7,
+          "clones_unique_14d": 7,
           "views_14d": 0,
           "views_unique_14d": 0
         }
@@ -14392,7 +13608,7 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-10-20T13:04:04Z",
+        "last_fetched": "2026-10-20T18:01:43Z",
         "clones_total": 32780,
         "clones_unique_total": 9663,
         "views_total": 8979,
@@ -19602,67 +18818,67 @@
           },
           {
             "date": "2026-10-20",
-            "cumulative_total": 3506,
-            "downloads_total": 14,
-            "cumulative_windows": 1075,
-            "downloads_windows": 4,
+            "cumulative_total": 3511,
+            "downloads_total": 19,
+            "cumulative_windows": 1078,
+            "downloads_windows": 7,
             "cumulative_macos": 2146,
             "downloads_macos": 2,
             "cumulative_linux": 203,
             "downloads_linux": 0,
-            "cumulative_homebrew": 82,
-            "downloads_homebrew": 8,
+            "cumulative_homebrew": 84,
+            "downloads_homebrew": 10,
             "cumulative_other": 106,
             "downloads_other": 0,
-            "cumulative_stable_total": 2333,
-            "downloads_stable_total": 5,
-            "cumulative_stable_windows": 721,
-            "downloads_stable_windows": 1,
+            "cumulative_stable_total": 2336,
+            "downloads_stable_total": 8,
+            "cumulative_stable_windows": 724,
+            "downloads_stable_windows": 4,
             "cumulative_stable_macos": 1470,
             "downloads_stable_macos": 2,
             "cumulative_stable_linux": 97,
             "downloads_stable_linux": 0,
             "cumulative_stable_homebrew": 45,
             "downloads_stable_homebrew": 2,
-            "cumulative_beta_total": 1173,
-            "downloads_beta_total": 9,
+            "cumulative_beta_total": 1175,
+            "downloads_beta_total": 11,
             "cumulative_beta_windows": 354,
             "downloads_beta_windows": 3,
             "cumulative_beta_macos": 676,
             "downloads_beta_macos": 0,
             "cumulative_beta_linux": 106,
             "downloads_beta_linux": 0,
-            "cumulative_beta_homebrew": 37,
-            "downloads_beta_homebrew": 6
+            "cumulative_beta_homebrew": 39,
+            "downloads_beta_homebrew": 8
           }
         ],
         "metadata": {
-          "last_fetched": "2026-10-20T13:04:04Z",
-          "cumulative_total": 3506,
-          "cumulative_windows": 1075,
+          "last_fetched": "2026-10-20T18:01:43Z",
+          "cumulative_total": 3511,
+          "cumulative_windows": 1078,
           "cumulative_macos": 2146,
           "cumulative_linux": 203,
-          "cumulative_homebrew": 82,
+          "cumulative_homebrew": 84,
           "cumulative_other": 106,
-          "cumulative_stable_total": 2333,
-          "cumulative_stable_windows": 721,
+          "cumulative_stable_total": 2336,
+          "cumulative_stable_windows": 724,
           "cumulative_stable_macos": 1470,
           "cumulative_stable_linux": 97,
           "cumulative_stable_homebrew": 45,
-          "cumulative_beta_total": 1173,
+          "cumulative_beta_total": 1175,
           "cumulative_beta_windows": 354,
           "cumulative_beta_macos": 676,
           "cumulative_beta_linux": 106,
-          "cumulative_beta_homebrew": 37
+          "cumulative_beta_homebrew": 39
         },
         "by_release": [
           {
             "tag": "v4.3.8-beta.2",
-            "downloads": 5,
+            "downloads": 6,
             "windows": 2,
             "macos": 0,
             "linux": 0,
-            "homebrew": 3,
+            "homebrew": 4,
             "other": 0,
             "prerelease": true,
             "published_at": "2026-10-20T10:02:14Z"
@@ -19680,8 +18896,8 @@
           },
           {
             "tag": "v4.3.7",
-            "downloads": 35,
-            "windows": 23,
+            "downloads": 38,
+            "windows": 26,
             "macos": 4,
             "linux": 2,
             "homebrew": 6,
@@ -19834,11 +19050,11 @@
           },
           {
             "tag": "v4.3.3-beta.17",
-            "downloads": 12,
+            "downloads": 13,
             "windows": 3,
             "macos": 4,
             "linux": 1,
-            "homebrew": 4,
+            "homebrew": 5,
             "other": 0,
             "prerelease": true,
             "published_at": "2026-10-10T01:44:02Z"
@@ -29648,7 +28864,7 @@
         "by_arch": {
           "windows": {
             "arm64": 127,
-            "x86_64": 948
+            "x86_64": 951
           },
           "macos": {
             "arm64": 1382,
@@ -29660,8 +28876,8 @@
             "x86_64": 120
           },
           "homebrew": {
-            "arm64": 58,
-            "x86_64": 24
+            "arm64": 59,
+            "x86_64": 25
           }
         },
         "by_release_daily": {
@@ -37131,6 +36347,14 @@
                 "macos": 4,
                 "linux": 1,
                 "homebrew": 4
+              },
+              {
+                "date": "2026-10-20",
+                "downloads": 13,
+                "windows": 3,
+                "macos": 4,
+                "linux": 1,
+                "homebrew": 5
               }
             ],
             "prerelease": true,
@@ -37844,8 +37068,8 @@
               },
               {
                 "date": "2026-10-20",
-                "downloads": 35,
-                "windows": 23,
+                "downloads": 38,
+                "windows": 26,
                 "macos": 4,
                 "linux": 2,
                 "homebrew": 6
@@ -37926,11 +37150,11 @@
             "snapshots": [
               {
                 "date": "2026-10-20",
-                "downloads": 5,
+                "downloads": 6,
                 "windows": 2,
                 "macos": 0,
                 "linux": 0,
-                "homebrew": 3
+                "homebrew": 4
               }
             ],
             "prerelease": true,
@@ -37943,6 +37167,14 @@
                 "macos": 0,
                 "linux": 0,
                 "homebrew": 3
+              },
+              {
+                "time": "2026-10-20T18:01:43Z",
+                "downloads": 6,
+                "windows": 2,
+                "macos": 0,
+                "linux": 0,
+                "homebrew": 4
               }
             ]
           }
@@ -40664,8 +39896,8 @@
         },
         {
           "date": "2026-10-19",
-          "clones_total": 0,
-          "clones_unique": 0,
+          "clones_total": 2,
+          "clones_unique": 2,
           "views_total": 0,
           "views_unique": 0
         },
@@ -40690,9 +39922,9 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-10-20T13:04:04Z",
-        "clones_total": 377,
-        "clones_unique_total": 203,
+        "last_fetched": "2026-10-20T18:01:43Z",
+        "clones_total": 379,
+        "clones_unique_total": 205,
         "views_total": 121,
         "views_unique_total": 57
       },
@@ -44586,7 +43818,7 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-10-20T13:04:04Z",
+          "last_fetched": "2026-10-20T18:01:43Z",
           "cumulative_total": 46,
           "cumulative_windows": 19,
           "cumulative_macos": 24,
@@ -44759,8 +43991,8 @@
         },
         {
           "date": "2026-10-20",
-          "clones_14d": 21,
-          "clones_unique_14d": 20,
+          "clones_14d": 23,
+          "clones_unique_14d": 22,
           "views_14d": 8,
           "views_unique_14d": 7
         }
@@ -47395,8 +46627,8 @@
         },
         {
           "date": "2026-10-19",
-          "clones_total": 0,
-          "clones_unique": 0,
+          "clones_total": 48,
+          "clones_unique": 20,
           "views_total": 0,
           "views_unique": 0
         },
@@ -47416,9 +46648,9 @@
         }
       ],
       "metadata": {
-        "last_fetched": "2026-10-20T13:04:04Z",
-        "clones_total": 8292,
-        "clones_unique_total": 4830,
+        "last_fetched": "2026-10-20T18:01:43Z",
+        "clones_total": 8340,
+        "clones_unique_total": 4850,
         "views_total": 32,
         "views_unique_total": 15
       },
@@ -48702,7 +47934,7 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-10-20T13:04:04Z",
+          "last_fetched": "2026-10-20T18:01:43Z",
           "cumulative_total": 0,
           "cumulative_windows": 0,
           "cumulative_macos": 0,
@@ -48809,14 +48041,14 @@
         },
         {
           "date": "2026-10-20",
-          "clones_14d": 593,
-          "clones_unique_14d": 190,
+          "clones_14d": 611,
+          "clones_unique_14d": 194,
           "views_14d": 1,
           "views_unique_14d": 1
         }
       ]
     },
-    "itsab1989/homebrew-chromiq": {
+    "itsab1989/MacReplica": {
       "daily_data": [
         {
           "date": "2025-10-09",
@@ -51326,43 +50558,43 @@
         },
         {
           "date": "2026-10-02",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
+          "clones_total": 103,
+          "clones_unique": 32,
+          "views_total": 18,
+          "views_unique": 3
         },
         {
           "date": "2026-10-03",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
+          "clones_total": 147,
+          "clones_unique": 49,
+          "views_total": 5,
+          "views_unique": 2
         },
         {
           "date": "2026-10-04",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
+          "clones_total": 310,
+          "clones_unique": 113,
+          "views_total": 12,
+          "views_unique": 3
         },
         {
           "date": "2026-10-05",
-          "clones_total": 0,
-          "clones_unique": 0,
+          "clones_total": 28,
+          "clones_unique": 15,
           "views_total": 0,
           "views_unique": 0
         },
         {
           "date": "2026-10-06",
-          "clones_total": 0,
-          "clones_unique": 0,
+          "clones_total": 2,
+          "clones_unique": 2,
           "views_total": 0,
           "views_unique": 0
         },
         {
           "date": "2026-10-07",
-          "clones_total": 0,
-          "clones_unique": 0,
+          "clones_total": 1,
+          "clones_unique": 1,
           "views_total": 0,
           "views_unique": 0
         },
@@ -51370,85 +50602,85 @@
           "date": "2026-10-08",
           "clones_total": 0,
           "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
+          "views_total": 1,
+          "views_unique": 1
         },
         {
           "date": "2026-10-09",
-          "clones_total": 29,
-          "clones_unique": 12,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-10-10",
-          "clones_total": 33,
-          "clones_unique": 19,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-10-11",
-          "clones_total": 33,
-          "clones_unique": 21,
-          "views_total": 0,
-          "views_unique": 0
-        },
-        {
-          "date": "2026-10-12",
           "clones_total": 1,
           "clones_unique": 1,
           "views_total": 0,
           "views_unique": 0
         },
         {
-          "date": "2026-10-13",
-          "clones_total": 39,
-          "clones_unique": 23,
+          "date": "2026-10-10",
+          "clones_total": 2,
+          "clones_unique": 2,
           "views_total": 0,
           "views_unique": 0
+        },
+        {
+          "date": "2026-10-11",
+          "clones_total": 1,
+          "clones_unique": 1,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-10-12",
+          "clones_total": 5,
+          "clones_unique": 2,
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "date": "2026-10-13",
+          "clones_total": 157,
+          "clones_unique": 62,
+          "views_total": 8,
+          "views_unique": 4
         },
         {
           "date": "2026-10-14",
-          "clones_total": 25,
-          "clones_unique": 13,
-          "views_total": 0,
-          "views_unique": 0
+          "clones_total": 53,
+          "clones_unique": 15,
+          "views_total": 3,
+          "views_unique": 2
         },
         {
           "date": "2026-10-15",
-          "clones_total": 32,
-          "clones_unique": 21,
-          "views_total": 0,
-          "views_unique": 0
+          "clones_total": 238,
+          "clones_unique": 96,
+          "views_total": 5,
+          "views_unique": 2
         },
         {
           "date": "2026-10-16",
-          "clones_total": 19,
-          "clones_unique": 13,
+          "clones_total": 115,
+          "clones_unique": 45,
           "views_total": 0,
           "views_unique": 0
         },
         {
           "date": "2026-10-17",
-          "clones_total": 10,
-          "clones_unique": 7,
-          "views_total": 0,
-          "views_unique": 0
+          "clones_total": 112,
+          "clones_unique": 25,
+          "views_total": 14,
+          "views_unique": 4
         },
         {
           "date": "2026-10-18",
-          "clones_total": 36,
-          "clones_unique": 18,
-          "views_total": 0,
-          "views_unique": 0
+          "clones_total": 205,
+          "clones_unique": 58,
+          "views_total": 23,
+          "views_unique": 2
         },
         {
           "date": "2026-10-19",
-          "clones_total": 0,
-          "clones_unique": 0,
-          "views_total": 0,
-          "views_unique": 0
+          "clones_total": 143,
+          "clones_unique": 47,
+          "views_total": 3,
+          "views_unique": 3
         },
         {
           "date": "2026-10-20",
@@ -51458,36 +50690,42 @@
           "views_unique": 0
         }
       ],
-      "referrers": [],
+      "referrers": [
+        {
+          "referrer": "github.com",
+          "count": 2,
+          "uniques": 2
+        }
+      ],
       "metadata": {
-        "last_fetched": "2026-10-20T13:04:04Z",
-        "clones_total": 257,
-        "clones_unique_total": 148,
-        "views_total": 0,
-        "views_unique_total": 0
+        "last_fetched": "2026-10-20T18:01:43Z",
+        "clones_total": 1623,
+        "clones_unique_total": 566,
+        "views_total": 92,
+        "views_unique_total": 26
       },
       "downloads": {
         "schema": 2,
         "daily_data": [
           {
             "date": "2026-10-09",
-            "cumulative_total": 0,
+            "cumulative_total": 14,
             "downloads_total": 0,
             "cumulative_windows": 0,
             "downloads_windows": 0,
-            "cumulative_macos": 0,
+            "cumulative_macos": 14,
             "downloads_macos": 0,
             "cumulative_linux": 0,
             "downloads_linux": 0,
             "cumulative_homebrew": 0,
             "downloads_homebrew": 0,
-            "cumulative_other": 0,
+            "cumulative_other": 3,
             "downloads_other": 0,
-            "cumulative_stable_total": 0,
+            "cumulative_stable_total": 14,
             "downloads_stable_total": 0,
             "cumulative_stable_windows": 0,
             "downloads_stable_windows": 0,
-            "cumulative_stable_macos": 0,
+            "cumulative_stable_macos": 14,
             "downloads_stable_macos": 0,
             "cumulative_stable_linux": 0,
             "downloads_stable_linux": 0,
@@ -51506,23 +50744,23 @@
           },
           {
             "date": "2026-10-10",
-            "cumulative_total": 0,
+            "cumulative_total": 14,
             "downloads_total": 0,
             "cumulative_windows": 0,
             "downloads_windows": 0,
-            "cumulative_macos": 0,
+            "cumulative_macos": 14,
             "downloads_macos": 0,
             "cumulative_linux": 0,
             "downloads_linux": 0,
             "cumulative_homebrew": 0,
             "downloads_homebrew": 0,
-            "cumulative_other": 0,
+            "cumulative_other": 3,
             "downloads_other": 0,
-            "cumulative_stable_total": 0,
+            "cumulative_stable_total": 14,
             "downloads_stable_total": 0,
             "cumulative_stable_windows": 0,
             "downloads_stable_windows": 0,
-            "cumulative_stable_macos": 0,
+            "cumulative_stable_macos": 14,
             "downloads_stable_macos": 0,
             "cumulative_stable_linux": 0,
             "downloads_stable_linux": 0,
@@ -51541,23 +50779,23 @@
           },
           {
             "date": "2026-10-11",
-            "cumulative_total": 0,
+            "cumulative_total": 14,
             "downloads_total": 0,
             "cumulative_windows": 0,
             "downloads_windows": 0,
-            "cumulative_macos": 0,
+            "cumulative_macos": 14,
             "downloads_macos": 0,
             "cumulative_linux": 0,
             "downloads_linux": 0,
             "cumulative_homebrew": 0,
             "downloads_homebrew": 0,
-            "cumulative_other": 0,
+            "cumulative_other": 3,
             "downloads_other": 0,
-            "cumulative_stable_total": 0,
+            "cumulative_stable_total": 14,
             "downloads_stable_total": 0,
             "cumulative_stable_windows": 0,
             "downloads_stable_windows": 0,
-            "cumulative_stable_macos": 0,
+            "cumulative_stable_macos": 14,
             "downloads_stable_macos": 0,
             "cumulative_stable_linux": 0,
             "downloads_stable_linux": 0,
@@ -51576,23 +50814,23 @@
           },
           {
             "date": "2026-10-12",
-            "cumulative_total": 0,
+            "cumulative_total": 14,
             "downloads_total": 0,
             "cumulative_windows": 0,
             "downloads_windows": 0,
-            "cumulative_macos": 0,
+            "cumulative_macos": 14,
             "downloads_macos": 0,
             "cumulative_linux": 0,
             "downloads_linux": 0,
             "cumulative_homebrew": 0,
             "downloads_homebrew": 0,
-            "cumulative_other": 0,
+            "cumulative_other": 3,
             "downloads_other": 0,
-            "cumulative_stable_total": 0,
+            "cumulative_stable_total": 14,
             "downloads_stable_total": 0,
             "cumulative_stable_windows": 0,
             "downloads_stable_windows": 0,
-            "cumulative_stable_macos": 0,
+            "cumulative_stable_macos": 14,
             "downloads_stable_macos": 0,
             "cumulative_stable_linux": 0,
             "downloads_stable_linux": 0,
@@ -51611,24 +50849,24 @@
           },
           {
             "date": "2026-10-13",
-            "cumulative_total": 0,
-            "downloads_total": 0,
+            "cumulative_total": 19,
+            "downloads_total": 5,
             "cumulative_windows": 0,
             "downloads_windows": 0,
-            "cumulative_macos": 0,
-            "downloads_macos": 0,
+            "cumulative_macos": 19,
+            "downloads_macos": 5,
             "cumulative_linux": 0,
             "downloads_linux": 0,
             "cumulative_homebrew": 0,
             "downloads_homebrew": 0,
-            "cumulative_other": 0,
+            "cumulative_other": 3,
             "downloads_other": 0,
-            "cumulative_stable_total": 0,
-            "downloads_stable_total": 0,
+            "cumulative_stable_total": 19,
+            "downloads_stable_total": 5,
             "cumulative_stable_windows": 0,
             "downloads_stable_windows": 0,
-            "cumulative_stable_macos": 0,
-            "downloads_stable_macos": 0,
+            "cumulative_stable_macos": 19,
+            "downloads_stable_macos": 5,
             "cumulative_stable_linux": 0,
             "downloads_stable_linux": 0,
             "cumulative_stable_homebrew": 0,
@@ -51646,24 +50884,24 @@
           },
           {
             "date": "2026-10-14",
-            "cumulative_total": 0,
-            "downloads_total": 0,
+            "cumulative_total": 20,
+            "downloads_total": 1,
             "cumulative_windows": 0,
             "downloads_windows": 0,
-            "cumulative_macos": 0,
-            "downloads_macos": 0,
+            "cumulative_macos": 20,
+            "downloads_macos": 1,
             "cumulative_linux": 0,
             "downloads_linux": 0,
             "cumulative_homebrew": 0,
             "downloads_homebrew": 0,
-            "cumulative_other": 0,
+            "cumulative_other": 3,
             "downloads_other": 0,
-            "cumulative_stable_total": 0,
-            "downloads_stable_total": 0,
+            "cumulative_stable_total": 20,
+            "downloads_stable_total": 1,
             "cumulative_stable_windows": 0,
             "downloads_stable_windows": 0,
-            "cumulative_stable_macos": 0,
-            "downloads_stable_macos": 0,
+            "cumulative_stable_macos": 20,
+            "downloads_stable_macos": 1,
             "cumulative_stable_linux": 0,
             "downloads_stable_linux": 0,
             "cumulative_stable_homebrew": 0,
@@ -51681,24 +50919,24 @@
           },
           {
             "date": "2026-10-15",
-            "cumulative_total": 0,
-            "downloads_total": 0,
+            "cumulative_total": 26,
+            "downloads_total": 6,
             "cumulative_windows": 0,
             "downloads_windows": 0,
-            "cumulative_macos": 0,
-            "downloads_macos": 0,
+            "cumulative_macos": 26,
+            "downloads_macos": 6,
             "cumulative_linux": 0,
             "downloads_linux": 0,
             "cumulative_homebrew": 0,
             "downloads_homebrew": 0,
-            "cumulative_other": 0,
-            "downloads_other": 0,
-            "cumulative_stable_total": 0,
-            "downloads_stable_total": 0,
+            "cumulative_other": 4,
+            "downloads_other": 1,
+            "cumulative_stable_total": 26,
+            "downloads_stable_total": 6,
             "cumulative_stable_windows": 0,
             "downloads_stable_windows": 0,
-            "cumulative_stable_macos": 0,
-            "downloads_stable_macos": 0,
+            "cumulative_stable_macos": 26,
+            "downloads_stable_macos": 6,
             "cumulative_stable_linux": 0,
             "downloads_stable_linux": 0,
             "cumulative_stable_homebrew": 0,
@@ -51716,23 +50954,23 @@
           },
           {
             "date": "2026-10-16",
-            "cumulative_total": 0,
+            "cumulative_total": 26,
             "downloads_total": 0,
             "cumulative_windows": 0,
             "downloads_windows": 0,
-            "cumulative_macos": 0,
+            "cumulative_macos": 26,
             "downloads_macos": 0,
             "cumulative_linux": 0,
             "downloads_linux": 0,
             "cumulative_homebrew": 0,
             "downloads_homebrew": 0,
-            "cumulative_other": 0,
+            "cumulative_other": 4,
             "downloads_other": 0,
-            "cumulative_stable_total": 0,
+            "cumulative_stable_total": 26,
             "downloads_stable_total": 0,
             "cumulative_stable_windows": 0,
             "downloads_stable_windows": 0,
-            "cumulative_stable_macos": 0,
+            "cumulative_stable_macos": 26,
             "downloads_stable_macos": 0,
             "cumulative_stable_linux": 0,
             "downloads_stable_linux": 0,
@@ -51751,24 +50989,24 @@
           },
           {
             "date": "2026-10-17",
-            "cumulative_total": 0,
-            "downloads_total": 0,
+            "cumulative_total": 30,
+            "downloads_total": 4,
             "cumulative_windows": 0,
             "downloads_windows": 0,
-            "cumulative_macos": 0,
-            "downloads_macos": 0,
+            "cumulative_macos": 30,
+            "downloads_macos": 4,
             "cumulative_linux": 0,
             "downloads_linux": 0,
             "cumulative_homebrew": 0,
             "downloads_homebrew": 0,
-            "cumulative_other": 0,
+            "cumulative_other": 4,
             "downloads_other": 0,
-            "cumulative_stable_total": 0,
-            "downloads_stable_total": 0,
+            "cumulative_stable_total": 30,
+            "downloads_stable_total": 4,
             "cumulative_stable_windows": 0,
             "downloads_stable_windows": 0,
-            "cumulative_stable_macos": 0,
-            "downloads_stable_macos": 0,
+            "cumulative_stable_macos": 30,
+            "downloads_stable_macos": 4,
             "cumulative_stable_linux": 0,
             "downloads_stable_linux": 0,
             "cumulative_stable_homebrew": 0,
@@ -51786,24 +51024,24 @@
           },
           {
             "date": "2026-10-18",
-            "cumulative_total": 0,
-            "downloads_total": 0,
+            "cumulative_total": 33,
+            "downloads_total": 3,
             "cumulative_windows": 0,
             "downloads_windows": 0,
-            "cumulative_macos": 0,
-            "downloads_macos": 0,
+            "cumulative_macos": 33,
+            "downloads_macos": 3,
             "cumulative_linux": 0,
             "downloads_linux": 0,
             "cumulative_homebrew": 0,
             "downloads_homebrew": 0,
-            "cumulative_other": 0,
+            "cumulative_other": 4,
             "downloads_other": 0,
-            "cumulative_stable_total": 0,
-            "downloads_stable_total": 0,
+            "cumulative_stable_total": 33,
+            "downloads_stable_total": 3,
             "cumulative_stable_windows": 0,
             "downloads_stable_windows": 0,
-            "cumulative_stable_macos": 0,
-            "downloads_stable_macos": 0,
+            "cumulative_stable_macos": 33,
+            "downloads_stable_macos": 3,
             "cumulative_stable_linux": 0,
             "downloads_stable_linux": 0,
             "cumulative_stable_homebrew": 0,
@@ -51821,24 +51059,24 @@
           },
           {
             "date": "2026-10-19",
-            "cumulative_total": 0,
-            "downloads_total": 0,
+            "cumulative_total": 37,
+            "downloads_total": 4,
             "cumulative_windows": 0,
             "downloads_windows": 0,
-            "cumulative_macos": 0,
-            "downloads_macos": 0,
+            "cumulative_macos": 37,
+            "downloads_macos": 4,
             "cumulative_linux": 0,
             "downloads_linux": 0,
             "cumulative_homebrew": 0,
             "downloads_homebrew": 0,
-            "cumulative_other": 0,
+            "cumulative_other": 4,
             "downloads_other": 0,
-            "cumulative_stable_total": 0,
-            "downloads_stable_total": 0,
+            "cumulative_stable_total": 37,
+            "downloads_stable_total": 4,
             "cumulative_stable_windows": 0,
             "downloads_stable_windows": 0,
-            "cumulative_stable_macos": 0,
-            "downloads_stable_macos": 0,
+            "cumulative_stable_macos": 37,
+            "downloads_stable_macos": 4,
             "cumulative_stable_linux": 0,
             "downloads_stable_linux": 0,
             "cumulative_stable_homebrew": 0,
@@ -51856,24 +51094,24 @@
           },
           {
             "date": "2026-10-20",
-            "cumulative_total": 0,
-            "downloads_total": 0,
+            "cumulative_total": 41,
+            "downloads_total": 4,
             "cumulative_windows": 0,
             "downloads_windows": 0,
-            "cumulative_macos": 0,
-            "downloads_macos": 0,
+            "cumulative_macos": 41,
+            "downloads_macos": 4,
             "cumulative_linux": 0,
             "downloads_linux": 0,
             "cumulative_homebrew": 0,
             "downloads_homebrew": 0,
-            "cumulative_other": 0,
-            "downloads_other": 0,
-            "cumulative_stable_total": 0,
-            "downloads_stable_total": 0,
+            "cumulative_other": 7,
+            "downloads_other": 3,
+            "cumulative_stable_total": 41,
+            "downloads_stable_total": 4,
             "cumulative_stable_windows": 0,
             "downloads_stable_windows": 0,
-            "cumulative_stable_macos": 0,
-            "downloads_stable_macos": 0,
+            "cumulative_stable_macos": 41,
+            "downloads_stable_macos": 4,
             "cumulative_stable_linux": 0,
             "downloads_stable_linux": 0,
             "cumulative_stable_homebrew": 0,
@@ -51891,16 +51129,16 @@
           }
         ],
         "metadata": {
-          "last_fetched": "2026-10-20T13:04:04Z",
-          "cumulative_total": 0,
+          "last_fetched": "2026-10-20T18:01:43Z",
+          "cumulative_total": 41,
           "cumulative_windows": 0,
-          "cumulative_macos": 0,
+          "cumulative_macos": 41,
           "cumulative_linux": 0,
           "cumulative_homebrew": 0,
-          "cumulative_other": 0,
-          "cumulative_stable_total": 0,
+          "cumulative_other": 7,
+          "cumulative_stable_total": 41,
           "cumulative_stable_windows": 0,
-          "cumulative_stable_macos": 0,
+          "cumulative_stable_macos": 41,
           "cumulative_stable_linux": 0,
           "cumulative_stable_homebrew": 0,
           "cumulative_beta_total": 0,
@@ -51909,99 +51147,877 @@
           "cumulative_beta_linux": 0,
           "cumulative_beta_homebrew": 0
         },
-        "by_release": [],
+        "by_release": [
+          {
+            "tag": "v1.1.11",
+            "downloads": 2,
+            "windows": 0,
+            "macos": 2,
+            "linux": 0,
+            "homebrew": 0,
+            "other": 1,
+            "prerelease": false,
+            "published_at": "2026-10-20T06:12:53Z"
+          },
+          {
+            "tag": "v1.1.10",
+            "downloads": 1,
+            "windows": 0,
+            "macos": 1,
+            "linux": 0,
+            "homebrew": 0,
+            "other": 1,
+            "prerelease": false,
+            "published_at": "2026-10-20T04:45:13Z"
+          },
+          {
+            "tag": "v1.1.9",
+            "downloads": 1,
+            "windows": 0,
+            "macos": 1,
+            "linux": 0,
+            "homebrew": 0,
+            "other": 1,
+            "prerelease": false,
+            "published_at": "2026-10-20T01:07:25Z"
+          },
+          {
+            "tag": "v1.1.8",
+            "downloads": 3,
+            "windows": 0,
+            "macos": 3,
+            "linux": 0,
+            "homebrew": 0,
+            "other": 0,
+            "prerelease": false,
+            "published_at": "2026-10-19T01:33:19Z"
+          },
+          {
+            "tag": "v1.1.7",
+            "downloads": 1,
+            "windows": 0,
+            "macos": 1,
+            "linux": 0,
+            "homebrew": 0,
+            "other": 0,
+            "prerelease": false,
+            "published_at": "2026-10-18T23:45:34Z"
+          },
+          {
+            "tag": "v1.1.6",
+            "downloads": 1,
+            "windows": 0,
+            "macos": 1,
+            "linux": 0,
+            "homebrew": 0,
+            "other": 0,
+            "prerelease": false,
+            "published_at": "2026-10-18T14:00:26Z"
+          },
+          {
+            "tag": "v1.1.5",
+            "downloads": 1,
+            "windows": 0,
+            "macos": 1,
+            "linux": 0,
+            "homebrew": 0,
+            "other": 0,
+            "prerelease": false,
+            "published_at": "2026-10-18T01:10:00Z"
+          },
+          {
+            "tag": "v1.1.4",
+            "downloads": 1,
+            "windows": 0,
+            "macos": 1,
+            "linux": 0,
+            "homebrew": 0,
+            "other": 0,
+            "prerelease": false,
+            "published_at": "2026-10-17T23:56:14Z"
+          },
+          {
+            "tag": "v1.1.3",
+            "downloads": 2,
+            "windows": 0,
+            "macos": 2,
+            "linux": 0,
+            "homebrew": 0,
+            "other": 0,
+            "prerelease": false,
+            "published_at": "2026-10-17T22:16:23Z"
+          },
+          {
+            "tag": "v1.1.2",
+            "downloads": 1,
+            "windows": 0,
+            "macos": 1,
+            "linux": 0,
+            "homebrew": 0,
+            "other": 0,
+            "prerelease": false,
+            "published_at": "2026-10-17T18:24:50Z"
+          },
+          {
+            "tag": "v1.1.1",
+            "downloads": 1,
+            "windows": 0,
+            "macos": 1,
+            "linux": 0,
+            "homebrew": 0,
+            "other": 0,
+            "prerelease": false,
+            "published_at": "2026-10-16T04:15:35Z"
+          },
+          {
+            "tag": "v1.1.0",
+            "downloads": 4,
+            "windows": 0,
+            "macos": 4,
+            "linux": 0,
+            "homebrew": 0,
+            "other": 1,
+            "prerelease": false,
+            "published_at": "2026-10-15T16:17:47Z"
+          },
+          {
+            "tag": "v1.0.7",
+            "downloads": 2,
+            "windows": 0,
+            "macos": 2,
+            "linux": 0,
+            "homebrew": 0,
+            "other": 0,
+            "prerelease": false,
+            "published_at": "2026-10-14T22:29:29Z"
+          },
+          {
+            "tag": "v1.0.6",
+            "downloads": 1,
+            "windows": 0,
+            "macos": 1,
+            "linux": 0,
+            "homebrew": 0,
+            "other": 0,
+            "prerelease": false,
+            "published_at": "2026-10-13T23:43:12Z"
+          },
+          {
+            "tag": "v1.0.5",
+            "downloads": 3,
+            "windows": 0,
+            "macos": 3,
+            "linux": 0,
+            "homebrew": 0,
+            "other": 0,
+            "prerelease": false,
+            "published_at": "2026-10-13T21:04:11Z"
+          },
+          {
+            "tag": "v1.0.4",
+            "downloads": 6,
+            "windows": 0,
+            "macos": 6,
+            "linux": 0,
+            "homebrew": 0,
+            "other": 0,
+            "prerelease": false,
+            "published_at": "2026-10-04T18:13:01Z"
+          },
+          {
+            "tag": "v1.0.3",
+            "downloads": 1,
+            "windows": 0,
+            "macos": 1,
+            "linux": 0,
+            "homebrew": 0,
+            "other": 0,
+            "prerelease": false,
+            "published_at": "2026-10-04T16:37:27Z"
+          },
+          {
+            "tag": "v1.0.2",
+            "downloads": 2,
+            "windows": 0,
+            "macos": 2,
+            "linux": 0,
+            "homebrew": 0,
+            "other": 0,
+            "prerelease": false,
+            "published_at": "2026-10-04T03:20:57Z"
+          },
+          {
+            "tag": "v1.0.1",
+            "downloads": 3,
+            "windows": 0,
+            "macos": 3,
+            "linux": 0,
+            "homebrew": 0,
+            "other": 1,
+            "prerelease": false,
+            "published_at": "2026-10-03T04:19:50Z"
+          },
+          {
+            "tag": "v1.0.0",
+            "downloads": 4,
+            "windows": 0,
+            "macos": 4,
+            "linux": 0,
+            "homebrew": 0,
+            "other": 2,
+            "prerelease": false,
+            "published_at": "2026-10-02T20:04:38Z"
+          }
+        ],
         "by_arch": {
           "windows": {},
-          "macos": {},
+          "macos": {
+            "other": 41
+          },
           "linux": {},
           "homebrew": {}
         },
-        "by_release_daily": {}
+        "by_release_daily": {
+          "v1.0.4": {
+            "published_at": "2026-10-04T18:13:01Z",
+            "snapshots": [
+              {
+                "date": "2026-10-09",
+                "downloads": 4,
+                "windows": 0,
+                "macos": 4,
+                "linux": 0,
+                "homebrew": 0
+              },
+              {
+                "date": "2026-10-13",
+                "downloads": 6,
+                "windows": 0,
+                "macos": 6,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ],
+            "prerelease": false,
+            "last_seen": "2026-10-20"
+          },
+          "v1.0.3": {
+            "published_at": "2026-10-04T16:37:27Z",
+            "snapshots": [
+              {
+                "date": "2026-10-09",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ],
+            "prerelease": false,
+            "last_seen": "2026-10-20"
+          },
+          "v1.0.2": {
+            "published_at": "2026-10-04T03:20:57Z",
+            "snapshots": [
+              {
+                "date": "2026-10-09",
+                "downloads": 2,
+                "windows": 0,
+                "macos": 2,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ],
+            "prerelease": false,
+            "last_seen": "2026-10-20"
+          },
+          "v1.0.1": {
+            "published_at": "2026-10-03T04:19:50Z",
+            "snapshots": [
+              {
+                "date": "2026-10-09",
+                "downloads": 3,
+                "windows": 0,
+                "macos": 3,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ],
+            "prerelease": false,
+            "last_seen": "2026-10-20"
+          },
+          "v1.0.0": {
+            "published_at": "2026-10-02T20:04:38Z",
+            "snapshots": [
+              {
+                "date": "2026-10-09",
+                "downloads": 4,
+                "windows": 0,
+                "macos": 4,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ],
+            "prerelease": false,
+            "last_seen": "2026-10-20"
+          },
+          "v1.0.6": {
+            "published_at": "2026-10-13T23:43:12Z",
+            "snapshots": [
+              {
+                "date": "2026-10-13",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0,
+                "homebrew": 0
+              },
+              {
+                "date": "2026-10-14",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ],
+            "prerelease": false,
+            "last_seen": "2026-10-20",
+            "launch": [
+              {
+                "time": "2026-10-13T23:59:12Z",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0,
+                "homebrew": 0
+              },
+              {
+                "time": "2026-10-14T03:23:54Z",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ]
+          },
+          "v1.0.5": {
+            "published_at": "2026-10-13T21:04:11Z",
+            "snapshots": [
+              {
+                "date": "2026-10-13",
+                "downloads": 3,
+                "windows": 0,
+                "macos": 3,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ],
+            "prerelease": false,
+            "last_seen": "2026-10-20",
+            "launch": [
+              {
+                "time": "2026-10-13T23:59:12Z",
+                "downloads": 3,
+                "windows": 0,
+                "macos": 3,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ]
+          },
+          "v1.0.7": {
+            "published_at": "2026-10-14T22:29:29Z",
+            "snapshots": [
+              {
+                "date": "2026-10-15",
+                "downloads": 2,
+                "windows": 0,
+                "macos": 2,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ],
+            "prerelease": false,
+            "last_seen": "2026-10-20",
+            "launch": [
+              {
+                "time": "2026-10-15T00:14:02Z",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0,
+                "homebrew": 0
+              },
+              {
+                "time": "2026-10-15T04:54:30Z",
+                "downloads": 2,
+                "windows": 0,
+                "macos": 2,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ]
+          },
+          "v1.1.0": {
+            "published_at": "2026-10-15T16:17:47Z",
+            "snapshots": [
+              {
+                "date": "2026-10-15",
+                "downloads": 4,
+                "windows": 0,
+                "macos": 4,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ],
+            "prerelease": false,
+            "last_seen": "2026-10-20",
+            "launch": [
+              {
+                "time": "2026-10-15T18:24:55Z",
+                "downloads": 4,
+                "windows": 0,
+                "macos": 4,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ]
+          },
+          "v1.1.1": {
+            "published_at": "2026-10-16T04:15:35Z",
+            "snapshots": [
+              {
+                "date": "2026-10-16",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0,
+                "homebrew": 0
+              },
+              {
+                "date": "2026-10-17",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ],
+            "prerelease": false,
+            "last_seen": "2026-10-20",
+            "launch": [
+              {
+                "time": "2026-10-16T07:21:27Z",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ]
+          },
+          "v1.1.2": {
+            "published_at": "2026-10-17T18:24:50Z",
+            "snapshots": [
+              {
+                "date": "2026-10-17",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ],
+            "prerelease": false,
+            "last_seen": "2026-10-20",
+            "launch": [
+              {
+                "time": "2026-10-17T18:54:06Z",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ]
+          },
+          "v1.1.3": {
+            "published_at": "2026-10-17T22:16:23Z",
+            "snapshots": [
+              {
+                "date": "2026-10-17",
+                "downloads": 2,
+                "windows": 0,
+                "macos": 2,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ],
+            "prerelease": false,
+            "last_seen": "2026-10-20",
+            "launch": [
+              {
+                "time": "2026-10-17T23:13:30Z",
+                "downloads": 2,
+                "windows": 0,
+                "macos": 2,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ]
+          },
+          "v1.1.5": {
+            "published_at": "2026-10-18T01:10:00Z",
+            "snapshots": [
+              {
+                "date": "2026-10-18",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ],
+            "prerelease": false,
+            "last_seen": "2026-10-20",
+            "launch": [
+              {
+                "time": "2026-10-18T01:14:43Z",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0,
+                "homebrew": 0
+              },
+              {
+                "time": "2026-10-18T11:25:38Z",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ]
+          },
+          "v1.1.4": {
+            "published_at": "2026-10-17T23:56:14Z",
+            "snapshots": [
+              {
+                "date": "2026-10-18",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ],
+            "prerelease": false,
+            "last_seen": "2026-10-20",
+            "launch": [
+              {
+                "time": "2026-10-18T01:14:43Z",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ]
+          },
+          "v1.1.6": {
+            "published_at": "2026-10-18T14:00:26Z",
+            "snapshots": [
+              {
+                "date": "2026-10-18",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ],
+            "prerelease": false,
+            "last_seen": "2026-10-20",
+            "launch": [
+              {
+                "time": "2026-10-18T14:41:49Z",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0,
+                "homebrew": 0
+              },
+              {
+                "time": "2026-10-18T17:36:42Z",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ]
+          },
+          "v1.1.7": {
+            "published_at": "2026-10-18T23:45:34Z",
+            "snapshots": [
+              {
+                "date": "2026-10-18",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0,
+                "homebrew": 0
+              },
+              {
+                "date": "2026-10-19",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ],
+            "prerelease": false,
+            "last_seen": "2026-10-20",
+            "launch": [
+              {
+                "time": "2026-10-18T23:48:56Z",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0,
+                "homebrew": 0
+              },
+              {
+                "time": "2026-10-19T01:54:45Z",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ]
+          },
+          "v1.1.8": {
+            "published_at": "2026-10-19T01:33:19Z",
+            "snapshots": [
+              {
+                "date": "2026-10-19",
+                "downloads": 3,
+                "windows": 0,
+                "macos": 3,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ],
+            "prerelease": false,
+            "last_seen": "2026-10-20",
+            "launch": [
+              {
+                "time": "2026-10-19T01:54:45Z",
+                "downloads": 0,
+                "windows": 0,
+                "macos": 0,
+                "linux": 0,
+                "homebrew": 0
+              },
+              {
+                "time": "2026-10-19T07:00:14Z",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0,
+                "homebrew": 0
+              },
+              {
+                "time": "2026-10-19T14:21:57Z",
+                "downloads": 2,
+                "windows": 0,
+                "macos": 2,
+                "linux": 0,
+                "homebrew": 0
+              },
+              {
+                "time": "2026-10-19T20:01:15Z",
+                "downloads": 3,
+                "windows": 0,
+                "macos": 3,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ]
+          },
+          "v1.1.9": {
+            "published_at": "2026-10-20T01:07:25Z",
+            "snapshots": [
+              {
+                "date": "2026-10-20",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ],
+            "prerelease": false,
+            "last_seen": "2026-10-20",
+            "launch": [
+              {
+                "time": "2026-10-20T02:12:37Z",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ]
+          },
+          "v1.1.11": {
+            "published_at": "2026-10-20T06:12:53Z",
+            "snapshots": [
+              {
+                "date": "2026-10-20",
+                "downloads": 2,
+                "windows": 0,
+                "macos": 2,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ],
+            "prerelease": false,
+            "last_seen": "2026-10-20",
+            "launch": [
+              {
+                "time": "2026-10-20T07:46:07Z",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0,
+                "homebrew": 0
+              },
+              {
+                "time": "2026-10-20T13:04:04Z",
+                "downloads": 2,
+                "windows": 0,
+                "macos": 2,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ]
+          },
+          "v1.1.10": {
+            "published_at": "2026-10-20T04:45:13Z",
+            "snapshots": [
+              {
+                "date": "2026-10-20",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ],
+            "prerelease": false,
+            "last_seen": "2026-10-20",
+            "launch": [
+              {
+                "time": "2026-10-20T07:46:07Z",
+                "downloads": 1,
+                "windows": 0,
+                "macos": 1,
+                "linux": 0,
+                "homebrew": 0
+              }
+            ]
+          }
+        }
       },
       "window_14d": [
         {
           "date": "2026-10-09",
-          "clones_14d": 0,
-          "clones_unique_14d": 0,
-          "views_14d": 0,
-          "views_unique_14d": 0
+          "clones_14d": 591,
+          "clones_unique_14d": 192,
+          "views_14d": 36,
+          "views_unique_14d": 4
         },
         {
           "date": "2026-10-10",
-          "clones_14d": 29,
-          "clones_unique_14d": 12,
-          "views_14d": 0,
-          "views_unique_14d": 0
+          "clones_14d": 592,
+          "clones_unique_14d": 193,
+          "views_14d": 36,
+          "views_unique_14d": 4
         },
         {
           "date": "2026-10-11",
-          "clones_14d": 62,
-          "clones_unique_14d": 29,
-          "views_14d": 0,
-          "views_unique_14d": 0
+          "clones_14d": 594,
+          "clones_unique_14d": 195,
+          "views_14d": 36,
+          "views_unique_14d": 4
         },
         {
           "date": "2026-10-12",
-          "clones_14d": 95,
-          "clones_unique_14d": 47,
-          "views_14d": 0,
-          "views_unique_14d": 0
+          "clones_14d": 595,
+          "clones_unique_14d": 196,
+          "views_14d": 36,
+          "views_unique_14d": 4
         },
         {
           "date": "2026-10-13",
-          "clones_14d": 96,
-          "clones_unique_14d": 48,
-          "views_14d": 0,
-          "views_unique_14d": 0
+          "clones_14d": 600,
+          "clones_unique_14d": 197,
+          "views_14d": 36,
+          "views_unique_14d": 4
         },
         {
           "date": "2026-10-14",
-          "clones_14d": 135,
-          "clones_unique_14d": 67,
-          "views_14d": 0,
-          "views_unique_14d": 0
+          "clones_14d": 757,
+          "clones_unique_14d": 247,
+          "views_14d": 44,
+          "views_unique_14d": 4
         },
         {
           "date": "2026-10-15",
-          "clones_14d": 160,
-          "clones_unique_14d": 76,
-          "views_14d": 0,
-          "views_unique_14d": 0
+          "clones_14d": 810,
+          "clones_unique_14d": 258,
+          "views_14d": 47,
+          "views_unique_14d": 4
         },
         {
           "date": "2026-10-16",
-          "clones_14d": 192,
-          "clones_unique_14d": 93,
-          "views_14d": 0,
-          "views_unique_14d": 0
+          "clones_14d": 1048,
+          "clones_unique_14d": 335,
+          "views_14d": 52,
+          "views_unique_14d": 4
         },
         {
           "date": "2026-10-17",
-          "clones_14d": 211,
-          "clones_unique_14d": 103,
-          "views_14d": 0,
-          "views_unique_14d": 0
+          "clones_14d": 1060,
+          "clones_unique_14d": 352,
+          "views_14d": 34,
+          "views_unique_14d": 4
         },
         {
           "date": "2026-10-18",
-          "clones_14d": 221,
-          "clones_unique_14d": 108,
-          "views_14d": 0,
-          "views_unique_14d": 0
+          "clones_14d": 1025,
+          "clones_unique_14d": 330,
+          "views_14d": 43,
+          "views_unique_14d": 5
         },
         {
           "date": "2026-10-19",
-          "clones_14d": 257,
-          "clones_unique_14d": 122,
-          "views_14d": 0,
-          "views_unique_14d": 0
+          "clones_14d": 920,
+          "clones_unique_14d": 292,
+          "views_14d": 54,
+          "views_unique_14d": 5
         },
         {
           "date": "2026-10-20",
-          "clones_14d": 257,
-          "clones_unique_14d": 122,
-          "views_14d": 0,
-          "views_unique_14d": 0
+          "clones_14d": 1035,
+          "clones_unique_14d": 308,
+          "views_14d": 57,
+          "views_unique_14d": 5
         }
       ]
     }
