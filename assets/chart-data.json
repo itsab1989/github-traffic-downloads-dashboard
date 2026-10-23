@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T06:06:32.830201Z",
+  "generated_at": "2026-10-23T11:51:59.129149Z",
   "estimate_notes": [
     "A download is a file someone fetched, not a person. One person on two computers, or one who downloads the same version twice, counts twice.",
     "People who installed once and never update do not show up at all after their first download, however much they use the app.",
@@ -842,16 +842,16 @@
             {
               "days": 30,
               "all": {
-                "total": 631,
-                "windows": 230,
-                "macos": 254,
+                "total": 635,
+                "windows": 233,
+                "macos": 255,
                 "linux": 31,
                 "homebrew": 116
               },
               "stable": {
-                "total": 373,
-                "windows": 164,
-                "macos": 121,
+                "total": 377,
+                "windows": 167,
+                "macos": 122,
                 "linux": 18,
                 "homebrew": 70
               },
@@ -868,16 +868,16 @@
             {
               "days": 90,
               "all": {
-                "total": 1418,
-                "windows": 574,
-                "macos": 635,
+                "total": 1422,
+                "windows": 577,
+                "macos": 636,
                 "linux": 94,
                 "homebrew": 116
               },
               "stable": {
-                "total": 762,
-                "windows": 367,
-                "macos": 289,
+                "total": 766,
+                "windows": 370,
+                "macos": 290,
                 "linux": 38,
                 "homebrew": 70
               },
@@ -893,9 +893,9 @@
             }
           ],
           "lifetime": {
-            "total": 3572,
-            "windows": 1098,
-            "macos": 2154,
+            "total": 3576,
+            "windows": 1101,
+            "macos": 2155,
             "linux": 204,
             "homebrew": 116,
             "other": 106
@@ -1149,7 +1149,7 @@
               613,
               638,
               644,
-              631
+              635
             ],
             "windows": [
               214,
@@ -1274,7 +1274,7 @@
               226,
               235,
               237,
-              230
+              233
             ],
             "macos": [
               655,
@@ -1399,7 +1399,7 @@
               273,
               275,
               260,
-              254
+              255
             ],
             "linux": [
               22,
@@ -1774,7 +1774,7 @@
               345,
               363,
               378,
-              373
+              377
             ],
             "beta_total": [
               117,
@@ -2544,7 +2544,7 @@
             20,
             26,
             32,
-            2
+            6
           ],
           "windows": [
             3,
@@ -2576,7 +2576,7 @@
             7,
             10,
             9,
-            1
+            4
           ],
           "macos": [
             12,
@@ -2608,7 +2608,7 @@
             3,
             2,
             4,
-            1
+            2
           ],
           "linux": [
             0,
@@ -2984,7 +2984,7 @@
             3512,
             3538,
             3570,
-            3572
+            3576
           ],
           "windows": [
             90,
@@ -3139,7 +3139,7 @@
             1078,
             1088,
             1097,
-            1098
+            1101
           ],
           "macos": [
             479,
@@ -3294,7 +3294,7 @@
             2147,
             2149,
             2153,
-            2154
+            2155
           ],
           "linux": [
             31,
@@ -7273,11 +7273,11 @@
             "tag": "v4.3.9",
             "published": "2026-10-21",
             "age_days": 3,
-            "windows": 10,
-            "macos": 3,
+            "windows": 13,
+            "macos": 4,
             "linux": 0,
             "homebrew": 19,
-            "total": 32,
+            "total": 36,
             "prerelease": false
           },
           {
