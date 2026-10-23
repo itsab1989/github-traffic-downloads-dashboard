@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T01:03:07.875952Z",
+  "generated_at": "2026-10-23T06:06:32.830201Z",
   "estimate_notes": [
     "A download is a file someone fetched, not a person. One person on two computers, or one who downloads the same version twice, counts twice.",
     "People who installed once and never update do not show up at all after their first download, however much they use the app.",
@@ -10365,7 +10365,7 @@
           7,
           7,
           6,
-          6
+          5
         ],
         "views_unique": [
           1,
