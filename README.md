@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-10-26T05:07:54.208227Z
+**Last Updated:** 2026-10-26T11:18:56.737026Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -96,17 +96,17 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads incl. Homebrew](https://img.shields.io/badge/downloads%20incl.%20Homebrew-3641-212121) ![clones](https://img.shields.io/badge/clones-37588-2196F3) ![views](https://img.shields.io/badge/views-9161-4CAF50) ![releases](https://img.shields.io/badge/releases-918-6f42c1) ![latest stable v4.3.15](https://img.shields.io/badge/latest%20stable%20v4.3.15-5-212121 "Downloads of the latest stable release, all platforms incl. Homebrew") ![latest beta v4.3.10-beta.1](https://img.shields.io/badge/latest%20beta%20v4.3.10--beta.1-6-757575 "Downloads of the latest beta release, all platforms incl. Homebrew")
+![downloads incl. Homebrew](https://img.shields.io/badge/downloads%20incl.%20Homebrew-3650-212121) ![clones](https://img.shields.io/badge/clones-37695-2196F3) ![views](https://img.shields.io/badge/views-9199-4CAF50) ![releases](https://img.shields.io/badge/releases-919-6f42c1) ![latest stable v4.3.16](https://img.shields.io/badge/latest%20stable%20v4.3.16-0-212121 "Downloads of the latest stable release, all platforms incl. Homebrew") ![latest beta v4.3.10-beta.1](https://img.shields.io/badge/latest%20beta%20v4.3.10--beta.1-6-757575 "Downloads of the latest beta release, all platforms incl. Homebrew")
 
-*Tracking since **2026-05-02** (176 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~176 days have been tracked so far.*
+*Tracking since **2026-05-02** (177 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~177 days have been tracked so far.*
 
 **This week vs last week:**
 
 | Metric | This week | Last week | Change |
 |--------|-----------|-----------|--------|
-| Clones | 4808 | 381 | ▲ +1161.9% |
-| Views | 182 | 435 | ▼ -58.2% |
-| Downloads | 149 | 224 | ▼ -33.5% |
+| Clones | 4915 | 381 | ▲ +1190.0% |
+| Views | 220 | 435 | ▼ -49.4% |
+| Downloads | 158 | 224 | ▼ -29.5% |
 
 ### 🗅️ Clones
 
@@ -114,9 +114,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 8898 | 989 |
-| Last 90 Days | 19591 | 5800 |
-| Lifetime | 37588 | 9747 |
+| Last 30 Days | 9005 | 1005 |
+| Last 90 Days | 19698 | 5816 |
+| Lifetime | 37695 | 9763 |
 
 ### 📄 Repeat vs New Clones
 
@@ -126,9 +126,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
 |--------|--------------|----------------|----------------|----------|
-| Last 30 Days | 8898 | 989 | 7909 | 88.9% |
-| Last 90 Days | 19591 | 5800 | 13791 | 70.4% |
-| Lifetime | 37588 | 9747 | 27841 | 74.1% |
+| Last 30 Days | 9005 | 1005 | 8000 | 88.8% |
+| Last 90 Days | 19698 | 5816 | 13882 | 70.5% |
+| Lifetime | 37695 | 9763 | 27932 | 74.1% |
 
 ### 👀 Views
 
@@ -136,9 +136,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 1708 | 439 |
-| Last 90 Days | 5085 | 1299 |
-| Lifetime | 9161 | 2290 |
+| Last 30 Days | 1746 | 454 |
+| Last 90 Days | 5123 | 1314 |
+| Lifetime | 9199 | 2305 |
 
 ### 🎯 Engagement Ratios
 
@@ -146,9 +146,9 @@ Quick navigation to repository statistics:
 
 | Action | Count | Ratio to unique visitors |
 |--------|-------|--------------------------|
-| 👀 Unique visitors | 439 | — |
-| 🗅️ Unique cloners | 989 | 225.3% |
-| 📥 Downloads | 669 | 152.4% |
+| 👀 Unique visitors | 454 | — |
+| 🗅️ Unique cloners | 1005 | 221.4% |
+| 📥 Downloads | 678 | 149.3% |
 
 ### 📞 Referrers
 
@@ -158,13 +158,13 @@ Quick navigation to repository statistics:
 
 | Referrer | Total Views | Unique Visitors |
 |----------|-------------|----------------|
-| Google | 37 | 26 |
-| search.brave.com | 26 | 9 |
+| Google | 40 | 27 |
+| search.brave.com | 25 | 7 |
+| yandex.ru | 18 | 7 |
 | away.vk.ru | 17 | 3 |
-| yandex.ru | 16 | 6 |
-| github.com | 15 | 9 |
 | printerknowledge.com | 13 | 7 |
-| itsab1989.github.io | 12 | 8 |
+| github.com | 11 | 6 |
+| itsab1989.github.io | 10 | 7 |
 | dpreview.com | 8 | 6 |
 | Bing | 1 | 1 |
 
@@ -176,9 +176,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Views | Unique Visitors | Repeat Visitors | Repeat % |
 |--------|-------------|-----------------|-----------------|----------|
-| Last 30 Days | 1708 | 439 | 1269 | 74.3% |
-| Last 90 Days | 5085 | 1299 | 3786 | 74.5% |
-| Lifetime | 9161 | 2290 | 6871 | 75.0% |
+| Last 30 Days | 1746 | 454 | 1292 | 74.0% |
+| Last 90 Days | 5123 | 1314 | 3809 | 74.4% |
+| Lifetime | 9199 | 2305 | 6894 | 74.9% |
 
 ### 📥 Release Downloads
 
@@ -188,11 +188,11 @@ Quick navigation to repository statistics:
 
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
-| 🪟 Windows | 251 | 587 | 1127 |
-| 🍎 macOS | 244 | 621 | 2167 |
-| 🐧 Linux | 32 | 93 | 205 |
+| 🪟 Windows | 256 | 592 | 1132 |
+| 🍎 macOS | 247 | 624 | 2170 |
+| 🐧 Linux | 33 | 94 | 206 |
 | 🍺 Homebrew | 142 | 142 | 142 |
-| **All downloads (incl. Homebrew)** | **669** | **1442** | **3641** |
+| **All downloads (incl. Homebrew)** | **678** | **1451** | **3650** |
 
 *ℹ️ Not counted above: 106 lifetime downloads of other release files (demo projects, screenshots, checksums), which are not the app.*
 
@@ -200,11 +200,11 @@ Quick navigation to repository statistics:
 
 | Window | Channel | All downloads (incl. Homebrew) | 🪟 Windows | 🍎 macOS | 🐧 Linux | 🍺 Homebrew |
 |--------|---------|--------------------------------|---------|-------|-------|----------|
-| 30 days | all | **669** | 251 | 244 | 32 | 142 |
-| 30 days | stable | **429** | 189 | 125 | 19 | 96 |
+| 30 days | all | **678** | 256 | 247 | 33 | 142 |
+| 30 days | stable | **438** | 194 | 128 | 20 | 96 |
 | 30 days | beta | **285** | 73 | 153 | 13 | 46 |
-| 90 days | all | **1442** | 587 | 621 | 93 | 142 |
-| 90 days | stable | **823** | 391 | 299 | 39 | 96 |
+| 90 days | all | **1451** | 592 | 624 | 94 | 142 |
+| 90 days | stable | **832** | 396 | 302 | 40 | 96 |
 | 90 days | beta | **664** | 208 | 357 | 54 | 46 |
 
 *Per-day downloads are the difference between two daily readings of GitHub's lifetime counters, available from **2026-05-25** on; the stable/beta split from **2026-05-25**. What these numbers can and cannot tell:*
@@ -216,15 +216,16 @@ Quick navigation to repository statistics:
 - *Homebrew counts installs and upgrades made with brew (each fetches its own copy of the Mac file). They are not counted again under macOS, and the "All downloads (incl. Homebrew)" figures include them. For ChromIQ the copies start with 4.3.3-beta.17: brew installs of earlier versions fetched the normal file and count under macOS.*
 - *Clones of the source code are not downloads and are not counted here.*
 
-🆕 **Latest Release:** `v4.3.15` - **5** downloads (published 2026-10-25)
+🆕 **Latest Release:** `v4.3.16` - **0** downloads (published 2026-10-26)
 
 <details>
-<summary><strong>📦 Per-version downloads</strong> (918 releases - click to expand)</summary>
+<summary><strong>📦 Per-version downloads</strong> (919 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | 🍺 Homebrew | Total |
 |---------|-----------|----------|----------|----------|-------|
-| v4.3.15 | 1 | 1 | 0 | 3 | **5** |
-| v4.3.14 | 2 | 1 | 0 | 5 | **8** |
+| v4.3.16 | 0 | 0 | 0 | 0 | **0** |
+| v4.3.15 | 5 | 4 | 1 | 3 | **13** |
+| v4.3.14 | 3 | 1 | 0 | 5 | **9** |
 | v4.3.13 | 7 | 5 | 0 | 4 | **16** |
 | v4.3.12 | 6 | 0 | 0 | 5 | **11** |
 | v4.3.11 | 2 | 2 | 0 | 4 | **8** |
@@ -1150,9 +1151,9 @@ Quick navigation to repository statistics:
 
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
-| 🪟 Windows | 128 | 999 | 0 | **1127** |
-| 🍎 macOS | 1401 | 400 | 366 | **2167** |
-| 🐧 Linux | 85 | 120 | 0 | **205** |
+| 🪟 Windows | 129 | 1003 | 0 | **1132** |
+| 🍎 macOS | 1402 | 402 | 366 | **2170** |
+| 🐧 Linux | 85 | 121 | 0 | **206** |
 | 🍺 Homebrew | 103 | 39 | 0 | **142** |
 
 *💡 Low-volume builds (<2% of lifetime downloads), candidates to stop shipping: 🍺 Homebrew x86_64 (39, 1.1%).*
@@ -1178,8 +1179,9 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | 🍺 | All downloads (incl. Homebrew) |
 |---------|-----------|-----|----|----|----|----|------------------------------|
-| v4.3.15 | 2026-10-25 | 2d | 1 | 1 | 0 | 3 | **5** |
-| v4.3.14 | 2026-10-25 | 2d | 2 | 1 | 0 | 5 | **8** |
+| v4.3.16 | 2026-10-26 | 1d | 0 | 0 | 0 | 0 | **0** |
+| v4.3.15 | 2026-10-25 | 2d | 5 | 4 | 1 | 3 | **13** |
+| v4.3.14 | 2026-10-25 | 2d | 3 | 1 | 0 | 5 | **9** |
 | v4.3.13 | 2026-10-24 | 3d | 7 | 5 | 0 | 4 | **16** |
 | v4.3.12 | 2026-10-24 | 3d | 6 | 0 | 0 | 5 | **11** |
 | v4.3.11 | 2026-10-24 | 3d | 2 | 2 | 0 | 4 | **8** |
@@ -1617,15 +1619,15 @@ Quick navigation to repository statistics:
 
 # github-traffic-downloads-dashboard
 
-![downloads](https://img.shields.io/badge/downloads-0-212121) ![clones](https://img.shields.io/badge/clones-8631-2196F3) ![views](https://img.shields.io/badge/views-32-4CAF50) ![releases](https://img.shields.io/badge/releases-0-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-0-212121) ![clones](https://img.shields.io/badge/clones-8663-2196F3) ![views](https://img.shields.io/badge/views-32-4CAF50) ![releases](https://img.shields.io/badge/releases-0-6f42c1)
 
-*Tracking since **2026-07-30** (87 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~87 days have been tracked so far.*
+*Tracking since **2026-07-30** (88 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~88 days have been tracked so far.*
 
 **This week vs last week:**
 
 | Metric | This week | Last week | Change |
 |--------|-----------|-----------|--------|
-| Clones | 291 | 367 | ▼ -20.7% |
+| Clones | 323 | 367 | ▼ -12.0% |
 | Views | 0 | 0 | — |
 | Downloads | 0 | 0 | — |
 
@@ -1635,9 +1637,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 1227 | 498 |
-| Last 90 Days | 8631 | 4961 |
-| Lifetime | 8631 | 4961 |
+| Last 30 Days | 1259 | 507 |
+| Last 90 Days | 8663 | 4970 |
+| Lifetime | 8663 | 4970 |
 
 ### 📄 Repeat vs New Clones
 
@@ -1647,9 +1649,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
 |--------|--------------|----------------|----------------|----------|
-| Last 30 Days | 1227 | 498 | 729 | 59.4% |
-| Last 90 Days | 8631 | 4961 | 3670 | 42.5% |
-| Lifetime | 8631 | 4961 | 3670 | 42.5% |
+| Last 30 Days | 1259 | 507 | 752 | 59.7% |
+| Last 90 Days | 8663 | 4970 | 3693 | 42.6% |
+| Lifetime | 8663 | 4970 | 3693 | 42.6% |
 
 ### 👀 Views
 
@@ -1668,7 +1670,7 @@ Quick navigation to repository statistics:
 | Action | Count | Ratio to unique visitors |
 |--------|-------|--------------------------|
 | 👀 Unique visitors | 6 | — |
-| 🗅️ Unique cloners | 498 | 8300.0% |
+| 🗅️ Unique cloners | 507 | 8450.0% |
 | 📥 Downloads | 0 | 0.0% |
 
 ### 📞 Referrers
@@ -1736,17 +1738,17 @@ Quick navigation to repository statistics:
 
 > ℹ️ This is ChromIQ's Homebrew tap: it has no downloads of its own. Homebrew clones it when someone installs ChromIQ with brew and fetches it again on updates, so the number of different cloners in the last 14 days is a rough indicator of how many machines use the Homebrew install. It is not a download count, and machines that have not run brew lately do not show. ChromIQ's release workflow also clones it once per release. The Homebrew downloads themselves are counted under ChromIQ (Homebrew).
 
-**Different cloners in the last 14 days:** 160 (as of 2026-10-26; GitHub's own 14-day count, recorded daily from 2026-10-09 on)
+**Different cloners in the last 14 days:** 158 (as of 2026-10-26; GitHub's own 14-day count, recorded daily from 2026-10-09 on)
 
-![downloads](https://img.shields.io/badge/downloads-0-212121) ![clones](https://img.shields.io/badge/clones-401-2196F3) ![views](https://img.shields.io/badge/views-0-4CAF50) ![releases](https://img.shields.io/badge/releases-0-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-0-212121) ![clones](https://img.shields.io/badge/clones-452-2196F3) ![views](https://img.shields.io/badge/views-0-4CAF50) ![releases](https://img.shields.io/badge/releases-0-6f42c1)
 
-*Tracking since **2026-10-09** (16 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~16 days have been tracked so far.*
+*Tracking since **2026-10-09** (17 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~17 days have been tracked so far.*
 
 **This week vs last week:**
 
 | Metric | This week | Last week | Change |
 |--------|-----------|-----------|--------|
-| Clones | 140 | 165 | ▼ -15.2% |
+| Clones | 191 | 165 | ▲ +15.8% |
 | Views | 0 | 0 | — |
 | Downloads | 0 | 0 | — |
 
@@ -1756,9 +1758,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 401 | 225 |
-| Last 90 Days | 401 | 225 |
-| Lifetime | 401 | 225 |
+| Last 30 Days | 452 | 249 |
+| Last 90 Days | 452 | 249 |
+| Lifetime | 452 | 249 |
 
 ### 📄 Repeat vs New Clones
 
@@ -1768,9 +1770,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
 |--------|--------------|----------------|----------------|----------|
-| Last 30 Days | 401 | 225 | 176 | 43.9% |
-| Last 90 Days | 401 | 225 | 176 | 43.9% |
-| Lifetime | 401 | 225 | 176 | 43.9% |
+| Last 30 Days | 452 | 249 | 203 | 44.9% |
+| Last 90 Days | 452 | 249 | 203 | 44.9% |
+| Lifetime | 452 | 249 | 203 | 44.9% |
 
 ### 👀 Views
 
@@ -1789,7 +1791,7 @@ Quick navigation to repository statistics:
 | Action | Count | Ratio to unique visitors |
 |--------|-------|--------------------------|
 | 👀 Unique visitors | 0 | — |
-| 🗅️ Unique cloners | 225 | — |
+| 🗅️ Unique cloners | 249 | — |
 | 📥 Downloads | 0 | — |
 
 ### 📞 Referrers
@@ -1855,15 +1857,15 @@ Quick navigation to repository statistics:
 
 # MacReplica
 
-![downloads](https://img.shields.io/badge/downloads-42-212121) ![clones](https://img.shields.io/badge/clones-1915-2196F3) ![views](https://img.shields.io/badge/views-105-4CAF50) ![releases](https://img.shields.io/badge/releases-20-6f42c1) ![latest stable v1.1.11](https://img.shields.io/badge/latest%20stable%20v1.1.11-3-212121 "Downloads of the latest stable release, all platforms incl. Homebrew")
+![downloads](https://img.shields.io/badge/downloads-42-212121) ![clones](https://img.shields.io/badge/clones-1916-2196F3) ![views](https://img.shields.io/badge/views-105-4CAF50) ![releases](https://img.shields.io/badge/releases-20-6f42c1) ![latest stable v1.1.11](https://img.shields.io/badge/latest%20stable%20v1.1.11-3-212121 "Downloads of the latest stable release, all platforms incl. Homebrew")
 
-*Tracking since **2026-10-02** (23 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~23 days have been tracked so far.*
+*Tracking since **2026-10-02** (24 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~24 days have been tracked so far.*
 
 **This week vs last week:**
 
 | Metric | This week | Last week | Change |
 |--------|-----------|-----------|--------|
-| Clones | 292 | 1023 | ▼ -71.5% |
+| Clones | 293 | 1023 | ▼ -71.4% |
 | Views | 13 | 56 | ▼ -76.8% |
 | Downloads | 5 | 23 | ▼ -78.3% |
 
@@ -1873,9 +1875,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 1915 | 658 |
-| Last 90 Days | 1915 | 658 |
-| Lifetime | 1915 | 658 |
+| Last 30 Days | 1916 | 659 |
+| Last 90 Days | 1916 | 659 |
+| Lifetime | 1916 | 659 |
 
 ### 📄 Repeat vs New Clones
 
@@ -1885,9 +1887,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
 |--------|--------------|----------------|----------------|----------|
-| Last 30 Days | 1915 | 658 | 1257 | 65.6% |
-| Last 90 Days | 1915 | 658 | 1257 | 65.6% |
-| Lifetime | 1915 | 658 | 1257 | 65.6% |
+| Last 30 Days | 1916 | 659 | 1257 | 65.6% |
+| Last 90 Days | 1916 | 659 | 1257 | 65.6% |
+| Lifetime | 1916 | 659 | 1257 | 65.6% |
 
 ### 👀 Views
 
@@ -1906,7 +1908,7 @@ Quick navigation to repository statistics:
 | Action | Count | Ratio to unique visitors |
 |--------|-------|--------------------------|
 | 👀 Unique visitors | 31 | — |
-| 🗅️ Unique cloners | 658 | 2122.6% |
+| 🗅️ Unique cloners | 659 | 2125.8% |
 | 📥 Downloads | 28 | 90.3% |
 
 ### 📞 Referrers
