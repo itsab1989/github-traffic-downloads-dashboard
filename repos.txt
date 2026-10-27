@@ -19,3 +19,7 @@ itsab1989/github-traffic-downloads-dashboard
 itsab1989/homebrew-chromiq
 
 itsab1989/MacReplica
+
+# Neolume: unofficial client for Plex Media Server on 2014 Samsung Orsay TVs.
+# Release assets (setup helper per OS + .pyz) are counted as downloads.
+itsab1989/neolume
