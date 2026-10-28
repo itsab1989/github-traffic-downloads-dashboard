@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-10-28T13:15:59.066485Z
+**Last Updated:** 2026-10-28T18:56:57.961215Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -2058,7 +2058,7 @@ Quick navigation to repository statistics:
 
 # neolume
 
-![downloads](https://img.shields.io/badge/downloads-0-212121) ![clones](https://img.shields.io/badge/clones-177-2196F3) ![views](https://img.shields.io/badge/views-0-4CAF50) ![releases](https://img.shields.io/badge/releases-5-6f42c1) ![latest stable v1.0.4](https://img.shields.io/badge/latest%20stable%20v1.0.4-0-212121 "Downloads of the latest stable release, all platforms incl. Homebrew")
+![downloads](https://img.shields.io/badge/downloads-0-212121) ![clones](https://img.shields.io/badge/clones-177-2196F3) ![views](https://img.shields.io/badge/views-0-4CAF50) ![releases](https://img.shields.io/badge/releases-6-6f42c1) ![latest stable v1.0.5](https://img.shields.io/badge/latest%20stable%20v1.0.5-0-212121 "Downloads of the latest stable release, all platforms incl. Homebrew")
 
 *Tracking since **2026-10-27** (1 active day). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~1 days have been tracked so far.*
 
@@ -2165,13 +2165,14 @@ Quick navigation to repository statistics:
 - *Homebrew counts installs and upgrades made with brew (each fetches its own copy of the Mac file). They are not counted again under macOS, and the "All downloads (incl. Homebrew)" figures include them. For ChromIQ the copies start with 4.3.3-beta.17: brew installs of earlier versions fetched the normal file and count under macOS.*
 - *Clones of the source code are not downloads and are not counted here.*
 
-🆕 **Latest Release:** `v1.0.4` - **0** downloads (published 2026-10-27)
+🆕 **Latest Release:** `v1.0.5` - **0** downloads (published 2026-10-28)
 
 <details>
-<summary><strong>📦 Per-version downloads</strong> (5 releases - click to expand)</summary>
+<summary><strong>📦 Per-version downloads</strong> (6 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | 🍺 Homebrew | Total |
 |---------|-----------|----------|----------|----------|-------|
+| v1.0.5 | 0 | 0 | 0 | 0 | **0** |
 | v1.0.4 | 0 | 0 | 0 | 0 | **0** |
 | v1.0.3 | 0 | 0 | 0 | 0 | **0** |
 | v1.0.2 | 0 | 0 | 0 | 0 | **0** |
@@ -2196,6 +2197,7 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | 🍺 | All downloads (incl. Homebrew) |
 |---------|-----------|-----|----|----|----|----|------------------------------|
+| v1.0.5 | 2026-10-28 | 1d | 0 | 0 | 0 | 0 | **0** |
 | v1.0.4 | 2026-10-27 | 2d | 0 | 0 | 0 | 0 | **0** |
 | v1.0.3 | 2026-10-27 | 2d | 0 | 0 | 0 | 0 | **0** |
 | v1.0.2 | 2026-10-27 | 2d | 0 | 0 | 0 | 0 | **0** |
