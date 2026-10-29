@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-10-29T19:55:27.088491Z
+**Last Updated:** 2026-10-29T23:40:04.648596Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -97,7 +97,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads incl. Homebrew](https://img.shields.io/badge/downloads%20incl.%20Homebrew-5154-212121) ![clones](https://img.shields.io/badge/clones-37829-2196F3) ![views](https://img.shields.io/badge/views-9371-4CAF50) ![releases](https://img.shields.io/badge/releases-923-6f42c1) ![latest stable v4.3.20](https://img.shields.io/badge/latest%20stable%20v4.3.20-45-212121 "Downloads of the latest stable release, all platforms incl. Homebrew") ![latest beta v4.3.10-beta.1](https://img.shields.io/badge/latest%20beta%20v4.3.10--beta.1-13-757575 "Downloads of the latest beta release, all platforms incl. Homebrew")
+![downloads incl. Homebrew](https://img.shields.io/badge/downloads%20incl.%20Homebrew-5575-212121) ![clones](https://img.shields.io/badge/clones-37829-2196F3) ![views](https://img.shields.io/badge/views-9371-4CAF50) ![releases](https://img.shields.io/badge/releases-923-6f42c1) ![latest stable v4.3.20](https://img.shields.io/badge/latest%20stable%20v4.3.20-45-212121 "Downloads of the latest stable release, all platforms incl. Homebrew") ![latest beta v4.3.10-beta.1](https://img.shields.io/badge/latest%20beta%20v4.3.10--beta.1-13-757575 "Downloads of the latest beta release, all platforms incl. Homebrew")
 
 *Tracking since **2026-05-02** (180 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~180 days have been tracked so far.*
 
@@ -107,7 +107,7 @@ Quick navigation to repository statistics:
 |--------|-----------|-----------|--------|
 | Clones | 391 | 4766 | ▼ -91.8% |
 | Views | 319 | 322 | ▼ -0.9% |
-| Downloads | 1584 | 197 | ▲ +704.1% |
+| Downloads | 2005 | 197 | ▲ +917.8% |
 
 ### 🗅️ Clones
 
@@ -149,7 +149,7 @@ Quick navigation to repository statistics:
 |--------|-------|--------------------------|
 | 👀 Unique visitors | 476 | — |
 | 🗅️ Unique cloners | 817 | 171.6% |
-| 📥 Downloads | 2119 | 445.2% |
+| 📥 Downloads | 2540 | 533.6% |
 
 ### 📞 Referrers
 
@@ -190,24 +190,24 @@ Quick navigation to repository statistics:
 
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
-| 🪟 Windows | 712 | 1048 | 1607 |
-| 🍎 macOS | 786 | 1181 | 2751 |
-| 🐧 Linux | 428 | 491 | 603 |
+| 🪟 Windows | 833 | 1169 | 1728 |
+| 🍎 macOS | 967 | 1362 | 2932 |
+| 🐧 Linux | 547 | 610 | 722 |
 | 🍺 Homebrew | 193 | 193 | 193 |
-| **All downloads (incl. Homebrew)** | **2119** | **2912** | **5154** |
+| **All downloads (incl. Homebrew)** | **2540** | **3333** | **5575** |
 
-*ℹ️ Not counted above: 156 lifetime downloads of other release files (demo projects, screenshots, checksums), which are not the app.*
+*ℹ️ Not counted above: 161 lifetime downloads of other release files (demo projects, screenshots, checksums), which are not the app.*
 
 **Downloads in the last 30 and 90 days, all releases (for a user estimate):**
 
 | Window | Channel | All downloads (incl. Homebrew) | 🪟 Windows | 🍎 macOS | 🐧 Linux | 🍺 Homebrew |
 |--------|---------|--------------------------------|---------|-------|-------|----------|
-| 30 days | all | **2119** | 712 | 786 | 428 | 193 |
+| 30 days | all | **2540** | 833 | 967 | 547 | 193 |
 | 30 days | stable | **843** | 350 | 239 | 112 | 142 |
-| 30 days | beta | **1321** | 373 | 581 | 316 | 51 |
-| 90 days | all | **2912** | 1048 | 1181 | 491 | 193 |
+| 30 days | beta | **1742** | 494 | 762 | 435 | 51 |
+| 90 days | all | **3333** | 1169 | 1362 | 610 | 193 |
 | 90 days | stable | **1274** | 564 | 436 | 134 | 142 |
-| 90 days | beta | **1683** | 496 | 780 | 357 | 51 |
+| 90 days | beta | **2104** | 617 | 961 | 476 | 51 |
 
 *Per-day downloads are the difference between two daily readings of GitHub's lifetime counters, available from **2026-05-25** on; the stable/beta split from **2026-05-25**. What these numbers can and cannot tell:*
 
@@ -397,73 +397,73 @@ Quick navigation to repository statistics:
 | v4.0.0-beta.5 *(beta)* | 2 | 5 | 1 | 0 | **8** |
 | v4.0.0-beta.4 *(beta)* | 2 | 4 | 1 | 0 | **7** |
 | v4.0.0-beta.3 *(beta)* | 3 | 3 | 1 | 0 | **7** |
-| v4.0.0-beta.2 *(beta)* | 0 | 1 | 2 | 0 | **3** |
-| v4.0.0-beta.1 *(beta)* | 2 | 2 | 0 | 0 | **4** |
-| v3.14.8-beta.222 *(beta)* | 1 | 0 | 0 | 0 | **1** |
-| v3.14.8-beta.221 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.220 *(beta)* | 1 | 0 | 0 | 0 | **1** |
-| v3.14.8-beta.219 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.218 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.217 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.216 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.215 *(beta)* | 1 | 0 | 0 | 0 | **1** |
-| v3.14.8-beta.214 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.213 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.212 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.211 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.210 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.207 *(beta)* | 3 | 0 | 0 | 0 | **3** |
-| v3.14.8-beta.206 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.205 *(beta)* | 1 | 0 | 0 | 0 | **1** |
-| v3.14.8-beta.204 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.203 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.202 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.201 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.200 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.199 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.198 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.197 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.196 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.195 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.194 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.193 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.192 *(beta)* | 1 | 3 | 2 | 0 | **6** |
-| v3.14.8-beta.191 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.190 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.189 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.188 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.187 *(beta)* | 1 | 0 | 0 | 0 | **1** |
-| v3.14.8-beta.186 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.185 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.14.8-beta.184 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.183 *(beta)* | 2 | 3 | 2 | 0 | **7** |
-| v3.14.8-beta.182 *(beta)* | 2 | 3 | 2 | 0 | **7** |
-| v3.14.8-beta.181 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.14.8-beta.180 *(beta)* | 1 | 0 | 0 | 0 | **1** |
-| v3.14.8-beta.179 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.14.8-beta.178 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.177 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.176 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.175 *(beta)* | 2 | 3 | 2 | 0 | **7** |
-| v3.14.8-beta.174 *(beta)* | 2 | 3 | 2 | 0 | **7** |
-| v3.14.8-beta.173 *(beta)* | 2 | 3 | 2 | 0 | **7** |
-| v3.14.8-beta.172 *(beta)* | 2 | 3 | 2 | 0 | **7** |
-| v3.14.8-beta.171 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.170 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.14.8-beta.165 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.14.8-beta.162 *(beta)* | 1 | 0 | 0 | 0 | **1** |
-| v3.14.8-beta.160 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.159 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.14.8-beta.158 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.157 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.14.8-beta.156 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.155 *(beta)* | 2 | 4 | 2 | 0 | **8** |
-| v3.14.8-beta.154 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.153 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.152 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.151 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.150 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.14.8-beta.149 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v4.0.0-beta.2 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v4.0.0-beta.1 *(beta)* | 4 | 5 | 2 | 0 | **11** |
+| v3.14.8-beta.222 *(beta)* | 3 | 3 | 2 | 0 | **8** |
+| v3.14.8-beta.221 *(beta)* | 2 | 2 | 2 | 0 | **6** |
+| v3.14.8-beta.220 *(beta)* | 3 | 3 | 2 | 0 | **8** |
+| v3.14.8-beta.219 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.218 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.217 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.216 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.215 *(beta)* | 3 | 2 | 2 | 0 | **7** |
+| v3.14.8-beta.214 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.213 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.212 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.211 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.210 *(beta)* | 2 | 2 | 2 | 0 | **6** |
+| v3.14.8-beta.207 *(beta)* | 5 | 3 | 2 | 0 | **10** |
+| v3.14.8-beta.206 *(beta)* | 2 | 3 | 1 | 0 | **6** |
+| v3.14.8-beta.205 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.204 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.203 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.202 *(beta)* | 2 | 3 | 1 | 0 | **6** |
+| v3.14.8-beta.201 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.200 *(beta)* | 1 | 2 | 2 | 0 | **5** |
+| v3.14.8-beta.199 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.198 *(beta)* | 2 | 2 | 2 | 0 | **6** |
+| v3.14.8-beta.197 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.196 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.195 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.194 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.193 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.192 *(beta)* | 3 | 6 | 4 | 0 | **13** |
+| v3.14.8-beta.191 *(beta)* | 1 | 3 | 2 | 0 | **6** |
+| v3.14.8-beta.190 *(beta)* | 1 | 3 | 2 | 0 | **6** |
+| v3.14.8-beta.189 *(beta)* | 2 | 3 | 1 | 0 | **6** |
+| v3.14.8-beta.188 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.187 *(beta)* | 3 | 3 | 2 | 0 | **8** |
+| v3.14.8-beta.186 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.185 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.14.8-beta.184 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.183 *(beta)* | 4 | 6 | 4 | 0 | **14** |
+| v3.14.8-beta.182 *(beta)* | 4 | 6 | 4 | 0 | **14** |
+| v3.14.8-beta.181 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.14.8-beta.180 *(beta)* | 2 | 2 | 2 | 0 | **6** |
+| v3.14.8-beta.179 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.14.8-beta.178 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.177 *(beta)* | 1 | 2 | 1 | 0 | **4** |
+| v3.14.8-beta.176 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.175 *(beta)* | 4 | 6 | 4 | 0 | **14** |
+| v3.14.8-beta.174 *(beta)* | 3 | 5 | 4 | 0 | **12** |
+| v3.14.8-beta.173 *(beta)* | 4 | 6 | 4 | 0 | **14** |
+| v3.14.8-beta.172 *(beta)* | 4 | 6 | 4 | 0 | **14** |
+| v3.14.8-beta.171 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.170 *(beta)* | 0 | 2 | 0 | 0 | **2** |
+| v3.14.8-beta.165 *(beta)* | 0 | 2 | 0 | 0 | **2** |
+| v3.14.8-beta.162 *(beta)* | 3 | 2 | 1 | 0 | **6** |
+| v3.14.8-beta.160 *(beta)* | 2 | 3 | 1 | 0 | **6** |
+| v3.14.8-beta.159 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.158 *(beta)* | 2 | 1 | 0 | 0 | **3** |
+| v3.14.8-beta.157 *(beta)* | 1 | 2 | 1 | 0 | **4** |
+| v3.14.8-beta.156 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.155 *(beta)* | 4 | 7 | 4 | 0 | **15** |
+| v3.14.8-beta.154 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.153 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.152 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.151 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.150 *(beta)* | 1 | 4 | 2 | 0 | **7** |
+| v3.14.8-beta.149 *(beta)* | 4 | 4 | 4 | 0 | **12** |
 | v3.14.8-beta.148 *(beta)* | 1 | 1 | 0 | 0 | **2** |
 | v3.14.8-beta.147 *(beta)* | 0 | 1 | 0 | 0 | **1** |
 | v3.14.8-beta.146 *(beta)* | 0 | 0 | 0 | 0 | **0** |
@@ -1157,12 +1157,12 @@ Quick navigation to repository statistics:
 
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
-| 🪟 Windows | 321 | 1286 | 0 | **1607** |
-| 🍎 macOS | 1594 | 594 | 563 | **2751** |
-| 🐧 Linux | 278 | 325 | 0 | **603** |
+| 🪟 Windows | 383 | 1345 | 0 | **1728** |
+| 🍎 macOS | 1657 | 651 | 624 | **2932** |
+| 🐧 Linux | 338 | 384 | 0 | **722** |
 | 🍺 Homebrew | 136 | 57 | 0 | **193** |
 
-*💡 Low-volume builds (<2% of lifetime downloads), candidates to stop shipping: 🍺 Homebrew x86_64 (57, 1.1%).*
+*💡 Low-volume builds (<2% of lifetime downloads), candidates to stop shipping: 🍺 Homebrew x86_64 (57, 1.0%).*
 
 **Top 10 Releases by Downloads (lifetime):**
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T19:55:27.088491Z",
+  "generated_at": "2026-10-29T23:40:04.648596Z",
   "estimate_notes": [
     "A download is a file someone fetched, not a person. One person on two computers, or one who downloads the same version twice, counts twice.",
     "People who installed once and never update do not show up at all after their first download, however much they use the app.",
@@ -878,10 +878,10 @@
             {
               "days": 30,
               "all": {
-                "total": 2119,
-                "windows": 712,
-                "macos": 786,
-                "linux": 428,
+                "total": 2540,
+                "windows": 833,
+                "macos": 967,
+                "linux": 547,
                 "homebrew": 193
               },
               "stable": {
@@ -892,10 +892,10 @@
                 "homebrew": 142
               },
               "beta": {
-                "total": 1321,
-                "windows": 373,
-                "macos": 581,
-                "linux": 316,
+                "total": 1742,
+                "windows": 494,
+                "macos": 762,
+                "linux": 435,
                 "homebrew": 51
               },
               "covered_days": 30,
@@ -904,10 +904,10 @@
             {
               "days": 90,
               "all": {
-                "total": 2912,
-                "windows": 1048,
-                "macos": 1181,
-                "linux": 491,
+                "total": 3333,
+                "windows": 1169,
+                "macos": 1362,
+                "linux": 610,
                 "homebrew": 193
               },
               "stable": {
@@ -918,10 +918,10 @@
                 "homebrew": 142
               },
               "beta": {
-                "total": 1683,
-                "windows": 496,
-                "macos": 780,
-                "linux": 357,
+                "total": 2104,
+                "windows": 617,
+                "macos": 961,
+                "linux": 476,
                 "homebrew": 51
               },
               "covered_days": 90,
@@ -929,12 +929,12 @@
             }
           ],
           "lifetime": {
-            "total": 5154,
-            "windows": 1607,
-            "macos": 2751,
-            "linux": 603,
+            "total": 5575,
+            "windows": 1728,
+            "macos": 2932,
+            "linux": 722,
             "homebrew": 193,
-            "other": 156
+            "other": 161
           },
           "rolling_series": {
             "dates": [
@@ -1197,7 +1197,7 @@
               692,
               700,
               716,
-              2119
+              2540
             ],
             "windows": [
               214,
@@ -1328,7 +1328,7 @@
               261,
               270,
               281,
-              712
+              833
             ],
             "macos": [
               655,
@@ -1459,7 +1459,7 @@
               250,
               244,
               236,
-              786
+              967
             ],
             "linux": [
               22,
@@ -1590,7 +1590,7 @@
               33,
               34,
               36,
-              428
+              547
             ],
             "homebrew": [
               0,
@@ -1983,7 +1983,7 @@
               285,
               273,
               266,
-              1321
+              1742
             ]
           },
           "curves": {
@@ -2654,7 +2654,7 @@
             28,
             26,
             34,
-            1430
+            1851
           ],
           "windows": [
             4,
@@ -2686,7 +2686,7 @@
             11,
             12,
             16,
-            442
+            563
           ],
           "macos": [
             2,
@@ -2718,7 +2718,7 @@
             7,
             9,
             5,
-            564
+            745
           ],
           "linux": [
             0,
@@ -2750,7 +2750,7 @@
             1,
             1,
             2,
-            394
+            513
           ],
           "homebrew": [
             0,
@@ -3106,7 +3106,7 @@
             3664,
             3690,
             3724,
-            5154
+            5575
           ],
           "windows": [
             90,
@@ -3267,7 +3267,7 @@
             1137,
             1149,
             1165,
-            1607
+            1728
           ],
           "macos": [
             479,
@@ -3428,7 +3428,7 @@
             2173,
             2182,
             2187,
-            2751
+            2932
           ],
           "linux": [
             31,
@@ -3589,7 +3589,7 @@
             206,
             207,
             209,
-            603
+            722
           ],
           "homebrew": [
             0,
