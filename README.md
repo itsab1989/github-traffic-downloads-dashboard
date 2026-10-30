@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-10-30T10:15:46.164466Z
+**Last Updated:** 2026-10-30T16:44:37.118728Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -97,7 +97,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads incl. Homebrew](https://img.shields.io/badge/downloads%20incl.%20Homebrew-7061-212121) ![clones](https://img.shields.io/badge/clones-37839-2196F3) ![views](https://img.shields.io/badge/views-9470-4CAF50) ![releases](https://img.shields.io/badge/releases-923-6f42c1) ![latest stable v4.3.20](https://img.shields.io/badge/latest%20stable%20v4.3.20-49-212121 "Downloads of the latest stable release, all platforms incl. Homebrew") ![latest beta v4.3.10-beta.1](https://img.shields.io/badge/latest%20beta%20v4.3.10--beta.1-13-757575 "Downloads of the latest beta release, all platforms incl. Homebrew")
+![downloads incl. Homebrew](https://img.shields.io/badge/downloads%20incl.%20Homebrew-7892-212121) ![clones](https://img.shields.io/badge/clones-37839-2196F3) ![views](https://img.shields.io/badge/views-9470-4CAF50) ![releases](https://img.shields.io/badge/releases-923-6f42c1) ![latest stable v4.3.20](https://img.shields.io/badge/latest%20stable%20v4.3.20-55-212121 "Downloads of the latest stable release, all platforms incl. Homebrew") ![latest beta v4.3.10-beta.1](https://img.shields.io/badge/latest%20beta%20v4.3.10--beta.1-13-757575 "Downloads of the latest beta release, all platforms incl. Homebrew")
 
 *Tracking since **2026-05-02** (181 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~181 days have been tracked so far.*
 
@@ -107,7 +107,7 @@ Quick navigation to repository statistics:
 |--------|-----------|-----------|--------|
 | Clones | 326 | 4823 | ▼ -93.2% |
 | Views | 402 | 217 | ▲ +85.3% |
-| Downloads | 3472 | 188 | ▲ +1746.8% |
+| Downloads | 4303 | 188 | ▲ +2188.8% |
 
 ### 🗅️ Clones
 
@@ -149,7 +149,7 @@ Quick navigation to repository statistics:
 |--------|-------|--------------------------|
 | 👀 Unique visitors | 542 | — |
 | 🗅️ Unique cloners | 809 | 149.3% |
-| 📥 Downloads | 4020 | 741.7% |
+| 📥 Downloads | 4851 | 895.0% |
 
 ### 📞 Referrers
 
@@ -190,11 +190,11 @@ Quick navigation to repository statistics:
 
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
-| 🪟 Windows | 1248 | 1582 | 2147 |
-| 🍎 macOS | 1604 | 1995 | 3571 |
-| 🐧 Linux | 974 | 1036 | 1149 |
-| 🍺 Homebrew | 194 | 194 | 194 |
-| **All downloads (incl. Homebrew)** | **4020** | **4806** | **7061** |
+| 🪟 Windows | 1484 | 1818 | 2383 |
+| 🍎 macOS | 1963 | 2354 | 3930 |
+| 🐧 Linux | 1208 | 1270 | 1383 |
+| 🍺 Homebrew | 196 | 196 | 196 |
+| **All downloads (incl. Homebrew)** | **4851** | **5637** | **7892** |
 
 *ℹ️ Not counted above: 174 lifetime downloads of other release files (demo projects, screenshots, checksums), which are not the app.*
 
@@ -202,12 +202,12 @@ Quick navigation to repository statistics:
 
 | Window | Channel | All downloads (incl. Homebrew) | 🪟 Windows | 🍎 macOS | 🐧 Linux | 🍺 Homebrew |
 |--------|---------|--------------------------------|---------|-------|-------|----------|
-| 30 days | all | **4020** | 1248 | 1604 | 974 | 194 |
-| 30 days | stable | **967** | 380 | 296 | 148 | 143 |
-| 30 days | beta | **3098** | 879 | 1342 | 826 | 51 |
-| 90 days | all | **4806** | 1582 | 1995 | 1036 | 194 |
-| 90 days | stable | **1397** | 595 | 492 | 169 | 143 |
-| 90 days | beta | **3454** | 999 | 1538 | 867 | 51 |
+| 30 days | all | **4851** | 1484 | 1963 | 1208 | 196 |
+| 30 days | stable | **973** | 382 | 298 | 148 | 145 |
+| 30 days | beta | **3923** | 1113 | 1699 | 1060 | 51 |
+| 90 days | all | **5637** | 1818 | 2354 | 1270 | 196 |
+| 90 days | stable | **1403** | 597 | 494 | 169 | 145 |
+| 90 days | beta | **4279** | 1233 | 1895 | 1101 | 51 |
 
 *Per-day downloads are the difference between two daily readings of GitHub's lifetime counters, available from **2026-05-25** on; the stable/beta split from **2026-05-25**. What these numbers can and cannot tell:*
 
@@ -218,14 +218,14 @@ Quick navigation to repository statistics:
 - *Homebrew counts installs and upgrades made with brew (each fetches its own copy of the Mac file). They are not counted again under macOS, and the "All downloads (incl. Homebrew)" figures include them. For ChromIQ the copies start with 4.3.3-beta.17: brew installs of earlier versions fetched the normal file and count under macOS.*
 - *Clones of the source code are not downloads and are not counted here.*
 
-🆕 **Latest Release:** `v4.3.20` - **49** downloads (published 2026-10-29)
+🆕 **Latest Release:** `v4.3.20` - **55** downloads (published 2026-10-29)
 
 <details>
 <summary><strong>📦 Per-version downloads</strong> (923 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | 🍺 Homebrew | Total |
 |---------|-----------|----------|----------|----------|-------|
-| v4.3.20 | 25 | 10 | 5 | 9 | **49** |
+| v4.3.20 | 27 | 12 | 5 | 11 | **55** |
 | v4.3.19 | 44 | 10 | 6 | 10 | **70** |
 | v4.3.18 | 8 | 5 | 4 | 5 | **22** |
 | v4.3.17 | 12 | 13 | 5 | 5 | **35** |
@@ -687,132 +687,132 @@ Quick navigation to repository statistics:
 | v3.13.1 | 6 | 5 | 3 | 0 | **14** |
 | v3.13.0 | 1 | 9 | 1 | 0 | **11** |
 | v3.13.0-beta.143 *(beta)* | 1 | 3 | 2 | 0 | **6** |
-| v3.13.0-beta.142 *(beta)* | 1 | 2 | 1 | 0 | **4** |
-| v3.13.0-beta.141 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.140 *(beta)* | 0 | 2 | 0 | 0 | **2** |
-| v3.13.0-beta.139 *(beta)* | 0 | 2 | 0 | 0 | **2** |
-| v3.13.0-beta.138 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.137 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.136 *(beta)* | 2 | 6 | 0 | 0 | **8** |
-| v3.13.0-beta.135 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.134 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.133 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.132 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.131 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.130 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.129 *(beta)* | 0 | 2 | 0 | 0 | **2** |
-| v3.13.0-beta.128 *(beta)* | 0 | 2 | 0 | 0 | **2** |
-| v3.13.0-beta.127 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.126 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.125 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.124 *(beta)* | 0 | 3 | 0 | 0 | **3** |
-| v3.13.0-beta.123 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.122 *(beta)* | 1 | 6 | 0 | 0 | **7** |
-| v3.13.0-beta.121 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.120 *(beta)* | 0 | 2 | 0 | 0 | **2** |
-| v3.13.0-beta.119 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.118 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.117 *(beta)* | 2 | 1 | 0 | 0 | **3** |
-| v3.13.0-beta.116 *(beta)* | 1 | 0 | 0 | 0 | **1** |
-| v3.13.0-beta.115 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.114 *(beta)* | 1 | 2 | 0 | 0 | **3** |
-| v3.13.0-beta.113 *(beta)* | 1 | 6 | 0 | 0 | **7** |
-| v3.13.0-beta.112 *(beta)* | 1 | 1 | 0 | 0 | **2** |
-| v3.13.0-beta.111 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.110 *(beta)* | 1 | 4 | 0 | 0 | **5** |
-| v3.13.0-beta.109 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.108 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.107 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.106 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.105 *(beta)* | 2 | 3 | 2 | 0 | **7** |
-| v3.13.0-beta.104 *(beta)* | 2 | 4 | 2 | 0 | **8** |
-| v3.13.0-beta.103 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.102 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.101 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.100 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.99 *(beta)* | 2 | 0 | 0 | 0 | **2** |
-| v3.13.0-beta.98 *(beta)* | 1 | 2 | 0 | 0 | **3** |
-| v3.13.0-beta.97 *(beta)* | 1 | 1 | 0 | 0 | **2** |
-| v3.13.0-beta.96 *(beta)* | 1 | 1 | 0 | 0 | **2** |
-| v3.13.0-beta.95 *(beta)* | 1 | 0 | 0 | 0 | **1** |
-| v3.13.0-beta.94 *(beta)* | 1 | 0 | 0 | 0 | **1** |
-| v3.13.0-beta.93 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.92 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.91 *(beta)* | 5 | 8 | 4 | 0 | **17** |
-| v3.13.0-beta.90 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.89 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.88 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.87 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.86 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.85 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.84 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.83 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.82 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.81 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.80 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.79 *(beta)* | 1 | 1 | 0 | 0 | **2** |
-| v3.13.0-beta.78 *(beta)* | 0 | 2 | 0 | 0 | **2** |
-| v3.13.0-beta.77 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.76 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.75 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.74 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.73 *(beta)* | 0 | 2 | 0 | 0 | **2** |
-| v3.13.0-beta.72 *(beta)* | 2 | 3 | 2 | 0 | **7** |
-| v3.13.0-beta.71 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.70 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.69 *(beta)* | 2 | 1 | 0 | 0 | **3** |
-| v3.13.0-beta.68 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.67 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.66 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.65 *(beta)* | 2 | 3 | 2 | 0 | **7** |
-| v3.13.0-beta.64 *(beta)* | 1 | 1 | 0 | 0 | **2** |
-| v3.13.0-beta.63 *(beta)* | 0 | 2 | 0 | 0 | **2** |
-| v3.13.0-beta.62 *(beta)* | 2 | 3 | 0 | 0 | **5** |
-| v3.13.0-beta.60 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.59 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.58 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.57 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.56 *(beta)* | 1 | 0 | 0 | 0 | **1** |
-| v3.13.0-beta.55 *(beta)* | 1 | 0 | 0 | 0 | **1** |
-| v3.13.0-beta.54 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.53 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.52 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.51 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.50 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.49 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.48 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.47 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.46 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.45 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.44 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.43 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.42 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.41 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.40 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.39 *(beta)* | 6 | 10 | 6 | 0 | **22** |
-| v3.13.0-beta.38 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.37 *(beta)* | 1 | 1 | 0 | 0 | **2** |
-| v3.13.0-beta.36 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.35 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.34 *(beta)* | 2 | 3 | 2 | 0 | **7** |
-| v3.13.0-beta.33 *(beta)* | 2 | 4 | 2 | 0 | **8** |
-| v3.13.0-beta.32 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.31 *(beta)* | 4 | 6 | 4 | 0 | **14** |
-| v3.13.0-beta.30 *(beta)* | 1 | 1 | 0 | 0 | **2** |
-| v3.13.0-beta.29 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.28 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.27 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.26 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.25 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.24 *(beta)* | 2 | 1 | 0 | 0 | **3** |
-| v3.13.0-beta.23 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.22 *(beta)* | 2 | 1 | 0 | 0 | **3** |
-| v3.13.0-beta.21 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.20 *(beta)* | 1 | 0 | 0 | 0 | **1** |
-| v3.13.0-beta.19 *(beta)* | 1 | 0 | 0 | 0 | **1** |
-| v3.13.0-beta.18 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.0-beta.17 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.0-beta.16 *(beta)* | 0 | 1 | 0 | 0 | **1** |
+| v3.13.0-beta.142 *(beta)* | 1 | 3 | 1 | 0 | **5** |
+| v3.13.0-beta.141 *(beta)* | 1 | 3 | 1 | 0 | **5** |
+| v3.13.0-beta.140 *(beta)* | 1 | 3 | 1 | 0 | **5** |
+| v3.13.0-beta.139 *(beta)* | 1 | 3 | 1 | 0 | **5** |
+| v3.13.0-beta.138 *(beta)* | 0 | 4 | 2 | 0 | **6** |
+| v3.13.0-beta.137 *(beta)* | 1 | 3 | 2 | 0 | **6** |
+| v3.13.0-beta.136 *(beta)* | 3 | 8 | 1 | 0 | **12** |
+| v3.13.0-beta.135 *(beta)* | 1 | 2 | 1 | 0 | **4** |
+| v3.13.0-beta.134 *(beta)* | 1 | 3 | 2 | 0 | **6** |
+| v3.13.0-beta.133 *(beta)* | 1 | 2 | 0 | 0 | **3** |
+| v3.13.0-beta.132 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.0-beta.131 *(beta)* | 2 | 2 | 2 | 0 | **6** |
+| v3.13.0-beta.130 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.0-beta.129 *(beta)* | 2 | 5 | 2 | 0 | **9** |
+| v3.13.0-beta.128 *(beta)* | 2 | 5 | 1 | 0 | **8** |
+| v3.13.0-beta.127 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.126 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.0-beta.125 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.0-beta.124 *(beta)* | 2 | 6 | 2 | 0 | **10** |
+| v3.13.0-beta.123 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.0-beta.122 *(beta)* | 3 | 9 | 2 | 0 | **14** |
+| v3.13.0-beta.121 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.120 *(beta)* | 2 | 5 | 2 | 0 | **9** |
+| v3.13.0-beta.119 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.0-beta.118 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.0-beta.117 *(beta)* | 4 | 4 | 2 | 0 | **10** |
+| v3.13.0-beta.116 *(beta)* | 3 | 3 | 1 | 0 | **7** |
+| v3.13.0-beta.115 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.0-beta.114 *(beta)* | 3 | 4 | 1 | 0 | **8** |
+| v3.13.0-beta.113 *(beta)* | 3 | 9 | 2 | 0 | **14** |
+| v3.13.0-beta.112 *(beta)* | 3 | 4 | 2 | 0 | **9** |
+| v3.13.0-beta.111 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.0-beta.110 *(beta)* | 3 | 7 | 2 | 0 | **12** |
+| v3.13.0-beta.109 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.108 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.107 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.106 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.105 *(beta)* | 4 | 6 | 4 | 0 | **14** |
+| v3.13.0-beta.104 *(beta)* | 4 | 7 | 4 | 0 | **15** |
+| v3.13.0-beta.103 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.102 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.0-beta.101 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.100 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.0-beta.99 *(beta)* | 4 | 3 | 2 | 0 | **9** |
+| v3.13.0-beta.98 *(beta)* | 2 | 5 | 2 | 0 | **9** |
+| v3.13.0-beta.97 *(beta)* | 3 | 4 | 2 | 0 | **9** |
+| v3.13.0-beta.96 *(beta)* | 3 | 4 | 2 | 0 | **9** |
+| v3.13.0-beta.95 *(beta)* | 3 | 3 | 2 | 0 | **8** |
+| v3.13.0-beta.94 *(beta)* | 3 | 3 | 2 | 0 | **8** |
+| v3.13.0-beta.93 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.92 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.0-beta.91 *(beta)* | 7 | 11 | 6 | 0 | **24** |
+| v3.13.0-beta.90 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.89 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.0-beta.88 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.0-beta.87 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.86 *(beta)* | 2 | 3 | 1 | 0 | **6** |
+| v3.13.0-beta.85 *(beta)* | 2 | 2 | 2 | 0 | **6** |
+| v3.13.0-beta.84 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.83 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.82 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.81 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.0-beta.80 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.79 *(beta)* | 3 | 4 | 2 | 0 | **9** |
+| v3.13.0-beta.78 *(beta)* | 2 | 5 | 2 | 0 | **9** |
+| v3.13.0-beta.77 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.76 *(beta)* | 2 | 2 | 2 | 0 | **6** |
+| v3.13.0-beta.75 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.74 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.73 *(beta)* | 2 | 5 | 2 | 0 | **9** |
+| v3.13.0-beta.72 *(beta)* | 4 | 6 | 4 | 0 | **14** |
+| v3.13.0-beta.71 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.70 *(beta)* | 1 | 3 | 2 | 0 | **6** |
+| v3.13.0-beta.69 *(beta)* | 4 | 4 | 2 | 0 | **10** |
+| v3.13.0-beta.68 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.67 *(beta)* | 1 | 3 | 2 | 0 | **6** |
+| v3.13.0-beta.66 *(beta)* | 2 | 4 | 1 | 0 | **7** |
+| v3.13.0-beta.65 *(beta)* | 4 | 6 | 4 | 0 | **14** |
+| v3.13.0-beta.64 *(beta)* | 3 | 4 | 2 | 0 | **9** |
+| v3.13.0-beta.63 *(beta)* | 2 | 5 | 2 | 0 | **9** |
+| v3.13.0-beta.62 *(beta)* | 4 | 6 | 2 | 0 | **12** |
+| v3.13.0-beta.60 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.0-beta.59 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.0-beta.58 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.57 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.56 *(beta)* | 3 | 2 | 2 | 0 | **7** |
+| v3.13.0-beta.55 *(beta)* | 3 | 3 | 2 | 0 | **8** |
+| v3.13.0-beta.54 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.0-beta.53 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.0-beta.52 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.0-beta.51 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.50 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.0-beta.49 *(beta)* | 1 | 3 | 2 | 0 | **6** |
+| v3.13.0-beta.48 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.47 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.0-beta.46 *(beta)* | 2 | 3 | 1 | 0 | **6** |
+| v3.13.0-beta.45 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.0-beta.44 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.0-beta.43 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.42 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.0-beta.41 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.40 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.0-beta.39 *(beta)* | 8 | 13 | 7 | 0 | **28** |
+| v3.13.0-beta.38 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.0-beta.37 *(beta)* | 3 | 4 | 2 | 0 | **9** |
+| v3.13.0-beta.36 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.35 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.0-beta.34 *(beta)* | 4 | 5 | 4 | 0 | **13** |
+| v3.13.0-beta.33 *(beta)* | 4 | 7 | 4 | 0 | **15** |
+| v3.13.0-beta.32 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.31 *(beta)* | 6 | 9 | 6 | 0 | **21** |
+| v3.13.0-beta.30 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.0-beta.29 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.28 *(beta)* | 2 | 3 | 1 | 0 | **6** |
+| v3.13.0-beta.27 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.26 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.25 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.24 *(beta)* | 4 | 4 | 2 | 0 | **10** |
+| v3.13.0-beta.23 *(beta)* | 2 | 2 | 1 | 0 | **5** |
+| v3.13.0-beta.22 *(beta)* | 4 | 4 | 2 | 0 | **10** |
+| v3.13.0-beta.21 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.20 *(beta)* | 3 | 2 | 2 | 0 | **7** |
+| v3.13.0-beta.19 *(beta)* | 3 | 3 | 2 | 0 | **8** |
+| v3.13.0-beta.18 *(beta)* | 1 | 4 | 2 | 0 | **7** |
+| v3.13.0-beta.17 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.0-beta.16 *(beta)* | 2 | 3 | 2 | 0 | **7** |
 | v3.13.0-beta.15 *(beta)* | 0 | 0 | 0 | 0 | **0** |
 | v3.13.0-beta.14 *(beta)* | 0 | 1 | 0 | 0 | **1** |
 | v3.13.0-beta.13 *(beta)* | 1 | 2 | 0 | 0 | **3** |
@@ -1157,12 +1157,12 @@ Quick navigation to repository statistics:
 
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
-| 🪟 Windows | 590 | 1557 | 0 | **2147** |
-| 🍎 macOS | 1873 | 867 | 831 | **3571** |
-| 🐧 Linux | 549 | 600 | 0 | **1149** |
-| 🍺 Homebrew | 137 | 57 | 0 | **194** |
+| 🪟 Windows | 706 | 1677 | 0 | **2383** |
+| 🍎 macOS | 1991 | 988 | 951 | **3930** |
+| 🐧 Linux | 668 | 715 | 0 | **1383** |
+| 🍺 Homebrew | 138 | 58 | 0 | **196** |
 
-*💡 Low-volume builds (<2% of lifetime downloads), candidates to stop shipping: 🍺 Homebrew arm64 (137, 1.9%); 🍺 Homebrew x86_64 (57, 0.8%).*
+*💡 Low-volume builds (<2% of lifetime downloads), candidates to stop shipping: 🍺 Homebrew arm64 (138, 1.7%); 🍺 Homebrew x86_64 (58, 0.7%).*
 
 **Top 10 Releases by Downloads (lifetime):**
 
@@ -1174,9 +1174,9 @@ Quick navigation to repository statistics:
 | v4.1.4 | 74 | 2026-08-28 |
 | v4.3.19 | 70 | 2026-10-28 |
 | v3.14.7 | 68 | 2026-07-22 |
+| v4.3.20 | 55 | 2026-10-29 |
 | v3.6.4 | 54 | 2026-05-17 |
 | v3.12.1 | 52 | 2026-06-25 |
-| v4.3.20 | 49 | 2026-10-29 |
 | v4.3.7 | 49 | 2026-10-18 |
 
 **Recent Release Reception (first ~14 days):**
@@ -1185,7 +1185,7 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | 🍺 | All downloads (incl. Homebrew) |
 |---------|-----------|-----|----|----|----|----|------------------------------|
-| v4.3.20 | 2026-10-29 | 2d | 25 | 10 | 5 | 9 | **49** |
+| v4.3.20 | 2026-10-29 | 2d | 27 | 12 | 5 | 11 | **55** |
 | v4.3.19 | 2026-10-28 | 3d | 44 | 10 | 6 | 10 | **70** |
 | v4.3.18 | 2026-10-27 | 4d | 8 | 5 | 4 | 5 | **22** |
 | v4.3.17 | 2026-10-27 | 4d | 12 | 13 | 5 | 5 | **35** |
@@ -2060,7 +2060,7 @@ Quick navigation to repository statistics:
 
 # neolume
 
-![downloads](https://img.shields.io/badge/downloads-50-212121) ![clones](https://img.shields.io/badge/clones-272-2196F3) ![views](https://img.shields.io/badge/views-5-4CAF50) ![releases](https://img.shields.io/badge/releases-7-6f42c1) ![latest stable v1.0.6](https://img.shields.io/badge/latest%20stable%20v1.0.6-7-212121 "Downloads of the latest stable release, all platforms incl. Homebrew")
+![downloads](https://img.shields.io/badge/downloads-50-212121) ![clones](https://img.shields.io/badge/clones-272-2196F3) ![views](https://img.shields.io/badge/views-5-4CAF50) ![releases](https://img.shields.io/badge/releases-8-6f42c1) ![latest stable v1.0.7](https://img.shields.io/badge/latest%20stable%20v1.0.7-0-212121 "Downloads of the latest stable release, all platforms incl. Homebrew")
 
 *Tracking since **2026-10-27** (3 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~3 days have been tracked so far.*
 
@@ -2171,13 +2171,14 @@ Quick navigation to repository statistics:
 - *Homebrew counts installs and upgrades made with brew (each fetches its own copy of the Mac file). They are not counted again under macOS, and the "All downloads (incl. Homebrew)" figures include them. For ChromIQ the copies start with 4.3.3-beta.17: brew installs of earlier versions fetched the normal file and count under macOS.*
 - *Clones of the source code are not downloads and are not counted here.*
 
-🆕 **Latest Release:** `v1.0.6` - **7** downloads (published 2026-10-29)
+🆕 **Latest Release:** `v1.0.7` - **0** downloads (published 2026-10-30)
 
 <details>
-<summary><strong>📦 Per-version downloads</strong> (7 releases - click to expand)</summary>
+<summary><strong>📦 Per-version downloads</strong> (8 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | 🍺 Homebrew | Total |
 |---------|-----------|----------|----------|----------|-------|
+| v1.0.7 | 0 | 0 | 0 | 0 | **0** |
 | v1.0.6 | 2 | 3 | 2 | 0 | **7** |
 | v1.0.5 | 3 | 2 | 3 | 0 | **8** |
 | v1.0.4 | 2 | 2 | 2 | 0 | **6** |
@@ -2216,6 +2217,7 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | 🍺 | All downloads (incl. Homebrew) |
 |---------|-----------|-----|----|----|----|----|------------------------------|
+| v1.0.7 | 2026-10-30 | 1d | 0 | 0 | 0 | 0 | **0** |
 | v1.0.6 | 2026-10-29 | 2d | 2 | 3 | 2 | 0 | **7** |
 | v1.0.5 | 2026-10-28 | 3d | 3 | 2 | 3 | 0 | **8** |
 | v1.0.4 | 2026-10-27 | 4d | 2 | 2 | 2 | 0 | **6** |
