@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-10-30T03:02:15.701439Z
+**Last Updated:** 2026-10-30T10:15:46.164466Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -97,17 +97,17 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads incl. Homebrew](https://img.shields.io/badge/downloads%20incl.%20Homebrew-6059-212121) ![clones](https://img.shields.io/badge/clones-37829-2196F3) ![views](https://img.shields.io/badge/views-9371-4CAF50) ![releases](https://img.shields.io/badge/releases-923-6f42c1) ![latest stable v4.3.20](https://img.shields.io/badge/latest%20stable%20v4.3.20-46-212121 "Downloads of the latest stable release, all platforms incl. Homebrew") ![latest beta v4.3.10-beta.1](https://img.shields.io/badge/latest%20beta%20v4.3.10--beta.1-13-757575 "Downloads of the latest beta release, all platforms incl. Homebrew")
+![downloads incl. Homebrew](https://img.shields.io/badge/downloads%20incl.%20Homebrew-7061-212121) ![clones](https://img.shields.io/badge/clones-37839-2196F3) ![views](https://img.shields.io/badge/views-9470-4CAF50) ![releases](https://img.shields.io/badge/releases-923-6f42c1) ![latest stable v4.3.20](https://img.shields.io/badge/latest%20stable%20v4.3.20-49-212121 "Downloads of the latest stable release, all platforms incl. Homebrew") ![latest beta v4.3.10-beta.1](https://img.shields.io/badge/latest%20beta%20v4.3.10--beta.1-13-757575 "Downloads of the latest beta release, all platforms incl. Homebrew")
 
-*Tracking since **2026-05-02** (180 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~180 days have been tracked so far.*
+*Tracking since **2026-05-02** (181 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~181 days have been tracked so far.*
 
 **This week vs last week:**
 
 | Metric | This week | Last week | Change |
 |--------|-----------|-----------|--------|
-| Clones | 316 | 4823 | ▼ -93.4% |
-| Views | 303 | 217 | ▲ +39.6% |
-| Downloads | 2470 | 188 | ▲ +1213.8% |
+| Clones | 326 | 4823 | ▼ -93.2% |
+| Views | 402 | 217 | ▲ +85.3% |
+| Downloads | 3472 | 188 | ▲ +1746.8% |
 
 ### 🗅️ Clones
 
@@ -115,9 +115,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 6768 | 808 |
-| Last 90 Days | 19489 | 5764 |
-| Lifetime | 37829 | 9797 |
+| Last 30 Days | 6778 | 809 |
+| Last 90 Days | 19499 | 5765 |
+| Lifetime | 37839 | 9798 |
 
 ### 📄 Repeat vs New Clones
 
@@ -127,9 +127,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
 |--------|--------------|----------------|----------------|----------|
-| Last 30 Days | 6768 | 808 | 5960 | 88.1% |
-| Last 90 Days | 19489 | 5764 | 13725 | 70.4% |
-| Lifetime | 37829 | 9797 | 28032 | 74.1% |
+| Last 30 Days | 6778 | 809 | 5969 | 88.1% |
+| Last 90 Days | 19499 | 5765 | 13734 | 70.4% |
+| Lifetime | 37839 | 9798 | 28041 | 74.1% |
 
 ### 👀 Views
 
@@ -137,9 +137,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 1666 | 464 |
-| Last 90 Days | 5111 | 1356 |
-| Lifetime | 9371 | 2377 |
+| Last 30 Days | 1765 | 542 |
+| Last 90 Days | 5210 | 1434 |
+| Lifetime | 9470 | 2455 |
 
 ### 🎯 Engagement Ratios
 
@@ -147,9 +147,9 @@ Quick navigation to repository statistics:
 
 | Action | Count | Ratio to unique visitors |
 |--------|-------|--------------------------|
-| 👀 Unique visitors | 464 | — |
-| 🗅️ Unique cloners | 808 | 174.1% |
-| 📥 Downloads | 3018 | 650.4% |
+| 👀 Unique visitors | 542 | — |
+| 🗅️ Unique cloners | 809 | 149.3% |
+| 📥 Downloads | 4020 | 741.7% |
 
 ### 📞 Referrers
 
@@ -159,16 +159,16 @@ Quick navigation to repository statistics:
 
 | Referrer | Total Views | Unique Visitors |
 |----------|-------------|----------------|
-| Google | 42 | 31 |
-| search.brave.com | 29 | 6 |
+| aocr.org | 73 | 73 |
+| Google | 44 | 32 |
+| search.brave.com | 29 | 5 |
 | yandex.ru | 21 | 8 |
-| away.vk.ru | 17 | 3 |
-| printerknowledge.com | 15 | 8 |
-| aocr.org | 13 | 13 |
-| itsab1989.github.io | 13 | 10 |
-| github.com | 13 | 8 |
+| itsab1989.github.io | 16 | 13 |
+| away.vk.ru | 16 | 3 |
+| printerknowledge.com | 14 | 8 |
+| github.com | 8 | 7 |
 | dpreview.com | 5 | 3 |
-| reddit.com | 2 | 1 |
+| hub.displaycal.net | 2 | 2 |
 
 ### 👥 Repeat vs New Visitors
 
@@ -178,9 +178,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Views | Unique Visitors | Repeat Visitors | Repeat % |
 |--------|-------------|-----------------|-----------------|----------|
-| Last 30 Days | 1666 | 464 | 1202 | 72.1% |
-| Last 90 Days | 5111 | 1356 | 3755 | 73.5% |
-| Lifetime | 9371 | 2377 | 6994 | 74.6% |
+| Last 30 Days | 1765 | 542 | 1223 | 69.3% |
+| Last 90 Days | 5210 | 1434 | 3776 | 72.5% |
+| Lifetime | 9470 | 2455 | 7015 | 74.1% |
 
 ### 📥 Release Downloads
 
@@ -190,11 +190,11 @@ Quick navigation to repository statistics:
 
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
-| 🪟 Windows | 967 | 1301 | 1866 |
-| 🍎 macOS | 1171 | 1562 | 3138 |
-| 🐧 Linux | 687 | 749 | 862 |
-| 🍺 Homebrew | 193 | 193 | 193 |
-| **All downloads (incl. Homebrew)** | **3018** | **3804** | **6059** |
+| 🪟 Windows | 1248 | 1582 | 2147 |
+| 🍎 macOS | 1604 | 1995 | 3571 |
+| 🐧 Linux | 974 | 1036 | 1149 |
+| 🍺 Homebrew | 194 | 194 | 194 |
+| **All downloads (incl. Homebrew)** | **4020** | **4806** | **7061** |
 
 *ℹ️ Not counted above: 174 lifetime downloads of other release files (demo projects, screenshots, checksums), which are not the app.*
 
@@ -202,12 +202,12 @@ Quick navigation to repository statistics:
 
 | Window | Channel | All downloads (incl. Homebrew) | 🪟 Windows | 🍎 macOS | 🐧 Linux | 🍺 Homebrew |
 |--------|---------|--------------------------------|---------|-------|-------|----------|
-| 30 days | all | **3018** | 967 | 1171 | 687 | 193 |
-| 30 days | stable | **839** | 347 | 238 | 112 | 142 |
-| 30 days | beta | **2224** | 631 | 967 | 575 | 51 |
-| 90 days | all | **3804** | 1301 | 1562 | 749 | 193 |
-| 90 days | stable | **1269** | 562 | 434 | 133 | 142 |
-| 90 days | beta | **2580** | 751 | 1163 | 616 | 51 |
+| 30 days | all | **4020** | 1248 | 1604 | 974 | 194 |
+| 30 days | stable | **967** | 380 | 296 | 148 | 143 |
+| 30 days | beta | **3098** | 879 | 1342 | 826 | 51 |
+| 90 days | all | **4806** | 1582 | 1995 | 1036 | 194 |
+| 90 days | stable | **1397** | 595 | 492 | 169 | 143 |
+| 90 days | beta | **3454** | 999 | 1538 | 867 | 51 |
 
 *Per-day downloads are the difference between two daily readings of GitHub's lifetime counters, available from **2026-05-25** on; the stable/beta split from **2026-05-25**. What these numbers can and cannot tell:*
 
@@ -218,14 +218,14 @@ Quick navigation to repository statistics:
 - *Homebrew counts installs and upgrades made with brew (each fetches its own copy of the Mac file). They are not counted again under macOS, and the "All downloads (incl. Homebrew)" figures include them. For ChromIQ the copies start with 4.3.3-beta.17: brew installs of earlier versions fetched the normal file and count under macOS.*
 - *Clones of the source code are not downloads and are not counted here.*
 
-🆕 **Latest Release:** `v4.3.20` - **46** downloads (published 2026-10-29)
+🆕 **Latest Release:** `v4.3.20` - **49** downloads (published 2026-10-29)
 
 <details>
 <summary><strong>📦 Per-version downloads</strong> (923 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | 🍺 Homebrew | Total |
 |---------|-----------|----------|----------|----------|-------|
-| v4.3.20 | 24 | 9 | 5 | 8 | **46** |
+| v4.3.20 | 25 | 10 | 5 | 9 | **49** |
 | v4.3.19 | 44 | 10 | 6 | 10 | **70** |
 | v4.3.18 | 8 | 5 | 4 | 5 | **22** |
 | v4.3.17 | 12 | 13 | 5 | 5 | **35** |
@@ -536,158 +536,158 @@ Quick navigation to repository statistics:
 | v3.14.8-beta.79 *(beta)* | 2 | 3 | 2 | 0 | **7** |
 | v3.14.8-beta.78 *(beta)* | 2 | 2 | 2 | 0 | **6** |
 | v3.14.8-beta.77 *(beta)* | 2 | 3 | 2 | 0 | **7** |
-| v3.14.8-beta.76 *(beta)* | 0 | 0 | 1 | 0 | **1** |
-| v3.14.8-beta.75 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.74 *(beta)* | 4 | 0 | 0 | 0 | **4** |
-| v3.14.8-beta.73 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.14.8-beta.72 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.71 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.14.8-beta.70 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.14.8-beta.69 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.68 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.67 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.66 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.14.8-beta.65 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.64 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.14.8-beta.63 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.62 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.14.8-beta.61 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.60 *(beta)* | 1 | 1 | 0 | 0 | **2** |
-| v3.14.8-beta.59 *(beta)* | 1 | 0 | 0 | 0 | **1** |
-| v3.14.8-beta.58 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.57 *(beta)* | 1 | 0 | 0 | 0 | **1** |
-| v3.14.8-beta.56 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.14.8-beta.55 *(beta)* | 2 | 1 | 0 | 0 | **3** |
-| v3.14.8-beta.54 *(beta)* | 1 | 0 | 0 | 0 | **1** |
-| v3.14.8-beta.53 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.52 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.51 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.50 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.49 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.14.8-beta.48 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.47 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.46 *(beta)* | 2 | 3 | 2 | 0 | **7** |
-| v3.14.8-beta.45 *(beta)* | 2 | 3 | 2 | 0 | **7** |
-| v3.14.8-beta.44 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.43 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.14.8-beta.42 *(beta)* | 2 | 4 | 2 | 0 | **8** |
-| v3.14.8-beta.41 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.40 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.14.8-beta.39 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.14.8-beta.38 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.37 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.36 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.35 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.34 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.14.8-beta.33 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.14.8-beta.32 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.31 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.30 *(beta)* | 1 | 0 | 0 | 0 | **1** |
-| v3.14.8-beta.29 *(beta)* | 1 | 1 | 0 | 0 | **2** |
-| v3.14.8-beta.28 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.27 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.26 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.14.8-beta.25 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.14.8-beta.24 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.14.8-beta.23 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.22 *(beta)* | 1 | 1 | 0 | 0 | **2** |
-| v3.14.8-beta.21 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.20 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.19 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.18 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.14.8-beta.17 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.16 *(beta)* | 0 | 0 | 1 | 0 | **1** |
-| v3.14.8-beta.15 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.14 *(beta)* | 0 | 3 | 0 | 0 | **3** |
-| v3.14.8-beta.13 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.12 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.10 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.9 *(beta)* | 1 | 1 | 0 | 0 | **2** |
-| v3.14.8-beta.8 *(beta)* | 0 | 2 | 0 | 0 | **2** |
-| v3.14.8-beta.7 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.6 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.14.8-beta.5 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.4 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.3 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.14.8-beta.2 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.14.8-beta.1 *(beta)* | 1 | 1 | 0 | 0 | **2** |
-| v3.14.7 | 27 | 30 | 4 | 0 | **61** |
-| v3.14.6 | 1 | 0 | 0 | 0 | **1** |
-| v3.14.5 | 1 | 1 | 0 | 0 | **2** |
-| v3.14.4 | 4 | 7 | 1 | 0 | **12** |
-| v3.14.3 | 6 | 9 | 3 | 0 | **18** |
-| v3.14.2 | 3 | 2 | 0 | 0 | **5** |
-| v3.14.1 | 1 | 2 | 0 | 0 | **3** |
-| v3.14.0 | 2 | 3 | 0 | 0 | **5** |
-| v3.13.12-beta.35 *(beta)* | 2 | 3 | 0 | 0 | **5** |
-| v3.13.12-beta.34 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.12-beta.33 *(beta)* | 0 | 2 | 0 | 0 | **2** |
-| v3.13.12-beta.32 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.12-beta.31 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.12-beta.30 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.12-beta.29 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.12-beta.28 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.12-beta.27 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.12-beta.26 *(beta)* | 2 | 2 | 0 | 0 | **4** |
-| v3.13.12-beta.25 *(beta)* | 3 | 3 | 2 | 0 | **8** |
-| v3.13.12-beta.24 *(beta)* | 1 | 1 | 0 | 0 | **2** |
-| v3.13.12-beta.23 *(beta)* | 4 | 4 | 1 | 0 | **9** |
-| v3.13.12-beta.22 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.12-beta.21 *(beta)* | 1 | 2 | 0 | 0 | **3** |
-| v3.13.12-beta.20 *(beta)* | 1 | 1 | 0 | 0 | **2** |
-| v3.13.12-beta.19 *(beta)* | 2 | 2 | 0 | 0 | **4** |
-| v3.13.12-beta.18 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.12-beta.17 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.12-beta.16 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.12-beta.15 *(beta)* | 0 | 2 | 0 | 0 | **2** |
-| v3.13.12-beta.14 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.12-beta.13 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.12-beta.12 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.12-beta.11 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.12-beta.10 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.12-beta.9 *(beta)* | 2 | 0 | 0 | 0 | **2** |
-| v3.13.12-beta.8 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.12-beta.7 *(beta)* | 1 | 0 | 0 | 0 | **1** |
-| v3.13.12-beta.6 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.12-beta.5 *(beta)* | 2 | 1 | 0 | 0 | **3** |
-| v3.13.12-beta.4 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.12-beta.3 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.12-beta.2 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.12-beta.1 *(beta)* | 1 | 1 | 0 | 0 | **2** |
-| v3.13.11 | 4 | 11 | 0 | 0 | **15** |
-| v3.13.10 | 1 | 2 | 0 | 0 | **3** |
-| v3.13.9 | 14 | 4 | 2 | 0 | **20** |
-| v3.13.8 | 1 | 5 | 0 | 0 | **6** |
-| v3.13.7 | 1 | 1 | 0 | 0 | **2** |
-| v3.13.7-beta.5 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.7-beta.4 *(beta)* | 1 | 1 | 0 | 0 | **2** |
-| v3.13.7-beta.3 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.7-beta.2 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.7-beta.1 *(beta)* | 2 | 0 | 0 | 0 | **2** |
-| v3.13.6 | 8 | 6 | 1 | 0 | **15** |
-| v3.13.6-beta.4 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.6-beta.3 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.6-beta.2 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.6-beta.1 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.5 | 5 | 9 | 0 | 0 | **14** |
-| v3.13.4 | 4 | 4 | 0 | 0 | **8** |
-| v3.13.4-beta.11 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.4-beta.10 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.4-beta.9 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.4-beta.8 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.4-beta.7 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.4-beta.6 *(beta)* | 0 | 2 | 0 | 0 | **2** |
-| v3.13.4-beta.5 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.4-beta.4 *(beta)* | 0 | 1 | 0 | 0 | **1** |
-| v3.13.4-beta.3 *(beta)* | 0 | 2 | 0 | 0 | **2** |
-| v3.13.4-beta.2 *(beta)* | 0 | 2 | 0 | 0 | **2** |
-| v3.13.4-beta.1 *(beta)* | 0 | 0 | 0 | 0 | **0** |
-| v3.13.3 | 5 | 4 | 2 | 0 | **11** |
-| v3.13.2 | 2 | 3 | 1 | 0 | **6** |
-| v3.13.1 | 5 | 3 | 1 | 0 | **9** |
-| v3.13.0 | 1 | 7 | 0 | 0 | **8** |
-| v3.13.0-beta.143 *(beta)* | 0 | 2 | 0 | 0 | **2** |
-| v3.13.0-beta.142 *(beta)* | 0 | 1 | 0 | 0 | **1** |
+| v3.14.8-beta.76 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.75 *(beta)* | 2 | 2 | 2 | 0 | **6** |
+| v3.14.8-beta.74 *(beta)* | 6 | 3 | 2 | 0 | **11** |
+| v3.14.8-beta.73 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.14.8-beta.72 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.71 *(beta)* | 1 | 4 | 2 | 0 | **7** |
+| v3.14.8-beta.70 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.14.8-beta.69 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.68 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.67 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.66 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.14.8-beta.65 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.64 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.14.8-beta.63 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.62 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.14.8-beta.61 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.60 *(beta)* | 3 | 3 | 2 | 0 | **8** |
+| v3.14.8-beta.59 *(beta)* | 3 | 3 | 2 | 0 | **8** |
+| v3.14.8-beta.58 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.57 *(beta)* | 2 | 3 | 1 | 0 | **6** |
+| v3.14.8-beta.56 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.14.8-beta.55 *(beta)* | 4 | 4 | 2 | 0 | **10** |
+| v3.14.8-beta.54 *(beta)* | 3 | 3 | 2 | 0 | **8** |
+| v3.14.8-beta.53 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.52 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.51 *(beta)* | 2 | 2 | 2 | 0 | **6** |
+| v3.14.8-beta.50 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.49 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.14.8-beta.48 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.47 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.46 *(beta)* | 4 | 6 | 4 | 0 | **14** |
+| v3.14.8-beta.45 *(beta)* | 4 | 5 | 3 | 0 | **12** |
+| v3.14.8-beta.44 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.43 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.14.8-beta.42 *(beta)* | 4 | 7 | 4 | 0 | **15** |
+| v3.14.8-beta.41 *(beta)* | 2 | 3 | 1 | 0 | **6** |
+| v3.14.8-beta.40 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.14.8-beta.39 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.14.8-beta.38 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.37 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.36 *(beta)* | 1 | 3 | 2 | 0 | **6** |
+| v3.14.8-beta.35 *(beta)* | 2 | 3 | 1 | 0 | **6** |
+| v3.14.8-beta.34 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.14.8-beta.33 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.14.8-beta.32 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.31 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.30 *(beta)* | 3 | 3 | 2 | 0 | **8** |
+| v3.14.8-beta.29 *(beta)* | 3 | 4 | 2 | 0 | **9** |
+| v3.14.8-beta.28 *(beta)* | 1 | 3 | 2 | 0 | **6** |
+| v3.14.8-beta.27 *(beta)* | 2 | 2 | 2 | 0 | **6** |
+| v3.14.8-beta.26 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.14.8-beta.25 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.14.8-beta.24 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.14.8-beta.23 *(beta)* | 2 | 3 | 1 | 0 | **6** |
+| v3.14.8-beta.22 *(beta)* | 3 | 4 | 2 | 0 | **9** |
+| v3.14.8-beta.21 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.20 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.19 *(beta)* | 2 | 2 | 2 | 0 | **6** |
+| v3.14.8-beta.18 *(beta)* | 1 | 4 | 2 | 0 | **7** |
+| v3.14.8-beta.17 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.16 *(beta)* | 2 | 3 | 3 | 0 | **8** |
+| v3.14.8-beta.15 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.14 *(beta)* | 2 | 6 | 2 | 0 | **10** |
+| v3.14.8-beta.13 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.12 *(beta)* | 2 | 2 | 2 | 0 | **6** |
+| v3.14.8-beta.10 *(beta)* | 2 | 2 | 2 | 0 | **6** |
+| v3.14.8-beta.9 *(beta)* | 3 | 3 | 2 | 0 | **8** |
+| v3.14.8-beta.8 *(beta)* | 2 | 5 | 2 | 0 | **9** |
+| v3.14.8-beta.7 *(beta)* | 2 | 3 | 1 | 0 | **6** |
+| v3.14.8-beta.6 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.14.8-beta.5 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.4 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.14.8-beta.3 *(beta)* | 2 | 2 | 2 | 0 | **6** |
+| v3.14.8-beta.2 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.14.8-beta.1 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.14.7 | 29 | 33 | 6 | 0 | **68** |
+| v3.14.6 | 3 | 3 | 2 | 0 | **8** |
+| v3.14.5 | 3 | 4 | 1 | 0 | **8** |
+| v3.14.4 | 6 | 10 | 3 | 0 | **19** |
+| v3.14.3 | 7 | 12 | 5 | 0 | **24** |
+| v3.14.2 | 4 | 5 | 2 | 0 | **11** |
+| v3.14.1 | 3 | 5 | 2 | 0 | **10** |
+| v3.14.0 | 4 | 6 | 2 | 0 | **12** |
+| v3.13.12-beta.35 *(beta)* | 2 | 6 | 2 | 0 | **10** |
+| v3.13.12-beta.34 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.12-beta.33 *(beta)* | 2 | 5 | 2 | 0 | **9** |
+| v3.13.12-beta.32 *(beta)* | 2 | 3 | 1 | 0 | **6** |
+| v3.13.12-beta.31 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.12-beta.30 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.12-beta.29 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.12-beta.28 *(beta)* | 1 | 4 | 2 | 0 | **7** |
+| v3.13.12-beta.27 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.12-beta.26 *(beta)* | 4 | 5 | 2 | 0 | **11** |
+| v3.13.12-beta.25 *(beta)* | 5 | 6 | 3 | 0 | **14** |
+| v3.13.12-beta.24 *(beta)* | 3 | 4 | 2 | 0 | **9** |
+| v3.13.12-beta.23 *(beta)* | 6 | 7 | 3 | 0 | **16** |
+| v3.13.12-beta.22 *(beta)* | 2 | 3 | 1 | 0 | **6** |
+| v3.13.12-beta.21 *(beta)* | 3 | 5 | 2 | 0 | **10** |
+| v3.13.12-beta.20 *(beta)* | 3 | 4 | 2 | 0 | **9** |
+| v3.13.12-beta.19 *(beta)* | 3 | 5 | 2 | 0 | **10** |
+| v3.13.12-beta.18 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.12-beta.17 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.12-beta.16 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.12-beta.15 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.12-beta.14 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.12-beta.13 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.12-beta.12 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.12-beta.11 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.12-beta.10 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.12-beta.9 *(beta)* | 4 | 3 | 2 | 0 | **9** |
+| v3.13.12-beta.8 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.12-beta.7 *(beta)* | 3 | 3 | 2 | 0 | **8** |
+| v3.13.12-beta.6 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.12-beta.5 *(beta)* | 4 | 4 | 2 | 0 | **10** |
+| v3.13.12-beta.4 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.12-beta.3 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.12-beta.2 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.12-beta.1 *(beta)* | 3 | 4 | 2 | 0 | **9** |
+| v3.13.11 | 6 | 14 | 2 | 0 | **22** |
+| v3.13.10 | 3 | 5 | 2 | 0 | **10** |
+| v3.13.9 | 16 | 7 | 4 | 0 | **27** |
+| v3.13.8 | 3 | 8 | 2 | 0 | **13** |
+| v3.13.7 | 3 | 4 | 2 | 0 | **9** |
+| v3.13.7-beta.5 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.7-beta.4 *(beta)* | 3 | 4 | 2 | 0 | **9** |
+| v3.13.7-beta.3 *(beta)* | 1 | 3 | 2 | 0 | **6** |
+| v3.13.7-beta.2 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.7-beta.1 *(beta)* | 4 | 3 | 2 | 0 | **9** |
+| v3.13.6 | 9 | 9 | 3 | 0 | **21** |
+| v3.13.6-beta.4 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.6-beta.3 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.6-beta.2 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.6-beta.1 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.5 | 7 | 12 | 2 | 0 | **21** |
+| v3.13.4 | 6 | 7 | 2 | 0 | **15** |
+| v3.13.4-beta.11 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.4-beta.10 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.4-beta.9 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.4-beta.8 *(beta)* | 2 | 3 | 2 | 0 | **7** |
+| v3.13.4-beta.7 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.4-beta.6 *(beta)* | 2 | 5 | 2 | 0 | **9** |
+| v3.13.4-beta.5 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.4-beta.4 *(beta)* | 2 | 4 | 2 | 0 | **8** |
+| v3.13.4-beta.3 *(beta)* | 1 | 5 | 2 | 0 | **8** |
+| v3.13.4-beta.2 *(beta)* | 1 | 2 | 2 | 0 | **5** |
+| v3.13.4-beta.1 *(beta)* | 1 | 3 | 0 | 0 | **4** |
+| v3.13.3 | 7 | 7 | 3 | 0 | **17** |
+| v3.13.2 | 2 | 5 | 2 | 0 | **9** |
+| v3.13.1 | 6 | 5 | 3 | 0 | **14** |
+| v3.13.0 | 1 | 9 | 1 | 0 | **11** |
+| v3.13.0-beta.143 *(beta)* | 1 | 3 | 2 | 0 | **6** |
+| v3.13.0-beta.142 *(beta)* | 1 | 2 | 1 | 0 | **4** |
 | v3.13.0-beta.141 *(beta)* | 0 | 1 | 0 | 0 | **1** |
 | v3.13.0-beta.140 *(beta)* | 0 | 2 | 0 | 0 | **2** |
 | v3.13.0-beta.139 *(beta)* | 0 | 2 | 0 | 0 | **2** |
@@ -1157,12 +1157,12 @@ Quick navigation to repository statistics:
 
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
-| 🪟 Windows | 450 | 1416 | 0 | **1866** |
-| 🍎 macOS | 1725 | 722 | 691 | **3138** |
-| 🐧 Linux | 407 | 455 | 0 | **862** |
-| 🍺 Homebrew | 136 | 57 | 0 | **193** |
+| 🪟 Windows | 590 | 1557 | 0 | **2147** |
+| 🍎 macOS | 1873 | 867 | 831 | **3571** |
+| 🐧 Linux | 549 | 600 | 0 | **1149** |
+| 🍺 Homebrew | 137 | 57 | 0 | **194** |
 
-*💡 Low-volume builds (<2% of lifetime downloads), candidates to stop shipping: 🍺 Homebrew x86_64 (57, 0.9%).*
+*💡 Low-volume builds (<2% of lifetime downloads), candidates to stop shipping: 🍺 Homebrew arm64 (137, 1.9%); 🍺 Homebrew x86_64 (57, 0.8%).*
 
 **Top 10 Releases by Downloads (lifetime):**
 
@@ -1173,11 +1173,11 @@ Quick navigation to repository statistics:
 | v4.3.4 | 108 | 2026-10-10 |
 | v4.1.4 | 74 | 2026-08-28 |
 | v4.3.19 | 70 | 2026-10-28 |
-| v3.14.7 | 61 | 2026-07-22 |
+| v3.14.7 | 68 | 2026-07-22 |
 | v3.6.4 | 54 | 2026-05-17 |
 | v3.12.1 | 52 | 2026-06-25 |
+| v4.3.20 | 49 | 2026-10-29 |
 | v4.3.7 | 49 | 2026-10-18 |
-| v4.1.1 | 49 | 2026-08-18 |
 
 **Recent Release Reception (first ~14 days):**
 
@@ -1185,7 +1185,7 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | 🍺 | All downloads (incl. Homebrew) |
 |---------|-----------|-----|----|----|----|----|------------------------------|
-| v4.3.20 | 2026-10-29 | 2d | 24 | 9 | 5 | 8 | **46** |
+| v4.3.20 | 2026-10-29 | 2d | 25 | 10 | 5 | 9 | **49** |
 | v4.3.19 | 2026-10-28 | 3d | 44 | 10 | 6 | 10 | **70** |
 | v4.3.18 | 2026-10-27 | 4d | 8 | 5 | 4 | 5 | **22** |
 | v4.3.17 | 2026-10-27 | 4d | 12 | 13 | 5 | 5 | **35** |
@@ -1216,16 +1216,16 @@ Quick navigation to repository statistics:
 
 # ChromIQ-Patches
 
-![downloads](https://img.shields.io/badge/downloads-46-212121) ![clones](https://img.shields.io/badge/clones-389-2196F3) ![views](https://img.shields.io/badge/views-130-4CAF50) ![releases](https://img.shields.io/badge/releases-5-6f42c1) ![latest stable v1.2.1](https://img.shields.io/badge/latest%20stable%20v1.2.1-23-212121 "Downloads of the latest stable release, all platforms incl. Homebrew")
+![downloads](https://img.shields.io/badge/downloads-46-212121) ![clones](https://img.shields.io/badge/clones-390-2196F3) ![views](https://img.shields.io/badge/views-132-4CAF50) ![releases](https://img.shields.io/badge/releases-5-6f42c1) ![latest stable v1.2.1](https://img.shields.io/badge/latest%20stable%20v1.2.1-23-212121 "Downloads of the latest stable release, all platforms incl. Homebrew")
 
-*Tracking since **2026-07-02** (119 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~119 days have been tracked so far.*
+*Tracking since **2026-07-02** (120 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~120 days have been tracked so far.*
 
 **This week vs last week:**
 
 | Metric | This week | Last week | Change |
 |--------|-----------|-----------|--------|
-| Clones | 5 | 11 | ▼ -54.5% |
-| Views | 9 | 0 | — |
+| Clones | 6 | 11 | ▼ -45.5% |
+| Views | 11 | 0 | — |
 | Downloads | 0 | 0 | — |
 
 ### 🗅️ Clones
@@ -1234,9 +1234,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 35 | 33 |
-| Last 90 Days | 70 | 67 |
-| Lifetime | 389 | 214 |
+| Last 30 Days | 36 | 34 |
+| Last 90 Days | 71 | 68 |
+| Lifetime | 390 | 215 |
 
 ### 📄 Repeat vs New Clones
 
@@ -1246,9 +1246,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
 |--------|--------------|----------------|----------------|----------|
-| Last 30 Days | 35 | 33 | 2 | 5.7% |
-| Last 90 Days | 70 | 67 | 3 | 4.3% |
-| Lifetime | 389 | 214 | 175 | 45.0% |
+| Last 30 Days | 36 | 34 | 2 | 5.6% |
+| Last 90 Days | 71 | 68 | 3 | 4.2% |
+| Lifetime | 390 | 215 | 175 | 44.9% |
 
 ### 👀 Views
 
@@ -1256,9 +1256,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 17 | 11 |
-| Last 90 Days | 52 | 30 |
-| Lifetime | 130 | 61 |
+| Last 30 Days | 19 | 13 |
+| Last 90 Days | 54 | 32 |
+| Lifetime | 132 | 63 |
 
 ### 🎯 Engagement Ratios
 
@@ -1266,9 +1266,9 @@ Quick navigation to repository statistics:
 
 | Action | Count | Ratio to unique visitors |
 |--------|-------|--------------------------|
-| 👀 Unique visitors | 11 | — |
-| 🗅️ Unique cloners | 33 | 300.0% |
-| 📥 Downloads | 1 | 9.1% |
+| 👀 Unique visitors | 13 | — |
+| 🗅️ Unique cloners | 34 | 261.5% |
+| 📥 Downloads | 1 | 7.7% |
 
 ### 📞 Referrers
 
@@ -1278,9 +1278,9 @@ Quick navigation to repository statistics:
 
 | Referrer | Total Views | Unique Visitors |
 |----------|-------------|----------------|
+| aocr.org | 3 | 3 |
 | github.com | 3 | 3 |
 | Bing | 1 | 1 |
-| aocr.org | 1 | 1 |
 | itsab1989.github.io | 1 | 1 |
 
 ### 👥 Repeat vs New Visitors
@@ -1291,9 +1291,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Views | Unique Visitors | Repeat Visitors | Repeat % |
 |--------|-------------|-----------------|-----------------|----------|
-| Last 30 Days | 17 | 11 | 6 | 35.3% |
-| Last 90 Days | 52 | 30 | 22 | 42.3% |
-| Lifetime | 130 | 61 | 69 | 53.1% |
+| Last 30 Days | 19 | 13 | 6 | 31.6% |
+| Last 90 Days | 54 | 32 | 22 | 40.7% |
+| Lifetime | 132 | 63 | 69 | 52.3% |
 
 ### 📥 Release Downloads
 
@@ -1373,15 +1373,15 @@ Quick navigation to repository statistics:
 
 # ChromIQ-Gamut-Viewer
 
-![downloads](https://img.shields.io/badge/downloads-39-212121) ![clones](https://img.shields.io/badge/clones-2501-2196F3) ![views](https://img.shields.io/badge/views-73-4CAF50) ![releases](https://img.shields.io/badge/releases-96-6f42c1) ![latest stable v2.54.0](https://img.shields.io/badge/latest%20stable%20v2.54.0-5-212121 "Downloads of the latest stable release, all platforms incl. Homebrew")
+![downloads](https://img.shields.io/badge/downloads-39-212121) ![clones](https://img.shields.io/badge/clones-2502-2196F3) ![views](https://img.shields.io/badge/views-73-4CAF50) ![releases](https://img.shields.io/badge/releases-96-6f42c1) ![latest stable v2.54.0](https://img.shields.io/badge/latest%20stable%20v2.54.0-5-212121 "Downloads of the latest stable release, all platforms incl. Homebrew")
 
-*Tracking since **2026-08-13** (76 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~76 days have been tracked so far.*
+*Tracking since **2026-08-13** (78 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~78 days have been tracked so far.*
 
 **This week vs last week:**
 
 | Metric | This week | Last week | Change |
 |--------|-----------|-----------|--------|
-| Clones | 0 | 3 | ▼ -100.0% |
+| Clones | 1 | 3 | ▼ -66.7% |
 | Views | 9 | 0 | — |
 | Downloads | 0 | 0 | — |
 
@@ -1391,9 +1391,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 11 | 11 |
-| Last 90 Days | 2501 | 525 |
-| Lifetime | 2501 | 525 |
+| Last 30 Days | 12 | 12 |
+| Last 90 Days | 2502 | 526 |
+| Lifetime | 2502 | 526 |
 
 ### 📄 Repeat vs New Clones
 
@@ -1403,9 +1403,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
 |--------|--------------|----------------|----------------|----------|
-| Last 30 Days | 11 | 11 | 0 | 0.0% |
-| Last 90 Days | 2501 | 525 | 1976 | 79.0% |
-| Lifetime | 2501 | 525 | 1976 | 79.0% |
+| Last 30 Days | 12 | 12 | 0 | 0.0% |
+| Last 90 Days | 2502 | 526 | 1976 | 79.0% |
+| Lifetime | 2502 | 526 | 1976 | 79.0% |
 
 ### 👀 Views
 
@@ -1424,7 +1424,7 @@ Quick navigation to repository statistics:
 | Action | Count | Ratio to unique visitors |
 |--------|-------|--------------------------|
 | 👀 Unique visitors | 2 | — |
-| 🗅️ Unique cloners | 11 | 550.0% |
+| 🗅️ Unique cloners | 12 | 600.0% |
 | 📥 Downloads | 1 | 50.0% |
 
 ### 📞 Referrers
@@ -1625,16 +1625,16 @@ Quick navigation to repository statistics:
 
 # github-traffic-downloads-dashboard
 
-![downloads](https://img.shields.io/badge/downloads-0-212121) ![clones](https://img.shields.io/badge/clones-8845-2196F3) ![views](https://img.shields.io/badge/views-36-4CAF50) ![releases](https://img.shields.io/badge/releases-0-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-0-212121) ![clones](https://img.shields.io/badge/clones-8878-2196F3) ![views](https://img.shields.io/badge/views-39-4CAF50) ![releases](https://img.shields.io/badge/releases-0-6f42c1)
 
-*Tracking since **2026-07-30** (91 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~91 days have been tracked so far.*
+*Tracking since **2026-07-30** (92 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~92 days have been tracked so far.*
 
 **This week vs last week:**
 
 | Metric | This week | Last week | Change |
 |--------|-----------|-----------|--------|
-| Clones | 321 | 350 | ▼ -8.3% |
-| Views | 4 | 0 | — |
+| Clones | 354 | 350 | ▲ +1.1% |
+| Views | 7 | 0 | — |
 | Downloads | 0 | 0 | — |
 
 ### 🗅️ Clones
@@ -1643,9 +1643,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 1311 | 518 |
-| Last 90 Days | 8727 | 5014 |
-| Lifetime | 8845 | 5038 |
+| Last 30 Days | 1344 | 530 |
+| Last 90 Days | 8760 | 5026 |
+| Lifetime | 8878 | 5050 |
 
 ### 📄 Repeat vs New Clones
 
@@ -1655,9 +1655,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
 |--------|--------------|----------------|----------------|----------|
-| Last 30 Days | 1311 | 518 | 793 | 60.5% |
-| Last 90 Days | 8727 | 5014 | 3713 | 42.5% |
-| Lifetime | 8845 | 5038 | 3807 | 43.0% |
+| Last 30 Days | 1344 | 530 | 814 | 60.6% |
+| Last 90 Days | 8760 | 5026 | 3734 | 42.6% |
+| Lifetime | 8878 | 5050 | 3828 | 43.1% |
 
 ### 👀 Views
 
@@ -1665,9 +1665,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 6 | 6 |
-| Last 90 Days | 35 | 18 |
-| Lifetime | 36 | 19 |
+| Last 30 Days | 9 | 9 |
+| Last 90 Days | 38 | 21 |
+| Lifetime | 39 | 22 |
 
 ### 🎯 Engagement Ratios
 
@@ -1675,8 +1675,8 @@ Quick navigation to repository statistics:
 
 | Action | Count | Ratio to unique visitors |
 |--------|-------|--------------------------|
-| 👀 Unique visitors | 6 | — |
-| 🗅️ Unique cloners | 518 | 8633.3% |
+| 👀 Unique visitors | 9 | — |
+| 🗅️ Unique cloners | 530 | 5888.9% |
 | 📥 Downloads | 0 | 0.0% |
 
 ### 📞 Referrers
@@ -1687,7 +1687,7 @@ Quick navigation to repository statistics:
 
 | Referrer | Total Views | Unique Visitors |
 |----------|-------------|----------------|
-| aocr.org | 2 | 2 |
+| aocr.org | 5 | 5 |
 
 ### 👥 Repeat vs New Visitors
 
@@ -1697,9 +1697,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Views | Unique Visitors | Repeat Visitors | Repeat % |
 |--------|-------------|-----------------|-----------------|----------|
-| Last 30 Days | 6 | 6 | 0 | 0.0% |
-| Last 90 Days | 35 | 18 | 17 | 48.6% |
-| Lifetime | 36 | 19 | 17 | 47.2% |
+| Last 30 Days | 9 | 9 | 0 | 0.0% |
+| Last 90 Days | 38 | 21 | 17 | 44.7% |
+| Lifetime | 39 | 22 | 17 | 43.6% |
 
 ### 📥 Release Downloads
 
@@ -1746,17 +1746,17 @@ Quick navigation to repository statistics:
 
 > ℹ️ This is ChromIQ's Homebrew tap: it has no downloads of its own. Homebrew clones it when someone installs ChromIQ with brew and fetches it again on updates, so the number of different cloners in the last 14 days is a rough indicator of how many machines use the Homebrew install. It is not a download count, and machines that have not run brew lately do not show. ChromIQ's release workflow also clones it once per release. The Homebrew downloads themselves are counted under ChromIQ (Homebrew).
 
-**Different cloners in the last 14 days:** 153 (as of 2026-10-30; GitHub's own 14-day count, recorded daily from 2026-10-09 on)
+**Different cloners in the last 14 days:** 144 (as of 2026-10-30; GitHub's own 14-day count, recorded daily from 2026-10-09 on)
 
-![downloads](https://img.shields.io/badge/downloads-0-212121) ![clones](https://img.shields.io/badge/clones-513-2196F3) ![views](https://img.shields.io/badge/views-1-4CAF50) ![releases](https://img.shields.io/badge/releases-0-6f42c1)
+![downloads](https://img.shields.io/badge/downloads-0-212121) ![clones](https://img.shields.io/badge/clones-535-2196F3) ![views](https://img.shields.io/badge/views-1-4CAF50) ![releases](https://img.shields.io/badge/releases-0-6f42c1)
 
-*Tracking since **2026-10-09** (20 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~20 days have been tracked so far.*
+*Tracking since **2026-10-09** (21 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~21 days have been tracked so far.*
 
 **This week vs last week:**
 
 | Metric | This week | Last week | Change |
 |--------|-----------|-----------|--------|
-| Clones | 150 | 152 | ▼ -1.3% |
+| Clones | 172 | 152 | ▲ +13.2% |
 | Views | 1 | 0 | — |
 | Downloads | 0 | 0 | — |
 
@@ -1766,9 +1766,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 513 | 284 |
-| Last 90 Days | 513 | 284 |
-| Lifetime | 513 | 284 |
+| Last 30 Days | 535 | 298 |
+| Last 90 Days | 535 | 298 |
+| Lifetime | 535 | 298 |
 
 ### 📄 Repeat vs New Clones
 
@@ -1778,9 +1778,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
 |--------|--------------|----------------|----------------|----------|
-| Last 30 Days | 513 | 284 | 229 | 44.6% |
-| Last 90 Days | 513 | 284 | 229 | 44.6% |
-| Lifetime | 513 | 284 | 229 | 44.6% |
+| Last 30 Days | 535 | 298 | 237 | 44.3% |
+| Last 90 Days | 535 | 298 | 237 | 44.3% |
+| Lifetime | 535 | 298 | 237 | 44.3% |
 
 ### 👀 Views
 
@@ -1799,7 +1799,7 @@ Quick navigation to repository statistics:
 | Action | Count | Ratio to unique visitors |
 |--------|-------|--------------------------|
 | 👀 Unique visitors | 1 | — |
-| 🗅️ Unique cloners | 284 | 28400.0% |
+| 🗅️ Unique cloners | 298 | 29800.0% |
 | 📥 Downloads | 0 | 0.0% |
 
 ### 📞 Referrers
@@ -1867,15 +1867,15 @@ Quick navigation to repository statistics:
 
 # MacReplica
 
-![downloads](https://img.shields.io/badge/downloads-42-212121) ![clones](https://img.shields.io/badge/clones-1923-2196F3) ![views](https://img.shields.io/badge/views-105-4CAF50) ![releases](https://img.shields.io/badge/releases-20-6f42c1) ![latest stable v1.1.11](https://img.shields.io/badge/latest%20stable%20v1.1.11-3-212121 "Downloads of the latest stable release, all platforms incl. Homebrew")
+![downloads](https://img.shields.io/badge/downloads-42-212121) ![clones](https://img.shields.io/badge/clones-1924-2196F3) ![views](https://img.shields.io/badge/views-105-4CAF50) ![releases](https://img.shields.io/badge/releases-20-6f42c1) ![latest stable v1.1.11](https://img.shields.io/badge/latest%20stable%20v1.1.11-3-212121 "Downloads of the latest stable release, all platforms incl. Homebrew")
 
-*Tracking since **2026-10-02** (27 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~27 days have been tracked so far.*
+*Tracking since **2026-10-02** (28 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~28 days have been tracked so far.*
 
 **This week vs last week:**
 
 | Metric | This week | Last week | Change |
 |--------|-----------|-----------|--------|
-| Clones | 9 | 751 | ▼ -98.8% |
+| Clones | 10 | 751 | ▼ -98.7% |
 | Views | 3 | 50 | ▼ -94.0% |
 | Downloads | 0 | 16 | ▼ -100.0% |
 
@@ -1885,9 +1885,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 1923 | 662 |
-| Last 90 Days | 1923 | 662 |
-| Lifetime | 1923 | 662 |
+| Last 30 Days | 1924 | 663 |
+| Last 90 Days | 1924 | 663 |
+| Lifetime | 1924 | 663 |
 
 ### 📄 Repeat vs New Clones
 
@@ -1897,9 +1897,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
 |--------|--------------|----------------|----------------|----------|
-| Last 30 Days | 1923 | 662 | 1261 | 65.6% |
-| Last 90 Days | 1923 | 662 | 1261 | 65.6% |
-| Lifetime | 1923 | 662 | 1261 | 65.6% |
+| Last 30 Days | 1924 | 663 | 1261 | 65.5% |
+| Last 90 Days | 1924 | 663 | 1261 | 65.5% |
+| Lifetime | 1924 | 663 | 1261 | 65.5% |
 
 ### 👀 Views
 
@@ -1918,7 +1918,7 @@ Quick navigation to repository statistics:
 | Action | Count | Ratio to unique visitors |
 |--------|-------|--------------------------|
 | 👀 Unique visitors | 31 | — |
-| 🗅️ Unique cloners | 662 | 2135.5% |
+| 🗅️ Unique cloners | 663 | 2138.7% |
 | 📥 Downloads | 28 | 90.3% |
 
 ### 📞 Referrers
@@ -2060,15 +2060,15 @@ Quick navigation to repository statistics:
 
 # neolume
 
-![downloads](https://img.shields.io/badge/downloads-50-212121) ![clones](https://img.shields.io/badge/clones-240-2196F3) ![views](https://img.shields.io/badge/views-5-4CAF50) ![releases](https://img.shields.io/badge/releases-7-6f42c1) ![latest stable v1.0.6](https://img.shields.io/badge/latest%20stable%20v1.0.6-7-212121 "Downloads of the latest stable release, all platforms incl. Homebrew")
+![downloads](https://img.shields.io/badge/downloads-50-212121) ![clones](https://img.shields.io/badge/clones-272-2196F3) ![views](https://img.shields.io/badge/views-5-4CAF50) ![releases](https://img.shields.io/badge/releases-7-6f42c1) ![latest stable v1.0.6](https://img.shields.io/badge/latest%20stable%20v1.0.6-7-212121 "Downloads of the latest stable release, all platforms incl. Homebrew")
 
-*Tracking since **2026-10-27** (2 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~2 days have been tracked so far.*
+*Tracking since **2026-10-27** (3 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~3 days have been tracked so far.*
 
 **This week vs last week:**
 
 | Metric | This week | Last week | Change |
 |--------|-----------|-----------|--------|
-| Clones | 240 | 0 | — |
+| Clones | 272 | 0 | — |
 | Views | 5 | 0 | — |
 | Downloads | 50 | 0 | — |
 
@@ -2078,9 +2078,9 @@ Quick navigation to repository statistics:
 
 | Period | Total | Unique |
 |--------|-------|--------|
-| Last 30 Days | 240 | 39 |
-| Last 90 Days | 240 | 39 |
-| Lifetime | 240 | 39 |
+| Last 30 Days | 272 | 42 |
+| Last 90 Days | 272 | 42 |
+| Lifetime | 272 | 42 |
 
 ### 📄 Repeat vs New Clones
 
@@ -2090,9 +2090,9 @@ Quick navigation to repository statistics:
 
 | Period | Total Clones | Unique Clones | Repeat Clones | Repeat % |
 |--------|--------------|----------------|----------------|----------|
-| Last 30 Days | 240 | 39 | 201 | 83.8% |
-| Last 90 Days | 240 | 39 | 201 | 83.8% |
-| Lifetime | 240 | 39 | 201 | 83.8% |
+| Last 30 Days | 272 | 42 | 230 | 84.6% |
+| Last 90 Days | 272 | 42 | 230 | 84.6% |
+| Lifetime | 272 | 42 | 230 | 84.6% |
 
 ### 👀 Views
 
@@ -2111,7 +2111,7 @@ Quick navigation to repository statistics:
 | Action | Count | Ratio to unique visitors |
 |--------|-------|--------------------------|
 | 👀 Unique visitors | 2 | — |
-| 🗅️ Unique cloners | 39 | 1950.0% |
+| 🗅️ Unique cloners | 42 | 2100.0% |
 | 📥 Downloads | 50 | 2500.0% |
 
 ### 📞 Referrers
