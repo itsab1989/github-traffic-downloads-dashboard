@@ -7,7 +7,7 @@ https://itsab1989.github.io/github-traffic-downloads-dashboard/
 
 This dashboard tracks historical traffic data (clones, views, and release downloads) for GitHub repositories.
 
-**Last Updated:** 2026-11-16T03:18:11.865838Z
+**Last Updated:** 2026-11-16T11:48:20.540728Z
 
 ## 📋 How Metrics Are Calculated
 
@@ -97,7 +97,7 @@ Quick navigation to repository statistics:
 
 # ChromIQ
 
-![downloads incl. Homebrew](https://img.shields.io/badge/downloads%20incl.%20Homebrew-11062-212121) ![clones](https://img.shields.io/badge/clones-38439-2196F3) ![views](https://img.shields.io/badge/views-10455-4CAF50) ![releases](https://img.shields.io/badge/releases-944-6f42c1) ![latest stable v4.3.41](https://img.shields.io/badge/latest%20stable%20v4.3.41-9-212121 "Downloads of the latest stable release, all platforms incl. Homebrew") ![latest beta v4.3.10-beta.1](https://img.shields.io/badge/latest%20beta%20v4.3.10--beta.1-14-757575 "Downloads of the latest beta release, all platforms incl. Homebrew")
+![downloads incl. Homebrew](https://img.shields.io/badge/downloads%20incl.%20Homebrew-11075-212121) ![clones](https://img.shields.io/badge/clones-38439-2196F3) ![views](https://img.shields.io/badge/views-10455-4CAF50) ![releases](https://img.shields.io/badge/releases-944-6f42c1) ![latest stable v4.3.41](https://img.shields.io/badge/latest%20stable%20v4.3.41-15-212121 "Downloads of the latest stable release, all platforms incl. Homebrew") ![latest beta v4.3.10-beta.1](https://img.shields.io/badge/latest%20beta%20v4.3.10--beta.1-14-757575 "Downloads of the latest beta release, all platforms incl. Homebrew")
 
 *Tracking since **2026-05-02** (197 active days). Where the 90-day and Lifetime columns match the 30-day column, it is because only ~197 days have been tracked so far.*
 
@@ -107,7 +107,7 @@ Quick navigation to repository statistics:
 |--------|-----------|-----------|--------|
 | Clones | 293 | 257 | ▲ +14.0% |
 | Views | 247 | 566 | ▼ -56.4% |
-| Downloads | 429 | 249 | ▲ +72.3% |
+| Downloads | 442 | 249 | ▲ +77.5% |
 
 ### 🗅️ Clones
 
@@ -149,7 +149,7 @@ Quick navigation to repository statistics:
 |--------|-------|--------------------------|
 | 👀 Unique visitors | 767 | — |
 | 🗅️ Unique cloners | 332 | 43.3% |
-| 📥 Downloads | 7631 | 994.9% |
+| 📥 Downloads | 7644 | 996.6% |
 
 ### 📞 Referrers
 
@@ -190,11 +190,11 @@ Quick navigation to repository statistics:
 
 | Platform | Last 30 Days | Last 90 Days | Lifetime |
 |----------|-----------|-----------|----------|
-| 🪟 Windows | 2275 | 2671 | 3318 |
-| 🍎 macOS | 3080 | 3524 | 5210 |
-| 🐧 Linux | 2011 | 2065 | 2206 |
-| 🍺 Homebrew | 265 | 328 | 328 |
-| **All downloads (incl. Homebrew)** | **7631** | **8588** | **11062** |
+| 🪟 Windows | 2281 | 2677 | 3324 |
+| 🍎 macOS | 3081 | 3525 | 5211 |
+| 🐧 Linux | 2015 | 2069 | 2210 |
+| 🍺 Homebrew | 267 | 330 | 330 |
+| **All downloads (incl. Homebrew)** | **7644** | **8601** | **11075** |
 
 *ℹ️ Not counted above: 179 lifetime downloads of other release files (demo projects, screenshots, checksums), which are not the app.*
 
@@ -202,12 +202,12 @@ Quick navigation to repository statistics:
 
 | Window | Channel | All downloads (incl. Homebrew) | 🪟 Windows | 🍎 macOS | 🐧 Linux | 🍺 Homebrew |
 |--------|---------|--------------------------------|---------|-------|-------|----------|
-| 30 days | all | **7631** | 2275 | 3080 | 2011 | 265 |
-| 30 days | stable | **2921** | 947 | 1106 | 623 | 245 |
-| 30 days | beta | **4710** | 1328 | 1974 | 1388 | 20 |
-| 90 days | all | **8588** | 2671 | 3524 | 2065 | 328 |
-| 90 days | stable | **3489** | 1228 | 1332 | 652 | 277 |
-| 90 days | beta | **5144** | 1455 | 2226 | 1413 | 51 |
+| 30 days | all | **7644** | 2281 | 3081 | 2015 | 267 |
+| 30 days | stable | **2932** | 953 | 1107 | 625 | 247 |
+| 30 days | beta | **4712** | 1328 | 1974 | 1390 | 20 |
+| 90 days | all | **8601** | 2677 | 3525 | 2069 | 330 |
+| 90 days | stable | **3500** | 1234 | 1333 | 654 | 279 |
+| 90 days | beta | **5146** | 1455 | 2226 | 1415 | 51 |
 
 *Per-day downloads are the difference between two daily readings of GitHub's lifetime counters, available from **2026-05-25** on; the stable/beta split from **2026-05-25**. What these numbers can and cannot tell:*
 
@@ -218,14 +218,14 @@ Quick navigation to repository statistics:
 - *Homebrew counts installs and upgrades made with brew (each fetches its own copy of the Mac file). They are not counted again under macOS, and the "All downloads (incl. Homebrew)" figures include them. For ChromIQ the copies start with 4.3.3-beta.17: brew installs of earlier versions fetched the normal file and count under macOS.*
 - *Clones of the source code are not downloads and are not counted here.*
 
-🆕 **Latest Release:** `v4.3.41` - **9** downloads (published 2026-11-15)
+🆕 **Latest Release:** `v4.3.41` - **15** downloads (published 2026-11-15)
 
 <details>
 <summary><strong>📦 Per-version downloads</strong> (944 releases - click to expand)</summary>
 
 | Release | 🪟 Windows | 🍎 macOS | 🐧 Linux | 🍺 Homebrew | Total |
 |---------|-----------|----------|----------|----------|-------|
-| v4.3.41 | 1 | 1 | 2 | 5 | **9** |
+| v4.3.41 | 5 | 1 | 2 | 7 | **15** |
 | v4.3.40 | 6 | 5 | 2 | 7 | **20** |
 | v4.3.39 | 8 | 5 | 4 | 6 | **23** |
 | v4.3.38 | 6 | 3 | 2 | 7 | **18** |
@@ -234,7 +234,7 @@ Quick navigation to repository statistics:
 | v4.3.35 | 7 | 5 | 2 | 5 | **19** |
 | v4.3.34 | 5 | 5 | 2 | 6 | **18** |
 | v4.3.33 | 14 | 8 | 3 | 8 | **33** |
-| v4.3.32 | 10 | 8 | 2 | 8 | **28** |
+| v4.3.32 | 11 | 8 | 2 | 8 | **29** |
 | v4.3.31 | 6 | 3 | 4 | 6 | **19** |
 | v4.3.30 | 14 | 11 | 3 | 6 | **34** |
 | v4.3.29 | 7 | 4 | 3 | 4 | **18** |
@@ -246,8 +246,8 @@ Quick navigation to repository statistics:
 | v4.3.23 | 8 | 10 | 4 | 6 | **28** |
 | v4.3.22 | 13 | 10 | 7 | 6 | **36** |
 | v4.3.21 | 12 | 10 | 3 | 6 | **31** |
-| v4.3.20 | 79 | 21 | 11 | 16 | **127** |
-| v4.3.19 | 46 | 17 | 11 | 15 | **89** |
+| v4.3.20 | 79 | 22 | 11 | 16 | **128** |
+| v4.3.19 | 47 | 17 | 11 | 15 | **90** |
 | v4.3.18 | 10 | 7 | 7 | 7 | **31** |
 | v4.3.17 | 12 | 13 | 6 | 5 | **36** |
 | v4.3.16 | 13 | 6 | 4 | 9 | **32** |
@@ -259,7 +259,7 @@ Quick navigation to repository statistics:
 | v4.3.10 | 9 | 5 | 4 | 6 | **24** |
 | v4.3.10-beta.1 *(beta)* | 4 | 3 | 3 | 4 | **14** |
 | v4.3.9 | 17 | 7 | 3 | 19 | **46** |
-| v4.3.8 | 6 | 5 | 5 | 4 | **20** |
+| v4.3.8 | 6 | 5 | 6 | 4 | **21** |
 | v4.3.8-beta.3 *(beta)* | 3 | 3 | 4 | 5 | **15** |
 | v4.3.8-beta.2 *(beta)* | 5 | 3 | 3 | 4 | **15** |
 | v4.3.8-beta.1 *(beta)* | 3 | 4 | 3 | 3 | **13** |
@@ -288,14 +288,14 @@ Quick navigation to repository statistics:
 | v4.3.3-beta.9 *(beta)* | 3 | 5 | 3 | 0 | **11** |
 | v4.3.3-beta.8 *(beta)* | 3 | 5 | 3 | 0 | **11** |
 | v4.3.3-beta.7 *(beta)* | 5 | 6 | 4 | 0 | **15** |
-| v4.3.3-beta.6 *(beta)* | 3 | 4 | 3 | 0 | **10** |
+| v4.3.3-beta.6 *(beta)* | 3 | 4 | 4 | 0 | **11** |
 | v4.3.3-beta.5 *(beta)* | 2 | 6 | 3 | 0 | **11** |
 | v4.3.3-beta.4 *(beta)* | 2 | 4 | 4 | 0 | **10** |
 | v4.3.3-beta.3 *(beta)* | 4 | 7 | 6 | 0 | **17** |
 | v4.3.3-beta.2 *(beta)* | 2 | 6 | 5 | 0 | **13** |
 | v4.3.3-beta.1 *(beta)* | 3 | 12 | 7 | 0 | **22** |
 | v4.3.2 | 57 | 56 | 8 | 0 | **121** |
-| v4.3.1 | 3 | 8 | 2 | 0 | **13** |
+| v4.3.1 | 3 | 8 | 3 | 0 | **14** |
 | v4.3.0 | 4 | 7 | 5 | 0 | **16** |
 | v4.3.0-beta.49 *(beta)* | 4 | 5 | 3 | 0 | **12** |
 | v4.3.0-beta.48 *(beta)* | 3 | 6 | 4 | 0 | **13** |
@@ -338,7 +338,7 @@ Quick navigation to repository statistics:
 | v4.3.0-beta.11 *(beta)* | 2 | 4 | 4 | 0 | **10** |
 | v4.3.0-beta.10 *(beta)* | 3 | 4 | 3 | 0 | **10** |
 | v4.3.0-beta.9 *(beta)* | 3 | 5 | 3 | 0 | **11** |
-| v4.3.0-beta.8 *(beta)* | 2 | 6 | 5 | 0 | **13** |
+| v4.3.0-beta.8 *(beta)* | 2 | 6 | 6 | 0 | **14** |
 | v4.3.0-beta.7 *(beta)* | 4 | 4 | 4 | 0 | **12** |
 | v4.3.0-beta.6 *(beta)* | 2 | 3 | 4 | 0 | **9** |
 | v4.3.0-beta.5 *(beta)* | 4 | 5 | 5 | 0 | **14** |
@@ -1178,10 +1178,10 @@ Quick navigation to repository statistics:
 
 | Platform | arm64 | x86_64 | universal | Total |
 |----------|-------|-------|-------|-------|
-| 🪟 Windows | 1083 | 2235 | 0 | **3318** |
-| 🍎 macOS | 2476 | 1354 | 1380 | **5210** |
-| 🐧 Linux | 1014 | 1192 | 0 | **2206** |
-| 🍺 Homebrew | 239 | 89 | 0 | **328** |
+| 🪟 Windows | 1084 | 2240 | 0 | **3324** |
+| 🍎 macOS | 2477 | 1354 | 1380 | **5211** |
+| 🐧 Linux | 1014 | 1196 | 0 | **2210** |
+| 🍺 Homebrew | 241 | 89 | 0 | **330** |
 
 *💡 Low-volume builds (<2% of lifetime downloads), candidates to stop shipping: 🍺 Homebrew x86_64 (89, 0.8%).*
 
@@ -1189,11 +1189,11 @@ Quick navigation to repository statistics:
 
 | Release | Downloads | Published |
 |---------|-----------|-----------|
-| v4.3.20 | 127 | 2026-10-29 |
+| v4.3.20 | 128 | 2026-10-29 |
 | v4.3.2 | 121 | 2026-09-28 |
 | v4.2.7 | 115 | 2026-09-12 |
 | v4.3.4 | 109 | 2026-10-10 |
-| v4.3.19 | 89 | 2026-10-28 |
+| v4.3.19 | 90 | 2026-10-28 |
 | v4.1.4 | 74 | 2026-08-28 |
 | v3.14.7 | 68 | 2026-07-22 |
 | v3.6.4 | 61 | 2026-05-17 |
@@ -1206,7 +1206,7 @@ Quick navigation to repository statistics:
 
 | Release | Published | Age | 🪟 | 🍎 | 🐧 | 🍺 | All downloads (incl. Homebrew) |
 |---------|-----------|-----|----|----|----|----|------------------------------|
-| v4.3.41 | 2026-11-15 | 2d | 1 | 1 | 2 | 5 | **9** |
+| v4.3.41 | 2026-11-15 | 2d | 5 | 1 | 2 | 7 | **15** |
 | v4.3.40 | 2026-11-15 | 2d | 6 | 5 | 2 | 7 | **20** |
 | v4.3.39 | 2026-11-15 | 2d | 8 | 5 | 4 | 6 | **23** |
 | v4.3.38 | 2026-11-15 | 2d | 6 | 3 | 2 | 7 | **18** |
@@ -1215,7 +1215,7 @@ Quick navigation to repository statistics:
 | v4.3.35 | 2026-11-14 | 3d | 7 | 5 | 2 | 5 | **19** |
 | v4.3.34 | 2026-11-14 | 3d | 5 | 5 | 2 | 6 | **18** |
 | v4.3.33 | 2026-11-13 | 4d | 14 | 8 | 3 | 8 | **33** |
-| v4.3.32 | 2026-11-12 | 5d | 10 | 8 | 2 | 8 | **28** |
+| v4.3.32 | 2026-11-12 | 5d | 11 | 8 | 2 | 8 | **29** |
 | v4.3.31 | 2026-11-11 | 6d | 6 | 3 | 4 | 6 | **19** |
 | v4.3.30 | 2026-11-10 | 7d | 14 | 11 | 3 | 6 | **34** |
 | v4.3.29 | 2026-11-09 | 8d | 7 | 4 | 3 | 4 | **18** |

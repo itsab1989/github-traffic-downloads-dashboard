@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T03:18:11.865838Z",
+  "generated_at": "2026-11-16T11:48:20.540728Z",
   "estimate_notes": [
     "A download is a file someone fetched, not a person. One person on two computers, or one who downloads the same version twice, counts twice.",
     "People who installed once and never update do not show up at all after their first download, however much they use the app.",
@@ -986,24 +986,24 @@
             {
               "days": 30,
               "all": {
-                "total": 7631,
-                "windows": 2275,
-                "macos": 3080,
-                "linux": 2011,
-                "homebrew": 265
+                "total": 7644,
+                "windows": 2281,
+                "macos": 3081,
+                "linux": 2015,
+                "homebrew": 267
               },
               "stable": {
-                "total": 2921,
-                "windows": 947,
-                "macos": 1106,
-                "linux": 623,
-                "homebrew": 245
+                "total": 2932,
+                "windows": 953,
+                "macos": 1107,
+                "linux": 625,
+                "homebrew": 247
               },
               "beta": {
-                "total": 4710,
+                "total": 4712,
                 "windows": 1328,
                 "macos": 1974,
-                "linux": 1388,
+                "linux": 1390,
                 "homebrew": 20
               },
               "covered_days": 30,
@@ -1012,24 +1012,24 @@
             {
               "days": 90,
               "all": {
-                "total": 8588,
-                "windows": 2671,
-                "macos": 3524,
-                "linux": 2065,
-                "homebrew": 328
+                "total": 8601,
+                "windows": 2677,
+                "macos": 3525,
+                "linux": 2069,
+                "homebrew": 330
               },
               "stable": {
-                "total": 3489,
-                "windows": 1228,
-                "macos": 1332,
-                "linux": 652,
-                "homebrew": 277
+                "total": 3500,
+                "windows": 1234,
+                "macos": 1333,
+                "linux": 654,
+                "homebrew": 279
               },
               "beta": {
-                "total": 5144,
+                "total": 5146,
                 "windows": 1455,
                 "macos": 2226,
-                "linux": 1413,
+                "linux": 1415,
                 "homebrew": 51
               },
               "covered_days": 90,
@@ -1037,11 +1037,11 @@
             }
           ],
           "lifetime": {
-            "total": 11062,
-            "windows": 3318,
-            "macos": 5210,
-            "linux": 2206,
-            "homebrew": 328,
+            "total": 11075,
+            "windows": 3324,
+            "macos": 5211,
+            "linux": 2210,
+            "homebrew": 330,
             "other": 179
           },
           "rolling_series": {
@@ -1341,7 +1341,7 @@
               7534,
               7598,
               7646,
-              7631
+              7644
             ],
             "windows": [
               214,
@@ -1490,7 +1490,7 @@
               2249,
               2269,
               2287,
-              2275
+              2281
             ],
             "macos": [
               655,
@@ -1639,7 +1639,7 @@
               3059,
               3078,
               3082,
-              3080
+              3081
             ],
             "linux": [
               22,
@@ -1788,7 +1788,7 @@
               1987,
               1999,
               2011,
-              2011
+              2015
             ],
             "homebrew": [
               0,
@@ -1937,7 +1937,7 @@
               239,
               252,
               266,
-              265
+              267
             ],
             "stable_total": [
               774,
@@ -2086,7 +2086,7 @@
               2795,
               2874,
               2929,
-              2921
+              2932
             ],
             "beta_total": [
               117,
@@ -2235,7 +2235,7 @@
               4739,
               4724,
               4717,
-              4710
+              4712
             ]
           },
           "curves": {
@@ -2264,7 +2264,7 @@
                   123,
                   124,
                   126,
-                  127
+                  128
                 ]
               },
               {
@@ -2292,7 +2292,7 @@
                   87,
                   89,
                   89,
-                  89
+                  90
                 ]
               },
               {
@@ -2555,7 +2555,7 @@
                   123,
                   124,
                   126,
-                  127
+                  128
                 ]
               },
               {
@@ -2583,7 +2583,7 @@
                   87,
                   89,
                   89,
-                  89
+                  90
                 ]
               },
               {
@@ -3040,7 +3040,7 @@
             66,
             91,
             76,
-            15
+            28
           ],
           "windows": [
             11,
@@ -3072,7 +3072,7 @@
             22,
             29,
             24,
-            3
+            9
           ],
           "macos": [
             11,
@@ -3104,7 +3104,7 @@
             11,
             24,
             16,
-            3
+            4
           ],
           "linux": [
             4,
@@ -3136,7 +3136,7 @@
             24,
             13,
             16,
-            3
+            7
           ],
           "homebrew": [
             11,
@@ -3168,7 +3168,7 @@
             9,
             25,
             20,
-            6
+            8
           ]
         },
         "cumulative": {
@@ -3528,7 +3528,7 @@
             10880,
             10971,
             11047,
-            11062
+            11075
           ],
           "windows": [
             90,
@@ -3707,7 +3707,7 @@
             3262,
             3291,
             3315,
-            3318
+            3324
           ],
           "macos": [
             479,
@@ -3886,7 +3886,7 @@
             5167,
             5191,
             5207,
-            5210
+            5211
           ],
           "linux": [
             31,
@@ -4065,7 +4065,7 @@
             2174,
             2187,
             2203,
-            2206
+            2210
           ],
           "homebrew": [
             0,
@@ -4244,7 +4244,7 @@
             277,
             302,
             322,
-            328
+            330
           ]
         },
         "releases": [
@@ -8030,11 +8030,11 @@
             "tag": "v4.3.41",
             "published": "2026-11-15",
             "age_days": 2,
-            "windows": 1,
+            "windows": 5,
             "macos": 1,
             "linux": 2,
-            "homebrew": 5,
-            "total": 9,
+            "homebrew": 7,
+            "total": 15,
             "prerelease": false
           },
           {
@@ -8129,11 +8129,11 @@
             "tag": "v4.3.32",
             "published": "2026-11-12",
             "age_days": 5,
-            "windows": 10,
+            "windows": 11,
             "macos": 8,
             "linux": 2,
             "homebrew": 8,
-            "total": 28,
+            "total": 29,
             "prerelease": false
           },
           {
@@ -8207,6 +8207,10 @@
               {
                 "h": 3.83,
                 "downloads": 9
+              },
+              {
+                "h": 12.33,
+                "downloads": 15
               }
             ]
           },
